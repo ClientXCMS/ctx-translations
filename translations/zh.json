@@ -1,0 +1,3255 @@
+{
+    "language": "Chinois",
+    "addons.discordlink.lang.fr.messages": {
+        "modulename": "Discord 链接",
+        "description": "管理与托管服务提供商的 Discord 服务器的链接",
+        "step1": "第 1 步",
+        "step2": "步骤 2",
+        "step3": "步骤 3",
+        "step4": "步骤 4",
+        "invitation": "服务器邀请链接",
+        "dropkey": "重置密钥",
+        "manual": {
+            "installation": "安装自定义 bot",
+            "step1text": "通过单击 <a href=“https://clientxcms.com/client/download” class=“text-primary” target=“_blank”>此链接下载预先购买的自定义机器人</a>。它将在您的 Discord 服务器和您的主机之间建立链接。",
+            "step2text": "安全地复制以下令牌。<b><u>请注意，它只会显示一次</u></b>。如果丢失，则必须重置。",
+            "step3text": "解压缩下载的文件并按照 READ 文件进行操作。ME来安装并添加机器人到你的服务器。",
+            "step4text": "确保机器人具有添加角色所需的权限。（机器人必须位于要添加的角色之上）。"
+        },
+        "community": {
+            "installation": "安装社区 Discord 机器人",
+            "step1text": "通过单击 <a href=“https://clientxcms.com/ref/discordbot” class=“text-primary” target=“_blank”>此邀请链接，将机器人添加到您的 Discord 服务器</a>。它将在您的 Discord 服务器和您的主机之间建立链接。",
+            "step2text": "将以下命令复制到您的服务器。<b><u>请注意，密钥只会显示一次</u></b>。如果丢失，则必须重置。",
+            "step3text": "通过向 Discord 服务器添加客户端角色，在其中运行以下命令。如果成功，机器人将响应成功消息。",
+            "step4text": "确保机器人具有添加角色所需的权限。（机器人必须位于要添加的角色之上）。"
+        },
+        "detectedcustomers": "检测到的客户",
+        "discordid": "ID 不和谐",
+        "cardinfo": "加入我们的 Discord 服务器以查找我们的社区，获取帮助和其他信息，例如我们的最新促销活动。",
+        "installation": "安装社区 Discord 机器人",
+        "joinserver": "加入服务器",
+        "guildid": "服务器 ID",
+        "accept": "接受",
+        "decline": "拒绝",
+        "details": "详",
+        "nocustomers": "未检测到客户",
+        "help": "需要帮助？",
+        "found": "检测到已同步帐户：是否要查看此工单中的数据？",
+        "infosync": "此数据基于通过 SocialAuth+ 模块将其 Discord 帐户与其客户帐户同步的帐户。",
+        "detection_type": "检测类型",
+        "detection_types": {
+            "sync": "已同步帐户",
+            "active_customers": "已将其账户与活动服务同步的客户",
+            "all_customers": "已将其账户与现有服务同步的所有客户"
+        }
+    },
+    "addons.import.lang.fr.import": {
+        "title": "进口",
+        "description": "将具有现有旧版本的数据库或从其他供应商导入 NextGen",
+        "importwhmcs": "通过 WHMCS 导入功能即将推出",
+        "importclientxcms": "从旧版本的 ClientXCMS 导入",
+        "db": {
+            "host": "主机",
+            "port": "港口",
+            "database": "数据库",
+            "username": "用户名",
+            "password": "密码"
+        },
+        "v1": {
+            "importables": {
+                "products": "生产",
+                "groups": "组",
+                "servers": "服务器",
+                "services": "服务业",
+                "invoices": "条例 草案",
+                "clients": "客户",
+                "pterodactyl": "翼手龙配置",
+                "proxmox": "Proxmox 配置",
+                "oses": "Proxmox 操作系统",
+                "templates": "模板 Proxmox",
+                "plesk": "配置 Plesk",
+                "socialauth": "社交 linkAuth",
+                "support": "票务和支持部门",
+                "wisp": "配置 Wisp",
+                "proxmox_ipam": "配置 IPAM Proxmox"
+            },
+            "fromv1": "从旧版本的 ClientXCMS 导入",
+            "title": "客户端XCMS v1",
+            "description": "从旧版本的 ClientXCMS 导入"
+        },
+        "whmcs": {
+            "importables": {
+                "products": "生产",
+                "groups": "组",
+                "servers": "服务器",
+                "services": "服务业",
+                "clients": "客户",
+                "pterodactyl": "翼手龙配置",
+                "wisp": "Wisp 配置",
+                "invoices": "条例 草案"
+            },
+            "fromwhmcs": "从 WHMCS 导入",
+            "title": "WHMCS 公司",
+            "key": "编码器键",
+            "keyhelp": "编码器密钥用于解密来自 WHMCS 的数据。它位于 WHMCS configuration.php 文件中",
+            "description": "从 WHMCS 导入"
+        },
+        "downloadreport": "下载报告",
+        "import": "进口",
+        "delay": "请稍候，页面加载可能需要一些时间。",
+        "truncate": "导入前清空表（强烈推荐）"
+    },
+    "addons.page.lang.fr.messages": {
+        "must_be_logged": "您必须登录才能访问此页面。",
+        "logged_only": "为已登录用户保留的页面。",
+        "admin": {
+            "title": "页面",
+            "description": "管理 Customer Area 上的动态页面。",
+            "create": {
+                "title": "创建页面",
+                "subheading": "创建新页面。"
+            },
+            "show": {
+                "title": "页面详细信息",
+                "subheading": "页面详情。"
+            },
+            "count_views": "视图数量",
+            "views": "{_count} 视图|{_count} 次浏览",
+            "see_page": "查看页面"
+        },
+        "pdf": "PDF格式",
+        "script": "脚本 HTML",
+        "style": "设置 CSS 样式",
+        "redirect": "重定向",
+        "type": "页面类型",
+        "meta": "元首",
+        "types": {
+            "page": "页",
+            "pdf": "PDF格式",
+            "html": "[HTML全文]",
+            "redirect": "重定向"
+        }
+    },
+    "addons.sameipdetector.lang.fr.admin": {
+        "dashboard": {
+            "sameip_reports": "双账户",
+            "pendingusers": "被检测为等待验证的双重账户的用户",
+            "knowuser": "关联用户",
+            "reject": "拒绝",
+            "accept": "接受",
+            "description": "在这里，您可以找到被检测为其他客户重复账户的用户。"
+        },
+        "settings": {
+            "title": "Anti Dual Account 设置",
+            "description": "设置账户被拒绝时采取的操作。",
+            "action": "要采取的措施"
+        }
+    },
+    "addons.socialauth.lang.fr.messages": {
+        "logged_in": "您已连接。",
+        "login_with": "使用 {_provider} 登录",
+        "register_with": "使用 {_provider} 注册",
+        "modulename": "社交认证+",
+        "description": "Social Auth+ 是一个插件，允许用户通过第三方服务提供商登录您的网站。",
+        "client_id": "客户端 ID",
+        "client_secret": "客户端密钥",
+        "redirect": "重定向 URL",
+        "redirect_help": "重定向 URL： {_url}",
+        "configurate": "配置",
+        "error": "发生错误。请重试。",
+        "sync_with": "与 {_provider} 同步",
+        "unlink": "取消与 {_provider} 的链接",
+        "linked": "您的帐户已成功关联。",
+        "already_linked": "您的帐户已关联到此提供商。",
+        "unlinked": "您的帐户已成功取消关联。",
+        "finish_signup": "请完成您的注册。",
+        "finish_title": "完成注册",
+        "signup_success": "您的注册已成功。",
+        "count_linked": "有 {_count} 个已关联的帐户。",
+        "finish_subtitle": "请输入缺失的信息以完成注册。",
+        "email_exists": "包含此电子邮件的帐户已存在。请登录并关联您的帐户。"
+    },
+    "modules.proxmox.lang.fr.messages": {
+        "settings": {
+            "title": "普罗克斯",
+            "description": "管理 Proxmox 模块的不同选项（IPAM、模板、Oses）。"
+        },
+        "panel": {
+            "info": "VPS 信息",
+            "serverneedrestart": "需要重新启动服务器才能应用资源更改。",
+            "serverinrestore": "服务器正在恢复，请稍候。"
+        },
+        "data": {
+            "os": "操作系统",
+            "security": "安全"
+        },
+        "console": {
+            "title": "安慰"
+        },
+        "logs": {
+            "title": "历史的",
+            "description": "对 VM 执行的操作的历史记录。",
+            "by": "由",
+            "action": "行动",
+            "users": {
+                "system": "系统",
+                "user": "用户",
+                "admin": "管理员"
+            },
+            "start": "启动命令已发送到 VPS。",
+            "stop": "停止命令已发送到 VPS",
+            "restart": "重新启动命令已发送到 VPS。",
+            "destroy": "销毁命令已发送到 VPS。",
+            "reinstall": "重新安装命令已发送到 VPS。",
+            "snapshot_destroy": "快照已删除。",
+            "snapshot_create": "快照已创建。",
+            "snapshot_restore": "快照已还原。",
+            "backup_create": "备份已创建。",
+            "backup_destroy": "备份已删除。",
+            "reinstall_done": "VM 的重新安装已成功完成。",
+            "start_destroy": "虚拟机已停止。"
+        },
+        "graphs": {
+            "title": "图形",
+            "cpu": "中央处理器",
+            "memory": "记忆",
+            "disk": "磁盘",
+            "network": "网络",
+            "timeframes": {
+                "hour": "突发新闻",
+                "day": "最后一天",
+                "week": "上个星期",
+                "month": "上个月",
+                "year": "最后一年"
+            }
+        },
+        "reinstallation": {
+            "title": "重新安装",
+            "description": "重新安装 VM。",
+            "limited": "您已达到最大重新安装次数。",
+            "limit_text": "您已在允许的 {_max} 上制作了 {_current}。",
+            "submit": "安装",
+            "reinstall_success": "已成功重新安装 VM。",
+            "reinstall_error": "重新安装 VM 时出错。",
+            "confirm": "是否确实要重新安装此虚拟机？",
+            "success": "已成功重新安装 VM。"
+        },
+        "sshkeys": "SSH 密钥",
+        "hostname": "主机名",
+        "server": "服务器",
+        "node": "结",
+        "disk_storage": "磁盘存储",
+        "unprivileged": "非特权（仅限 LXC）",
+        "username": "SSH 用户名",
+        "uptime": "营业时间",
+        "features": "功能（仅限 LXC）",
+        "max_snapshots": "最大快照数",
+        "max_backups": "最大备份数",
+        "max_reinstall": "最大安置次数",
+        "max_helpers": "您可以设置 -1 表示无限制，或设置 0 表示禁用",
+        "clear_cache_if_empty": "如果字段为空，请清除缓存，或者验证您的 Proxmox API 密钥是否不得处于特权分离状态。",
+        "virtualisation_type": "虚拟化类型",
+        "importinfo": "此信息用于便于以后重新安装计算机。",
+        "templates": {
+            "title": "模型",
+            "description": "管理可用于 VPS 交付的 VM 模板。",
+            "name": "名字",
+            "os": "操作系统",
+            "vmids": "虚拟机 ID",
+            "create": {
+                "title": "创建模板",
+                "description": "创建新的 VM 模板。"
+            },
+            "show": {
+                "title": "型号详细信息",
+                "description": "VM 型号详细信息。"
+            }
+        },
+        "oses": {
+            "title": "操作系统",
+            "description": "管理可用于 VPS 交付的操作系统。",
+            "name": "名字",
+            "oses": "操作系统",
+            "create": {
+                "title": "创建操作系统",
+                "description": "创建新的操作系统。"
+            },
+            "show": {
+                "title": "操作系统详细信息",
+                "description": "操作系统详细信息。"
+            }
+        },
+        "ipam": {
+            "title": "IPAM",
+            "description": "Proxmox 系统 IP 地址管理器。",
+            "ip": "IP地址",
+            "netmask": "子网掩码",
+            "gateway": "网关",
+            "bridge": "桥",
+            "mtu": "MTU",
+            "mac": "MAC地址",
+            "ipv6": "IPv6 地址",
+            "ipv6_gateway": "IPv6 网关",
+            "is_primary": "主要",
+            "service_id": "服务",
+            "notes": "笔记",
+            "dhcp_help": "您可以在此字段中输入 “dhcp” 以为该 IP 地址启用 DHCP。",
+            "create": {
+                "title": "创建 IP 地址",
+                "description": "在 IPAM 中创建新的 IP 地址。",
+                "ranges": {
+                    "title": "快速添加 IP 地址",
+                    "block": "块",
+                    "block_help": "它必须包含”。XX“，该地址将被地址替换。",
+                    "description": "轻松将地址范围导入 IPAM。",
+                    "range": "范围",
+                    "success": "已成功添加 {_count} 个 IP 地址。",
+                    "import": "进口"
+                }
+            },
+            "show": {
+                "title": "IP 地址详细信息",
+                "description": "IP 地址详细信息。"
+            },
+            "states": {
+                "available": {
+                    "title": "可用",
+                    "mass_action": "设置为可用",
+                    "description": "此 IP 地址可供使用。"
+                },
+                "used": {
+                    "title": "使用",
+                    "mass_action": "设置为已使用",
+                    "description": "此 IP 地址由服务使用。"
+                },
+                "unavailable": {
+                    "title": "不能利用的",
+                    "mass_action": "设置为不可用",
+                    "description": "此 IP 地址不可用。"
+                }
+            }
+        },
+        "disks": {
+            "volume": "音量",
+            "format": "格式"
+        },
+        "backups": {
+            "nobackupstorage": "此服务器未配置任何备份存储。请联系管理员。",
+            "size": "大小",
+            "notes": "笔记",
+            "create_title": "创建备份",
+            "is_protected": "代理人",
+            "automatic": "自动的",
+            "restore": "恢复",
+            "limited": "您已达到允许的最大备份数量。",
+            "confirm_restore": "您确定要恢复此备份吗？这将覆盖虚拟机当前的数据。",
+            "restore_success": "备份恢复已成功启动。",
+            "restore_error": "恢复备份时发生错误。",
+            "confirm_delete": "您确定要删除此备份吗？",
+            "delete_success": "备份已成功删除。",
+            "delete_error": "删除备份时发生错误。",
+            "create_success": "备份已成功启动。创建可能会根据虚拟机的大小花费一定时间。",
+            "create_error": "在创建备份时发生错误。"
+        },
+        "snapshots": {
+            "title": "快照",
+            "create_invalid_notes": "快照的名称只能包含字母、数字、空格和下划线。",
+            "create_duplicate": "已有一个同名的快照。",
+            "confirm_restore": "您确定要恢复此快照吗？这将覆盖虚拟机的当前数据。",
+            "restore_success": "快照恢复已成功启动。",
+            "restore_error": "恢复快照时发生错误。",
+            "confirm_delete": "您确定要删除此快照吗？",
+            "delete_success": "快照已成功删除。",
+            "delete_error": "删除快照时发生错误。",
+            "create_title": "创建快照",
+            "create_success": "快照已成功创建。",
+            "create_error": "创建快照时发生错误。"
+        }
+    },
+    "modules.pterobox.lang.fr.messages": {
+        "my_servers": "我的服务器",
+        "create_server": "创建服务器",
+        "server_name": "服务器名称",
+        "egg": "蛋",
+        "server_actions": "行动",
+        "server_details": "服务器详细信息",
+        "delete_server": "删除服务器",
+        "server_deleted": "已成功删除服务器。",
+        "server_updated": "服务器已成功更新。",
+        "resource_not_available": "此服务器不再有足够的资源。",
+        "error_in_deletion": "删除服务器时出错。",
+        "error_in_update": "更新服务器时出错。",
+        "error_in_power": "操作期间发生错误。",
+        "server_powered": "该操作已被考虑在内。",
+        "server_created": "服务器创建成功。",
+        "error_in_creation": "创建服务器时出错。",
+        "allocations_help": "要创建服务器，必须至少有一个分配。",
+        "no_servers_available": "无法在框中创建更多服务器。",
+        "no_servers_created": "目前尚未创建服务器。",
+        "doyouwantreallydelete": "您确定要删除此服务器吗？",
+        "additional_servers": "其他服务器"
+    },
+    "modules.virtualizor.lang.fr.messages": {
+        "server_group": "服务器组",
+        "data": {
+            "os": "操作系统",
+            "security": "安全"
+        },
+        "username": "用户名",
+        "ips": "IP 地址",
+        "hostname": "主机名",
+        "panel": {
+            "info": "VPS 信息",
+            "num_vs": "允许的 VPS 数量",
+            "num_users": "授权用户数",
+            "num_ips": "分配的 IP 数量",
+            "disk_space": "已分配的磁盘空间",
+            "memory": "分配的内存",
+            "cores": "已分配的核心",
+            "reinstallation": {
+                "title": "重新安装",
+                "description": "重新安装 VM。",
+                "submit": "安装"
+            },
+            "hostname": {
+                "title": "更改主机名",
+                "success": "已成功更改主机名。",
+                "description": "更改虚拟机的主机名。"
+            },
+            "resetpassword": {
+                "title": "重置密码",
+                "success": "密码已成功重置。",
+                "description": "重置 VM 密码。"
+            },
+            "console": {
+                "title": "安慰",
+                "description": "访问 VM 控制台。"
+            },
+            "graphs": {
+                "title": "图形",
+                "description": "查看 VM 图表。"
+            }
+        }
+    },
+    "lang.fr.actionslog": {
+        "settings": {
+            "title": "操作历史记录",
+            "description": "员工和系统执行的操作列表。",
+            "subheading": "操作历史记录",
+            "user": "用户",
+            "action": "行动",
+            "model": "型",
+            "model_id": "模板 ID",
+            "payload": "有效载荷",
+            "attribute": "属性",
+            "oldvalue": "旧值",
+            "newvalue": "新价值",
+            "show": {
+                "title": "操作详细信息",
+                "subheading": "对 {_date} 执行的操作的详细信息"
+            },
+            "see_staff_actions_log": "查看员工操作的历史记录"
+        },
+        "actions": {
+            "settings_updated": "更新的设置",
+            "new_login": "新连接 IP 地址：{_ip}",
+            "resource_created": "已创建资源 {_model}",
+            "resource_updated": "资源 {_model} 已更新",
+            "resource_deleted": "已删除资源 {_model}",
+            "resource_cloned": "克隆的 {_model} 资源",
+            "checkout_completed": "订单已完成",
+            "service_delivered": "服务 {_id} 已交付",
+            "service_cancelled": "{_id} 服务已取消",
+            "service_uncancelled": "{_id} 服务未取消",
+            "service_suspended": "服务 {_id} 已暂停",
+            "service_unsuspended": "服务 {_id} 未暂停",
+            "invoice_paid": "发票 {_id} 已付",
+            "service_renewed": "服务 {_id} 已续订",
+            "other": "其他",
+            "service_expired": "服务 {_id} 已过期",
+            "extension_enabled": "已启用 {_extension} 扩展",
+            "extension_disabled": "{_extension} 扩展已禁用",
+            "extension_installed": "已安装 {_extension} 扩展",
+            "theme_changed": "主题已更改",
+            "balance_changed": "客户余额从 {_old} 更改为 {_new}",
+            "account_verified": "已验证帐户",
+            "password_reset": "密码重置",
+            "two_factor_enabled": "已启用双重身份验证",
+            "two_factor_disabled": "禁用了双重身份验证",
+            "two_factor_recovery_codes_generated": "生成的双重身份验证恢复代码",
+            "failed_login": "连接失败 IP地址 : {_ip}"
+        }
+    },
+    "lang.fr.admin": {
+        "security": {
+            "title": "安全",
+            "description": "Customer Area 中的安全设置"
+        },
+        "dashboard": {
+            "title": "挡泥板",
+            "autologin_success": "您现在以 {_name} 的身份登录",
+            "frozen": "系统当前处于冻结模式。某些功能可能被禁用。要退出冻结模式，请联系支持人员。",
+            "in_debug": "您当前处于调试模式。可能会显示敏感信息。出于安全原因，请在常规设置中禁用调试模式。",
+            "subheading": "欢迎使用 Admin Dashboard",
+            "notification_error": "过去 24 小时内发送电子邮件时出错。错误：{_message}",
+            "tooltips": {
+                "users": {
+                    "label": "用户",
+                    "new": "{_count} 新用户"
+                },
+                "customers": {
+                    "label": "客户",
+                    "new": "{_count} 新客户"
+                },
+                "invoices": {
+                    "label": "条例 草案",
+                    "paied": "{_count} 已付款发票"
+                },
+                "cron": {
+                    "never": "从不"
+                }
+            },
+            "widgets": {
+                "customer_search": "快速搜索",
+                "services": "主动服务",
+                "invoices": "已付发票",
+                "cron": "计划任务",
+                "services_expiration": "服务即将到期",
+                "services_canvas": "系统服务状态",
+                "last_login": "最近连接的账户",
+                "best_selling": {
+                    "title": "数量最畅销",
+                    "title2": "收入方面的最佳销售",
+                    "last_month": "{_month} 月",
+                    "last_week": "{_date} 周"
+                },
+                "customer_confirmation": "账户确认状态"
+            },
+            "earn": {
+                "title": "奖金",
+                "subheading": "以下是系统产生的奖金",
+                "total": "总",
+                "total_earned": "总赢单",
+                "total_customers": "客户总数",
+                "total_fees": "总费用",
+                "total_services": "总服务",
+                "total_invoices": "发票总数",
+                "total_cash": "总兑现",
+                "current_month": "当月",
+                "total_tax": "增值税总额",
+                "all_time": "从一开始",
+                "last_30_days": "过去 30 天",
+                "last_7_days": "最近 7 天",
+                "today": "今天",
+                "gateway_canvas": "客户付款方式",
+                "service_can_renewal": "可续订服务",
+                "already_renewed": "续订的服务",
+                "last_orders": "最新订单",
+                "expire_soon": "即将过期",
+                "graph_month": "每月收入",
+                "start_date": "开始日期",
+                "end_date": "结束日期",
+                "lines": "{_count}线|{_count}线",
+                "custom": "习惯",
+                "compare_year": "与年份比较",
+                "related_billed": {
+                    "title": "计费的服务类型",
+                    "service": "新服务",
+                    "renewal": "更新",
+                    "config_option": "配置选项",
+                    "config_option_service": "续订配置选项",
+                    "custom_item": "定制产品",
+                    "upgrade": "起色",
+                    "free_trial": "免费试用"
+                },
+                "gateway_canvas_help": "客户用于支付账单的付款方式",
+                "best_customers": "最佳客户",
+                "customer_from": "客户自",
+                "limit": "限制",
+                "average_periods": "平均服务续订次数",
+                "max_periods": "服务续订数量增加",
+                "average_service_price": "服务的平均价格",
+                "max_services_by_customer": "为每位客户提供更多服务",
+                "max_price": "服务的最高价格",
+                "last_renewals": "最新续订",
+                "average_services_by_customer": "每个客户的平均服务数量",
+                "services": {
+                    "title": "服务分类",
+                    "price_avg": "餐点平均价格",
+                    "renewals_avg": "平均续订数"
+                }
+            },
+            "good_morning": "你好 {_name}",
+            "good_afternoon": "下午好 {_name}",
+            "good_evening": "晚上好 {_name}",
+            "welcome": "欢迎来到管理仪表板。当前时间是{_time}。这是您系统的概览。",
+            "assigned_tickets": "您已被分配到以下工单：{_tickets}。您可以在帮助中心查看它们。"
+        },
+        "roles": {
+            "is_default_help": "此角色是默认角色，无法删除。",
+            "is_default": "默认角色",
+            "is_admin": "管理员角色",
+            "cant_delete": "无法删除此角色",
+            "title": "角色",
+            "role": "角色",
+            "levelhelp": "权限级别用于确定角色的优先级。例如，级别为 50 的角色无法修改级别为 100 的角色。",
+            "description": "管理 Customer Area 中员工的角色和权限。",
+            "level": "水平",
+            "error_update": "您不能定义级别高于您的角色",
+            "error_update_level": "您无法编辑级别高于您的角色",
+            "admin_help": "管理员角色可以访问所有系统功能",
+            "subheading": "以下是系统中所有角色的列表",
+            "create": {
+                "title": "创建角色",
+                "subheading": "为系统创建新角色"
+            },
+            "show": {
+                "title": "角色表 {_name}",
+                "subheading": "以下是与在 {_date} 上创建的此角色相关的信息"
+            }
+        },
+        "history": {
+            "title": "历史的",
+            "subheading": "以下是系统错误消息的历史记录",
+            "file": "文件 {_file}",
+            "description": "检索系统日志消息以进行系统调试。",
+            "bigfile": "此文件太大，无法显示（最大 {_size}）"
+        },
+        "database": {
+            "migrateextension": "选择要迁移的扩展",
+            "migrate": "迁移数据库",
+            "pmaaccess": "访问 PHPMyAdmin",
+            "title": "数据库",
+            "host": "主机",
+            "port": "港口",
+            "username": "用户名",
+            "password": "密码",
+            "output": "退出",
+            "description": "导航到实例的 PHPMyAdmin 或迁移数据库。",
+            "subheading": "警告，此页面适用于高级管理员",
+            "seed": "种子数据库",
+            "migratesuccess": "数据库已成功迁移",
+            "seedsuccess": "已成功设定数据库种子"
+        },
+        "emails": {
+            "title": "电子邮件",
+            "subheading": "这是系统中所有电子邮件的列表",
+            "sendemail": "发送电子邮件",
+            "condition": "条件",
+            "send_at": "发货时间",
+            "button_url": "按钮 URL",
+            "old_customers": "以前的客户（已订购服务的客户，拥有更活跃的服务）",
+            "customers_has_no_services": "没有有效服务的乘客",
+            "customers_has_active_services": "活跃服务客户",
+            "server": "在服务器上具有活动服务的客户端 {_server}",
+            "product_active": "具有产品 {_product} 的有效服务的客户",
+            "product": "使用产品 {_product} 服务的客户",
+            "product_active_type": "服务类型为 {_type} 的客户",
+            "product_type": "服务类型为 {_type} 的客户",
+            "all_customers": "至少拥有一项服务的所有客户",
+            "all_registered_customers": "所有注册客户",
+            "emails": "精确的电子邮件地址（可选）",
+            "selected_emails": "选定的电子邮件",
+            "variables": "可用变量",
+            "success_job": "已成功将 {_count} 客户的电子邮件安排到 {_date}",
+            "conditions_help": "可以同时使用多个条件来发送到多个条件。",
+            "create": {
+                "title": "发送电子邮件",
+                "subheading": "向客户或客户组发送电子邮件",
+                "next": "下一个",
+                "send": "发送",
+                "preview": "预览"
+            }
+        },
+        "products": {
+            "tariff": "关税",
+            "calculator": {
+                "title": "定期价格计算器",
+                "apply": "应用",
+                "percent": "百分比",
+                "help": "您可以输入 0 来不打折，并将价格乘以月数",
+                "subheading": "提供您想要适用于不同费率的折扣"
+            },
+            "showmorepricing": "设置更多费率",
+            "title": "生产",
+            "description": "为您的商店设置产品、管理库存或设置报价。",
+            "subheading": "以下是系统中所有产品的列表",
+            "stock": "库存",
+            "type": "产品类型",
+            "group": "产品组",
+            "descriptionplaceholder": "产品描述 （HTML 支持）",
+            "create": {
+                "title": "创建产品",
+                "subheading": "为商店创建新产品",
+                "create_group_help": "您必须先创建一个组，然后才能创建产品。",
+                "create_product_help": "您必须先创建一个产品，然后才能创建一个报价"
+            },
+            "show": {
+                "title": "产品说明书 {_name}",
+                "subheading": "以下是在 {_date} 上创建的与此产品的相关信息"
+            },
+            "config": {
+                "btn": "配置产品/服务",
+                "title": "配置选件",
+                "success": "选件配置已成功注册。"
+            },
+            "link": {
+                "btn": "订单链接"
+            }
+        },
+        "groups": {
+            "title": "组",
+            "subheading": "以下是系统中所有组的列表",
+            "description": "为您的商店设置产品组和子组。",
+            "parent_id": "父组",
+            "clonewithproducts": "使用产品克隆",
+            "clonewithoutproducts": "不使用产品的克隆",
+            "doubleclone": "无法克隆该组，因为它已被克隆",
+            "image": "图像",
+            "groupcannotdeleted": "无法删除此组，因为仍有与其关联的产品。",
+            "show": {
+                "title": "组表 {_name}",
+                "subheading": "以下是与 {_date} 上创建的此组相关的信息"
+            },
+            "create": {
+                "title": "创建组",
+                "subheading": "为商店创建新组"
+            },
+            "order_products": "您可以通过拖放然后保存产品来重新排列产品",
+            "use_image_as_background": "将图像用作背景",
+            "see_group": "查看群组",
+            "add_product": "添加商品",
+            "nb_products": "产品数量"
+        },
+        "login": {
+            "title": "登录 - 管理",
+            "subheading": "登录您的管理员账户"
+        },
+        "forgot": {
+            "title": "忘记密码 - 管理",
+            "subheading": "重置密码"
+        },
+        "reset_password": {
+            "title": "重置密码 - 管理",
+            "subheading": "重置密码"
+        },
+        "customers": {
+            "title": "客户",
+            "autologin": {
+                "btn": "自动连接",
+                "logout": "注销客户帐户",
+                "logoutsuccess": "您已从客户帐户中注销",
+                "success": "您现在以 {_name} 的身份登录"
+            },
+            "show": {
+                "email_sent": "电子邮件已成功发送",
+                "email_confirmed": "账户已成功确认",
+                "resend": "重新发送确认电子邮件",
+                "confirm": "确认账户",
+                "title": "{_name} 的客户资料",
+                "login_ip": "连接 IP",
+                "subheading": "以下是与 {_date} 创建的此客户端相关的信息",
+                "details": "客户详细信息",
+                "billing": "账单地址",
+                "notes": "用户笔记",
+                "invoices": "客户发票",
+                "services": "客户服务",
+                "tickets": "客户工单",
+                "payment-methods": "客户付款方式",
+                "emails": "发送给客户的电子邮件",
+                "passwordhelp": "留空，以免更改",
+                "login": "上次客户登录时间",
+                "url": {
+                    "confirmation": "确认 URL",
+                    "reset": "重置 URL"
+                },
+                "stats": {
+                    "paid": "支付金额",
+                    "unpaid": "未付金额",
+                    "services": "主动服务"
+                },
+                "last_login": "上次登录",
+                "last_ip": "最新 IP",
+                "confirmed_at": "确认日期",
+                "ban": "禁止客户",
+                "reason": "原因",
+                "action_success": "操作已成功执行",
+                "suspend": "暂停客户端",
+                "reactivate": "重新激活客户端",
+                "suspend_services": "暂停客户端的服务",
+                "unsuspend_services": "重新激活客户的服务",
+                "expire_services": "使客户的服务过期",
+                "is_banned": "此客户端在 {_date} 上被 {_username} 封禁，原因为 {_reason}",
+                "is_suspended": "此客户端在 {_date} 上被 {_username} 暂停，原因为 {_reason}",
+                "password_reset_sent": "重置电子邮件已成功发送",
+                "resend_confirm": "重新发送确认电子邮件",
+                "send_password": "发送重置电子邮件",
+                "history": "客户操作历史记录",
+                "send_email": "发送电子邮件",
+                "disable2fa": "禁用双重身份验证",
+                "email_already_confirmed": "账户已经确认",
+                "create_invoice": "创建发票",
+                "create_service": "提供服务",
+                "create_ticket": "创建一个工单"
+            },
+            "create": {
+                "title": "创建客户端",
+                "subheading": "为系统创建新客户端",
+                "create_customer_help": "您必须先创建一个客户，然后才能执行此操作。"
+            },
+            "subheading": "以下是该系统的所有客户列表",
+            "delete": {
+                "error": "无法删除客户，因为发票仍与该客户相关联。"
+            }
+        },
+        "profile": {
+            "show": {
+                "title": "{_name} 的简介",
+                "subheading": "以下是您在管理员区域中的信息和权限",
+                "details": "个人资料详细信息",
+                "login": "最新连接"
+            }
+        },
+        "users": {
+            "title": "用户"
+        },
+        "invoices": {
+            "currency": "座右铭",
+            "mass": {
+                "complete": "标记为已付款",
+                "refund": "标记为已退款",
+                "cancel": "标记为已取消",
+                "fail": "标记为失败"
+            },
+            "customproduct": "定制产品",
+            "invoice_number": "发票编号",
+            "draft": {
+                "add": "添加文章",
+                "unitprice": "单价",
+                "name": "项目名称",
+                "quantity": "数量",
+                "itemremoved": "已成功删除项目",
+                "itemupdated": "文章已成功保存",
+                "notallowed": "您无法从非草稿发票中删除项目",
+                "description": "商品描述",
+                "unitsetupfees": "单元安装费",
+                "itemadded": "文章已成功添加",
+                "edit": "编辑文章",
+                "validated": "发票已成功验证",
+                "validatebtn": "过帐发票",
+                "empty": "此发票中未添加任何项目",
+                "invoiceserviceinfo": "此服务可以使用现有发票。添加此产品后，发票 #{_id} 将被取消。",
+                "not_in_draft": "发票不是草稿",
+                "set_in_draft": "发票现在是可编辑的。"
+            },
+            "show": {
+                "notes": "发票上的注释",
+                "external_id": "外部 ID",
+                "title": "发票卡 {_id}",
+                "subheading": "以下是与 {_date} 创建的此发票相关的信息"
+            },
+            "create": {
+                "title": "创建发票",
+                "subheading": "为系统创建新发票",
+                "btn": "创造"
+            },
+            "title": "条例 草案",
+            "subheading": "这是系统中所有发票的列表",
+            "deliveredsuccess": "产品已成功交付",
+            "notified": "客户已收到通知",
+            "notify": "通知客户",
+            "edit": "编辑发票",
+            "not_in_pending": "此发票无法更改",
+            "paidsuccess": "发票已标记为已成功支付",
+            "payinvoicebtn": "借方",
+            "payinvoicetitle": "支付账单",
+            "payinvoicedescription": "从客户来源收取费用以支付账单。"
+        },
+        "admins": {
+            "title": "个人",
+            "expires_at": "呼气",
+            "subheading": "这是系统中所有人员的列表",
+            "description": "管理管理员区域的员工凭证",
+            "badge": {
+                "expires_at": "过期于 {_date}",
+                "expired_at": "过期日期 {_date}"
+            },
+            "create": {
+                "title": "创建五线谱",
+                "emptyforactive": "留空以设置电子邮件密码",
+                "subheading": "创建新员工进行管理"
+            },
+            "signature": "签名",
+            "expiration": "呼气",
+            "show": {
+                "title": "个人简介 {_name}",
+                "login": "最新的员工联系",
+                "details": "员工详细信息",
+                "subheading": "以下是在 {_date} 上创建的与此 Staff 相关的信息"
+            }
+        },
+        "settings": {
+            "title": "参数",
+            "core": {
+                "title": "常规设置",
+                "description": "CLIENTXCMS 的一般参数（名称、地址、徽标、网站图标、邮件）",
+                "mail": {
+                    "title": "电子邮件设置",
+                    "description": "Customer Area 消息传递设置",
+                    "from_address": "送货地址",
+                    "from_name": "货件名称",
+                    "greeting": "电子邮件开头的问候语",
+                    "domain": "Customer Area Area",
+                    "salutation": "电子邮件问候语结束",
+                    "test": {
+                        "btn": "测试连接",
+                        "help": "您必须先配置并备份电子邮件设置，然后才能测试连接。",
+                        "success": "连接测试通过。您应该会在几分钟内收到一封电子邮件。"
+                    },
+                    "disable_mail": "禁用电子邮件",
+                    "disable_mail_help": "禁用从 Customer Area 发送电子邮件并在日志中发送它们",
+                    "success": "电子邮件设置已成功保存。",
+                    "smtp": {
+                        "enabled": "启用 SMTP",
+                        "host": "SMTP 主机",
+                        "port": "端口 SMTP",
+                        "encryption": "加密类型",
+                        "username": "SMTP 用户名",
+                        "password": "SMTP 密码",
+                        "description": "用于从 SMTP 服务器发送电子邮件的设置"
+                    }
+                },
+                "app": {
+                    "title": "全局设置",
+                    "success": "Customer Area 中的设置已成功保存。",
+                    "description": "Customer Area 设置",
+                    "fields": {
+                        "app_name": "Customer Area 的名称",
+                        "app_env": "Customer Area 环境",
+                        "app_debug": "调试模式",
+                        "app_timezone": "时区",
+                        "app_address": "Customer Area 地址（在发票上可用）",
+                        "app_logo": "Customer Area 徽标",
+                        "app_favicon": "客户专区网站图标",
+                        "app_logotext": "Customer Area 的文本 logo",
+                        "app_locale": "默认语言",
+                        "invoice_terms": "发票条款和条件",
+                        "app_telemetry": "启用遥测",
+                        "app_telemetry_help": "这些匿名数据被发送到CLIENTXCMS，以帮助我们改进CMS，更好地理解您的使用情况，修复错误并优化您的体验。"
+                    }
+                },
+                "security": {
+                    "title": "安全设置",
+                    "description": "Customer Area 中的安全设置",
+                    "auth": "认证",
+                    "captcha": {
+                        "title": "验证码",
+                        "fields": {
+                            "driver": "Captcha 驱动程序",
+                            "driver_help": "您必须拥有 reCaptcha 驱动程序的密钥",
+                            "site_key": "站点密钥",
+                            "secret_key": "密钥",
+                            "driver_recaptcha_help": "您可以在 <a href=“https://{_url}” class=“text-primary” target=“_blank” rel=“noopener noreferrer”>{_url} 处获取密钥</a>。您需要使用不可见的 v2 密钥",
+                            "driver_hcaptcha_help": "您可以在 <a href=“https://{_url}” class=“text-primary” target=“_blank” rel=“noopener noreferrer”>{_url} 获取键</a>",
+                            "driver_cloudflare_help": "您可以在 <a href=“https://{_url}” class=“text-primary” target=“_blank” rel=“noopener noreferrer”>{_url} 处获取密钥</a>。您需要选择“托管”小部件"
+                        }
+                    },
+                    "fields": {
+                        "admin_prefix": "管理前缀",
+                        "hash_driver": "哈希驱动程序",
+                        "password_timeout": "密码验证时间",
+                        "password_timeout_help": "以秒为单位",
+                        "allow_registration": "允许注册",
+                        "auto_confirm_registration": "自动确认注册",
+                        "allow_reset_password": "允许密码重置",
+                        "force_login_client": "强制连接访问 Customer Area",
+                        "banned_emails": "被禁电子邮件",
+                        "banned_emails_help": "用逗号分隔（例如 mailinator.com、yopmail.com exemple@example.com）",
+                        "hash_driver_help": "/！\\ 旧密码将与新驱动程序不兼容。您需要重置用户密码。"
+                    },
+                    "success": "安全设置已成功保存。"
+                }
+            },
+            "store": {
+                "title": "商店设置",
+                "description": "商店设置（PayPal、VAT 等）",
+                "gateways": {
+                    "description": "支付网关设置 {_name}",
+                    "fields": {
+                        "name": "网关名称",
+                        "minimal_amount": "最低金额",
+                        "client_id": "客户端 ID",
+                        "client_secret": "客户端密钥",
+                        "sandbox": "沙盒模式",
+                        "enabled": "启用网关",
+                        "webhook": "Webhook",
+                        "webhookhelp": "通知 URL：{_url}",
+                        "payments_types": "允许的付款方式",
+                        "paypal_email": "PayPal 电子邮件地址"
+                    },
+                    "success": "网关配置已成功保存。"
+                }
+            }
+        },
+        "license": {
+            "click_to_activate": "单击此处激活您的许可证",
+            "title": "许可证",
+            "subheading": "请验证您的许可证以激活您的产品",
+            "subheading2": "管理您的许可证和相关信息或更新您的可用模块。",
+            "expiration": "您的许可证将于 {_date} 到期",
+            "onetime": "终身许可证",
+            "modules": "包含的模块",
+            "extensions": "可用扩展名：{_extensions}",
+            "domain": "域：{_domain}",
+            "max_customers": "最大客户端数：{_count}",
+            "current_customers": "当前客户数量：{_count}",
+            "last_check": "上次检查 {_date}",
+            "client_id": "客户端 ID",
+            "description": "管理您的许可证和相关信息或更新您的可用模块。",
+            "force": "强制验证"
+        },
+        "metadata": {
+            "title": "元数据",
+            "key": "钥匙",
+            "value": "价值",
+            "subheading": "元数据管理",
+            "add": "添加元数据",
+            "editwarning": "请注意，修改或删除元数据可能会对系统产生影响。请确定你在做什么。",
+            "updated": "元数据已成功更新。"
+        },
+        "schedules": {
+            "title": "计划任务",
+            "subheading": "查看计划任务",
+            "filters": {
+                "all": "所有任务",
+                "services:delivery": "服务交付",
+                "services:expire": "服务到期"
+            },
+            "readmore": "阅读更多",
+            "readless": "阅读更少",
+            "command": "次序",
+            "output": "退出",
+            "runtime": "运行",
+            "created_at": "创建于"
+        },
+        "flash": {
+            "created": "已成功创建项目。",
+            "deleted": "已成功删除项目。",
+            "updated": "信息已成功更新。",
+            "updated_elements": "已成功更新 {_counts} 项。",
+            "no_items_selected": "未选择任何项目"
+        },
+        "create": "创造",
+        "blanktochange": "留空，以免更改",
+        "blanktonolimit": "留空，以免受到限制",
+        "updatedetails": "更新详细信息",
+        "backtosite": "返回网站",
+        "backtostore": "返回商店",
+        "doyouwantreally": "您真的想这样做吗？",
+        "locales": {
+            "translations_saved": "翻译被成功录制。",
+            "subheading": "译本",
+            "title": "语言",
+            "is_downloaded": "下载",
+            "is_default": "默认情况下",
+            "download": "下载",
+            "update": "更新",
+            "changedefaulthelp": "您可以在全局设置中更改默认语言。",
+            "is_enabled": "激活",
+            "disabled": "禁用",
+            "download_success": "翻译文件已成功上传。",
+            "description": "查找 Customer Area 的可用语言列表。根据需要开启或关闭语言。",
+            "download_error": "您无法在本地下载法语翻译文件。"
+        },
+        "api_keys": {
+            "title": "API 密钥",
+            "subheading": "管理您所有的CLIENTXCMS API密钥。",
+            "last_used": "最后使用",
+            "is_admin": "管理员权限",
+            "admin_help": "管理员API密钥可以访问系统的所有功能",
+            "create": {
+                "title": "创建一个API密钥",
+                "subheading": "为系统创建一个新的API密钥"
+            },
+            "documentation": "文档 OpenAPI",
+            "rotate": "再生",
+            "created": "API密钥已成功创建。应用程序API密钥：<b><code>{_key}</code></b><br/>注意，它在此页面后将不再显示。请复制并妥善保管。"
+        },
+        "doyouwantclone": "您真的想克隆这个元素吗？"
+    },
+    "lang.fr.auth": {
+        "failed": "这些标识符与我们的记录不对应。",
+        "password": "密码不正确",
+        "throttle": "登录尝试次数过多。请在 {_seconds} 秒后重试。",
+        "signed_in_as": "登录身份",
+        "login": {
+            "btn": "登录",
+            "title": "连接",
+            "heading": "连接",
+            "subheading": "输入您的登录详细信息以访问您的个人空间。",
+            "remember": "记住我",
+            "forgot": "忘记密码？",
+            "login": "日志",
+            "no_account": "没有帐户？"
+        },
+        "confirm": {
+            "btn": "确认",
+            "title": "确认密码",
+            "heading": "确认密码",
+            "subheading": "出于安全原因，请确认您的密码以继续。"
+        },
+        "register": {
+            "btn": "注册",
+            "title": "注册",
+            "heading": "创建帐户",
+            "subheading": "欢迎来到您的客户专区。",
+            "already": "已经有帐户？",
+            "register": "登记",
+            "accept": "我接受",
+            "terms": "使用条款和条件",
+            "success": "您的帐户已成功创建。",
+            "success_need_validation": "您必须通过单击通过电子邮件收到的链接来验证它。",
+            "success_validation_done": "您的帐户已成功验证。",
+            "error_banned_email": "您的电子邮件地址已被禁止。请联系支持人员。",
+            "error_registration_disabled": "此时已禁用注册。"
+        },
+        "forgot": {
+            "btn": "发送重置链接",
+            "title": "忘记密码",
+            "forgot_password": "忘记密码？",
+            "heading": "重置密码",
+            "success": "如果帐户存在，则已向您发送重置电子邮件。",
+            "subheading": "输入您的电子邮件地址以重置密码。",
+            "error_disabled": "此时已禁用密码重置。"
+        },
+        "reset": {
+            "btn": "重置密码",
+            "title": "重置密码",
+            "heading": "重置密码",
+            "success": "您的密码已成功重置。",
+            "subheading": "输入您的新密码以恢复您的帐户。"
+        },
+        "authentication": "认证",
+        "confirm_register": {
+            "heading": "电子邮件地址验证",
+            "subheading": "我们已向 {_email} 发送了一封验证电子邮件，其中包含用于激活您帐户的链接。",
+            "help": {
+                "not_received": "如果您没有收到电子邮件",
+                "check_spam": "检查您的垃圾邮件文件夹",
+                "valid_email": "确保电子邮件地址有效",
+                "firewall": "检查您的防火墙是否未阻止该电子邮件",
+                "request_another": "接收另一封电子邮件"
+            }
+        },
+        "verified": {
+            "heading": "已验证的电子邮件地址",
+            "subheading": "您的电子邮件地址已经过验证。",
+            "continue": "继续前往 Customer Area",
+            "continue_order": "在结帐页面上继续",
+            "allowed": "您现在可以访问您帐户的所有功能。",
+            "support": "如果您有任何问题，请随时联系支持人员。"
+        }
+    },
+    "lang.fr.billing": {
+        "admin": {
+            "settings": {
+                "title": "发票",
+                "description": "商店账单设置。启用 VAT （增值税）、set currency （设置货币） 或其他。",
+                "success": "计费设置已成功保存。",
+                "webhookoncheckout": "结帐时的 Webhook",
+                "fields": {
+                    "store_vat_enabled": "激活增值税",
+                    "customermustbeconfirmed": "客户必须确认订单",
+                    "toslink": "链接到一般销售条款和条件",
+                    "currency": "座右铭",
+                    "invoice_prefix": "发票前缀",
+                    "billing_mode": "计费方式",
+                    "billing_modes": {
+                        "proforma": "形式",
+                        "invoice": "发票"
+                    },
+                    "remove_pending_invoice": "在以下时间后对待处理发票执行的操作（天）",
+                    "remove_pending_invoice_help": "0 表示禁用",
+                    "remove_pending_invoice_types": {
+                        "delete": "删除",
+                        "cancel": "取消"
+                    },
+                    "mode_tax": {
+                        "title": "税务方法",
+                        "included": "包含 - 显示的价格包含增值税",
+                        "excluded": "不包含 - 显示的价格不含增值税"
+                    },
+                    "vat_default_country": "增值税的默认国家/地区",
+                    "rates": {
+                        "title": "增值税税率",
+                        "vat_rate_by_country": "客户所在国家/地区的增值税税率",
+                        "vat_rate_fixed": "固定增值税税率"
+                    },
+                    "add_setupfee_on_upgrade": "在升级期间添加配置费用",
+                    "minimum_days_to_force_renewal_with_upgrade": "强制更新和改进的最短时间（以天为单位）",
+                    "display_product_price": {
+                        "title": "产品价格显示",
+                        "included": "包含 - 显示的价格包含增值税",
+                        "excluded": "不包含 - 显示的价格不含增值税"
+                    },
+                    "allow_add_balance_to_invoices": "允许在发票上添加余额",
+                    "store_mode_tax": {
+                        "title": "税务模式",
+                        "tax_included": "含税",
+                        "tax_excluded": "不含税"
+                    }
+                },
+                "tax": "增值税管理"
+            },
+            "title": "发票",
+            "subheading": "订阅和付款管理",
+            "subscriptions": {
+                "create": {
+                    "title": "创建订阅",
+                    "subheading": "为客户创建订阅"
+                },
+                "title": "订阅",
+                "description": "订阅管理",
+                "last_payment_at": "上次付款",
+                "active_subscription": "有效订阅",
+                "services_empty": "未找到服务",
+                "earn": {
+                    "service_subscription_help": "具有有效订阅的服务百分比",
+                    "monthly": "月度订阅",
+                    "monthly_earn": "每月续订",
+                    "subscription_and_services": "订阅和服务续订",
+                    "monthly_help": "订阅计入每月续订"
+                }
+            },
+            "global_balance": "整体平衡",
+            "upgrades": {
+                "title": "服务改进",
+                "description": "了解客户如何改进他们的服务。"
+            }
+        }
+    },
+    "lang.fr.client": {
+        "invoices": {
+            "billto": "计费价格为 {_name}",
+            "itemname": "项目名称",
+            "qty": "数量",
+            "due_date": "期限",
+            "invoice_date": "发票日期",
+            "print": "打印",
+            "download": "下载",
+            "pay": "支付账单",
+            "invoice_not_payable": "无法支付此发票",
+            "thank": "感谢您的付款",
+            "thankmessage": "如果您有任何问题，请随时与我们联系。",
+            "details": "发票详细信息",
+            "index": "我的发票",
+            "paymethod": "付款方式",
+            "index_description": "以下是您的发票列表。",
+            "identifier": "发票 ID",
+            "terms": "付款条件",
+            "banktransfer": {
+                "title": "我们的银行信息",
+                "setting_fielddescription": "要在发票上显示的银行信息",
+                "flash": "请向发票上显示的银行账户付款。一旦收到付款，您的订单将被处理。"
+            },
+            "paid_date": "付款日期",
+            "deliver": "提供",
+            "renewal_description": "向 {_service_label} 服务添加了 {_month_label}",
+            "pay_with_balance": "用余额支付部分账单",
+            "balance": {
+                "success": "余额已被用来支付账单。",
+                "balance_addition": "在账单中添加余额",
+                "balance_addition_description": "从发票中扣除的金额为 {_amount}.",
+                "title": "信贷",
+                "balance_not_enough": "余额不足，无法将其添加到账单中。"
+            }
+        },
+        "emails": {
+            "index": "我的电子邮件",
+            "subject": "主题",
+            "index_description": "以下是我们的系统收到的您的电子邮件列表。"
+        },
+        "payment-methods": {
+            "paymentmethod": "付款方式",
+            "index": "我的付款方式",
+            "index_description": "以下是您保存的付款方式列表。",
+            "card": "地图",
+            "expiration": "呼气",
+            "add": "添加付款方式",
+            "add_description": "向您的帐户添加新的付款方式。",
+            "success": "支付方式添加成功",
+            "default": "缺陷",
+            "defaultsucces": "更新的默认付款方式",
+            "set_default": "设为默认值",
+            "manage": "管理",
+            "deleted": "已删除付款方式",
+            "add_paypal": "添加 PayPal 账户",
+            "errors": {
+                "not_supported": "不支持此付款方式",
+                "not_found": "未找到此付款方式"
+            },
+            "payment_method_used": "使用的支付方式",
+            "invoices": "使用支付方式支付的发票",
+            "invoices_description": "您将在下面找到通过自动扣款支付的发票列表。"
+        },
+        "services": {
+            "index": "我的服务",
+            "index_description": "以下是您的服务列表。",
+            "show": "服务详情",
+            "renewbtn": "续订服务",
+            "managebtn": "管理服务",
+            "expire_date": "有效期",
+            "noservices": "未找到服务",
+            "startorder": "首先订购服务",
+            "server": "服务器",
+            "onetime": "终身服务",
+            "changename": "更改服务名称",
+            "managerenew": "管理服务周期",
+            "manageserviceonadmin": "从管理部门管理",
+            "dayremaining": "还剩 {_days} 天",
+            "daysremaining": "剩余 {_days} 天",
+            "expirationtooltip": "该服务将于 {_date} 过期",
+            "expirationtooltipexpired": "服务已于 {_date} 过期",
+            "expirationtooltipneverexpire": "服务永不过期",
+            "expirationtooltipsuspended": "服务已于 {_date} 暂停",
+            "subusers": {
+                "index": "子用户",
+                "manage": "管理访问权限"
+            },
+            "cancel": {
+                "index": "取消服务",
+                "subtitle": "您真的想离开我们吗？",
+                "index_description": "请选择取消服务的原因。",
+                "back": "继续使用服务",
+                "message": "给我们留言",
+                "reason": "原因",
+                "submit": "取消服务",
+                "uncancel": "撤消取消",
+                "success": "已成功取消服务",
+                "expiration": "服务到期",
+                "expiration_now": "马上",
+                "expiration_end": "期末"
+            },
+            "renewals": {
+                "index": "服务续订",
+                "title": "续订管理",
+                "period": "时期",
+                "saveandrenew": "注册和续订",
+                "date": "日期",
+                "manage": "以下是已完成的服务续订列表。",
+                "not_autorized_to_change_billing": "您不能更改计费方式",
+                "not_authorized_to_change_billing": "您不被允许更改计费方式"
+            },
+            "subscription": {
+                "cancelled": "自动续费已取消。您的服务将于 {_date} 过期。",
+                "index": "订阅",
+                "cancel": "取消订阅",
+                "failed": "自动续订在 {_date} 次（{_tries} 次尝试）上失败。请检查您的付款信息。",
+                "cannot": "此服务无法自动续订",
+                "success": "已开启自动续费。下一次付款将在 {_date} 进行。",
+                "add_payments_method": "您必须添加支付方式才能启用自动续订。您可以从 <a href=“{_url}” class=“text-primary”> 付款方式页面执行此操作</a>。",
+                "enabled": "此服务已开启自动续订。发票将自动生成，然后在 {_date} 支付。",
+                "manage_subscriptions": {
+                    "index": "管理您的订阅",
+                    "index_description": "以下是您可以自动续订的服务列表。您可以为每项服务启用或禁用自动续订。",
+                    "next_renewal": "下一个续订"
+                }
+            },
+            "upgradeservice": "改善服务",
+            "manageoptions": "服务选项",
+            "options": {
+                "index": "服务选项",
+                "index_description": "以下是您的服务选项。与服务具有相同到期日期的选项将自动随该服务一起续订。"
+            },
+            "upgrade": {
+                "upgrade_to": "升级到 {_product}",
+                "upgrade_to2": "对 {_product} 的改进",
+                "index": "改善服务",
+                "upgradebtn": "立即改进",
+                "index_description": "以下是您可以从当前服务升级的产品列表。",
+                "minimum_days_to_force_renewal_with_upgrade": "由于当前服务即将到期，续订将添加到升舱账单中。",
+                "upgrade_notice": "通过接受改进，您同意您服务价格的永久上涨以及其性能的提高以及相关的"
+            },
+            "orderservice": "需要其他服务吗？马上订购吧！",
+            "expired_at": "在{_date}过期"
+        },
+        "profile": {
+            "index": "我的个人资料",
+            "index_description": "在此处更改您的个人信息。",
+            "updated": "更新的配置文件",
+            "security": {
+                "index": "安全",
+                "index_description": "在此处更改您的密码。",
+                "currentpassword": "当前密码",
+                "newpassword": "新密码"
+            },
+            "2fa": {
+                "enabled": "已启用双重身份验证",
+                "disabled": "双因素身份验证已禁用",
+                "title": "双重认证",
+                "code": "双重验证码",
+                "heading": "双重验证",
+                "subheading": "请输入您的移动应用程序生成的双重验证码。",
+                "info": "使用您的双因素身份验证应用程序扫描 QR 码。",
+                "download_codes": "单击此处下载恢复代码 <a href=“{_url}” class=“text-primary”></a>。"
+            }
+        },
+        "pending_invoices": "{_count} 张等待付款的发票。请向他们付款以避免服务中断。",
+        "logout": "注销",
+        "alerts": {
+            "servernotfound": "未找到服务器",
+            "servernotinstalled": "服务器尚未安装",
+            "service_suspended": "服务已暂停",
+            "power_success": "操作已成功执行",
+            "power_error": "执行操作时出错",
+            "email_not_verified": "您的电子邮件地址未经过验证。&nbsp;<a href=“{_url}”>单击此处</a>&nbsp;接收新的验证链接。",
+            "service_not_paid": "续订发票可用。&nbsp;<a href=“{_url}”>点击这里</a>&nbsp;支付费用，避免中断。",
+            "email_verification_sent": "新的验证链接已发送到您的电子邮件地址。",
+            "internalerror": "查看服务时发生内部错误",
+            "cannot_renew": "此服务无法续订",
+            "suspended_reason_expired": "服务已过期",
+            "service_cancelled": "服务已取消",
+            "service_cancelled_and_not_expired": "服务已取消，但尚未过期。它将一直有效，直到到期日期。",
+            "cannot_cancel": "此服务无法取消",
+            "service_uncancelled": "服务已重新激活",
+            "vpsnotfound": "未找到 VPS",
+            "spam": "检测到垃圾邮件",
+            "account_blocked": "您的帐户已被冻结",
+            "account_suspended": "您的帐户已被暂停",
+            "service_name_updated": "服务名称已更新",
+            "service_billing_updated": "账单信息已更新",
+            "email_must_be_verified": "您的电子邮件地址必须经过验证才能访问此页面",
+            "service_trial_ends_at": "试用服务于{_date}结束",
+            "invoice_payment_failed": "您的账单付款失败了"
+        }
+    },
+    "lang.fr.coupon": {
+        "not_found": "未找到优惠券",
+        "coupon_not_started": "优惠券尚未开始",
+        "coupon_expired": "优惠券已过期",
+        "first_order_only": "此优惠券仅对第一笔订单有效",
+        "coupon_max_uses": "此优惠券已达到最大使用次数",
+        "coupon_max_uses_per_customer": "此优惠券已达到每位客户的最大使用次数",
+        "minimum_order_amount": "订单金额必须大于 {_amount}",
+        "coupon_not_valid_product": "此优惠券对您购物车中的产品无效",
+        "coupon": "息票",
+        "coupons": "优惠 券",
+        "add_coupon_title": "添加优惠券",
+        "add_coupon": "应用",
+        "remove_coupon": "删除",
+        "coupon_placeholder": "输入您的折扣代码",
+        "coupon_applied": "使用优惠券",
+        "coupon_removed": "优惠券已删除",
+        "subtotal_without_coupon": "无优惠券的小计",
+        "subtotal_with_coupon": "带优惠券的小计",
+        "discount_price": "应用于价格的折扣",
+        "discount_setup": "安装费折扣",
+        "free_setup": "免安装费",
+        "coupon_label": "代码： {_code} |{_discount}",
+        "admin": {
+            "description": "设置商店的折扣券。",
+            "subheading": "优惠券管理",
+            "fixed": "固定金额",
+            "is_global": "店内整体折扣",
+            "percent": "百分比",
+            "products": "授权产品",
+            "free_setup": "优惠安装费",
+            "first_order_only": "仅限第一笔订单",
+            "applied_month": "复位复发",
+            "start_at": "开始日期",
+            "end_at": "结束日期",
+            "max_uses": "最大使用次数",
+            "max_uses_per_customer": "每个客户的最大使用次数",
+            "uses_help": "0 表示无限制",
+            "required_products": "所需产品",
+            "all_products_in_group": "集团 {_group} 的所有产品",
+            "usages": "使用次数",
+            "products_required": "所需产品",
+            "minimum_order_amount": "最低订购金额",
+            "applied_month_help": "-1 表示无限制，0 仅表示首次付款。（例如：3 次重复 = 首次付款 + 3 次续订）",
+            "code": "法典",
+            "pricelabel": "减少",
+            "used_at": "用于",
+            "amount": "量",
+            "usage": "用法",
+            "groups": "授权组",
+            "no_products": "此优惠券不包含任何授权产品。它不能使用。允许此优惠券的产品或为整个商店激活它。",
+            "show": {
+                "title": "优惠券详情",
+                "subheading": "优惠券详情"
+            },
+            "create": {
+                "title": "创建优惠券",
+                "subheading": "创建新的折扣券"
+            },
+            "allowed_customer": "授权客户（留空表示所有）"
+        },
+        "coupon_not_applicable": "此优惠券不适用于您的购物车"
+    },
+    "lang.fr.errors": {
+        "404": {
+            "title": "找不到页面",
+            "description": "抱歉，找不到您要查找的页面。",
+            "back": "返回上一页",
+            "home": "前往主页",
+            "dashboard": "转到仪表板"
+        },
+        "500": {
+            "title": "内部服务器错误",
+            "description": "抱歉，发生了内部错误。",
+            "back": "返回上一页",
+            "home": "前往主页"
+        }
+    },
+    "lang.fr.extensions": {
+        "title": "扩展",
+        "description": "管理 CLIENTXCMS 扩展，启用或禁用已安装的扩展。",
+        "settings": {
+            "title": "扩展设置",
+            "description": "管理已安装扩展的设置",
+            "clearcache": "清除缓存",
+            "enable": "激活",
+            "disable": "关闭",
+            "enabled": "激活",
+            "disabled": "禁用",
+            "activable": "激活",
+            "notactivable": "不可激活",
+            "buy": "买"
+        },
+        "onetime": "仅一次",
+        "monthly": "每月",
+        "flash": {
+            "already_enabled": "扩展已激活。",
+            "extension_not_enabled": "{_extension} 扩展未启用，并且是此扩展所必需的。",
+            "cannot_enable": "无法激活扩展。",
+            "composer_not_found": "找不到 composer.json 文件。",
+            "extension_not_loaded": "激活此扩展需要 {_extension} 扩展。",
+            "extension_not_installed": "未安装 {_extension} 扩展。",
+            "extension_version_not_compatible": "扩展版本 {_extension} （{_current}） 与所需的版本 （{_version}） 不兼容。",
+            "cache_cleared": "已成功清除缓存。"
+        }
+    },
+    "lang.fr.global": {
+        "firstname": "名字",
+        "lastname": "名字",
+        "email": "电子邮件",
+        "password": "密码",
+        "locale": "舌",
+        "username": "用户名",
+        "password_confirmation": "密码确认",
+        "address": "地址",
+        "currency": "座右铭",
+        "title": "标题",
+        "content": "内容",
+        "address2": "附加地址",
+        "city": "镇",
+        "state": "州",
+        "edit": "修改",
+        "url": "网址",
+        "zip": "邮政编码",
+        "country": "国家",
+        "type": "类型",
+        "seemore": "查看更多",
+        "region": "地区",
+        "clone": "克隆",
+        "phone": "电话",
+        "clientarea": "客户专区",
+        "or": "或",
+        "showing": "显示",
+        "to": "在",
+        "of": "从",
+        "results": "结果",
+        "withselected": "选择后",
+        "password_generate": "生成密码",
+        "recurring": "循环的",
+        "validate": "驗證",
+        "recurrences": "复发",
+        "free": "自由",
+        "month": "月",
+        "closemodal": "关闭",
+        "year": "年",
+        "product": "产品",
+        "products": "生产",
+        "description": "描述",
+        "slug": "鼻涕虫",
+        "darkmode": "深色模式",
+        "select": "选择",
+        "years": "年",
+        "search": "研究",
+        "any": "都",
+        "lookup": "研究",
+        "yes": "是的",
+        "no": "不",
+        "searchfrom": "搜索起始地",
+        "actions": "行动",
+        "view": "看",
+        "show": "发布",
+        "hour": "小时",
+        "date": "日期",
+        "clicktoremove": "点击删除",
+        "separebycomma": "用逗号分隔",
+        "mail": {
+            "greeting": "你好",
+            "salutation": "亲切问候"
+        },
+        "states": {
+            "pending": "待定",
+            "active": "积极",
+            "failed": "搁浅",
+            "suspended": "暂停",
+            "terminated": "完成",
+            "refunded": "退还",
+            "paid": "支付",
+            "fraud": "欺诈",
+            "cancelled": "取消",
+            "expired": "过期",
+            "pending_setup": "等待配置",
+            "all": "都",
+            "unreferenced": "未引用",
+            "hidden": "隐藏",
+            "draft": "草案",
+            "open": "打开",
+            "closed": "闭",
+            "approved": "批准",
+            "rejected": "拒绝",
+            "completed": "完成",
+            "disabled": "禁用",
+            "not_confirmed": "未确认",
+            "confirmed": "证实",
+            "answered": "回复",
+            "yes": "是的",
+            "no": "不"
+        },
+        "add": "加",
+        "invoice_was_cancelled": "发票刚刚被取消",
+        "invoice_cancelled": "发票已于 {_date} 取消",
+        "invoice": "发票",
+        "invoices": "条例 草案",
+        "service": "服务",
+        "preview": "一瞥",
+        "services": "服务业",
+        "balance": "平衡",
+        "sort_order": "排序顺序",
+        "pinned": "寄托",
+        "quote": "报价",
+        "quotes": "报价",
+        "ticket": "票",
+        "tickets": "票",
+        "name": "名字",
+        "status": "地位",
+        "created": "创建",
+        "filter": "滤波器",
+        "disabled": "禁用",
+        "enabled": "激活",
+        "no_results": "没有结果",
+        "save": "记录",
+        "hidden": "隐藏",
+        "optional": "自选",
+        "unreferenced": "未引用",
+        "active": "积极",
+        "inactive": "无效",
+        "activehelp": "对所有人可见",
+        "unreferencedhelp": "仅对管理员可见",
+        "hiddenhelp": "人人不可见",
+        "drop-file": {
+            "label": "将您的文件拖放到此处或单击以导入它们",
+            "help": "只允许使用扩展名为 {_extensions} 的文件"
+        },
+        "back": "返回",
+        "customer": "客户",
+        "details": "详",
+        "none": "没有",
+        "delete": "删除",
+        "cancel": "取消",
+        "amount": "量",
+        "already_sent": "已发送",
+        "email_trouble_clicking_button": "如果您在点击“{_actionText}”按钮时遇到问题，请复制并粘贴下面的 URL",
+        "group": "群",
+        "value": "价值",
+        "key": "钥匙",
+        "week": "周",
+        "updated": "更新",
+        "already_set": "已定义",
+        "create": "创造",
+        "unkwown": "未知",
+        "deleted": "已删除",
+        "action": "行动",
+        "is_downloaded": "下载",
+        "is_default": "默认",
+        "download": "下载",
+        "update": "更新",
+        "disable": "禁用",
+        "enable": "激活",
+        "store": "添加",
+        "listing": "列斯特",
+        "suspend": "悬挂",
+        "unsuspend": "重新激活",
+        "terminate": "结束",
+        "next": "下一步",
+        "send": "发送",
+        "users": "用户",
+        "user": "用户",
+        "expiration": "过期",
+        "expires_at": "到期了",
+        "reset": "重置",
+        "server": "服务器",
+        "is_enabled": "激活",
+        "is_disabled": "禁用",
+        "home": "首页"
+    },
+    "lang.fr.helpdesk": {
+        "ticket": "票",
+        "tickets": "票",
+        "subject": "主题",
+        "priority": "优先权",
+        "attachments": "附件",
+        "priorities": {
+            "low": "低音",
+            "medium": "平均",
+            "high": "高"
+        },
+        "department": "部门",
+        "support": {
+            "index": "我的门票",
+            "index_description": "以下是您的支持票证列表。",
+            "attachments_help": "最大大小 {_size} MB。允许的文件类型：{_types}",
+            "ticket_reopen_days": "您无法重新打开票证。您可以打开一个新的。",
+            "ticket_closed": "工单已关闭",
+            "ticket_reopened": "票证已重新打开",
+            "ticket_replied": "您的回复已发送",
+            "show": {
+                "replybystaff": "来自 {_app} 的响应",
+                "messagebystaff": "来自 {_app} 的消息",
+                "replybycustomer1": "您的答案",
+                "replybycustomer2": "客户响应",
+                "your_demand": "您的要求",
+                "reply": "答",
+                "replyandclose": "回复并关闭",
+                "close": "关闭",
+                "customer_demand": "客户要求",
+                "reopen": "重开",
+                "open_on": "打开时间 {_date}",
+                "closed_on": "关闭于 {_date}",
+                "attachments": "已将一个或多个附件添加到此工单",
+                "closed": "此工单已关闭。你无法回答。如果您需要帮助，请打开新工单或重新打开此工单。",
+                "replyinticket": "回复工单",
+                "closed2": "此工单已关闭。你无法回答。",
+                "index_description": "以下是支持票证的详细信息。",
+                "close_reason": "关闭原因",
+                "assigned_to": "被分配到",
+                "edit_message": "修改消息",
+                "edited_at": "消息已于{_date}修改",
+                "closed3": "此票已关闭。您无法回复。",
+                "comments": {
+                    "title": "评论",
+                    "add": "添加评论",
+                    "no_comments": "没有评论",
+                    "added": "评论已添加",
+                    "add_comment": "添加评论",
+                    "deleted": "评论已被删除"
+                }
+            },
+            "create": {
+                "index": "新票",
+                "index_description": "打开新的支持票证",
+                "relatedto": "相关",
+                "newticket": "新票",
+                "send": "发送",
+                "relatednone": "没有",
+                "messagehelp": "请提供尽可能多的详细信息，以帮助我们解决您的问题。"
+            },
+            "departmentsseeder": {
+                "general": {
+                    "name": "常规",
+                    "description": "综合部"
+                },
+                "billing": {
+                    "name": "发票",
+                    "description": "计费部"
+                },
+                "technical": {
+                    "name": "技术",
+                    "description": "技术部"
+                },
+                "sales": {
+                    "name": "商业",
+                    "description": "销售部"
+                }
+            },
+            "ticket_closed_by": "由{_name}关闭",
+            "ticket_auto_close": "票据在 {_days} 天后自动关闭",
+            "message_updated": "消息已更新"
+        },
+        "admin": {
+            "title": "帮助中心",
+            "description": "设置帮助中心并管理支持票证",
+            "open_tickets": "开放门票",
+            "settings": {
+                "title": "帮助中心设置",
+                "success": "已成功保存帮助中心设置。",
+                "description": "设置支持票证和帮助中心",
+                "fields": {
+                    "ticket_auto_close_days": "不活动后自动关闭工单（天）",
+                    "ticket_auto_close_days_help": "0 表示禁用",
+                    "allow_attachments": "允许附件",
+                    "allow_attachments_help": "允许用户将文件附加到他们的工单",
+                    "attachments_max_size": "最大附件大小 （MB）",
+                    "attachments_allowed_types": "允许的文件类型",
+                    "attachments_allowed_types_help": "用逗号分隔",
+                    "webhook_url": "Webhook URL",
+                    "reopen_days": "重新打开工单的授权（天）",
+                    "reopen_days_help": "0 将禁用重新打开，-1 将无限期允许"
+                }
+            },
+            "tickets": {
+                "pending_title": "待处理的工单",
+                "last_update": "最后更新",
+                "subheading": "这是系统中所有工单的列表",
+                "edit": "编辑工单",
+                "customer_not_found": "未找到客户",
+                "create": {
+                    "title": "创建工单",
+                    "subheading": "为客户创建新工单"
+                },
+                "graphs": "票务图表",
+                "closed_tickets": "关闭的请求",
+                "analytics": "票据分析",
+                "department_ticket_counts": "每个部门的票数",
+                "tickets_active": "请求待处理",
+                "tickets_active_description": "这是所有等待您回复的票据列表",
+                "tickets_to_reply_description": "这是客户待回复的所有票据列表",
+                "tickets_to_reply": "请求待回复",
+                "last_reply": "最后回答",
+                "no_department_stats": "目前未找到任何部门。",
+                "staff_message_counts": "每位工作人员的消息数量",
+                "no_staff_stats": "目前未找到任何工作人员。"
+            },
+            "departments": {
+                "title": "支持部门",
+                "description": "设置工单支持部门",
+                "subheading": "以下是系统中所有部门的列表",
+                "create": {
+                    "title": "创建部门",
+                    "subheading": "创建新的支持部门"
+                },
+                "show": {
+                    "title": "部门表 {_name}",
+                    "subheading": "以下是在 {_date} 上创建的与此部门相关的信息"
+                },
+                "error_delete": "无法删除此部门，因为它包含工单。"
+            },
+            "create_ticket": "创建请求",
+            "widgets": {
+                "pending_tickets": "待处理请求",
+                "active_tickets": "处理中请求",
+                "total_tickets": "所有请求的总数",
+                "tickets_last_week": "上周的票",
+                "avg_reply_time": "平均响应时间",
+                "messages_sent": "已发送的消息",
+                "avg_resolution_time": "平均解决时间"
+            }
+        }
+    },
+    "lang.fr.http-statuses": {
+        "0": "未知错误",
+        "100": "继续",
+        "101": "交换协议",
+        "102": "加工",
+        "200": "好吧",
+        "201": "创建",
+        "202": "接受",
+        "203": "未经授权的信息",
+        "204": "不高兴",
+        "205": "重置内容",
+        "206": "部分内容",
+        "207": "多状态",
+        "208": "已报告",
+        "226": "我已经习惯了",
+        "300": "多项选择",
+        "301": "永久移动",
+        "302": "发现",
+        "303": "查看更多",
+        "304": "未修改",
+        "305": "使用代理",
+        "307": "临时重定向",
+        "308": "永久重定向",
+        "400": "不良需求",
+        "401": "不允许",
+        "402": "需要付款",
+        "403": "禁止",
+        "404": "找不到页面",
+        "405": "不允许的方法",
+        "406": "不可接受",
+        "407": "需要代理身份验证",
+        "408": "应用程序到期时间",
+        "409": "冲突",
+        "410": "消失",
+        "411": "所需长度",
+        "412": "前提条件失败",
+        "413": "负载太大",
+        "414": "URI 太长",
+        "415": "不支持的媒体类型",
+        "416": "范围不满意",
+        "417": "等待失败",
+        "418": "我是茶壶",
+        "419": "会话已过期",
+        "421": "请求定向不当",
+        "422": "不可治疗的实体",
+        "423": "锁",
+        "424": "依赖项失败",
+        "425": "太早了",
+        "426": "需要升级",
+        "428": "先决条件",
+        "429": "请求过多",
+        "431": "请求太大的标头字段",
+        "444": "已关闭连接，无响应",
+        "449": "请重试",
+        "451": "因法律原因不可用",
+        "499": "客户端请求已关闭",
+        "500": "内部服务器错误",
+        "501": "未实施",
+        "502": "网关错误",
+        "503": "Mode de Maintenance",
+        "504": "网关超时",
+        "505": "不支持 HTTP 版本",
+        "506": "该变体还会协商",
+        "507": "空间不足",
+        "508": "检测到环路",
+        "509": "超出带宽限制",
+        "510": "未扩展",
+        "511": "需要网络身份验证",
+        "520": "未知错误",
+        "521": "Web 服务器已关闭",
+        "522": "连接超时",
+        "523": "源无法访问",
+        "524": "已超过时间限制",
+        "525": "SSL 握手失败",
+        "526": "无效的 SSL 证书",
+        "527": "铁路炮错误",
+        "598": "网络读取超时错误",
+        "599": "网络连接超时错误",
+        "unknownError": "未知错误"
+    },
+    "lang.fr.install": {
+        "install": "安装",
+        "step": "阶段",
+        "settings": {
+            "title": "参数",
+            "client_id": "客户端 ID",
+            "client_secret": "客户端密钥",
+            "hosting_name": "公司名称",
+            "connect": "登录",
+            "migrationwarning": "警告：数据库尚未迁移。请执行 php artisan migrate --force 迁移数据库。",
+            "detecteddomain": "检测到的域：{_domain}。确保域与您的许可证的域（包括子域，如果适用）完全匹配。"
+        },
+        "register": {
+            "title": "注册",
+            "btn": "创建账户",
+            "telemetry": "发送匿名的遥测数据。这帮助我们改进CMS并修复错误。您可以稍后在设置中禁用此选项。"
+        },
+        "summary": {
+            "title": "总结",
+            "btn": "完成"
+        },
+        "submit": "发送"
+    },
+    "lang.fr.maintenance": {
+        "settings": {
+            "title": "维护模式",
+            "description": "在 Customer Area 中启用或禁用维护模式",
+            "maintenance_enabled": "启用维护模式",
+            "maintenance_url": "维护 URL",
+            "maintenance_url_help": "绕过维护模式的 URL",
+            "maintenance_message": "维护消息",
+            "maintenance_message_help": "当用户在维护模式下访问站点时向用户显示的消息",
+            "maintenance_button_text": "维护按钮文本",
+            "maintenance_button_icon": "维护按钮图标",
+            "maintenance_button_url": "维护按钮 URL",
+            "success": "已成功更新维护设置"
+        },
+        "in_maintenance_title": "持续维护",
+        "in_maintenance_message": "该网站目前正在进行维护。请稍后再回来查看。"
+    },
+    "lang.fr.pagination": {
+        "next": "下一页 »",
+        "previous": "« 上一页"
+    },
+    "lang.fr.passwords": {
+        "reset": "您的密码已重置！",
+        "sent": "我们已通过电子邮件向您发送密码重置链接！",
+        "throttled": "请稍候，然后再试一次。",
+        "token": "此密码重置令牌无效。",
+        "user": "未找到使用此电子邮件地址的用户。"
+    },
+    "lang.fr.permissions": {
+        "admin": "管理员权限",
+        "services": "服务权限",
+        "helpdesk": "帮助中心权限",
+        "metadata": "元数据权限",
+        "billing": "计费权限",
+        "store": "Shop 权限",
+        "technical": "技术权限",
+        "customers": "客户端权限",
+        "earn_page": "收益页面",
+        "manage_permissions": "管理权限",
+        "manage_roles": "管理角色",
+        "show_email_messages": "查看电子邮件",
+        "dashboard_last_login": "上次登录 Customer Area",
+        "show_logs": "查看历史记录",
+        "show_customers": "查看客户",
+        "manage_customers": "管理客户",
+        "manage_staff": "管理人员",
+        "autologin_customer": "自动连接客户",
+        "manage_metadata": "管理元数据",
+        "show_metadata": "查看元数据",
+        "manage_invoices": "管理发票",
+        "show_invoices": "查看发票",
+        "create_invoices": "创建发票",
+        "show_services": "查看服务",
+        "deliver_services": "交付服务",
+        "manage_license": "管理许可证",
+        "manage_gateways": "管理支付网关",
+        "manage_extensions": "管理扩展",
+        "manage_staff_profile": "编辑五线谱配置文件",
+        "manage_database": "管理数据库",
+        "show_payment_methods": "查看付款方式",
+        "manage_services": "管理服务",
+        "create_tickets": "创建工单",
+        "show_tickets": "查看门票",
+        "reply_tickets": "回复工单",
+        "close_tickets": "关闭工单",
+        "manage_tickets": "管理工单",
+        "manage_departments": "管理部门",
+        "manage_products": "管理产品",
+        "manage_groups": "管理群组",
+        "manage_coupons": "管理优惠券",
+        "manage_servers": "管理服务器",
+        "manage_personalization": "管理自定义项",
+        "staff_permissions": "员工权限",
+        "manage_configoptions": "管理配置选项",
+        "send_email_messages": "发送电子邮件",
+        "show_helpdesk_analytics": "查看帮助中心的统计数据",
+        "manage_tickets_department": "仅管理 {_name} 部门的票据",
+        "manage_api_keys": "管理API密钥"
+    },
+    "lang.fr.personalization": {
+        "title": "定制",
+        "icon": "启动",
+        "addmenu": "添加菜单",
+        "demo": "演示",
+        "icon_help": "查看 icons.getbootstrap.com 上的图标列表",
+        "email_templates": {
+            "title": "电子邮件模板",
+            "description": "在 Customer Area 中自定义电子邮件模板",
+            "subheading": "这是系统中所有电子邮件模板的列表",
+            "locale": "舌",
+            "shouldnotchanged": "此字段是可编辑的，但除非在特殊情况下，否则不应修改",
+            "button_text": "按钮文本",
+            "subject": "电子邮件的主题",
+            "show": {
+                "title": "电子邮件模板表 {_name}",
+                "subheading": "以下是与 {_date} 创建的此电子邮件模板相关的信息"
+            },
+            "create": {
+                "title": "创建电子邮件模板",
+                "subheading": "为系统创建新的电子邮件模板"
+            },
+            "names": {
+                "invoice_paid": "发票已付",
+                "notify_expiration": "到期通知",
+                "wisp": "Wisp 送货",
+                "pterodactyl": "翼龙递送",
+                "virtualizor_vps": "Virtualizor VPS 交付",
+                "virtualizor_cloud": "VPS 经销商运输",
+                "pterobox": "送货 Pterobox",
+                "service_suspended": "暂停服务",
+                "invoice_created": "已创建发票",
+                "reset": "密码重置",
+                "verify": "电子邮件验证",
+                "plesk_hosting": "Plesk Hosting 交付",
+                "plesk_reseller": "Plesk 经销商运输",
+                "proxmox": "Proxmox 送货",
+                "support_admin_ticket_created": "已创建支持票证",
+                "support_admin_ticket_reply": "客户对支持工单的响应",
+                "support_customer_ticket_reply": "对支持票证的响应",
+                "notify_subscription_failed": "订阅付款失败通知",
+                "virtualizor_cloud_vps": "VPS 交付虚拟经销商",
+                "customer_banned": "客户被禁止",
+                "customer_suspended": "客户被暂停",
+                "customer_reactivated": "客户已重新激活"
+            },
+            "import": {
+                "title": "导入电子邮件模板",
+                "btn": "进口",
+                "invalid_file": "该文件必须是有效的 HTML 刀片文件",
+                "success": "电子邮件模板已成功导入。"
+            }
+        },
+        "description": "自定义客户区和公司社交网络中的菜单。",
+        "social": {
+            "title": "社交媒体",
+            "description": "个性化公司的社交网络",
+            "subheading": "这是系统中所有社交网络的列表",
+            "create": {
+                "title": "创建社交网络",
+                "subheading": "为公司创建新的社交网络"
+            },
+            "show": {
+                "title": "社交网络页面 {_name}",
+                "subheading": "以下是与 {_date} 上创建的这个社交网络相关的信息"
+            }
+        },
+        "config": {
+            "title": "配置",
+            "button": "配置我的主题",
+            "success": "配置已成功保存。"
+        },
+        "seo": {
+            "title": "SEO 设置",
+            "description": "自定义 Customer Area 的 SEO 设置",
+            "fields": {
+                "description": "客户区域描述",
+                "keywords": "Customer Area 关键字",
+                "keywords_help": "用逗号分隔",
+                "themecolor": "主色 （embed）",
+                "headscripts": "head 中的脚本",
+                "footscripts": "页脚中的脚本",
+                "disablereferencement": "禁用 SEO",
+                "site_title": "站点标题",
+                "site_title_help": "页面名称后面的浏览器选项卡中的站点标题"
+            },
+            "success": "SEO 设置已成功保存。"
+        },
+        "primary": {
+            "title": "主要颜色",
+            "description": "自定义客户区域的主要颜色",
+            "fields": {
+                "primary_color": "主打色",
+                "secondary_color": "辅助色"
+            },
+            "btnpreview": "实时渲染",
+            "preview_save": "您需要保存才能看到实时渲染"
+        },
+        "front_menu": {
+            "title": "顶部菜单",
+            "description": "自定义 Customer Area 的顶部菜单",
+            "help": "每个 URL 必须是唯一的。要添加外部链接，请使用以下格式：https://www.example.com"
+        },
+        "bottom_menu": {
+            "title": "页脚菜单",
+            "description": "自定义 Customer Area 的页脚菜单",
+            "help": "请注意，每个 URL 必须是唯一的"
+        },
+        "sections": {
+            "restoresuccess": "该部分已成功恢复。",
+            "restore": "恢复",
+            "title": "部分",
+            "subheading": "这是系统所有部分的列表",
+            "description": "自定义 Customer Area 的各个部分",
+            "content": "内容",
+            "show": {
+                "title": "编辑部分",
+                "subheading": "您可以根据需要编辑部分的内容"
+            },
+            "fields": {
+                "url": "部分页面",
+                "active": "积极"
+            },
+            "disable": "关闭",
+            "enable": "激活",
+            "types": {
+                "subheading": "以下是可以轻松添加到 {_name} 类别中的部分列表",
+                "title": "主题 {_name} 可用的部分"
+            },
+            "pages": {
+                "page_home": "主页",
+                "page_store": "店",
+                "title": "页",
+                "subheading": "以下是此页面的各部分列表",
+                "page_group": "{_name} 群组页面",
+                "page_checkout": "结帐页面",
+                "page_basket": "购物车页面",
+                "description": "管理页面 {_name} 的各个部分"
+            },
+            "errors": {
+                "notfound": "未找到部分",
+                "advanced_personalization": "请启用 Advanced Customization 模块以访问此部分"
+            },
+            "empty": "未找到该页面的任何部分。<br/>您可以从下面的主题导入一个。"
+        },
+        "home": {
+            "title": "主页",
+            "description": "Customer Area 主页上的设置",
+            "success": "主页设置已成功保存。",
+            "fields": {
+                "theme_home_title": "主页标题",
+                "theme_home_subtitle": "首页 字幕",
+                "theme_home_image": "首页图片",
+                "theme_home_enabled": "启用主页",
+                "theme_home_title_meta": "主页名称",
+                "theme_home_title_meta_help": "浏览器选项卡中的主页名称"
+            }
+        },
+        "theme": {
+            "title": "主题设置",
+            "description": "Customer Area Theme 设置",
+            "success": "主题设置已成功保存。",
+            "fields": {
+                "theme_footer_description": "页脚描述",
+                "theme_footer_description_help": "HTML 支持",
+                "theme_footer_topheberg": "徽章 HTML TopHeberg",
+                "theme_header_logo": "在页眉中显示 logo 而不是公司名称",
+                "theme_switch_mode": {
+                    "title": "授权模式",
+                    "light": "明亮",
+                    "dark": "黑暗",
+                    "both": "双"
+                }
+            },
+            "themename": "主题名称",
+            "enabled": "激活",
+            "disabled": "禁用",
+            "not_found": "尚未找到主题。"
+        },
+        "addline": "添加行",
+        "useful": "实用信息",
+        "badge": "徽章",
+        "adddropdownmenu": "添加下拉菜单",
+        "icon_help2": "您可以使用图像的 URL 代替图标",
+        "menu_links": {
+            "title": "菜单链接",
+            "description": "个性化客户空间菜单的链接",
+            "icon_help2": "您可以用图片的 URL 替代图标",
+            "allowed_role": "授权角色",
+            "link_type": "链接类型",
+            "new_tab": "新标签页",
+            "link": "链接",
+            "dropdown": "下拉菜单",
+            "parent": "父母",
+            "allowed_roles": {
+                "all": "所有人",
+                "logged": "连接的",
+                "customer": "拥有服务的客户",
+                "staff": "人员"
+            },
+            "link_types": {
+                "new_tab": "新标签页",
+                "link": "链接",
+                "dropdown": "下拉菜单"
+            }
+        },
+        "addelement": "添加一个元素"
+    },
+    "lang.fr.provisioning": {
+        "disk": "磁盘",
+        "in_gb": "值 （GB）",
+        "memory": "记忆",
+        "cpu": "处理器",
+        "io": "I/O （输入输出）",
+        "database": "数据库",
+        "backups": "备份",
+        "databases": "数据库",
+        "swap": "交换",
+        "allocations": "津贴",
+        "bandwidth": "带宽",
+        "connect": "连接到面板",
+        "start": "启动服务器",
+        "stop": "关闭服务器",
+        "restart": "重新启动服务器",
+        "kill": "关闭服务器",
+        "image": "Docker 镜像",
+        "startup": "启动控制",
+        "port_range": "端口范围",
+        "port_range_help": "例如：30100-30200 用于 FiveM",
+        "eggs": "游戏蛋",
+        "location": "位置",
+        "servers": "授权服务器",
+        "server": "服务器",
+        "server_name": "服务器名称",
+        "server_description": "服务器描述",
+        "db": "数据库",
+        "dedicated_ip": "专用 IP",
+        "cores": "红桃",
+        "rate": "借方",
+        "sockets": "插座",
+        "oom_kill": "哎呀杀",
+        "used": "使用",
+        "planname": "托管计划名称",
+        "domain": "域",
+        "sites": "授权站点",
+        "subftp_users": "其他 FTP 用户",
+        "autologin": "自动连接",
+        "see_website": "访问网站",
+        "ftp_login": "FTP 标识",
+        "ftp_password": "FTP 密码",
+        "php_version": "Version de PHP",
+        "www_root": "网站根目录",
+        "ip_addresses": "IP 地址",
+        "unlimited": "无限",
+        "traffic": "交通",
+        "domains": "地区",
+        "clients": "客户",
+        "website_info": "网站信息",
+        "product_not_configured": "产品尚未配置。请从管理界面配置产品。",
+        "planname_help": "您可以在 {_plateform} 面板中配置托管计划的名称",
+        "server_variables": "%owner_email%、%owner_username%、%owner_firstname%、%owner_lastname%、%product_name%、%service_id%、%service_expiration%",
+        "states": {
+            "running": "点燃",
+            "stopped": "灭绝",
+            "starting": "开始",
+            "stopping": "正在关闭"
+        },
+        "admin": {
+            "title": "供应",
+            "subheading": "管理客户的服务供应。",
+            "settings": {
+                "services": {
+                    "title": "服务设置",
+                    "webhookonrenew": "续订时 Webhook",
+                    "success": "已成功保存服务的设置。",
+                    "description": "服务设置",
+                    "subscription": "订阅",
+                    "fields": {
+                        "days_before_creation_invoice_renewal": "创建续订发票前的天数",
+                        "days_before_expiration": "到期前天数",
+                        "service_days_before_subscription_renewal": "订阅续订前的天数",
+                        "max_subscription_tries": "最大自动续订尝试次数",
+                        "max_subscription_tries_help": "在此数字之后，订阅将被取消 .0 以禁用",
+                        "service_days_before_subscription_renewal_help": "它设置在到期日期之前执行发票付款的天数。它必须小于创建续订发票之前的天数。",
+                        "notifications_expiration_days": "到期前通知天数",
+                        "days_before_expiration_help": "服务暂停后服务停止前的天数"
+                    }
+                }
+            },
+            "servers": {
+                "testconnection": {
+                    "title": "测试连接",
+                    "button": "检查",
+                    "data": "返回的数据",
+                    "statuscode": "状态代码"
+                },
+                "title": "服务器",
+                "subheading": "查找所有服务器的列表",
+                "hostname": "主机名",
+                "address": "IP地址",
+                "port": "港口",
+                "type": "服务器类型",
+                "show": {
+                    "title": "服务器表 {_name}",
+                    "subheading": "以下是与 {_date} 上创建的此服务器相关的信息"
+                },
+                "create": {
+                    "title": "创建服务器",
+                    "subheading": "创建一个新服务器以将其连接到系统",
+                    "enable_extension": "启用扩展",
+                    "enable_extension_help": "您必须启用扩展才能创建服务器。您可以根据自己的使用情况选择 Pterodactyl、Plesk、Proxmox 或 Virtualizor 等。"
+                }
+            },
+            "services": {
+                "no_gateway": "没有为此服务设置支付网关",
+                "invoice_not_found": "未找到发票",
+                "invalid_status": "无效状态",
+                "invalid_customer": "无效的顾客",
+                "status_change_failed": "无法更改服务状态：{_error}",
+                "title": "服务业",
+                "add_days": "添加天数",
+                "sub_days": "减去天数",
+                "add_days_question": "您要增加多少天？",
+                "sub_days_question": "你想减去多少天？",
+                "invalid_product_type": "服务类型无效。您请求了 {_product} 类型的产品并选择了 {_type} 类型。请选择相同的类型。",
+                "expired": "此服务已过期或已结束。",
+                "delete_failed": "无法删除服务器上的服务 {_error}",
+                "customer": "客户",
+                "imported": "已成功导入服务",
+                "create": {
+                    "nothingtoshow": "目前没有可用的服务配置。您可以创建服务",
+                    "title": "创建服务",
+                    "subheading": "创建新服务或导入现有服务",
+                    "btn1": "下一个",
+                    "btn2": "进口",
+                    "choose": "选择现有服务器",
+                    "import": "<u> 或</u>&nbsp;导入服务",
+                    "new": "创建新服务",
+                    "created": "服务已成功创建",
+                    "importbtn": "进口商"
+                },
+                "show": {
+                    "customerbtn": "客户档案",
+                    "type": "服务类型",
+                    "notes": "服务说明",
+                    "title": "Service sheet {_name}",
+                    "initial_price": "初始价格",
+                    "max_renewals": "最大续订数",
+                    "expires_at": "呼气",
+                    "subheading": "以下是与在 {_date} 创建的 {_owner} 服务的相关信息",
+                    "panel": {
+                        "title": "管理面板"
+                    },
+                    "description_help": "您可以为此服务添加描述。客户将在其空间中看到。",
+                    "notes_help": "您可以为此服务添加备注。客户将看不到它."
+                },
+                "subheading": "以下是系统中所有服务的列表",
+                "renewals": {
+                    "btn": "更新",
+                    "title": "服务续订",
+                    "create": "开具续订发票",
+                    "btn2": "开具发票",
+                    "remove": "提取发票",
+                    "removed": "发票已成功提取",
+                    "fromexistinginvoice": "添加到现有待处理发票"
+                },
+                "delivery": {
+                    "btn": "提供服务",
+                    "btn2": "重新交付服务",
+                    "success": "服务已成功交付",
+                    "reinstall": "服务将再次交付",
+                    "not_pending": "服务未等待交货"
+                },
+                "suspend": {
+                    "btn": "挂",
+                    "title": "暂停服务",
+                    "reason": "暂停原因",
+                    "success": "已成功暂停服务",
+                    "notify": "发送通知电子邮件",
+                    "suspend_at": "暂停时间"
+                },
+                "unsuspend": {
+                    "btn": "激活",
+                    "title": "重新激活服务",
+                    "success": "已成功重新激活服务"
+                },
+                "terminate": {
+                    "btn": "完成",
+                    "title": "完成服务",
+                    "success": "服务已成功过期"
+                },
+                "data": {
+                    "title": "服务数据",
+                    "btn": "数据",
+                    "orderdata": "订单数据"
+                },
+                "cancel": {
+                    "btn": "取消",
+                    "message": "传达的信息",
+                    "title": "取消服务",
+                    "restore": "恢复服务",
+                    "reason": "取消原因",
+                    "success": "已成功取消服务"
+                },
+                "uncancel": {
+                    "success": "服务已成功恢复"
+                },
+                "configoptions": {
+                    "btn": "服务选项",
+                    "addoption": "添加其他选项",
+                    "addoption_help": "这将在 Customer Area 上为这项服务添加一个额外的选项。该选项不会自动添加到服务中。"
+                },
+                "upgrade": {
+                    "btn": "服务改进",
+                    "success": "该服务已成功改进。",
+                    "makeupgrade": "改善服务",
+                    "upgrade_type": "增强类型",
+                    "upgrade_types": {
+                        "invoice": "生成要由客户支付的发票",
+                        "no_invoice": "改进无计费服务",
+                        "add_in_next_invoice": "立即升级并添加到下一张续订发票"
+                    }
+                },
+                "pricing_custom": "此服务的价格必须手动设置。您可以稍后更改它。",
+                "pricing_custom2": "该服务的价格是手动配置的。它允许或不允许计费周期。",
+                "resync": "与产品重新同步",
+                "pricing_synchronized": "服务价格与产品价格同步。如果您希望，可以仅为此服务修改价格。",
+                "tab_not_found": "无法找到选项卡"
+            },
+            "subdomains_hosts": {
+                "title": "子域",
+                "subdomain": "子域",
+                "subheading": "管理客户可以将哪些域与子域一起使用。",
+                "create": {
+                    "title": "创建子域",
+                    "subheading": "为客户创建新的子域。"
+                },
+                "show": {
+                    "title": "子域列表 {_name}",
+                    "subheading": "以下是与 {_date} 上创建的此子域相关的信息"
+                },
+                "choose_domain": "选择域",
+                "use_subdomain": "选择子域 {_app_name}",
+                "use_owndomain": "使用现有域"
+            },
+            "configoptions_services": {
+                "title": "服务配置选项",
+                "subheading": "定义可用于客户服务的其他选项，包括自定义和预置模块。",
+                "show": {
+                    "title": "配置选项卡 {_name}",
+                    "see_service": "查看服务",
+                    "subheading": "以下是与在 {_date} 上创建的此配置选项相关的信息"
+                }
+            },
+            "upgrade_services": {
+                "title": "服务改进",
+                "subheading": "管理服务改进。",
+                "old_product": "旧产品",
+                "new_product": "新产品",
+                "upgraded": "改进",
+                "show": {
+                    "title": "改进表 {_name}",
+                    "subheading": "以下是在 {_date} 上创建的与此改进的相关信息"
+                }
+            },
+            "configoptions": {
+                "title": "配置选项",
+                "subheading": "管理和自定义可用的各种配置选项，以确保最佳地适应特定要求。",
+                "hidden": "警告：此选项暂时处于隐藏状态，以便对其进行编辑。完成后，您可以使其可见。",
+                "option_added": "选项已成功添加",
+                "option_last": "您无法删除最后一个选项",
+                "per_unit": "价格为每 {_unit}",
+                "per_step": "价格为每 {_step} {_unit}",
+                "show": {
+                    "title": "配置选项卡 {_name}",
+                    "subheading": "以下是与在 {_date} 上创建的此配置选项相关的信息",
+                    "options": {
+                        "title": "可用选项",
+                        "add_option": "添加选项",
+                        "friendly_name": "显示名称"
+                    }
+                },
+                "create": {
+                    "title": "创建配置选项",
+                    "subheading": "为服务创建新的配置选项。"
+                },
+                "fields": {
+                    "custom_key": "自定义密钥",
+                    "max_value": "最大值",
+                    "min_value": "最小值",
+                    "required": "必填",
+                    "default_value": "违约",
+                    "step": "光标步骤",
+                    "unit": "单位",
+                    "rules": "其他 Laravel 规则"
+                },
+                "types": {
+                    "text": "发短信",
+                    "textarea": "文本框",
+                    "dropdown": "下拉菜单",
+                    "radio": "单选按钮",
+                    "checkbox": "复选框",
+                    "number": "数",
+                    "slider": "光标"
+                },
+                "keys": {
+                    "additional_memory": "额外提交",
+                    "additional_cores": "其他内核",
+                    "additional_ips": "其他 IP",
+                    "additional_sockets": "附加插槽",
+                    "ratelimit": "借方",
+                    "additional_disk": "扩展盘",
+                    "node": "交付节点",
+                    "server_id": "服务器/位置",
+                    "additional_swap": "额外掉期",
+                    "additional_cpu": "附加处理器",
+                    "additional_databases": "其他数据库",
+                    "additional_backups": "其他备份",
+                    "additional_io": "额外的 I/O",
+                    "additional_allocations": "额外限额",
+                    "custom": "习惯"
+                }
+            }
+        },
+        "active_services": "主动服务",
+        "in_mb": "值 （MB）",
+        "network_speed": "网络速度",
+        "upload_speed": "上传速度",
+        "ips": "IPS",
+        "ip6": "IP6 防护等级",
+        "ip6subnet": "IP6 子网",
+        "burstable_memory": "可突增内存",
+        "guaranteed_memory": "保证内存",
+        "vnc": "VNC",
+        "region": "地区",
+        "oses": "操作系统",
+        "config_option": "配置选项",
+        "autologin_admin": "以管理员身份自动连接",
+        "doyouwantreallyreinstallvps": "您真的想重新安装这个服务器吗？",
+        "disks": "唱片"
+    },
+    "lang.fr.recurring": {
+        "onetime": "终身",
+        "monthly": "每月",
+        "quarterly": "季刊",
+        "semiannually": "一年两次",
+        "annually": "年刊",
+        "biennially": "双年展",
+        "triennially": "三年展",
+        "month": "月",
+        "year": "年",
+        "years": "年",
+        "quarter": "季度",
+        "half-year": "学期",
+        "week": "周",
+        "weekly": "周刊"
+    },
+    "lang.fr.store": {
+        "admin": "",
+        "basket": {
+            "title": "篮子",
+            "empty": "您的购物车是空的",
+            "total": "总",
+            "checkout": "次序",
+            "continue": "继续购物",
+            "remove": "删除",
+            "coupon": "优惠券代码",
+            "coupon_placeholder": "输入您的促销代码",
+            "coupon_apply": "应用",
+            "contactus": "联系我们",
+            "no_prices": "没有适用于您的货币的价格",
+            "not_valid": "此产品不可用",
+            "stockout": "此产品已下架",
+            "coupon_applied": "应用折扣",
+            "coupon_invalid": "促销代码无效",
+            "coupon_expired": "过期的促销代码",
+            "coupon_notyetactive": "非有效促销代码",
+            "coupon_minimum": "未达到最低订单金额",
+            "coupon_maximum": "已超过最大订单金额",
+            "addtocart": "加入购物车",
+            "paytoday": "立即付款",
+            "finish": "完成",
+            "removed": "此产品已从您的购物车中删除",
+            "added": "此产品已添加到您的购物车",
+            "quantity_changed": "数量已更改",
+            "already_ordered": "您已经订购了 {_product} 服务"
+        },
+        "checkout": {
+            "title": "次序",
+            "invalidcurrency": "您的购物车包含不同货币的产品。这些产品已从您的购物车中删除",
+            "invalidproduct": "您的购物车包含无效产品。这些产品已从您的购物车中删除",
+            "choose_payment": "选择您的付款方式",
+            "terms": "一般销售条款与条件",
+            "minimal_amount": "此付款方式的最低金额为 {_amount}",
+            "mustbelogged": "您必须登录后才能下订单",
+            "gateway_not_found": "未找到付款方式",
+            "email_must_be_verified": "您必须确认您的帐户才能下订单",
+            "wrong_payment": "您的付款出现问题",
+            "success": "您的订单已成功下达",
+            "choose_payment_method": "已登记的支付方式",
+            "payment_method_not_found": "支付方式未找到",
+            "not_use_payment_method": "请勿使用已注册的支付方式",
+            "choose_payment_method_description": "您可以选择一种已注册的付款方式，以避免每次下订单时输入付款信息。"
+        },
+        "product": {
+            "setupmessage": "{_unit} 先支付 {_first} {_currency} {_tax}，然后 {_recurring} {_currency} {_tax}",
+            "nocharge": "{_unit} 支付 {_first} {_currency} {_tax}",
+            "freemessage": "此产品在取消或过期之前是免费的。",
+            "outofstock": "缺货",
+            "personalized": "习惯",
+            "noproduct": "未找到产品"
+        },
+        "config": {
+            "title": "配置产品/服务",
+            "summary": "总结",
+            "summary_description": "检查您的订单",
+            "billing": "发票",
+            "recurring_payment": "定期付款",
+            "options": "其他选项",
+            "onetime_payment": "一次性付款"
+        },
+        "mustpopular": "最受欢迎",
+        "qty": "数量",
+        "pinned": "寄托",
+        "store": "店",
+        "subtotal": "小计",
+        "store_subheading": "了解我们的优惠",
+        "from_price": "来自 {_price} {_currency}",
+        "taxes": "税",
+        "total": "总",
+        "price": "价格",
+        "fees": "安装费用",
+        "unit": "单位",
+        "tax": "税",
+        "vat": "增值税",
+        "unit_price": "单价",
+        "recurring_price": "经常性价格",
+        "setup_price": "安装费用",
+        "title": "店",
+        "subtitle": "了解我们的优惠",
+        "ht": "HT 系列",
+        "ttc": "TTC",
+        "transaction_fee": "交易费用",
+        "per": "由",
+        "our_offers": "我们的产品"
+    },
+    "lang.fr.validation": {
+        "accepted": "必须接受 {_attribute} 字段。",
+        "accepted_if": "当 {_other} 设置为 {_value} 时，必须接受 {_attribute} 字段。",
+        "active_url": "{_attribute} 字段不是有效的 URL。",
+        "after": "{_attribute} 字段必须是 {_date} 之后的日期。",
+        "after_or_equal": "{_attribute} 字段必须是小于或等于 {_date} 的日期。",
+        "alpha": "{_attribute} 字段必须仅包含字母。",
+        "alpha_dash": "{_attribute} 字段必须仅包含字母、数字和短划线。",
+        "alpha_num": "{_attribute} 字段必须仅包含数字和字母。",
+        "array": "{_attribute} 字段必须是一个表。",
+        "ascii": "{_attribute} 字段必须仅包含字母数字字符和单字节编码符号。",
+        "before": "{_attribute} 字段必须是 {_date} 之前的日期。",
+        "before_or_equal": "{_attribute} 字段必须是早于 {_date} 或等于 {} 的日期。",
+        "phone": "{_attribute} 字段必须是有效的电话号码。",
+        "between": {
+            "array": "{_attribute} 数组必须包含 {_min} 和 {_max} 元素。",
+            "file": "文件大小 {_attribute} 必须介于 {_min} 和 {_max} KB 之间。",
+            "numeric": "{_attribute} 的值必须介于 {_min} 和 {_max} 之间。",
+            "string": "{_attribute} 文本必须介于 {_min} 和 {_max} 个字符之间。"
+        },
+        "2fa_code": "双重验证码无效。",
+        "boolean": "{_attribute} 字段必须为 true 或 false。",
+        "can": "{_attribute} 字段包含未经授权的值。",
+        "confirmed": "确认字段 {_attribute} 不匹配。",
+        "current_password": "密码不正确。",
+        "date": "{_attribute} 字段不是有效日期。",
+        "date_equals": "{_attribute} 字段必须是等于 {_date} 的日期。",
+        "date_format": "{_attribute} 字段与 {_format} 格式不匹配。",
+        "decimal": "{_attribute} 字段必须有 {_decimal} 个小数位。",
+        "declined": "必须拒绝 {_attribute} 字段。",
+        "declined_if": "当 {_attribute} 设置为 {_other} 时，应拒绝 {_value} 字段。",
+        "different": "{_attribute} 和 {_other} 字段必须不同。",
+        "digits": "{_attribute} 字段必须包含 {_digits} 位数字。",
+        "digits_between": "{_attribute} 字段必须包含 {_min} 到 {_max} 之间的数字。",
+        "dimensions": "{_attribute} 映像的大小不符合要求。",
+        "distinct": "{_attribute} 字段具有重复的值。",
+        "doesnt_end_with": "{_attribute} 字段不得以下列值之一结尾：{_values}。",
+        "doesnt_start_with": "{_attribute} 字段不得以下值之一开头：{_values}。",
+        "email": "{_attribute} 字段必须是有效的电子邮件地址。",
+        "ends_with": "{_attribute} 字段必须以下列值之一结尾：{_values}。",
+        "enum": "所选的 {_attribute} 字段无效。",
+        "exists": "所选的 {_attribute} 字段无效。",
+        "file": "{_attribute} 字段必须是一个文件。",
+        "filled": "{_attribute} 字段必须具有值。",
+        "gt": {
+            "array": "{_attribute} 数组必须包含超过 {_value} 个项目。",
+            "file": "文件大小 {_attribute} 必须大于 {_value} KB。",
+            "numeric": "{_attribute} 的值必须大于 {_value}。",
+            "string": "{_attribute} 文本必须包含超过 {_value} 个字符。"
+        },
+        "gte": {
+            "array": "{_attribute} 数组必须至少包含 {_value} 个元素。",
+            "file": "文件大小 {_attribute} 必须大于或等于 {_value} KB。",
+            "numeric": "{_attribute} 的值必须大于或等于 {_value}。",
+            "string": "{_attribute} 文本必须至少包含 {_value} 个字符。"
+        },
+        "image": "{_attribute} 字段必须是图像。",
+        "in": "{_attribute} 字段无效。",
+        "in_array": "{_attribute} 字段在 {_other} 中不存在。",
+        "integer": "{_attribute} 字段必须为整数。",
+        "ip": "{_attribute} 字段必须是有效的 IP 地址。",
+        "ipv4": "{_attribute} 字段必须是有效的 IPv4 地址。",
+        "ipv6": "{_attribute} 字段必须是有效的 IPv6 地址。",
+        "json": "{_attribute} 字段必须是有效的 JSON 文档。",
+        "lowercase": "{_attribute} 字段必须为小写。",
+        "lt": {
+            "array": "{_attribute} 数组包含的元素必须少于 {_value} 个。",
+            "file": "{_attribute} 的文件大小必须小于 {_value} KB。",
+            "numeric": "{_attribute} 的值必须小于 {_value}。",
+            "string": "{_attribute} 文本包含的字符数必须少于 {_value}。"
+        },
+        "lte": {
+            "array": "数组 {_attribute} 包含的元素不得超过 {_value} 个。",
+            "file": "文件大小 {_attribute} 必须小于或等于 {_value} KB。",
+            "numeric": "{_attribute} 的值必须小于或等于 {_value}。",
+            "string": "{_attribute} 文本包含的字符不得超过 {_value} 个字符。"
+        },
+        "mac_address": "{_attribute} 字段必须是有效的 MAC 地址。",
+        "max": {
+            "array": "{_attribute} 数组不能包含超过 {_max} 个项目。",
+            "file": "{_attribute} 的文件大小不能超过 {_max} KB。",
+            "numeric": "{_attribute} 的值不能大于 {_max}。",
+            "string": "{_attribute} 中的文本不能包含超过 {_max} 个字符。"
+        },
+        "max_digits": "{_attribute} 字段的长度不得超过 {_max} 位数字。",
+        "mimes": "{_attribute} 字段必须是 {_values} 类型的文件。",
+        "mimetypes": "{_attribute} 字段必须是 {_values} 类型的文件。",
+        "min": {
+            "array": "{_attribute} 数组必须至少包含 {_min} 个元素。",
+            "file": "文件大小 {_attribute} 必须大于或等于 {_min} KB。",
+            "numeric": "{_attribute} 的值必须大于或等于 {_min}。",
+            "string": "{_attribute} 中的文本必须至少包含 {_min} 个字符。"
+        },
+        "min_digits": "{_attribute} 字段必须至少有 {_min} 位数字。",
+        "missing": "必须缺少 {_attribute} 字段。",
+        "missing_if": "当 {_attribute} 设置为 {_value} 时，应缺少 {_other} 字段。",
+        "missing_unless": "除非 {_other} 设置为 {_value}，否则 {_attribute} 字段应缺失。",
+        "missing_with": "当 {_attribute} 存在时，应缺少 {_values} 字段。",
+        "missing_with_all": "当 {_attribute} 存在时，应缺少 {_values} 字段。",
+        "multiple_of": "{_attribute} 的值必须是 {_value} 的倍数。",
+        "not_in": "所选的 {_attribute} 字段无效。",
+        "not_regex": "{_attribute} 字段的格式不正确。",
+        "numeric": "{_attribute} 字段必须包含一个数字。",
+        "password": {
+            "letters": "{_attribute} 字段必须至少包含一个字母。",
+            "mixed": "{_attribute} 字段必须至少包含一个大写字母和一个小写字母。",
+            "numbers": "{_attribute} 字段必须至少包含一个数字。",
+            "symbols": "{_attribute} 字段必须至少包含一个元件。",
+            "uncompromised": "{_attribute} 字段的值出现在数据泄漏中。请选择其他值。"
+        },
+        "present": "必须存在 {_attribute} 字段。",
+        "present_if": "当 {_attribute} 为 {_other} 时，必须存在 {_value} 字段。",
+        "present_unless": "除非 {_other} 为 {_value}，否则 {_attribute} 字段必须存在。",
+        "present_with": "当 {_attribute} 存在时，必须存在 {_values} 字段。",
+        "present_with_all": "当 {_attribute} 存在时，必须存在 {_values} 字段。",
+        "prohibited": "禁止使用 {_attribute} 字段。",
+        "prohibited_if": "当 {_other} 设置为 {_value} 时，禁止使用 {_attribute} 字段。",
+        "prohibited_unless": "除非 {_other} 是 {_values} 值之一，否则禁止使用 {_attribute} 字段。",
+        "prohibits": "{_attribute} 字段禁止 {_other} 存在。",
+        "regex": "{_attribute} 字段的格式不正确。",
+        "required": "{_attribute} 字段为必填字段。",
+        "required_array_keys": "{_attribute} 字段必须包含以下项的条目：{_values}。",
+        "required_if": "当 {_other} 的值为 {_value} 时，{_attribute} 字段是必需的。",
+        "required_if_accepted": "接受 {_attribute} 字段时，{_other} 字段是必需的。",
+        "required_unless": "除非 {_other} 为 {_values}，否则 {_attribute} 字段是必需的。",
+        "required_with": "当 {_attribute} 存在时，{_values} 字段是必需的。",
+        "required_with_all": "当 {_attribute} 存在时，该字段是必需的_values。",
+        "required_without": "当 {_attribute} 不存在时，{_values} 字段是必需的。",
+        "required_without_all": "当 {_attribute} 中不存在 {_values} 时，该字段是必需的。",
+        "same": "{_attribute} 和 {_other} 字段必须相同。",
+        "size": {
+            "array": "数组 {_attribute} 必须包含 {_size} 个元素。",
+            "file": "{_attribute} 的文件大小必须为 {_size} KB。",
+            "numeric": "{_attribute} 的值应为 {_size}。",
+            "string": "{_attribute} 中的文本必须包含 {_size} 个字符。"
+        },
+        "starts_with": "{_attribute} 字段必须以下值之一开头：{_values}。",
+        "string": "{_attribute} 字段必须为字符串。",
+        "timezone": "{_attribute} 字段必须是有效的时区。",
+        "ulid": "{_attribute} 字段必须是有效的 ULID。",
+        "unique": "{_attribute} 字段的值已在使用中。",
+        "uploaded": "无法上传 {_attribute} 字段中的文件。",
+        "uppercase": "{_attribute} 字段必须为大写。",
+        "url": "{_attribute} 的 URL 格式不正确。",
+        "uuid": "{_attribute} 字段必须是有效的 UUID。",
+        "attributes": {
+            "address": "地址",
+            "age": "年龄",
+            "amount": "量",
+            "area": "区",
+            "available": "可用",
+            "birthday": "周年",
+            "body": "身体",
+            "city": "镇",
+            "content": "内容",
+            "country": "国家",
+            "created_at": "创建于",
+            "creator": "造物主",
+            "current_password": "当前密码",
+            "date": "日期",
+            "date_of_birth": "出生日期",
+            "day": "日",
+            "deleted_at": "删除时间",
+            "description": "描述",
+            "district": "季度",
+            "duration": "期间",
+            "email": "电子邮件地址",
+            "excerpt": "提取",
+            "filter": "滤波器",
+            "firstname": "名字",
+            "gender": "性",
+            "group": "群",
+            "hour": "小时",
+            "image": "图像",
+            "last_name": "名字",
+            "lesson": "课",
+            "line_address_1": "地址行 1",
+            "line_address_2": "地址行 2",
+            "message": "消息",
+            "middle_name": "中间名",
+            "minute": "分钟",
+            "mobile": "便携式",
+            "month": "月",
+            "name": "名字",
+            "national_code": "国家代码",
+            "number": "数",
+            "password": "密码",
+            "password_confirmation": "密码确认",
+            "phone": "电话",
+            "photo": "相片",
+            "postal_code": "邮政编码",
+            "price": "价格",
+            "province": "地区",
+            "recaptcha_response_field": "ReCAPTCHA 响应字段",
+            "remember": "记得",
+            "restored_at": "restored 到",
+            "result_text_under_image": "图像下方的结果文本",
+            "role": "角色",
+            "second": "第二",
+            "sex": "性",
+            "short_text": "短文本",
+            "size": "腰",
+            "state": "州",
+            "street": "街",
+            "student": "学生",
+            "subject": "主题",
+            "teacher": "老师",
+            "terms": "条件",
+            "test_description": "描述 测试",
+            "test_locale": "测试地点",
+            "test_name": "测试名称",
+            "text": "发短信",
+            "time": "小时",
+            "title": "标题",
+            "updated_at": "更新时间",
+            "username": "用户名",
+            "year": "年"
+        },
+        "domain_is_registered": "域 {_attribute} 已注册。"
+    },
+    "lang.fr.webhook": {
+        "url": "Webhook URL",
+        "variables": "可用变量：{_variables}",
+        "checkout": {
+            "title": "新订单",
+            "description": "已下新订单"
+        },
+        "domain": "域",
+        "renew": {
+            "title": "服务续订",
+            "description": "服务已续订"
+        },
+        "ticket": {
+            "title": "新票",
+            "description": "已创建新票证"
+        },
+        "ticket_answer": {
+            "title": "响应工单",
+            "description": "工单已得到解答"
+        },
+        "ticket_staff": {
+            "title": "工作人员对工单的回复"
+        },
+        "upgrade": {
+            "title": "服务升级",
+            "description": "服务已升级"
+        }
+    },
+    "addons.fund.lang.fr.messages": {
+        "transfer_title": "转账",
+        "credit_title": "存入资金",
+        "invoice": {
+            "add_credit": "添加了 {_amount} 个积分"
+        },
+        "recipient": "收件人",
+        "transfer": {
+            "not_enough_funds": "您没有足够的资金进行此笔转账",
+            "max_amount": "最高转账金额为 {_amount}",
+            "min_amount": "最低转账金额为 {_amount}",
+            "min_invoice": "您必须向您的账户添加至少 {_amount} 才能进行转账",
+            "title": "转账",
+            "description": "在两个账户之间转账",
+            "recipient": "收款人账户电子邮件",
+            "btn": "转移",
+            "cancel": "转移已被取消",
+            "success": "传输已成功完成。您可以在 {_minutes} 分钟内取消此转移。",
+            "already_pending": "转移已处于待处理状态。请稍候，然后再制作另一个",
+            "recipient_not_found": "未找到收件人"
+        },
+        "card": {
+            "title": "为我的账户注资",
+            "description": "记入您的帐户以在我们的平台上购物",
+            "amount": "贷记金额",
+            "gateway": "付款方式",
+            "currentbalance": "当前余额",
+            "error": "无法记入您的账户。没有可用的付款方式。请联系支持人员。"
+        },
+        "transfer_table": {
+            "title": "转移历史"
+        },
+        "admin": {
+            "transfers": {
+                "title": "资金转账",
+                "transferred_at": "转移到",
+                "subtitle": "在此处查找资金转账列表"
+            },
+            "settings": {
+                "title": "资金设置",
+                "subtitle": "管理资金扩展设置",
+                "success": "已成功保存设置",
+                "fields": {
+                    "max_amount": "最大蒙量",
+                    "min_amount": "最低金额",
+                    "for_add_credit": "用于添加信用",
+                    "for_transfer": "账户间转账",
+                    "minutes_delay": "传输时间（分钟）",
+                    "minutes_delay_description": "账户间转移时间",
+                    "min_invoice": "能够进行转账的最低存款额",
+                    "min_invoice_description": "为能够进行转账而添加到账户的金额。0 表示禁用",
+                    "authorize_between_accounts": "允许在账户之间转账"
+                }
+            }
+        }
+    },
+    "modules.download.lang.fr.admin": {
+        "download_files": {
+            "title": "下载文件",
+            "description": "管理文件和下载版本",
+            "external_file": "外部文件",
+            "local_file": "本地文件",
+            "adapter": "适应",
+            "downloads": "下载",
+            "downloads_limit": "下载限制",
+            "downloads_limit_help": "Leave 0 表示 Unlimited",
+            "protected": "Protégé",
+            "last_version": "最新版本",
+            "add_version": "添加版本",
+            "version": "版本",
+            "version_created_at": "Version 创建了 {_date}。{_downloads} 次下载",
+            "protected_help": "如果启用，客户将需要购买它才能下载",
+            "max_upload_size": "最大上传大小为 {_size}",
+            "create": {
+                "title": "创建下载文件",
+                "subheading": "创建新的下载文件"
+            },
+            "show": {
+                "title": "查看下载文件",
+                "subheading": "查看下载文件详细信息"
+            }
+        },
+        "logs": {
+            "title": "下载日志",
+            "description": "下载日志",
+            "downloaded": "下载",
+            "ip": "知识产权",
+            "user_agent": "用户代理",
+            "show": {
+                "title": "查看下载日志",
+                "subheading": "查看下载日志详细信息"
+            }
+        }
+    },
+    "modules.download.lang.fr.messages": {
+        "my_downloads": "我的下载",
+        "errors": {
+            "file_not_active": "文件未处于活动状态",
+            "file_is_protected": "文件受到保护",
+            "download_limit_reached": "已达到下载限制"
+        },
+        "download_version": "下载版本",
+        "downloads": "下载",
+        "public_downloads": "公共下载",
+        "no_downloads": "无需下载",
+        "downloads_left": "您还剩下 {_downloads} 个下载"
+    },
+    "modules.virtualizor_cloud.lang.fr.messages": {
+        "data": {
+            "os": "操作系统",
+            "security": "安全"
+        },
+        "hostname": "主机名",
+        "panel": {
+            "info": "VPS 信息",
+            "reinstallation": {
+                "title": "重新安装",
+                "description": "重新安装 VM。",
+                "submit": "安装",
+                "reinstall_success": "VM 的重新安装已成功完成。",
+                "reinstall_error": "重新安装 VM 时出错。"
+            },
+            "password": {
+                "title": "密码",
+                "description": "更改虚拟机的密码。",
+                "submit": "更改密码",
+                "password_success": "已成功更改虚拟机的密码。",
+                "password_error": "更改虚拟机的密码时出错。"
+            },
+            "hostname": {
+                "title": "主机名",
+                "description": "更改虚拟机的主机名。",
+                "submit": "更改主机名",
+                "hostname_success": "已成功更改虚拟机的主机名。",
+                "hostname_error": "更改虚拟机的主机名时出错。"
+            }
+        }
+    },
+    "addons.purchasealert.lang.fr.messages": {
+        "neworder": "客户已下新订单",
+        "admin": {
+            "title": "购买须知",
+            "description": "在您的店面上显示最近的购买通知",
+            "timeout": "显示时间（以毫秒为单位）",
+            "days": "恢复最近购买交易的最大天数",
+            "interval": "通知之间的时间间隔（以毫秒为单位）"
+        }
+    },
+    "addons.sentry.lang.fr.admin": {
+        "title": "哨兵",
+        "description": "设置 Sentry 错误监控服务。",
+        "saved": "设置已成功保存。",
+        "fields": {
+            "dsn": "DSN 系列",
+            "sample_rate": "采样率",
+            "traces_sample_rate": "跟踪采样率",
+            "profiles_sample_rate": "配置文件采样率",
+            "environment": "环境"
+        }
+    },
+    "modules.pterodactyl.lang.fr.messages": {
+        "optionstypes": {
+            "location_id": "位置 ID 翼手龙",
+            "dedicated_ip": "翼龙专用 IP"
+        }
+    },
+    "modules.wisp.lang.fr.messages": {
+        "optionstypes": {
+            "location_id": "位置 ID Wisp",
+            "dedicated_ip": "Wisp 专用 IP"
+        }
+    },
+    "addons.contact.lang.fr.lang": {
+        "title": "联系人",
+        "pending": "待处理的联系请求",
+        "description": "在您的客户空间中处理用户的联系方式请求。",
+        "management_title": "联系请求管理",
+        "management_description": "所有联系请求的列表",
+        "show_title": "联系方式",
+        "show_description": "查看联系请求的详细信息",
+        "title_page": "联系我们",
+        "subject": "请求主题",
+        "content_label": "请描述您的请求",
+        "object_label": "请求的对象",
+        "max_characters": "限制在 {_max} 个字符内",
+        "send": "发送请求",
+        "subtitle_page": "我们很高兴收到您的留言。请填写下面的表格，我们会尽快回复您。",
+        "actions": {
+            "delete_success": "联系请求已成功删除",
+            "update_success": "联系请求的状态已成功更新",
+            "reply_email": "通过电子邮件回复",
+            "send_mail": "给客户发一封邮件",
+            "limit_error": "您在5分钟内已经发送了一次联系请求",
+            "store_success": "联系请求已成功记录"
+        },
+        "status": {
+            "read": "条约",
+            "unread": "未经处理"
+        },
+        "webhook": {
+            "title": "新的联系请求",
+            "description": "收到了一份新的联系请求"
+        },
+        "errors": {
+            "not_found": "未找到联系请求",
+            "update_failed": "更新联系请求失败"
+        },
+        "status_updated_at": "状态于{_date}更新",
+        "settings": {
+            "title": "联系页面的偏好设置",
+            "description": "配置您的联系页面偏好设置。",
+            "security_settings": "安全设置",
+            "media_settings": "媒体设置",
+            "enable_captcha": "启用验证码",
+            "enable_captcha_description": "添加额外的防止垃圾邮件的保护",
+            "webhook": "通知一个外部 URL",
+            "webhook_description": "将联系请求发送到外部网址",
+            "subscribers": "通知人员",
+            "subscribers_description": "将联系请求发送给特定人员",
+            "require_login": "需要连接",
+            "require_login_description": "用户必须登录才能发送消息",
+            "page_image": "页面的图像",
+            "disabled": "禁用",
+            "enabled": "激活"
+        }
+    },
+    "addons.free_trial.lang.fr.lang": {
+        "trialbtn": "尝试",
+        "errors": {
+            "max_allowed_services": "试用服务配额已用完。请稍后再试。",
+            "max_services": "您已经达到了该服务的免费试用配额。"
+        },
+        "invoice": {
+            "name": "报价试验",
+            "description": "试用期优惠 {_product} ({_start}-{_end})。"
+        },
+        "config": {
+            "total_now": "现在需要支付的总额",
+            "total_after_trial": "试用后需支付的总额",
+            "start": "开始",
+            "title": "开始您的试验",
+            "period": "时期",
+            "details": "您可以在试用期结束后 {_days} 天内进行付款，符合适用的条款。您可以随时取消试用。",
+            "want_trial": "您想在购买之前先试用一下这个产品吗？",
+            "can_trial": "您可以在 {_days} 天内测试该产品。"
+        },
+        "service": {
+            "free": {
+                "title": "续订您的试用服务",
+                "subheading": "您可以在 {_date} 之前续订您的试用服务，否则它将在 {_date2} 被取消。"
+            },
+            "trial": {
+                "title": "改善您的试用服务",
+                "subheading": "您可以在 {_date} 之前提升您的试用服务，否则它将在 {_date2} 被取消。"
+            }
+        },
+        "admin": {
+            "config": {
+                "current_allowed_services": "当前进行的试验数量",
+                "max_allowed_services": "进行中的最大尝试次数",
+                "title": "免费试用配置",
+                "subheading": "配置您的免费试用产品。",
+                "max_services": "每个客户的最大尝试次数",
+                "trial_days": "试用天数",
+                "current_trials": "正在进行的测试",
+                "trials_done": "进行的试验",
+                "trials_success": "测试结论",
+                "help": "0 以禁用",
+                "force_label": "测试类型",
+                "types": {
+                    "trial": "改善的尝试",
+                    "free": "免费试用"
+                },
+                "force": {
+                    "yes": "客户将被迫试用",
+                    "no": "客户将能够下订单或请求试用"
+                },
+                "create": {
+                    "title": "添加试用产品",
+                    "subheading": "添加一个试用产品。"
+                },
+                "show": {
+                    "title": "试用产品的修改",
+                    "subheading": "您可以修改试用参数。",
+                    "successfully": "成功的试验",
+                    "table_title": "试验服务列表"
+                }
+            }
+        }
+    },
+    "addons.sitemap.lang.fr.admin": {
+        "title": "网站地图",
+        "description": "为您的网站生成一个 sitemap.xml 文件。",
+        "success": "sitemap.xml文件已成功更新。"
+    },
+    "addons.giftcard.lang.fr.messages": {
+        "modulename": "礼品卡",
+        "description": "管理您客户的礼品卡。",
+        "card": {
+            "code": "礼品卡使用须知"
+        },
+        "usage": "使用礼品卡",
+        "giftcard_not_valid": "这张礼品卡无效。",
+        "giftcard_redeemed": "礼品卡成功使用。金额：{_amount}",
+        "admin": {
+            "types": {
+                "fixed": "固定金额",
+                "random": "随机金额"
+            },
+            "create": {
+                "title": "创建一张礼品卡",
+                "subheading": "为您的客户创建一张新的礼品卡。"
+            },
+            "show": {
+                "title": "礼品卡详情",
+                "subheading": "查看礼品卡的详情。",
+                "table_title": "礼品卡的使用方式"
+            },
+            "max_uses": "最大使用",
+            "expires_at": "过期",
+            "min_random_amount": "随机最低金额",
+            "allowed_customer": "授权客户",
+            "max_random_amount": "随机最高金额",
+            "uses_help": "此礼品卡的最大使用次数。0表示无限制。"
+        }
+    }
+}

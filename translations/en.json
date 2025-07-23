@@ -1,0 +1,3255 @@
+{
+    "language": "Anglais",
+    "addons.discordlink.lang.fr.messages": {
+        "modulename": "Discord Link",
+        "description": "Managing the link with your Discord server of your hosting provider",
+        "step1": "Step 1",
+        "step2": "Step 2",
+        "step3": "Step 3",
+        "step4": "Step 4",
+        "invitation": "Server Invite Link",
+        "dropkey": "Reset key",
+        "manual": {
+            "installation": "Installing the custom bot",
+            "step1text": "Download the custom bot purchased beforehand by clicking on <a href=\"https://clientxcms.com/client/download\" class=\"text-primary\" target=\"_blank\">this link</a>. It will make the link between your Discord server and your host.",
+            "step2text": "Copy the following token safely. <b><u>Please note that it will only be displayed once</u></b>. In case of loss, it will have to be reset.",
+            "step3text": "Unzip the downloaded file and follow the READ file. ME to install & add the bot to your server.",
+            "step4text": "Make sure the bot has the necessary permissions to add the role. (The bot must be above the role to be added)."
+        },
+        "community": {
+            "installation": "Installing the Community Discord Bot",
+            "step1text": "Add the bot to your Discord server by clicking on <a href=\"https://clientxcms.com/ref/discordbot\" class=\"text-primary\" target=\"_blank\">this invitation link</a>. It will make the link between your Discord server and your host.",
+            "step2text": "Copy the following command to your server. <b><u>Please note that the key will only be displayed once</u></b>. In case of loss, it will have to be reset.",
+            "step3text": "Run the following command in your Discord server by adding the client role to it. If successful, the bot will respond with a success message.",
+            "step4text": "Make sure the bot has the necessary permissions to add the role. (The bot must be above the role to be added)."
+        },
+        "detectedcustomers": "Customers detected",
+        "discordid": "Discord ID",
+        "cardinfo": "Join our Discord server to find our community, get help and additional information like our latest promotions.",
+        "installation": "Installing the Community Discord Bot",
+        "joinserver": "Join the server",
+        "guildid": "Server ID",
+        "accept": "Accept",
+        "decline": "Refuse",
+        "details": "Details",
+        "nocustomers": "No customers detected",
+        "help": "Need help?",
+        "found": "Synced account detected: Do you want to view the data in this ticket?",
+        "infosync": "This data is based on accounts that have synchronized their Discord account with their customer account via the SocialAuth+ module.",
+        "detection_type": "Detection Type",
+        "detection_types": {
+            "sync": "Synced account",
+            "active_customers": "Customers who have synced their account with an active service",
+            "all_customers": "All customers who have synced their account with an existing service"
+        }
+    },
+    "addons.import.lang.fr.import": {
+        "title": "Import",
+        "description": "Import a database with the existing old version or from other vendors into NextGen",
+        "importwhmcs": "Import via WHMCS will be available soon",
+        "importclientxcms": "Importing from the old version of ClientXCMS",
+        "db": {
+            "host": "Host",
+            "port": "Port",
+            "database": "Database",
+            "username": "Username",
+            "password": "Password"
+        },
+        "v1": {
+            "importables": {
+                "products": "Product",
+                "groups": "Groups",
+                "servers": "Servers",
+                "services": "Services",
+                "invoices": "Invoices",
+                "clients": "Customers",
+                "pterodactyl": "Pterodactyl Configuration",
+                "proxmox": "Proxmox Configuration",
+                "oses": "Proxmox Operating Systems",
+                "templates": "Templates Proxmox",
+                "plesk": "Configuration Plesk",
+                "socialauth": "SocialAuth Link",
+                "support": "Tickets & Support Departments",
+                "wisp": "Wisp Configuration",
+                "proxmox_ipam": "Configuration IPAM Proxmox"
+            },
+            "fromv1": "Importing from the old version of ClientXCMS",
+            "title": "ClientXCMS v1",
+            "description": "Importing from the old version of ClientXCMS"
+        },
+        "whmcs": {
+            "importables": {
+                "products": "Product",
+                "groups": "Groups",
+                "servers": "Servers",
+                "services": "Services",
+                "clients": "Customers",
+                "pterodactyl": "Pterodactyl Configuration",
+                "wisp": "Wisp configuration",
+                "invoices": "Factures"
+            },
+            "fromwhmcs": "Import from WHMCS",
+            "title": "WHMCS",
+            "key": "Encoder key",
+            "keyhelp": "The encoder key is used to decrypt the data from WHMCS. It is available in the WHMCS configuration.php file",
+            "description": "Import from WHMCS"
+        },
+        "downloadreport": "Download the report",
+        "import": "Import",
+        "delay": "Please wait, it may take some time for the page to load.",
+        "truncate": "Empty tables before import (highly recommended)"
+    },
+    "addons.page.lang.fr.messages": {
+        "must_be_logged": "You must be logged in to access this page.",
+        "logged_only": "Page reserved for logged-in users.",
+        "admin": {
+            "title": "Pages",
+            "description": "Manage dynamic pages on your customer area.",
+            "create": {
+                "title": "Create a page",
+                "subheading": "Create a new page."
+            },
+            "show": {
+                "title": "Page Details",
+                "subheading": "Page details."
+            },
+            "count_views": "Number of views",
+            "views": "{_count} view|{_count} views",
+            "see_page": "View page"
+        },
+        "pdf": "PDF",
+        "script": "Script HTML",
+        "style": "Style CSS",
+        "redirect": "Redirection",
+        "type": "Page Type",
+        "meta": "Meta Head",
+        "types": {
+            "page": "Page",
+            "pdf": "PDF",
+            "html": "HTML",
+            "redirect": "Redirection"
+        }
+    },
+    "addons.sameipdetector.lang.fr.admin": {
+        "dashboard": {
+            "sameip_reports": "Dual Accounts",
+            "pendingusers": "Users detected as dual accounts awaiting verification",
+            "knowuser": "Associated User",
+            "reject": "Reject",
+            "accept": "Accept",
+            "description": "Here you can find the users detected as being a duplicate account of another customer."
+        },
+        "settings": {
+            "title": "Anti Dual Account Settings",
+            "description": "Set up the action that is taken when an account is rejected.",
+            "action": "Action to be taken"
+        }
+    },
+    "addons.socialauth.lang.fr.messages": {
+        "logged_in": "You're connected.",
+        "login_with": "Log in with {_provider}",
+        "register_with": "Sign up with {_provider}",
+        "modulename": "Social Auth+",
+        "description": "Social Auth+ is an addon that allows users to log in to your website through third-party service providers.",
+        "client_id": "Client ID",
+        "client_secret": "Client Secret",
+        "redirect": "Redirect URL",
+        "redirect_help": "Redirect URL: {_url}",
+        "configurate": "Configure",
+        "error": "An error has occurred. Please try again.",
+        "sync_with": "Sync with {_provider}",
+        "unlink": "Unlink from {_provider}",
+        "linked": "Your account has been successfully linked.",
+        "already_linked": "Your account is already linked to this provider.",
+        "unlinked": "Your account has been successfully unlinked.",
+        "finish_signup": "Please complete your registration.",
+        "finish_title": "Complete registration",
+        "signup_success": "Your registration has been successful.",
+        "count_linked": "There are {_count} linked account(s).",
+        "finish_subtitle": "Please enter the missing information to complete your registration.",
+        "email_exists": "An account with this email already exists. Please log in and link your account."
+    },
+    "modules.proxmox.lang.fr.messages": {
+        "settings": {
+            "title": "Proxmox",
+            "description": "Manage the different options of the Proxmox module (IPAM, Templates, Oses)."
+        },
+        "panel": {
+            "info": "VPS Information",
+            "serverneedrestart": "The server needs to be restarted to apply the resource changes.",
+            "serverinrestore": "The server is being restored, please wait."
+        },
+        "data": {
+            "os": "Operating system",
+            "security": "Security"
+        },
+        "console": {
+            "title": "Console"
+        },
+        "logs": {
+            "title": "History",
+            "description": "History of actions performed on VMs.",
+            "by": "By",
+            "action": "Action",
+            "users": {
+                "system": "System",
+                "user": "User",
+                "admin": "Administrator"
+            },
+            "start": "The boot command has been sent to the VPS.",
+            "stop": "The stop command has been sent to the VPS",
+            "restart": "The restart command has been sent to the VPS.",
+            "destroy": "The destruction command has been sent to the VPS.",
+            "reinstall": "The reinstall command has been sent to the VPS.",
+            "snapshot_destroy": "The snapshot has been deleted.",
+            "snapshot_create": "The snapshot has been created.",
+            "snapshot_restore": "The snapshot has been restored.",
+            "backup_create": "The backup has been created.",
+            "backup_destroy": "The backup has been deleted.",
+            "reinstall_done": "The reinstallation of the VM was completed successfully.",
+            "start_destroy": "The virtual machine has been shut down."
+        },
+        "graphs": {
+            "title": "Graphics",
+            "cpu": "CPU",
+            "memory": "Memory",
+            "disk": "Disk",
+            "network": "Network",
+            "timeframes": {
+                "hour": "Last hour",
+                "day": "Last day",
+                "week": "Last week",
+                "month": "Last month",
+                "year": "Last year"
+            }
+        },
+        "reinstallation": {
+            "title": "Reinstallation",
+            "description": "Reinstall the VM.",
+            "limited": "You have reached the maximum number of reinstallations.",
+            "limit_text": "You have made {_current} on the {_max} allowed.",
+            "submit": "Reinstall",
+            "reinstall_success": "The VM has been successfully reinstalled.",
+            "reinstall_error": "An error occurred while reinstalling the VM.",
+            "confirm": "Are you sure you want to reinstall this virtual machine?",
+            "success": "The VM has been successfully reinstalled."
+        },
+        "sshkeys": "SSH Keys",
+        "hostname": "Hostname",
+        "server": "Server",
+        "node": "Knot",
+        "disk_storage": "Disk storage",
+        "unprivileged": "Unprivileged (LXC only)",
+        "username": "SSH Username",
+        "uptime": "Operating time",
+        "features": "Features (LXC only)",
+        "max_snapshots": "Maximum number of snapshots",
+        "max_backups": "Maximum number of backups",
+        "max_reinstall": "Maximum number of resettlements",
+        "max_helpers": "You can set -1 for unlimited or 0 to disable",
+        "clear_cache_if_empty": "Clear the cache if the fields are empty or verify that your Proxmox API key MUST NOT be in Privilege Separation.",
+        "virtualisation_type": "Virtualization Type",
+        "importinfo": "This information is used to make it easier to reinstall the machine later.",
+        "templates": {
+            "title": "Templates",
+            "description": "Management of VM templates that can be used for VPS delivery.",
+            "name": "Name",
+            "os": "Operating system",
+            "vmids": "VM ID",
+            "create": {
+                "title": "Create a template",
+                "description": "Create a new VM template."
+            },
+            "show": {
+                "title": "Model Details",
+                "description": "VM model details."
+            }
+        },
+        "oses": {
+            "title": "Operating systems",
+            "description": "Management of operating systems that can be used for VPS delivery.",
+            "name": "Name",
+            "oses": "Operating systems",
+            "create": {
+                "title": "Create an operating system",
+                "description": "Create a new operating system."
+            },
+            "show": {
+                "title": "Operating System Details",
+                "description": "Operating system details."
+            }
+        },
+        "ipam": {
+            "title": "IPAM",
+            "description": "Proxmox system IP address manager.",
+            "ip": "IP address",
+            "netmask": "Subnet mask",
+            "gateway": "Gateway",
+            "bridge": "Bridge",
+            "mtu": "MTU",
+            "mac": "MAC address",
+            "ipv6": "IPv6 address",
+            "ipv6_gateway": "IPv6 Gateway",
+            "is_primary": "Primary",
+            "service_id": "Service",
+            "notes": "Notes",
+            "dhcp_help": "You can put \"dhcp\" in this field to enable DHCP for that IP address.",
+            "create": {
+                "title": "Create an IP address",
+                "description": "Create a new IP address in the IPAM.",
+                "ranges": {
+                    "title": "Quickly add IP addresses",
+                    "block": "Block",
+                    "block_help": "It must contain\". XX\" which will be replaced by the address.",
+                    "description": "Easily import address ranges into your IPAM.",
+                    "range": "Range",
+                    "success": "{_count} IP addresses have been successfully added.",
+                    "import": "Import"
+                }
+            },
+            "show": {
+                "title": "IP address details",
+                "description": "IP address details."
+            },
+            "states": {
+                "available": {
+                    "title": "Available",
+                    "mass_action": "Set as available",
+                    "description": "This IP address is available for use."
+                },
+                "used": {
+                    "title": "Used",
+                    "mass_action": "Set as used",
+                    "description": "This IP address is used by a service."
+                },
+                "unavailable": {
+                    "title": "Unavailable",
+                    "mass_action": "Set as unavailable",
+                    "description": "This IP address is unavailable for use."
+                }
+            }
+        },
+        "disks": {
+            "volume": "Volume",
+            "format": "Format"
+        },
+        "backups": {
+            "nobackupstorage": "No backup storage is configured for this server. Please contact the administrator.",
+            "size": "Size",
+            "notes": "Notes",
+            "create_title": "Create a backup",
+            "is_protected": "Protege",
+            "automatic": "Automatic",
+            "restore": "Restore",
+            "limited": "You have reached the maximum number of allowed backups.",
+            "confirm_restore": "Are you sure you want to restore this backup? It will overwrite the current data of the virtual machine.",
+            "restore_success": "The backup restoration was successfully initiated.",
+            "restore_error": "An error occurred while restoring the backup.",
+            "confirm_delete": "Are you sure you want to delete this backup?",
+            "delete_success": "The backup has been successfully deleted.",
+            "delete_error": "An error occurred while deleting the backup.",
+            "create_success": "The backup has been successfully started. The creation may take some time depending on the size of the virtual machine.",
+            "create_error": "An error occurred while creating the backup."
+        },
+        "snapshots": {
+            "title": "Snapshots",
+            "create_invalid_notes": "The name of the snapshot can only contain letters, numbers, spaces, and underscores.",
+            "create_duplicate": "A snapshot with this name already exists.",
+            "confirm_restore": "Are you sure you want to restore this snapshot? This will overwrite the current data of the virtual machine.",
+            "restore_success": "The snapshot restoration has been successfully launched.",
+            "restore_error": "An error occurred while restoring the snapshot.",
+            "confirm_delete": "Are you sure you want to delete this snapshot?",
+            "delete_success": "The snapshot has been successfully deleted.",
+            "delete_error": "An error occurred while deleting the snapshot.",
+            "create_title": "Create a snapshot",
+            "create_success": "The snapshot was created successfully.",
+            "create_error": "An error occurred while creating the snapshot."
+        }
+    },
+    "modules.pterobox.lang.fr.messages": {
+        "my_servers": "My Servers",
+        "create_server": "Create a server",
+        "server_name": "Server Name",
+        "egg": "Egg",
+        "server_actions": "Actions",
+        "server_details": "Server Details",
+        "delete_server": "Delete the server",
+        "server_deleted": "The server has been successfully deleted.",
+        "server_updated": "The server has been updated successfully.",
+        "resource_not_available": "There are no longer enough resources for this server.",
+        "error_in_deletion": "An error occurred while deleting the server.",
+        "error_in_update": "An error occurred while updating the server.",
+        "error_in_power": "An error occurred during the action.",
+        "server_powered": "The action has been taken into account.",
+        "server_created": "The server has been created successfully.",
+        "error_in_creation": "An error occurred while creating the server.",
+        "allocations_help": "To create a server, you must have at least one allocation.",
+        "no_servers_available": "No more servers can be created in the box.",
+        "no_servers_created": "No servers have been created at this time.",
+        "doyouwantreallydelete": "Are you sure you want to delete this server?",
+        "additional_servers": "Additional Servers"
+    },
+    "modules.virtualizor.lang.fr.messages": {
+        "server_group": "Server Group",
+        "data": {
+            "os": "Operating system",
+            "security": "Security"
+        },
+        "username": "Username",
+        "ips": "IP addresses",
+        "hostname": "Hostname",
+        "panel": {
+            "info": "VPS Information",
+            "num_vs": "Number of VPS allowed",
+            "num_users": "Number of authorized users",
+            "num_ips": "Number of IPs allocated",
+            "disk_space": "Allocated disk space",
+            "memory": "Allocated Memory",
+            "cores": "Allocated Cores",
+            "reinstallation": {
+                "title": "Reinstallation",
+                "description": "Reinstall the VM.",
+                "submit": "Reinstall"
+            },
+            "hostname": {
+                "title": "Change the hostname",
+                "success": "The hostname has been successfully changed.",
+                "description": "Change the host name of the virtual machine."
+            },
+            "resetpassword": {
+                "title": "Reset Password",
+                "success": "The password has been successfully reset.",
+                "description": "Reset the VM password."
+            },
+            "console": {
+                "title": "Console",
+                "description": "Access the VM console."
+            },
+            "graphs": {
+                "title": "Graphics",
+                "description": "View the VM graphs."
+            }
+        }
+    },
+    "lang.fr.actionslog": {
+        "settings": {
+            "title": "History of actions",
+            "description": "A list of actions taken by staff and the system.",
+            "subheading": "History of actions",
+            "user": "User",
+            "action": "Action",
+            "model": "Model",
+            "model_id": "Template ID",
+            "payload": "Payload",
+            "attribute": "Attribute",
+            "oldvalue": "Old value",
+            "newvalue": "New Value",
+            "show": {
+                "title": "Action details",
+                "subheading": "Details of the action performed on {_date}"
+            },
+            "see_staff_actions_log": "View the history of staff actions"
+        },
+        "actions": {
+            "settings_updated": "Updated settings",
+            "new_login": "New Connection IP Address: {_ip}",
+            "resource_created": "Resource {_model} created",
+            "resource_updated": "Resource {_model} updated",
+            "resource_deleted": "Resource {_model} deleted",
+            "resource_cloned": "Cloned {_model} resource",
+            "checkout_completed": "Order completed",
+            "service_delivered": "Service {_id} delivered",
+            "service_cancelled": "{_id} service cancelled",
+            "service_uncancelled": "{_id} service not cancelled",
+            "service_suspended": "Service {_id} suspended",
+            "service_unsuspended": "Service {_id} not suspended",
+            "invoice_paid": "Invoice {_id} paid",
+            "service_renewed": "Service {_id} renewed",
+            "other": "Other",
+            "service_expired": "Service {_id} expired",
+            "extension_enabled": "{_extension} extension enabled",
+            "extension_disabled": "{_extension} extension disabled",
+            "extension_installed": "{_extension} extension installed",
+            "theme_changed": "Theme changed",
+            "balance_changed": "Customer balance changed from {_old} to {_new}",
+            "account_verified": "Verified Account",
+            "password_reset": "Password reset",
+            "two_factor_enabled": "Two-factor authentication enabled",
+            "two_factor_disabled": "Two-factor authentication disabled",
+            "two_factor_recovery_codes_generated": "Two-factor authentication recovery codes generated",
+            "failed_login": "Connection failed IP address: {_ip}"
+        }
+    },
+    "lang.fr.admin": {
+        "security": {
+            "title": "Security",
+            "description": "Security settings in the customer area"
+        },
+        "dashboard": {
+            "title": "Dashboard",
+            "autologin_success": "You are now logged in as {_name}",
+            "frozen": "The system is currently in frozen mode. Some features may be disabled. To get out of the frozen mode, please contact support.",
+            "in_debug": "You are currently in debug mode. Sensitive information may be displayed. For security reasons, please disable debug mode in the general settings.",
+            "subheading": "Welcome to the Admin Dashboard",
+            "notification_error": "An error occurred in the last 24 hours on the sending of emails. Error: {_message}",
+            "tooltips": {
+                "users": {
+                    "label": "Users",
+                    "new": "{_count} new users"
+                },
+                "customers": {
+                    "label": "Customers",
+                    "new": "{_count} new customers"
+                },
+                "invoices": {
+                    "label": "Invoices",
+                    "paied": "{_count} Paid Invoices"
+                },
+                "cron": {
+                    "never": "Never"
+                }
+            },
+            "widgets": {
+                "customer_search": "Quick search",
+                "services": "Active services",
+                "invoices": "Paid invoices",
+                "cron": "Scheduled tasks",
+                "services_expiration": "Services expiring soon",
+                "services_canvas": "System Service Status",
+                "last_login": "Recently connected accounts",
+                "best_selling": {
+                    "title": "Best sellers in terms of quantity",
+                    "title2": "Best sales in terms of revenue",
+                    "last_month": "Month of {_month}",
+                    "last_week": "Week of {_date}"
+                },
+                "customer_confirmation": "Account Confirmation Status"
+            },
+            "earn": {
+                "title": "Earns",
+                "subheading": "Here are the winnings generated by the system",
+                "total": "Total",
+                "total_earned": "Total Won",
+                "total_customers": "Total customers",
+                "total_fees": "Total Fees",
+                "total_services": "Total services",
+                "total_invoices": "Total invoices",
+                "total_cash": "Total Cashed",
+                "current_month": "Current Month",
+                "total_tax": "Total VAT",
+                "all_time": "From the beginning",
+                "last_30_days": "Last 30 days",
+                "last_7_days": "Last 7 days",
+                "today": "Today",
+                "gateway_canvas": "Customer payment methods",
+                "service_can_renewal": "Renewable services",
+                "already_renewed": "Renewed services",
+                "last_orders": "Latest Orders",
+                "expire_soon": "Expires Soon",
+                "graph_month": "Monthly earnings",
+                "start_date": "Start date",
+                "end_date": "End date",
+                "lines": "{_count} Line|{_count} Lines",
+                "custom": "Custom",
+                "compare_year": "Compare with year",
+                "related_billed": {
+                    "title": "Types of services billed",
+                    "service": "New service",
+                    "renewal": "Renewal",
+                    "config_option": "Configuration option",
+                    "config_option_service": "Renewal configuration option",
+                    "custom_item": "Customized product",
+                    "upgrade": "Improvement",
+                    "free_trial": "Free trial"
+                },
+                "gateway_canvas_help": "Payment methods used by customers to pay their bills",
+                "best_customers": "Best customers",
+                "customer_from": "Customer since",
+                "limit": "Limit",
+                "average_periods": "Average number of service renewals",
+                "max_periods": "Higher number of service renewals",
+                "average_service_price": "Average price of a service",
+                "max_services_by_customer": "More services per customer",
+                "max_price": "Highest price of a service",
+                "last_renewals": "Latest renewals",
+                "average_services_by_customer": "Average number of services per customer",
+                "services": {
+                    "title": "Classification of services",
+                    "price_avg": "Average price",
+                    "renewals_avg": "Average renewals"
+                }
+            },
+            "good_morning": "Hello {_name}",
+            "good_afternoon": "Good afternoon {_name}",
+            "good_evening": "Good evening {_name}",
+            "welcome": "Welcome to the administration dashboard. It is currently {_time}. Here is an overview of your system.",
+            "assigned_tickets": "You have been assigned to the following tickets: {_tickets}. You can view them in the help center."
+        },
+        "roles": {
+            "is_default_help": "This role is the default role and cannot be deleted.",
+            "is_default": "Default Role",
+            "is_admin": "Administrator role",
+            "cant_delete": "This role cannot be deleted",
+            "title": "Roles",
+            "role": "Role",
+            "levelhelp": "The permission level is used to prioritize roles. For example, a role with a level 50 cannot modify a role with a level 100.",
+            "description": "Manage the roles and permissions of staff in the customer area.",
+            "level": "Level",
+            "error_update": "You cannot define a role with a higher level than yours",
+            "error_update_level": "You can't edit a role with a higher level than yours",
+            "admin_help": "Administrator roles have access to all system features",
+            "subheading": "Here is the list of all the roles in the system",
+            "create": {
+                "title": "Create a role",
+                "subheading": "Create a new role for the system"
+            },
+            "show": {
+                "title": "Role sheet {_name}",
+                "subheading": "Here is the information related to this role created on {_date}"
+            }
+        },
+        "history": {
+            "title": "History",
+            "subheading": "Here is the history of the system error messages",
+            "file": "File {_file}",
+            "description": "Retrieve system log messages for system debugging.",
+            "bigfile": "This file is too large to display (max {_size})"
+        },
+        "database": {
+            "migrateextension": "Choose an extension to migrate",
+            "migrate": "Migrate the database",
+            "pmaaccess": "Access to PHPMyAdmin",
+            "title": "Database",
+            "host": "Host",
+            "port": "Port",
+            "username": "Username",
+            "password": "Password",
+            "output": "Exit",
+            "description": "Navigate to your instance's PHPMyAdmin or migrate your database.",
+            "subheading": "Warning, this page is made for advanced administrators",
+            "seed": "Seed Database",
+            "migratesuccess": "The database has been successfully migrated",
+            "seedsuccess": "The database has been successfully seeded"
+        },
+        "emails": {
+            "title": "Emails",
+            "subheading": "Here is the list of all the emails in the system",
+            "sendemail": "Send an email",
+            "condition": "Condition",
+            "send_at": "Shipping time",
+            "button_url": "Button URL",
+            "old_customers": "Former customers (customers who have already ordered a service, who have more active service)",
+            "customers_has_no_services": "Customers with no active service",
+            "customers_has_active_services": "Active Service Customers",
+            "server": "Client with an active service on server {_server}",
+            "product_active": "Customer with active service of product {_product}",
+            "product": "Customer with a service of the product {_product}",
+            "product_active_type": "Customer with a service of type {_type}",
+            "product_type": "Customer with a service of type {_type}",
+            "all_customers": "All customers who had at least one service",
+            "all_registered_customers": "All registered customers",
+            "emails": "Precise email addresses (optional)",
+            "selected_emails": "Selected Emails",
+            "variables": "Available variables",
+            "success_job": "Email was successfully scheduled for {_count} customers to {_date}",
+            "conditions_help": "Multiple conditions can be used at the same time to send to multiple conditions.",
+            "create": {
+                "title": "Send an email",
+                "subheading": "Send an email to a customer or group of customers",
+                "next": "Next",
+                "send": "Send",
+                "preview": "Preview"
+            }
+        },
+        "products": {
+            "tariff": "Tariff",
+            "calculator": {
+                "title": "Recurrence price calculator",
+                "apply": "Apply",
+                "percent": "Percentage",
+                "help": "You can put 0 to make no discount and multiply the price by the number of months",
+                "subheading": "Give the discount you want to apply on the different rates"
+            },
+            "showmorepricing": "Set up more rates",
+            "title": "Products",
+            "description": "Set up products, manage inventory, or set up offers for your store.",
+            "subheading": "Here is the list of all the products in the system",
+            "stock": "Stock available",
+            "type": "Product Type",
+            "group": "Product Group",
+            "descriptionplaceholder": "Product Description (HTML Support)",
+            "create": {
+                "title": "Create a product",
+                "subheading": "Create a new product for the store",
+                "create_group_help": "You must create a group before creating a product.",
+                "create_product_help": "You must create a product before creating an offer."
+            },
+            "show": {
+                "title": "Product sheet {_name}",
+                "subheading": "Here is the information related to this product created on {_date}"
+            },
+            "config": {
+                "btn": "Configure the offer",
+                "title": "Configuring the offer",
+                "success": "The offer configuration has been successfully registered."
+            },
+            "link": {
+                "btn": "Order Link"
+            }
+        },
+        "groups": {
+            "title": "Groups",
+            "subheading": "Here is the list of all the groups in the system",
+            "description": "Set up product groups and subgroups for your store.",
+            "parent_id": "Parent group",
+            "clonewithproducts": "Clone with Products",
+            "clonewithoutproducts": "Cloning without the products",
+            "doubleclone": "The group cannot be cloned because it has already been cloned",
+            "image": "Image",
+            "groupcannotdeleted": "This group cannot be deleted because there are still products linked to it.",
+            "show": {
+                "title": "Group sheet {_name}",
+                "subheading": "Here is the information related to this group created on {_date}"
+            },
+            "create": {
+                "title": "Create a group",
+                "subheading": "Create a new group for the store"
+            },
+            "order_products": "You can rearrange products by dragging and dropping them and then saving them",
+            "use_image_as_background": "Use the image as a background",
+            "see_group": "See the group",
+            "add_product": "Add a product",
+            "nb_products": "Number of products"
+        },
+        "login": {
+            "title": "Login - Administration",
+            "subheading": "Log in to your Administrator account"
+        },
+        "forgot": {
+            "title": "Forgot Password - Administration",
+            "subheading": "Reset your password"
+        },
+        "reset_password": {
+            "title": "Reset Password - Administration",
+            "subheading": "Reset your password"
+        },
+        "customers": {
+            "title": "Customers",
+            "autologin": {
+                "btn": "Automatic connection",
+                "logout": "Log out of the customer account",
+                "logoutsuccess": "You have been logged out of the customer account",
+                "success": "You are now logged in as {_name}"
+            },
+            "show": {
+                "email_sent": "The email has been sent successfully",
+                "email_confirmed": "The account has been successfully confirmed",
+                "resend": "Resend confirmation email",
+                "confirm": "Confirm Account",
+                "title": "Customer profile of {_name}",
+                "login_ip": "Connection IP",
+                "subheading": "Here is the information related to this client created on {_date}",
+                "details": "Client Details",
+                "billing": "Billing address",
+                "notes": "User Notes",
+                "invoices": "Customer invoices",
+                "services": "Customer Services",
+                "tickets": "Customer Tickets",
+                "payment-methods": "Customer payment methods",
+                "emails": "Emails sent to the customer",
+                "passwordhelp": "Leave blank so you don't change",
+                "login": "Last customer logins",
+                "url": {
+                    "confirmation": "Confirmation URL",
+                    "reset": "Reset URLs"
+                },
+                "stats": {
+                    "paid": "Paid amounts",
+                    "unpaid": "Unpaid amounts",
+                    "services": "Active services"
+                },
+                "last_login": "Last login",
+                "last_ip": "Latest IP",
+                "confirmed_at": "Confirmed on",
+                "ban": "Banning the customer",
+                "reason": "Reason",
+                "action_success": "The action was successfully carried out",
+                "suspend": "Suspend the client",
+                "reactivate": "Reactivate the client",
+                "suspend_services": "Suspend the client's services",
+                "unsuspend_services": "Reactivate the customer's services",
+                "expire_services": "Expires the customer's services",
+                "is_banned": "This client was banned on {_date} by {_username} for reasons {_reason}",
+                "is_suspended": "This client was suspended on {_date} by {_username} for reason {_reason}",
+                "password_reset_sent": "The reset email has been sent successfully",
+                "resend_confirm": "Resend a confirmation email",
+                "send_password": "Send a reset email",
+                "history": "History of customer actions",
+                "send_email": "Send an email",
+                "disable2fa": "Disable two-factor authentication",
+                "email_already_confirmed": "The account has already been confirmed.",
+                "create_invoice": "Create an invoice",
+                "create_service": "Deliver a service",
+                "create_ticket": "Create a ticket"
+            },
+            "create": {
+                "title": "Create a client",
+                "subheading": "Create a new client for the system",
+                "create_customer_help": "You must create a client before performing this action."
+            },
+            "subheading": "Here is the list of all the customers of the system",
+            "delete": {
+                "error": "It is impossible to delete the customer because invoices are still linked to it."
+            }
+        },
+        "profile": {
+            "show": {
+                "title": "Profile of {_name}",
+                "subheading": "Here is your information and permissions from the administrator area",
+                "details": "Profile Details",
+                "login": "Latest Connections"
+            }
+        },
+        "users": {
+            "title": "Users"
+        },
+        "invoices": {
+            "currency": "Currency",
+            "mass": {
+                "complete": "Mark as Paid",
+                "refund": "Mark as refunded",
+                "cancel": "Mark as Cancelled",
+                "fail": "Mark as Failed"
+            },
+            "customproduct": "Customized product",
+            "invoice_number": "Invoice number",
+            "draft": {
+                "add": "Add an article",
+                "unitprice": "Unit price",
+                "name": "Item Name",
+                "quantity": "Quantity",
+                "itemremoved": "The item has been successfully removed",
+                "itemupdated": "The article has been saved successfully",
+                "notallowed": "You can't remove an item from an invoice that isn't in draft",
+                "description": "Item Description",
+                "unitsetupfees": "Unit installation fee",
+                "itemadded": "The article has been added successfully",
+                "edit": "Edit article",
+                "validated": "The invoice has been successfully validated",
+                "validatebtn": "Validate the invoice",
+                "empty": "No items have been added to this invoice",
+                "invoiceserviceinfo": "An existing invoice is available for this service. By adding this product, the invoice #{_id} will be cancelled.",
+                "not_in_draft": "The invoice is not in drafts",
+                "set_in_draft": "The invoice is now editable."
+            },
+            "show": {
+                "notes": "Notes on the invoice",
+                "external_id": "External ID",
+                "title": "Invoice sheet {_id}",
+                "subheading": "Here is the information related to this invoice created on {_date}"
+            },
+            "create": {
+                "title": "Create an invoice",
+                "subheading": "Create a new invoice for the system",
+                "btn": "Create"
+            },
+            "title": "Invoices",
+            "subheading": "Here is the list of all the invoices in the system",
+            "deliveredsuccess": "The product was successfully delivered",
+            "notified": "The customer has been notified",
+            "notify": "Notify the customer",
+            "edit": "Edit the invoice",
+            "not_in_pending": "This invoice cannot be changed",
+            "paidsuccess": "The invoice has been marked as successfully paid",
+            "payinvoicebtn": "Debit",
+            "payinvoicetitle": "Pay the bill",
+            "payinvoicedescription": "Charge from a customer source to pay the bill."
+        },
+        "admins": {
+            "title": "Staffs",
+            "expires_at": "Expiration",
+            "subheading": "Here is the list of all the personnel in the system",
+            "description": "Manage staff credentials for the admin area",
+            "badge": {
+                "expires_at": "Expires on {_date}",
+                "expired_at": "Expired on {_date}"
+            },
+            "create": {
+                "title": "Create a staff",
+                "emptyforactive": "Leave blank to set email password",
+                "subheading": "Create new staff for administration"
+            },
+            "signature": "Signature",
+            "expiration": "Expiration",
+            "show": {
+                "title": "Personal profile {_name}",
+                "login": "Latest staff connections",
+                "details": "Staff Details",
+                "subheading": "Here is the information related to this staff created on {_date}"
+            }
+        },
+        "settings": {
+            "title": "Settings",
+            "core": {
+                "title": "General Settings",
+                "description": "General parameters of CLIENTXCMS (name, address, logo, favicon, mail)",
+                "mail": {
+                    "title": "Email settings",
+                    "description": "Customer Area messaging settings",
+                    "from_address": "Shipping address",
+                    "from_name": "Shipment Name",
+                    "greeting": "Greeting at the beginning of the email",
+                    "domain": "Customer Area Area",
+                    "salutation": "End of email greeting",
+                    "test": {
+                        "btn": "Test the connection",
+                        "help": "You must have configured and backed up the email settings before you can test the connection.",
+                        "success": "The connection test passed. You should receive an email within a few minutes."
+                    },
+                    "disable_mail": "Disable emails",
+                    "disable_mail_help": "Disables the sending of emails from the customer area and sends them in the logs",
+                    "success": "The email settings have been saved successfully.",
+                    "smtp": {
+                        "enabled": "Enable SMTP",
+                        "host": "SMTP host",
+                        "port": "Port SMTP",
+                        "encryption": "Encryption Type",
+                        "username": "SMTP Username",
+                        "password": "SMTP Password",
+                        "description": "Settings for sending email from an SMTP server"
+                    }
+                },
+                "app": {
+                    "title": "Global settings",
+                    "success": "The settings in the customer area have been saved successfully.",
+                    "description": "Customer Area Settings",
+                    "fields": {
+                        "app_name": "Name of the customer area",
+                        "app_env": "Customer Area Environment",
+                        "app_debug": "Debug mode",
+                        "app_timezone": "Time zone",
+                        "app_address": "Customer area address (available on invoices)",
+                        "app_logo": "Customer Area Logo",
+                        "app_favicon": "Customer Area Favicon",
+                        "app_logotext": "Text logo of the customer area",
+                        "app_locale": "Default language",
+                        "invoice_terms": "Invoice Terms and Conditions",
+                        "app_telemetry": "Enable telemetry",
+                        "app_telemetry_help": "This anonymized data is sent to CLIENTXCMS to help us improve the CMS, better understand your usage, fix bugs, and optimize your experience."
+                    }
+                },
+                "security": {
+                    "title": "Security Settings",
+                    "description": "Security settings in the customer area",
+                    "auth": "Authentication",
+                    "captcha": {
+                        "title": "Captcha",
+                        "fields": {
+                            "driver": "Captcha Driver",
+                            "driver_help": "You must have a secret key for the reCaptcha driver",
+                            "site_key": "Site Key",
+                            "secret_key": "Secret Key",
+                            "driver_recaptcha_help": "You can get a key at <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. You need to use invisible v2 keys",
+                            "driver_hcaptcha_help": "You can get a key at <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>",
+                            "driver_cloudflare_help": "You can get a key at <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. You need to select the \"managed\" widget"
+                        }
+                    },
+                    "fields": {
+                        "admin_prefix": "Administration Prefix",
+                        "hash_driver": "Hash Driver",
+                        "password_timeout": "Password verification time",
+                        "password_timeout_help": "In seconds",
+                        "allow_registration": "Allow registration",
+                        "auto_confirm_registration": "Automatic confirmation of registration",
+                        "allow_reset_password": "Allow password reset",
+                        "force_login_client": "Force the connection to access the customer area",
+                        "banned_emails": "Banned emails",
+                        "banned_emails_help": "Separated by commas (e.g. mailinator.com, yopmail.com, exemple@example.com)",
+                        "hash_driver_help": "/!\\ The old passwords will not be compatible with the new driver. You need to reset user passwords."
+                    },
+                    "success": "The security settings have been saved successfully."
+                }
+            },
+            "store": {
+                "title": "Store Settings",
+                "description": "Store settings (PayPal, VAT, etc.)",
+                "gateways": {
+                    "description": "Payment gateway setup {_name}",
+                    "fields": {
+                        "name": "Gateway Name",
+                        "minimal_amount": "Minimum amount",
+                        "client_id": "Client ID",
+                        "client_secret": "Client Secret",
+                        "sandbox": "Sandbox Mode",
+                        "enabled": "Enable the gateway",
+                        "webhook": "Webhook",
+                        "webhookhelp": "Notification URL: {_url}",
+                        "payments_types": "Types of payment allowed",
+                        "paypal_email": "PayPal Email Address"
+                    },
+                    "success": "The gateway configuration has been successfully saved."
+                }
+            }
+        },
+        "license": {
+            "click_to_activate": "Click here to activate your license",
+            "title": "License",
+            "subheading": "Please validate your license to activate your product",
+            "subheading2": "Manage your license and related information or update your available modules.",
+            "expiration": "Your license expires on {_date}",
+            "onetime": "Onetime",
+            "modules": "Modules Included",
+            "extensions": "Available extensions: {_extensions}",
+            "domain": "Domain: {_domain}",
+            "max_customers": "Maximum number of clients: {_count}",
+            "current_customers": "Number of current customers: {_count}",
+            "last_check": "Last checked {_date}",
+            "client_id": "Client ID",
+            "description": "Manage your license and related information or update your available modules.",
+            "force": "Force verification"
+        },
+        "metadata": {
+            "title": "Metadata",
+            "key": "Key",
+            "value": "Value",
+            "subheading": "Metadata Management",
+            "add": "Add metadata",
+            "editwarning": "Be careful, modifying or deleting metadata can have consequences on the system. Please be sure of what you are doing.",
+            "updated": "Metadatas was successfully updated."
+        },
+        "schedules": {
+            "title": "Scheduled tasks",
+            "subheading": "See scheduled tasks",
+            "filters": {
+                "all": "All tasks",
+                "services:delivery": "Service Delivery",
+                "services:expire": "Expiration of Services"
+            },
+            "readmore": "Read more",
+            "readless": "Read less",
+            "command": "Order",
+            "output": "Exit",
+            "runtime": "Runtime",
+            "created_at": "Created in"
+        },
+        "flash": {
+            "created": "Successfully created item.",
+            "deleted": "Item deleted successfully.",
+            "updated": "The information has been successfully updated.",
+            "updated_elements": "The {_counts} items have been updated successfully.",
+            "no_items_selected": "No items selected"
+        },
+        "create": "Create",
+        "blanktochange": "Leave blank so you don't change",
+        "blanktonolimit": "Leave blank so as not to limit",
+        "updatedetails": "Update details",
+        "backtosite": "Back to the website",
+        "backtostore": "Back to the shop",
+        "doyouwantreally": "Do you really want to do this?",
+        "locales": {
+            "translations_saved": "The translations were successfully recorded.",
+            "subheading": "Translation",
+            "title": "Languages",
+            "is_downloaded": "Downloaded",
+            "is_default": "By default",
+            "download": "Download",
+            "update": "Update",
+            "changedefaulthelp": "You can change the default language in the global settings.",
+            "is_enabled": "Activated",
+            "disabled": "Disabled",
+            "download_success": "The translation files have been successfully uploaded.",
+            "description": "Find the list of languages available for the customer area. Turn languages on or off as needed.",
+            "download_error": "You cannot download the translation files for the French language locally."
+        },
+        "api_keys": {
+            "title": "API keys",
+            "subheading": "Manage all of your CLIENTXCMS API keys.",
+            "last_used": "Last used",
+            "is_admin": "Administrator permission",
+            "admin_help": "Administrator API keys have access to all the features of the system.",
+            "create": {
+                "title": "Create an API key",
+                "subheading": "Create a new API key for the system"
+            },
+            "documentation": "OpenAPI Documentation",
+            "rotate": "renew",
+            "created": "The API key has been successfully created. Application API Key: \"<b><code>{_key}</code></b>\" <br/> Please note that it will not be displayed again after this page. Please copy it and keep it in a safe place."
+        },
+        "doyouwantclone": "Do you really want to clone this item?"
+    },
+    "lang.fr.auth": {
+        "failed": "These identifiers do not correspond to our records.",
+        "password": "The password is incorrect",
+        "throttle": "Too many login attempts. Please try again in {_seconds} seconds.",
+        "signed_in_as": "Logged in as",
+        "login": {
+            "btn": "Sign in",
+            "title": "Connection",
+            "heading": "Connection",
+            "subheading": "Enter your login details to access your personal space.",
+            "remember": "Remember Me",
+            "forgot": "Forgot your password?",
+            "login": "Log in",
+            "no_account": "Don't have an account?"
+        },
+        "confirm": {
+            "btn": "Confirm",
+            "title": "Confirm Password",
+            "heading": "Confirm Password",
+            "subheading": "For security reasons, please confirm your password to continue."
+        },
+        "register": {
+            "btn": "Register",
+            "title": "Registration",
+            "heading": "Create an account",
+            "subheading": "Welcome to your customer area.",
+            "already": "Already have an account?",
+            "register": "Sign up",
+            "accept": "I accept the",
+            "terms": "Terms and conditions of use",
+            "success": "Your account has been successfully created.",
+            "success_need_validation": "You must validate it by clicking on the link you received by email.",
+            "success_validation_done": "Your account has been successfully verified.",
+            "error_banned_email": "Your email address is banned. Please contact support.",
+            "error_registration_disabled": "Registration is disabled at this time."
+        },
+        "forgot": {
+            "btn": "Send the reset link",
+            "title": "Forgot your password",
+            "forgot_password": "Forgot your password?",
+            "heading": "Reset your password",
+            "success": "A reset email has been sent to you if the account exists.",
+            "subheading": "Enter your email address to reset your password.",
+            "error_disabled": "Password reset is disabled at this time."
+        },
+        "reset": {
+            "btn": "Reset Password",
+            "title": "Reset Password",
+            "heading": "Reset Password",
+            "success": "Your password has been successfully reset.",
+            "subheading": "Enter your new password to recover your account."
+        },
+        "authentication": "Authentication",
+        "confirm_register": {
+            "heading": "Email Address Verification",
+            "subheading": "We have sent a verification email to {_email} with a link to activate your account.",
+            "help": {
+                "not_received": "If you have not received the email",
+                "check_spam": "Check your spam folder",
+                "valid_email": "Make sure the email address is valid",
+                "firewall": "Check that your firewall hasn't blocked the email",
+                "request_another": "Receive another email"
+            }
+        },
+        "verified": {
+            "heading": "Verified email address",
+            "subheading": "Your email address has been verified.",
+            "continue": "Continue to the customer area",
+            "continue_order": "Continue on the checkout page",
+            "allowed": "You can now access all the features of your account.",
+            "support": "If you have any questions, please feel free to contact support."
+        }
+    },
+    "lang.fr.billing": {
+        "admin": {
+            "settings": {
+                "title": "Invoicing",
+                "description": "Store billing settings. Enable VAT, set currency, or other.",
+                "success": "The billing settings have been saved successfully.",
+                "webhookoncheckout": "Webhook at checkout",
+                "fields": {
+                    "store_vat_enabled": "Activate VAT",
+                    "customermustbeconfirmed": "Customer must be confirmed to order",
+                    "toslink": "Link to the general terms and conditions of sale",
+                    "currency": "Currency",
+                    "invoice_prefix": "Invoice prefix",
+                    "billing_mode": "Billing method",
+                    "billing_modes": {
+                        "proforma": "Proforma",
+                        "invoice": "Invoice"
+                    },
+                    "remove_pending_invoice": "Action on pending invoices after (days)",
+                    "remove_pending_invoice_help": "0 to disable",
+                    "remove_pending_invoice_types": {
+                        "delete": "Delete",
+                        "cancel": "Cancel"
+                    },
+                    "mode_tax": {
+                        "title": "Tax method",
+                        "included": "Included - The price displayed is inclusive of VAT",
+                        "excluded": "Excluded - The price displayed is excl. VAT"
+                    },
+                    "vat_default_country": "Default country for VAT",
+                    "rates": {
+                        "title": "VAT rate",
+                        "vat_rate_by_country": "VAT rate by customer's country",
+                        "vat_rate_fixed": "Fixed VAT rate"
+                    },
+                    "add_setupfee_on_upgrade": "Add configuration charges during an upgrade",
+                    "minimum_days_to_force_renewal_with_upgrade": "Minimum time in days to force renewal with an improvement",
+                    "display_product_price": {
+                        "title": "Product price display",
+                        "included": "Included - The price displayed is inclusive of VAT",
+                        "excluded": "Excluded - The price displayed is excl. VAT"
+                    },
+                    "allow_add_balance_to_invoices": "Allow adding balance to invoices",
+                    "store_mode_tax": {
+                        "title": "Tax mode",
+                        "tax_included": "Tax included",
+                        "tax_excluded": "Tax excluded"
+                    }
+                },
+                "tax": "VAT management"
+            },
+            "title": "Invoicing",
+            "subheading": "Subscription and payment management",
+            "subscriptions": {
+                "create": {
+                    "title": "Create a subscription",
+                    "subheading": "Create a subscription for a customer"
+                },
+                "title": "Subscriptions",
+                "description": "Subscription Management",
+                "last_payment_at": "Last payment",
+                "active_subscription": "Active subscriptions",
+                "services_empty": "No services found",
+                "earn": {
+                    "service_subscription_help": "Percentage of services with an active subscription",
+                    "monthly": "Monthly subscriptions",
+                    "monthly_earn": "Monthly renewals",
+                    "subscription_and_services": "Subscriptions and Service Renewals",
+                    "monthly_help": "Subscriptions count towards monthly renewals"
+                }
+            },
+            "global_balance": "Overall balance",
+            "upgrades": {
+                "title": "Service Improvements",
+                "description": "See how customers are making improvements to their services."
+            }
+        }
+    },
+    "lang.fr.client": {
+        "invoices": {
+            "billto": "Billed at {_name}",
+            "itemname": "Item Name",
+            "qty": "Qty",
+            "due_date": "Due date",
+            "invoice_date": "Invoice date",
+            "print": "Print",
+            "download": "Download",
+            "pay": "Pay the invoice",
+            "invoice_not_payable": "This invoice cannot be paid",
+            "thank": "Thank you for your payment",
+            "thankmessage": "If you have any questions, please do not hesitate to contact us.",
+            "details": "Invoice Details",
+            "index": "My Invoices",
+            "paymethod": "Payment method",
+            "index_description": "Below is a list of your invoices.",
+            "identifier": "Invoice ID",
+            "terms": "Payment terms",
+            "banktransfer": {
+                "title": "Our banking information",
+                "setting_fielddescription": "Bank information to display on the invoice",
+                "flash": "Please make the payment to the bank account indicated on the invoice. Your order will be processed once payment is received."
+            },
+            "paid_date": "Payment Date",
+            "deliver": "Deliver",
+            "renewal_description": "Added {_month_label} to the {_service_label} service",
+            "pay_with_balance": "Pay part of the bill with the balance",
+            "balance": {
+                "success": "The balance was used to pay the bill.",
+                "balance_addition": "Addition of balance to the invoice",
+                "balance_addition_description": "Addition of {_amount} deducted from the invoice.",
+                "title": "Credit",
+                "balance_not_enough": "The balance is not enough to add it to the invoice."
+            }
+        },
+        "emails": {
+            "index": "My emails",
+            "subject": "Subject",
+            "index_description": "Below is a list of your emails received by our system."
+        },
+        "payment-methods": {
+            "paymentmethod": "Payment method",
+            "index": "My payment methods",
+            "index_description": "Below is a list of your saved payment methods.",
+            "card": "Map",
+            "expiration": "Expiration",
+            "add": "Add a payment method",
+            "add_description": "Add a new payment method to your account.",
+            "success": "Payment method successfully added",
+            "default": "Default",
+            "defaultsucces": "Updated default payment method",
+            "set_default": "Set as default",
+            "manage": "Manage",
+            "deleted": "Payment method removed",
+            "add_paypal": "Add a PayPal account",
+            "errors": {
+                "not_supported": "This payment method is not supported",
+                "not_found": "This payment method was not found"
+            },
+            "payment_method_used": "Payment method used",
+            "invoices": "Invoices paid with means of payment",
+            "invoices_description": "You will find below the list of invoices paid with automatic withdrawals."
+        },
+        "services": {
+            "index": "My services",
+            "index_description": "Below is a list of your services.",
+            "show": "Service Details",
+            "renewbtn": "Renew Service",
+            "managebtn": "Manage the service",
+            "expire_date": "Expiration Date",
+            "noservices": "No services found",
+            "startorder": "Start by ordering a service",
+            "server": "Server",
+            "onetime": "Onetime",
+            "changename": "Change service name",
+            "managerenew": "Manage the service cycle",
+            "manageserviceonadmin": "Manage the service from the administration",
+            "dayremaining": "{_days} day left",
+            "daysremaining": "{_days} days left",
+            "expirationtooltip": "The service will expire on {_date}",
+            "expirationtooltipexpired": "The service expired on {_date}",
+            "expirationtooltipneverexpire": "Service never expires",
+            "expirationtooltipsuspended": "The service was suspended on {_date}",
+            "subusers": {
+                "index": "Sub-users",
+                "manage": "Manage access"
+            },
+            "cancel": {
+                "index": "Cancel the service",
+                "subtitle": "Do you really want to leave us?",
+                "index_description": "Please select a reason to cancel your service.",
+                "back": "Continue to use the service",
+                "message": "Message to send to us",
+                "reason": "Reason",
+                "submit": "Cancel the service",
+                "uncancel": "Undo Cancellation",
+                "success": "The service was successfully cancelled",
+                "expiration": "Service Expiration",
+                "expiration_now": "Now",
+                "expiration_end": "At the end of the period"
+            },
+            "renewals": {
+                "index": "Service Renewals",
+                "title": "Renewal Management",
+                "period": "Period",
+                "saveandrenew": "Register and renew",
+                "date": "Date",
+                "manage": "Below is a list of your service renewals that have already been completed.",
+                "not_autorized_to_change_billing": "You are not allowed to change the billing method",
+                "not_authorized_to_change_billing": "You are not authorized to change the billing mode."
+            },
+            "subscription": {
+                "cancelled": "Auto-renewal has been canceled. Your service will expire on {_date}.",
+                "index": "Subscription",
+                "cancel": "Cancel subscription",
+                "failed": "Auto-renewal failed on {_date} ({_tries} tries). Please check your payment information.",
+                "cannot": "This service cannot be automatically renewed",
+                "success": "Auto-renewal has been enabled. The next payment will be made on {_date}.",
+                "add_payments_method": "You must add a payment method to enable auto-renewal. You can do this from the <a href=\"{_url}\" class=\"text-primary\"> payment methods page</a>.",
+                "enabled": "Auto-renewal is enabled for this service. The invoice will be generated automatically and then paid on {_date}.",
+                "manage_subscriptions": {
+                    "index": "Manage your subscriptions",
+                    "index_description": "Below you will find the list of your services that can be automatically renewed. You can enable or disable automatic renewal for each service.",
+                    "next_renewal": "Next renewal"
+                }
+            },
+            "upgradeservice": "Improve service",
+            "manageoptions": "Service Options",
+            "options": {
+                "index": "Service Options",
+                "index_description": "Below are the options for your service. Options with the same expiration date as the service will automatically renew with the service."
+            },
+            "upgrade": {
+                "upgrade_to": "Upgrade to {_product}",
+                "upgrade_to2": "Improvement to {_product}",
+                "index": "Improve service",
+                "upgradebtn": "Improve now",
+                "index_description": "Below is the list of products you can upgrade from your current service.",
+                "minimum_days_to_force_renewal_with_upgrade": "The renewal will be added to the upgrade bill as the current service is about to expire.",
+                "upgrade_notice": "By accepting an improvement, you are agreeing to the permanent increase in the price of your service and the improvement of its performance as well as the"
+            },
+            "orderservice": "Need another service? Order it now!",
+            "expired_at": "Expired on {_date}"
+        },
+        "profile": {
+            "index": "My Profile",
+            "index_description": "Change your personal information here.",
+            "updated": "Updated profile",
+            "security": {
+                "index": "Security",
+                "index_description": "Change your password here.",
+                "currentpassword": "Current Password",
+                "newpassword": "New password"
+            },
+            "2fa": {
+                "enabled": "Two-factor authentication has been enabled",
+                "disabled": "Two-factor authentication has been disabled",
+                "title": "Two-factor authentication",
+                "code": "Two-factor authentication code",
+                "heading": "Two-factor verification",
+                "subheading": "Please enter the two-factor authentication code generated by your mobile app.",
+                "info": "Scan the QR code with your two-factor authentication app.",
+                "download_codes": "Download the recovery codes <a href=\"{_url}\" class=\"text-primary\"> by clicking here</a>."
+            }
+        },
+        "pending_invoices": "{_count} invoice(s) awaiting payment. Please pay them to avoid a service interruption.",
+        "logout": "Logout",
+        "alerts": {
+            "servernotfound": "The server was not found",
+            "servernotinstalled": "The server is not yet installed",
+            "service_suspended": "The service is suspended",
+            "power_success": "The action was successfully carried out",
+            "power_error": "An error occurred while performing the action",
+            "email_not_verified": "Your email address is not verified. &nbsp;<a href=\"{_url}\">Click here</a>&nbsp; to receive a new verification link.",
+            "service_not_paid": "The renewal invoice is available. &nbsp;<a href=\"{_url}\">Click here</a>&nbsp; to pay for it and avoid an interruption.",
+            "email_verification_sent": "A new verification link has been sent to your email address.",
+            "internalerror": "An internal error occurred while viewing the service",
+            "cannot_renew": "This service cannot be renewed",
+            "suspended_reason_expired": "The service has expired",
+            "service_cancelled": "The service has been cancelled",
+            "service_cancelled_and_not_expired": "The service has been cancelled but has not yet expired. It will be active until the expiration date.",
+            "cannot_cancel": "This service cannot be cancelled",
+            "service_uncancelled": "The service has been reactivated",
+            "vpsnotfound": "VPS was not found",
+            "spam": "Spam detected",
+            "account_blocked": "Your account has been blocked",
+            "account_suspended": "Your account has been suspended",
+            "service_name_updated": "The name of the service has been updated",
+            "service_billing_updated": "Billing information has been updated",
+            "email_must_be_verified": "Your email address must be verified to access this page",
+            "service_trial_ends_at": "The trial service ends on {_date}",
+            "invoice_payment_failed": "The payment of your invoice has failed."
+        }
+    },
+    "lang.fr.coupon": {
+        "not_found": "Coupon not found",
+        "coupon_not_started": "The coupon has not started yet",
+        "coupon_expired": "Coupon has expired",
+        "first_order_only": "This coupon is valid for the first order only",
+        "coupon_max_uses": "This coupon has reached the maximum number of uses",
+        "coupon_max_uses_per_customer": "This coupon has reached the maximum number of uses per customer",
+        "minimum_order_amount": "The order amount must be greater than {_amount}",
+        "coupon_not_valid_product": "This coupon is not valid for the products in your cart",
+        "coupon": "Coupon",
+        "coupons": "Coupons",
+        "add_coupon_title": "Add Coupon",
+        "add_coupon": "Apply",
+        "remove_coupon": "Delete",
+        "coupon_placeholder": "Enter your discount code",
+        "coupon_applied": "Coupon applied",
+        "coupon_removed": "Coupon deleted",
+        "subtotal_without_coupon": "Subtotal without coupon",
+        "subtotal_with_coupon": "Subtotal with coupon",
+        "discount_price": "Discount applied to the price",
+        "discount_setup": "Discount applied on installation fees",
+        "free_setup": "Free installation fees",
+        "coupon_label": "Code: {_code} | {_discount}",
+        "admin": {
+            "description": "Set up your store's discount coupons.",
+            "subheading": "Coupon Management",
+            "fixed": "Fixed amount",
+            "is_global": "Overall discount in the shop",
+            "percent": "Percentage",
+            "products": "Authorized products",
+            "free_setup": "Offer installation fees",
+            "first_order_only": "First order only",
+            "applied_month": "Recurrence of reduction",
+            "start_at": "Start date",
+            "end_at": "End date",
+            "max_uses": "Maximum number of uses",
+            "max_uses_per_customer": "Maximum number of uses per customer",
+            "uses_help": "0 for unlimited",
+            "required_products": "Required Products",
+            "all_products_in_group": "All products of the group {_group}",
+            "usages": "Number of uses",
+            "products_required": "Required Products",
+            "minimum_order_amount": "Minimum Order Amount",
+            "applied_month_help": "-1 for unlimited, 0 for the first payment only. (Ex: 3 recurrences = first payment + 3 renewals)",
+            "code": "Code",
+            "pricelabel": "Reduction",
+            "used_at": "Used on",
+            "amount": "Amount",
+            "usage": "Usage",
+            "groups": "Authorized Groups",
+            "no_products": "This coupon does not contain any authorized products. It cannot be used. Allow products for this coupon or activate it for the entire store.",
+            "show": {
+                "title": "Coupon Details",
+                "subheading": "Discount Coupon Details"
+            },
+            "create": {
+                "title": "Create a coupon",
+                "subheading": "Create a new discount coupon"
+            },
+            "allowed_customer": "Authorized client (leave empty for all)"
+        },
+        "coupon_not_applicable": "This coupon is not applicable to your cart."
+    },
+    "lang.fr.errors": {
+        "404": {
+            "title": "Page not found",
+            "description": "Sorry, the page you are looking for could not be found.",
+            "back": "Return to previous page",
+            "home": "Go to the homepage",
+            "dashboard": "Go to the dashboard"
+        },
+        "500": {
+            "title": "Internal Server Error",
+            "description": "Sorry, an internal error occurred.",
+            "back": "Return to previous page",
+            "home": "Go to the homepage"
+        }
+    },
+    "lang.fr.extensions": {
+        "title": "Extensions",
+        "description": "Manage CLIENTXCMS extensions, enable or disable installed extensions.",
+        "settings": {
+            "title": "Extension settings",
+            "description": "Manage settings for installed extensions",
+            "clearcache": "Clear cache",
+            "enable": "Activate",
+            "disable": "Deactivate",
+            "enabled": "Activated",
+            "disabled": "Disabled",
+            "activable": "Activable",
+            "notactivable": "Not activatable",
+            "buy": "Buy"
+        },
+        "onetime": "Onetime",
+        "monthly": "Monthly",
+        "flash": {
+            "already_enabled": "The extension is already activated.",
+            "extension_not_enabled": "The {_extension} extension is not enabled and is required for this extension.",
+            "cannot_enable": "Unable to activate the extension.",
+            "composer_not_found": "The composer.json file was not found.",
+            "extension_not_loaded": "The {_extension} extension is required for this extension to be activated.",
+            "extension_not_installed": "The {_extension} extension is not installed.",
+            "extension_version_not_compatible": "The extension version {_extension} ({_current}) is not compatible with the required version ({_version}).",
+            "cache_cleared": "The cache has been cleared successfully."
+        }
+    },
+    "lang.fr.global": {
+        "firstname": "First name",
+        "lastname": "Last name",
+        "email": "Email",
+        "password": "Password",
+        "locale": "Language",
+        "username": "Username",
+        "password_confirmation": "Password confirmation",
+        "address": "Address",
+        "currency": "Currency",
+        "title": "Title",
+        "content": "Content",
+        "address2": "Additional address",
+        "city": "Town",
+        "state": "State",
+        "edit": "Modify",
+        "url": "URL",
+        "zip": "Zip code",
+        "country": "Country",
+        "type": "Type",
+        "seemore": "See more",
+        "region": "Region",
+        "clone": "Clone",
+        "phone": "Telephone",
+        "clientarea": "Customer area",
+        "or": "or",
+        "showing": "Display",
+        "to": "at",
+        "of": "from",
+        "results": "results",
+        "withselected": "With the selection",
+        "password_generate": "Generate a password",
+        "recurring": "Recurrent",
+        "validate": "Validate",
+        "recurrences": "Recurrences",
+        "free": "Free",
+        "month": "month",
+        "closemodal": "Close",
+        "year": "year",
+        "product": "Product",
+        "products": "Product",
+        "description": "Description",
+        "slug": "Slug",
+        "darkmode": "Dark Mode",
+        "select": "Select",
+        "years": "Years",
+        "search": "Research",
+        "any": "All",
+        "lookup": "Research",
+        "yes": "Yes",
+        "no": "No",
+        "searchfrom": "Search from",
+        "actions": "Actions",
+        "view": "Show",
+        "show": "Show",
+        "hour": "Hour",
+        "date": "Date",
+        "clicktoremove": "Click to delete",
+        "separebycomma": "Separated by commas",
+        "mail": {
+            "greeting": "Hello",
+            "salutation": "Kind regards"
+        },
+        "states": {
+            "pending": "Pending",
+            "active": "Active",
+            "failed": "Aground",
+            "suspended": "Suspended",
+            "terminated": "Finished",
+            "refunded": "Refunded",
+            "paid": "Paid",
+            "fraud": "Fraud",
+            "cancelled": "Cancelled",
+            "expired": "Expired",
+            "pending_setup": "Waiting for configuration",
+            "all": "All",
+            "unreferenced": "Not referenced",
+            "hidden": "Hidden",
+            "draft": "Draft",
+            "open": "Open",
+            "closed": "Closed",
+            "approved": "Approved",
+            "rejected": "Rejected",
+            "completed": "Finished",
+            "disabled": "Disabled",
+            "not_confirmed": "Not confirmed",
+            "confirmed": "Confirmed",
+            "answered": "responded",
+            "yes": "yes",
+            "no": "No"
+        },
+        "add": "Add",
+        "invoice_was_cancelled": "The invoice has just been cancelled",
+        "invoice_cancelled": "The invoice was cancelled on {_date}",
+        "invoice": "Invoice",
+        "invoices": "Factures",
+        "service": "Service",
+        "preview": "Glimpse",
+        "services": "Services",
+        "balance": "Balance",
+        "sort_order": "Sort order",
+        "pinned": "Pinned",
+        "quote": "Quote",
+        "quotes": "Quote",
+        "ticket": "Ticket",
+        "tickets": "Tickets",
+        "name": "Name",
+        "status": "Status",
+        "created": "Created",
+        "filter": "Filter",
+        "disabled": "Disabled",
+        "enabled": "Activated",
+        "no_results": "No results",
+        "save": "Save",
+        "hidden": "Hidden",
+        "optional": "Optional",
+        "unreferenced": "Not referenced",
+        "active": "Active",
+        "inactive": "Inactive",
+        "activehelp": "Visible to everyone",
+        "unreferencedhelp": "Visible only to admins",
+        "hiddenhelp": "Invisible to everyone",
+        "drop-file": {
+            "label": "Drop your files here or click to import them",
+            "help": "Only files with an extension {_extensions} are allowed"
+        },
+        "back": "Return",
+        "customer": "Customer",
+        "details": "Details",
+        "none": "None",
+        "delete": "Delete",
+        "cancel": "Cancel",
+        "amount": "Amount",
+        "already_sent": "Already Sent",
+        "email_trouble_clicking_button": "If you have problems clicking on the \"{_actionText}\" button, copy and paste the URL below",
+        "group": "Group",
+        "value": "Value",
+        "key": "Key",
+        "week": "Week",
+        "updated": "Updated",
+        "already_set": "Already defined",
+        "create": "found",
+        "unkwown": "unknown",
+        "deleted": "removed",
+        "action": "share",
+        "is_downloaded": "Downloaded",
+        "is_default": "lack",
+        "download": "transfer",
+        "update": "update",
+        "disable": "disable",
+        "enable": "start",
+        "store": "increase",
+        "listing": "Lister",
+        "suspend": "hang",
+        "unsuspend": "restore",
+        "terminate": "end",
+        "next": "next",
+        "send": "send",
+        "users": "Users",
+        "user": "user",
+        "expiration": "end",
+        "expires_at": "Expire the",
+        "reset": "reset",
+        "server": "server",
+        "is_enabled": "Activated",
+        "is_disabled": "Disabled",
+        "home": "Home"
+    },
+    "lang.fr.helpdesk": {
+        "ticket": "Ticket",
+        "tickets": "Tickets",
+        "subject": "Subject",
+        "priority": "Priority",
+        "attachments": "Attachments",
+        "priorities": {
+            "low": "Low",
+            "medium": "Medium",
+            "high": "High"
+        },
+        "department": "Department",
+        "support": {
+            "index": "My tickets",
+            "index_description": "Below is a list of your support tickets.",
+            "attachments_help": "Maximum size {_size} MB. Allowed file types: {_types}",
+            "ticket_reopen_days": "You cannot reopen the ticket. You can open a new one.",
+            "ticket_closed": "The ticket has been closed",
+            "ticket_reopened": "The ticket has been reopened",
+            "ticket_replied": "Your reply has been sent",
+            "show": {
+                "replybystaff": "Response from {_app}",
+                "messagebystaff": "Message from {_app}",
+                "replybycustomer1": "Your answer",
+                "replybycustomer2": "Customer Response",
+                "your_demand": "Your request",
+                "reply": "Answer",
+                "replyandclose": "Reply and close",
+                "close": "Close",
+                "customer_demand": "Customer request",
+                "reopen": "Reopen",
+                "open_on": "Opened on {_date}",
+                "closed_on": "Closed on {_date}",
+                "attachments": "One or more attachments have been added to this ticket",
+                "closed": "This ticket is closed. You can't answer. If you need help, please open a new ticket or reopen this ticket.",
+                "replyinticket": "Reply to the ticket",
+                "closed2": "This ticket is closed. You can't answer.",
+                "index_description": "Below are the details of the support ticket.",
+                "close_reason": "Reason for the closure",
+                "assigned_to": "Assigned to",
+                "edit_message": "Edit the message",
+                "edited_at": "Message modified on {_date}",
+                "closed3": "This ticket is closed. You cannot respond.",
+                "comments": {
+                    "title": "Comments",
+                    "add": "Add a comment",
+                    "no_comments": "No comment",
+                    "added": "The comment has been added",
+                    "add_comment": "Add a comment",
+                    "deleted": "The comment has been deleted"
+                }
+            },
+            "create": {
+                "index": "New ticket",
+                "index_description": "Open a new support ticket",
+                "relatedto": "Related",
+                "newticket": "New ticket",
+                "send": "Send",
+                "relatednone": "None",
+                "messagehelp": "Please provide as much detail as possible to help us resolve your issue."
+            },
+            "departmentsseeder": {
+                "general": {
+                    "name": "General",
+                    "description": "General Department"
+                },
+                "billing": {
+                    "name": "Invoicing",
+                    "description": "Billing Department"
+                },
+                "technical": {
+                    "name": "Technique",
+                    "description": "Technical Department"
+                },
+                "sales": {
+                    "name": "Commercial",
+                    "description": "Sales Department"
+                }
+            },
+            "ticket_closed_by": "Closed by {_name}",
+            "ticket_auto_close": "The ticket was automatically closed after {_days} days.",
+            "message_updated": "The message has been updated"
+        },
+        "admin": {
+            "title": "Help Center",
+            "description": "Set up the help center and manage support tickets",
+            "open_tickets": "Open tickets",
+            "settings": {
+                "title": "Help Center settings",
+                "success": "Help Center settings have been saved successfully.",
+                "description": "Setting up support tickets and the help center",
+                "fields": {
+                    "ticket_auto_close_days": "Automatic closure of tickets after inactivity (days)",
+                    "ticket_auto_close_days_help": "0 to disable",
+                    "allow_attachments": "Allow attachments",
+                    "allow_attachments_help": "Allows users to attach files to their tickets",
+                    "attachments_max_size": "Maximum attachment size (MB)",
+                    "attachments_allowed_types": "Allowed file types",
+                    "attachments_allowed_types_help": "Separated by commas",
+                    "webhook_url": "Webhook URL",
+                    "reopen_days": "Authorization to re-open tickets (days)",
+                    "reopen_days_help": "0 to disable reopening, -1 to allow indefinitely"
+                }
+            },
+            "tickets": {
+                "pending_title": "Pending tickets",
+                "last_update": "Last updated",
+                "subheading": "Here is the list of all the tickets in the system",
+                "edit": "Edit Ticket",
+                "customer_not_found": "Customer Was Not Found",
+                "create": {
+                    "title": "Create a ticket",
+                    "subheading": "Create a new ticket for a customer"
+                },
+                "graphs": "Ticket Chart",
+                "closed_tickets": "Closed requests",
+                "analytics": "Analysis of tickets",
+                "department_ticket_counts": "Number of tickets by department",
+                "tickets_active": "Request pending processing",
+                "tickets_active_description": "Here is the list of all the tickets awaiting your response.",
+                "tickets_to_reply_description": "Here is the list of all the tickets awaiting a response from the client.",
+                "tickets_to_reply": "Request pending response",
+                "last_reply": "Last answer",
+                "no_department_stats": "No department found at the moment.",
+                "staff_message_counts": "Number of messages per staff member",
+                "no_staff_stats": "No staff member found at the moment."
+            },
+            "departments": {
+                "title": "Support Departments",
+                "description": "Set up support departments for tickets",
+                "subheading": "Here is the list of all the departments in the system",
+                "create": {
+                    "title": "Create a department",
+                    "subheading": "Create a new support department"
+                },
+                "show": {
+                    "title": "Department sheet {_name}",
+                    "subheading": "Here is the information related to this department created on {_date}"
+                },
+                "error_delete": "Unable to delete this department because it contains tickets."
+            },
+            "create_ticket": "Create a request",
+            "widgets": {
+                "pending_tickets": "Pending requests",
+                "active_tickets": "Requests in progress",
+                "total_tickets": "Total requests",
+                "tickets_last_week": "Tickets from last week",
+                "avg_reply_time": "Average response time",
+                "messages_sent": "Sent messages",
+                "avg_resolution_time": "Average resolution time"
+            }
+        }
+    },
+    "lang.fr.http-statuses": {
+        "0": "Unknown error",
+        "100": "Continue",
+        "101": "Switching Protocols",
+        "102": "Processing",
+        "200": "All right",
+        "201": "Created",
+        "202": "Accepted",
+        "203": "Unauthorized Information",
+        "204": "Not happy",
+        "205": "Reset content",
+        "206": "Partial content",
+        "207": "Multi-status",
+        "208": "Already reported",
+        "226": "I'm used to it",
+        "300": "Multiple choices",
+        "301": "Permanently moved",
+        "302": "Found",
+        "303": "See more",
+        "304": "Unmodified",
+        "305": "Use a proxy",
+        "307": "Temporary redirection",
+        "308": "Permanent redirection",
+        "400": "Bad Demand",
+        "401": "Not allowed",
+        "402": "Payment Required",
+        "403": "Forbidden",
+        "404": "Page not found",
+        "405": "Method not allowed",
+        "406": "Not acceptable",
+        "407": "Proxy authentication required",
+        "408": "Application expiry time",
+        "409": "Conflict",
+        "410": "Disappeared",
+        "411": "Required length",
+        "412": "Precondition failed",
+        "413": "Payload too large",
+        "414": "URI too long",
+        "415": "Unsupported Media Type",
+        "416": "Unsatisfactory range",
+        "417": "Waiting Failure",
+        "418": "I'm a Teapot",
+        "419": "Session has expired",
+        "421": "Poorly directed request",
+        "422": "Non-treatable entity",
+        "423": "Locked",
+        "424": "Dependency failed",
+        "425": "Too early",
+        "426": "Upgrade required",
+        "428": "Prerequisite",
+        "429": "Too many requests",
+        "431": "Asking for header fields that are too large",
+        "444": "Closed connection with no response",
+        "449": "Try again with",
+        "451": "Unavailable for legal reasons",
+        "499": "Client Request Closed",
+        "500": "Internal Server Error",
+        "501": "Not implemented",
+        "502": "Bad gateway",
+        "503": "Mode de Maintenance",
+        "504": "Gateway timeout",
+        "505": "HTTP version not supported",
+        "506": "The variant also negotiates",
+        "507": "Insufficient space",
+        "508": "Loop detected",
+        "509": "Bandwidth limit exceeded",
+        "510": "Not Extended",
+        "511": "Network authentication required",
+        "520": "Unknown error",
+        "521": "The web server is down",
+        "522": "Connection timed out",
+        "523": "The origin is inaccessible",
+        "524": "A time limit has been exceeded",
+        "525": "SSL handshake failed",
+        "526": "Invalid SSL certificate",
+        "527": "Railway gun error",
+        "598": "Network Read Timeout Error",
+        "599": "Network connection timeout error",
+        "unknownError": "Unknown error"
+    },
+    "lang.fr.install": {
+        "install": "Installation",
+        "step": "Stage",
+        "settings": {
+            "title": "Parameters",
+            "client_id": "Client ID",
+            "client_secret": "Client Secret",
+            "hosting_name": "Company Name",
+            "connect": "Sign in",
+            "migrationwarning": "Warning: the database has not been migrated. Please run \"php artisan migrate --force\" to migrate the database.",
+            "detecteddomain": "Domain detected: {_domain}. Make sure that the domain exactly matches the domain of your license (including the subdomain if applicable)."
+        },
+        "register": {
+            "title": "Registration",
+            "btn": "Create Account",
+            "telemetry": "Send anonymized telemetry data. This helps us improve the CMS and fix bugs. You can disable this option later in the settings."
+        },
+        "summary": {
+            "title": "Summary",
+            "btn": "Finish"
+        },
+        "submit": "Send"
+    },
+    "lang.fr.maintenance": {
+        "settings": {
+            "title": "Maintenance Mode",
+            "description": "Enable or disable maintenance mode in the customer area",
+            "maintenance_enabled": "Enable maintenance mode",
+            "maintenance_url": "Maintenance URLs",
+            "maintenance_url_help": "URL to bypass maintenance mode",
+            "maintenance_message": "Maintenance message",
+            "maintenance_message_help": "Message displayed to users when they access the site in maintenance mode",
+            "maintenance_button_text": "Maintenance Button Text",
+            "maintenance_button_icon": "Maintenance button icon",
+            "maintenance_button_url": "Maintenance Button URL",
+            "success": "Maintenance settings have been updated successfully"
+        },
+        "in_maintenance_title": "Ongoing Maintenance",
+        "in_maintenance_message": "The site is currently undergoing maintenance. Please check back later."
+    },
+    "lang.fr.pagination": {
+        "next": "Next »",
+        "previous": "« Previous"
+    },
+    "lang.fr.passwords": {
+        "reset": "Your password has been reset!",
+        "sent": "We have emailed you the password reset link!",
+        "throttled": "Please wait before trying again.",
+        "token": "This password reset token is invalid.",
+        "user": "No users found with this email address."
+    },
+    "lang.fr.permissions": {
+        "admin": "Admin permissions",
+        "services": "Service Permissions",
+        "helpdesk": "Help Center permissions",
+        "metadata": "Metadata permissions",
+        "billing": "Billing permissions",
+        "store": "Shop permissions",
+        "technical": "Technical permissions",
+        "customers": "Client permissions",
+        "earn_page": "Earnings Page",
+        "manage_permissions": "Manage permissions",
+        "manage_roles": "Manage roles",
+        "show_email_messages": "View emails",
+        "dashboard_last_login": "Last login to the customer area",
+        "show_logs": "View History",
+        "show_customers": "View customers",
+        "manage_customers": "Manage customers",
+        "manage_staff": "Manage staff",
+        "autologin_customer": "Automatic connection to customers",
+        "manage_metadata": "Manage metadata",
+        "show_metadata": "View metadata",
+        "manage_invoices": "Manage invoices",
+        "show_invoices": "View invoices",
+        "create_invoices": "Create invoices",
+        "show_services": "View Services",
+        "deliver_services": "Deliver services",
+        "manage_license": "Manage License",
+        "manage_gateways": "Manage payment gateways",
+        "manage_extensions": "Manage extensions",
+        "manage_staff_profile": "Editing the staff profile",
+        "manage_database": "Manage the database",
+        "show_payment_methods": "See payment methods",
+        "manage_services": "Manage services",
+        "create_tickets": "Create tickets",
+        "show_tickets": "View tickets",
+        "reply_tickets": "Reply to tickets",
+        "close_tickets": "Close tickets",
+        "manage_tickets": "Manage tickets",
+        "manage_departments": "Manage departments",
+        "manage_products": "Manage Products",
+        "manage_groups": "Manage Groups",
+        "manage_coupons": "Manage coupons",
+        "manage_servers": "Manage servers",
+        "manage_personalization": "Manage customizations",
+        "staff_permissions": "Staff permissions",
+        "manage_configoptions": "Manage configuration options",
+        "send_email_messages": "Send emails",
+        "show_helpdesk_analytics": "See the statistics of the help center",
+        "manage_tickets_department": "Manage only the tickets of the department {_name}",
+        "manage_api_keys": "Manage API keys"
+    },
+    "lang.fr.personalization": {
+        "title": "Customization",
+        "icon": "Bootstrap",
+        "addmenu": "Add a menu",
+        "demo": "Demo",
+        "icon_help": "See the list of icons on icons.getbootstrap.com",
+        "email_templates": {
+            "title": "Email templates",
+            "description": "Customize email templates in the customer area",
+            "subheading": "Here is the list of all the email templates in the system",
+            "locale": "Tongue",
+            "shouldnotchanged": "This field is editable but should not be modified except in exceptional cases",
+            "button_text": "Button text",
+            "subject": "Subject of the email",
+            "show": {
+                "title": "Email template sheet {_name}",
+                "subheading": "Here is the information related to this email template created on {_date}"
+            },
+            "create": {
+                "title": "Create an email template",
+                "subheading": "Create a new email template for the system"
+            },
+            "names": {
+                "invoice_paid": "Invoice paid",
+                "notify_expiration": "Expiration notification",
+                "wisp": "Wisp Delivery",
+                "pterodactyl": "Pterodactyl Delivery",
+                "virtualizor_vps": "Virtualizor VPS Delivery",
+                "virtualizor_cloud": "VPS Reseller Shipping",
+                "pterobox": "Delivery Pterobox",
+                "service_suspended": "Suspended service",
+                "invoice_created": "Invoice created",
+                "reset": "Password reset",
+                "verify": "Email verification",
+                "plesk_hosting": "Plesk Hosting Delivery",
+                "plesk_reseller": "Plesk Reseller Shipping",
+                "proxmox": "Proxmox Delivery",
+                "support_admin_ticket_created": "Support ticket created",
+                "support_admin_ticket_reply": "A customer's response to a support ticket",
+                "support_customer_ticket_reply": "Response to a support ticket",
+                "notify_subscription_failed": "Subscription payment failure notification",
+                "virtualizor_cloud_vps": "VPS Delivery Virtualizor Reseller",
+                "customer_banned": "Banned client",
+                "customer_suspended": "Suspended client",
+                "customer_reactivated": "Client reactivated"
+            },
+            "import": {
+                "title": "Import an email template",
+                "btn": "Import",
+                "invalid_file": "The file must be a valid HTML blade file",
+                "success": "The email template has been successfully imported."
+            }
+        },
+        "description": "Customize the menus in the customer area and the company's social networks.",
+        "social": {
+            "title": "Social media",
+            "description": "Personalize the company's social networks",
+            "subheading": "Here is the list of all the social networks in the system",
+            "create": {
+                "title": "Create a social network",
+                "subheading": "Create a new social network for the company"
+            },
+            "show": {
+                "title": "Social network page {_name}",
+                "subheading": "Here is the information related to this social network created on {_date}"
+            }
+        },
+        "config": {
+            "title": "Configuration",
+            "button": "Configure my theme",
+            "success": "The configuration has been successfully saved."
+        },
+        "seo": {
+            "title": "SEO Settings",
+            "description": "Customize the SEO settings of the customer area",
+            "fields": {
+                "description": "Description of the customer area",
+                "keywords": "Customer Area keywords",
+                "keywords_help": "Separated by commas",
+                "themecolor": "Main color (embed)",
+                "headscripts": "Scripts in the head",
+                "footscripts": "Scripts in the footer",
+                "disablereferencement": "Disable SEO",
+                "site_title": "Site Title",
+                "site_title_help": "The site title in browser tabs after the page name"
+            },
+            "success": "The SEO settings have been saved successfully."
+        },
+        "primary": {
+            "title": "Main colours",
+            "description": "Customize the main colors of the customer area",
+            "fields": {
+                "primary_color": "Main color",
+                "secondary_color": "Secondary color"
+            },
+            "btnpreview": "Live rendering",
+            "preview_save": "You need to save to see the live render"
+        },
+        "front_menu": {
+            "title": "Top menu",
+            "description": "Customize the top menu of the customer area",
+            "help": "Each URL must be unique. To add an external link, use the format: https://www.example.com"
+        },
+        "bottom_menu": {
+            "title": "Footer Menu",
+            "description": "Customize the footer menu of the customer area",
+            "help": "Please note that each URL must be unique"
+        },
+        "sections": {
+            "restoresuccess": "The section has been successfully restored.",
+            "restore": "Restore",
+            "title": "Sections",
+            "subheading": "Here is the list of all the sections of the system",
+            "description": "Customize the sections of the customer area",
+            "content": "Content",
+            "show": {
+                "title": "Editing a section",
+                "subheading": "You can edit the content of your section as you wish"
+            },
+            "fields": {
+                "url": "Section Page",
+                "active": "Active"
+            },
+            "disable": "Deactivate",
+            "enable": "Activate",
+            "types": {
+                "subheading": "Here is the list of sections that can be easily added in the {_name} category",
+                "title": "Sections available for the theme {_name}"
+            },
+            "pages": {
+                "page_home": "Home Page",
+                "page_store": "Shop",
+                "title": "Page",
+                "subheading": "Here is the list of sections for this page",
+                "page_group": "{_name} group page",
+                "page_checkout": "Checkout Page",
+                "page_basket": "Cart Page",
+                "description": "Manage the sections for the page {_name}"
+            },
+            "errors": {
+                "notfound": "Section not found",
+                "advanced_personalization": "Please enable the Advanced Customization module to access this section"
+            },
+            "empty": "No section found for this page.<br/> You can import one from the theme below."
+        },
+        "home": {
+            "title": "Home Page",
+            "description": "Settings on the home page of the customer area",
+            "success": "The homepage settings have been saved successfully.",
+            "fields": {
+                "theme_home_title": "Homepage Title",
+                "theme_home_subtitle": "Home Page Subtitle",
+                "theme_home_image": "Home Page Image",
+                "theme_home_enabled": "Enable the home page",
+                "theme_home_title_meta": "Home Page Name",
+                "theme_home_title_meta_help": "The name of the homepage in browser tabs"
+            }
+        },
+        "theme": {
+            "title": "Theme Settings",
+            "description": "Customer Area Theme Settings",
+            "success": "The theme settings have been saved successfully.",
+            "fields": {
+                "theme_footer_description": "Footer Description",
+                "theme_footer_description_help": "HTML support",
+                "theme_footer_topheberg": "Badge HTML TopHeberg",
+                "theme_header_logo": "Display logo in header instead of company name",
+                "theme_switch_mode": {
+                    "title": "Authorized Mode",
+                    "light": "Bright",
+                    "dark": "Dark",
+                    "both": "Both"
+                }
+            },
+            "themename": "Theme Name",
+            "enabled": "Activated",
+            "disabled": "Disabled",
+            "not_found": "The theme has not been found."
+        },
+        "addline": "Add a row",
+        "useful": "Useful information",
+        "badge": "Badge",
+        "adddropdownmenu": "Add a drop-down menu",
+        "icon_help2": "You can put a URL of an image in place of an icon",
+        "menu_links": {
+            "title": "Menu links",
+            "description": "Customize the menu links of the customer area",
+            "icon_help2": "You can use a URL of an image instead of an icon.",
+            "allowed_role": "Authorized role",
+            "link_type": "Type of link",
+            "new_tab": "New tab",
+            "link": "Link",
+            "dropdown": "Dropdown menu",
+            "parent": "Parent",
+            "allowed_roles": {
+                "all": "all",
+                "logged": "joined",
+                "customer": "Client with a service",
+                "staff": "staff"
+            },
+            "link_types": {
+                "new_tab": "New tab",
+                "link": "Link",
+                "dropdown": "Dropdown menu"
+            }
+        },
+        "addelement": "Add an item"
+    },
+    "lang.fr.provisioning": {
+        "disk": "Disk",
+        "in_gb": "Value in GB",
+        "memory": "Memory",
+        "cpu": "Processor",
+        "io": "I/O",
+        "database": "Database",
+        "backups": "Backups",
+        "databases": "Databases",
+        "swap": "Swap",
+        "allocations": "Allowances",
+        "bandwidth": "Bandwidth",
+        "connect": "Connecting to the Panel",
+        "start": "Start the server",
+        "stop": "Shut down the server",
+        "restart": "Reboot the server",
+        "kill": "Shut down the server",
+        "image": "Docker image",
+        "startup": "Start Control",
+        "port_range": "Port Range",
+        "port_range_help": "For example: 30100-30200 for FiveM",
+        "eggs": "Game Eggs",
+        "location": "Location",
+        "servers": "Authorized Servers",
+        "server": "Server",
+        "server_name": "Server Name",
+        "server_description": "Server Description",
+        "db": "Database",
+        "dedicated_ip": "Dedicated IP",
+        "cores": "Cores",
+        "rate": "Debit",
+        "sockets": "Sockets",
+        "oom_kill": "Oom kill",
+        "used": "Used",
+        "planname": "Hosting Plan Name",
+        "domain": "Domain",
+        "sites": "Authorized sites",
+        "subftp_users": "Additional FTP Users",
+        "autologin": "Automatic connection",
+        "see_website": "Visit the website",
+        "ftp_login": "FTP ID",
+        "ftp_password": "FTP Password",
+        "php_version": "Version de PHP",
+        "www_root": "Website root directory",
+        "ip_addresses": "IP addresses",
+        "unlimited": "Unlimited",
+        "traffic": "Traffic",
+        "domains": "Areas",
+        "clients": "Customers",
+        "website_info": "Website Information",
+        "product_not_configured": "The product is not yet configured. Please configure the product from the admin interface.",
+        "planname_help": "You can configure the name of the hosting plan in the {_plateform} panel",
+        "server_variables": "%owner_email%, %owner_username%, %owner_firstname%, %owner_lastname%, %product_name%, %service_id%, %service_expiration%",
+        "states": {
+            "running": "Lit",
+            "stopped": "Extinct",
+            "starting": "Getting started",
+            "stopping": "Shutdown in progress"
+        },
+        "admin": {
+            "title": "Provisioning",
+            "subheading": "Manage the provisioning of services for customers.",
+            "settings": {
+                "services": {
+                    "title": "Service settings",
+                    "webhookonrenew": "Webhook at renewal",
+                    "success": "The settings of the services have been saved successfully.",
+                    "description": "Service settings",
+                    "subscription": "Subscription",
+                    "fields": {
+                        "days_before_creation_invoice_renewal": "Days before the renewal invoice was created",
+                        "days_before_expiration": "Days before expiration",
+                        "service_days_before_subscription_renewal": "Days before subscription renewals",
+                        "max_subscription_tries": "Maximum number of auto-renewal attempts",
+                        "max_subscription_tries_help": "After this number, the subscription will be canceled .0 to disable",
+                        "service_days_before_subscription_renewal_help": "It sets the number of days before the expiration date to execute the invoice payment. It must be less than the number of days before the renewal invoice is created.",
+                        "notifications_expiration_days": "Notification days before expiration",
+                        "days_before_expiration_help": "Number of days after service suspension before service is discontinued"
+                    }
+                }
+            },
+            "servers": {
+                "testconnection": {
+                    "title": "Test the connection",
+                    "button": "To check",
+                    "data": "Data returned",
+                    "statuscode": "Status Code"
+                },
+                "title": "Servers",
+                "subheading": "Find the list of all servers",
+                "hostname": "Hostname",
+                "address": "IP address",
+                "port": "Port",
+                "type": "Server Type",
+                "show": {
+                    "title": "Server Sheet {_name}",
+                    "subheading": "Here is the information related to this server created on {_date}"
+                },
+                "create": {
+                    "title": "Create a server",
+                    "subheading": "Create a new server to connect it to the system",
+                    "enable_extension": "Enable an extension",
+                    "enable_extension_help": "You need to enable an extension to create a server. You can choose Pterodactyl, Plesk, Proxmox, or Virtualizor for example, depending on your usage."
+                }
+            },
+            "services": {
+                "no_gateway": "There is no payment gateway set up for this service",
+                "invoice_not_found": "The invoice was not found",
+                "invalid_status": "Invalid status",
+                "invalid_customer": "Invalid customer",
+                "status_change_failed": "Unable to change service status: {_error}",
+                "title": "Services",
+                "add_days": "Add days",
+                "sub_days": "Subtract days",
+                "add_days_question": "How many days do you want to add?",
+                "sub_days_question": "How many days do you want to subtract?",
+                "invalid_product_type": "Invalid service type. You requested a product of type {_product} and selected a type {_type}. Please choose the same type.",
+                "expired": "This service has expired or has ended.",
+                "delete_failed": "Unable to delete the service on the server: {_error}",
+                "customer": "Customer",
+                "imported": "Successfully imported service",
+                "create": {
+                    "nothingtoshow": "No service configuration is available at this time. You can create the service",
+                    "title": "Create a service",
+                    "subheading": "Create a new service or import an existing one",
+                    "btn1": "Next",
+                    "btn2": "Import",
+                    "choose": "Choose an existing server",
+                    "import": "<u> OR </u>&nbsp; Import a service",
+                    "new": "Create a new service",
+                    "created": "The service has been successfully created",
+                    "importbtn": "matter"
+                },
+                "show": {
+                    "customerbtn": "Customer file",
+                    "type": "Type of service",
+                    "notes": "Service Notes",
+                    "title": "Service sheet {_name}",
+                    "initial_price": "Initial price",
+                    "max_renewals": "Maximum renewals",
+                    "expires_at": "Expiration",
+                    "subheading": "Here is the information related to the {_owner} service created on {_date}",
+                    "panel": {
+                        "title": "Management Panel"
+                    },
+                    "description_help": "You can add a description for this service. It will be visible to the client in their space.",
+                    "notes_help": "You can add a note for this service. It will not be visible to the client."
+                },
+                "subheading": "Here is the list of all the services in the system",
+                "renewals": {
+                    "btn": "Renewal",
+                    "title": "Service Renewal",
+                    "create": "Issue a renewal invoice",
+                    "btn2": "Issue the invoice",
+                    "remove": "Withdraw invoice",
+                    "removed": "The invoice has been successfully withdrawn",
+                    "fromexistinginvoice": "Add to an existing pending invoice"
+                },
+                "delivery": {
+                    "btn": "Delivering the service",
+                    "btn2": "Redelivering the service",
+                    "success": "The service was successfully delivered",
+                    "reinstall": "The service will be delivered again",
+                    "not_pending": "The service is not waiting for delivery"
+                },
+                "suspend": {
+                    "btn": "Hang",
+                    "title": "Suspend service",
+                    "reason": "Reason for suspension",
+                    "success": "The service was successfully suspended",
+                    "notify": "Send a notification email",
+                    "suspend_at": "Suspended on"
+                },
+                "unsuspend": {
+                    "btn": "Reactivate",
+                    "title": "Reactivate the service",
+                    "success": "The service has been successfully reactivated"
+                },
+                "terminate": {
+                    "btn": "Finish",
+                    "title": "Finish the service",
+                    "success": "The service has been successfully expired"
+                },
+                "data": {
+                    "title": "Service Data",
+                    "btn": "Data",
+                    "orderdata": "Order data"
+                },
+                "cancel": {
+                    "btn": "Cancellation",
+                    "message": "Message conveyed",
+                    "title": "Cancel Service",
+                    "restore": "Restore service",
+                    "reason": "Reason for cancellation",
+                    "success": "The service was successfully cancelled"
+                },
+                "uncancel": {
+                    "success": "The service has been successfully restored"
+                },
+                "configoptions": {
+                    "btn": "Service Options",
+                    "addoption": "Add an additional option",
+                    "addoption_help": "This will add an additional option to this service on the customer area. The option will not be added to the service automatically."
+                },
+                "upgrade": {
+                    "btn": "Service Improvement",
+                    "success": "The service has been successfully improved.",
+                    "makeupgrade": "Improve service",
+                    "upgrade_type": "Enhancement Type",
+                    "upgrade_types": {
+                        "invoice": "Generate an invoice to be paid by the customer",
+                        "no_invoice": "Improve billless service",
+                        "add_in_next_invoice": "Upgrade now and add to the next renewal invoice"
+                    }
+                },
+                "pricing_custom": "The price must be set manually for this service. You can modify it later.",
+                "pricing_custom2": "The price is set manually for this service. This allows the authorization of billing cycles or not.",
+                "resync": "Resynchronize with the product",
+                "pricing_synchronized": "The price of the service is synchronized with the price of the product. You can modify it if you wish for this service only.",
+                "tab_not_found": "Unable to find the tab"
+            },
+            "subdomains_hosts": {
+                "title": "Subdomains",
+                "subdomain": "Subdomain",
+                "subheading": "Manage which domains can be used with a subdomain by customers.",
+                "create": {
+                    "title": "Create a subdomain",
+                    "subheading": "Create a new subdomain for customers."
+                },
+                "show": {
+                    "title": "Subdomain Listing {_name}",
+                    "subheading": "Here is the information related to this subdomain created on {_date}"
+                },
+                "choose_domain": "Choose a domain",
+                "use_subdomain": "Choose a subdomain {_app_name}",
+                "use_owndomain": "Use an existing domain"
+            },
+            "configoptions_services": {
+                "title": "Service configuration options",
+                "subheading": "Define the additional options available for your customers' services, including customizations and provisioning modules.",
+                "show": {
+                    "title": "Configuration option card {_name}",
+                    "see_service": "View Service",
+                    "subheading": "Here is the information related to this configuration option created on {_date}"
+                }
+            },
+            "upgrade_services": {
+                "title": "Service Improvements",
+                "subheading": "Manage service improvements.",
+                "old_product": "Old product",
+                "new_product": "New Product",
+                "upgraded": "Improved",
+                "show": {
+                    "title": "Improvement sheet {_name}",
+                    "subheading": "Here is the information related to this improvement created on {_date}"
+                }
+            },
+            "configoptions": {
+                "title": "Configuration Options",
+                "subheading": "Manage and customize the various configuration options available to ensure optimal adaptation to specific requirements.",
+                "hidden": "Warning: this option is hidden for the moment in order to edit it. You can make it visible once you're done.",
+                "option_added": "The option has been successfully added",
+                "option_last": "You can't remove the last option",
+                "per_unit": "Prices are per {_unit}",
+                "per_step": "Prices are per {_step} {_unit}",
+                "show": {
+                    "title": "Configuration option card {_name}",
+                    "subheading": "Here is the information related to this configuration option created on {_date}",
+                    "options": {
+                        "title": "Available Options",
+                        "add_option": "Add an option",
+                        "friendly_name": "Display Name"
+                    }
+                },
+                "create": {
+                    "title": "Create a configuration option",
+                    "subheading": "Create a new configuration option for services."
+                },
+                "fields": {
+                    "custom_key": "Custom Key",
+                    "max_value": "Maximum value",
+                    "min_value": "Minimum value",
+                    "required": "Required",
+                    "default_value": "Default",
+                    "step": "Cursor step",
+                    "unit": "Unit",
+                    "rules": "Additional Laravel Rules"
+                },
+                "types": {
+                    "text": "Text",
+                    "textarea": "Text box",
+                    "dropdown": "Drop-down menu",
+                    "radio": "Radio button",
+                    "checkbox": "Checkbox",
+                    "number": "Number",
+                    "slider": "Cursor"
+                },
+                "keys": {
+                    "additional_memory": "Additional Submission",
+                    "additional_cores": "Additional Cores",
+                    "additional_ips": "Additional IPs",
+                    "additional_sockets": "Additional Sockets",
+                    "ratelimit": "Debit",
+                    "additional_disk": "Expansion Disc",
+                    "node": "Delivery node",
+                    "server_id": "Server/Location",
+                    "additional_swap": "Additional Swap",
+                    "additional_cpu": "Additional processor",
+                    "additional_databases": "Additional Databases",
+                    "additional_backups": "Additional Backups",
+                    "additional_io": "Additional I/O",
+                    "additional_allocations": "Additional allowances",
+                    "custom": "Custom"
+                }
+            }
+        },
+        "active_services": "Active services",
+        "in_mb": "Value in MB",
+        "network_speed": "Network Speed",
+        "upload_speed": "Upload speed",
+        "ips": "Ips",
+        "ip6": "IP6",
+        "ip6subnet": "IP6 subnet",
+        "burstable_memory": "Burstable memory",
+        "guaranteed_memory": "Guaranteed memory",
+        "vnc": "VNC",
+        "region": "Region",
+        "oses": "Operating systems",
+        "config_option": "Configuration option",
+        "autologin_admin": "Automatic login as administrator",
+        "doyouwantreallyreinstallvps": "Do you really want to reinstall this server?",
+        "disks": "Records"
+    },
+    "lang.fr.recurring": {
+        "onetime": "Onetime",
+        "monthly": "Monthly",
+        "quarterly": "Quarterly",
+        "semiannually": "Biannual",
+        "annually": "Annual",
+        "biennially": "Biennial",
+        "triennially": "Triennial",
+        "month": "month",
+        "year": "year",
+        "years": "Years",
+        "quarter": "quarter",
+        "half-year": "semester",
+        "week": "week",
+        "weekly": "Weekly"
+    },
+    "lang.fr.store": {
+        "admin": "",
+        "basket": {
+            "title": "Basket",
+            "empty": "Your cart is empty",
+            "total": "Total",
+            "checkout": "Order",
+            "continue": "Continue shopping",
+            "remove": "Delete",
+            "coupon": "Coupon Code",
+            "coupon_placeholder": "Enter your promo code",
+            "coupon_apply": "Apply",
+            "contactus": "Contact us",
+            "no_prices": "No prices are available for your currency",
+            "not_valid": "This product is not available",
+            "stockout": "This product is no longer in stock",
+            "coupon_applied": "Discount applied",
+            "coupon_invalid": "Invalid promo code",
+            "coupon_expired": "Expired Promo Code",
+            "coupon_notyetactive": "Non-active promo code",
+            "coupon_minimum": "Minimum order amount is not reached",
+            "coupon_maximum": "The maximum order amount has been exceeded",
+            "addtocart": "Add to cart",
+            "paytoday": "Pay Today",
+            "finish": "Finish",
+            "removed": "This product has been removed from your cart",
+            "added": "This product has been added to your shopping cart",
+            "quantity_changed": "Quantity has been changed",
+            "already_ordered": "You have already ordered a {_product} service"
+        },
+        "checkout": {
+            "title": "Order",
+            "invalidcurrency": "Your cart contains products with different currencies. These products have been removed from your cart",
+            "invalidproduct": "Your cart contains invalid products. These products have been removed from your cart",
+            "choose_payment": "Choose your payment method",
+            "terms": "General Terms and Conditions of Sale",
+            "minimal_amount": "The minimum amount for this payment method is {_amount}",
+            "mustbelogged": "You must be logged in to place an order",
+            "gateway_not_found": "Payment method not found",
+            "email_must_be_verified": "You must confirm your account to place an order",
+            "wrong_payment": "Something went wrong with your payment",
+            "success": "Your order has been successfully placed.",
+            "choose_payment_method": "Registered payment methods",
+            "payment_method_not_found": "Payment method not found",
+            "not_use_payment_method": "Do not use a registered payment method.",
+            "choose_payment_method_description": "You can choose a saved payment method to avoid entering your payment information with each order."
+        },
+        "product": {
+            "setupmessage": "First payment of {_first} {_currency} {_tax} then {_recurring} {_currency} {_tax} by {_unit}",
+            "nocharge": "Payment of {_first} {_currency} {_tax} by {_unit}",
+            "freemessage": "This product is free of charge until cancelled or expires.",
+            "outofstock": "Out of stock",
+            "personalized": "Custom",
+            "noproduct": "No products found"
+        },
+        "config": {
+            "title": "Configure your offer",
+            "summary": "Summary",
+            "summary_description": "Check Your Order",
+            "billing": "Invoicing",
+            "recurring_payment": "Recurring payment",
+            "options": "Additional Options",
+            "onetime_payment": "One-time payment"
+        },
+        "mustpopular": "Most Popular",
+        "qty": "Quantity",
+        "pinned": "Pinned",
+        "store": "Shop",
+        "subtotal": "Subtotal",
+        "store_subheading": "Discover our offers",
+        "from_price": "From {_price} {_currency}",
+        "taxes": "Taxes",
+        "total": "Total",
+        "price": "Price",
+        "fees": "Installation Fees",
+        "unit": "Unit",
+        "tax": "Tax",
+        "vat": "VAT",
+        "unit_price": "Unit price",
+        "recurring_price": "Recurring Price",
+        "setup_price": "Installation Fees",
+        "title": "Shop",
+        "subtitle": "Discover our offers",
+        "ht": "HT",
+        "ttc": "TTC",
+        "transaction_fee": "Transaction fees",
+        "per": "by",
+        "our_offers": "Our offers"
+    },
+    "lang.fr.validation": {
+        "accepted": "The {_attribute} field must be accepted.",
+        "accepted_if": "The {_attribute} field must be accepted when {_other} is set to {_value}.",
+        "active_url": "The {_attribute} field is not a valid URL.",
+        "after": "The {_attribute} field must be a date after {_date}.",
+        "after_or_equal": "The {_attribute} field must be a date that is less than or equal to {_date}.",
+        "alpha": "The {_attribute} field must contain only letters.",
+        "alpha_dash": "The {_attribute} field must contain only letters, numbers, and dashes.",
+        "alpha_num": "The {_attribute} field must contain only numbers and letters.",
+        "array": "The {_attribute} field must be a table.",
+        "ascii": "The {_attribute} field must contain only alphanumeric characters and single-byte encoded symbols.",
+        "before": "The {_attribute} field must be a date prior to {_date}.",
+        "before_or_equal": "The {_attribute} field must be a date before or equal to {_date}.",
+        "phone": "The {_attribute} field must be a valid phone number.",
+        "between": {
+            "array": "The {_attribute} array must contain between {_min} and {_max} elements.",
+            "file": "The file size of {_attribute} must be between {_min} and {_max} kilobytes.",
+            "numeric": "The value of {_attribute} must be between {_min} and {_max}.",
+            "string": "The {_attribute} text must be between {_min} and {_max} characters."
+        },
+        "2fa_code": "The two-factor authentication code is invalid.",
+        "boolean": "The {_attribute} field must be true or false.",
+        "can": "The {_attribute} field contains an unauthorized value.",
+        "confirmed": "The confirmation field {_attribute} does not match.",
+        "current_password": "The password is incorrect.",
+        "date": "The {_attribute} field is not a valid date.",
+        "date_equals": "The {_attribute} field must be a date equal to {_date}.",
+        "date_format": "The {_attribute} field does not match the {_format} format.",
+        "decimal": "The {_attribute} field must have {_decimal} decimal places.",
+        "declined": "The {_attribute} field must be declined.",
+        "declined_if": "The {_attribute} field should be declined when {_other} is set to {_value}.",
+        "different": "The {_attribute} and {_other} fields must be different.",
+        "digits": "The {_attribute} field must contain {_digits} digits.",
+        "digits_between": "The {_attribute} field must contain between {_min} and {_max} digits.",
+        "dimensions": "The size of the {_attribute} image is not compliant.",
+        "distinct": "The {_attribute} field has a duplicate value.",
+        "doesnt_end_with": "The {_attribute} field must not end with one of the following values: {_values}.",
+        "doesnt_start_with": "The {_attribute} field must not start with one of the following values: {_values}.",
+        "email": "The {_attribute} field must be a valid email address.",
+        "ends_with": "The {_attribute} field must end with one of the following values: {_values}.",
+        "enum": "The selected {_attribute} field is invalid.",
+        "exists": "The selected {_attribute} field is invalid.",
+        "file": "The {_attribute} field must be a file.",
+        "filled": "The {_attribute} field must have a value.",
+        "gt": {
+            "array": "The {_attribute} array must contain more than {_value} items.",
+            "file": "The file size of {_attribute} must be greater than {_value} kilobytes.",
+            "numeric": "The value of {_attribute} must be greater than {_value}.",
+            "string": "The {_attribute} text must contain more than {_value} characters."
+        },
+        "gte": {
+            "array": "The {_attribute} array must contain at least {_value} elements.",
+            "file": "The file size of {_attribute} must be greater than or equal to {_value} kilobytes.",
+            "numeric": "The value of {_attribute} must be greater than or equal to {_value}.",
+            "string": "The {_attribute} text must contain at least {_value} characters."
+        },
+        "image": "The {_attribute} field must be an image.",
+        "in": "The {_attribute} field is invalid.",
+        "in_array": "The {_attribute} field does not exist in {_other}.",
+        "integer": "The {_attribute} field must be an integer.",
+        "ip": "The {_attribute} field must be a valid IP address.",
+        "ipv4": "The {_attribute} field must be a valid IPv4 address.",
+        "ipv6": "The {_attribute} field must be a valid IPv6 address.",
+        "json": "The {_attribute} field must be a valid JSON document.",
+        "lowercase": "The {_attribute} field must be lowercase.",
+        "lt": {
+            "array": "The {_attribute} array must contain fewer than {_value} elements.",
+            "file": "The file size of {_attribute} must be less than {_value} kilobytes.",
+            "numeric": "The value of {_attribute} must be less than {_value}.",
+            "string": "The {_attribute} text must contain less than {_value} characters."
+        },
+        "lte": {
+            "array": "The array {_attribute} must contain no more than {_value} elements.",
+            "file": "The file size of {_attribute} must be less than or equal to {_value} kilobytes.",
+            "numeric": "The value of {_attribute} must be less than or equal to {_value}.",
+            "string": "The {_attribute} text must contain no more than {_value} characters."
+        },
+        "mac_address": "The {_attribute} field must be a valid MAC address.",
+        "max": {
+            "array": "The {_attribute} array cannot contain more than {_max} items.",
+            "file": "The file size of {_attribute} cannot exceed {_max} kilobytes.",
+            "numeric": "The value of {_attribute} cannot be greater than {_max}.",
+            "string": "The text in {_attribute} cannot contain more than {_max} characters."
+        },
+        "max_digits": "The {_attribute} field must not be longer than {_max} digits.",
+        "mimes": "The {_attribute} field must be a file of type: {_values}.",
+        "mimetypes": "The {_attribute} field must be a file of type: {_values}.",
+        "min": {
+            "array": "The {_attribute} array must contain at least {_min} elements.",
+            "file": "The file size of {_attribute} must be greater than or equal to {_min} kilobytes.",
+            "numeric": "The value of {_attribute} must be greater than or equal to {_min}.",
+            "string": "The text in {_attribute} must contain at least {_min} characters."
+        },
+        "min_digits": "The {_attribute} field must have at least {_min} digits.",
+        "missing": "The {_attribute} field must be missing.",
+        "missing_if": "The {_attribute} field should be missing when {_other} is set to {_value}.",
+        "missing_unless": "The {_attribute} field should be missing unless {_other} is set to {_value}.",
+        "missing_with": "The {_attribute} field should be missing when {_values} is present.",
+        "missing_with_all": "The {_attribute} field should be missing when {_values} are present.",
+        "multiple_of": "The value of {_attribute} must be a multiple of {_value}.",
+        "not_in": "The selected {_attribute} field is invalid.",
+        "not_regex": "The format of the {_attribute} field is invalid.",
+        "numeric": "The {_attribute} field must contain a number.",
+        "password": {
+            "letters": "The {_attribute} field must contain at least one letter.",
+            "mixed": "The {_attribute} field must contain at least one uppercase and one lowercase letter.",
+            "numbers": "The {_attribute} field must contain at least one digit.",
+            "symbols": "The {_attribute} field must contain at least one symbol.",
+            "uncompromised": "The value of the {_attribute} field appeared in a data leak. Please choose a different value."
+        },
+        "present": "The {_attribute} field must be present.",
+        "present_if": "The {_attribute} field must be present when {_other} is {_value}.",
+        "present_unless": "The {_attribute} field must be present unless {_other} is {_value}.",
+        "present_with": "The {_attribute} field must be present when {_values} is present.",
+        "present_with_all": "The {_attribute} field must be present when {_values} are present.",
+        "prohibited": "The {_attribute} field is prohibited.",
+        "prohibited_if": "The {_attribute} field is forbidden when {_other} is set to {_value}.",
+        "prohibited_unless": "The {_attribute} field is forbidden unless {_other} is one of the {_values} values.",
+        "prohibits": "The {_attribute} field prohibits {_other} from being present.",
+        "regex": "The format of the {_attribute} field is invalid.",
+        "required": "The {_attribute} field is required.",
+        "required_array_keys": "The {_attribute} field must contain entries for: {_values}.",
+        "required_if": "The {_attribute} field is required when the value of {_other} is {_value}.",
+        "required_if_accepted": "The {_attribute} field is required when the {_other} field has been accepted.",
+        "required_unless": "The {_attribute} field is required unless {_other} is {_values}.",
+        "required_with": "The {_attribute} field is required when {_values} is present.",
+        "required_with_all": "The {_attribute} field is required when {_values} are present.",
+        "required_without": "The {_attribute} field is required when {_values} is not present.",
+        "required_without_all": "The {_attribute} field is required when none of {_values} is present.",
+        "same": "The {_attribute} and {_other} fields must be identical.",
+        "size": {
+            "array": "The array {_attribute} must contain {_size} elements.",
+            "file": "The file size of {_attribute} must be {_size} kilobytes.",
+            "numeric": "The value of {_attribute} should be {_size}.",
+            "string": "The text in {_attribute} must contain {_size} characters."
+        },
+        "starts_with": "The {_attribute} field must start with one of the following values: {_values}.",
+        "string": "The {_attribute} field must be a string.",
+        "timezone": "The {_attribute} field must be a valid time zone.",
+        "ulid": "The {_attribute} field must be a valid ULID.",
+        "unique": "The value of the {_attribute} field is already in use.",
+        "uploaded": "The file in the {_attribute} field could not be uploaded.",
+        "uppercase": "The {_attribute} field must be uppercase.",
+        "url": "The URL format of {_attribute} is invalid.",
+        "uuid": "The {_attribute} field must be a valid UUID.",
+        "attributes": {
+            "address": "address",
+            "age": "age",
+            "amount": "amount",
+            "area": "zone",
+            "available": "available",
+            "birthday": "anniversary",
+            "body": "body",
+            "city": "town",
+            "content": "content",
+            "country": "country",
+            "created_at": "Created in",
+            "creator": "creator",
+            "current_password": "Current password",
+            "date": "date",
+            "date_of_birth": "Date of birth",
+            "day": "day",
+            "deleted_at": "Deleted at",
+            "description": "description",
+            "district": "quarter",
+            "duration": "duration",
+            "email": "Email address",
+            "excerpt": "extract",
+            "filter": "filter",
+            "firstname": "forename",
+            "gender": "gender",
+            "group": "group",
+            "hour": "hour",
+            "image": "image",
+            "last_name": "name",
+            "lesson": "lesson",
+            "line_address_1": "Address Line 1",
+            "line_address_2": "Address Line 2",
+            "message": "message",
+            "middle_name": "middle name",
+            "minute": "minute",
+            "mobile": "portable",
+            "month": "month",
+            "name": "name",
+            "national_code": "National Code",
+            "number": "number",
+            "password": "Password",
+            "password_confirmation": "Password confirmation",
+            "phone": "telephone",
+            "photo": "photo",
+            "postal_code": "Zip code",
+            "price": "price",
+            "province": "region",
+            "recaptcha_response_field": "ReCAPTCHA response field",
+            "remember": "remember",
+            "restored_at": "restored to",
+            "result_text_under_image": "Result text below the image",
+            "role": "role",
+            "second": "second",
+            "sex": "sex",
+            "short_text": "Short text",
+            "size": "waist",
+            "state": "state",
+            "street": "street",
+            "student": "student",
+            "subject": "subject",
+            "teacher": "teacher",
+            "terms": "conditions",
+            "test_description": "description Test",
+            "test_locale": "test location",
+            "test_name": "test name",
+            "text": "text",
+            "time": "hour",
+            "title": "title",
+            "updated_at": "updated at",
+            "username": "username",
+            "year": "year"
+        },
+        "domain_is_registered": "The domain {_attribute} is already registered."
+    },
+    "lang.fr.webhook": {
+        "url": "Webhook URL",
+        "variables": "Available variables: {_variables}",
+        "checkout": {
+            "title": "New order",
+            "description": "A new order has been placed"
+        },
+        "domain": "Domain",
+        "renew": {
+            "title": "Service Renewal",
+            "description": "A service has been renewed"
+        },
+        "ticket": {
+            "title": "New ticket",
+            "description": "A new ticket has been created"
+        },
+        "ticket_answer": {
+            "title": "Responding to a ticket",
+            "description": "A ticket has been answered"
+        },
+        "ticket_staff": {
+            "title": "Responding to a ticket by staff"
+        },
+        "upgrade": {
+            "title": "Service upgraded",
+            "description": "A service has been upgraded."
+        }
+    },
+    "addons.fund.lang.fr.messages": {
+        "transfer_title": "Transfer funds",
+        "credit_title": "Crediting funds",
+        "invoice": {
+            "add_credit": "Added {_amount} credits"
+        },
+        "recipient": "Addressee",
+        "transfer": {
+            "not_enough_funds": "You don't have enough funds to make this transfer",
+            "max_amount": "The maximum transfer amount is {_amount}",
+            "min_amount": "The minimum transfer amount is {_amount}",
+            "min_invoice": "You must add at least {_amount} to your account to make a transfer",
+            "title": "Transfer funds",
+            "description": "Transfer funds between two accounts",
+            "recipient": "Recipient Account Email",
+            "btn": "Transfer",
+            "cancel": "The transfer has been cancelled",
+            "success": "Transfer completed successfully. You can cancel this transfer within {_minutes} minutes.",
+            "already_pending": "A transfer is already pending. Please wait before making another one",
+            "recipient_not_found": "The recipient was not found"
+        },
+        "card": {
+            "title": "Fund my account",
+            "description": "Crediting your account to make purchases on our platform",
+            "amount": "Amount to be credited",
+            "gateway": "Payment method",
+            "currentbalance": "Current Balance",
+            "error": "Unable to credit your account. No payment method is available. Please contact support."
+        },
+        "transfer_table": {
+            "title": "Transfer history"
+        },
+        "admin": {
+            "transfers": {
+                "title": "Transfers of funds",
+                "transferred_at": "Transfer to",
+                "subtitle": "Find here the list of transfers of funds made"
+            },
+            "settings": {
+                "title": "Funds Settings",
+                "subtitle": "Managing Fund Extension Settings",
+                "success": "Successfully saved settings",
+                "fields": {
+                    "max_amount": "Montant maximum",
+                    "min_amount": "Minimum amount",
+                    "for_add_credit": "For adding credit",
+                    "for_transfer": "For transfers between accounts",
+                    "minutes_delay": "Transfer time (in minutes)",
+                    "minutes_delay_description": "Transfer time between accounts",
+                    "min_invoice": "Minimum deposit to be able to make a transfer",
+                    "min_invoice_description": "The amount added to the account to be able to make a transfer. 0 to disable",
+                    "authorize_between_accounts": "Allow transfers between accounts"
+                }
+            }
+        }
+    },
+    "modules.download.lang.fr.admin": {
+        "download_files": {
+            "title": "Download Files",
+            "description": "Managing Files and Download Versions",
+            "external_file": "External file",
+            "local_file": "Local file",
+            "adapter": "Adapt",
+            "downloads": "Downloads",
+            "downloads_limit": "Download Limit",
+            "downloads_limit_help": "Leave 0 for Unlimited",
+            "protected": "Protégé",
+            "last_version": "Latest Version",
+            "add_version": "Add a version",
+            "version": "Version",
+            "version_created_at": "Version created the {_date}. {_downloads} downloads",
+            "protected_help": "If enabled, customers will need to purchase it to download it",
+            "max_upload_size": "Maximum upload size is {_size}",
+            "create": {
+                "title": "Create a download file",
+                "subheading": "Create a new download file"
+            },
+            "show": {
+                "title": "View Download File",
+                "subheading": "View download file details"
+            }
+        },
+        "logs": {
+            "title": "Download logs",
+            "description": "Download logs",
+            "downloaded": "Downloaded",
+            "ip": "IP",
+            "user_agent": "User Agent",
+            "show": {
+                "title": "View download log",
+                "subheading": "View download log details"
+            }
+        }
+    },
+    "modules.download.lang.fr.messages": {
+        "my_downloads": "My Downloads",
+        "errors": {
+            "file_not_active": "The file is not active",
+            "file_is_protected": "The file is protected",
+            "download_limit_reached": "Download limit reached"
+        },
+        "download_version": "Download version",
+        "downloads": "Downloads",
+        "public_downloads": "Public downloads",
+        "no_downloads": "No downloads",
+        "downloads_left": "You have {_downloads} downloads left"
+    },
+    "modules.virtualizor_cloud.lang.fr.messages": {
+        "data": {
+            "os": "Operating system",
+            "security": "Security"
+        },
+        "hostname": "Hostname",
+        "panel": {
+            "info": "VPS Information",
+            "reinstallation": {
+                "title": "Reinstallation",
+                "description": "Reinstall the VM.",
+                "submit": "Reinstall",
+                "reinstall_success": "The reinstallation of the VM was completed successfully.",
+                "reinstall_error": "An error occurred while reinstalling the VM."
+            },
+            "password": {
+                "title": "Password",
+                "description": "Change the password of the virtual machine.",
+                "submit": "Change Password",
+                "password_success": "The password for the virtual machine has been successfully changed.",
+                "password_error": "An error occurred while changing the password of the virtual machine."
+            },
+            "hostname": {
+                "title": "Hostname",
+                "description": "Change the host name of the virtual machine.",
+                "submit": "Change the hostname",
+                "hostname_success": "The hostname of the virtual machine has been successfully changed.",
+                "hostname_error": "An error occurred while changing the hostname of the virtual machine."
+            }
+        }
+    },
+    "addons.purchasealert.lang.fr.messages": {
+        "neworder": "A customer has placed a new order",
+        "admin": {
+            "title": "Purchase Notification",
+            "description": "Display recent purchase notifications on your storefront",
+            "timeout": "Display time in milliseconds",
+            "days": "Maximum number of days to recover recent purchases",
+            "interval": "Time interval between notifications in milliseconds"
+        }
+    },
+    "addons.sentry.lang.fr.admin": {
+        "title": "Sentry",
+        "description": "Set up the Sentry Error Monitoring Service.",
+        "saved": "The settings have been saved successfully.",
+        "fields": {
+            "dsn": "DSN",
+            "sample_rate": "Sampling rate",
+            "traces_sample_rate": "Trace sampling rate",
+            "profiles_sample_rate": "Profile sampling rate",
+            "environment": "Environment"
+        }
+    },
+    "modules.pterodactyl.lang.fr.messages": {
+        "optionstypes": {
+            "location_id": "Location ID Pterodactyl",
+            "dedicated_ip": "Pterodactyl Dedicated IP"
+        }
+    },
+    "modules.wisp.lang.fr.messages": {
+        "optionstypes": {
+            "location_id": "Location ID Wisp",
+            "dedicated_ip": "Wisp Dedicated IP"
+        }
+    },
+    "addons.contact.lang.fr.lang": {
+        "title": "Contacts",
+        "pending": "Pending contact requests",
+        "description": "Handle your users' contact requests in your client area.",
+        "management_title": "Management of contact requests",
+        "management_description": "List of all contact requests",
+        "show_title": "Contact details",
+        "show_description": "See the details of the contact request",
+        "title_page": "communicate with us",
+        "subject": "Subject of the request",
+        "content_label": "Describe your request",
+        "object_label": "Subject of the request",
+        "max_characters": "Limited to {_max} characters",
+        "send": "Send the request",
+        "subtitle_page": "We would be delighted to receive your messages. Please fill out the form below and we will respond to you as soon as possible.",
+        "actions": {
+            "delete_success": "The contact request has been successfully deleted.",
+            "update_success": "The status of the contact request has been successfully updated.",
+            "reply_email": "Reply by email",
+            "send_mail": "Send an email to the client",
+            "limit_error": "You have already sent a contact request less than 5 minutes ago.",
+            "store_success": "The contact request has been successfully recorded."
+        },
+        "status": {
+            "read": "document",
+            "unread": "Untreated"
+        },
+        "webhook": {
+            "title": "New contact request",
+            "description": "A new contact request has been received"
+        },
+        "errors": {
+            "not_found": "The contact request was not found",
+            "update_failed": "The update of the contact request failed."
+        },
+        "status_updated_at": "Status updated on {_date}",
+        "settings": {
+            "title": "Contact page preferences",
+            "description": "Set your preferences for the contact page.",
+            "security_settings": "Security settings",
+            "media_settings": "Media settings",
+            "enable_captcha": "Enable the captcha",
+            "enable_captcha_description": "Add an extra layer of protection against spam",
+            "webhook": "Notify an external URL",
+            "webhook_description": "Send contact requests to an external URL",
+            "subscribers": "Notify the staff",
+            "subscribers_description": "Send contact requests to specific personnel",
+            "require_login": "Require a connection",
+            "require_login_description": "Users must be logged in to send a message.",
+            "page_image": "Image of the page",
+            "disabled": "inactive",
+            "enabled": "start"
+        }
+    },
+    "addons.free_trial.lang.fr.lang": {
+        "trialbtn": "Try",
+        "errors": {
+            "max_allowed_services": "The quota of services in trial is exceeded. Please come back later.",
+            "max_services": "You have already reached the free trial quota for this service."
+        },
+        "invoice": {
+            "name": "Offer attempt",
+            "description": "Trial period of offer {_product} ({_start}-{_end})."
+        },
+        "config": {
+            "total_now": "Total to pay now",
+            "total_after_trial": "Total to pay after the trial",
+            "start": "start",
+            "title": "Start your trial",
+            "period": "period",
+            "details": "You will be able to make your payment up to {_days} days after the end of your trial period, in accordance with the applicable terms. You will have the option to cancel the trial at any time.",
+            "want_trial": "Do you want to test the product before buying it?",
+            "can_trial": "You can test the product for {_days} days."
+        },
+        "service": {
+            "free": {
+                "title": "Renew your trial service",
+                "subheading": "You can renew your trial service until {_date} before it is canceled on {_date2}."
+            },
+            "trial": {
+                "title": "Improve your trial service",
+                "subheading": "You can improve your trial service until {_date} before it is cancelled on {_date2}."
+            }
+        },
+        "admin": {
+            "config": {
+                "current_allowed_services": "Current number of trials in progress",
+                "max_allowed_services": "Maximum number of attempts in progress",
+                "title": "Configuration of free trials",
+                "subheading": "Set up your free trial products.",
+                "max_services": "Maximum number of attempts per client",
+                "trial_days": "Number of days of the trial",
+                "current_trials": "Ongoing tests",
+                "trials_done": "Tests carried out",
+                "trials_success": "Conclusive tests",
+                "help": "0 to deactivate",
+                "force_label": "Type of test",
+                "types": {
+                    "trial": "Essay for improvement",
+                    "free": "Free trial"
+                },
+                "force": {
+                    "yes": "Customers will be forced to trial.",
+                    "no": "Customers will be able to order or request a trial."
+                },
+                "create": {
+                    "title": "Addition of a trial product",
+                    "subheading": "Adding a trial product."
+                },
+                "show": {
+                    "title": "Modification of a test product",
+                    "subheading": "You can modify the trial settings.",
+                    "successfully": "Successful trial",
+                    "table_title": "List of testing services"
+                }
+            }
+        }
+    },
+    "addons.sitemap.lang.fr.admin": {
+        "title": "Sitemap",
+        "description": "Generate a sitemap.xml file for your website.",
+        "success": "The sitemap.xml file has been successfully updated."
+    },
+    "addons.giftcard.lang.fr.messages": {
+        "modulename": "Gift card",
+        "description": "Manage gift cards for your customers.",
+        "card": {
+            "code": "Gift card code"
+        },
+        "usage": "Use of the gift card",
+        "giftcard_not_valid": "The gift card is not valid.",
+        "giftcard_redeemed": "Gift card used successfully. Amount: {_amount}",
+        "admin": {
+            "types": {
+                "fixed": "Fixed amount",
+                "random": "Random amount"
+            },
+            "create": {
+                "title": "Create a gift card",
+                "subheading": "Create a new gift card for your customers."
+            },
+            "show": {
+                "title": "Gift card details",
+                "subheading": "View the gift card details.",
+                "table_title": "Uses of the gift card"
+            },
+            "max_uses": "Maximum uses",
+            "expires_at": "Expiration",
+            "min_random_amount": "Random minimum amount",
+            "allowed_customer": "Authorized client",
+            "max_random_amount": "Random maximum amount",
+            "uses_help": "The maximum number of uses for this gift card. 0 for unlimited."
+        }
+    }
+}

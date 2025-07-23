@@ -1,0 +1,43 @@
+{
+    "fr_FR": {
+        "key": "fr",
+        "name": "Français",
+        "flag": "https://flagsapi.com/FR/flat/64.png"
+    },
+    "en_GB": {
+        "key": "en",
+        "name": "English",
+        "flag": "https://flagsapi.com/GB/flat/64.png"
+    },
+    "es_ES": {
+        "key": "es",
+        "name": "Español",
+        "flag": "https://flagsapi.com/ES/flat/64.png"
+    },
+    "de_DE": {
+        "key": "de",
+        "name": "Deutsch",
+        "flag": "https://flagsapi.com/DE/flat/64.png"
+    },
+    "it_IT": {
+        "key": "it",
+        "name": "Italiano",
+        "flag": "https://flagsapi.com/IT/flat/64.png"
+    },
+
+    "nl_NL": {
+        "key": "nl",
+        "name": "Nederlands",
+        "flag": "https://flagsapi.com/NL/flat/64.png"
+    },
+    "pt_PT": {
+        "key": "pt",
+        "name": "Português",
+        "flag": "https://flagsapi.com/PT/flat/64.png"
+    },
+    "zh_CN": {
+        "key": "zh",
+        "name": "中文",
+        "flag": "https://flagsapi.com/CN/flat/64.png"
+    }
+}

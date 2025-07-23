@@ -1,0 +1,3255 @@
+{
+    "language": "Allemand",
+    "addons.discordlink.lang.fr.messages": {
+        "modulename": "Discord-Link",
+        "description": "Verwalten der Verbindung mit Ihrem Discord-Server Ihres Hosting-Providers",
+        "step1": "Schritt 1",
+        "step2": "Schritt 2",
+        "step3": "Schritt 3",
+        "step4": "Schritt 4",
+        "invitation": "Server-Einladungslink",
+        "dropkey": "Schlüssel zurücksetzen",
+        "manual": {
+            "installation": "Installieren des benutzerdefinierten Bots",
+            "step1text": "Laden Sie den zuvor erworbenen benutzerdefinierten Bot herunter, indem Sie auf <a href=\"https://clientxcms.com/client/download\" class=\"text-primary\" target=\"_blank\">diesen Link klicken</a>. Es stellt die Verbindung zwischen Ihrem Discord-Server und Ihrem Host her.",
+            "step2text": "Kopieren Sie das folgende Token sicher. <b><u>Bitte beachten Sie, dass es nur einmal angezeigt wird</u></b>. Im Falle eines Verlustes muss es zurückgesetzt werden.",
+            "step3text": "Entpacken Sie die heruntergeladene Datei und folgen Sie der READ-Datei. ME, um den Bot zu installieren und zu Ihrem Server hinzuzufügen.",
+            "step4text": "Stellen Sie sicher, dass der Bot über die erforderlichen Berechtigungen zum Hinzufügen der Rolle verfügt. (Der Bot muss sich über der Rolle befinden, die hinzugefügt werden soll.)"
+        },
+        "community": {
+            "installation": "Installation des Community-Discord-Bots",
+            "step1text": "Fügen Sie den Bot zu Ihrem Discord-Server hinzu, indem Sie auf <a href=\"https://clientxcms.com/ref/discordbot\" class=\"text-primary\" target=\"_blank\">diesen Einladungslink klicken</a>. Es stellt die Verbindung zwischen Ihrem Discord-Server und Ihrem Host her.",
+            "step2text": "Kopieren Sie den folgenden Befehl auf Ihren Server. <b><u>Bitte beachten Sie, dass der Schlüssel nur einmal angezeigt wird</u></b>. Im Falle eines Verlustes muss es zurückgesetzt werden.",
+            "step3text": "Führen Sie den folgenden Befehl auf Ihrem Discord-Server aus, indem Sie ihm die Client-Rolle hinzufügen. Bei Erfolg antwortet der Bot mit einer Erfolgsmeldung.",
+            "step4text": "Stellen Sie sicher, dass der Bot über die erforderlichen Berechtigungen zum Hinzufügen der Rolle verfügt. (Der Bot muss sich über der Rolle befinden, die hinzugefügt werden soll.)"
+        },
+        "detectedcustomers": "Kunden erkannt",
+        "discordid": "ID-Zwietracht",
+        "cardinfo": "Treten Sie unserem Discord-Server bei, um unsere Community zu finden, Hilfe und zusätzliche Informationen wie unsere neuesten Aktionen zu erhalten.",
+        "installation": "Installation des Community-Discord-Bots",
+        "joinserver": "Treten Sie dem Server bei",
+        "guildid": "Server-ID",
+        "accept": "Annehmen",
+        "decline": "Verweigern",
+        "details": "Details",
+        "nocustomers": "Keine Kunden erkannt",
+        "help": "Benötigen Sie Hilfe?",
+        "found": "Synchronisiertes Konto erkannt: Möchten Sie die Daten in diesem Ticket anzeigen?",
+        "infosync": "Diese Daten basieren auf Accounts, die ihren Discord-Account über das SocialAuth+-Modul mit ihrem Kundenkonto synchronisiert haben.",
+        "detection_type": "Art der Detektion",
+        "detection_types": {
+            "sync": "Synchronisiertes Konto",
+            "active_customers": "Kunden, die ihr Konto mit einem aktiven Dienst synchronisiert haben",
+            "all_customers": "Alle Kunden, die ihr Konto mit einem bestehenden Dienst synchronisiert haben"
+        }
+    },
+    "addons.import.lang.fr.import": {
+        "title": "Importieren",
+        "description": "Importieren Sie eine Datenbank mit der vorhandenen alten Version oder von anderen Anbietern in NextGen",
+        "importwhmcs": "Import über WHMCS wird in Kürze verfügbar sein",
+        "importclientxcms": "Importieren aus der alten Version von ClientXCMS",
+        "db": {
+            "host": "Gastgeber",
+            "port": "Hafen",
+            "database": "Datenbank",
+            "username": "Nutzername",
+            "password": "Passwort"
+        },
+        "v1": {
+            "importables": {
+                "products": "Produzieren",
+                "groups": "Gruppen",
+                "servers": "Diener",
+                "services": "Dienste",
+                "invoices": "Rechnungen",
+                "clients": "Kundschaft",
+                "pterodactyl": "Pterodactyl-Konfiguration",
+                "proxmox": "Proxmox-Konfiguration",
+                "oses": "Proxmox Betriebssysteme",
+                "templates": "Vorlagen Proxmox",
+                "plesk": "Konfiguration Plesk",
+                "socialauth": "Sozialer LinkAuth",
+                "support": "Tickets & Support-Abteilungen",
+                "wisp": "Konfiguration Wisp",
+                "proxmox_ipam": "Konfiguration IPAM Proxmox"
+            },
+            "fromv1": "Importieren aus der alten Version von ClientXCMS",
+            "title": "ClientXCMS v1",
+            "description": "Importieren aus der alten Version von ClientXCMS"
+        },
+        "whmcs": {
+            "importables": {
+                "products": "Produzieren",
+                "groups": "Gruppen",
+                "servers": "Diener",
+                "services": "Dienste",
+                "clients": "Kundschaft",
+                "pterodactyl": "Pterodactyl-Konfiguration",
+                "wisp": "Wisp-Konfiguration",
+                "invoices": "Rechnungen"
+            },
+            "fromwhmcs": "Importieren aus WHMCS",
+            "title": "WHMCS",
+            "key": "Encoder-Taste",
+            "keyhelp": "Der Encoder-Schlüssel wird verwendet, um die Daten von WHMCS zu entschlüsseln. Es ist in der WHMCS-configuration.php Datei verfügbar",
+            "description": "Importieren aus WHMCS"
+        },
+        "downloadreport": "Laden Sie den Bericht herunter",
+        "import": "Importieren",
+        "delay": "Bitte warten Sie, es kann einige Zeit dauern, bis die Seite geladen ist.",
+        "truncate": "Leere Tabellen vor dem Import (dringend empfohlen)"
+    },
+    "addons.page.lang.fr.messages": {
+        "must_be_logged": "Sie müssen angemeldet sein, um auf diese Seite zugreifen zu können.",
+        "logged_only": "Die Seite ist für angemeldete Benutzer reserviert.",
+        "admin": {
+            "title": "Seiten",
+            "description": "Verwalten Sie dynamische Seiten in Ihrem Kundenbereich.",
+            "create": {
+                "title": "Erstellen einer Seite",
+                "subheading": "Erstellen Sie eine neue Seite."
+            },
+            "show": {
+                "title": "Seitendetails",
+                "subheading": "Seitendetails."
+            },
+            "count_views": "Anzahl der Aufrufe",
+            "views": "{_count} Ansicht|{_count} Ansichten",
+            "see_page": "Seite anzeigen"
+        },
+        "pdf": "PDF",
+        "script": "Skript-HTML",
+        "style": "CSS-Stil",
+        "redirect": "Umleitung",
+        "type": "Seitentyp",
+        "meta": "Meta-Kopf",
+        "types": {
+            "page": "Seite",
+            "pdf": "PDF",
+            "html": "HTML",
+            "redirect": "Umleitung"
+        }
+    },
+    "addons.sameipdetector.lang.fr.admin": {
+        "dashboard": {
+            "sameip_reports": "Doppelte Konten",
+            "pendingusers": "Benutzer, die als Doppelkonten erkannt wurden und auf die Verifizierung warten",
+            "knowuser": "Zugeordneter Benutzer",
+            "reject": "Ablehnen",
+            "accept": "Annehmen",
+            "description": "Hier finden Sie die Benutzer, die als doppeltes Konto eines anderen Kunden erkannt wurden."
+        },
+        "settings": {
+            "title": "Anti-Dual-Konto-Einstellungen",
+            "description": "Richten Sie die Aktion ein, die ausgeführt wird, wenn ein Konto abgelehnt wird.",
+            "action": "Zu ergreifende Maßnahmen"
+        }
+    },
+    "addons.socialauth.lang.fr.messages": {
+        "logged_in": "Sie sind verbunden.",
+        "login_with": "Melden Sie sich mit {_provider} an.",
+        "register_with": "Melden Sie sich mit {_provider} an",
+        "modulename": "Soziale Authentifizierung +",
+        "description": "Social Auth+ ist ein Addon, mit dem sich Benutzer über Drittanbieter auf Ihrer Website anmelden können.",
+        "client_id": "Client-ID",
+        "client_secret": "Geheimer Clientschlüssel",
+        "redirect": "Umleitungs-URL",
+        "redirect_help": "Weiterleitungs-URL: {_url}",
+        "configurate": "Konfigurieren",
+        "error": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+        "sync_with": "Synchronisieren mit {_provider}",
+        "unlink": "Verknüpfung von {_provider} aufheben",
+        "linked": "Ihr Konto wurde erfolgreich verknüpft.",
+        "already_linked": "Ihr Konto ist bereits mit diesem Anbieter verknüpft.",
+        "unlinked": "Die Verknüpfung Ihres Kontos wurde erfolgreich aufgehoben.",
+        "finish_signup": "Bitte schließen Sie Ihre Registrierung ab.",
+        "finish_title": "Registrierung abschließen",
+        "signup_success": "Ihre Registrierung war erfolgreich.",
+        "count_linked": "Es gibt {_count} verknüpfte Konten.",
+        "finish_subtitle": "Bitte geben Sie die fehlenden Informationen ein, um Ihre Registrierung abzuschließen.",
+        "email_exists": "Ein Konto mit dieser E-Mail-Adresse existiert bereits. Bitte loggen Sie sich ein und verknüpfen Sie Ihr Konto."
+    },
+    "modules.proxmox.lang.fr.messages": {
+        "settings": {
+            "title": "Proxmox",
+            "description": "Verwalten Sie die verschiedenen Optionen des Proxmox-Moduls (IPAM, Templates, Oses)."
+        },
+        "panel": {
+            "info": "VPS-Informationen",
+            "serverneedrestart": "Der Server muss neu gestartet werden, um die Ressourcenänderungen zu übernehmen.",
+            "serverinrestore": "Der Server wird wiederhergestellt, bitte warten Sie."
+        },
+        "data": {
+            "os": "Betriebssystem",
+            "security": "Sicherheit"
+        },
+        "console": {
+            "title": "Konsole"
+        },
+        "logs": {
+            "title": "Historisch",
+            "description": "Verlauf der Aktionen, die auf VMs ausgeführt wurden.",
+            "by": "Bis",
+            "action": "Aktion",
+            "users": {
+                "system": "System",
+                "user": "Benutzer",
+                "admin": "Administrator"
+            },
+            "start": "Der Boot-Befehl wurde an den VPS gesendet.",
+            "stop": "Der Befehl stop wurde an den VPS gesendet",
+            "restart": "Der Befehl restart wurde an den VPS gesendet.",
+            "destroy": "Der Vernichtungsbefehl wurde an den VPS gesendet.",
+            "reinstall": "Der Befehl reinstall wurde an den VPS gesendet.",
+            "snapshot_destroy": "Der Snapshot wurde gelöscht.",
+            "snapshot_create": "Der Snapshot wurde erstellt.",
+            "snapshot_restore": "Der Snapshot wurde wiederhergestellt.",
+            "backup_create": "Das Backup wurde erstellt.",
+            "backup_destroy": "Die Sicherung wurde gelöscht.",
+            "reinstall_done": "Die Neuinstallation der VM wurde erfolgreich abgeschlossen.",
+            "start_destroy": "Die virtuelle Maschine wurde gestoppt."
+        },
+        "graphs": {
+            "title": "Graphik",
+            "cpu": "CPU",
+            "memory": "Gedächtnis",
+            "disk": "Scheibe",
+            "network": "Netz",
+            "timeframes": {
+                "hour": "Neueste Nachrichten",
+                "day": "Letzter Tag",
+                "week": "Letzte Woche",
+                "month": "Letzter Monat",
+                "year": "PJ"
+            }
+        },
+        "reinstallation": {
+            "title": "Neuinstallation",
+            "description": "Installieren Sie die VM neu.",
+            "limited": "Sie haben die maximale Anzahl an Neuinstallationen erreicht.",
+            "limit_text": "Sie haben {_current} auf den erlaubten {_max} gesetzt.",
+            "submit": "Neuinstallieren",
+            "reinstall_success": "Die VM wurde erfolgreich neu installiert.",
+            "reinstall_error": "Bei der Neuinstallation der VM ist ein Fehler aufgetreten.",
+            "confirm": "Sind Sie sicher, dass Sie diese virtuelle Maschine neu installieren möchten?",
+            "success": "Die VM wurde erfolgreich neu installiert."
+        },
+        "sshkeys": "SSH-Schlüssel",
+        "hostname": "Hostname",
+        "server": "Server",
+        "node": "Knoten",
+        "disk_storage": "Festplattenspeicher",
+        "unprivileged": "Nicht privilegiert (nur LXC)",
+        "username": "SSH-Benutzername",
+        "uptime": "Betriebsdauer",
+        "features": "Funktionen (nur LXC)",
+        "max_snapshots": "Maximale Anzahl von Snapshots",
+        "max_backups": "Maximale Anzahl von Sicherungen",
+        "max_reinstall": "Maximale Anzahl von Neuansiedlungen",
+        "max_helpers": "Sie können -1 für unbegrenzt oder 0 zum Deaktivieren setzen",
+        "clear_cache_if_empty": "Löschen Sie den Cache, wenn die Felder leer sind, oder stellen Sie sicher, dass sich Ihr Proxmox-API-Schlüssel NICHT in der Berechtigungstrennung befinden darf.",
+        "virtualisation_type": "Art der Virtualisierung",
+        "importinfo": "Diese Informationen werden verwendet, um die spätere Neuinstallation des Computers zu erleichtern.",
+        "templates": {
+            "title": "Modelle",
+            "description": "Verwaltung von VM-Vorlagen, die für die VPS-Bereitstellung verwendet werden können.",
+            "name": "Name",
+            "os": "Betriebssystem",
+            "vmids": "VM-ID",
+            "create": {
+                "title": "Erstellen einer Vorlage",
+                "description": "Erstellen Sie eine neue VM-Vorlage."
+            },
+            "show": {
+                "title": "Details zum Modell",
+                "description": "Details zum VM-Modell."
+            }
+        },
+        "oses": {
+            "title": "Betriebssysteme",
+            "description": "Verwaltung von Betriebssystemen, die für die VPS-Bereitstellung verwendet werden können.",
+            "name": "Name",
+            "oses": "Betriebssysteme",
+            "create": {
+                "title": "Erstellen eines Betriebssystems",
+                "description": "Erstellen Sie ein neues Betriebssystem."
+            },
+            "show": {
+                "title": "Details zum Betriebssystem",
+                "description": "Details zum Betriebssystem."
+            }
+        },
+        "ipam": {
+            "title": "IPAM",
+            "description": "IP-Adressen-Manager des Proxmox-Systems.",
+            "ip": "IP-Adresse",
+            "netmask": "Subnetzmaske",
+            "gateway": "Tor",
+            "bridge": "Brücke",
+            "mtu": "MTU",
+            "mac": "MAC-Adresse",
+            "ipv6": "IPv6-Adresse",
+            "ipv6_gateway": "IPv6-Schnittstelle",
+            "is_primary": "Primär",
+            "service_id": "Dienst",
+            "notes": "Notizen",
+            "dhcp_help": "Sie können \"dhcp\" in dieses Feld eingeben, um DHCP für diese IP-Adresse zu aktivieren.",
+            "create": {
+                "title": "Erstellen einer IP-Adresse",
+                "description": "Erstellen Sie eine neue IP-Adresse im IPAM.",
+                "ranges": {
+                    "title": "Schnelles Hinzufügen von IP-Adressen",
+                    "block": "Block",
+                    "block_help": "Es muss enthalten.\" XX\", die durch die Adresse ersetzt wird.",
+                    "description": "Importieren Sie ganz einfach Adressbereiche in Ihr IPAM.",
+                    "range": "Bereich",
+                    "success": "{_count} IP-Adressen wurden erfolgreich hinzugefügt.",
+                    "import": "Importieren"
+                }
+            },
+            "show": {
+                "title": "Details zur IP-Adresse",
+                "description": "Angaben zur IP-Adresse."
+            },
+            "states": {
+                "available": {
+                    "title": "Verfügbar",
+                    "mass_action": "Als verfügbar festlegen",
+                    "description": "Diese IP-Adresse steht zur Nutzung zur Verfügung."
+                },
+                "used": {
+                    "title": "Gebraucht",
+                    "mass_action": "Als verwendet festlegen",
+                    "description": "Diese IP-Adresse wird von einem Dienst verwendet."
+                },
+                "unavailable": {
+                    "title": "Nicht verfügbar",
+                    "mass_action": "Als nicht verfügbar festlegen",
+                    "description": "Diese IP-Adresse kann nicht verwendet werden."
+                }
+            }
+        },
+        "disks": {
+            "volume": "Volumen",
+            "format": "Format"
+        },
+        "backups": {
+            "nobackupstorage": "Es ist kein Backup-Speicher für diesen Server konfiguriert. Bitte kontaktieren Sie den Administrator.",
+            "size": "Größe",
+            "notes": "Notizen",
+            "create_title": "Eine Sicherung erstellen",
+            "is_protected": "Schützling",
+            "automatic": "Automatisch",
+            "restore": "Wiederherstellen",
+            "limited": "Sie haben die maximale Anzahl an erlaubten Sicherungen erreicht.",
+            "confirm_restore": "Sind Sie sicher, dass Sie dieses Backup wiederherstellen möchten? Dadurch werden die aktuellen Daten der virtuellen Maschine überschrieben.",
+            "restore_success": "Die Wiederherstellung des Backups wurde erfolgreich gestartet.",
+            "restore_error": "Beim Wiederherstellen des Backups ist ein Fehler aufgetreten.",
+            "confirm_delete": "Sind Sie sicher, dass Sie dieses Backup löschen möchten?",
+            "delete_success": "Die Sicherung wurde erfolgreich gelöscht.",
+            "delete_error": "Beim Löschen des Sicherungskopien ist ein Fehler aufgetreten.",
+            "create_success": "Die Sicherung wurde erfolgreich gestartet. Die Erstellung kann je nach Größe der virtuellen Maschine einige Zeit in Anspruch nehmen.",
+            "create_error": "Beim Erstellen des Backups ist ein Fehler aufgetreten."
+        },
+        "snapshots": {
+            "title": "Schnappschüsse",
+            "create_invalid_notes": "Der Name des Snapshots darf nur Buchstaben, Zahlen, Leerzeichen und Unterstriche enthalten.",
+            "create_duplicate": "Ein Snapshot mit diesem Namen existiert bereits.",
+            "confirm_restore": "Sind Sie sicher, dass Sie diesen Snapshot wiederherstellen möchten? Dadurch werden die aktuellen Daten der virtuellen Maschine überschrieben.",
+            "restore_success": "Die Wiederherstellung des Snapshots wurde erfolgreich gestartet.",
+            "restore_error": "Ein Fehler ist bei der Wiederherstellung des Snapshots aufgetreten.",
+            "confirm_delete": "Sind Sie sicher, dass Sie diesen Snapshot löschen möchten?",
+            "delete_success": "Der Snapshot wurde erfolgreich gelöscht.",
+            "delete_error": "Ein Fehler ist beim Löschen des Snapshots aufgetreten.",
+            "create_title": "Ein Snapshot erstellen",
+            "create_success": "Der Snapshot wurde erfolgreich erstellt.",
+            "create_error": "Ein Fehler ist bei der Erstellung des Snapshots aufgetreten."
+        }
+    },
+    "modules.pterobox.lang.fr.messages": {
+        "my_servers": "Meine Server",
+        "create_server": "Erstellen eines Servers",
+        "server_name": "Name des Servers",
+        "egg": "Ei",
+        "server_actions": "Aktionen",
+        "server_details": "Server Details",
+        "delete_server": "Löschen des Servers",
+        "server_deleted": "Der Server wurde erfolgreich gelöscht.",
+        "server_updated": "Der Server wurde erfolgreich aktualisiert.",
+        "resource_not_available": "Es sind nicht mehr genügend Ressourcen für diesen Server vorhanden.",
+        "error_in_deletion": "Beim Löschen des Servers ist ein Fehler aufgetreten.",
+        "error_in_update": "Beim Aktualisieren des Servers ist ein Fehler aufgetreten.",
+        "error_in_power": "Während der Aktion ist ein Fehler aufgetreten.",
+        "server_powered": "Die Maßnahme wurde berücksichtigt.",
+        "server_created": "Der Server wurde erfolgreich erstellt.",
+        "error_in_creation": "Beim Erstellen des Servers ist ein Fehler aufgetreten.",
+        "allocations_help": "Um einen Server zu erstellen, müssen Sie über mindestens eine Zuordnung verfügen.",
+        "no_servers_available": "In der Box können keine Server mehr erstellt werden.",
+        "no_servers_created": "Zu diesem Zeitpunkt wurden noch keine Server erstellt.",
+        "doyouwantreallydelete": "Sind Sie sicher, dass Sie diesen Server löschen möchten?",
+        "additional_servers": "Zusätzliche Server"
+    },
+    "modules.virtualizor.lang.fr.messages": {
+        "server_group": "Server-Gruppe",
+        "data": {
+            "os": "Betriebssystem",
+            "security": "Sicherheit"
+        },
+        "username": "Nutzername",
+        "ips": "IP-Adressen",
+        "hostname": "Hostname",
+        "panel": {
+            "info": "VPS-Informationen",
+            "num_vs": "Anzahl der zulässigen VPS",
+            "num_users": "Anzahl der autorisierten Benutzer",
+            "num_ips": "Anzahl der zugewiesenen IP-Adressen",
+            "disk_space": "Zugewiesener Speicherplatz",
+            "memory": "Zugewiesener Arbeitsspeicher",
+            "cores": "Zugeordnete Kerne",
+            "reinstallation": {
+                "title": "Neuinstallation",
+                "description": "Installieren Sie die VM neu.",
+                "submit": "Neuinstallieren"
+            },
+            "hostname": {
+                "title": "Ändern des Hostnamens",
+                "success": "Der Hostname wurde erfolgreich geändert.",
+                "description": "Ändern Sie den Hostnamen der virtuellen Maschine."
+            },
+            "resetpassword": {
+                "title": "Passwort zurücksetzen",
+                "success": "Das Passwort wurde erfolgreich zurückgesetzt.",
+                "description": "Setzen Sie das VM-Kennwort zurück."
+            },
+            "console": {
+                "title": "Konsole",
+                "description": "Greifen Sie auf die VM-Konsole zu."
+            },
+            "graphs": {
+                "title": "Graphik",
+                "description": "Zeigen Sie die VM-Diagramme an."
+            }
+        }
+    },
+    "lang.fr.actionslog": {
+        "settings": {
+            "title": "Geschichte der Aktionen",
+            "description": "Eine Liste der Maßnahmen, die von Mitarbeitern und dem System ergriffen wurden.",
+            "subheading": "Geschichte der Aktionen",
+            "user": "Benutzer",
+            "action": "Aktion",
+            "model": "Modell",
+            "model_id": "Vorlagen-ID",
+            "payload": "Nutzlast",
+            "attribute": "Attribut",
+            "oldvalue": "Alter Wert",
+            "newvalue": "Neuer Wert",
+            "show": {
+                "title": "Details zur Aktion",
+                "subheading": "Details zur Aktion, die auf {_date} ausgeführt wurde"
+            },
+            "see_staff_actions_log": "Zeigen Sie den Verlauf der Mitarbeiteraktionen an"
+        },
+        "actions": {
+            "settings_updated": "Aktualisierte Einstellungen",
+            "new_login": "IP-Adresse für neue Verbindung: {_ip}",
+            "resource_created": "Ressource {_model} erstellt",
+            "resource_updated": "Ressource {_model} aktualisiert",
+            "resource_deleted": "Ressource {_model} gelöscht",
+            "resource_cloned": "Geklonte {_model}-Ressource",
+            "checkout_completed": "Bestellung abgeschlossen",
+            "service_delivered": "Leistung {_id} erbracht",
+            "service_cancelled": "{_id} Service abgesagt",
+            "service_uncancelled": "{_id} Service nicht storniert",
+            "service_suspended": "Dienst {_id} angehalten",
+            "service_unsuspended": "Dienst {_id} nicht angehalten",
+            "invoice_paid": "Rechnung {_id} bezahlt",
+            "service_renewed": "Service {_id} erneuert",
+            "other": "Andere",
+            "service_expired": "Dienst {_id} abgelaufen",
+            "extension_enabled": "{_extension}-Erweiterung aktiviert",
+            "extension_disabled": "{_extension}-Erweiterung deaktiviert",
+            "extension_installed": "{_extension}-Erweiterung installiert",
+            "theme_changed": "Thema geändert",
+            "balance_changed": "Der Kundensaldo wurde von {_old} in {_new} geändert.",
+            "account_verified": "Verifiziertes Konto",
+            "password_reset": "Zurücksetzen des Passworts",
+            "two_factor_enabled": "Zwei-Faktor-Authentifizierung aktiviert",
+            "two_factor_disabled": "Zwei-Faktor-Authentifizierung deaktiviert",
+            "two_factor_recovery_codes_generated": "Generierte Wiederherstellungscodes für die Zwei-Faktor-Authentifizierung",
+            "failed_login": "Verbindungsfehler IP-Adresse: {_ip}"
+        }
+    },
+    "lang.fr.admin": {
+        "security": {
+            "title": "Sicherheit",
+            "description": "Sicherheitseinstellungen im Kundenbereich"
+        },
+        "dashboard": {
+            "title": "Instrumententafel",
+            "autologin_success": "Sie sind nun als {_name} angemeldet.",
+            "frozen": "Das System befindet sich derzeit im eingefrorenen Modus. Einige Funktionen sind möglicherweise deaktiviert. Um den eingefrorenen Modus zu verlassen, wenden Sie sich bitte an den Support.",
+            "in_debug": "Sie befinden sich derzeit im Debug-Modus. Möglicherweise werden vertrauliche Informationen angezeigt. Bitte deaktivieren Sie aus Sicherheitsgründen den Debug-Modus in den allgemeinen Einstellungen.",
+            "subheading": "Willkommen auf dem Admin-Dashboard",
+            "notification_error": "In den letzten 24 Stunden ist beim Senden von E-Mails ein Fehler aufgetreten. Fehler: {_message}",
+            "tooltips": {
+                "users": {
+                    "label": "Benutzer",
+                    "new": "{_count} neue Benutzer"
+                },
+                "customers": {
+                    "label": "Kundschaft",
+                    "new": "{_count} Neukunden"
+                },
+                "invoices": {
+                    "label": "Rechnungen",
+                    "paied": "{_count} Bezahlte Rechnungen"
+                },
+                "cron": {
+                    "never": "Nie"
+                }
+            },
+            "widgets": {
+                "customer_search": "Schnellsuche",
+                "services": "Aktive Dienstleistungen",
+                "invoices": "Bezahlte Rechnungen",
+                "cron": "Geplante Aufgaben",
+                "services_expiration": "Dienste, die bald ablaufen",
+                "services_canvas": "Status des Systemdienstes",
+                "last_login": "Kürzlich verbundene Konten",
+                "best_selling": {
+                    "title": "Bestseller in Bezug auf die Menge",
+                    "title2": "Beste Verkäufe in Bezug auf den Umsatz",
+                    "last_month": "Monat von {_month}",
+                    "last_week": "Woche von {_date}"
+                },
+                "customer_confirmation": "Status der Kontobestätigung"
+            },
+            "earn": {
+                "title": "Gewinn",
+                "subheading": "Hier sind die Gewinne, die vom System generiert werden",
+                "total": "Gesamt",
+                "total_earned": "Gesamt gewonnen",
+                "total_customers": "Kunden gesamt",
+                "total_fees": "Gesamtgebühren",
+                "total_services": "Dienstleistungen insgesamt",
+                "total_invoices": "Rechnungen gesamt",
+                "total_cash": "Gesamtbetrag der Eingelösten",
+                "current_month": "Aktueller Monat",
+                "total_tax": "Gesamte Mehrwertsteuer",
+                "all_time": "Von Anfang an",
+                "last_30_days": "Letzte 30 Tage",
+                "last_7_days": "Letzte 7 Tage",
+                "today": "Heute",
+                "gateway_canvas": "Zahlungsmethoden für Kunden",
+                "service_can_renewal": "Dienstleistungen für erneuerbare Energien",
+                "already_renewed": "Erneuerte Dienstleistungen",
+                "last_orders": "Letzte Bestellungen",
+                "expire_soon": "Läuft bald ab",
+                "graph_month": "Monatliche Einnahmen",
+                "start_date": "Startdatum",
+                "end_date": "Enddatum",
+                "lines": "{_count} Linie|{_count} Linien",
+                "custom": "Gewohnheit",
+                "compare_year": "Mit Jahr vergleichen",
+                "related_billed": {
+                    "title": "Arten von abgerechneten Diensten",
+                    "service": "Neuer Service",
+                    "renewal": "Erneuerung",
+                    "config_option": "Konfigurationsoption",
+                    "config_option_service": "Konfigurationsoption für die Verlängerung",
+                    "custom_item": "Kundenspezifisches Produkt",
+                    "upgrade": "Verbesserung",
+                    "free_trial": "Kostenloser Versuch"
+                },
+                "gateway_canvas_help": "Zahlungsmethoden, die von Kunden verwendet werden, um ihre Rechnungen zu bezahlen",
+                "best_customers": "Beste Kunden",
+                "customer_from": "Kunde seit",
+                "limit": "Grenze",
+                "average_periods": "Durchschnittliche Anzahl der Serviceverlängerungen",
+                "max_periods": "Höhere Anzahl von Serviceverlängerungen",
+                "average_service_price": "Durchschnittlicher Preis einer Dienstleistung",
+                "max_services_by_customer": "Mehr Leistungen pro Kunde",
+                "max_price": "Höchster Preis einer Dienstleistung",
+                "last_renewals": "Letzte Verlängerungen",
+                "average_services_by_customer": "Durchschnittliche Anzahl der Services pro Kunde",
+                "services": {
+                    "title": "Klassifizierung von Dienstleistungen",
+                    "price_avg": "Durchschnittspreis",
+                    "renewals_avg": "Durchschnittliche Verlängerungen"
+                }
+            },
+            "good_morning": "Hallo {_name}",
+            "good_afternoon": "Guten Nachmittag {_name}",
+            "good_evening": "Guten Abend {_name}",
+            "welcome": "Willkommen im Administrations-Dashboard. Es ist derzeit {_time}. Hier ist eine Übersicht über Ihr System.",
+            "assigned_tickets": "Sie wurden den folgenden Tickets zugewiesen: {_tickets}. Sie können sie im Hilfezentrum ansehen."
+        },
+        "roles": {
+            "is_default_help": "Diese Rolle ist die Standardrolle und kann nicht gelöscht werden.",
+            "is_default": "Standard-Rolle",
+            "is_admin": "Rolle des Administrators",
+            "cant_delete": "Diese Rolle kann nicht gelöscht werden",
+            "title": "Rollen",
+            "role": "Rolle",
+            "levelhelp": "Die Berechtigungsstufe wird verwendet, um Rollen zu priorisieren. Eine Rolle mit einer Ebene 50 kann z. B. eine Rolle mit einer Ebene von 100 nicht ändern.",
+            "description": "Verwalten Sie die Rollen und Berechtigungen der Mitarbeiter im Kundenbereich.",
+            "level": "Niveau",
+            "error_update": "Sie können keine Rolle mit einer höheren Ebene als Ihrer definieren",
+            "error_update_level": "Sie können eine Rolle mit einer höheren Ebene als Ihrer nicht bearbeiten",
+            "admin_help": "Administratorrollen haben Zugriff auf alle Systemfunktionen",
+            "subheading": "Hier ist die Liste aller Rollen im System",
+            "create": {
+                "title": "Erstellen einer Rolle",
+                "subheading": "Erstellen einer neuen Rolle für das System"
+            },
+            "show": {
+                "title": "Rollenblatt {_name}",
+                "subheading": "Hier sind die Informationen zu dieser Rolle, die am {_date} erstellt wurde."
+            }
+        },
+        "history": {
+            "title": "Historisch",
+            "subheading": "Hier ist die Historie der Systemfehlermeldungen",
+            "file": "Datei {_file}",
+            "description": "Abrufen von Systemprotokollmeldungen für das Systemdebuggen.",
+            "bigfile": "Diese Datei ist zu groß, um angezeigt zu werden (max. {_size})"
+        },
+        "database": {
+            "migrateextension": "Wählen Sie eine zu migrierende Erweiterung aus",
+            "migrate": "Migrieren der Datenbank",
+            "pmaaccess": "Zugriff auf PHPMyAdmin",
+            "title": "Datenbank",
+            "host": "Gastgeber",
+            "port": "Hafen",
+            "username": "Nutzername",
+            "password": "Passwort",
+            "output": "Ausgang",
+            "description": "Navigieren Sie zum PHPMyAdmin Ihrer Instanz oder migrieren Sie Ihre Datenbank.",
+            "subheading": "Achtung, diese Seite ist für fortgeschrittene Administratoren gedacht",
+            "seed": "Saatgut-Datenbank",
+            "migratesuccess": "Die Datenbank wurde erfolgreich migriert",
+            "seedsuccess": "Für die Datenbank wurde ein erfolgreiches Seeding durchgeführt"
+        },
+        "emails": {
+            "title": "E-Mails",
+            "subheading": "Hier ist die Liste aller E-Mails im System",
+            "sendemail": "Senden Sie eine E-Mail",
+            "condition": "Zustand",
+            "send_at": "Lieferzeit",
+            "button_url": "Schaltflächen-URL",
+            "old_customers": "Ehemalige Kunden (Kunden, die bereits einen Service bestellt haben, die einen aktiveren Service haben)",
+            "customers_has_no_services": "Kunden ohne aktiven Service",
+            "customers_has_active_services": "Aktive Service-Kunden",
+            "server": "Client mit einem aktiven Dienst auf dem Server {_server}",
+            "product_active": "Kunde mit aktivem Service des Produkts {_product}",
+            "product": "Kunde mit einer Dienstleistung des Produkts {_product}",
+            "product_active_type": "Kunde mit einer Dienstleistung vom Typ {_type}",
+            "product_type": "Kunde mit einer Dienstleistung vom Typ {_type}",
+            "all_customers": "Alle Kunden, die mindestens einen Service in Anspruch genommen haben",
+            "all_registered_customers": "Alle registrierten Kunden",
+            "emails": "Genaue E-Mail-Adressen (optional)",
+            "selected_emails": "Ausgewählte E-Mails",
+            "variables": "Verfügbare Variablen",
+            "success_job": "E-Mail wurde erfolgreich für {_count}-Kunden an {_date} geplant.",
+            "conditions_help": "Mehrere Bedingungen können gleichzeitig verwendet werden, um an mehrere Bedingungen zu senden.",
+            "create": {
+                "title": "Senden Sie eine E-Mail",
+                "subheading": "Senden einer E-Mail an einen Kunden oder eine Gruppe von Kunden",
+                "next": "Nächster",
+                "send": "Senden",
+                "preview": "Vorschau"
+            }
+        },
+        "products": {
+            "tariff": "Tarif",
+            "calculator": {
+                "title": "Rechner für Wiederholungspreise",
+                "apply": "Anwenden",
+                "percent": "Prozentsatz",
+                "help": "Sie können 0 setzen, um keinen Rabatt zu erhalten, und den Preis mit der Anzahl der Monate multiplizieren",
+                "subheading": "Geben Sie den Rabatt an, den Sie auf die verschiedenen Tarife anwenden möchten"
+            },
+            "showmorepricing": "Weitere Tarife einrichten",
+            "title": "Produzieren",
+            "description": "Richten Sie Produkte ein, verwalten Sie das Inventar oder richten Sie Angebote für Ihren Shop ein.",
+            "subheading": "Hier ist die Liste aller Produkte im System",
+            "stock": "Lagerbestand verfügbar",
+            "type": "Produkttyp",
+            "group": "Produktgruppe",
+            "descriptionplaceholder": "Produktbeschreibung (HTML-Unterstützung)",
+            "create": {
+                "title": "Erstellen eines Produkts",
+                "subheading": "Erstellen eines neuen Produkts für den Shop",
+                "create_group_help": "Sie müssen eine Gruppe erstellen, bevor Sie ein Produkt erstellen.",
+                "create_product_help": "Sie müssen ein Produkt erstellen, bevor Sie ein Angebot erstellen."
+            },
+            "show": {
+                "title": "Produktdatenblatt {_name}",
+                "subheading": "Hier sind die Informationen zu diesem Produkt, die am {_date} erstellt wurden."
+            },
+            "config": {
+                "btn": "Konfigurieren des Angebots",
+                "title": "Konfigurieren des Angebots",
+                "success": "Die Angebotskonfiguration wurde erfolgreich registriert."
+            },
+            "link": {
+                "btn": "Link bestellen"
+            }
+        },
+        "groups": {
+            "title": "Gruppen",
+            "subheading": "Hier ist die Liste aller Gruppen im System",
+            "description": "Richten Sie Produktgruppen und Untergruppen für Ihren Shop ein.",
+            "parent_id": "Übergeordnete Gruppe",
+            "clonewithproducts": "Klonen mit Produkten",
+            "clonewithoutproducts": "Klonen ohne die Produkte",
+            "doubleclone": "Die Gruppe kann nicht geklont werden, da sie bereits geklont wurde",
+            "image": "Bild",
+            "groupcannotdeleted": "Diese Gruppe kann nicht gelöscht werden, da noch Produkte mit ihr verknüpft sind.",
+            "show": {
+                "title": "Gruppen-Blatt {_name}",
+                "subheading": "Hier sind die Informationen zu dieser Gruppe, die am {_date} erstellt wurde."
+            },
+            "create": {
+                "title": "Erstellen einer Gruppe",
+                "subheading": "Erstellen einer neuen Gruppe für den Shop"
+            },
+            "order_products": "Sie können Produkte neu anordnen, indem Sie sie per Drag & Drop verschieben und dann speichern",
+            "use_image_as_background": "Verwenden Sie das Bild als Hintergrund",
+            "see_group": "Gruppe anzeigen",
+            "add_product": "Produkt hinzufügen",
+            "nb_products": "Anzahl der Produkte"
+        },
+        "login": {
+            "title": "Login - Administration",
+            "subheading": "Melden Sie sich bei Ihrem Administratorkonto an"
+        },
+        "forgot": {
+            "title": "Passwort vergessen - Administration",
+            "subheading": "Zurücksetzen Ihres Passworts"
+        },
+        "reset_password": {
+            "title": "Passwort zurücksetzen - Administration",
+            "subheading": "Zurücksetzen Ihres Passworts"
+        },
+        "customers": {
+            "title": "Kundschaft",
+            "autologin": {
+                "btn": "Automatische Verbindung",
+                "logout": "Melden Sie sich aus dem Kundenkonto ab",
+                "logoutsuccess": "Sie wurden aus dem Kundenkonto ausgeloggt",
+                "success": "Sie sind nun als {_name} angemeldet."
+            },
+            "show": {
+                "email_sent": "Die E-Mail wurde erfolgreich gesendet",
+                "email_confirmed": "Das Konto wurde erfolgreich bestätigt",
+                "resend": "Bestätigungs-E-Mail erneut senden",
+                "confirm": "Konto bestätigen",
+                "title": "Kundenprofil von {_name}",
+                "login_ip": "Verbindung IP",
+                "subheading": "Hier sind die Informationen zu diesem Client, der am {_date} erstellt wurde.",
+                "details": "Kundendaten",
+                "billing": "Rechnungsadresse",
+                "notes": "Benutzerhinweise",
+                "invoices": "Rechnungen des Kunden",
+                "services": "Kundendienst",
+                "tickets": "Kundentickets",
+                "payment-methods": "Zahlungsmethoden für Kunden",
+                "emails": "E-Mails, die an den Kunden gesendet werden",
+                "passwordhelp": "Lassen Sie das Feld leer, damit Sie sich nicht ändern",
+                "login": "Letzte Kundenanmeldungen",
+                "url": {
+                    "confirmation": "Bestätigungs-URL",
+                    "reset": "URLs zurücksetzen"
+                },
+                "stats": {
+                    "paid": "Beträge",
+                    "unpaid": "Unbezahlte Beträge",
+                    "services": "Aktive Dienstleistungen"
+                },
+                "last_login": "Letzte Anmeldung",
+                "last_ip": "Neueste IP",
+                "confirmed_at": "Bestätigt am",
+                "ban": "Sperrung des Kunden",
+                "reason": "Grund",
+                "action_success": "Die Aktion wurde erfolgreich durchgeführt",
+                "suspend": "Anhalten des Clients",
+                "reactivate": "Reaktivieren des Clients",
+                "suspend_services": "Unterbrechen Sie die Dienste des Clients",
+                "unsuspend_services": "Reaktivieren Sie die Services des Kunden",
+                "expire_services": "Die Leistungen des Kunden verfallen",
+                "is_banned": "Dieser Client wurde am {_date} von {_username} aus Gründen {_reason} gesperrt.",
+                "is_suspended": "Dieser Client wurde am {_date} von {_username} aus dem Grund {_reason} angehalten.",
+                "password_reset_sent": "Die E-Mail zum Zurücksetzen wurde erfolgreich gesendet",
+                "resend_confirm": "Erneutes Senden einer Bestätigungs-E-Mail",
+                "send_password": "Senden Sie eine E-Mail zum Zurücksetzen",
+                "history": "Historie der Kundenaktionen",
+                "send_email": "Senden Sie eine E-Mail",
+                "disable2fa": "Deaktivieren der Zwei-Faktor-Authentifizierung",
+                "email_already_confirmed": "Das Konto wurde bereits bestätigt",
+                "create_invoice": "Eine Rechnung erstellen",
+                "create_service": "Einen Dienst leisten",
+                "create_ticket": "Ein Ticket erstellen"
+            },
+            "create": {
+                "title": "Erstellen eines Clients",
+                "subheading": "Erstellen eines neuen Clients für das System",
+                "create_customer_help": "Sie müssen einen Kunden erstellen, bevor Sie diese Aktion durchführen."
+            },
+            "subheading": "Hier ist die Liste aller Kunden des Systems",
+            "delete": {
+                "error": "Es ist nicht möglich, den Kunden zu löschen, da die Rechnungen noch mit ihm verknüpft sind."
+            }
+        },
+        "profile": {
+            "show": {
+                "title": "Profil von {_name}",
+                "subheading": "Hier finden Sie Ihre Informationen und Berechtigungen aus dem Administratorbereich",
+                "details": "Profil-Details",
+                "login": "Neueste Verbindungen"
+            }
+        },
+        "users": {
+            "title": "Benutzer"
+        },
+        "invoices": {
+            "currency": "Motto",
+            "mass": {
+                "complete": "Als bezahlt markieren",
+                "refund": "Als erstattet markieren",
+                "cancel": "Als storniert markieren",
+                "fail": "Als fehlgeschlagen markieren"
+            },
+            "customproduct": "Kundenspezifisches Produkt",
+            "invoice_number": "Rechnungsnummer",
+            "draft": {
+                "add": "Hinzufügen eines Artikels",
+                "unitprice": "Stückpreis",
+                "name": "Artikelname",
+                "quantity": "Menge",
+                "itemremoved": "Das Element wurde erfolgreich entfernt",
+                "itemupdated": "Der Artikel wurde erfolgreich gespeichert",
+                "notallowed": "Sie können einen Artikel nicht aus einer Rechnung entfernen, die sich nicht im Entwurf befindet",
+                "description": "Artikelbeschreibung",
+                "unitsetupfees": "Gebühr für die Installation von Geräten",
+                "itemadded": "Der Artikel wurde erfolgreich hinzugefügt",
+                "edit": "Artikel bearbeiten",
+                "validated": "Die Rechnung wurde erfolgreich validiert",
+                "validatebtn": "Buchen Sie die Rechnung",
+                "empty": "Dieser Rechnung wurden keine Artikel hinzugefügt",
+                "invoiceserviceinfo": "Für diesen Service steht eine vorhandene Rechnung zur Verfügung. Wenn Sie dieses Produkt hinzufügen, wird die Rechnung #{_id} storniert.",
+                "not_in_draft": "Die Rechnung liegt nicht in Entwürfen vor",
+                "set_in_draft": "Die Rechnung kann nun bearbeitet werden."
+            },
+            "show": {
+                "notes": "Hinweise auf der Rechnung",
+                "external_id": "Externe ID",
+                "title": "Rechnung Karte {_id}",
+                "subheading": "Hier sind die Informationen zu dieser Rechnung, die am {_date} erstellt wurde."
+            },
+            "create": {
+                "title": "Erstellen einer Rechnung",
+                "subheading": "Erstellen einer neuen Rechnung für das System",
+                "btn": "Schaffen"
+            },
+            "title": "Rechnungen",
+            "subheading": "Hier ist die Liste aller Rechnungen im System",
+            "deliveredsuccess": "Das Produkt wurde erfolgreich ausgeliefert",
+            "notified": "Der Kunde wurde benachrichtigt",
+            "notify": "Benachrichtigen Sie den Kunden",
+            "edit": "Bearbeiten der Rechnung",
+            "not_in_pending": "Diese Rechnung kann nicht geändert werden",
+            "paidsuccess": "Die Rechnung wurde als erfolgreich bezahlt markiert",
+            "payinvoicebtn": "Soll",
+            "payinvoicetitle": "Bezahlen Sie die Rechnung",
+            "payinvoicedescription": "Belasten Sie die Rechnung von einer Kundenquelle, um die Rechnung zu bezahlen."
+        },
+        "admins": {
+            "title": "Persönlich",
+            "expires_at": "Ablauf",
+            "subheading": "Hier ist die Liste aller Mitarbeiter im System",
+            "description": "Verwalten von Mitarbeiterdaten für den Admin-Bereich",
+            "badge": {
+                "expires_at": "Läuft ab am {_date}",
+                "expired_at": "Abgelaufen am {_date}"
+            },
+            "create": {
+                "title": "Erstellen eines Mitarbeiterteams",
+                "emptyforactive": "Lassen Sie das Feld leer, um das E-Mail-Passwort festzulegen",
+                "subheading": "Neues Personal für die Verwaltung anlegen"
+            },
+            "signature": "Unterschrift",
+            "expiration": "Ablauf",
+            "show": {
+                "title": "Persönliches Profil {_name}",
+                "login": "Aktuelle Mitarbeiterverbindungen",
+                "details": "Angaben zum Personal",
+                "subheading": "Hier sind die Informationen zu diesem Mitarbeiter, die am {_date} erstellt wurden."
+            }
+        },
+        "settings": {
+            "title": "Parameter",
+            "core": {
+                "title": "Allgemeine Einstellungen",
+                "description": "Allgemeine Parameter von CLIENTXCMS (Name, Adresse, Logo, Favicon, Mail)",
+                "mail": {
+                    "title": "E-Mail-Einstellungen",
+                    "description": "Einstellungen für Nachrichten im Kundenbereich",
+                    "from_address": "Lieferadresse",
+                    "from_name": "Name der Sendung",
+                    "greeting": "Begrüßung am Anfang der E-Mail",
+                    "domain": "Bereich Kundenbereich",
+                    "salutation": "Ende der E-Mail-Begrüßung",
+                    "test": {
+                        "btn": "Testen der Verbindung",
+                        "help": "Sie müssen die E-Mail-Einstellungen konfiguriert und gesichert haben, bevor Sie die Verbindung testen können.",
+                        "success": "Der Verbindungstest ist erfolgreich. Sie sollten innerhalb weniger Minuten eine E-Mail erhalten."
+                    },
+                    "disable_mail": "E-Mails deaktivieren",
+                    "disable_mail_help": "Deaktiviert das Versenden von E-Mails aus dem Kundenbereich und versendet diese in den Protokollen",
+                    "success": "Die E-Mail-Einstellungen wurden erfolgreich gespeichert.",
+                    "smtp": {
+                        "enabled": "SMTP aktivieren",
+                        "host": "SMTP-Rechner",
+                        "port": "Schnittstelle SMTP",
+                        "encryption": "Art der Verschlüsselung",
+                        "username": "SMTP-Benutzername",
+                        "password": "SMTP-Passwort",
+                        "description": "Einstellungen für das Senden von E-Mails von einem SMTP-Server"
+                    }
+                },
+                "app": {
+                    "title": "Globale Einstellungen",
+                    "success": "Die Einstellungen im Kundenbereich wurden erfolgreich gespeichert.",
+                    "description": "Einstellungen für den Kundenbereich",
+                    "fields": {
+                        "app_name": "Name des Kundenbereichs",
+                        "app_env": "Kundenbereich Umwelt",
+                        "app_debug": "Debug-Modus",
+                        "app_timezone": "Zeitzone",
+                        "app_address": "Adresse des Kundenbereichs (auf Rechnungen verfügbar)",
+                        "app_logo": "Logo des Kundenbereichs",
+                        "app_favicon": "Kundenbereich Favicon",
+                        "app_logotext": "Textlogo des Kundenbereichs",
+                        "app_locale": "Standardsprache",
+                        "invoice_terms": "Allgemeine Geschäftsbedingungen für Rechnungen",
+                        "app_telemetry": "Die Telemetrie aktivieren",
+                        "app_telemetry_help": "Diese anonymisierten Daten werden an CLIENTXCMS gesendet, um uns zu helfen, das CMS zu verbessern, Ihr Nutzung besser zu verstehen, Fehler zu beheben und Ihr Erlebnis zu optimieren."
+                    }
+                },
+                "security": {
+                    "title": "Sicherheitseinstellungen",
+                    "description": "Sicherheitseinstellungen im Kundenbereich",
+                    "auth": "Authentifizierung",
+                    "captcha": {
+                        "title": "Das Kaptcha",
+                        "fields": {
+                            "driver": "Captcha-Treiber",
+                            "driver_help": "Sie müssen einen geheimen Schlüssel für den reCaptcha-Treiber haben",
+                            "site_key": "Site-Schlüssel",
+                            "secret_key": "Geheimer Schlüssel",
+                            "driver_recaptcha_help": "Sie können einen Schlüssel unter <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>\" abrufen. Sie müssen unsichtbare v2-Schlüssel verwenden",
+                            "driver_hcaptcha_help": "Sie können einen Schlüssel unter <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>",
+                            "driver_cloudflare_help": "Sie können einen Schlüssel unter <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>\" abrufen. Sie müssen das Widget \"verwaltet\" auswählen"
+                        }
+                    },
+                    "fields": {
+                        "admin_prefix": "Präfix für die Verwaltung",
+                        "hash_driver": "Hash-Treiber",
+                        "password_timeout": "Zeit für die Passwortüberprüfung",
+                        "password_timeout_help": "In Sekunden",
+                        "allow_registration": "Registrierung zulassen",
+                        "auto_confirm_registration": "Automatische Bestätigung der Anmeldung",
+                        "allow_reset_password": "Zurücksetzen des Kennworts zulassen",
+                        "force_login_client": "Erzwingen Sie die Verbindung, um auf den Kundenbereich zuzugreifen",
+                        "banned_emails": "Gesperrte E-Mails",
+                        "banned_emails_help": "Durch Kommas getrennt (z. B. mailinator.com, yopmail.com, exemple@example.com)",
+                        "hash_driver_help": "/!\\ Die alten Passwörter sind nicht mit dem neuen Treiber kompatibel. Sie müssen die Benutzerpasswörter zurücksetzen."
+                    },
+                    "success": "Die Sicherheitseinstellungen wurden erfolgreich gespeichert."
+                }
+            },
+            "store": {
+                "title": "Store-Einstellungen",
+                "description": "Shop-Einstellungen (PayPal, MwSt., etc.)",
+                "gateways": {
+                    "description": "Einrichtung des Zahlungsgateways {_name}",
+                    "fields": {
+                        "name": "Name des Gateways",
+                        "minimal_amount": "Mindestbetrag",
+                        "client_id": "Client-ID",
+                        "client_secret": "Geheimer Clientschlüssel",
+                        "sandbox": "Sandbox-Modus",
+                        "enabled": "Aktivieren des Gateways",
+                        "webhook": "Webhook (Webhook)",
+                        "webhookhelp": "Benachrichtigungs-URL: {_url}",
+                        "payments_types": "Zulässige Zahlungsarten",
+                        "paypal_email": "PayPal-E-Mail-Adresse"
+                    },
+                    "success": "Die Gateway-Konfiguration wurde erfolgreich gespeichert."
+                }
+            }
+        },
+        "license": {
+            "click_to_activate": "Klicken Sie hier, um Ihre Lizenz zu aktivieren",
+            "title": "Lizenz",
+            "subheading": "Bitte validieren Sie Ihre Lizenz, um Ihr Produkt zu aktivieren",
+            "subheading2": "Verwalten Sie Ihre Lizenz und die zugehörigen Informationen oder aktualisieren Sie Ihre verfügbaren Module.",
+            "expiration": "Ihre Lizenz läuft am {_date} ab.",
+            "onetime": "Lebenslange Lizenz",
+            "modules": "Enthaltene Module",
+            "extensions": "Verfügbare Erweiterungen: {_extensions}",
+            "domain": "Bereich: {_domain}",
+            "max_customers": "Maximale Anzahl von Clients: {_count}",
+            "current_customers": "Anzahl der aktuellen Kunden: {_count}",
+            "last_check": "Zuletzt überprüft {_date}",
+            "client_id": "Client-ID",
+            "description": "Verwalten Sie Ihre Lizenz und die zugehörigen Informationen oder aktualisieren Sie Ihre verfügbaren Module.",
+            "force": "Überprüfung erzwingen"
+        },
+        "metadata": {
+            "title": "Metadaten",
+            "key": "Schlüssel",
+            "value": "Wert",
+            "subheading": "Metadaten-Verwaltung",
+            "add": "Hinzufügen von Metadaten",
+            "editwarning": "Seien Sie vorsichtig, das Ändern oder Löschen von Metadaten kann Folgen für das System haben. Bitte seien Sie sich sicher, was Sie tun.",
+            "updated": "Die Metadaten wurden erfolgreich aktualisiert."
+        },
+        "schedules": {
+            "title": "Geplante Aufgaben",
+            "subheading": "Geplante Aufgaben anzeigen",
+            "filters": {
+                "all": "Alle Aufgaben",
+                "services:delivery": "Erbringung von Dienstleistungen",
+                "services:expire": "Ablauf von Diensten"
+            },
+            "readmore": "Weiterlesen",
+            "readless": "Weniger lesen",
+            "command": "Bestellung",
+            "output": "Ausgang",
+            "runtime": "Laufzeit",
+            "created_at": "Erstellt in"
+        },
+        "flash": {
+            "created": "Element erfolgreich erstellt.",
+            "deleted": "Element erfolgreich gelöscht.",
+            "updated": "Die Informationen wurden erfolgreich aktualisiert.",
+            "updated_elements": "Die {_counts}-Elemente wurden erfolgreich aktualisiert.",
+            "no_items_selected": "Keine Artikel ausgewählt"
+        },
+        "create": "Schaffen",
+        "blanktochange": "Lassen Sie das Feld leer, damit Sie sich nicht ändern",
+        "blanktonolimit": "Lassen Sie das Feld leer, um es nicht einzuschränken",
+        "updatedetails": "Details zum Update",
+        "backtosite": "Zurück zur Website",
+        "backtostore": "Zurück zum Shop",
+        "doyouwantreally": "Wollen Sie das wirklich tun?",
+        "locales": {
+            "translations_saved": "Die Übersetzungen wurden erfolgreich aufgenommen.",
+            "subheading": "Übersetzung",
+            "title": "Sprachen",
+            "is_downloaded": "Gedownloadet",
+            "is_default": "Standardmäßig",
+            "download": "Herunterladen",
+            "update": "Aktualisieren",
+            "changedefaulthelp": "Sie können die Standardsprache in den globalen Einstellungen ändern.",
+            "is_enabled": "Aktiviert",
+            "disabled": "Arbeitsunfähig",
+            "download_success": "Die Übersetzungsdateien wurden erfolgreich hochgeladen.",
+            "description": "Suchen Sie die Liste der Sprachen, die für den Kundenbereich verfügbar sind. Schalten Sie Sprachen nach Bedarf ein oder aus.",
+            "download_error": "Sie können die Übersetzungsdateien für die französische Sprache nicht lokal herunterladen."
+        },
+        "api_keys": {
+            "title": "API-Schlüssel",
+            "subheading": "Verwalten Sie alle Ihre CLIENTXCMS-API-Schlüssel.",
+            "last_used": "Letzte Verwendung",
+            "is_admin": "Administratorberechtigung",
+            "admin_help": "Die API-Schlüssel für Administratoren haben Zugriff auf alle Funktionen des Systems.",
+            "create": {
+                "title": "Eine API-Schlüssel erstellen",
+                "subheading": "Erstellen Sie einen neuen API-Schlüssel für das System"
+            },
+            "documentation": "Dokumentation OpenAPI",
+            "rotate": "Regenerieren",
+            "created": "<span>Der API-Schlüssel wurde erfolgreich erstellt. API-Anwendungsschlüssel: \"<b><code>{_key}</code></b>\" <br/> Achtung, er wird nach dieser Seite nicht mehr angezeigt. Bitte kopieren Sie ihn und bewahren Sie ihn an einem sicheren Ort auf.</span>"
+        },
+        "doyouwantclone": "Wollen Sie dieses Element wirklich klonen?"
+    },
+    "lang.fr.auth": {
+        "failed": "Diese Identifikatoren stimmen nicht mit unseren Aufzeichnungen überein.",
+        "password": "Das Passwort ist falsch",
+        "throttle": "Zu viele Anmeldeversuche. Bitte versuchen Sie es in {_seconds} Sekunden erneut.",
+        "signed_in_as": "Eingeloggt als",
+        "login": {
+            "btn": "Anmelden",
+            "title": "Verbindung",
+            "heading": "Verbindung",
+            "subheading": "Geben Sie Ihre Anmeldedaten ein, um auf Ihren persönlichen Bereich zuzugreifen.",
+            "remember": "Erinnern Sie sich an mich",
+            "forgot": "Passwort vergessen?",
+            "login": "Log",
+            "no_account": "Sie haben noch kein Konto?"
+        },
+        "confirm": {
+            "btn": "Bestätigen",
+            "title": "Passwort bestätigen",
+            "heading": "Passwort bestätigen",
+            "subheading": "Bitte bestätigen Sie aus Sicherheitsgründen Ihr Passwort, um fortzufahren."
+        },
+        "register": {
+            "btn": "Um sich zu registrieren",
+            "title": "Registrierung",
+            "heading": "Erstellen Sie ein Konto",
+            "subheading": "Herzlich willkommen in Ihrem Kundenbereich.",
+            "already": "Haben Sie bereits ein Konto?",
+            "register": "Anmelden",
+            "accept": "Ich akzeptiere die",
+            "terms": "Nutzungsbedingungen",
+            "success": "Ihr Konto wurde erfolgreich erstellt.",
+            "success_need_validation": "Sie müssen es bestätigen, indem Sie auf den Link klicken, den Sie per E-Mail erhalten haben.",
+            "success_validation_done": "Ihr Konto wurde erfolgreich verifiziert.",
+            "error_banned_email": "Ihre E-Mail-Adresse ist gesperrt. Bitte wenden Sie sich an den Support.",
+            "error_registration_disabled": "Die Registrierung ist zu diesem Zeitpunkt deaktiviert."
+        },
+        "forgot": {
+            "btn": "Senden Sie den Link zum Zurücksetzen",
+            "title": "Passwort vergessen",
+            "forgot_password": "Passwort vergessen?",
+            "heading": "Zurücksetzen Ihres Passworts",
+            "success": "Sie haben eine E-Mail zum Zurücksetzen erhalten, wenn das Konto vorhanden ist.",
+            "subheading": "Geben Sie Ihre E-Mail-Adresse ein, um Ihr Passwort zurückzusetzen.",
+            "error_disabled": "Das Zurücksetzen des Kennworts ist zu diesem Zeitpunkt deaktiviert."
+        },
+        "reset": {
+            "btn": "Passwort zurücksetzen",
+            "title": "Passwort zurücksetzen",
+            "heading": "Passwort zurücksetzen",
+            "success": "Ihr Passwort wurde erfolgreich zurückgesetzt.",
+            "subheading": "Geben Sie Ihr neues Passwort ein, um Ihr Konto wiederherzustellen."
+        },
+        "authentication": "Authentifizierung",
+        "confirm_register": {
+            "heading": "Überprüfung der E-Mail-Adresse",
+            "subheading": "Wir haben eine Bestätigungs-E-Mail an {_email} mit einem Link zur Aktivierung Ihres Kontos gesendet.",
+            "help": {
+                "not_received": "Wenn Sie die E-Mail nicht erhalten haben",
+                "check_spam": "Überprüfen Sie Ihren Spam-Ordner",
+                "valid_email": "Stellen Sie sicher, dass die E-Mail-Adresse gültig ist.",
+                "firewall": "Stellen Sie sicher, dass Ihre Firewall die E-Mail nicht blockiert hat.",
+                "request_another": "Eine weitere E-Mail erhalten"
+            }
+        },
+        "verified": {
+            "heading": "Verifizierte E-Mail-Adresse",
+            "subheading": "Ihre E-Mail-Adresse wurde verifiziert.",
+            "continue": "Weiter zum Kundenbereich",
+            "continue_order": "Weiter auf der Checkout-Seite",
+            "allowed": "Sie können jetzt auf alle Funktionen Ihres Kontos zugreifen.",
+            "support": "Bei Fragen können Sie sich gerne an den Support wenden."
+        }
+    },
+    "lang.fr.billing": {
+        "admin": {
+            "settings": {
+                "title": "Fakturierung",
+                "description": "Abrechnungseinstellungen speichern. Aktivieren Sie die Mehrwertsteuer, legen Sie die Währung fest oder anderes.",
+                "success": "Die Abrechnungseinstellungen wurden erfolgreich gespeichert.",
+                "webhookoncheckout": "Webhook an der Kasse",
+                "fields": {
+                    "store_vat_enabled": "Mehrwertsteuer aktivieren",
+                    "customermustbeconfirmed": "Der Kunde muss für die Bestellung bestätigt werden",
+                    "toslink": "Link zu den Allgemeinen Verkaufsbedingungen",
+                    "currency": "Motto",
+                    "invoice_prefix": "Präfix Rechnung",
+                    "billing_mode": "Abrechnungsmethode",
+                    "billing_modes": {
+                        "proforma": "Proforma",
+                        "invoice": "Rechnung"
+                    },
+                    "remove_pending_invoice": "Aktion bei ausstehenden Rechnungen nach (Tagen)",
+                    "remove_pending_invoice_help": "0 zum Deaktivieren",
+                    "remove_pending_invoice_types": {
+                        "delete": "Löschen",
+                        "cancel": "Abbrechen"
+                    },
+                    "mode_tax": {
+                        "title": "Steuermethode",
+                        "included": "Inbegriffen - Der angezeigte Preis versteht sich inklusive Mehrwertsteuer",
+                        "excluded": "Ausgeschlossen - Der angezeigte Preis versteht sich zzgl. MwSt."
+                    },
+                    "vat_default_country": "Standardland für die Mehrwertsteuer",
+                    "rates": {
+                        "title": "Mehrwertsteuersatz",
+                        "vat_rate_by_country": "Mehrwertsteuersatz nach Land des Kunden",
+                        "vat_rate_fixed": "Fester Mehrwertsteuersatz"
+                    },
+                    "add_setupfee_on_upgrade": "Hinzufügen von Konfigurationsgebühren während eines Upgrades",
+                    "minimum_days_to_force_renewal_with_upgrade": "Minimale Zeit in Tagen, um eine Erneuerung mit einer Verbesserung zu erzwingen",
+                    "display_product_price": {
+                        "title": "Anzeige des Produktpreises",
+                        "included": "Inbegriffen - Der angezeigte Preis versteht sich inklusive Mehrwertsteuer",
+                        "excluded": "Ausgeschlossen - Der angezeigte Preis versteht sich zzgl. MwSt."
+                    },
+                    "allow_add_balance_to_invoices": "Das Hinzufügen von Guthaben zu Rechnungen erlauben",
+                    "store_mode_tax": {
+                        "title": "Steuerart",
+                        "tax_included": "Inklusive Steuer",
+                        "tax_excluded": "Steuer ausgeschlossen"
+                    }
+                },
+                "tax": "Verwaltung der Mehrwertsteuer"
+            },
+            "title": "Fakturierung",
+            "subheading": "Abonnement- und Zahlungsverwaltung",
+            "subscriptions": {
+                "create": {
+                    "title": "Erstellen eines Abonnements",
+                    "subheading": "Erstellen eines Abonnements für einen Kunden"
+                },
+                "title": "Abonnements",
+                "description": "Verwaltung von Abonnements",
+                "last_payment_at": "Letzte Zahlung",
+                "active_subscription": "Aktive Abonnements",
+                "services_empty": "Keine Dienste gefunden",
+                "earn": {
+                    "service_subscription_help": "Prozentsatz der Dienste mit einem aktiven Abonnement",
+                    "monthly": "Monatliche Abonnements",
+                    "monthly_earn": "Monatliche Verlängerungen",
+                    "subscription_and_services": "Abonnements und Serviceverlängerungen",
+                    "monthly_help": "Abonnements werden auf monatliche Verlängerungen angerechnet"
+                }
+            },
+            "global_balance": "Gesamtbilanz",
+            "upgrades": {
+                "title": "Service-Verbesserungen",
+                "description": "Erfahren Sie, wie Kunden ihre Dienstleistungen verbessern."
+            }
+        }
+    },
+    "lang.fr.client": {
+        "invoices": {
+            "billto": "Abgerechnet zu {_name}",
+            "itemname": "Artikelname",
+            "qty": "Qty",
+            "due_date": "Fälligkeitsdatum",
+            "invoice_date": "Rechnungsdatum",
+            "print": "Drucken",
+            "download": "Herunterladen",
+            "pay": "Bezahlen Sie die Rechnung",
+            "invoice_not_payable": "Diese Rechnung kann nicht bezahlt werden",
+            "thank": "Vielen Dank für Ihre Zahlung",
+            "thankmessage": "Wenn Sie Fragen haben, zögern Sie bitte nicht, uns zu kontaktieren.",
+            "details": "Details zur Rechnung",
+            "index": "Meine Rechnungen",
+            "paymethod": "Zahlungsmethode",
+            "index_description": "Nachfolgend finden Sie eine Liste Ihrer Rechnungen.",
+            "identifier": "Rechnungs-ID",
+            "terms": "Zahlungsbedingungen",
+            "banktransfer": {
+                "title": "Unsere Bankverbindung",
+                "setting_fielddescription": "Bankinformationen, die auf der Rechnung angezeigt werden sollen",
+                "flash": "Bitte überweisen Sie die Zahlung auf das auf der Rechnung angegebene Bankkonto. Ihre Bestellung wird bearbeitet, sobald die Zahlung eingegangen ist."
+            },
+            "paid_date": "Zahlungsdatum",
+            "deliver": "Liefern",
+            "renewal_description": "{_month_label} zum {_service_label}-Dienst hinzugefügt",
+            "pay_with_balance": "Zahlen Sie einen Teil der Rechnung mit dem Restbetrag",
+            "balance": {
+                "success": "Der Saldo wurde verwendet, um die Rechnung zu bezahlen.",
+                "balance_addition": "Hinzufügen des Guthabens zur Rechnung",
+                "balance_addition_description": "Hinzufügung von {_amount} abzgl. von der Rechnung.",
+                "title": "Kredit",
+                "balance_not_enough": "Der Saldo reicht nicht aus, um ihn zur Rechnung hinzuzufügen."
+            }
+        },
+        "emails": {
+            "index": "Meine E-Mails",
+            "subject": "Betreff",
+            "index_description": "Nachfolgend finden Sie eine Liste Ihrer E-Mails, die Sie von unserem System erhalten haben."
+        },
+        "payment-methods": {
+            "paymentmethod": "Zahlungsmethode",
+            "index": "Meine Zahlungsmethoden",
+            "index_description": "Nachfolgend finden Sie eine Liste Ihrer gespeicherten Zahlungsmethoden.",
+            "card": "Landkarte",
+            "expiration": "Ablauf",
+            "add": "Hinzufügen einer Zahlungsmethode",
+            "add_description": "Fügen Sie Ihrem Konto eine neue Zahlungsmethode hinzu.",
+            "success": "Zahlungsmethode erfolgreich hinzugefügt",
+            "default": "Defekt",
+            "defaultsucces": "Aktualisierte Standardzahlungsmethode",
+            "set_default": "Als Standard festlegen",
+            "manage": "Verwalten",
+            "deleted": "Zahlungsmethode entfernt",
+            "add_paypal": "Fügen Sie ein PayPal-Konto hinzu",
+            "errors": {
+                "not_supported": "Diese Zahlungsmethode wird nicht unterstützt",
+                "not_found": "Diese Zahlungsmethode wurde nicht gefunden"
+            },
+            "payment_method_used": "Zahlungsmethode verwendet",
+            "invoices": "Rechnungen, die mit Zahlungsmitteln bezahlt wurden",
+            "invoices_description": "Unten finden Sie die Liste der mit Lastschriften bezahlten Rechnungen."
+        },
+        "services": {
+            "index": "Meine Leistungen",
+            "index_description": "Nachfolgend finden Sie eine Liste Ihrer Dienstleistungen.",
+            "show": "Service Details",
+            "renewbtn": "Service erneuern",
+            "managebtn": "Verwalten des Diensts",
+            "expire_date": "Verfallsdatum",
+            "noservices": "Keine Dienste gefunden",
+            "startorder": "Beginnen Sie mit der Bestellung einer Dienstleistung",
+            "server": "Server",
+            "onetime": "Lebenslanger Service",
+            "changename": "Ändern des Dienstnamens",
+            "managerenew": "Verwalten des Servicezyklus",
+            "manageserviceonadmin": "Verwalten Sie den Dienst über die Verwaltung",
+            "dayremaining": "{_days} verbleibender Tag",
+            "daysremaining": "{_days} verbleibende Tage",
+            "expirationtooltip": "Der Dienst läuft am {_date} ab.",
+            "expirationtooltipexpired": "Der Dienst ist am {_date} abgelaufen.",
+            "expirationtooltipneverexpire": "Der Dienst läuft nie ab",
+            "expirationtooltipsuspended": "Der Dienst wurde am {_date} ausgesetzt.",
+            "subusers": {
+                "index": "Unterbenutzer",
+                "manage": "Verwalten des Zugriffs"
+            },
+            "cancel": {
+                "index": "Service kündigen",
+                "subtitle": "Wollen Sie uns wirklich verlassen?",
+                "index_description": "Bitte wählen Sie einen Grund aus, um Ihren Service zu kündigen.",
+                "back": "Verwenden Sie den Dienst weiterhin",
+                "message": "Nachricht an uns",
+                "reason": "Grund",
+                "submit": "Service kündigen",
+                "uncancel": "Stornierung rückgängig machen",
+                "success": "Der Dienst wurde erfolgreich gekündigt",
+                "expiration": "Ablauf des Dienstes",
+                "expiration_now": "Jetzt gerade",
+                "expiration_end": "Am Ende des Zeitraums"
+            },
+            "renewals": {
+                "index": "Verlängerungen von Diensten",
+                "title": "Erneuerungsmanagement",
+                "period": "Periode",
+                "saveandrenew": "Registrieren und verlängern",
+                "date": "Datum",
+                "manage": "Nachfolgend finden Sie eine Liste Ihrer Serviceverlängerungen, die bereits abgeschlossen wurden.",
+                "not_autorized_to_change_billing": "Sie sind nicht berechtigt, die Abrechnungsmethode zu ändern",
+                "not_authorized_to_change_billing": "Sie sind nicht berechtigt, den Abrechnungsmodus zu ändern."
+            },
+            "subscription": {
+                "cancelled": "Die automatische Verlängerung wurde abgebrochen. Ihr Dienst läuft am {_date} ab.",
+                "index": "Abonnement",
+                "cancel": "Abonnement kündigen",
+                "failed": "Fehler bei der automatischen Verlängerung bei {_date} ({_tries} Versuchen). Bitte überprüfen Sie Ihre Zahlungsinformationen.",
+                "cannot": "Dieser Service kann nicht automatisch verlängert werden",
+                "success": "Die automatische Verlängerung wurde aktiviert. Die nächste Zahlung erfolgt auf {_date}.",
+                "add_payments_method": "Sie müssen eine Zahlungsmethode hinzufügen, um die automatische Verlängerung zu aktivieren. Sie können dies auf der Seite <a href=\"{_url}\" class=\"text-primary\"> Zahlungsmethoden tun</a>.",
+                "enabled": "Die automatische Verlängerung ist für diesen Dienst aktiviert. Die Rechnung wird automatisch erstellt und dann am {_date} bezahlt.",
+                "manage_subscriptions": {
+                    "index": "Verwalten Sie Ihre Abonnements",
+                    "index_description": "Unten finden Sie die Liste Ihrer Dienste, die automatisch erneuert werden können. Sie können die automatische Erneuerung für jeden Dienst aktivieren oder deaktivieren.",
+                    "next_renewal": "Nächste Erneuerung"
+                }
+            },
+            "upgradeservice": "Verbessern Sie den Service",
+            "manageoptions": "Service-Optionen",
+            "options": {
+                "index": "Service-Optionen",
+                "index_description": "Nachfolgend finden Sie die Optionen für Ihren Service. Optionen mit demselben Ablaufdatum wie der Dienst werden automatisch mit dem Dienst verlängert."
+            },
+            "upgrade": {
+                "upgrade_to": "Upgrade auf {_product}",
+                "upgrade_to2": "Verbesserung auf {_product}",
+                "index": "Verbessern Sie den Service",
+                "upgradebtn": "Jetzt verbessern",
+                "index_description": "Nachfolgend finden Sie eine Liste der Produkte, die Sie von Ihrem aktuellen Service upgraden können.",
+                "minimum_days_to_force_renewal_with_upgrade": "Die Verlängerung wird der Upgrade-Rechnung hinzugefügt, da der aktuelle Dienst bald abläuft.",
+                "upgrade_notice": "Durch die Annahme einer Verbesserung akzeptieren Sie die endgültige Erhöhung des Preises Ihres Services und die Verbesserung seiner Leistungen sowie die"
+            },
+            "orderservice": "Brauchen Sie einen weiteren Dienst? Bestellen Sie ihn jetzt!",
+            "expired_at": "Abgelaufen am {_date}"
+        },
+        "profile": {
+            "index": "Mein Profil",
+            "index_description": "Ändern Sie hier Ihre persönlichen Daten.",
+            "updated": "Aktualisiertes Profil",
+            "security": {
+                "index": "Sicherheit",
+                "index_description": "Ändern Sie hier Ihr Passwort.",
+                "currentpassword": "Aktuelles Passwort",
+                "newpassword": "Neues Passwort"
+            },
+            "2fa": {
+                "enabled": "Die Zwei-Faktor-Authentifizierung wurde aktiviert",
+                "disabled": "Die Zwei-Faktor-Authentifizierung wurde deaktiviert",
+                "title": "Zwei-Faktor-Authentifizierung",
+                "code": "Zwei-Faktor-Authentifizierungscode",
+                "heading": "Zwei-Faktor-Verifizierung",
+                "subheading": "Bitte geben Sie den Zwei-Faktor-Authentifizierungscode ein, der von Ihrer mobilen App generiert wurde.",
+                "info": "Scannen Sie den QR-Code mit Ihrer Zwei-Faktor-Authentifizierungs-App.",
+                "download_codes": "Laden Sie die Wiederherstellungscodes <a href=\"{_url}\" class=\"text-primary\"> herunter, indem Sie hier klicken</a>."
+            }
+        },
+        "pending_invoices": "{_count} Rechnung(en), die auf Zahlung warten. Bitte zahlen Sie diese, um eine Unterbrechung des Dienstes zu vermeiden.",
+        "logout": "Abmeldung",
+        "alerts": {
+            "servernotfound": "Der Server wurde nicht gefunden",
+            "servernotinstalled": "Der Server ist noch nicht installiert",
+            "service_suspended": "Der Dienst ist ausgesetzt",
+            "power_success": "Die Aktion wurde erfolgreich durchgeführt",
+            "power_error": "Beim Ausführen der Aktion ist ein Fehler aufgetreten",
+            "email_not_verified": "Ihre E-Mail-Adresse ist nicht verifiziert. &nbsp;<a href=\"{_url}\">Klicken Sie hier</a>&nbsp;, um einen neuen Verifizierungslink zu erhalten.",
+            "service_not_paid": "Die Verlängerungsrechnung ist verfügbar. &nbsp;<a href=\"{_url}\">Klicken Sie hier</a>&nbsp;, um zu bezahlen und eine Unterbrechung zu vermeiden.",
+            "email_verification_sent": "Ein neuer Bestätigungslink wurde an Ihre E-Mail-Adresse gesendet.",
+            "internalerror": "Beim Anzeigen des Dienstes ist ein interner Fehler aufgetreten",
+            "cannot_renew": "Dieser Service kann nicht verlängert werden",
+            "suspended_reason_expired": "Der Dienst ist abgelaufen",
+            "service_cancelled": "Der Service wurde storniert",
+            "service_cancelled_and_not_expired": "Der Dienst wurde gekündigt, ist aber noch nicht abgelaufen. Es ist bis zum Ablaufdatum aktiv.",
+            "cannot_cancel": "Dieser Service kann nicht storniert werden",
+            "service_uncancelled": "Der Dienst wurde reaktiviert",
+            "vpsnotfound": "VPS wurde nicht gefunden",
+            "spam": "Spam erkannt",
+            "account_blocked": "Ihr Konto wurde gesperrt",
+            "account_suspended": "Ihr Konto wurde gesperrt",
+            "service_name_updated": "Der Name des Dienstes wurde aktualisiert",
+            "service_billing_updated": "Die Rechnungsinformationen wurden aktualisiert",
+            "email_must_be_verified": "Ihre E-Mail-Adresse muss verifiziert sein, um auf diese Seite zugreifen zu können",
+            "service_trial_ends_at": "Der Testservice endet am {_date}",
+            "invoice_payment_failed": "Die Zahlung Ihrer Rechnung ist fehlgeschlagen"
+        }
+    },
+    "lang.fr.coupon": {
+        "not_found": "Gutschein nicht gefunden",
+        "coupon_not_started": "Der Gutschein hat noch nicht begonnen",
+        "coupon_expired": "Gutschein ist abgelaufen",
+        "first_order_only": "Dieser Gutschein ist nur für die erste Bestellung gültig",
+        "coupon_max_uses": "Dieser Gutschein hat die maximale Anzahl von Verwendungen erreicht",
+        "coupon_max_uses_per_customer": "Dieser Gutschein hat die maximale Anzahl von Verwendungen pro Kunde erreicht",
+        "minimum_order_amount": "Der Bestellbetrag muss größer als {_amount} sein.",
+        "coupon_not_valid_product": "Dieser Gutschein gilt nicht für die Produkte in Ihrem Warenkorb",
+        "coupon": "Coupon",
+        "coupons": "Coupons",
+        "add_coupon_title": "Gutschein hinzufügen",
+        "add_coupon": "Anwenden",
+        "remove_coupon": "Löschen",
+        "coupon_placeholder": "Geben Sie Ihren Rabattcode ein",
+        "coupon_applied": "Gutschein angewendet",
+        "coupon_removed": "Gutschein gelöscht",
+        "subtotal_without_coupon": "Zwischensumme ohne Kupon",
+        "subtotal_with_coupon": "Zwischensumme mit Coupon",
+        "discount_price": "Rabatt auf den Preis",
+        "discount_setup": "Rabatt auf Installationsgebühren",
+        "free_setup": "Kostenlose Installationsgebühren",
+        "coupon_label": "Artikel-Nr.: {_code} | {_discount}",
+        "admin": {
+            "description": "Richten Sie die Rabattgutscheine Ihres Shops ein.",
+            "subheading": "Coupon-Verwaltung",
+            "fixed": "Fester Betrag",
+            "is_global": "Gesamtrabatt im Shop",
+            "percent": "Prozentsatz",
+            "products": "Zugelassene Produkte",
+            "free_setup": "Bieten Sie Installationsgebühren an",
+            "first_order_only": "Nur erste Bestellung",
+            "applied_month": "Wiederauftreten der Reduktion",
+            "start_at": "Startdatum",
+            "end_at": "Enddatum",
+            "max_uses": "Maximale Anzahl von Anwendungen",
+            "max_uses_per_customer": "Maximale Anzahl von Nutzungen pro Kunde",
+            "uses_help": "0 für unbegrenzt",
+            "required_products": "Benötigte Produkte",
+            "all_products_in_group": "Alle Produkte der Gruppe {_group}",
+            "usages": "Anzahl der Anwendungen",
+            "products_required": "Benötigte Produkte",
+            "minimum_order_amount": "Mindestbestellwert",
+            "applied_month_help": "-1 für unbegrenzt, 0 nur für die erste Zahlung. (Beispiel: 3 Wiederholungen = erste Zahlung + 3 Verlängerungen)",
+            "code": "Code",
+            "pricelabel": "Reduktion",
+            "used_at": "Verwendet auf",
+            "amount": "Menge",
+            "usage": "Verwendung",
+            "groups": "Autorisierte Gruppen",
+            "no_products": "Dieser Gutschein enthält keine autorisierten Produkte. Es kann nicht verwendet werden. Lassen Sie Produkte für diesen Gutschein zu oder aktivieren Sie ihn für den gesamten Shop.",
+            "show": {
+                "title": "Details zum Gutschein",
+                "subheading": "Details zum Rabattgutschein"
+            },
+            "create": {
+                "title": "Erstellen Sie einen Gutschein",
+                "subheading": "Erstellen Sie einen neuen Rabattgutschein"
+            },
+            "allowed_customer": "Genehmigter Kunde (leer lassen für alle)"
+        },
+        "coupon_not_applicable": "Dieser Gutschein ist nicht auf Ihren Warenkorb anwendbar."
+    },
+    "lang.fr.errors": {
+        "404": {
+            "title": "Seite nicht gefunden",
+            "description": "Die von Ihnen gesuchte Seite konnte leider nicht gefunden werden.",
+            "back": "Zurück zur vorherigen Seite",
+            "home": "Zur Startseite",
+            "dashboard": "Gehen Sie zum Dashboard"
+        },
+        "500": {
+            "title": "Interner Serverfehler",
+            "description": "Leider ist ein interner Fehler aufgetreten.",
+            "back": "Zurück zur vorherigen Seite",
+            "home": "Zur Startseite"
+        }
+    },
+    "lang.fr.extensions": {
+        "title": "Erweiterungen",
+        "description": "Verwalten Sie CLIENTXCMS-Erweiterungen, aktivieren oder deaktivieren Sie installierte Erweiterungen.",
+        "settings": {
+            "title": "Einstellungen für Erweiterungen",
+            "description": "Verwalten von Einstellungen für installierte Erweiterungen",
+            "clearcache": "Cache leeren",
+            "enable": "Aktivieren",
+            "disable": "Deaktivieren",
+            "enabled": "Aktiviert",
+            "disabled": "Arbeitsunfähig",
+            "activable": "Aktiviert",
+            "notactivable": "Nicht aktivierbar",
+            "buy": "Kaufen"
+        },
+        "onetime": "Nur einmal",
+        "monthly": "Monatlich",
+        "flash": {
+            "already_enabled": "Die Erweiterung ist bereits aktiviert.",
+            "extension_not_enabled": "Die Erweiterung {_extension} ist nicht aktiviert und für diese Erweiterung erforderlich.",
+            "cannot_enable": "Die Erweiterung kann nicht aktiviert werden.",
+            "composer_not_found": "Die Datei composer.json wurde nicht gefunden.",
+            "extension_not_loaded": "Die Erweiterung {_extension} ist erforderlich, damit diese Erweiterung aktiviert werden kann.",
+            "extension_not_installed": "Die Erweiterung {_extension} ist nicht installiert.",
+            "extension_version_not_compatible": "Die Erweiterungsversion {_extension} ({_current}) ist nicht mit der erforderlichen Version ({_version}) kompatibel.",
+            "cache_cleared": "Der Cache wurde erfolgreich geleert."
+        }
+    },
+    "lang.fr.global": {
+        "firstname": "Vorname",
+        "lastname": "Name",
+        "email": "E-Mail",
+        "password": "Passwort",
+        "locale": "Zunge",
+        "username": "Nutzername",
+        "password_confirmation": "Bestätigung des Passworts",
+        "address": "Adresse",
+        "currency": "Motto",
+        "title": "Titel",
+        "content": "Inhalt",
+        "address2": "Zusatzadresse",
+        "city": "Stadt",
+        "state": "Zustand",
+        "edit": "Modifizieren",
+        "url": "URL (Englisch)",
+        "zip": "PLZ",
+        "country": "Land",
+        "type": "Art",
+        "seemore": "Mehr",
+        "region": "Region",
+        "clone": "Klonen",
+        "phone": "Telefon",
+        "clientarea": "Kundenbereich",
+        "or": "oder",
+        "showing": "Zeigen",
+        "to": "bei",
+        "of": "Von",
+        "results": "Befund",
+        "withselected": "Mit der Auswahl",
+        "password_generate": "Generieren eines Passworts",
+        "recurring": "Wiederkehrend",
+        "validate": "Validieren",
+        "recurrences": "Wiederholungen",
+        "free": "Kostenlos",
+        "month": "Monat",
+        "closemodal": "Schließen",
+        "year": "Jahr",
+        "product": "Produkt",
+        "products": "Produzieren",
+        "description": "Beschreibung",
+        "slug": "Nacktschnecke",
+        "darkmode": "Dunkler Modus",
+        "select": "Auswählen",
+        "years": "Jahre",
+        "search": "Forschung",
+        "any": "Alle",
+        "lookup": "Forschung",
+        "yes": "Ja",
+        "no": "Nein",
+        "searchfrom": "Suche ab",
+        "actions": "Aktionen",
+        "view": "Sehen",
+        "show": "Bereitstellen",
+        "hour": "Stunde",
+        "date": "Datum",
+        "clicktoremove": "Klicken zum Löschen",
+        "separebycomma": "Durch Kommas getrennt",
+        "mail": {
+            "greeting": "Hallo",
+            "salutation": "Herzliche Grüße"
+        },
+        "states": {
+            "pending": "Anhängig",
+            "active": "Aktiv",
+            "failed": "Gestrandet",
+            "suspended": "Ausgesetzt",
+            "terminated": "Fertig",
+            "refunded": "Erstattet",
+            "paid": "Bezahlt",
+            "fraud": "Betrug",
+            "cancelled": "Abgebrochen",
+            "expired": "Abgelaufen",
+            "pending_setup": "Warten auf Konfiguration",
+            "all": "Alle",
+            "unreferenced": "Nicht referenziert",
+            "hidden": "Versteckt",
+            "draft": "Entwurf",
+            "open": "Offen",
+            "closed": "Geschlossen",
+            "approved": "Gebilligt",
+            "rejected": "Zurückgewiesen",
+            "completed": "Fertig",
+            "disabled": "Arbeitsunfähig",
+            "not_confirmed": "Nicht bestätigt",
+            "confirmed": "Bestätigt",
+            "answered": "Antwortet",
+            "yes": "Ja",
+            "no": "Nein"
+        },
+        "add": "Hinzufügen",
+        "invoice_was_cancelled": "Die Rechnung wurde gerade storniert",
+        "invoice_cancelled": "Die Rechnung wurde am {_date} storniert.",
+        "invoice": "Rechnung",
+        "invoices": "Rechnungen",
+        "service": "Dienst",
+        "preview": "Flüchtiger Blick",
+        "services": "Dienste",
+        "balance": "Gleichgewicht",
+        "sort_order": "Sortierung",
+        "pinned": "Angeheftet",
+        "quote": "Zitieren",
+        "quotes": "Zitieren",
+        "ticket": "Fahrkarte",
+        "tickets": "Billette",
+        "name": "Name",
+        "status": "Status",
+        "created": "Erstellt",
+        "filter": "Filter",
+        "disabled": "Arbeitsunfähig",
+        "enabled": "Aktiviert",
+        "no_results": "Keine Ergebnisse",
+        "save": "Aufzeichnung",
+        "hidden": "Versteckt",
+        "optional": "Wahlfrei",
+        "unreferenced": "Nicht referenziert",
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "activehelp": "Für alle sichtbar",
+        "unreferencedhelp": "Nur für Administratoren sichtbar",
+        "hiddenhelp": "Für alle unsichtbar",
+        "drop-file": {
+            "label": "Legen Sie Ihre Dateien hier ab oder klicken Sie, um sie zu importieren",
+            "help": "Es sind nur Dateien mit der Erweiterung {_extensions} zulässig"
+        },
+        "back": "Rückgabe",
+        "customer": "Kunde",
+        "details": "Details",
+        "none": "Nichts",
+        "delete": "Löschen",
+        "cancel": "Abbrechen",
+        "amount": "Menge",
+        "already_sent": "Bereits gesendet",
+        "email_trouble_clicking_button": "Wenn Sie Probleme haben, auf die Schaltfläche \"{_actionText}\" zu klicken, kopieren Sie die untenstehende URL und fügen Sie sie ein",
+        "group": "Gruppe",
+        "value": "Wert",
+        "key": "Schlüssel",
+        "week": "Woche",
+        "updated": "Aktualisierte",
+        "already_set": "Bereits definiert",
+        "create": "Erstellen",
+        "unkwown": "Unbekannt",
+        "deleted": "Gelöscht",
+        "action": "Aktion",
+        "is_downloaded": "Heruntergeladen",
+        "is_default": "Standardmäßig",
+        "download": "Herunterladen",
+        "update": "Aktualisieren",
+        "disable": "Deaktivieren",
+        "enable": "Aktivieren",
+        "store": "Hinzufügen",
+        "listing": "Lister",
+        "suspend": "Hängen",
+        "unsuspend": "Reaktivieren",
+        "terminate": "Beenden",
+        "next": "Nächster",
+        "send": "Senden",
+        "users": "Benutzer",
+        "user": "Benutzer",
+        "expiration": "Ablauf",
+        "expires_at": "Verstehe es",
+        "reset": "Zurücksetzen",
+        "server": "Server",
+        "is_enabled": "Aktiviert",
+        "is_disabled": "Deaktiviert",
+        "home": "Willkommen"
+    },
+    "lang.fr.helpdesk": {
+        "ticket": "Fahrkarte",
+        "tickets": "Billette",
+        "subject": "Betreff",
+        "priority": "Priorität",
+        "attachments": "Anhängsel",
+        "priorities": {
+            "low": "Bass",
+            "medium": "Durchschnitt",
+            "high": "Hoch"
+        },
+        "department": "Abteilung",
+        "support": {
+            "index": "Meine Tickets",
+            "index_description": "Nachfolgend finden Sie eine Liste Ihrer Support-Tickets.",
+            "attachments_help": "Maximale Größe {_size} MB. Zulässige Dateitypen: {_types}",
+            "ticket_reopen_days": "Sie können das Ticket nicht erneut öffnen. Sie können ein neues öffnen.",
+            "ticket_closed": "Das Ticket wurde geschlossen",
+            "ticket_reopened": "Das Ticket wurde wieder geöffnet",
+            "ticket_replied": "Ihre Antwort wurde gesendet",
+            "show": {
+                "replybystaff": "Antwort von {_app}",
+                "messagebystaff": "Nachricht von {_app}",
+                "replybycustomer1": "Ihre Antwort",
+                "replybycustomer2": "Kundenstimmen",
+                "your_demand": "Ihre Anfrage",
+                "reply": "Antwort",
+                "replyandclose": "Antworten und schließen",
+                "close": "Schließen",
+                "customer_demand": "Kundenwunsch",
+                "reopen": "Wiedereröffnen",
+                "open_on": "Geöffnet am {_date}",
+                "closed_on": "Geschlossen am {_date}",
+                "attachments": "Diesem Ticket wurden ein oder mehrere Anhänge hinzugefügt",
+                "closed": "Dieses Ticket ist geschlossen. Du kannst nicht antworten. Wenn Sie Hilfe benötigen, öffnen Sie bitte ein neues Ticket oder öffnen Sie dieses Ticket erneut.",
+                "replyinticket": "Auf das Ticket antworten",
+                "closed2": "Dieses Ticket ist geschlossen. Du kannst nicht antworten.",
+                "index_description": "Nachfolgend finden Sie die Details des Support-Tickets.",
+                "close_reason": "Grund für die Schließung",
+                "assigned_to": "Zugewiesen an",
+                "edit_message": "Nachricht ändern",
+                "edited_at": "Nachricht geändert am {_date}",
+                "closed3": "Dieses Ticket ist geschlossen. Sie können nicht antworten.",
+                "comments": {
+                    "title": "Kommentare",
+                    "add": "Einen Kommentar hinzufügen",
+                    "no_comments": "Kein Kommentar",
+                    "added": "Der Kommentar wurde hinzugefügt",
+                    "add_comment": "Einen Kommentar hinzufügen",
+                    "deleted": "Der Kommentar wurde gelöscht"
+                }
+            },
+            "create": {
+                "index": "Neues Ticket",
+                "index_description": "Öffnen eines neuen Support-Tickets",
+                "relatedto": "Verwandt",
+                "newticket": "Neues Ticket",
+                "send": "Senden",
+                "relatednone": "Nichts",
+                "messagehelp": "Bitte geben Sie so viele Details wie möglich an, damit wir Ihr Problem lösen können."
+            },
+            "departmentsseeder": {
+                "general": {
+                    "name": "Allgemein",
+                    "description": "Generaldirektion"
+                },
+                "billing": {
+                    "name": "Fakturierung",
+                    "description": "Abteilung Fakturierung"
+                },
+                "technical": {
+                    "name": "Technik",
+                    "description": "Technische Abteilung"
+                },
+                "sales": {
+                    "name": "Kommerziell",
+                    "description": "Verkaufsabteilung"
+                }
+            },
+            "ticket_closed_by": "Geschlossen von {_name}",
+            "ticket_auto_close": "Das Ticket wurde automatisch nach {_days} Tagen geschlossen.",
+            "message_updated": "Die Nachricht wurde aktualisiert"
+        },
+        "admin": {
+            "title": "Hilfe-Center",
+            "description": "Einrichten des Help Centers und Verwalten von Support-Tickets",
+            "open_tickets": "Offene Tickets",
+            "settings": {
+                "title": "Help-Center-Einstellungen",
+                "success": "Die Help-Center-Einstellungen wurden erfolgreich gespeichert.",
+                "description": "Einrichten von Support-Tickets und des Help Centers",
+                "fields": {
+                    "ticket_auto_close_days": "Automatische Schließung von Tickets nach Inaktivität (Tage)",
+                    "ticket_auto_close_days_help": "0 zum Deaktivieren",
+                    "allow_attachments": "Anhänge zulassen",
+                    "allow_attachments_help": "Ermöglicht es Benutzern, Dateien an ihre Tickets anzuhängen",
+                    "attachments_max_size": "Maximale Größe des Anhangs (MB)",
+                    "attachments_allowed_types": "Zulässige Dateitypen",
+                    "attachments_allowed_types_help": "Durch Kommas getrennt",
+                    "webhook_url": "Webhook-URL",
+                    "reopen_days": "Berechtigung zur Wiedereröffnung von Tickets (Tage)",
+                    "reopen_days_help": "0, um das erneute Öffnen zu deaktivieren, -1, um auf unbestimmte Zeit zuzulassen"
+                }
+            },
+            "tickets": {
+                "pending_title": "Ausstehende Tickets",
+                "last_update": "Zuletzt aktualisiert",
+                "subheading": "Hier ist die Liste aller Tickets im System",
+                "edit": "Ticket bearbeiten",
+                "customer_not_found": "Kunde wurde nicht gefunden",
+                "create": {
+                    "title": "Erstellen eines Tickets",
+                    "subheading": "Erstellen eines neuen Tickets für einen Kunden"
+                },
+                "graphs": "Grafik der Tickets",
+                "closed_tickets": "Geschlossene Anfragen",
+                "analytics": "Analyse der Tickets",
+                "department_ticket_counts": "Anzahl der Tickets nach Abteilung",
+                "tickets_active": "Anfrage steht zur Bearbeitung aus",
+                "tickets_active_description": "Hier ist die Liste aller Tickets, die auf Ihre Antwort warten.",
+                "tickets_to_reply_description": "Hier ist die Liste aller Tickets, die auf eine Antwort des Kunden warten.",
+                "tickets_to_reply": "Anfrage steht noch zur Beantwortung aus",
+                "last_reply": "Letzte Antwort",
+                "no_department_stats": "Derzeit wurde kein Département gefunden.",
+                "staff_message_counts": "Anzahl der Nachrichten pro Mitarbeitern",
+                "no_staff_stats": "Zurzeit keine Mitarbeiter gefunden."
+            },
+            "departments": {
+                "title": "Support-Abteilungen",
+                "description": "Einrichten von Supportabteilungen für Tickets",
+                "subheading": "Hier ist die Liste aller Abteilungen im System",
+                "create": {
+                    "title": "Erstellen einer Abteilung",
+                    "subheading": "Erstellen einer neuen Supportabteilung"
+                },
+                "show": {
+                    "title": "Abteilungsblatt {_name}",
+                    "subheading": "Hier sind die Informationen zu dieser Abteilung, die am {_date} erstellt wurden."
+                },
+                "error_delete": "Diese Abteilung kann nicht gelöscht werden, da sie Tickets enthält."
+            },
+            "create_ticket": "Eine Anfrage erstellen",
+            "widgets": {
+                "pending_tickets": "Ausstehende Anfragen",
+                "active_tickets": "Anträge in Bearbeitung",
+                "total_tickets": "Gesamtzahl der Anfragen",
+                "tickets_last_week": "Tickets von letzter Woche",
+                "avg_reply_time": "Durchschnittliche Antwortzeit",
+                "messages_sent": "Gesendete Nachrichten",
+                "avg_resolution_time": "Durchschnittliche Lösungszeit"
+            }
+        }
+    },
+    "lang.fr.http-statuses": {
+        "0": "Unbekannter Fehler",
+        "100": "Fortsetzen",
+        "101": "Umschalten von Protokollen",
+        "102": "Verarbeitung",
+        "200": "Alles klar",
+        "201": "Erstellt",
+        "202": "Angenommen",
+        "203": "Nicht autorisierte Informationen",
+        "204": "Nicht glücklich",
+        "205": "Inhalt zurücksetzen",
+        "206": "Teilinhalt",
+        "207": "Multi-Status",
+        "208": "Bereits berichtet",
+        "226": "Ich bin daran gewöhnt",
+        "300": "Mehrere Auswahlmöglichkeiten",
+        "301": "Dauerhaft umgezogen",
+        "302": "Gründen",
+        "303": "Mehr",
+        "304": "Unverändert",
+        "305": "Verwenden eines Proxys",
+        "307": "Vorübergehende Umleitung",
+        "308": "Dauerhafte Umleitung",
+        "400": "Schlechte Nachfrage",
+        "401": "Unstatthaft",
+        "402": "Zahlung erforderlich",
+        "403": "Verboten",
+        "404": "Seite nicht gefunden",
+        "405": "Methode nicht zulässig",
+        "406": "Nicht akzeptabel",
+        "407": "Proxy-Authentifizierung erforderlich",
+        "408": "Ablaufzeit der Anwendung",
+        "409": "Konflikt",
+        "410": "Verschwunden",
+        "411": "Benötigte Länge",
+        "412": "Vorbedingung fehlgeschlagen",
+        "413": "Nutzlast zu groß",
+        "414": "URI zu lang",
+        "415": "Nicht unterstützter Medientyp",
+        "416": "Unbefriedigende Reichweite",
+        "417": "Fehler beim Warten",
+        "418": "Ich bin eine Teekanne",
+        "419": "Sitzung ist abgelaufen",
+        "421": "Schlecht gerichtete Anfrage",
+        "422": "Nicht behandelbare Einheit",
+        "423": "Verschlossen",
+        "424": "Fehler bei der Abhängigkeit",
+        "425": "Zu früh",
+        "426": "Upgrade erforderlich",
+        "428": "Voraussetzung",
+        "429": "Zu viele Anfragen",
+        "431": "Abfrage von zu großen Header-Feldern",
+        "444": "Geschlossene Verbindung ohne Rückmeldung",
+        "449": "Versuchen Sie es erneut mit",
+        "451": "Aus rechtlichen Gründen nicht verfügbar",
+        "499": "Client-Anfrage geschlossen",
+        "500": "Interner Serverfehler",
+        "501": "Nicht implementiert",
+        "502": "Schlechtes Gateway",
+        "503": "Mode de Maintenance",
+        "504": "Gateway-Timeout",
+        "505": "HTTP-Version wird nicht unterstützt",
+        "506": "Die Variante verhandelt auch",
+        "507": "Unzureichender Platz",
+        "508": "Schleife erkannt",
+        "509": "Bandbreitenlimit überschritten",
+        "510": "Nicht verlängert",
+        "511": "Netzwerkauthentifizierung erforderlich",
+        "520": "Unbekannter Fehler",
+        "521": "Der Webserver ist ausgefallen",
+        "522": "Zeitüberschreitung der Verbindung",
+        "523": "Der Ursprung ist nicht zugänglich",
+        "524": "Eine Frist wurde überschritten",
+        "525": "SSL-Handshake fehlgeschlagen",
+        "526": "Ungültiges SSL-Zertifikat",
+        "527": "Waffenfehler bei der Eisenbahn",
+        "598": "Fehler beim Lesen des Netzwerks",
+        "599": "Fehler beim Timeout der Netzwerkverbindung",
+        "unknownError": "Unbekannter Fehler"
+    },
+    "lang.fr.install": {
+        "install": "Installation",
+        "step": "Bühne",
+        "settings": {
+            "title": "Parameter",
+            "client_id": "Client-ID",
+            "client_secret": "Geheimer Clientschlüssel",
+            "hosting_name": "Firmenname",
+            "connect": "Anmelden",
+            "migrationwarning": "Warnung: Die Datenbank wurde nicht migriert. Bitte führen Sie \"php artisan migrate --force\" aus, um die Datenbank zu migrieren.",
+            "detecteddomain": "Erkannte Domäne: {_domain}. Stellen Sie sicher, dass die Domain genau mit der Domain Ihrer Lizenz übereinstimmt (einschließlich der Subdomain, falls zutreffend)."
+        },
+        "register": {
+            "title": "Registrierung",
+            "btn": "Konto erstellen",
+            "telemetry": "Anonyme Telemetriedaten senden. Dies hilft uns, das CMS zu verbessern und Fehler zu beheben. Sie können diese Option später in den Einstellungen deaktivieren."
+        },
+        "summary": {
+            "title": "Zusammenfassung",
+            "btn": "Beenden"
+        },
+        "submit": "Senden"
+    },
+    "lang.fr.maintenance": {
+        "settings": {
+            "title": "Wartungsmodus",
+            "description": "Aktivieren oder deaktivieren Sie den Wartungsmodus im Kundenbereich",
+            "maintenance_enabled": "Aktivieren des Wartungsmodus",
+            "maintenance_url": "Wartungs-URLs",
+            "maintenance_url_help": "URL zum Umgehen des Wartungsmodus",
+            "maintenance_message": "Wartungsmeldung",
+            "maintenance_message_help": "Meldung, die Benutzern angezeigt wird, wenn sie im Wartungsmodus auf die Website zugreifen",
+            "maintenance_button_text": "Text der Wartungsschaltfläche",
+            "maintenance_button_icon": "Symbol für die Wartungsschaltfläche",
+            "maintenance_button_url": "URL der Wartungsschaltfläche",
+            "success": "Die Wartungseinstellungen wurden erfolgreich aktualisiert"
+        },
+        "in_maintenance_title": "Laufende Wartung",
+        "in_maintenance_message": "Die Website wird derzeit gewartet. Bitte schauen Sie später noch einmal vorbei."
+    },
+    "lang.fr.pagination": {
+        "next": "Weiter »",
+        "previous": "« Vorherige"
+    },
+    "lang.fr.passwords": {
+        "reset": "Ihr Passwort wurde zurückgesetzt!",
+        "sent": "Wir haben Ihnen den Link zum Zurücksetzen des Passworts per E-Mail geschickt!",
+        "throttled": "Bitte warten Sie, bevor Sie es erneut versuchen.",
+        "token": "Dieses Token zum Zurücksetzen des Kennworts ist ungültig.",
+        "user": "Es wurden keine Benutzer mit dieser E-Mail-Adresse gefunden."
+    },
+    "lang.fr.permissions": {
+        "admin": "Admin-Berechtigungen",
+        "services": "Service-Berechtigungen",
+        "helpdesk": "Help-Center-Berechtigungen",
+        "metadata": "Metadaten-Berechtigungen",
+        "billing": "Berechtigungen für die Abrechnung",
+        "store": "Shop-Berechtigungen",
+        "technical": "Technische Genehmigungen",
+        "customers": "Client-Berechtigungen",
+        "earn_page": "Seite \"Einnahmen\"",
+        "manage_permissions": "Verwalten von Berechtigungen",
+        "manage_roles": "Verwalten von Rollen",
+        "show_email_messages": "E-Mails anzeigen",
+        "dashboard_last_login": "Letzter Login in den Kundenbereich",
+        "show_logs": "Verlauf anzeigen",
+        "show_customers": "Kunden anzeigen",
+        "manage_customers": "Verwalten von Kunden",
+        "manage_staff": "Verwalten von Mitarbeitern",
+        "autologin_customer": "Automatische Verbindung zu Kunden",
+        "manage_metadata": "Verwalten von Metadaten",
+        "show_metadata": "Anzeigen von Metadaten",
+        "manage_invoices": "Verwalten von Rechnungen",
+        "show_invoices": "Rechnungen einsehen",
+        "create_invoices": "Erstellen von Rechnungen",
+        "show_services": "Dienstleistungen anzeigen",
+        "deliver_services": "Bereitstellen von Dienstleistungen",
+        "manage_license": "Lizenz verwalten",
+        "manage_gateways": "Verwalten von Zahlungsgateways",
+        "manage_extensions": "Verwalten von Erweiterungen",
+        "manage_staff_profile": "Bearbeiten des Mitarbeiterprofils",
+        "manage_database": "Verwalten der Datenbank",
+        "show_payment_methods": "Siehe Zahlungsmethoden",
+        "manage_services": "Verwalten von Diensten",
+        "create_tickets": "Tickets erstellen",
+        "show_tickets": "Tickets ansehen",
+        "reply_tickets": "Auf Tickets antworten",
+        "close_tickets": "Tickets schließen",
+        "manage_tickets": "Verwalten von Tickets",
+        "manage_departments": "Verwalten von Abteilungen",
+        "manage_products": "Produkte verwalten",
+        "manage_groups": "Verwalten von Gruppen",
+        "manage_coupons": "Gutscheine verwalten",
+        "manage_servers": "Server verwalten",
+        "manage_personalization": "Verwalten von Anpassungen",
+        "staff_permissions": "Berechtigungen für Mitarbeiter",
+        "manage_configoptions": "Verwalten von Konfigurationsoptionen",
+        "send_email_messages": "E-Mails senden",
+        "show_helpdesk_analytics": "Siehe die Statistiken deshilfezentrums",
+        "manage_tickets_department": "Verwalten Sie nur die Tickets der Abteilung {_name}",
+        "manage_api_keys": "API-Schlüssel verwalten"
+    },
+    "lang.fr.personalization": {
+        "title": "Anpassung",
+        "icon": "Urlader",
+        "addmenu": "Hinzufügen eines Menüs",
+        "demo": "Demo",
+        "icon_help": "Sehen Sie sich die Liste der Symbole auf icons.getbootstrap.com",
+        "email_templates": {
+            "title": "E-Mail-Vorlagen",
+            "description": "E-Mail-Vorlagen im Kundenbereich anpassen",
+            "subheading": "Hier ist die Liste aller E-Mail-Vorlagen im System",
+            "locale": "Zunge",
+            "shouldnotchanged": "Dieses Feld kann bearbeitet werden, sollte aber nur in Ausnahmefällen geändert werden",
+            "button_text": "Text der Schaltfläche",
+            "subject": "Betreff der E-Mail",
+            "show": {
+                "title": "E-Mail-Vorlagenblatt {_name}",
+                "subheading": "Hier sind die Informationen zu dieser E-Mail-Vorlage, die am {_date} erstellt wurde:"
+            },
+            "create": {
+                "title": "Erstellen einer E-Mail-Vorlage",
+                "subheading": "Erstellen einer neuen E-Mail-Vorlage für das System"
+            },
+            "names": {
+                "invoice_paid": "Rechnung bezahlt",
+                "notify_expiration": "Benachrichtigung über Ablauf",
+                "wisp": "Wisp Lieferung",
+                "pterodactyl": "Pterodactylus Verabreichung",
+                "virtualizor_vps": "Virtualizor VPS-Bereitstellung",
+                "virtualizor_cloud": "VPS Reseller Versand",
+                "pterobox": "Lieferung Pterobox",
+                "service_suspended": "Ausgesetzter Betrieb",
+                "invoice_created": "Rechnung erstellt",
+                "reset": "Zurücksetzen des Passworts",
+                "verify": "E-Mail-Verifizierung",
+                "plesk_hosting": "Plesk Hosting-Bereitstellung",
+                "plesk_reseller": "Versand von Plesk Resellern",
+                "proxmox": "Proxmox Lieferung",
+                "support_admin_ticket_created": "Support-Ticket erstellt",
+                "support_admin_ticket_reply": "Die Antwort eines Kunden auf ein Support-Ticket",
+                "support_customer_ticket_reply": "Antwort auf ein Support-Ticket",
+                "notify_subscription_failed": "Benachrichtigung über fehlgeschlagene Abonnementzahlung",
+                "virtualizor_cloud_vps": "VPS Delivery Virtualizor Reseller",
+                "customer_banned": "Kunde gesperrt",
+                "customer_suspended": "Kunde gesperrt",
+                "customer_reactivated": "Kunde reaktiviert"
+            },
+            "import": {
+                "title": "Importieren einer E-Mail-Vorlage",
+                "btn": "Importieren",
+                "invalid_file": "Bei der Datei muss es sich um eine gültige HTML-Blade-Datei handeln",
+                "success": "Die E-Mail-Vorlage wurde erfolgreich importiert."
+            }
+        },
+        "description": "Passen Sie die Menüs im Kundenbereich und in den sozialen Netzwerken des Unternehmens an.",
+        "social": {
+            "title": "Soziale Medien",
+            "description": "Personalisieren Sie die sozialen Netzwerke des Unternehmens",
+            "subheading": "Hier ist die Liste aller sozialen Netzwerke im System",
+            "create": {
+                "title": "Erstellen eines sozialen Netzwerks",
+                "subheading": "Erstellen eines neuen sozialen Netzwerks für das Unternehmen"
+            },
+            "show": {
+                "title": "Seite des sozialen Netzwerks {_name}",
+                "subheading": "Hier sind die Informationen zu diesem sozialen Netzwerk, das am {_date} erstellt wurde:"
+            }
+        },
+        "config": {
+            "title": "Konfiguration",
+            "button": "Mein Theme konfigurieren",
+            "success": "Die Konfiguration wurde erfolgreich gespeichert."
+        },
+        "seo": {
+            "title": "SEO-Einstellungen",
+            "description": "Passen Sie die SEO-Einstellungen des Kundenbereichs an",
+            "fields": {
+                "description": "Beschreibung des Kundenbereichs",
+                "keywords": "Schlüsselwörter für den Kundenbereich",
+                "keywords_help": "Durch Kommas getrennt",
+                "themecolor": "Hauptfarbe (einbetten)",
+                "headscripts": "Skripte im Kopf",
+                "footscripts": "Skripte in der Fußzeile",
+                "disablereferencement": "SEO deaktivieren",
+                "site_title": "Titel der Website",
+                "site_title_help": "Der Website-Titel in Browser-Tabs nach dem Seitennamen"
+            },
+            "success": "Die SEO-Einstellungen wurden erfolgreich gespeichert."
+        },
+        "primary": {
+            "title": "Hauptfarben",
+            "description": "Passen Sie die Hauptfarben des Kundenbereichs an",
+            "fields": {
+                "primary_color": "Hauptfarbe",
+                "secondary_color": "Sekundäre Farbe"
+            },
+            "btnpreview": "Live-Rendering",
+            "preview_save": "Sie müssen speichern, um das Live-Rendering zu sehen"
+        },
+        "front_menu": {
+            "title": "Top-Menü",
+            "description": "Passen Sie das obere Menü des Kundenbereichs an",
+            "help": "Jede URL muss eindeutig sein. Um einen externen Link hinzuzufügen, verwenden Sie das Format: https://www.example.com"
+        },
+        "bottom_menu": {
+            "title": "Footer-Menü",
+            "description": "Anpassen des Footer-Menüs des Kundenbereichs",
+            "help": "Bitte beachten Sie, dass jede URL eindeutig sein muss"
+        },
+        "sections": {
+            "restoresuccess": "Der Abschnitt wurde erfolgreich wiederhergestellt.",
+            "restore": "Wiederherstellen",
+            "title": "Abschnitte",
+            "subheading": "Hier ist die Liste aller Abschnitte des Systems",
+            "description": "Passen Sie die Abschnitte des Kundenbereichs an",
+            "content": "Inhalt",
+            "show": {
+                "title": "Bearbeiten eines Abschnitts",
+                "subheading": "Sie können den Inhalt Ihres Abschnitts nach Belieben bearbeiten"
+            },
+            "fields": {
+                "url": "Sektions-Seite",
+                "active": "Aktiv"
+            },
+            "disable": "Deaktivieren",
+            "enable": "Aktivieren",
+            "types": {
+                "subheading": "Hier ist die Liste der Abschnitte, die einfach in der Kategorie {_name} hinzugefügt werden können",
+                "title": "Verfügbare Abschnitte für das Thema {_name}"
+            },
+            "pages": {
+                "page_home": "Homepage",
+                "page_store": "Laden",
+                "title": "Seite",
+                "subheading": "Hier ist die Liste der Abschnitte für diese Seite",
+                "page_group": "{_name} Gruppenseite",
+                "page_checkout": "Checkout-Seite",
+                "page_basket": "Warenkorb-Seite",
+                "description": "Verwalten Sie die Abschnitte für die Seite {_name}"
+            },
+            "errors": {
+                "notfound": "Abschnitt nicht gefunden",
+                "advanced_personalization": "Bitte aktivieren Sie das Modul Erweiterte Anpassung, um auf diesen Abschnitt zuzugreifen"
+            },
+            "empty": "Keine Sektion für diese Seite gefunden.<br/> Sie können eine von dem Thema weiter unten importieren."
+        },
+        "home": {
+            "title": "Homepage",
+            "description": "Einstellungen auf der Startseite des Kundenbereichs",
+            "success": "Die Homepage-Einstellungen wurden erfolgreich gespeichert.",
+            "fields": {
+                "theme_home_title": "Titel der Homepage",
+                "theme_home_subtitle": "Untertitel der Startseite",
+                "theme_home_image": "Bild der Startseite",
+                "theme_home_enabled": "Aktivieren der Startseite",
+                "theme_home_title_meta": "Name der Homepage",
+                "theme_home_title_meta_help": "Der Name der Startseite in Browser-Tabs"
+            }
+        },
+        "theme": {
+            "title": "Theme-Einstellungen",
+            "description": "Einstellungen für das Kundenbereichsthema",
+            "success": "Die Theme-Einstellungen wurden erfolgreich gespeichert.",
+            "fields": {
+                "theme_footer_description": "Beschreibung der Fußzeile",
+                "theme_footer_description_help": "HTML-Unterstützung",
+                "theme_footer_topheberg": "Abzeichen HTML TopHeberg",
+                "theme_header_logo": "Logo in der Kopfzeile anstelle des Firmennamens anzeigen",
+                "theme_switch_mode": {
+                    "title": "Autorisierter Modus",
+                    "light": "Hell",
+                    "dark": "Dunkel",
+                    "both": "Beide"
+                }
+            },
+            "themename": "Name des Themas",
+            "enabled": "Aktiviert",
+            "disabled": "Arbeitsunfähig",
+            "not_found": "Das Theme wurde nicht gefunden."
+        },
+        "addline": "Hinzufügen einer Zeile",
+        "useful": "Nützliche Informationen",
+        "badge": "Abzeichen",
+        "adddropdownmenu": "Hinzufügen eines Dropdown-Menüs",
+        "icon_help2": "Sie können eine URL eines Bildes anstelle eines Symbols einfügen",
+        "menu_links": {
+            "title": "Menülinks",
+            "description": "Passen Sie die Links im Menü des Kundenbereichs an.",
+            "icon_help2": "Sie können eine URL eines Bildes anstelle eines Symbols einfügen.",
+            "allowed_role": "Berechtigte Rolle",
+            "link_type": "Art der Verbindung",
+            "new_tab": "Neuer Tab",
+            "link": "Link",
+            "dropdown": "Dropdown-Menü",
+            "parent": "Eltern",
+            "allowed_roles": {
+                "all": "Alle",
+                "logged": "Verbunden",
+                "customer": "Kunde mit einem Service",
+                "staff": "Personal"
+            },
+            "link_types": {
+                "new_tab": "Neuer Tab",
+                "link": "Link",
+                "dropdown": "Dropdown-Menü"
+            }
+        },
+        "addelement": "Ein Element hinzufügen"
+    },
+    "lang.fr.provisioning": {
+        "disk": "Scheibe",
+        "in_gb": "Wert in GB",
+        "memory": "Gedächtnis",
+        "cpu": "Prozessor",
+        "io": "E/A",
+        "database": "Datenbank",
+        "backups": "Sicherungen",
+        "databases": "Datenbanken",
+        "swap": "Tauschen",
+        "allocations": "Zertifikate",
+        "bandwidth": "Bandbreite",
+        "connect": "Anschließen an das Panel",
+        "start": "Starten Sie den Server",
+        "stop": "Fahren Sie den Server herunter",
+        "restart": "Starten Sie den Server neu",
+        "kill": "Fahren Sie den Server herunter",
+        "image": "Docker-Bild",
+        "startup": "Steuerung starten",
+        "port_range": "Port-Bereich",
+        "port_range_help": "Beispiel: 30100-30200 für FiveM",
+        "eggs": "Wild-Eier",
+        "location": "Ort",
+        "servers": "Autorisierte Server",
+        "server": "Server",
+        "server_name": "Name des Servers",
+        "server_description": "Server-Beschreibung",
+        "db": "Datenbank",
+        "dedicated_ip": "Dedizierte IP",
+        "cores": "Herz",
+        "rate": "Soll",
+        "sockets": "Steckdosen",
+        "oom_kill": "Oom töten",
+        "used": "Gebraucht",
+        "planname": "Name des Hosting-Pakets",
+        "domain": "Domäne",
+        "sites": "Autorisierte Websites",
+        "subftp_users": "Zusätzliche FTP-Benutzer",
+        "autologin": "Automatische Verbindung",
+        "see_website": "Besuchen Sie die Website",
+        "ftp_login": "FTP-Kennung",
+        "ftp_password": "FTP-Passwort",
+        "php_version": "Version de PHP",
+        "www_root": "Stammverzeichnis der Website",
+        "ip_addresses": "IP-Adressen",
+        "unlimited": "Unbegrenzt",
+        "traffic": "Verkehr",
+        "domains": "Flächen",
+        "clients": "Kundschaft",
+        "website_info": "Informationen zur Website",
+        "product_not_configured": "Das Produkt ist noch nicht konfiguriert. Bitte konfigurieren Sie das Produkt über die Admin-Oberfläche.",
+        "planname_help": "Sie können den Namen des Hosting-Pakets im Bereich {_plateform} konfigurieren",
+        "server_variables": "%owner_email%, %owner_username%, %owner_firstname%, %owner_lastname%, %product_name%, %service_id%, %service_expiration%",
+        "states": {
+            "running": "Angezündet",
+            "stopped": "Ausgestorben",
+            "starting": "Erste Schritte",
+            "stopping": "Abschaltung läuft"
+        },
+        "admin": {
+            "title": "Bereitstellung",
+            "subheading": "Verwalten Sie die Bereitstellung von Diensten für Kunden.",
+            "settings": {
+                "services": {
+                    "title": "Service-Einstellungen",
+                    "webhookonrenew": "Webhook bei Erneuerung",
+                    "success": "Die Einstellungen der Dienste wurden erfolgreich gespeichert.",
+                    "description": "Service-Einstellungen",
+                    "subscription": "Abonnement",
+                    "fields": {
+                        "days_before_creation_invoice_renewal": "Tage bevor die Verlängerungsrechnung erstellt wurde",
+                        "days_before_expiration": "Tage vor Ablauf",
+                        "service_days_before_subscription_renewal": "Tage vor der Verlängerung des Abonnements",
+                        "max_subscription_tries": "Maximale Anzahl von Versuchen zur automatischen Verlängerung",
+                        "max_subscription_tries_help": "Nach dieser Anzahl wird das Abonnement mit .0 gekündigt, um es zu deaktivieren",
+                        "service_days_before_subscription_renewal_help": "Er legt die Anzahl der Tage vor dem Ablaufdatum fest, nach denen die Rechnungszahlung ausgeführt werden soll. Sie muss kürzer sein als die Anzahl der Tage, bevor die Verlängerungsrechnung erstellt wird.",
+                        "notifications_expiration_days": "Benachrichtigung Tage vor Ablauf",
+                        "days_before_expiration_help": "Anzahl der Tage nach der Aussetzung des Dienstes, bevor der Dienst eingestellt wird"
+                    }
+                }
+            },
+            "servers": {
+                "testconnection": {
+                    "title": "Testen der Verbindung",
+                    "button": "Zur Überprüfung",
+                    "data": "Zurückgegebene Daten",
+                    "statuscode": "Statuscode"
+                },
+                "title": "Diener",
+                "subheading": "Hier finden Sie die Liste aller Server",
+                "hostname": "Hostname",
+                "address": "IP-Adresse",
+                "port": "Hafen",
+                "type": "Server-Typ",
+                "show": {
+                    "title": "Server-Blatt {_name}",
+                    "subheading": "Hier sind die Informationen zu diesem Server, der am {_date} erstellt wurde:"
+                },
+                "create": {
+                    "title": "Erstellen eines Servers",
+                    "subheading": "Erstellen Sie einen neuen Server, um ihn mit dem System zu verbinden",
+                    "enable_extension": "Eine Erweiterung aktivieren",
+                    "enable_extension_help": "Sie müssen eine Erweiterung aktivieren, um einen Server zu erstellen. Sie können je nach Verwendung Pterodactyl, Plesk, Proxmox oder Virtualizor wählen."
+                }
+            },
+            "services": {
+                "no_gateway": "Für diesen Dienst ist kein Zahlungsgateway eingerichtet",
+                "invoice_not_found": "Die Rechnung wurde nicht gefunden",
+                "invalid_status": "Ungültiger Status",
+                "invalid_customer": "Ungültiger Kunde",
+                "status_change_failed": "Dienststatus kann nicht geändert werden: {_error}",
+                "title": "Dienste",
+                "add_days": "Tage hinzufügen",
+                "sub_days": "Tage subtrahieren",
+                "add_days_question": "Wie viele Tage möchten Sie hinzufügen?",
+                "sub_days_question": "Wie viele Tage möchten Sie abziehen?",
+                "invalid_product_type": "Ungültiger Diensttyp. Sie haben ein Produkt vom Typ {_product} angefordert und einen Typ {_type} ausgewählt. Bitte wählen Sie den gleichen Typ.",
+                "expired": "Dieser Dienst ist abgelaufen oder beendet.",
+                "delete_failed": "Der Dienst kann auf dem Server nicht gelöscht werden: {_error}",
+                "customer": "Kunde",
+                "imported": "Erfolgreich importierter Dienst",
+                "create": {
+                    "nothingtoshow": "Zu diesem Zeitpunkt ist keine Dienstkonfiguration verfügbar. Sie können den Dienst erstellen",
+                    "title": "Erstellen eines Diensts",
+                    "subheading": "Erstellen Sie einen neuen Service oder importieren Sie einen vorhandenen Service",
+                    "btn1": "Nächster",
+                    "btn2": "Importieren",
+                    "choose": "Auswählen eines vorhandenen Servers",
+                    "import": "<u> ODER </u>&nbsp; Importieren eines Diensts",
+                    "new": "Erstellen eines neuen Diensts",
+                    "created": "Der Dienst wurde erfolgreich erstellt",
+                    "importbtn": "Importeur"
+                },
+                "show": {
+                    "customerbtn": "Kundendatei",
+                    "type": "Art der Dienstleistung",
+                    "notes": "Servicehinweise",
+                    "title": "Serviceblatt {_name}",
+                    "initial_price": "Ursprünglicher Preis",
+                    "max_renewals": "Maximale Verlängerungen",
+                    "expires_at": "Ablauf",
+                    "subheading": "Hier sind die Informationen zum {_owner}-Dienst, der auf {_date} erstellt wurde:",
+                    "panel": {
+                        "title": "Management-Panel"
+                    },
+                    "description_help": "Sie können eine Beschreibung für diesen Dienst hinzufügen. Sie wird für den Kunden in seinem Bereich sichtbar sein.",
+                    "notes_help": "Sie können eine Nachricht für diesen Service hinzufügen. Sie wird für den Kunden nicht sichtbar sein."
+                },
+                "subheading": "Hier ist die Liste aller Dienste im System",
+                "renewals": {
+                    "btn": "Erneuerung",
+                    "title": "Erneuerung des Dienstes",
+                    "create": "Stellen Sie eine Verlängerungsrechnung aus",
+                    "btn2": "Stellen Sie die Rechnung aus",
+                    "remove": "Rechnung zurückziehen",
+                    "removed": "Die Rechnung wurde erfolgreich zurückgezogen",
+                    "fromexistinginvoice": "Zu einer vorhandenen ausstehenden Rechnung hinzufügen"
+                },
+                "delivery": {
+                    "btn": "Den Service bereitstellen",
+                    "btn2": "Erneutes Bereitstellen des Dienstes",
+                    "success": "Der Service wurde erfolgreich erbracht",
+                    "reinstall": "Der Service wird erneut erbracht",
+                    "not_pending": "Der Service wartet nicht auf die Lieferung"
+                },
+                "suspend": {
+                    "btn": "Hängen",
+                    "title": "Dienst anhalten",
+                    "reason": "Grund für die Suspendierung",
+                    "success": "Der Dienst wurde erfolgreich ausgesetzt",
+                    "notify": "Senden einer Benachrichtigungs-E-Mail",
+                    "suspend_at": "Aufgehängt an"
+                },
+                "unsuspend": {
+                    "btn": "Reaktivieren",
+                    "title": "Reaktivieren des Dienstes",
+                    "success": "Der Dienst wurde erfolgreich reaktiviert"
+                },
+                "terminate": {
+                    "btn": "Beenden",
+                    "title": "Beenden Sie den Service",
+                    "success": "Der Dienst ist erfolgreich abgelaufen"
+                },
+                "data": {
+                    "title": "Service-Daten",
+                    "btn": "Daten",
+                    "orderdata": "Bestelldaten"
+                },
+                "cancel": {
+                    "btn": "Absage",
+                    "message": "Übermittelte Botschaft",
+                    "title": "Service kündigen",
+                    "restore": "Dienst wiederherstellen",
+                    "reason": "Grund für die Stornierung",
+                    "success": "Der Dienst wurde erfolgreich gekündigt"
+                },
+                "uncancel": {
+                    "success": "Der Dienst wurde erfolgreich wiederhergestellt"
+                },
+                "configoptions": {
+                    "btn": "Service-Optionen",
+                    "addoption": "Hinzufügen einer zusätzlichen Option",
+                    "addoption_help": "Dadurch wird dieser Service im Kundenbereich um eine zusätzliche Option erweitert. Die Option wird dem Dienst nicht automatisch hinzugefügt."
+                },
+                "upgrade": {
+                    "btn": "Verbesserung des Service",
+                    "success": "Der Service wurde erfolgreich verbessert.",
+                    "makeupgrade": "Verbessern Sie den Service",
+                    "upgrade_type": "Art der Erweiterung",
+                    "upgrade_types": {
+                        "invoice": "Generieren Sie eine Rechnung, die vom Kunden bezahlt werden soll",
+                        "no_invoice": "Verbessern Sie den kostenlosen Service",
+                        "add_in_next_invoice": "Jetzt upgraden und zur nächsten Verlängerungsrechnung hinzufügen"
+                    }
+                },
+                "pricing_custom": "Der Preis muss manuell für diesen Dienst konfiguriert werden. Sie können ihn später ändern.",
+                "pricing_custom2": "Der Preis ist manuell für diesen Dienst festgelegt. Dies erlaubt, Rechnungszyklen zu genehmigen oder abzulehnen.",
+                "resync": "Mit dem Produkt neu synchronisieren",
+                "pricing_synchronized": "Der Preis für die Dienstleistung ist mit dem Preis des Produkts synchronisiert. Sie können ihn nach Belieben nur für diesen Dienst ändern.",
+                "tab_not_found": "Es ist unmöglich, den Tab zu finden"
+            },
+            "subdomains_hosts": {
+                "title": "Subdomains",
+                "subdomain": "Unterdomäne",
+                "subheading": "Verwalten Sie, welche Domains von Kunden mit einer Subdomain verwendet werden können.",
+                "create": {
+                    "title": "Erstellen einer Subdomain",
+                    "subheading": "Erstellen Sie eine neue Subdomain für Kunden."
+                },
+                "show": {
+                    "title": "Eintrag für Subdomains {_name}",
+                    "subheading": "Hier sind die Informationen zu dieser Subdomain, die am {_date} erstellt wurde:"
+                },
+                "choose_domain": "Wählen Sie eine Domain",
+                "use_subdomain": "Wählen Sie eine Subdomain {_app_name}",
+                "use_owndomain": "Verwenden einer vorhandenen Domäne"
+            },
+            "configoptions_services": {
+                "title": "Optionen für die Dienstkonfiguration",
+                "subheading": "Definieren Sie die zusätzlichen Optionen, die für die Services Ihrer Kunden verfügbar sind, einschließlich Anpassungen und Bereitstellungsmodulen.",
+                "show": {
+                    "title": "Karte der Konfigurationsoption {_name}",
+                    "see_service": "Service anzeigen",
+                    "subheading": "Hier sind die Informationen zu dieser Konfigurationsoption, die am {_date} erstellt wurde."
+                }
+            },
+            "upgrade_services": {
+                "title": "Service-Verbesserungen",
+                "subheading": "Verwalten von Serviceverbesserungen.",
+                "old_product": "Altes Produkt",
+                "new_product": "Neues Produkt",
+                "upgraded": "Verbessert",
+                "show": {
+                    "title": "Verbesserungsblatt {_name}",
+                    "subheading": "Hier sind die Informationen zu dieser Verbesserung, die auf {_date} erstellt wurden."
+                }
+            },
+            "configoptions": {
+                "title": "Konfigurationsmöglichkeiten",
+                "subheading": "Verwalten und passen Sie die verschiedenen verfügbaren Konfigurationsoptionen an, um eine optimale Anpassung an spezifische Anforderungen zu gewährleisten.",
+                "hidden": "Achtung: Diese Option ist im Moment ausgeblendet, um sie zu bearbeiten. Sie können es sichtbar machen, wenn Sie fertig sind.",
+                "option_added": "Die Option wurde erfolgreich hinzugefügt",
+                "option_last": "Sie können die letzte Option nicht entfernen",
+                "per_unit": "Die Preise verstehen sich pro {_unit}",
+                "per_step": "Die Preise verstehen sich pro {_step} {_unit}",
+                "show": {
+                    "title": "Karte der Konfigurationsoption {_name}",
+                    "subheading": "Hier sind die Informationen zu dieser Konfigurationsoption, die am {_date} erstellt wurde.",
+                    "options": {
+                        "title": "Verfügbare Optionen",
+                        "add_option": "Option hinzufügen",
+                        "friendly_name": "Anzeigename"
+                    }
+                },
+                "create": {
+                    "title": "Erstellen einer Konfigurationsoption",
+                    "subheading": "Erstellen Sie eine neue Konfigurationsoption für Dienste."
+                },
+                "fields": {
+                    "custom_key": "Benutzerdefinierter Schlüssel",
+                    "max_value": "Maximalwert",
+                    "min_value": "Mindestwert",
+                    "required": "Erforderlich",
+                    "default_value": "Vorgabe",
+                    "step": "Schritt des Cursors",
+                    "unit": "Einheit",
+                    "rules": "Zusätzliche Laravel-Regeln"
+                },
+                "types": {
+                    "text": "Text",
+                    "textarea": "Textfeld",
+                    "dropdown": "Dropdown-Menü",
+                    "radio": "Optionsfeld",
+                    "checkbox": "Kontrollkästchen",
+                    "number": "Zahl",
+                    "slider": "Cursor"
+                },
+                "keys": {
+                    "additional_memory": "Zusätzliche Einreichung",
+                    "additional_cores": "Zusätzliche Kerne",
+                    "additional_ips": "Zusätzliche IPs",
+                    "additional_sockets": "Zusätzliche Steckdosen",
+                    "ratelimit": "Soll",
+                    "additional_disk": "Erweiterungs-Disc",
+                    "node": "Zustellungs-Knoten",
+                    "server_id": "Server/Standort",
+                    "additional_swap": "Zusätzlicher Swap",
+                    "additional_cpu": "Zusätzlicher Prozessor",
+                    "additional_databases": "Zusätzliche Datenbanken",
+                    "additional_backups": "Zusätzliche Sicherungen",
+                    "additional_io": "Zusätzliche I/O",
+                    "additional_allocations": "Zusätzliche Freibeträge",
+                    "custom": "Gewohnheit"
+                }
+            }
+        },
+        "active_services": "Aktive Dienstleistungen",
+        "in_mb": "Wert in MB",
+        "network_speed": "Netzwerkgeschwindigkeit",
+        "upload_speed": "Upload-Geschwindigkeit",
+        "ips": "Ips",
+        "ip6": "Schutzart IP6",
+        "ip6subnet": "IP6-Subnetz",
+        "burstable_memory": "Stabiler Speicher",
+        "guaranteed_memory": "Garantierter Arbeitsspeicher",
+        "vnc": "VNC (VNC)",
+        "region": "Region",
+        "oses": "Betriebssysteme",
+        "config_option": "Konfigurationsoption",
+        "autologin_admin": "Automatische Anmeldung als Administrator",
+        "doyouwantreallyreinstallvps": "Wollen Sie diesen Server wirklich neu installieren?",
+        "disks": "Platten"
+    },
+    "lang.fr.recurring": {
+        "onetime": "Lebenslänglich",
+        "monthly": "Monatlich",
+        "quarterly": "Vierteljährlich",
+        "semiannually": "Halbjährlich",
+        "annually": "Jährlich",
+        "biennially": "Zweijährig",
+        "triennially": "Dreijährig",
+        "month": "Monat",
+        "year": "Jahr",
+        "years": "Jahre",
+        "quarter": "Viertel",
+        "half-year": "Semester",
+        "week": "Woche",
+        "weekly": "Wöchentlich"
+    },
+    "lang.fr.store": {
+        "admin": "",
+        "basket": {
+            "title": "Korb",
+            "empty": "Ihr Warenkorb ist leer",
+            "total": "Gesamt",
+            "checkout": "Bestellung",
+            "continue": "Weiter einkaufen",
+            "remove": "Löschen",
+            "coupon": "Gutscheincode",
+            "coupon_placeholder": "Geben Sie Ihren Promo-Code ein",
+            "coupon_apply": "Anwenden",
+            "contactus": "Kontaktieren Sie uns",
+            "no_prices": "Für Ihre Währung sind keine Preise verfügbar",
+            "not_valid": "Dieser Artikel ist nicht verfügbar",
+            "stockout": "Dieses Produkt ist nicht mehr auf Lager",
+            "coupon_applied": "Angewendeter Rabatt",
+            "coupon_invalid": "Ungültiger Gutscheincode",
+            "coupon_expired": "Abgelaufener Gutscheincode",
+            "coupon_notyetactive": "Nicht aktiver Gutscheincode",
+            "coupon_minimum": "Mindestbestellwert wird nicht erreicht",
+            "coupon_maximum": "Die maximale Bestellmenge wurde überschritten",
+            "addtocart": "In den Warenkorb",
+            "paytoday": "Zahlen Sie heute",
+            "finish": "Beenden",
+            "removed": "Dieses Produkt wurde aus Ihrem Warenkorb entfernt",
+            "added": "Dieses Produkt wurde in den Warenkorb gelegt",
+            "quantity_changed": "Menge wurde geändert",
+            "already_ordered": "Sie haben bereits einen {_product}-Service bestellt"
+        },
+        "checkout": {
+            "title": "Bestellung",
+            "invalidcurrency": "Ihr Warenkorb enthält Produkte mit unterschiedlichen Währungen. Diese Produkte wurden aus Ihrem Warenkorb entfernt",
+            "invalidproduct": "Ihr Warenkorb enthält ungültige Produkte. Diese Produkte wurden aus Ihrem Warenkorb entfernt",
+            "choose_payment": "Wählen Sie Ihre Zahlungsmethode",
+            "terms": "Allgemeine Verkaufsbedingungen",
+            "minimal_amount": "Der Mindestbetrag für diese Zahlungsmethode beträgt {_amount}",
+            "mustbelogged": "Sie müssen angemeldet sein, um eine Bestellung aufzugeben",
+            "gateway_not_found": "Zahlungsmethode nicht gefunden",
+            "email_must_be_verified": "Sie müssen Ihr Konto bestätigen, um eine Bestellung aufzugeben",
+            "wrong_payment": "Bei Ihrer Zahlung ist etwas schief gelaufen",
+            "success": "Ihre Bestellung wurde erfolgreich aufgegeben",
+            "choose_payment_method": "Gespeicherte Zahlungsmethoden",
+            "payment_method_not_found": "Zahlungsmittel nicht gefunden",
+            "not_use_payment_method": "Verwenden Sie keine gespeicherten Zahlungsmittel.",
+            "choose_payment_method_description": "Sie können ein gespeichertes Zahlungsmittel auswählen, um zu vermeiden, dass Sie Ihre Zahlungsinformationen bei jeder Bestellung eingeben müssen."
+        },
+        "product": {
+            "setupmessage": "Erste Zahlung von {_first} {_currency} {_tax} dann {_recurring} {_currency} {_tax} bis {_unit}",
+            "nocharge": "Zahlung von {_first} {_currency} {_tax} bis {_unit}",
+            "freemessage": "Dieses Produkt ist kostenlos, bis es auf Widerruf storniert wird oder abläuft.",
+            "outofstock": "Nicht vorrätig",
+            "personalized": "Gewohnheit",
+            "noproduct": "Keine Produkte gefunden"
+        },
+        "config": {
+            "title": "Konfigurieren Sie Ihr Angebot",
+            "summary": "Zusammenfassung",
+            "summary_description": "Überprüfen Sie Ihre Bestellung",
+            "billing": "Fakturierung",
+            "recurring_payment": "Wiederkehrende Zahlung",
+            "options": "Zusätzliche Optionen",
+            "onetime_payment": "Einmalige Zahlung"
+        },
+        "mustpopular": "Beliebteste",
+        "qty": "Menge",
+        "pinned": "Angeheftet",
+        "store": "Laden",
+        "subtotal": "Zwischensumme",
+        "store_subheading": "Entdecken Sie unsere Angebote",
+        "from_price": "Von {_price} {_currency}",
+        "taxes": "Steuern",
+        "total": "Gesamt",
+        "price": "Preis",
+        "fees": "Gebühren für die Installation",
+        "unit": "Einheit",
+        "tax": "Steuer",
+        "vat": "MEHRWERTSTEUER",
+        "unit_price": "Stückpreis",
+        "recurring_price": "Wiederkehrender Preis",
+        "setup_price": "Gebühren für die Installation",
+        "title": "Laden",
+        "subtitle": "Entdecken Sie unsere Angebote",
+        "ht": "HT",
+        "ttc": "TTC",
+        "transaction_fee": "Transaktionsgebühren",
+        "per": "bis",
+        "our_offers": "Unsere Angebote"
+    },
+    "lang.fr.validation": {
+        "accepted": "Das Feld {_attribute} muss akzeptiert werden.",
+        "accepted_if": "Das Feld {_attribute} muss akzeptiert werden, wenn {_other} auf {_value} festgelegt ist.",
+        "active_url": "Das Feld {_attribute} ist keine gültige URL.",
+        "after": "Das Feld {_attribute} muss ein Datum nach dem {_date} sein.",
+        "after_or_equal": "Das Feld {_attribute} muss ein Datum sein, das kleiner oder gleich {_date} ist.",
+        "alpha": "Das Feld {_attribute} darf nur Buchstaben enthalten.",
+        "alpha_dash": "Das Feld {_attribute} darf nur Buchstaben, Zahlen und Bindestriche enthalten.",
+        "alpha_num": "Das Feld {_attribute} darf nur Zahlen und Buchstaben enthalten.",
+        "array": "Das Feld {_attribute} muss eine Tabelle sein.",
+        "ascii": "Das Feld {_attribute} darf nur alphanumerische Zeichen und Einzelbyte-codierte Symbole enthalten.",
+        "before": "Das Feld {_attribute} muss ein Datum vor {_date} sein.",
+        "before_or_equal": "Das Feld {_attribute} muss ein Datum vor oder gleich {_date} sein.",
+        "phone": "Das Feld {_attribute} muss eine gültige Telefonnummer sein.",
+        "between": {
+            "array": "Das {_attribute}-Array muss zwischen {_min} und {_max} Elemente enthalten.",
+            "file": "Die Dateigröße von {_attribute} muss zwischen {_min} und {_max} Kilobyte liegen.",
+            "numeric": "Der Wert von {_attribute} muss zwischen {_min} und {_max} liegen.",
+            "string": "Der Text {_attribute} muss zwischen den Zeichen {_min} und {_max} liegen."
+        },
+        "2fa_code": "Der Code für die Zwei-Faktor-Authentifizierung ist ungültig.",
+        "boolean": "Das Feld {_attribute} muss wahr oder falsch sein.",
+        "can": "Das Feld {_attribute} enthält einen nicht autorisierten Wert.",
+        "confirmed": "Das Bestätigungsfeld {_attribute} stimmt nicht überein.",
+        "current_password": "Das Passwort ist falsch.",
+        "date": "Das Feld {_attribute} ist kein gültiges Datum.",
+        "date_equals": "Das Feld {_attribute} muss ein Datum sein, das {_date} entspricht.",
+        "date_format": "Das Feld {_attribute} stimmt nicht mit dem Format {_format} überein.",
+        "decimal": "Das Feld {_attribute} muss {_decimal} Dezimalstellen haben.",
+        "declined": "Das Feld {_attribute} muss abgelehnt werden.",
+        "declined_if": "Das Feld {_attribute} sollte abgelehnt werden, wenn {_other} auf {_value} festgelegt ist.",
+        "different": "Die Felder {_attribute} und {_other} müssen unterschiedlich sein.",
+        "digits": "Das Feld {_attribute} muss {_digits} Ziffern enthalten.",
+        "digits_between": "Das Feld {_attribute} muss zwischen {_min} und {_max} Ziffern enthalten.",
+        "dimensions": "Die Größe des {_attribute}-Bildes ist nicht konform.",
+        "distinct": "Das Feld {_attribute} weist einen doppelten Wert auf.",
+        "doesnt_end_with": "Das Feld {_attribute} darf nicht mit einem der folgenden Werte enden: {_values}.",
+        "doesnt_start_with": "Das Feld {_attribute} darf nicht mit einem der folgenden Werte beginnen: {_values}.",
+        "email": "Das Feld {_attribute} muss eine gültige E-Mail-Adresse sein.",
+        "ends_with": "Das Feld {_attribute} muss mit einem der folgenden Werte enden: {_values}.",
+        "enum": "Das ausgewählte Feld {_attribute} ist ungültig.",
+        "exists": "Das ausgewählte Feld {_attribute} ist ungültig.",
+        "file": "Das Feld {_attribute} muss eine Datei sein.",
+        "filled": "Das Feld {_attribute} muss einen Wert haben.",
+        "gt": {
+            "array": "Das {_attribute}-Array muss mehr als {_value} Elemente enthalten.",
+            "file": "Die Dateigröße von {_attribute} muss größer als {_value} Kilobyte sein.",
+            "numeric": "Der Wert von {_attribute} muss größer als {_value} sein.",
+            "string": "Der Text {_attribute} muss mehr als {_value} Zeichen enthalten."
+        },
+        "gte": {
+            "array": "Das {_attribute}-Array muss mindestens {_value}-Elemente enthalten.",
+            "file": "Die Dateigröße von {_attribute} muss größer oder gleich {_value} Kilobyte sein.",
+            "numeric": "Der Wert von {_attribute} muss größer oder gleich {_value} sein.",
+            "string": "Der Text {_attribute} muss mindestens {_value} Zeichen enthalten."
+        },
+        "image": "Das Feld {_attribute} muss ein Bild sein.",
+        "in": "Das Feld {_attribute} ist ungültig.",
+        "in_array": "Das Feld {_attribute} ist in {_other} nicht vorhanden.",
+        "integer": "Das Feld {_attribute} muss eine ganze Zahl sein.",
+        "ip": "Das Feld {_attribute} muss eine gültige IP-Adresse sein.",
+        "ipv4": "Das Feld {_attribute} muss eine gültige IPv4-Adresse sein.",
+        "ipv6": "Das Feld {_attribute} muss eine gültige IPv6-Adresse sein.",
+        "json": "Das Feld {_attribute} muss ein gültiges JSON-Dokument sein.",
+        "lowercase": "Das Feld {_attribute} muss in Kleinbuchstaben geschrieben werden.",
+        "lt": {
+            "array": "Das {_attribute}-Array muss weniger als {_value}-Elemente enthalten.",
+            "file": "Die Dateigröße von {_attribute} muss kleiner als {_value} Kilobyte sein.",
+            "numeric": "Der Wert von {_attribute} muss kleiner als {_value} sein.",
+            "string": "Der Text {_attribute} muss weniger als {_value} Zeichen enthalten."
+        },
+        "lte": {
+            "array": "Das Array {_attribute} darf nicht mehr als {_value} Elemente enthalten.",
+            "file": "Die Dateigröße von {_attribute} muss kleiner oder gleich {_value} Kilobyte sein.",
+            "numeric": "Der Wert von {_attribute} muss kleiner oder gleich {_value} sein.",
+            "string": "Der Text {_attribute} darf nicht mehr als {_value} Zeichen enthalten."
+        },
+        "mac_address": "Das Feld {_attribute} muss eine gültige MAC-Adresse sein.",
+        "max": {
+            "array": "Das {_attribute}-Array darf nicht mehr als {_max} Elemente enthalten.",
+            "file": "Die Dateigröße von {_attribute} darf {_max} Kilobyte nicht überschreiten.",
+            "numeric": "Der Wert von {_attribute} darf nicht größer als {_max} sein.",
+            "string": "Der Text in {_attribute} darf nicht mehr als {_max} Zeichen enthalten."
+        },
+        "max_digits": "Das Feld {_attribute} darf nicht länger als {_max} Ziffern sein.",
+        "mimes": "Das Feld {_attribute} muss eine Datei des folgenden Typs sein: {_values}.",
+        "mimetypes": "Das Feld {_attribute} muss eine Datei des folgenden Typs sein: {_values}.",
+        "min": {
+            "array": "Das {_attribute}-Array muss mindestens {_min}-Elemente enthalten.",
+            "file": "Die Dateigröße von {_attribute} muss größer oder gleich {_min} Kilobyte sein.",
+            "numeric": "Der Wert von {_attribute} muss größer oder gleich {_min} sein.",
+            "string": "Der Text in {_attribute} muss mindestens {_min} Zeichen enthalten."
+        },
+        "min_digits": "Das Feld {_attribute} muss mindestens {_min} Ziffern enthalten.",
+        "missing": "Das Feld {_attribute} muss fehlen.",
+        "missing_if": "Das Feld {_attribute} sollte fehlen, wenn {_other} auf {_value} festgelegt ist.",
+        "missing_unless": "Das Feld {_attribute} sollte fehlen, es sei denn, {_other} ist auf {_value} festgelegt.",
+        "missing_with": "Das Feld {_attribute} sollte fehlen, wenn {_values} vorhanden ist.",
+        "missing_with_all": "Das Feld {_attribute} sollte fehlen, wenn {_values} vorhanden sind.",
+        "multiple_of": "Der Wert von {_attribute} muss ein Vielfaches von {_value} sein.",
+        "not_in": "Das ausgewählte Feld {_attribute} ist ungültig.",
+        "not_regex": "Das Format des Felds {_attribute} ist ungültig.",
+        "numeric": "Das Feld {_attribute} muss eine Zahl enthalten.",
+        "password": {
+            "letters": "Das Feld {_attribute} muss mindestens einen Buchstaben enthalten.",
+            "mixed": "Das Feld {_attribute} muss mindestens einen Großbuchstaben und einen Kleinbuchstaben enthalten.",
+            "numbers": "Das Feld {_attribute} muss mindestens eine Ziffer enthalten.",
+            "symbols": "Das Feld {_attribute} muss mindestens ein Symbol enthalten.",
+            "uncompromised": "Der Wert des Feldes {_attribute} ist in einem Datenleck aufgetreten. Bitte wählen Sie einen anderen Wert."
+        },
+        "present": "Das Feld {_attribute} muss vorhanden sein.",
+        "present_if": "Das Feld {_attribute} muss vorhanden sein, wenn {_other} {_value} ist.",
+        "present_unless": "Das Feld {_attribute} muss vorhanden sein, es sei denn, {_other} ist {_value}.",
+        "present_with": "Das Feld {_attribute} muss vorhanden sein, wenn {_values} vorhanden ist.",
+        "present_with_all": "Das Feld {_attribute} muss vorhanden sein, wenn {_values} vorhanden sind.",
+        "prohibited": "Das Feld {_attribute} ist nicht zulässig.",
+        "prohibited_if": "Das Feld {_attribute} ist nicht zulässig, wenn {_other} auf {_value} festgelegt ist.",
+        "prohibited_unless": "Das Feld {_attribute} ist nicht zulässig, es sei denn, {_other} ist einer der {_values}-Werte.",
+        "prohibits": "Das Feld {_attribute} verhindert, dass {_other} vorhanden ist.",
+        "regex": "Das Format des Felds {_attribute} ist ungültig.",
+        "required": "Das Feld {_attribute} ist erforderlich.",
+        "required_array_keys": "Das Feld {_attribute} muss Einträge enthalten für: {_values}.",
+        "required_if": "Das Feld {_attribute} ist erforderlich, wenn der Wert von {_other} {_value} ist.",
+        "required_if_accepted": "Das Feld {_attribute} ist erforderlich, wenn das Feld {_other} akzeptiert wurde.",
+        "required_unless": "Das Feld {_attribute} ist erforderlich, es sei denn, {_other} ist {_values}.",
+        "required_with": "Das Feld {_attribute} ist erforderlich, wenn {_values} vorhanden ist.",
+        "required_with_all": "Das Feld {_attribute} ist erforderlich, wenn {_values} vorhanden sind.",
+        "required_without": "Das Feld {_attribute} ist erforderlich, wenn {_values} nicht vorhanden ist.",
+        "required_without_all": "Das Feld {_attribute} ist erforderlich, wenn keines von {_values} vorhanden ist.",
+        "same": "Die Felder {_attribute} und {_other} müssen identisch sein.",
+        "size": {
+            "array": "Das Array {_attribute} muss {_size}-Elemente enthalten.",
+            "file": "Die Dateigröße von {_attribute} muss {_size} Kilobyte betragen.",
+            "numeric": "Der Wert von {_attribute} sollte {_size} sein.",
+            "string": "Der Text in {_attribute} muss {_size} Zeichen enthalten."
+        },
+        "starts_with": "Das Feld {_attribute} muss mit einem der folgenden Werte beginnen: {_values}.",
+        "string": "Das Feld {_attribute} muss eine Zeichenfolge sein.",
+        "timezone": "Das Feld {_attribute} muss eine gültige Zeitzone sein.",
+        "ulid": "Das Feld {_attribute} muss eine gültige ULID sein.",
+        "unique": "Der Wert des Felds {_attribute} wird bereits verwendet.",
+        "uploaded": "Die Datei im Feld {_attribute} konnte nicht hochgeladen werden.",
+        "uppercase": "Das Feld {_attribute} muss in Großbuchstaben geschrieben werden.",
+        "url": "Das URL-Format von {_attribute} ist ungültig.",
+        "uuid": "Das Feld {_attribute} muss eine gültige UUID sein.",
+        "attributes": {
+            "address": "Adresse",
+            "age": "Alter",
+            "amount": "Menge",
+            "area": "Zone",
+            "available": "verfügbar",
+            "birthday": "Jahrestag",
+            "body": "Körper",
+            "city": "Stadt",
+            "content": "Inhalt",
+            "country": "Land",
+            "created_at": "Erstellt in",
+            "creator": "Schöpfer",
+            "current_password": "Aktuelles Passwort",
+            "date": "Datum",
+            "date_of_birth": "Geburtsdatum",
+            "day": "Tag",
+            "deleted_at": "Gelöscht um",
+            "description": "Beschreibung",
+            "district": "Viertel",
+            "duration": "Dauer",
+            "email": "E-Mail-Adresse",
+            "excerpt": "Auszug",
+            "filter": "Filter",
+            "firstname": "Vorname",
+            "gender": "Geschlecht",
+            "group": "Gruppe",
+            "hour": "Stunde",
+            "image": "Bild",
+            "last_name": "Name",
+            "lesson": "Lektion",
+            "line_address_1": "Adresszeile 1",
+            "line_address_2": "Adresszeile 2",
+            "message": "Nachricht",
+            "middle_name": "Zweitname",
+            "minute": "Minute",
+            "mobile": "Tragbar",
+            "month": "Monat",
+            "name": "Name",
+            "national_code": "Nationales Gesetzbuch",
+            "number": "Zahl",
+            "password": "Passwort",
+            "password_confirmation": "Bestätigung des Passworts",
+            "phone": "Telefon",
+            "photo": "Foto",
+            "postal_code": "PLZ",
+            "price": "Preis",
+            "province": "Region",
+            "recaptcha_response_field": "ReCAPTCHA-Antwortfeld",
+            "remember": "merken",
+            "restored_at": "wiederhergestellt in",
+            "result_text_under_image": "Ergebnistext unterhalb des Bildes",
+            "role": "Rolle",
+            "second": "Sekunde",
+            "sex": "Sex",
+            "short_text": "Kurztext",
+            "size": "Taille",
+            "state": "Zustand",
+            "street": "Straße",
+            "student": "Student",
+            "subject": "Betreff",
+            "teacher": "Lehrer",
+            "terms": "Bedingungen",
+            "test_description": "Beschreibung Test",
+            "test_locale": "Testort",
+            "test_name": "Name des Tests",
+            "text": "Text",
+            "time": "Stunde",
+            "title": "Titel",
+            "updated_at": "Aktualisiert am",
+            "username": "Nutzername",
+            "year": "Jahr"
+        },
+        "domain_is_registered": "Die Domain {_attribute} ist bereits registriert."
+    },
+    "lang.fr.webhook": {
+        "url": "Webhook-URL",
+        "variables": "Verfügbare Variablen: {_variables}",
+        "checkout": {
+            "title": "Neue Ordnung",
+            "description": "Eine neue Bestellung wurde aufgegeben"
+        },
+        "domain": "Domäne",
+        "renew": {
+            "title": "Erneuerung des Dienstes",
+            "description": "Ein Service wurde erneuert"
+        },
+        "ticket": {
+            "title": "Neues Ticket",
+            "description": "Ein neues Ticket wurde erstellt"
+        },
+        "ticket_answer": {
+            "title": "Auf ein Ticket antworten",
+            "description": "Ein Ticket wurde beantwortet"
+        },
+        "ticket_staff": {
+            "title": "Beantworten eines Tickets durch Mitarbeiter"
+        },
+        "upgrade": {
+            "title": "Service aufgerüstet",
+            "description": "Ein Dienst wurde aufgerüstet"
+        }
+    },
+    "addons.fund.lang.fr.messages": {
+        "transfer_title": "Geld überweisen",
+        "credit_title": "Gutschrift von Geldern",
+        "invoice": {
+            "add_credit": "{_amount} Credits hinzugefügt"
+        },
+        "recipient": "Empfänger",
+        "transfer": {
+            "not_enough_funds": "Sie haben nicht genügend Geld, um diese Überweisung vorzunehmen",
+            "max_amount": "Der maximale Überweisungsbetrag beträgt {_amount}",
+            "min_amount": "Der Mindestüberweisungsbetrag beträgt {_amount}",
+            "min_invoice": "Sie müssen mindestens {_amount} zu Ihrem Konto hinzufügen, um eine Überweisung vornehmen zu können",
+            "title": "Geld überweisen",
+            "description": "Überweisen Sie Geld zwischen zwei Konten",
+            "recipient": "E-Mail-Adresse des Empfängerkontos",
+            "btn": "Übertragung",
+            "cancel": "Die Überweisung wurde storniert",
+            "success": "Übertragung erfolgreich abgeschlossen. Sie können diese Überweisung innerhalb von {_minutes} Minuten stornieren.",
+            "already_pending": "Eine Überweisung steht bereits an. Bitte warten Sie, bevor Sie einen neuen erstellen",
+            "recipient_not_found": "Der Empfänger wurde nicht gefunden"
+        },
+        "card": {
+            "title": "Auf mein Konto einzahlen",
+            "description": "Gutschrift auf Ihr Konto, um Einkäufe auf unserer Plattform zu tätigen",
+            "amount": "Betrag, der gutgeschrieben werden soll",
+            "gateway": "Zahlungsmethode",
+            "currentbalance": "Aktueller Saldo",
+            "error": "Es kann keine Gutschrift auf Ihr Konto erfolgen. Es ist keine Zahlungsmethode verfügbar. Bitte wenden Sie sich an den Support."
+        },
+        "transfer_table": {
+            "title": "Verlauf der Überweisung"
+        },
+        "admin": {
+            "transfers": {
+                "title": "Überweisungen von Geldern",
+                "transferred_at": "Übertragen nach",
+                "subtitle": "Hier finden Sie die Liste der getätigten Geldüberweisungen"
+            },
+            "settings": {
+                "title": "Einstellungen für Fonds",
+                "subtitle": "Verwalten der Einstellungen für Fondserweiterungen",
+                "success": "Erfolgreich gespeicherte Einstellungen",
+                "fields": {
+                    "max_amount": "Montant maximal",
+                    "min_amount": "Mindestbetrag",
+                    "for_add_credit": "Zum Hinzufügen von Guthaben",
+                    "for_transfer": "Für Überweisungen zwischen Konten",
+                    "minutes_delay": "Übertragungszeit (in Minuten)",
+                    "minutes_delay_description": "Zeit zwischen Konten übertragen",
+                    "min_invoice": "Mindesteinzahlung, um eine Überweisung vornehmen zu können",
+                    "min_invoice_description": "Der Betrag, der dem Konto gutgeschrieben wird, um eine Überweisung vornehmen zu können. 0 zum Deaktivieren",
+                    "authorize_between_accounts": "Überweisungen zwischen Konten zulassen"
+                }
+            }
+        }
+    },
+    "modules.download.lang.fr.admin": {
+        "download_files": {
+            "title": "Dateien herunterladen",
+            "description": "Verwalten von Dateien und Download-Versionen",
+            "external_file": "Externe Datei",
+            "local_file": "Lokale Datei",
+            "adapter": "Anpassen",
+            "downloads": "Downloads",
+            "downloads_limit": "Download-Limit",
+            "downloads_limit_help": "Leave 0 für Unbegrenzt",
+            "protected": "Schützling",
+            "last_version": "Neueste Version",
+            "add_version": "Hinzufügen einer Version",
+            "version": "Version",
+            "version_created_at": "Version hat die {_date} erstellt. {_downloads} Downloads",
+            "protected_help": "Wenn diese Option aktiviert ist, müssen Kunden sie kaufen, um sie herunterladen zu können",
+            "max_upload_size": "Die maximale Upload-Größe beträgt {_size}",
+            "create": {
+                "title": "Erstellen einer Download-Datei",
+                "subheading": "Erstellen einer neuen Download-Datei"
+            },
+            "show": {
+                "title": "Download-Datei anzeigen",
+                "subheading": "Details zur Download-Datei anzeigen"
+            }
+        },
+        "logs": {
+            "title": "Protokolle herunterladen",
+            "description": "Protokolle herunterladen",
+            "downloaded": "Gedownloadet",
+            "ip": "IP",
+            "user_agent": "Benutzer-Agent",
+            "show": {
+                "title": "Download-Protokoll anzeigen",
+                "subheading": "Anzeigen von Download-Protokolldetails"
+            }
+        }
+    },
+    "modules.download.lang.fr.messages": {
+        "my_downloads": "Meine Downloads",
+        "errors": {
+            "file_not_active": "Die Datei ist nicht aktiv",
+            "file_is_protected": "Die Datei ist geschützt",
+            "download_limit_reached": "Download-Limit erreicht"
+        },
+        "download_version": "Version herunterladen",
+        "downloads": "Downloads",
+        "public_downloads": "Öffentliche Downloads",
+        "no_downloads": "Keine Downloads",
+        "downloads_left": "Sie haben noch {_downloads} Downloads übrig"
+    },
+    "modules.virtualizor_cloud.lang.fr.messages": {
+        "data": {
+            "os": "Betriebssystem",
+            "security": "Sicherheit"
+        },
+        "hostname": "Hostname",
+        "panel": {
+            "info": "VPS-Informationen",
+            "reinstallation": {
+                "title": "Neuinstallation",
+                "description": "Installieren Sie die VM neu.",
+                "submit": "Neuinstallieren",
+                "reinstall_success": "Die Neuinstallation der VM wurde erfolgreich abgeschlossen.",
+                "reinstall_error": "Bei der Neuinstallation der VM ist ein Fehler aufgetreten."
+            },
+            "password": {
+                "title": "Passwort",
+                "description": "Ändern Sie das Kennwort der virtuellen Maschine.",
+                "submit": "Passwort ändern",
+                "password_success": "Das Kennwort für die virtuelle Maschine wurde erfolgreich geändert.",
+                "password_error": "Beim Ändern des Kennworts der virtuellen Maschine ist ein Fehler aufgetreten."
+            },
+            "hostname": {
+                "title": "Hostname",
+                "description": "Ändern Sie den Hostnamen der virtuellen Maschine.",
+                "submit": "Ändern des Hostnamens",
+                "hostname_success": "Der Hostname der virtuellen Maschine wurde erfolgreich geändert.",
+                "hostname_error": "Beim Ändern des Hostnamens der virtuellen Maschine ist ein Fehler aufgetreten."
+            }
+        }
+    },
+    "addons.purchasealert.lang.fr.messages": {
+        "neworder": "Ein Kunde hat eine neue Bestellung aufgegeben",
+        "admin": {
+            "title": "Kauf-Benachrichtigung",
+            "description": "Zeigen Sie Benachrichtigungen über letzte Käufe in Ihrem Schaufenster an",
+            "timeout": "Anzeigezeit in Millisekunden",
+            "days": "Maximale Anzahl von Tagen, um die letzten Einkäufe wiederherzustellen",
+            "interval": "Zeitintervall zwischen Benachrichtigungen in Millisekunden"
+        }
+    },
+    "addons.sentry.lang.fr.admin": {
+        "title": "Wache",
+        "description": "Richten Sie den Sentry Error Monitoring Service ein.",
+        "saved": "Die Einstellungen wurden erfolgreich gespeichert.",
+        "fields": {
+            "dsn": "DSN",
+            "sample_rate": "Samplingrate",
+            "traces_sample_rate": "Trace-Sampling-Rate",
+            "profiles_sample_rate": "Profil-Abtastrate",
+            "environment": "Umwelt"
+        }
+    },
+    "modules.pterodactyl.lang.fr.messages": {
+        "optionstypes": {
+            "location_id": "Standort-ID Pterodactylus",
+            "dedicated_ip": "Pterodactyl Dedizierte IP"
+        }
+    },
+    "modules.wisp.lang.fr.messages": {
+        "optionstypes": {
+            "location_id": "Standort-ID Wisp",
+            "dedicated_ip": "Wisp Dedizierte IP"
+        }
+    },
+    "addons.contact.lang.fr.lang": {
+        "title": "Kontakte",
+        "pending": "Ausstehende Kontaktanfragen",
+        "description": "Bearbeiten Sie die Kontaktanfragen Ihrer Benutzer in Ihrem Kundenbereich.",
+        "management_title": "Verwaltung der Kontaktanfragen",
+        "management_description": "Liste aller Kontaktanfragen",
+        "show_title": "Kontaktdetails",
+        "show_description": "Siehe die Details der Kontaktanfrage",
+        "title_page": "Kontaktieren Sie uns",
+        "subject": "Betreff der Anfrage",
+        "content_label": "Beschreiben Sie Ihre Anfrage",
+        "object_label": "Gegenstand der Anfrage",
+        "max_characters": "Begrenzt auf {_max} Zeichen",
+        "send": "Die Anfrage senden",
+        "subtitle_page": "Wir würden uns freuen, Ihre Nachrichten zu erhalten. Bitte füllen Sie das untenstehende Formular aus und wir werden Ihnen so schnell wie möglich antworten.",
+        "actions": {
+            "delete_success": "Die Kontaktanfrage wurde erfolgreich gelöscht.",
+            "update_success": "Der Status der Kontaktanfrage wurde erfolgreich aktualisiert.",
+            "reply_email": "Per E-Mail antworten",
+            "send_mail": "Eine E-Mail an den Kunden senden",
+            "limit_error": "Sie haben vor weniger als 5 Minuten bereits eine Kontaktanfrage gesendet.",
+            "store_success": "Die Kontaktanfrage wurde erfolgreich gespeichert."
+        },
+        "status": {
+            "read": "Vertrag",
+            "unread": "Unbehandelt"
+        },
+        "webhook": {
+            "title": "Neue Kontaktanfrage",
+            "description": "Eine neue Kontaktanfrage wurde erhalten"
+        },
+        "errors": {
+            "not_found": "Die Kontaktanfrage wurde nicht gefunden.",
+            "update_failed": "Die Aktualisierung der Kontaktanfrage ist fehlgeschlagen."
+        },
+        "status_updated_at": "Status aktualisiert am {_date}",
+        "settings": {
+            "title": "Präferenzen der Kontaktseite",
+            "description": "Konfigurieren Sie Ihre Präferenzen für die Kontaktseite.",
+            "security_settings": "Sicherheitseinstellungen",
+            "media_settings": "Medieneinstellungen",
+            "enable_captcha": "Captcha aktivieren",
+            "enable_captcha_description": "Fügen Sie zusätzlichen Schutz gegen Spam hinzu",
+            "webhook": "Eine externe URL benachrichtigen",
+            "webhook_description": "Send contact requests to an external URL",
+            "subscribers": "Das Personal benachrichtigen",
+            "subscribers_description": "Send contact requests to specific personnel",
+            "require_login": "Eine Verbindung erforderlich",
+            "require_login_description": "Benutzer müssen angemeldet sein, um eine Nachricht zu senden",
+            "page_image": "Bild der Seite",
+            "disabled": "Deaktiviert",
+            "enabled": "Aktiviert"
+        }
+    },
+    "addons.free_trial.lang.fr.lang": {
+        "trialbtn": "Versuchen Sie",
+        "errors": {
+            "max_allowed_services": "Das Kontingent der getesteten Dienste ist überschritten. Kommen Sie später wieder.",
+            "max_services": "Sie haben das Kontingent an kostenlosen Testversionen für diesen Dienst bereits erreicht."
+        },
+        "invoice": {
+            "name": "Angebotsversuch",
+            "description": "Testzeitraum des Angebots {_product} ({_start}-{_end})."
+        },
+        "config": {
+            "total_now": "Gesamtbetrag jetzt zu zahlen",
+            "total_after_trial": "Gesamtbetrag nach der Probe",
+            "start": "Anfangen",
+            "title": "Beginnen Sie Ihren Aufsatz",
+            "period": "Periode",
+            "details": "Sie können Ihre Zahlung bis zu {_days} Tage nach dem Ende Ihrer Testphase gemäß den geltenden Bedingungen vornehmen. Sie haben die Möglichkeit, die Testphase jederzeit zu kündigen.",
+            "want_trial": "Möchten Sie das Produkt vor dem Kauf testen?",
+            "can_trial": "Sie können das Produkt {_days} Tage lang testen."
+        },
+        "service": {
+            "free": {
+                "title": "Ihr Testdienst verlängern",
+                "subheading": "Sie können Ihren Testservice bis zum {_date} verlängern, bevor er am {_date2} gekündigt wird."
+            },
+            "trial": {
+                "title": "Verbessern Sie Ihren Testservice",
+                "subheading": "Sie können Ihren Testdienst bis zum {_date} verbessern, bevor er am {_date2} annuliert wird."
+            }
+        },
+        "admin": {
+            "config": {
+                "current_allowed_services": "Aktuelle Anzahl der laufenden Versuche",
+                "max_allowed_services": "Maximale Anzahl gleichzeitiger Versuche",
+                "title": "Konfiguration der Gratisversuche",
+                "subheading": "Konfigurieren Sie Ihre Produkte für die kostenlose Testversion.",
+                "max_services": "Maximale Anzahl der Versuche pro Kunde",
+                "trial_days": "Anzahl der Tage der Probe",
+                "current_trials": "Laufende Prüfungen",
+                "trials_done": "Durchgeführte Versuche",
+                "trials_success": "Überzeugende Prüfungen",
+                "help": "0 zum Deaktivieren",
+                "force_label": "Art des Aufsatzes",
+                "types": {
+                    "trial": "Versuch zur Verbesserung",
+                    "free": "Kostenlose Probe"
+                },
+                "force": {
+                    "yes": "Die Kunden werden zum Test gezwungen.",
+                    "no": "Die Kunden können bestellen oder eine Probe anfordern."
+                },
+                "create": {
+                    "title": "Hinzufügen eines Testprodukts",
+                    "subheading": "Hinzufügen eines Testprodukts."
+                },
+                "show": {
+                    "title": "Änderung eines Testprodukts",
+                    "subheading": "Sie können die Testparameter ändern.",
+                    "successfully": "Erfolgreicher Aufsatz",
+                    "table_title": "Liste der Testdienste"
+                }
+            }
+        }
+    },
+    "addons.sitemap.lang.fr.admin": {
+        "title": "Sitemap",
+        "description": "Erstellen Sie eine sitemap.xml-Datei für Ihre Website.",
+        "success": "Die Datei sitemap.xml wurde erfolgreich aktualisiert."
+    },
+    "addons.giftcard.lang.fr.messages": {
+        "modulename": "Geschenkkarte",
+        "description": "Verwalten Sie die Geschenkkarten für Ihre Kunden.",
+        "card": {
+            "code": "Geschenkkartenbedingungen"
+        },
+        "usage": "Verwendung der Geschenkkarte",
+        "giftcard_not_valid": "Die Geschenkkarte ist nicht gültig.",
+        "giftcard_redeemed": "Geschenkkarte erfolgreich verwendet. Betrag: {_amount}",
+        "admin": {
+            "types": {
+                "fixed": "Fester Betrag",
+                "random": "Zufälliger Betrag"
+            },
+            "create": {
+                "title": "Eine Geschenkkarte erstellen",
+                "subheading": "Erstellen Sie eine neue Geschenkkarte für Ihre Kunden."
+            },
+            "show": {
+                "title": "Geschenkkartendetails",
+                "subheading": "Siehe die Details der Geschenkkarte.",
+                "table_title": "Verwendungen der Geschenkkarte"
+            },
+            "max_uses": "Maximale Nutzungen",
+            "expires_at": "Ablauf",
+            "min_random_amount": "Zufälliger Mindestbetrag",
+            "allowed_customer": "Zugelassener Kunde",
+            "max_random_amount": "Zufälliger Höchstbetrag",
+            "uses_help": "Die maximale Anzahl der Verwendungen dieser Geschenkkarte. 0 für unbegrenzt."
+        }
+    }
+}
