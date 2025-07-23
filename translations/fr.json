@@ -54,6 +54,69 @@
             "enabled": "Activé"
         }
     },
+    "addons.discordgift.lang.fr.messages": {
+        "modulename": "Cadeaux Discord",
+        "description": "Permettez aux utilisateurs de gagner des crédits en rejoignant le serveur Discord et en participant à des cadeaux réguliers.",
+        "errors": {
+            "discord_not_enabled": "L'addon Discord n'est pas activé. Veuillez l'activer pour utiliser les cadeaux Discord.",
+            "giftcard_not_enabled": "L'addon de cartes cadeaux n'est pas activé. Veuillez l'activer pour utiliser les cadeaux Discord."
+        },
+        "default": {
+            "start": {
+                "title": "Démarrage des cadeaux Discord",
+                "description": "Bonne nouvelles ! Vous avez %time% minutes pour récupérer entre %min% et %max% de crédit avec le code `%code%` ! Attention il n'y a que de %count% utilisations possibles !"
+            },
+            "end": {
+                "title": "Fin des cadeaux Discord",
+                "description": "Les cadeaux Discord sont terminés ! Merci à tous d'avoir participé ! Un nouveau événement sera bientôt lancé !"
+            },
+            "used": {
+                "title": "Cadeau Discord utilisé",
+                "description": "Un cadeau Discord a été utilisé ! Le code `%code%` a été utilisé par un utilisateur pour un montant de **%amount%** crédits ! (%count% utilisations restantes)"
+            }
+        },
+        "admin": {
+            "graph": {
+                "date": "Cadeau du {_date}",
+                "title": "Graphique des utilisations des cadeaux Discord",
+                "description": "Ce graphique montre le nombre d'utilisations des cadeaux Discord au cours des 30 derniers lancements."
+            },
+            "settings": {
+                "settings_updated": "Les paramètres des cadeaux Discord ont été mis à jour avec succès.",
+                "title": "Paramètres des cadeaux Discord",
+                "description": "Configurez les paramètres d'envoie des webhooks Discord pour les cadeaux Discord.",
+                "fields": {
+                    "webhook_url": "URL du webhook Discord",
+                    "minimum_amount": "Montant minimum donnée",
+                    "maximum_amount": "Montant maximum donnée",
+                    "next_gift": "Prochain cadeau Discord défini",
+                    "hours_between_gifts": "Heures entre les cadeaux",
+                    "show_timer": "Afficher le minuteur sur l'espace client",
+                    "trigger_on_used": "Déclencher lors de l'utilisation",
+                    "trigger_on_used_message": "Message lors de l'utilisation",
+                    "trigger_on_start": "Déclencher au début",
+                    "trigger_on_start_message": "Message au début",
+                    "trigger_on_end": "Déclencher à la fin",
+                    "trigger_on_end_message": "Message à la fin",
+                    "expiration": "Expiration (en minutes)",
+                    "max_uses": "Nombre maximum d'utilisations"
+                }
+            }
+        },
+        "card": {
+            "title": "Cartes cadeaux Discord",
+            "timer": {
+                "days": "jours",
+                "hours": "heures",
+                "minutes": "minutes",
+                "seconds": "secondes"
+            },
+            "timer_expired": "Cadeau en cours",
+            "description": "Gagnez des crédits réculièrement en rejoinant le serveur Discord !<br\/><br\/> Vous pouvez utiliser les cartes cadeaux pour ajouter du solde sur votre compte !",
+            "next_without_timer": "Prochain cadeau Discord non communiqué",
+            "next": "Prochain cadeau Discord dans <span>{_next}<\/span>"
+        }
+    },
     "addons.discordlink.lang.fr.messages": {
         "modulename": "Discord Link",
         "description": "Gestion de la liaison avec votre serveur Discord de votre hébergeur",
@@ -125,6 +188,10 @@
             "trial": {
                 "title": "Améliorer votre service d'essai",
                 "subheading": "Vous pouvez améliorer votre service d'essai jusqu'au {_date} avant qu'il soit annulé le {_date2}."
+            },
+            "simple": {
+                "title": "Essai simple",
+                "subheading": "Vous pouvez juste tester le service jusqu'au {_date} sans aucune obligation."
             }
         },
         "admin": {
@@ -142,7 +209,8 @@
                 "force_label": "Type d'essai",
                 "types": {
                     "trial": "Essai pour amélioration",
-                    "free": "Essai gratuit"
+                    "free": "Essai gratuit",
+                    "simple": "Essai simple"
                 },
                 "force": {
                     "yes": "Les clients seront forcés à l'essai",
@@ -188,6 +256,7 @@
             "amount": "Montant à créditer",
             "gateway": "Moyen de paiement",
             "currentbalance": "Solde actuel",
+            "next_balance": "Prochain solde",
             "error": "Impossible de créditer votre compte. Aucun moyen de paiement n'est disponible. Veuillez contacter le support."
         },
         "transfer_table": {
@@ -201,7 +270,7 @@
             },
             "settings": {
                 "title": "Paramètres Fonds",
-                "subtitle": "\"Gérez les paramètres de l'extension Fonds, y compris les montants minimum et maximum, ainsi que les transferts entre comptes.",
+                "subtitle": "Gérez les paramètres de l'extension Fonds, y compris les montants minimum et maximum, ainsi que les transferts entre comptes.",
                 "success": "Paramètres enregistrés avec succès",
                 "fields": {
                     "max_amount": "Montant maximum",
@@ -219,14 +288,56 @@
     },
     "addons.giftcard.lang.fr.messages": {
         "modulename": "Carte-cadeau",
-        "description": "Gérez les cartes-cadeaux pour vos clients.",
-        "card": {
-            "code": "Code de la carte-cadeau"
+        "description": "Générer et gérer des cartes-cadeaux pour vos clients. Permet aux clients d'acheter des cartes-cadeaux et de les utiliser sur leur compte.",
+        "add_card": {
+            "code": "Code de la carte",
+            "title": "Ajouter une carte-cadeau",
+            "description": "Si vous avez une carte cadeau, entrez le code de la carte-cadeau pour l'utiliser et recevoir le solde de celle-ci."
         },
-        "usage": "Utilisation de la carte-cadeau",
-        "giftcard_not_valid": "La carte-cadeau n'est pas valide.",
-        "giftcard_redeemed": "Carte-cadeau utilisée avec succès. Montant : {_amount}",
+        "giftcard": {
+            "title": "Offrir une carte-cadeau",
+            "description": "Offrez une carte-cadeau à vos amis pour qu'ils puissent l'utiliser sur leur compte. La livraison de la carte-cadeau se fait par e-mail.",
+            "recipient": "E-mail destinataire",
+            "recipient_help": "Seul ce compte pourra utiliser cette carte-cadeau.",
+            "message": "Message personnalisé",
+            "gateway": "Passerelle de paiement",
+            "order": "Commander la carte-cadeau",
+            "is_gift": "Cette carte-cadeau est pour un ami"
+        },
+        "errors": {
+            "giftcard_not_found": "Carte-cadeau non trouvée",
+            "giftcard_not_valid": "Carte-cadeau non valide",
+            "giftcard_not_valid_for_customer": "Cette carte-cadeau n'est pas valide pour votre compte",
+            "giftcard_already_used": "Cette carte-cadeau a déjà été utilisée",
+            "giftcard_expired": "Cette carte-cadeau a expiré",
+            "giftcard_max_uses_reached": "Cette carte-cadeau a atteint le nombre maximum d'utilisations"
+        },
+        "giftcard_item_name": "Carte-cadeau de {_amount}",
+        "giftcard_default_message": "Voici une carte-cadeau de {_amount} pour vous, de la part de {_user}.",
+        "usage": "Utilisation",
+        "giftcard_table": {
+            "title": "Cartes-cadeaux utilisées",
+            "description": "Voici la liste des cartes-cadeaux que vous avez utilisées sur votre compte."
+        },
+        "giftcard_logs": {
+            "title": "Cartes-cadeaux commandées",
+            "description": "Voici la liste des cartes-cadeaux que vous avez commandées sur votre compte."
+        },
+        "giftcard_redeemed": "La carte-cadeau {_code} d'un montant total de {_amount} a bien été récupérée. Le solde de votre compte a bien été mis à jour !",
         "admin": {
+            "giftcards": "Cartes-cadeaux créées",
+            "money_give": "Montant total reversé par les cartes-cadeaux",
+            "usages": "Pourcentage d'utilisation des cartes-cadeaux",
+            "settings": {
+                "saved": "Paramètres des cartes-cadeaux enregistrés avec succès.",
+                "title": "Paramètres des cartes cadeaux",
+                "description": "Configurez les paramètres des cartes-cadeaux, y compris les montants autorisés, la durée de validité et d'autres options.",
+                "fields": {
+                    "authorized_amounts": "Montants autorisés",
+                    "allow_giftcard": "Autoriser l'achat de cartes-cadeaux",
+                    "prefix": "Préfixe des cartes-cadeaux"
+                }
+            },
             "types": {
                 "fixed": "Montant fixe",
                 "random": "Montant aléatoire"
@@ -245,7 +356,7 @@
             "min_random_amount": "Montant minimum aléatoire",
             "allowed_customer": "Client autorisé",
             "max_random_amount": "Montant maximum aléatoire",
-            "uses_help": "Le nombre maximum d'utilisations de cette carte-cadeau. 0 pour illimité."
+            "uses_help": "Le nombre maximum d'utilisations de cette carte-cadeau. -1 pour illimité."
         }
     },
     "addons.import.lang.fr.import": {
@@ -760,7 +871,7 @@
     "lang.fr.actionslog": {
         "settings": {
             "title": "Journaux des actions",
-            "description": "Analysez en détail l’ensemble des actions effectuées par vos personnels ainsi que par les utilisateurs clients afin d’assurer un suivi précis et une meilleure traçabilité des activités..",
+            "description": "Analysez en détail l’ensemble des actions effectuées par vos personnels ainsi que par les utilisateurs clients afin d’assurer un suivi précis et une meilleure traçabilité des activités.",
             "subheading": "Historique des actions",
             "see_staff_actions_log": "Voir l'historique des actions du personnel",
             "model": "Modèle",
@@ -906,7 +1017,8 @@
                     "config_option_service": "Renouvellement option de configuration",
                     "custom_item": "Produit personnalisé",
                     "upgrade": "Amélioration",
-                    "free_trial": "Essai gratuit"
+                    "free_trial": "Essai gratuit",
+                    "gift_card": "Carte-cadeau"
                 },
                 "gateway_canvas": "Moyens de paiement des clients",
                 "gateway_canvas_help": "Moyens de paiement utilisés par les clients pour payer leurs factures",
@@ -1819,6 +1931,8 @@
         "key": "Clé",
         "edit": "Modifier",
         "url": "URL",
+        "used": "Utilisé",
+        "pay": "Payer",
         "unkwown": "Inconnu",
         "deleted": "Supprimé",
         "zip": "Code postal",
@@ -2916,6 +3030,7 @@
         "from_price": "À partir de {_price} {_currency}",
         "taxes": "Taxes",
         "total": "Total",
+        "total_topay": "Total à payer",
         "price": "Prix",
         "fees": "Frais d'installation",
         "unit": "Unité",
