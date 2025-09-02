@@ -1,436 +1,5 @@
 {
     "language": "Italien",
-    "addons.discordlink.lang.fr.messages": {
-        "modulename": "Collegamento Discord",
-        "description": "Gestione del collegamento con il server Discord del provider di hosting",
-        "step1": "Passaggio 1",
-        "step2": "Passaggio 2",
-        "step3": "Passaggio 3",
-        "step4": "Passaggio 4",
-        "invitation": "Link di invito al server",
-        "dropkey": "Tasto di ripristino",
-        "manual": {
-            "installation": "Installazione del bot personalizzato",
-            "step1text": "Scarica il bot personalizzato acquistato in precedenza cliccando su <a href=\"https://clientxcms.com/client/download\" class=\"text-primary\" target=\"_blank\">this link</a>. Creerà il collegamento tra il tuo server Discord e il tuo host.",
-            "step2text": "Copiare il token seguente in modo sicuro. <b><u>Si prega di notare che verrà visualizzato una sola volta</u></b>. In caso di smarrimento, dovrà essere ripristinato.",
-            "step3text": "Decomprimi il file scaricato e segui il file READ. ME per installare e aggiungere il bot al tuo server.",
-            "step4text": "Assicurarsi che il bot disponga delle autorizzazioni necessarie per aggiungere il ruolo. (Il bot deve essere al di sopra del ruolo da aggiungere)."
-        },
-        "community": {
-            "installation": "Installazione del bot Discord della community",
-            "step1text": "Aggiungi il bot al tuo server Discord facendo clic su <a href=\"https://clientxcms.com/ref/discordbot\" class=\"text-primary\" target=\"_blank\">questo link di invito</a>. Creerà il collegamento tra il tuo server Discord e il tuo host.",
-            "step2text": "Copia il seguente comando sul tuo server. <b><u>Si prega di notare che la chiave verrà visualizzata una sola volta</u></b>. In caso di smarrimento, dovrà essere ripristinato.",
-            "step3text": "Esegui il seguente comando nel tuo server Discord aggiungendo il ruolo client. In caso di esito positivo, il bot risponderà con un messaggio di esito positivo.",
-            "step4text": "Assicurarsi che il bot disponga delle autorizzazioni necessarie per aggiungere il ruolo. (Il bot deve essere al di sopra del ruolo da aggiungere)."
-        },
-        "detectedcustomers": "Clienti rilevati",
-        "discordid": "ID Discordia",
-        "cardinfo": "Unisciti al nostro server Discord per trovare la nostra community, ottenere aiuto e informazioni aggiuntive come le nostre ultime promozioni.",
-        "installation": "Installazione del bot Discord della community",
-        "joinserver": "Unisciti al server",
-        "guildid": "Server ID",
-        "accept": "Accettare",
-        "decline": "Rifiutare",
-        "details": "Dettagli",
-        "nocustomers": "Nessun cliente rilevato",
-        "help": "Hai bisogno di aiuto?",
-        "found": "Account sincronizzato rilevato: Vuoi visualizzare i dati in questo ticket?",
-        "infosync": "Questi dati si basano sugli account che hanno sincronizzato il loro account Discord con il loro account cliente tramite il modulo SocialAuth+.",
-        "detection_type": "Tipo di rilevamento",
-        "detection_types": {
-            "sync": "Account sincronizzato",
-            "active_customers": "Clienti che hanno sincronizzato il proprio account con un servizio attivo",
-            "all_customers": "Tutti i clienti che hanno sincronizzato il proprio account con un servizio esistente"
-        }
-    },
-    "addons.import.lang.fr.import": {
-        "title": "Importazione",
-        "description": "Importa un database con la vecchia versione esistente o da altri fornitori in NextGen",
-        "importwhmcs": "L'importazione tramite WHMCS sarà presto disponibile",
-        "importclientxcms": "Importazione dalla vecchia versione di ClientXCMS",
-        "db": {
-            "host": "Ospite",
-            "port": "Porto",
-            "database": "Banca dati",
-            "username": "Nome utente",
-            "password": "Parola d’ordine"
-        },
-        "v1": {
-            "importables": {
-                "products": "Produrre",
-                "groups": "Gruppi",
-                "servers": "Server",
-                "services": "Servizi",
-                "invoices": "Bollette",
-                "clients": "Clientela",
-                "pterodactyl": "Configurazione degli pterodattili",
-                "proxmox": "Configurazione Proxmox",
-                "oses": "Sistemi operativi Proxmox",
-                "templates": "Modelli Proxmox",
-                "plesk": "Configurazione Plesk",
-                "socialauth": "Collegamento socialeAuth",
-                "support": "Ticket e dipartimenti di supporto",
-                "wisp": "Configurazione Wisp",
-                "proxmox_ipam": "Configurazione IPAM Proxmox"
-            },
-            "fromv1": "Importazione dalla vecchia versione di ClientXCMS",
-            "title": "ClientXCMS v1",
-            "description": "Importazione dalla vecchia versione di ClientXCMS"
-        },
-        "whmcs": {
-            "importables": {
-                "products": "Produrre",
-                "groups": "Gruppi",
-                "servers": "Server",
-                "services": "Servizi",
-                "clients": "Clientela",
-                "pterodactyl": "Configurazione degli pterodattili",
-                "wisp": "Configurazione Wisp",
-                "invoices": "Bollette"
-            },
-            "fromwhmcs": "Importazione da WHMCS",
-            "title": "WHMCS",
-            "key": "Tasto encoder",
-            "keyhelp": "La chiave del codificatore viene utilizzata per decrittografare i dati da WHMCS. È disponibile nel file configuration.php WHMCS",
-            "description": "Importazione da WHMCS"
-        },
-        "downloadreport": "Scarica il report",
-        "import": "Importazione",
-        "delay": "Attendere, il caricamento della pagina potrebbe richiedere un po' di tempo.",
-        "truncate": "Tabelle vuote prima dell'importazione (altamente consigliato)"
-    },
-    "addons.page.lang.fr.messages": {
-        "must_be_logged": "Devi aver effettuato l'accesso per accedere a questa pagina.",
-        "logged_only": "Pagina riservata agli utenti che hanno effettuato l'accesso.",
-        "admin": {
-            "title": "Pagine",
-            "description": "Gestisci le pagine dinamiche della tua area clienti.",
-            "create": {
-                "title": "Creare una pagina",
-                "subheading": "Crea una nuova pagina."
-            },
-            "show": {
-                "title": "Dettagli pagina",
-                "subheading": "Dettagli della pagina."
-            },
-            "count_views": "Numero di visualizzazioni",
-            "views": "{_count} visualizza|{_count} visualizzazioni",
-            "see_page": "Visualizza pagina"
-        },
-        "pdf": "PDF",
-        "script": "Script HTML",
-        "style": "Stile CSS",
-        "redirect": "Reindirizzamento",
-        "type": "Tipo di pagina",
-        "meta": "Meta testa",
-        "types": {
-            "page": "Pagina",
-            "pdf": "PDF",
-            "html": "HTML",
-            "redirect": "Reindirizzamento"
-        }
-    },
-    "addons.sameipdetector.lang.fr.admin": {
-        "dashboard": {
-            "sameip_reports": "Doppio account",
-            "pendingusers": "Utenti rilevati come doppi account in attesa di verifica",
-            "knowuser": "Utente associato",
-            "reject": "Rigettare",
-            "accept": "Accettare",
-            "description": "Qui puoi trovare gli utenti rilevati come account duplicati di un altro cliente."
-        },
-        "settings": {
-            "title": "Impostazioni anti doppio account",
-            "description": "Imposta l'azione che viene eseguita quando un account viene rifiutato.",
-            "action": "Azioni da intraprendere"
-        }
-    },
-    "addons.socialauth.lang.fr.messages": {
-        "logged_in": "Sei connesso.",
-        "login_with": "Accedi con {_provider}",
-        "register_with": "Registrati con {_provider}",
-        "modulename": "Autenticazione sociale+",
-        "description": "Social Auth+ è un componente aggiuntivo che consente agli utenti di accedere al tuo sito web tramite fornitori di servizi di terze parti.",
-        "client_id": "ID cliente",
-        "client_secret": "Segreto client",
-        "redirect": "URL di reindirizzamento",
-        "redirect_help": "URL di reindirizzamento: {_url}",
-        "configurate": "Configurare",
-        "error": "Si è verificato un errore. Riprova.",
-        "sync_with": "Sincronizzazione con {_provider}",
-        "unlink": "Scollega da {_provider}",
-        "linked": "Il tuo account è stato collegato con successo.",
-        "already_linked": "Il tuo account è già collegato a questo provider.",
-        "unlinked": "Il tuo account è stato scollegato con successo.",
-        "finish_signup": "Si prega di completare la registrazione.",
-        "finish_title": "Completa la registrazione",
-        "signup_success": "La tua registrazione è andata a buon fine.",
-        "count_linked": "Ci sono {_count} account collegati.",
-        "finish_subtitle": "Inserisci le informazioni mancanti per completare la registrazione.",
-        "email_exists": "Esiste già un account con questa e-mail. Effettua l'accesso e collega il tuo account."
-    },
-    "modules.proxmox.lang.fr.messages": {
-        "settings": {
-            "title": "Proxmox",
-            "description": "Gestisci le diverse opzioni del modulo Proxmox (IPAM, Templates, Oses)."
-        },
-        "panel": {
-            "info": "Informazioni VPS",
-            "serverneedrestart": "Il server deve essere riavviato per applicare le modifiche alle risorse.",
-            "serverinrestore": "Il server è in fase di ripristino, si prega di pazientare."
-        },
-        "data": {
-            "os": "Sistema operativo",
-            "security": "Sicurezza"
-        },
-        "console": {
-            "title": "Confortare"
-        },
-        "logs": {
-            "title": "Storico",
-            "description": "Cronologia delle azioni eseguite sulle macchine virtuali.",
-            "by": "Presso",
-            "action": "Azione",
-            "users": {
-                "system": "Sistema",
-                "user": "Utente",
-                "admin": "Amministratore"
-            },
-            "start": "Il comando boot è stato inviato al VPS.",
-            "stop": "Il comando stop è stato inviato al VPS",
-            "restart": "Il comando restart è stato inviato al VPS.",
-            "destroy": "Il comando di distruzione è stato inviato al VPS.",
-            "reinstall": "Il comando reinstall è stato inviato al VPS.",
-            "snapshot_destroy": "Lo snapshot è stato eliminato.",
-            "snapshot_create": "Lo snapshot è stato creato.",
-            "snapshot_restore": "L'istantanea è stata ripristinata.",
-            "backup_create": "Il backup è stato creato.",
-            "backup_destroy": "Il backup è stato eliminato.",
-            "reinstall_done": "La reinstallazione della VM è stata completata correttamente.",
-            "start_destroy": "La macchina virtuale è stata arrestata."
-        },
-        "graphs": {
-            "title": "Grafica",
-            "cpu": "CPU",
-            "memory": "Memoria",
-            "disk": "Disco",
-            "network": "Rete",
-            "timeframes": {
-                "hour": "Notizie dell'ultim'ora",
-                "day": "Ultimo giorno",
-                "week": "La settimana scorsa",
-                "month": "Mese scorso",
-                "year": "Ultimo anno"
-            }
-        },
-        "reinstallation": {
-            "title": "Reinstallazione",
-            "description": "Reinstallare la macchina virtuale.",
-            "limited": "È stato raggiunto il numero massimo di reinstallazioni.",
-            "limit_text": "Hai fatto {_current} sul {_max} consentito.",
-            "submit": "Reinstallare",
-            "reinstall_success": "La macchina virtuale è stata reinstallata correttamente.",
-            "reinstall_error": "Si è verificato un errore durante la reinstallazione della macchina virtuale.",
-            "confirm": "Sei sicuro di voler reinstallare questa macchina virtuale?",
-            "success": "La macchina virtuale è stata reinstallata correttamente."
-        },
-        "sshkeys": "Chiavi SSH",
-        "hostname": "Nome host",
-        "server": "Server",
-        "node": "Nodo",
-        "disk_storage": "Archiviazione su disco",
-        "unprivileged": "Senza privilegi (solo LXC)",
-        "username": "Nome utente SSH",
-        "uptime": "Tempo di funzionamento",
-        "features": "Caratteristiche (solo LXC)",
-        "max_snapshots": "Numero massimo di snapshot",
-        "max_backups": "Numero massimo di backup",
-        "max_reinstall": "Numero massimo di reinsediamenti",
-        "max_helpers": "È possibile impostare -1 per illimitato o 0 per disabilitare",
-        "clear_cache_if_empty": "Svuota la cache se i campi sono vuoti o verifica che la tua chiave API Proxmox NON DEVE essere in separazione dei privilegi.",
-        "virtualisation_type": "Tipo di virtualizzazione",
-        "importinfo": "Queste informazioni vengono utilizzate per semplificare la reinstallazione della macchina in un secondo momento.",
-        "templates": {
-            "title": "Modelli",
-            "description": "Gestione dei modelli di VM utilizzabili per l'erogazione di VPS.",
-            "name": "Nome",
-            "os": "Sistema operativo",
-            "vmids": "ID macchina virtuale",
-            "create": {
-                "title": "Creare un modello",
-                "description": "Creare un nuovo modello di macchina virtuale."
-            },
-            "show": {
-                "title": "Dettagli del modello",
-                "description": "Dettagli del modello di macchina virtuale."
-            }
-        },
-        "oses": {
-            "title": "Sistemi operativi",
-            "description": "Gestione dei sistemi operativi utilizzabili per l'erogazione di VPS.",
-            "name": "Nome",
-            "oses": "Sistemi operativi",
-            "create": {
-                "title": "Creare un sistema operativo",
-                "description": "Creare un nuovo sistema operativo."
-            },
-            "show": {
-                "title": "Dettagli del sistema operativo",
-                "description": "Dettagli del sistema operativo."
-            }
-        },
-        "ipam": {
-            "title": "Gestione indirizzi IP",
-            "description": "Gestore di indirizzi IP del sistema Proxmox.",
-            "ip": "Indirizzo IP",
-            "netmask": "Subnet mask",
-            "gateway": "Gateway",
-            "bridge": "Ponte",
-            "mtu": "MTU",
-            "mac": "Indirizzo MAC",
-            "ipv6": "Indirizzo IPv6",
-            "ipv6_gateway": "IPv6 Gateway",
-            "is_primary": "Primario",
-            "service_id": "Servizio",
-            "notes": "Note",
-            "dhcp_help": "È possibile inserire \"dhcp\" in questo campo per abilitare DHCP per quell'indirizzo IP.",
-            "create": {
-                "title": "Creare un indirizzo IP",
-                "description": "Creare un nuovo indirizzo IP in Gestione indirizzi IP.",
-                "ranges": {
-                    "title": "Aggiungi rapidamente indirizzi IP",
-                    "block": "Blocco",
-                    "block_help": "Deve contenere\". XX\" che sarà sostituito dall'indirizzo.",
-                    "description": "Importa facilmente gli intervalli di indirizzi nel tuo IPAM.",
-                    "range": "Gamma",
-                    "success": "{_count} Gli indirizzi IP sono stati aggiunti correttamente.",
-                    "import": "Importazione"
-                }
-            },
-            "show": {
-                "title": "Dettagli dell'indirizzo IP",
-                "description": "Dettagli dell'indirizzo IP."
-            },
-            "states": {
-                "available": {
-                    "title": "Disponibile",
-                    "mass_action": "Imposta come disponibile",
-                    "description": "Questo indirizzo IP è disponibile per l'uso."
-                },
-                "used": {
-                    "title": "Usato",
-                    "mass_action": "Imposta come usato",
-                    "description": "Questo indirizzo IP viene utilizzato da un servizio."
-                },
-                "unavailable": {
-                    "title": "Indisponibile",
-                    "mass_action": "Imposta come non disponibile",
-                    "description": "Questo indirizzo IP non è disponibile per l'uso."
-                }
-            }
-        },
-        "disks": {
-            "volume": "Volume",
-            "format": "Formato"
-        },
-        "backups": {
-            "nobackupstorage": "Nessun salvataggio è configurato per questo server. Si prega di contattare l'amministratore.",
-            "size": "Taglia",
-            "notes": "Note",
-            "create_title": "Creare un backup",
-            "is_protected": "Protetto",
-            "automatic": "Automatica",
-            "restore": "Restaurare",
-            "limited": "Hai raggiunto il numero massimo di salvataggi consentiti.",
-            "confirm_restore": "Sei sicuro di voler ripristinare questo salvataggio? Questo sovrascriverà i dati attuali della macchina virtuale.",
-            "restore_success": "Il ripristino del backup è stato avviato con successo.",
-            "restore_error": "Si è verificato un errore durante il ripristino del backup.",
-            "confirm_delete": "Sei sicuro di voler eliminare questo salvataggio?",
-            "delete_success": "Il backup è stato eliminato con successo.",
-            "delete_error": "Si è verificato un errore durante la cancellazione del backup.",
-            "create_success": "Il backup è stato avviato con successo. La creazione può richiedere del tempo a seconda delle dimensioni della macchina virtuale.",
-            "create_error": "Si è verificato un errore durante la creazione del backup."
-        },
-        "snapshots": {
-            "title": "Istantanee",
-            "create_invalid_notes": "Il nome dello snapshot può contenere solo lettere, numeri, spazi e trattini bassi.",
-            "create_duplicate": "Esiste già uno snapshot con questo nome.",
-            "confirm_restore": "Sei sicuro di voler ripristinare questo snapshot? Questo sovrascriverà i dati attuali della macchina virtuale.",
-            "restore_success": "Il ripristino dello snapshot è stato avviato con successo.",
-            "restore_error": "Si è verificato un errore durante il ripristino dello snapshot.",
-            "confirm_delete": "Sei sicuro di voler eliminare questo snapshot?",
-            "delete_success": "Lo snapshot è stato eliminato con successo.",
-            "delete_error": "Si è verificato un errore durante l'eliminazione dello snapshot.",
-            "create_title": "Creare uno snapshot",
-            "create_success": "Lo snapshot è stato creato con successo.",
-            "create_error": "Si è verificato un errore durante la creazione dello snapshot."
-        }
-    },
-    "modules.pterobox.lang.fr.messages": {
-        "my_servers": "I miei server",
-        "create_server": "Creare un server",
-        "server_name": "Nome server",
-        "egg": "Uovo",
-        "server_actions": "Azioni",
-        "server_details": "Dettagli del server",
-        "delete_server": "Elimina il server",
-        "server_deleted": "Il server è stato eliminato con successo.",
-        "server_updated": "Il server è stato aggiornato correttamente.",
-        "resource_not_available": "Non ci sono più risorse sufficienti per questo server.",
-        "error_in_deletion": "Si è verificato un errore durante l'eliminazione del server.",
-        "error_in_update": "Si è verificato un errore durante l'aggiornamento del server.",
-        "error_in_power": "Si è verificato un errore durante l'azione.",
-        "server_powered": "L'azione è stata presa in considerazione.",
-        "server_created": "Il server è stato creato correttamente.",
-        "error_in_creation": "Si è verificato un errore durante la creazione del server.",
-        "allocations_help": "Per creare un server, è necessario disporre di almeno un'allocazione.",
-        "no_servers_available": "Non è possibile creare altri server nella confezione.",
-        "no_servers_created": "Al momento non è stato creato alcun server.",
-        "doyouwantreallydelete": "Sei sicuro di voler eliminare questo server?",
-        "additional_servers": "Server aggiuntivi"
-    },
-    "modules.virtualizor.lang.fr.messages": {
-        "server_group": "Gruppo di server",
-        "data": {
-            "os": "Sistema operativo",
-            "security": "Sicurezza"
-        },
-        "username": "Nome utente",
-        "ips": "Indirizzi IP",
-        "hostname": "Nome host",
-        "panel": {
-            "info": "Informazioni VPS",
-            "num_vs": "Numero di VPS consentiti",
-            "num_users": "Numero di utenti autorizzati",
-            "num_ips": "Numero di IP allocati",
-            "disk_space": "Spazio su disco allocato",
-            "memory": "Memoria allocata",
-            "cores": "Core allocati",
-            "reinstallation": {
-                "title": "Reinstallazione",
-                "description": "Reinstallare la macchina virtuale.",
-                "submit": "Reinstallare"
-            },
-            "hostname": {
-                "title": "Modificare il nome host",
-                "success": "Il nome host è stato modificato con successo.",
-                "description": "Modificare il nome host della macchina virtuale."
-            },
-            "resetpassword": {
-                "title": "Reimposta password",
-                "success": "La password è stata reimpostata con successo.",
-                "description": "Reimpostare la password della macchina virtuale."
-            },
-            "console": {
-                "title": "Confortare",
-                "description": "Accedere alla console della macchina virtuale."
-            },
-            "graphs": {
-                "title": "Grafica",
-                "description": "Visualizzare i grafici delle macchine virtuali."
-            }
-        }
-    },
     "lang.fr.actionslog": {
         "settings": {
             "title": "Cronologia delle azioni",
@@ -560,7 +129,8 @@
                     "config_option_service": "Opzione di configurazione del rinnovo",
                     "custom_item": "Prodotto personalizzato",
                     "upgrade": "Miglioramento",
-                    "free_trial": "Prova gratuita"
+                    "free_trial": "Prova gratuita",
+                    "gift_card": "Carta regalo"
                 },
                 "gateway_canvas_help": "Metodi di pagamento utilizzati dai clienti per pagare le bollette",
                 "best_customers": "Migliori clienti",
@@ -846,7 +416,23 @@
                 "notes": "Note sulla fattura",
                 "external_id": "ID esterno",
                 "title": "Scheda fattura {_id}",
-                "subheading": "Ecco le informazioni relative a questa fattura creata il {_date}"
+                "subheading": "Ecco le informazioni relative a questa fattura creata il {_date}",
+                "tabs": {
+                    "edit": "Edizione della fattura",
+                    "show": "Visualizzazione della fattura",
+                    "billing": "Informazioni di fatturazione",
+                    "advanced": "Avanzato"
+                },
+                "fulfillment": {
+                    "title": "Consegna della fattura",
+                    "subheading": "Consegnare i prodotti della fattura al cliente",
+                    "items_count": "{_count} Articolo|{_count} Articoli",
+                    "confirmation": {
+                        "cancel_title": "Vuoi davvero annullare la consegna di questo prodotto?",
+                        "confirm": "Sì",
+                        "cancel": "Non"
+                    }
+                }
             },
             "create": {
                 "title": "Creare una fattura",
@@ -863,7 +449,19 @@
             "paidsuccess": "La fattura è stata contrassegnata come pagata correttamente",
             "payinvoicebtn": "Addebitare",
             "payinvoicetitle": "Paga il conto",
-            "payinvoicedescription": "Addebita da una fonte del cliente per pagare la fattura."
+            "payinvoicedescription": "Addebita da una fonte del cliente per pagare la fattura.",
+            "export": {
+                "btn": "Esportatore",
+                "title": "Esportare fatture",
+                "subheading": "Esporta le fatture in formato CSV, XLSX o PDF",
+                "format": "Formato",
+                "date_to": "Data di fine",
+                "date_from": "Data di inizio"
+            },
+            "deliver": "Consegnare",
+            "delivered_at": "Consegnato il {_date}",
+            "cancelled_at": "Annullato il {_date}",
+            "itemcancelled": "L'articolo è stato annullato con successo"
         },
         "admins": {
             "title": "Personale",
@@ -965,7 +563,8 @@
                         "force_login_client": "Forzare la connessione per accedere all'area clienti",
                         "banned_emails": "Email vietate",
                         "banned_emails_help": "Separati da virgole (ad es. mailinator.com, yopmail.com, exemple@example.com)",
-                        "hash_driver_help": "/!\\ Le vecchie password non saranno compatibili con il nuovo driver. È necessario reimpostare le password degli utenti."
+                        "hash_driver_help": "/!\\ Le vecchie password non saranno compatibili con il nuovo driver. È necessario reimpostare le password degli utenti.",
+                        "gdrp_cookies_privacy_link": "Link alla tua politica sulla privacy"
                     },
                     "success": "Le impostazioni di sicurezza sono state salvate correttamente."
                 }
@@ -1006,7 +605,14 @@
             "last_check": "Ultima verifica {_date}",
             "client_id": "ID cliente",
             "description": "Gestisci la tua licenza e le informazioni correlate o aggiorna i moduli disponibili.",
-            "force": "Verifica della forza"
+            "force": "Verifica della forza",
+            "support_expiration": "Il tuo supporto scade il {_date}",
+            "support_expired": "Il tuo supporto è scaduto il {_date}",
+            "renew_support": "Rinnovare il supporto",
+            "renew_license": "Rinnovare la licenza",
+            "buy_support": "Comprare un supporto",
+            "no_support": "Non hai supporto attivo",
+            "type": "Tipo di licenza"
         },
         "metadata": {
             "title": "Metadati",
@@ -1075,7 +681,30 @@
             "rotate": "Rigenerare",
             "created": "<span>La chiave API è stata creata con successo. Chiave API dell'applicazione: <b><code>{_key}</code></b> <br/> Attenzione, non verrà più visualizzata dopo questa pagina. Si prega di copiarla e conservarla in un luogo sicuro.</span>"
         },
-        "doyouwantclone": "Vuoi davvero clonare questo elemento?"
+        "doyouwantclone": "Vuoi davvero clonare questo elemento?",
+        "update": {
+            "changelog": "Giornale delle modifiche",
+            "title": "Aggiornamento",
+            "subheading": "Controlla gli ultimi aggiornamenti e mantieni il tuo sistema aggiornato.",
+            "update_version": "Aggiornare",
+            "local_environment": "Sei in un ambiente locale",
+            "local_environment_message": "L'aggiornamento sovrascriverà le eventuali modifiche. Assicurati di avere un backup prima di continuare.",
+            "status_title": "Stato della tua versione",
+            "status_subtitle": "Controlla se è disponibile una nuova versione.",
+            "up_to_date": "Sei aggiornato!",
+            "up_to_date_message": "Stai usando l'ultima versione.",
+            "update_available": "Aggiornamento disponibile",
+            "new_version_is": "La versione {_version} è disponibile.",
+            "current_version": "Versione attuale",
+            "available_version": "Versione disponibile",
+            "update_to_version": "Aggiornare alla v{_version}",
+            "whats_new_in": "Novità della {_version}",
+            "published_on": "Pubblicata il {_date}",
+            "added": "Aggiunte",
+            "changed": "Cambiamenti e Miglioramenti",
+            "error_fetching": "Impossibile recuperare le informazioni",
+            "error_fetching_message": "Si prega di riprovare più tardi o contattare il supporto."
+        }
     },
     "lang.fr.auth": {
         "failed": "Questi identificatori non corrispondono ai nostri registri.",
@@ -1290,7 +919,8 @@
             },
             "payment_method_used": "Metodo di pagamento utilizzato",
             "invoices": "Fatture pagate con mezzi di pagamento",
-            "invoices_description": "Di seguito troverete l'elenco delle fatture pagate con addebiti automatici."
+            "invoices_description": "Di seguito troverete l'elenco delle fatture pagate con addebiti automatici.",
+            "payment_method_used_help": "Identificativo del metodo di pagamento utilizzato per pagare questa fattura. Facoltativo, può essere lasciato vuoto."
         },
         "services": {
             "index": "I miei servizi",
@@ -1353,7 +983,11 @@
                     "index": "Gestire i tuoi abbonamenti",
                     "index_description": "Di seguito troverete l'elenco dei vostri servizi che possono essere rinnovati automaticamente. Potete attivare o disattivare il rinnovo automatico per ciascun servizio.",
                     "next_renewal": "Prossimo rinnovo"
-                }
+                },
+                "invalid_billing_day": "Il prossimo giorno di fatturazione deve essere tra il {_day} e {_now}.",
+                "billing_day": "Giorno di fatturazione",
+                "billing_day_help": "Il giorno di fatturazione è il giorno del mese in cui il pagamento verrà effettuato. Ad esempio, se scegli il 5, il pagamento sarà effettuato il 5 di ogni mese.",
+                "billing_day_updated": "Il giorno di fatturazione è stato aggiornato con successo. Il prossimo pagamento sarà effettuato il {_date}."
             },
             "upgradeservice": "Migliora il servizio",
             "manageoptions": "Opzioni di servizio",
@@ -1514,7 +1148,15 @@
             "disabled": "Disabile",
             "activable": "Attivante",
             "notactivable": "Non attivabile",
-            "buy": "Comprare"
+            "buy": "Comprare",
+            "installed": "Installato",
+            "update": "Aggiornare",
+            "processing": "Elaborazione in corso...",
+            "processing_error": "Si è verificato un errore, per favore riprova.",
+            "install": "installare",
+            "reviews": "recensione",
+            "search": "Cercare un'estensione",
+            "search_placeholder": "Cerca per nome, descrizione o tag"
         },
         "onetime": "Solo una volta",
         "monthly": "Mensile",
@@ -1526,7 +1168,10 @@
             "extension_not_loaded": "L'estensione {_extension} è necessaria per l'attivazione di questa estensione.",
             "extension_not_installed": "L'estensione {_extension} non è installata.",
             "extension_version_not_compatible": "La versione dell'estensione {_extension} ({_current}) non è compatibile con la versione richiesta ({_version}).",
-            "cache_cleared": "La cache è stata cancellata correttamente."
+            "cache_cleared": "La cache è stata cancellata correttamente.",
+            "enabled": "L'estensione è stata attivata con successo.",
+            "disabled": "L'estensione è stata disattivata con successo.",
+            "updated": "L'estensione è stata aggiornata con successo."
         }
     },
     "lang.fr.global": {
@@ -1695,7 +1340,19 @@
         "server": "Server",
         "is_enabled": "Attivato",
         "is_disabled": "Disattivato",
-        "home": "Accoglienza"
+        "home": "Accoglienza",
+        "by": "Per",
+        "for": "Per",
+        "company_name": "Nome dell'azienda",
+        "billing_details": "Dettagli di fatturazione",
+        "billing_details_help": "Informazioni aggiuntive da includere nelle fatture",
+        "used": "Utilizzato",
+        "pay": "Payer",
+        "seeless": "Vedi meno",
+        "gdpr": {
+            "text": "Utilizzando questo sito, accetti il nostro",
+            "link": "Politica sulla privacy"
+        }
     },
     "lang.fr.helpdesk": {
         "ticket": "Biglietto",
@@ -1940,7 +1597,10 @@
             "hosting_name": "Nome dell'azienda",
             "connect": "Accedi",
             "migrationwarning": "Attenzione: il database non è stato migrato. Si prega di eseguire \"php artisan migrate --force\" per migrare il database.",
-            "detecteddomain": "Dominio rilevato: {_domain}. Assicurati che il dominio corrisponda esattamente a quello della tua licenza (incluso il sottodominio, se applicabile)."
+            "detecteddomain": "Dominio rilevato: {_domain}. Assicurati che il dominio corrisponda esattamente a quello della tua licenza (incluso il sottodominio, se applicabile).",
+            "locales": "Lingue",
+            "infolicense": "Per ottenere un ID cliente e un segreto cliente, è necessario avere una licenza CLIENTXCMS. <a href=\"{_link}\" target=\"_blank\" class=\"underline\">Fai clic qui per recuperare le tue credenziali gratuitamente.</a>",
+            "eula": "Consultando questa pagina, accetti i termini della licenza CLIENTXCMS disponibile su clientxcms.com/eula."
         },
         "register": {
             "title": "Registrazione",
@@ -1951,7 +1611,14 @@
             "title": "Sommario",
             "btn": "Finire"
         },
-        "submit": "Invia"
+        "submit": "Invia",
+        "password": "Password",
+        "firstname": "Nome",
+        "lastname": "Cognome",
+        "email": "E-mail",
+        "password_confirmation": "Conferma della password",
+        "authentication": "Autenticazione",
+        "extensions": "Estensioni"
     },
     "lang.fr.maintenance": {
         "settings": {
@@ -2030,7 +1697,10 @@
         "send_email_messages": "Inviare e-mail",
         "show_helpdesk_analytics": "Vedi le statistiche del centro assistenza",
         "manage_tickets_department": "Gestire solo i biglietti del dipartimento {_name}",
-        "manage_api_keys": "Gestire le chiavi API"
+        "manage_api_keys": "Gestire le chiavi API",
+        "export_invoices": "Esportare le fatture",
+        "manage_subdomains_hosts": "Gestire i sottodomini host",
+        "manage_update": "Aggiornare CLIENTXCMS"
     },
     "lang.fr.personalization": {
         "title": "Personalizzazione",
@@ -2149,7 +1819,8 @@
             "content": "Contenuto",
             "show": {
                 "title": "Modifica di una sezione",
-                "subheading": "Puoi modificare il contenuto della tua sezione come desideri"
+                "subheading": "Puoi modificare il contenuto della tua sezione come desideri",
+                "protected_content": "Questa sezione è protetta e non può essere modificata."
             },
             "fields": {
                 "url": "Pagina della sezione",
@@ -2209,7 +1880,9 @@
             "themename": "Nome del tema",
             "enabled": "Attivante",
             "disabled": "Disabile",
-            "not_found": "Il tema non è stato trovato."
+            "not_found": "Il tema non è stato trovato.",
+            "info": "Puoi ora scegliere il tuo tema nelle estensioni > temi. <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Clicca qui per accedervi</a>.",
+            "current_theme": "Tema attuale"
         },
         "addline": "Aggiungere una riga",
         "useful": "Informazioni utili",
@@ -2434,7 +2107,9 @@
                     "title": "Annulla servizio",
                     "restore": "Servizio di ripristino",
                     "reason": "Motivo della cancellazione",
-                    "success": "Il servizio è stato annullato con successo"
+                    "success": "Il servizio è stato annullato con successo",
+                    "delivery": "Annullare la consegna del servizio",
+                    "pending": "Il servizio è in attesa di consegna. Se annulli, non verrà consegnato."
                 },
                 "uncancel": {
                     "success": "Il servizio è stato ripristinato con successo"
@@ -2553,7 +2228,8 @@
                     "additional_io": "I/O aggiuntivi",
                     "additional_allocations": "Indennità supplementari",
                     "custom": "Costume"
-                }
+                },
+                "cannot_delete_in_use": "Impossibile rimuovere questa opzione di configurazione perché è utilizzata da uno o più servizi."
             }
         },
         "active_services": "Servizi attivi",
@@ -2571,7 +2247,8 @@
         "config_option": "Opzione di configurazione",
         "autologin_admin": "Accesso automatico come amministratore",
         "doyouwantreallyreinstallvps": "Vuoi davvero reinstallare questo server?",
-        "disks": "Dischi"
+        "disks": "Dischi",
+        "eggs_help": "Se non riesci a trovare l'uovo di gioco che desideri, puoi svuotare la cache nelle tue estensioni."
     },
     "lang.fr.recurring": {
         "onetime": "Vitalizio",
@@ -2676,7 +2353,8 @@
         "ttc": "TTC",
         "transaction_fee": "Commissioni di transazione",
         "per": "presso",
-        "our_offers": "Le nostre offerte"
+        "our_offers": "Le nostre offerte",
+        "total_topay": "Totale da pagare"
     },
     "lang.fr.validation": {
         "accepted": "Il campo {_attribute} deve essere accettato.",
@@ -2924,332 +2602,6 @@
         "upgrade": {
             "title": "Servizio aggiornato",
             "description": "Un servizio è stato aggiornato"
-        }
-    },
-    "addons.fund.lang.fr.messages": {
-        "transfer_title": "Trasferisci fondi",
-        "credit_title": "Accredito dei fondi",
-        "invoice": {
-            "add_credit": "Aggiunti {_amount} crediti"
-        },
-        "recipient": "Destinatario",
-        "transfer": {
-            "not_enough_funds": "Non hai fondi sufficienti per effettuare questo trasferimento",
-            "max_amount": "L'importo massimo del trasferimento è di {_amount}",
-            "min_amount": "L'importo minimo del trasferimento è di {_amount}",
-            "min_invoice": "Devi aggiungere almeno {_amount} al tuo account per effettuare un trasferimento",
-            "title": "Trasferisci fondi",
-            "description": "Trasferisci fondi tra due conti",
-            "recipient": "E-mail dell'account del destinatario",
-            "btn": "Trasferimento",
-            "cancel": "Il trasferimento è stato annullato",
-            "success": "Trasferimento completato con successo. Puoi annullare questo trasferimento entro {_minutes} minuti.",
-            "already_pending": "Un trasferimento è già in sospeso. Si prega di attendere prima di farne un altro",
-            "recipient_not_found": "Il destinatario non è stato trovato"
-        },
-        "card": {
-            "title": "Finanzia il mio conto",
-            "description": "Accredito sul tuo account per effettuare acquisti sulla nostra piattaforma",
-            "amount": "Importo da accreditare",
-            "gateway": "Metodo di pagamento",
-            "currentbalance": "Saldo corrente",
-            "error": "Impossibile accreditare il tuo account. Non è disponibile alcun metodo di pagamento. Contatta l'assistenza."
-        },
-        "transfer_table": {
-            "title": "Cronologia dei trasferimenti"
-        },
-        "admin": {
-            "transfers": {
-                "title": "Trasferimenti di fondi",
-                "transferred_at": "Trasferimento a",
-                "subtitle": "Trova qui l'elenco dei trasferimenti di fondi effettuati"
-            },
-            "settings": {
-                "title": "Impostazioni dei fondi",
-                "subtitle": "Gestione delle impostazioni dell'estensione del fondo",
-                "success": "Impostazioni salvate correttamente",
-                "fields": {
-                    "max_amount": "Montante massimo",
-                    "min_amount": "Importo minimo",
-                    "for_add_credit": "Per l'aggiunta di credito",
-                    "for_transfer": "Per i trasferimenti tra conti",
-                    "minutes_delay": "Tempo di trasferimento (in minuti)",
-                    "minutes_delay_description": "Trasferisci tempo tra account",
-                    "min_invoice": "Deposito minimo per poter effettuare un trasferimento",
-                    "min_invoice_description": "L'importo aggiunto al conto per poter effettuare un trasferimento. 0 per disabilitare",
-                    "authorize_between_accounts": "Consenti trasferimenti tra conti"
-                }
-            }
-        }
-    },
-    "modules.download.lang.fr.admin": {
-        "download_files": {
-            "title": "Scarica i file",
-            "description": "Gestione dei file e download delle versioni",
-            "external_file": "File esterno",
-            "local_file": "File locale",
-            "adapter": "Adattare",
-            "downloads": "Download",
-            "downloads_limit": "Limite di download",
-            "downloads_limit_help": "Lascia 0 per un numero illimitato",
-            "protected": "Allievo",
-            "last_version": "Ultima versione",
-            "add_version": "Aggiungere una versione",
-            "version": "Versione",
-            "version_created_at": "La versione ha creato il {_date}. {_downloads} Scarica",
-            "protected_help": "Se abilitato, i clienti dovranno acquistarlo per scaricarlo",
-            "max_upload_size": "La dimensione massima di caricamento è {_size}",
-            "create": {
-                "title": "Creare un file di download",
-                "subheading": "Creare un nuovo file di download"
-            },
-            "show": {
-                "title": "Visualizza il file di download",
-                "subheading": "Visualizza i dettagli del file di download"
-            }
-        },
-        "logs": {
-            "title": "Scarica i log",
-            "description": "Scarica i log",
-            "downloaded": "Scaricato",
-            "ip": "IP",
-            "user_agent": "Agente utente",
-            "show": {
-                "title": "Visualizza il registro dei download",
-                "subheading": "Visualizza i dettagli del registro dei download"
-            }
-        }
-    },
-    "modules.download.lang.fr.messages": {
-        "my_downloads": "I miei download",
-        "errors": {
-            "file_not_active": "Il file non è attivo",
-            "file_is_protected": "Il file è protetto",
-            "download_limit_reached": "Limite di download raggiunto"
-        },
-        "download_version": "Scarica la versione",
-        "downloads": "Download",
-        "public_downloads": "Download pubblici",
-        "no_downloads": "Nessun download",
-        "downloads_left": "Ti rimangono {_downloads} download"
-    },
-    "modules.virtualizor_cloud.lang.fr.messages": {
-        "data": {
-            "os": "Sistema operativo",
-            "security": "Sicurezza"
-        },
-        "hostname": "Nome host",
-        "panel": {
-            "info": "Informazioni VPS",
-            "reinstallation": {
-                "title": "Reinstallazione",
-                "description": "Reinstallare la macchina virtuale.",
-                "submit": "Reinstallare",
-                "reinstall_success": "La reinstallazione della VM è stata completata correttamente.",
-                "reinstall_error": "Si è verificato un errore durante la reinstallazione della macchina virtuale."
-            },
-            "password": {
-                "title": "Parola d’ordine",
-                "description": "Modificare la password della macchina virtuale.",
-                "submit": "Cambia password",
-                "password_success": "La password per la macchina virtuale è stata modificata correttamente.",
-                "password_error": "Si è verificato un errore durante la modifica della password della macchina virtuale."
-            },
-            "hostname": {
-                "title": "Nome host",
-                "description": "Modificare il nome host della macchina virtuale.",
-                "submit": "Modificare il nome host",
-                "hostname_success": "Il nome host della macchina virtuale è stato modificato correttamente.",
-                "hostname_error": "Si è verificato un errore durante la modifica del nome host della macchina virtuale."
-            }
-        }
-    },
-    "addons.purchasealert.lang.fr.messages": {
-        "neworder": "Un cliente ha effettuato un nuovo ordine",
-        "admin": {
-            "title": "Notifica di acquisto",
-            "description": "Mostra le notifiche di acquisto recenti sulla tua vetrina",
-            "timeout": "Visualizzazione del tempo in millisecondi",
-            "days": "Numero massimo di giorni per recuperare gli acquisti recenti",
-            "interval": "Intervallo di tempo tra le notifiche in millisecondi"
-        }
-    },
-    "addons.sentry.lang.fr.admin": {
-        "title": "Sentinella",
-        "description": "Configura il servizio di monitoraggio degli errori Sentry.",
-        "saved": "Le impostazioni sono state salvate con successo.",
-        "fields": {
-            "dsn": "DSN",
-            "sample_rate": "Frequenza di campionamento",
-            "traces_sample_rate": "Frequenza di campionamento delle tracce",
-            "profiles_sample_rate": "Frequenza di campionamento del profilo",
-            "environment": "Ambiente"
-        }
-    },
-    "modules.pterodactyl.lang.fr.messages": {
-        "optionstypes": {
-            "location_id": "Ubicazione ID Pterodattilo",
-            "dedicated_ip": "IP dedicato allo pterodattilo"
-        }
-    },
-    "modules.wisp.lang.fr.messages": {
-        "optionstypes": {
-            "location_id": "ID località Wisp",
-            "dedicated_ip": "IP dedicato Wisp"
-        }
-    },
-    "addons.contact.lang.fr.lang": {
-        "title": "Contatti",
-        "pending": "Richieste di contatto in attesa",
-        "description": "Gestisci le richieste di contatto dei tuoi utenti nel tuo spazio clienti.",
-        "management_title": "Gestione delle richieste di contatto",
-        "management_description": "Elenco di tutte le richieste di contatto",
-        "show_title": "Dettagli di contatto",
-        "show_description": "Vedi i dettagli della richiesta di contatto",
-        "title_page": "Contattaci",
-        "subject": "Oggetto della richiesta",
-        "content_label": "Descrivi la tua richiesta",
-        "object_label": "Oggetto della richiesta",
-        "max_characters": "Limitato a {_max} caratteri",
-        "send": "Inviare la richiesta",
-        "subtitle_page": "Saremmo lieti di ricevere i vostri messaggi. Compilate il modulo qui sotto e vi risponderemo il prima possibile.",
-        "actions": {
-            "delete_success": "La richiesta di contatto è stata rimossa con successo",
-            "update_success": "Lo stato della richiesta di contatto è stato aggiornato con successo",
-            "reply_email": "Rispondere via email",
-            "send_mail": "Inviare un'email al cliente",
-            "limit_error": "Hai già inviato una richiesta di contatto meno di 5 minuti fa.",
-            "store_success": "La richiesta di contatto è stata registrata con successo"
-        },
-        "status": {
-            "read": "Trattato",
-            "unread": "Non trattato"
-        },
-        "webhook": {
-            "title": "Nuova richiesta di contatto",
-            "description": "Una nuova richiesta di contatto è stata ricevuta"
-        },
-        "errors": {
-            "not_found": "La richiesta di contatto non è stata trovata",
-            "update_failed": "L'aggiornamento della richiesta di contatto è fallito"
-        },
-        "status_updated_at": "Statuto aggiornato il {_date}",
-        "settings": {
-            "title": "Preferenze della pagina di contatto",
-            "description": "Configura le tue preferenze per la pagina dei contatti.",
-            "security_settings": "Impostazioni di sicurezza",
-            "media_settings": "Impostazioni media",
-            "enable_captcha": "Attiva il captcha",
-            "enable_captcha_description": "Aggiungere una protezione aggiuntiva contro gli spam",
-            "webhook": "Notificare un'URL esterna",
-            "webhook_description": "Inviare le richieste di contatto a un URL esterno",
-            "subscribers": "Notificare il personale",
-            "subscribers_description": "Inviare le richieste di contatto a personale specifico",
-            "require_login": "Richiedere una connessione",
-            "require_login_description": "Gli utenti devono essere connessi per inviare un messaggio",
-            "page_image": "Immagine della pagina",
-            "disabled": "Disattivato",
-            "enabled": "Attivato"
-        }
-    },
-    "addons.free_trial.lang.fr.lang": {
-        "trialbtn": "Prova",
-        "errors": {
-            "max_allowed_services": "La quota dei servizi in fase di prova è superata. Riprova più tardi.",
-            "max_services": "Hai già raggiunto il limite di prove gratuite per questo servizio."
-        },
-        "invoice": {
-            "name": "Offerta di prova",
-            "description": "Periodo di prova dell'offerta {_product} ({_start}-{_end})."
-        },
-        "config": {
-            "total_now": "Totale da pagare ora",
-            "total_after_trial": "Totale da pagare dopo la prova",
-            "start": "Iniziare",
-            "title": "Inizia il tuo saggio",
-            "period": "Periodo",
-            "details": "Potrete effettuare il pagamento fino a {_days} giorni dopo la fine del vostro periodo di prova, in conformità con le condizioni applicabili. Avrete la possibilità di annullare la prova in qualsiasi momento.",
-            "want_trial": "Vuoi provare il prodotto prima di acquistarlo?",
-            "can_trial": "Puoi testare il prodotto per {_days} giorni."
-        },
-        "service": {
-            "free": {
-                "title": "Rinnovare il tuo servizio di prova",
-                "subheading": "Puoi rinnovare il tuo servizio di prova fino al {_date} prima che venga annullato il {_date2}."
-            },
-            "trial": {
-                "title": "Migliora il tuo servizio di prova",
-                "subheading": "Puoi migliorare il tuo servizio di prova fino al {_date} prima che venga annullato il {_date2}."
-            }
-        },
-        "admin": {
-            "config": {
-                "current_allowed_services": "Numero attuale di esperimenti in corso",
-                "max_allowed_services": "Numero massimo di tentativi in corso",
-                "title": "Configurazione delle prove gratuite",
-                "subheading": "Configura i tuoi prodotti di prova gratuita.",
-                "max_services": "Numero massimo di tentativi per cliente",
-                "trial_days": "Numero di giorni di prova",
-                "current_trials": "Saggi in corso",
-                "trials_done": "Prove effettuate",
-                "trials_success": "Prove conclusive",
-                "help": "0 per disattivare",
-                "force_label": "Tipo di saggio",
-                "types": {
-                    "trial": "Saggio per il miglioramento",
-                    "free": "Prova gratuita"
-                },
-                "force": {
-                    "yes": "I clienti saranno costretti a provare",
-                    "no": "I clienti potranno ordinare o richiedere un test"
-                },
-                "create": {
-                    "title": "Aggiunta di un prodotto di prova",
-                    "subheading": "Aggiunta di un prodotto di prova."
-                },
-                "show": {
-                    "title": "Modifica di un prodotto di prova",
-                    "subheading": "Puoi modificare le impostazioni di prova.",
-                    "successfully": "Prova conclusiva",
-                    "table_title": "Elenco dei servizi di prova"
-                }
-            }
-        }
-    },
-    "addons.sitemap.lang.fr.admin": {
-        "title": "Mappa del sito",
-        "description": "Genera un file sitemap.xml per il tuo sito web.",
-        "success": "Il file sitemap.xml è stato aggiornato con successo."
-    },
-    "addons.giftcard.lang.fr.messages": {
-        "modulename": "Carta regalo",
-        "description": "Gestisci le carte regalo per i tuoi clienti.",
-        "card": {
-            "code": "Codice della carta regalo"
-        },
-        "usage": "Utilizzo della carta regalo",
-        "giftcard_not_valid": "La carta regalo non è valida.",
-        "giftcard_redeemed": "Carta regalo utilizzata con successo. Importo: {_amount}",
-        "admin": {
-            "types": {
-                "fixed": "Importo fisso",
-                "random": "Importo casuale"
-            },
-            "create": {
-                "title": "Creare una carta regalo",
-                "subheading": "Crea una nuova carta regalo per i tuoi clienti."
-            },
-            "show": {
-                "title": "Dettagli della carta regalo",
-                "subheading": "Vedi i dettagli della carta regalo.",
-                "table_title": "Utilizzi della carta regalo"
-            },
-            "max_uses": "Utilizzi massimi",
-            "expires_at": "Scadenza",
-            "min_random_amount": "Importo minimo casuale",
-            "allowed_customer": "Cliente autorizzato",
-            "max_random_amount": "Importo massimo casuale",
-            "uses_help": "Il numero massimo di utilizzi di questa carta regalo. 0 per illimitato."
         }
     }
 }

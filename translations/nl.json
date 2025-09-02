@@ -1,557 +1,5 @@
 {
     "language": "Néerlandais",
-    "addons.discordlink.lang.fr.messages": {
-        "modulename": "Onenigheid Link",
-        "description": "Het beheren van de koppeling met je Discord-server van je hostingprovider",
-        "step1": "Stap 1",
-        "step2": "Stap 2",
-        "step3": "Stap 3",
-        "step4": "Stap 4",
-        "invitation": "Server Uitnodigingslink",
-        "dropkey": "Toets resetten",
-        "manual": {
-            "installation": "De aangepaste bot installeren",
-            "step1text": "Download de vooraf aangeschafte aangepaste bot door te klikken op <a href=\"https://clientxcms.com/client/downloads\" class=\"text-primary\" target=\"_blank\">deze link</a>. Het zal de link leggen tussen je Discord-server en je host.",
-            "step2text": "Kopieer het volgende token naar een veilige plaats. <b><u>Houd er rekening mee dat het slechts één keer wordt weergegeven.</u></b> Als het verliest, moet u het resetten.",
-            "step3text": "Pak het gedownloade bestand uit en volg het READ-bestand. ME om de bot te installeren en toe te voegen aan uw server.",
-            "step4text": "Zorg ervoor dat de bot over de benodigde machtigingen beschikt om de rol toe te voegen. (De bot moet boven de rol staan die moet worden toegevoegd.)"
-        },
-        "community": {
-            "installation": "De Community Discord-bot installeren",
-            "step1text": "Voeg de bot toe aan je Discord-server door te klikken op <a href=\"https://clientxcms.com/ref/discordbot\" class=\"text-primary\" target=\"_blank\">deze uitnodigingslink</a>. Het zal de link leggen tussen je Discord-server en je host.",
-            "step2text": "Kopieer de volgende opdracht naar uw server. <b><u>Houd er rekening mee dat de sleutel slechts één keer wordt weergegeven</u></b>. Als het verliest, moet u het resetten.",
-            "step3text": "Voer de volgende opdracht uit op uw Discord-server door er de clientrol aan toe te voegen. Als dit lukt, reageert de bot met een succesbericht.",
-            "step4text": "Zorg ervoor dat de bot over de benodigde machtigingen beschikt om de rol toe te voegen. (De bot moet boven de rol staan die moet worden toegevoegd.)"
-        },
-        "detection_type": "Type detectie",
-        "detection_types": {
-            "sync": "Gesynchroniseerd account",
-            "active_customers": "Klanten die hun account hebben gesynchroniseerd met een actieve service",
-            "all_customers": "Alle klanten die hun account hebben gesynchroniseerd met een bestaande service"
-        },
-        "detectedcustomers": "Klanten gedetecteerd",
-        "discordid": "ID Onenigheid",
-        "cardinfo": "Word lid van onze Discord-server om onze community te vinden, hulp te krijgen en aanvullende informatie te krijgen, zoals onze laatste promoties.",
-        "installation": "De Community Discord-bot installeren",
-        "joinserver": "Word lid van de server",
-        "guildid": "Server-ID",
-        "accept": "Accepteren",
-        "decline": "Weigeren",
-        "details": "Bijzonderheden",
-        "nocustomers": "Geen {_type} gedetecteerd",
-        "help": "Hulp nodig?",
-        "found": "Gesynchroniseerd account gedetecteerd: Wilt u de gegevens in dit ticket bekijken?",
-        "infosync": "Deze gegevens zijn gebaseerd op accounts die hun Discord-account hebben gesynchroniseerd met hun klantaccount via de SocialAuth+-extensie."
-    },
-    "addons.fund.lang.fr.messages": {
-        "transfer_title": "Euro's overmaken",
-        "credit_title": "Geld crediteren",
-        "invoice": {
-            "add_credit": "{_amount} credits toegevoegd"
-        },
-        "recipient": "Geadresseerde",
-        "transfer": {
-            "not_enough_funds": "Je hebt niet genoeg geld om deze overboeking uit te voeren",
-            "max_amount": "Het maximale overboekingsbedrag is {_amount}",
-            "min_amount": "Het minimale overboekingsbedrag is {_amount}",
-            "already_pending": "Een overdracht is al in behandeling. Wacht even voordat u er nog een maakt",
-            "recipient_not_found": "De ontvanger is niet gevonden",
-            "min_invoice": "U moet ten minste {_amount} aan uw account toevoegen om een overboeking uit te voeren",
-            "title": "Euro's overmaken",
-            "description": "Geld overmaken tussen twee rekeningen",
-            "recipient": "E-mailadres van het account van de ontvanger",
-            "btn": "Overdracht",
-            "cancel": "De verhuizing is geannuleerd",
-            "success": "Overdracht succesvol afgerond. U kunt deze transfer binnen {_minutes} minuten annuleren."
-        },
-        "card": {
-            "title": "Stort geld op mijn account",
-            "description": "Uw account bijschrijven om aankopen te doen op ons platform",
-            "amount": "Te crediteren bedrag",
-            "gateway": "Betalingsmethode",
-            "currentbalance": "Huidig saldo",
-            "error": "Het bedrag kan niet worden bijgeschreven op uw account. Er is geen betaalmethode beschikbaar. Neem contact op met de klantenservice."
-        },
-        "transfer_table": {
-            "title": "Overdracht geschiedenis"
-        },
-        "admin": {
-            "transfers": {
-                "title": "Geldovermakingen",
-                "transferred_at": "Overstappen naar",
-                "subtitle": "Hier vindt u de lijst met uitgevoerde geldovermakingen"
-            },
-            "settings": {
-                "title": "Fonds",
-                "subtitle": "Instellingen voor geldextensies beheren, waaronder minimum- en maximumbedragen, evenals overboekingen tussen rekeningen.",
-                "success": "Succesvol opgeslagen instellingen",
-                "fields": {
-                    "max_amount": "Maximumbedrag",
-                    "min_amount": "Minimumbedrag",
-                    "for_add_credit": "Voor het toevoegen van tegoed",
-                    "for_transfer": "Voor overschrijvingen tussen rekeningen",
-                    "minutes_delay": "Transfertijd (in minuten)",
-                    "minutes_delay_description": "Tijd overdragen tussen accounts",
-                    "min_invoice": "Minimale storting om een overboeking te kunnen doen",
-                    "min_invoice_description": "Het bedrag dat op de rekening wordt bijgeschreven om een overboeking te kunnen doen. 0 om uit te schakelen",
-                    "authorize_between_accounts": "Overschrijvingen tussen rekeningen toestaan"
-                }
-            }
-        }
-    },
-    "addons.import.lang.fr.import": {
-        "title": "Importeren",
-        "description": "Importeer eenvoudig een database uit de oude versie van ClientXCMS V1 of uit WHMCS naar deze NextGen ClientXCMS-instantie.",
-        "importwhmcs": "Import via WHMCS is binnenkort beschikbaar",
-        "importclientxcms": "Importeren vanuit de oude versie van ClientXCMS",
-        "db": {
-            "host": "Gastheer",
-            "port": "Haven",
-            "database": "Databank",
-            "username": "Gebruikersnaam",
-            "password": "Wachtwoord"
-        },
-        "v1": {
-            "importables": {
-                "products": "Produceren",
-                "groups": "Groepen",
-                "servers": "Servers",
-                "services": "Diensten",
-                "invoices": "Rekeningen",
-                "clients": "Klanten",
-                "pterodactyl": "Pterodactylus instellen",
-                "proxmox": "Configuratie van Proxmox",
-                "oses": "Proxmox besturingssystemen",
-                "templates": "Proxmox-modellen",
-                "plesk": "Configuratie van Plesk",
-                "socialauth": "Sociale LinkAuth+",
-                "support": "Tickets & Support Afdelingen",
-                "wisp": "Wisp configureren",
-                "proxmox_ipam": "Configuratie IPAM Proxmox"
-            },
-            "fromv1": "Importeren vanuit de oude versie van ClientXCMS",
-            "title": "ClientXCMS v1",
-            "description": "Importeren vanuit de oude versie van ClientXCMS"
-        },
-        "whmcs": {
-            "importables": {
-                "products": "Produceren",
-                "groups": "Groepen",
-                "servers": "Servers",
-                "services": "Diensten",
-                "clients": "Klanten",
-                "pterodactyl": "Pterodactylus instellen",
-                "wisp": "Wisp configureren",
-                "invoices": "Rekeningen"
-            },
-            "fromwhmcs": "Importeren uit WHMCS",
-            "title": "WHMCS",
-            "key": "Encoder sleutel",
-            "keyhelp": "De encodersleutel wordt gebruikt om de gegevens van WHMCS te ontsleutelen. Het is beschikbaar in het WHMCS-configuration.php bestand",
-            "description": "Importeren uit WHMCS"
-        },
-        "downloadreport": "Download het rapport",
-        "import": "Importeren",
-        "delay": "Even geduld a.u.b., het kan even duren voordat de pagina is geladen.",
-        "truncate": "Lege tabellen voor het importeren (sterk aanbevolen)"
-    },
-    "addons.page.lang.fr.messages": {
-        "must_be_logged": "U moet ingelogd zijn om toegang te krijgen tot deze pagina.",
-        "logged_only": "Pagina gereserveerd voor ingelogde gebruikers.",
-        "pdf": "PDF",
-        "script": "Script HTML",
-        "style": "Stijl CSS",
-        "redirect": "Omleiding",
-        "type": "Pagina Type",
-        "meta": "Meta Hoofd",
-        "types": {
-            "page": "Bladzijde",
-            "pdf": "PDF",
-            "html": "HTML",
-            "redirect": "Omleiding"
-        },
-        "admin": {
-            "title": "Bladzijden",
-            "description": "Maak, bewerk of verwijder dynamische pagina's die toegankelijk zijn voor klanten via het klantengedeelte.",
-            "count_views": "Aantal weergaven",
-            "views": "{_count} weergave|{_count} weergaven",
-            "see_page": "Bekijk pagina",
-            "create": {
-                "title": "Een pagina maken",
-                "subheading": "Maak een nieuwe pagina."
-            },
-            "show": {
-                "title": "Details van de pagina",
-                "subheading": "Details van de pagina."
-            }
-        }
-    },
-    "addons.purchasealert.lang.fr.messages": {
-        "neworder": "Een klant heeft een nieuwe bestelling geplaatst",
-        "admin": {
-            "title": "Melding aankoop",
-            "description": "Recente aankoopmeldingen weergeven in uw etalage",
-            "timeout": "Weergavetijd in milliseconden",
-            "days": "Maximaal aantal dagen om recente aankopen te herstellen",
-            "interval": "Tijdsinterval tussen meldingen in milliseconden"
-        }
-    },
-    "addons.sameipdetector.lang.fr.admin": {
-        "dashboard": {
-            "sameip_reports": "Dubbele accounts",
-            "pendingusers": "Gebruikers waarvan is vastgesteld dat ze een dubbel account hebben in afwachting van verificatie",
-            "knowuser": "Geassocieerde gebruiker",
-            "reject": "Verwerpen",
-            "accept": "Accepteren",
-            "description": "Hier kunt u de gebruikers vinden waarvan is vastgesteld dat ze een duplicaat van een ander account zijn van een andere klant."
-        },
-        "settings": {
-            "title": "Anti Dual Account-instellingen",
-            "description": "Stel de actie in die wordt ondernomen wanneer een account wordt geweigerd.",
-            "action": "Te nemen maatregelen"
-        }
-    },
-    "addons.sentry.lang.fr.admin": {
-        "title": "Schildwacht",
-        "description": "Stel de Sentry Error Monitoring Service in.",
-        "saved": "De instellingen zijn succesvol opgeslagen.",
-        "fields": {
-            "dsn": "DSN",
-            "sample_rate": "Bemonsteringsfrequentie",
-            "traces_sample_rate": "Bemonsteringsfrequentie traceren",
-            "profiles_sample_rate": "Bemonsteringsfrequentie van profielen",
-            "environment": "Milieu"
-        }
-    },
-    "addons.socialauth.lang.fr.messages": {
-        "logged_in": "Je bent verbonden.",
-        "login_with": "Log in met {_provider}",
-        "register_with": "Aanmelden met {_provider}",
-        "modulename": "Sociale Auth+",
-        "description": "Social Auth+ is een add-on waarmee gebruikers kunnen inloggen op uw website via externe serviceproviders.",
-        "client_id": "Klant-ID",
-        "client_secret": "Geheim van de klant",
-        "redirect": "Omleidings-URL",
-        "redirect_help": "Omleiding URL: {_url}",
-        "configurate": "Configureren",
-        "email_exists": "Er bestaat al een account met dit e-mailadres. Log in en koppel uw account.",
-        "error": "Er is een fout opgetreden. Probeer het opnieuw.",
-        "sync_with": "Synchroniseren met {_provider}",
-        "unlink": "Ontkoppelen van {_provider}",
-        "linked": "Uw account is succesvol gekoppeld.",
-        "already_linked": "Je account is al gekoppeld aan deze provider.",
-        "unlinked": "Uw account is met succes ontkoppeld.",
-        "finish_signup": "Gelieve uw registratie te voltooien.",
-        "finish_title": "Volledige registratie",
-        "signup_success": "Uw registratie is gelukt.",
-        "count_linked": "Er zijn {_count} gekoppelde account(s).",
-        "finish_subtitle": "Voer de ontbrekende gegevens in om uw registratie te voltooien."
-    },
-    "modules.proxmox.lang.fr.messages": {
-        "settings": {
-            "title": "Proxmox",
-            "description": "Beheer de verschillende opties van de Proxmox-module (IPAM, Templates, Oses)."
-        },
-        "panel": {
-            "info": "VPS-informatie",
-            "serverneedrestart": "De server moet opnieuw worden opgestart om de resourcewijzigingen toe te passen.",
-            "serverinrestore": "De server is aan het herstellen, please wacht even."
-        },
-        "data": {
-            "os": "Besturingssysteem",
-            "security": "Veiligheid"
-        },
-        "console": {
-            "title": "Troosten"
-        },
-        "logs": {
-            "title": "Historisch",
-            "description": "Geschiedenis van acties die zijn uitgevoerd op VM's.",
-            "by": "Bij",
-            "action": "Actie",
-            "users": {
-                "system": "Systeem",
-                "user": "Gebruiker",
-                "admin": "Administrator"
-            },
-            "start": "Het opstartcommando is naar de VPS gestuurd.",
-            "stop": "Het stop-commando is naar de VPS gestuurd",
-            "restart": "Het herstartcommando is naar de VPS gestuurd.",
-            "destroy": "Het vernietigingscommando is naar de VPS gestuurd.",
-            "reinstall": "Het reinstall commando is verstuurd naar de VPS.",
-            "snapshot_destroy": "De momentopname is verwijderd.",
-            "snapshot_create": "De momentopname is gemaakt.",
-            "snapshot_restore": "De momentopname is hersteld.",
-            "backup_create": "De back-up is gemaakt.",
-            "backup_destroy": "De back-up is verwijderd.",
-            "reinstall_done": "De herinstallatie van de VM is succesvol afgerond.",
-            "start_destroy": "De virtuele machine is gestopt."
-        },
-        "graphs": {
-            "title": "Grafiek",
-            "cpu": "CPU",
-            "memory": "Geheugen",
-            "disk": "Schijf",
-            "network": "Netwerk",
-            "timeframes": {
-                "hour": "Allerlaatste nieuws",
-                "day": "Laatste dag",
-                "week": "Vorige week",
-                "month": "Afgelopen maand",
-                "year": "Laatste jaar"
-            }
-        },
-        "reinstallation": {
-            "title": "Herinstallatie",
-            "description": "Installeer de VM opnieuw.",
-            "limited": "U hebt het maximum aantal herinstallaties bereikt.",
-            "limit_text": "Je hebt {_current} gemaakt op de {_max} toegestaan.",
-            "submit": "Opnieuw installeren",
-            "reinstall_success": "De VM is opnieuw geïnstalleerd.",
-            "reinstall_error": "Er is een fout opgetreden tijdens het opnieuw installeren van de VM.",
-            "confirm": "Weet u zeker dat u deze virtuele machine opnieuw wilt installeren?",
-            "success": "De VM is opnieuw geïnstalleerd."
-        },
-        "sshkeys": "SSH-sleutels",
-        "hostname": "Hostnaam",
-        "server": "Server",
-        "node": "Knoop",
-        "disk_storage": "Schijf-opslag",
-        "unprivileged": "Kansloos (alleen LXC)",
-        "username": "SSH-gebruikersnaam",
-        "uptime": "Bedrijfstijd",
-        "features": "Functies (alleen LXC)",
-        "max_snapshots": "Maximaal aantal snapshots",
-        "max_backups": "Maximaal aantal back-ups",
-        "max_reinstall": "Maximaal aantal hervestigingen",
-        "max_helpers": "U kunt -1 instellen voor onbeperkt of 0 om uit te schakelen",
-        "clear_cache_if_empty": "Wis de cache als de velden leeg zijn of controleer of uw Proxmox API-sleutel NIET in Privilege Separation MAG staan.",
-        "virtualisation_type": "Type virtualisatie",
-        "importinfo": "Deze informatie wordt gebruikt om het later gemakkelijker te maken om de machine opnieuw te installeren.",
-        "templates": {
-            "title": "KVM-modellen",
-            "description": "Beheer VM-sjablonen die kunnen worden gebruikt voor de levering van KVM VPS.",
-            "name": "Naam",
-            "os": "Besturingssysteem",
-            "vmids": "VM-id",
-            "create": {
-                "title": "Maak een sjabloon",
-                "description": "Maak een nieuwe VM-sjabloon."
-            },
-            "show": {
-                "title": "Model Details",
-                "description": "Details van het VM-model."
-            }
-        },
-        "oses": {
-            "title": "LXC-besturingssystemen",
-            "description": "Beheer van besturingssystemen die gebruikt kunnen worden voor de oplevering van LXC VPS.",
-            "name": "Naam",
-            "oses": "Besturingssystemen",
-            "create": {
-                "title": "Een besturingssysteem maken",
-                "description": "Maak een nieuw besturingssysteem."
-            },
-            "show": {
-                "title": "Details van het besturingssysteem",
-                "description": "Details van het besturingssysteem."
-            }
-        },
-        "ipam": {
-            "title": "IPAM",
-            "description": "IPv4- en IPv6-adresmanager voor distributie op de VPS-services van uw klanten op Proxmox.",
-            "ip": "IP-adres",
-            "netmask": "CIDR",
-            "gateway": "Gateway",
-            "bridge": "Brug",
-            "mtu": "MTU",
-            "mac": "MAC-adres",
-            "ipv6": "IPv6-adres",
-            "ipv6_gateway": "IPv6-gateway",
-            "is_primary": "Primair",
-            "service_id": "Dienst",
-            "notes": "Notities",
-            "dhcp_help": "U kunt \"dhcp\" in dit veld plaatsen om DHCP voor dat IP-adres in te schakelen.",
-            "create": {
-                "title": "Een IP-adres maken",
-                "description": "Maak een nieuw IP-adres aan in de IPAM.",
-                "ranges": {
-                    "title": "Snel IP-adressen toevoegen",
-                    "block": "Blokkeren",
-                    "block_help": "Het moet bevatten\". XX\" die zal worden vervangen door het adres.",
-                    "description": "Importeer eenvoudig adresbereiken in uw IPAM.",
-                    "range": "Bereik",
-                    "success": "{_count} IP-adressen zijn succesvol toegevoegd.",
-                    "import": "Importeren"
-                }
-            },
-            "show": {
-                "title": "IP-adres gegevens",
-                "description": "IP-adres gegevens."
-            },
-            "states": {
-                "available": {
-                    "title": "Beschikbaar",
-                    "mass_action": "Instellen als beschikbaar",
-                    "description": "Dit IP-adres is beschikbaar voor gebruik."
-                },
-                "used": {
-                    "title": "Gebruikt",
-                    "mass_action": "Instellen zoals gebruikt",
-                    "description": "Dit IP-adres wordt gebruikt door een dienst."
-                },
-                "unavailable": {
-                    "title": "Onbeschikbaar",
-                    "mass_action": "Instellen als niet beschikbaar",
-                    "description": "Dit IP-adres is niet beschikbaar voor gebruik."
-                }
-            }
-        },
-        "disks": {
-            "volume": "Volume",
-            "format": "Formaat"
-        },
-        "backups": {
-            "nobackupstorage": "Er is geen back-up opslag geconfigureerd voor deze server. Neem contact op met de beheerder.",
-            "size": "Maat",
-            "notes": "Aantekeningen",
-            "create_title": "Een back-up maken",
-            "is_protected": "Parel",
-            "automatic": "Automatisch",
-            "restore": "Herstellen",
-            "limited": "U heeft het maximumaantal toegestane back-ups bereikt.",
-            "confirm_restore": "Weet u zeker dat u deze back-up wilt herstellen? Dit zal de huidige gegevens van de virtuele machine overschrijven.",
-            "restore_success": "De herstelling van de back-up is succesvol gestart.",
-            "restore_error": "Er is een fout opgetreden bij het herstellen van de back-up.",
-            "confirm_delete": "Bent u er zeker van dat u deze back-up wilt verwijderen?",
-            "delete_success": "De back-up is succesvol verwijderd.",
-            "delete_error": "Er is een fout opgetreden bij het verwijderen van de back-up.",
-            "create_success": "De back-up is succesvol gestart. Het maken kan enige tijd duren, afhankelijk van de grootte van de virtuele machine.",
-            "create_error": "Er is een fout opgetreden bij het maken van de back-up."
-        },
-        "snapshots": {
-            "title": "Momentopnamen",
-            "create_invalid_notes": "De naam van de snapshot mag alleen letters, cijfers, spaties en liggende streepjes bevatten.",
-            "create_duplicate": "Er bestaat al een snapshot met deze naam.",
-            "confirm_restore": "Weet je zeker dat je deze snapshot wilt herstellen? Dit zal de huidige gegevens van de virtuele machine overschrijven.",
-            "restore_success": "De restauratie van de snapshot is succesvol gestart.",
-            "restore_error": "Er is een fout opgetreden bij het herstellen van de snapshot.",
-            "confirm_delete": "Weet u zeker dat u deze snapshot wilt verwijderen?",
-            "delete_success": "De snapshot is succesvol verwijderd.",
-            "delete_error": "Er is een fout opgetreden bij het verwijderen van de snapshot.",
-            "create_title": "Een snapshot maken",
-            "create_success": "De snapshot is succesvol aangemaakt.",
-            "create_error": "Er is een fout opgetreden bij het maken van de snapshot."
-        }
-    },
-    "modules.pterobox.lang.fr.messages": {
-        "my_servers": "Mijn servers",
-        "create_server": "Een server maken",
-        "server_name": "Naam van de server",
-        "egg": "Ei",
-        "doyouwantreallydelete": "Weet je zeker dat je deze server wilt verwijderen?",
-        "server_actions": "Acties",
-        "server_details": "Server Details",
-        "delete_server": "De server verwijderen",
-        "server_deleted": "De server is met succes verwijderd.",
-        "server_updated": "De server is succesvol bijgewerkt.",
-        "resource_not_available": "Er zijn niet meer genoeg resources voor deze server.",
-        "error_in_deletion": "Er is een fout opgetreden bij het verwijderen van de server.",
-        "error_in_update": "Er is een fout opgetreden tijdens het updaten van de server.",
-        "error_in_power": "Er is een fout opgetreden tijdens de actie.",
-        "server_powered": "Er is rekening gehouden met de actie.",
-        "server_created": "De server is succesvol gemaakt.",
-        "error_in_creation": "Er is een fout opgetreden tijdens het maken van de server.",
-        "allocations_help": "Als u een server wilt maken, moet u ten minste één toewijzing hebben.",
-        "no_servers_available": "Er kunnen geen servers meer worden aangemaakt in de doos.",
-        "no_servers_created": "Er zijn op dit moment geen servers gemaakt.",
-        "additional_servers": "Extra servers"
-    },
-    "modules.pterodactyl.lang.fr.messages": {
-        "optionstypes": {
-            "location_id": "Locatie-ID Pterodactylus",
-            "dedicated_ip": "Pterodactylus toegewijd IP-adres"
-        }
-    },
-    "modules.virtualizor.lang.fr.messages": {
-        "server_group": "Server Groep",
-        "data": {
-            "os": "Besturingssysteem",
-            "security": "Veiligheid"
-        },
-        "username": "Gebruikersnaam",
-        "ips": "IP-adressen",
-        "hostname": "Hostnaam",
-        "panel": {
-            "info": "VPS-informatie",
-            "num_vs": "Aantal toegestane VPS",
-            "num_users": "Aantal geautoriseerde gebruikers",
-            "num_ips": "Aantal toegewezen IP's",
-            "disk_space": "Toegewezen schijfruimte",
-            "memory": "Toegewezen geheugen",
-            "cores": "Toegewezen kernen",
-            "reinstallation": {
-                "title": "Herinstallatie",
-                "description": "Installeer de VM opnieuw.",
-                "submit": "Opnieuw installeren"
-            },
-            "hostname": {
-                "title": "De hostnaam wijzigen",
-                "success": "De hostnaam is met succes gewijzigd.",
-                "description": "Wijzig de hostnaam van de virtuele machine."
-            },
-            "resetpassword": {
-                "title": "Wachtwoord opnieuw instellen",
-                "success": "Het wachtwoord is opnieuw ingesteld.",
-                "description": "Stel het VM-wachtwoord opnieuw in."
-            },
-            "console": {
-                "title": "Troosten",
-                "description": "Toegang tot de VM-console."
-            },
-            "graphs": {
-                "title": "Grafiek",
-                "description": "Bekijk de VM-grafieken."
-            }
-        }
-    },
-    "modules.virtualizor_cloud.lang.fr.messages": {
-        "data": {
-            "os": "Besturingssysteem",
-            "security": "Veiligheid"
-        },
-        "hostname": "Hostnaam",
-        "panel": {
-            "info": "VPS-informatie",
-            "reinstallation": {
-                "title": "Herinstallatie",
-                "description": "Installeer de VM opnieuw.",
-                "submit": "Opnieuw installeren",
-                "reinstall_success": "De herinstallatie van de VM is succesvol afgerond.",
-                "reinstall_error": "Er is een fout opgetreden tijdens het opnieuw installeren van de VM."
-            },
-            "password": {
-                "title": "Wachtwoord",
-                "description": "Wijzig het wachtwoord van de virtuele machine.",
-                "submit": "Wachtwoord wijzigen",
-                "password_success": "Het wachtwoord voor de virtuele machine is gewijzigd.",
-                "password_error": "Er is een fout opgetreden bij het wijzigen van het wachtwoord van de virtuele machine."
-            },
-            "hostname": {
-                "title": "Hostnaam",
-                "description": "Wijzig de hostnaam van de virtuele machine.",
-                "submit": "De hostnaam wijzigen",
-                "hostname_success": "De hostnaam van de virtuele machine is gewijzigd.",
-                "hostname_error": "Er is een fout opgetreden tijdens het wijzigen van de hostnaam van de virtuele machine."
-            }
-        }
-    },
-    "modules.wisp.lang.fr.messages": {
-        "optionstypes": {
-            "location_id": "Locatie-ID Wisp",
-            "dedicated_ip": "Wisp Dedicated IP"
-        }
-    },
     "lang.fr.actionslog": {
         "settings": {
             "title": "Logboeken van acties",
@@ -690,7 +138,8 @@
                     "config_option_service": "Configuratieoptie voor verlenging",
                     "custom_item": "Product op maat",
                     "upgrade": "Verbetering",
-                    "free_trial": "Gratis proef"
+                    "free_trial": "Gratis proef",
+                    "gift_card": "Cadeaukaart"
                 },
                 "gateway_canvas": "Betaalmethoden van klanten",
                 "gateway_canvas_help": "Betaalmethoden die door klanten worden gebruikt om hun rekeningen te betalen",
@@ -986,7 +435,23 @@
                 "notes": "Opmerkingen op de factuur",
                 "external_id": "Externe ID",
                 "title": "Factuurkaart {_id}",
-                "subheading": "Hier is de informatie met betrekking tot deze factuur aangemaakt op {_date}"
+                "subheading": "Hier is de informatie met betrekking tot deze factuur aangemaakt op {_date}",
+                "tabs": {
+                    "edit": "Factuuruitgave",
+                    "show": "Weergave van de factuur",
+                    "billing": "Factureringsinformatie",
+                    "advanced": "Geavanceerd"
+                },
+                "fulfillment": {
+                    "title": "Levering van de factuur",
+                    "subheading": "Lever de producten van de factuur aan de klant",
+                    "items_count": "{_count} Artikel|{_count} Artikelen",
+                    "confirmation": {
+                        "cancel_title": "Wilt u de levering van dit product echt annuleren?",
+                        "confirm": "Ja",
+                        "cancel": "Nee"
+                    }
+                }
             },
             "create": {
                 "title": "Een factuur maken",
@@ -998,7 +463,19 @@
             "paidsuccess": "De factuur is gemarkeerd als succesvol betaald",
             "payinvoicebtn": "Debiteren",
             "payinvoicetitle": "Betaal de rekening",
-            "payinvoicedescription": "Breng kosten in rekening bij een klant om de rekening te betalen."
+            "payinvoicedescription": "Breng kosten in rekening bij een klant om de rekening te betalen.",
+            "export": {
+                "btn": "Exporteur",
+                "title": "Facturen exporteren",
+                "subheading": "Exporteer de facturen in CSV-, XLSX- of PDF-formaat",
+                "format": "Formaat",
+                "date_to": "Einddatum",
+                "date_from": "Startdatum"
+            },
+            "deliver": "Leveren",
+            "delivered_at": "Afgeleverd op {_date}",
+            "cancelled_at": "Geannuleerd op {_date}",
+            "itemcancelled": "Het artikel is succesvol geannuleerd"
         },
         "admins": {
             "title": "Persoonlijk",
@@ -1100,7 +577,8 @@
                         "force_login_client": "Forceer de verbinding om toegang te krijgen tot het klantengedeelte",
                         "banned_emails": "Verboden e-mails",
                         "banned_emails_help": "Gescheiden door komma's (bijv. mailinator.com, yopmail.com, exemple@example.com)",
-                        "hash_driver_help": "/!\\ De oude wachtwoorden zijn niet compatibel met het nieuwe stuurprogramma. U moet gebruikerswachtwoorden opnieuw instellen."
+                        "hash_driver_help": "/!\\ De oude wachtwoorden zijn niet compatibel met het nieuwe stuurprogramma. U moet gebruikerswachtwoorden opnieuw instellen.",
+                        "gdrp_cookies_privacy_link": "Link naar uw privacybeleid"
                     },
                     "success": "De beveiligingsinstellingen zijn succesvol opgeslagen."
                 }
@@ -1141,7 +619,14 @@
             "last_check": "Laatst gecontroleerd {_date}",
             "client_id": "Klant-ID",
             "description": "Beheer uw licentie en gerelateerde informatie of werk uw beschikbare modules bij.",
-            "force": "Verificatie forceren"
+            "force": "Verificatie forceren",
+            "support_expiration": "Uw ondersteuning verloopt op {_date}",
+            "support_expired": "Uw ondersteuning is verlopen op {_date}",
+            "renew_support": "Ondersteuning vernieuwen",
+            "renew_license": "De licentie vernieuwen",
+            "buy_support": "Ondersteuning kopen",
+            "no_support": "U heeft geen actieve ondersteuning",
+            "type": "Type licentie"
         },
         "metadata": {
             "title": "Metagegevens",
@@ -1195,7 +680,30 @@
             "rotate": "Regenereren",
             "created": "<span>De API-sleutel is succesvol aangemaakt. API-sleutel Toepassing: \"<b><code>{_key}</code></b>\" <br/> Let op, deze zal na deze pagina niet meer worden weergegeven. Gelieve deze te kopiëren en veilig te bewaren.</span>"
         },
-        "doyouwantclone": "Wilt u dit element echt klonen?"
+        "doyouwantclone": "Wilt u dit element echt klonen?",
+        "update": {
+            "changelog": "Journal van wijzigingen",
+            "title": "Bijwerken",
+            "subheading": "Controleer de laatste updates en houd uw systeem up-to-date.",
+            "update_version": "Bijwerken",
+            "local_environment": "U bent in een lokale omgeving",
+            "local_environment_message": "De update zal uw mogelijke wijzigingen overschrijven. Zorg ervoor dat u een backup heeft voordat u verder gaat.",
+            "status_title": "Status van uw versie",
+            "status_subtitle": "Controleer of er een nieuwe versie beschikbaar is.",
+            "up_to_date": "Je bent up-to-date!",
+            "up_to_date_message": "U gebruikt de nieuwste versie.",
+            "update_available": "Beschikbare update",
+            "new_version_is": "De versie {_version} is beschikbaar.",
+            "current_version": "Huidige versie",
+            "available_version": "Beschikbare versie",
+            "update_to_version": "Bijwerken naar versie {version}",
+            "whats_new_in": "Nieuwigheden van de {_versie}",
+            "published_on": "Gepubliceerd op {_date}",
+            "added": "Toevoegingen",
+            "changed": "Veranderingen & Verbeteringen",
+            "error_fetching": "Kan de informatie niet ophalen",
+            "error_fetching_message": "Probeer het later opnieuw of neem contact op met de klantenservice."
+        }
     },
     "lang.fr.auth": {
         "failed": "Deze identificatiegegevens komen niet overeen met onze gegevens.",
@@ -1405,7 +913,8 @@
             },
             "payment_method_used": "Betalingsmethode gebruikt",
             "invoices": "Facturen betaald met betaalmiddelen",
-            "invoices_description": "Hieronder vindt u de lijst van de betaalde facturen met automatische incasso."
+            "invoices_description": "Hieronder vindt u de lijst van de betaalde facturen met automatische incasso.",
+            "payment_method_used_help": "Identificatie van de betaalmethode die is gebruikt om deze factuur te betalen. Optioneel, kan leeggelaten worden."
         },
         "services": {
             "index": "Mijn diensten",
@@ -1474,7 +983,11 @@
                     "index": "Beheer uw abonnementen",
                     "index_description": "Hieronder vindt u de lijst van uw diensten die automatisch verlengd kunnen worden. U kunt de automatische verlenging voor elke dienst in- of uitschakelen.",
                     "next_renewal": "Volgende vernieuwing"
-                }
+                },
+                "invalid_billing_day": "De volgende factureringsdatum moet tussen de {_day} en {_now} liggen.",
+                "billing_day": "Factureringsdatum",
+                "billing_day_help": "De factureringsdag is de dag van de maand waarop de betaling zal plaatsvinden. Bijvoorbeeld, als u de 5 kiest, zal de betaling op de 5e van elke maand plaatsvinden.",
+                "billing_day_updated": "De facturering date is succesvol bijgewerkt. De volgende betaling wordt gedaan op {_date}."
             },
             "upgrade": {
                 "upgrade_to": "Upgraden naar {_product}",
@@ -1629,7 +1142,15 @@
             "disabled": "Invalide",
             "activable": "Geactiveerd",
             "notactivable": "Niet activeerbaar",
-            "buy": "Kopen"
+            "buy": "Kopen",
+            "installed": "Geïnstalleerd",
+            "update": "Bijwerken",
+            "processing": "Behandeling in uitvoering...",
+            "processing_error": "Er is een fout opgetreden, probeer het alstublieft opnieuw.",
+            "install": "installer",
+            "reviews": "advies",
+            "search": "Zoek een extensie",
+            "search_placeholder": "Zoeken op naam, beschrijving of tag"
         },
         "onetime": "Slechts één keer",
         "monthly": "Maandelijks",
@@ -1641,7 +1162,10 @@
             "extension_not_loaded": "De extensie {_extension} is vereist om deze extensie te activeren.",
             "extension_not_installed": "De extensie {_extension} is niet geïnstalleerd.",
             "extension_version_not_compatible": "De extensieversie {_extension} ({_current}) is niet compatibel met de vereiste versie ({_version}).",
-            "cache_cleared": "De cache is gewist."
+            "cache_cleared": "De cache is gewist.",
+            "enabled": "De extensie is succesvol geactiveerd.",
+            "disabled": "De extensie is succesvol uitgeschakeld.",
+            "updated": "De extensie is succesvol bijgewerkt."
         }
     },
     "lang.fr.global": {
@@ -1810,7 +1334,19 @@
         "server": "Server",
         "is_enabled": "Geactiveerd",
         "is_disabled": "Deactiveer",
-        "home": "Thuis"
+        "home": "Thuis",
+        "by": "Door",
+        "for": "Voor",
+        "company_name": "Naam van het bedrijf",
+        "billing_details": "Factureringdetails",
+        "billing_details_help": "Aanvullende informatie om op de facturen op te nemen",
+        "used": "Gebruikt",
+        "pay": "Betaler",
+        "seeless": "Minder zien",
+        "gdpr": {
+            "text": "Door deze site te gebruiken, accepteert u onze",
+            "link": "Privacybeleid"
+        }
     },
     "lang.fr.helpdesk": {
         "ticket": "Kaartje",
@@ -2055,7 +1591,10 @@
             "hosting_name": "Bedrijfsnaam",
             "connect": "Aanmelden",
             "migrationwarning": "Waarschuwing: de database is niet gemigreerd. Voer a.u.b. \"php artisan migrate --force --seed\" uit om de database te migreren.",
-            "detecteddomain": "Domein gedetecteerd: {_domain}. Zorg ervoor dat het domein exact overeenkomt met het domein van uw licentie (inclusief het subdomein indien van toepassing)."
+            "detecteddomain": "Domein gedetecteerd: {_domain}. Zorg ervoor dat het domein exact overeenkomt met het domein van uw licentie (inclusief het subdomein indien van toepassing).",
+            "locales": "Talen",
+            "infolicense": "Om een klant-ID en een clientgeheim te verkrijgen, moet u een CLIENTXCMS-licentie hebben. <a href=\"{_link}\" target=\"_blank\" class=\"underline\">Klik hier om uw inloggegevens gratis op te halen.</a>",
+            "eula": "Door deze pagina te raadplegen, stemt u in met de voorwaarden van de CLIENTXCMS-licentie die beschikbaar is op clientxcms.com/eula."
         },
         "register": {
             "title": "Registratie",
@@ -2066,7 +1605,14 @@
             "title": "Samenvatting",
             "btn": "Fins"
         },
-        "submit": "Verzenden"
+        "submit": "Verzenden",
+        "password": "Wachtwoord",
+        "firstname": "Voornaam",
+        "lastname": "Achternaam",
+        "email": "E-mail",
+        "password_confirmation": "Bevestiging van het wachtwoord",
+        "authentication": "Authenticatie",
+        "extensions": "Extensies"
     },
     "lang.fr.maintenance": {
         "settings": {
@@ -2145,7 +1691,10 @@
         "staff_permissions": "Machtigingen van het personeel",
         "show_helpdesk_analytics": "Bekijk de statistieken van het helpcentrum",
         "manage_tickets_department": "Beheer alleen de tickets van de afdeling {_name}",
-        "manage_api_keys": "Beheren van API-sleutels"
+        "manage_api_keys": "Beheren van API-sleutels",
+        "export_invoices": "Facturen exporteren",
+        "manage_subdomains_hosts": "Beheren van de host-subdomeinen",
+        "manage_update": "CLIENTXCMS bijwerken"
     },
     "lang.fr.personalization": {
         "title": "Aanpassing",
@@ -2273,7 +1822,8 @@
             "content": "Tevreden",
             "show": {
                 "title": "Een sectie bewerken",
-                "subheading": "U kunt de inhoud van uw sectie naar wens bewerken"
+                "subheading": "U kunt de inhoud van uw sectie naar wens bewerken",
+                "protected_content": "Dit gedeelte is beveiligd en kan niet worden gewijzigd."
             },
             "fields": {
                 "url": "Sectie Pagina",
@@ -2329,7 +1879,9 @@
                     "dark": "Donker",
                     "both": "Beide"
                 }
-            }
+            },
+            "info": "U kunt nu uw thema kiezen onder extensies > thema's. <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Klik hier om toegang te krijgen</a>.",
+            "current_theme": "Huidig onderwerp"
         },
         "menu_links": {
             "title": "Menu links",
@@ -2578,7 +2130,9 @@
                     "title": "Service annuleren",
                     "restore": "Service herstellen",
                     "reason": "Reden van annulering",
-                    "success": "De dienst is succesvol geannuleerd"
+                    "success": "De dienst is succesvol geannuleerd",
+                    "delivery": "Annuleer de levering van de service",
+                    "pending": "De service is in afwachting van levering. Als u annuleert, wordt het niet geleverd."
                 },
                 "uncancel": {
                     "success": "De service is met succes hersteld"
@@ -2681,12 +2235,14 @@
                     "additional_io": "Aanvullende I/O",
                     "additional_allocations": "Aanvullende vergoedingen",
                     "custom": "Gewoonte"
-                }
+                },
+                "cannot_delete_in_use": "Het is niet mogelijk om deze configuratie-optie te verwijderen omdat deze wordt gebruikt door een of meerdere diensten."
             }
         },
         "autologin_admin": "Automatische verbinding als administrator",
         "doyouwantreallyreinstallvps": "Wilt u deze server echt opnieuw installeren?",
-        "disks": "Schijven"
+        "disks": "Schijven",
+        "eggs_help": "Als je het spel ei dat je wilt niet kunt vinden, kun je de cache in je extensies leegmaken."
     },
     "lang.fr.recurring": {
         "onetime": "Levenslang",
@@ -2790,7 +2346,8 @@
         "ht": "HT",
         "our_offers": "Onze aanbiedingen",
         "ttc": "TTC",
-        "transaction_fee": "Transactiekosten"
+        "transaction_fee": "Transactiekosten",
+        "total_topay": "Totaal te betalen"
     },
     "lang.fr.validation": {
         "accepted": "Het veld {_attribute} moet worden geaccepteerd.",
@@ -3038,211 +2595,6 @@
         "upgrade": {
             "title": "Service upgraded",
             "description": "Een dienst is geüpgraded"
-        }
-    },
-    "addons.contact.lang.fr.lang": {
-        "title": "Contacten",
-        "pending": "Inwachting van contactverzoeken",
-        "description": "Verwerk de contactverzoeken van uw gebruikers in uw klantomgeving.",
-        "management_title": "Beheer van contactverzoeken",
-        "management_description": "Lijst van alle contactverzoeken",
-        "show_title": "Contactgegevens",
-        "show_description": "Bekijk de details van het contactverzoek",
-        "title_page": "Neem contact met ons op",
-        "subject": "Onderwerp van de aanvraag",
-        "content_label": "Beschrijf uw verzoek",
-        "object_label": "Onderwerp van de aanvraag",
-        "max_characters": "Beperkt tot {_max} tekens",
-        "send": "Verstuur de aanvraag",
-        "subtitle_page": "Wij zouden blij zijn om uw berichten te ontvangen. Vul het onderstaande formulier in en wij zullen zo snel mogelijk op u reageren.",
-        "actions": {
-            "delete_success": "Het contactverzoek is succesvol verwijderd.",
-            "update_success": "De status van de contactaanvraag is succesvol bijgewerkt.",
-            "reply_email": "Beantwoorden per e-mail",
-            "send_mail": "Stuur een e-mail naar de klant",
-            "limit_error": "U heeft minder dan 5 minuten geleden al een contactverzoek verzonden.",
-            "store_success": "Het contactverzoek is succesvol geregistreerd."
-        },
-        "status": {
-            "read": "Verdrag",
-            "unread": "Niet behandeld"
-        },
-        "webhook": {
-            "title": "Nieuwe contactaanvraag",
-            "description": "Er is een nieuw contactverzoek ontvangen"
-        },
-        "errors": {
-            "not_found": "Het contactverzoek is niet gevonden",
-            "update_failed": "De update van de contactaanvraag is mislukt"
-        },
-        "status_updated_at": "Status bijgewerkt op {_date}",
-        "settings": {
-            "title": "Voorkeuren van de contactpagina",
-            "description": "Stel uw voorkeuren in voor de contactpagina.",
-            "security_settings": "Beveiligingsinstellingen",
-            "media_settings": "Media-instellingen",
-            "enable_captcha": "Activeer de captcha",
-            "enable_captcha_description": "Voeg een extra bescherming tegen spam toe",
-            "webhook": "Notificatie van een externe URL",
-            "webhook_description": "Stuur de contactverzoeken naar een externe URL",
-            "subscribers": "Personeel notificeren",
-            "subscribers_description": "Stuur de contactverzoeken naar specifieke personeelsleden",
-            "require_login": "Een verbinding vereisen",
-            "require_login_description": "Gebruikers moeten ingelogd zijn om een bericht te verzenden",
-            "page_image": "Afbeelding van de pagina",
-            "disabled": "Deactiveer",
-            "enabled": "Geactiveerd"
-        }
-    },
-    "addons.free_trial.lang.fr.lang": {
-        "trialbtn": "Probeer",
-        "errors": {
-            "max_allowed_services": "De limiet voor diensten in test is overschreden. Kom later terug.",
-            "max_services": "U heeft het aantal gratis proefversies voor deze service al bereikt."
-        },
-        "invoice": {
-            "name": "Aanbiedingspoging",
-            "description": "Proefperiode voor aanbieding {_product} ({_start}-{_end})."
-        },
-        "config": {
-            "total_now": "Totaal te betalen nu",
-            "total_after_trial": "Totaal te betalen na de proef",
-            "start": "Beginnen",
-            "title": "Begin uw proef",
-            "period": "Periode",
-            "details": "U kunt uw betaling uitvoeren tot {_days} dagen na het einde van uw proefperiode, overeenkomstig de toepasselijke voorwaarden. U heeft de mogelijkheid om de proef op elk moment te annuleren.",
-            "want_trial": "Wilt u het product testen voordat u het koopt?",
-            "can_trial": "U kunt het product {_days} dagen testen."
-        },
-        "service": {
-            "free": {
-                "title": "Uw proefservice vernieuwen",
-                "subheading": "U kunt uw proefservice verlengen tot {_date} voordat deze op {_date2} wordt geannuleerd."
-            },
-            "trial": {
-                "title": "Verbeter uw proefservice",
-                "subheading": "U kunt uw proefservice verbeteren tot {_date} voordat deze op {_date2} wordt geannuleerd."
-            }
-        },
-        "admin": {
-            "config": {
-                "current_allowed_services": "Huidig aantal lopende proeven",
-                "max_allowed_services": "Maximaal aantal lopende pogingen",
-                "title": "Configuratie van de gratis proefversies",
-                "subheading": "Configureer uw gratis proefproducten.",
-                "max_services": "Maximaal aantal pogingen per klant",
-                "trial_days": "Aantal dagen van de proef",
-                "current_trials": "Huidige testen",
-                "trials_done": "Uitgevoerde testen",
-                "trials_success": "Sluitende proeven",
-                "help": "0 om uit te schakelen",
-                "force_label": "Soort proef",
-                "types": {
-                    "trial": "Proef voor verbetering",
-                    "free": "Gratis proef"
-                },
-                "force": {
-                    "yes": "De klanten zullen gedwongen worden om te proberen",
-                    "no": "Klanten kunnen bestellen of om een proef te vragen"
-                },
-                "create": {
-                    "title": "Toevoegen van een proefproduct",
-                    "subheading": "Toevoegen van een proefproduct."
-                },
-                "show": {
-                    "title": "Wijziging van een proefproduct",
-                    "subheading": "U kunt de proefinstellingen aanpassen.",
-                    "successfully": "Geslaagd proefschrift",
-                    "table_title": "Lijst van testdiensten"
-                }
-            }
-        }
-    },
-    "addons.sitemap.lang.fr.admin": {
-        "title": "Sitemap",
-        "description": "Genereer een sitemap.xml-bestand voor uw website.",
-        "success": "Het bestand sitemap.xml is succesvol bijgewerkt."
-    },
-    "modules.download.lang.fr.admin": {
-        "download_files": {
-            "title": "Downloadbestanden",
-            "description": "Bestand- en versiebeheer voor downloads",
-            "external_file": "Extern bestand",
-            "local_file": "Lokaal bestand",
-            "adapter": "Adapter",
-            "downloads": "Downloads",
-            "downloads_limit": "Beperkingen op downloads",
-            "downloads_limit_help": "Laat 0 voor onbeperkt",
-            "protected": "Parel",
-            "last_version": "Laatste versie",
-            "add_version": "Een versie toevoegen",
-            "version": "Versie",
-            "version_created_at": "Versie gemaakt op {_date}. {_downloads} downloads",
-            "protected_help": "Als het is ingeschakeld, moeten klanten het kopen om het te downloaden.",
-            "max_upload_size": "De maximale uploadgrootte is {_size}",
-            "create": {
-                "title": "Maak een downloadbestand aan",
-                "subheading": "Een nieuw downloadbestand aanmaken"
-            },
-            "show": {
-                "title": "Toon het downloadbestand",
-                "subheading": "Toon de details van het downloadbestand"
-            }
-        },
-        "logs": {
-            "title": "Downloadlogs",
-            "description": "Downloadlogs",
-            "downloaded": "Gedownload",
-            "ip": "IP",
-            "user_agent": "Gebruikersagent",
-            "show": {
-                "title": "Toon de downloadgeschiedenis",
-                "subheading": "Toon de details van het downloadlogboek"
-            }
-        }
-    },
-    "modules.download.lang.fr.messages": {
-        "my_downloads": "Mijn downloads",
-        "errors": {
-            "file_not_active": "Het bestand is niet actief",
-            "file_is_protected": "Het bestand is beveiligd",
-            "download_limit_reached": "Downloadlimiet bereikt"
-        },
-        "download_version": "Download de versie",
-        "downloads": "Downloads",
-        "public_downloads": "Openbare downloads",
-        "no_downloads": "Geen download",
-        "downloads_left": "U heeft nog {_downloads} downloads over"
-    },
-    "addons.giftcard.lang.fr.messages": {
-        "modulename": "Cadeaukaart",
-        "description": "Beheer de cadeaubonnen voor uw klanten.",
-        "card": {
-            "code": "Giftcardcode"
-        },
-        "usage": "Gebruik van de cadeaubon",
-        "giftcard_not_valid": "De cadeaubon is niet geldig.",
-        "giftcard_redeemed": "Cadeaukaart succesvol gebruikt. Bedrag: {_amount}",
-        "admin": {
-            "types": {
-                "fixed": "Vast bedrag",
-                "random": "Willekeurig bedrag"
-            },
-            "create": {
-                "title": "Een cadeaubon maken",
-                "subheading": "Maak een nieuwe cadeaubon voor uw klanten."
-            },
-            "show": {
-                "title": "Details van de cadeaubon",
-                "subheading": "Bekijk de details van de cadeaubon.",
-                "table_title": "Gebruik van de cadeaubon"
-            },
-            "max_uses": "Maximale toepassingen",
-            "expires_at": "Vervaldatum",
-            "min_random_amount": "Willekeurig minimaal bedrag",
-            "allowed_customer": "Geautoriseerde klant",
-            "max_random_amount": "Maximaal willekeurig bedrag",
-            "uses_help": "Het maximale aantal keren dat deze cadeaubon kan worden gebruikt. 0 voor onbeperkt."
         }
     }
 }
