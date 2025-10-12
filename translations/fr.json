@@ -1641,6 +1641,7 @@
     },
     "lang.fr.personalization": {
         "title": "Personnalisation",
+        "themename": "Nom du thème",
         "icon_help": "Voir la liste des icônes sur icons.getbootstrap.com",
         "menu_links": {
             "title": "Liens des menus",
