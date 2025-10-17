@@ -1817,7 +1817,9 @@
                 "theme_home_image": "Image de la page d'accueil",
                 "theme_home_enabled": "Activer la page d'accueil",
                 "theme_home_title_meta": "Nom de la page d'accueil",
-                "theme_home_title_meta_help": "Le nom de la page d'accueil dans les onglets du navigateur"
+                "theme_home_title_meta_help": "Le nom de la page d'accueil dans les onglets du navigateur",
+                "theme_home_redirect_route": "URL de redirection",
+                "theme_home_redirect_route_help": "Utilisée si la page d'accueil est désactivée."
             }
         },
         "theme": {
