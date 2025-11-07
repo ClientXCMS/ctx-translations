@@ -1647,6 +1647,9 @@
         "title": "Personnalisation",
         "themename": "Nom du thème",
         "icon_help": "Voir la liste des icônes sur icons.getbootstrap.com",
+        "custom_menu": {
+            "title": "Liens personnalisés"
+        },
         "menu_links": {
             "title": "Liens des menus",
             "description": "Personnalisez les liens des menus de l'espace client",
