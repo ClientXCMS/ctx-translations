@@ -2522,6 +2522,10 @@
             "title": "Réponse à un ticket",
             "description": "Un ticket a reçu une réponse"
         },
+        "ticket_closed": {
+            "title": "Fermeture d'un ticket",
+            "description": "Un ticket vient d'être fermé"
+        },
         "ticket_staff": {
             "title": "Réponse à un ticket par un personnel"
         },
