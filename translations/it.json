@@ -130,7 +130,8 @@
                     "custom_item": "Prodotto personalizzato",
                     "upgrade": "Miglioramento",
                     "free_trial": "Prova gratuita",
-                    "gift_card": "Carta regalo"
+                    "gift_card": "Carta regalo",
+                    "add_fund": "Aggiungi fondi"
                 },
                 "gateway_canvas_help": "Metodi di pagamento utilizzati dai clienti per pagare le bollette",
                 "best_customers": "Migliori clienti",
