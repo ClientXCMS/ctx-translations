@@ -139,7 +139,8 @@
                     "custom_item": "Product op maat",
                     "upgrade": "Verbetering",
                     "free_trial": "Gratis proef",
-                    "gift_card": "Cadeaukaart"
+                    "gift_card": "Cadeaukaart",
+                    "add_fund": "Geld toevoegen"
                 },
                 "gateway_canvas": "Betaalmethoden van klanten",
                 "gateway_canvas_help": "Betaalmethoden die door klanten worden gebruikt om hun rekeningen te betalen",
