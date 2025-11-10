@@ -130,7 +130,8 @@
                     "custom_item": "Producto personalizado",
                     "upgrade": "Mejora",
                     "free_trial": "Prueba gratuita",
-                    "gift_card": "Tarjeta de regalo"
+                    "gift_card": "Tarjeta de regalo",
+                    "add_fund": "Añadir fondos"
                 },
                 "gateway_canvas_help": "Métodos de pago utilizados por los clientes para pagar sus facturas",
                 "best_customers": "Mejores clientes",
