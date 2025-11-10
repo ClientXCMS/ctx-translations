@@ -2042,7 +2042,7 @@
                     "btn1": "Next",
                     "btn2": "Import",
                     "choose": "Choose an existing server",
-                    "import": "<u> OR </u>&nbsp; Import a service",
+                    "import": "Import a service",
                     "new": "Create a new service",
                     "created": "The service has been successfully created",
                     "importbtn": "matter"
