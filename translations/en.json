@@ -130,7 +130,8 @@
                     "custom_item": "Customized product",
                     "upgrade": "Improvement",
                     "free_trial": "Free trial",
-                    "gift_card": "Gift card"
+                    "gift_card": "Gift card",
+                    "add_fund" => "Add fund",
                 },
                 "gateway_canvas_help": "Payment methods used by customers to pay their bills",
                 "best_customers": "Best customers",
