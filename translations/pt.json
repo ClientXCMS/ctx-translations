@@ -130,7 +130,8 @@
                     "custom_item": "Produto personalizado",
                     "upgrade": "Aperfeiçoamento",
                     "free_trial": "Teste gratuito",
-                    "gift_card": "Vale-presente"
+                    "gift_card": "Vale-presente",
+                    "add_fund": "Adicionar fundos"
                 },
                 "gateway_canvas_help": "Métodos de pagamento usados pelos clientes para pagar suas contas",
                 "best_customers": "Melhores clientes",
