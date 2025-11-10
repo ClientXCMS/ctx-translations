@@ -130,7 +130,8 @@
                     "custom_item": "Kundenspezifisches Produkt",
                     "upgrade": "Verbesserung",
                     "free_trial": "Kostenloser Versuch",
-                    "gift_card": "Geschenkkarte"
+                    "gift_card": "Geschenkkarte",
+                    "add_fund" => "Guthaben hinzufügen"
                 },
                 "gateway_canvas_help": "Zahlungsmethoden, die von Kunden verwendet werden, um ihre Rechnungen zu bezahlen",
                 "best_customers": "Beste Kunden",
