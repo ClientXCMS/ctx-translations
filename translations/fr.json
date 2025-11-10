@@ -173,7 +173,8 @@
                     "custom_item": "Produit personnalisé",
                     "upgrade": "Amélioration",
                     "free_trial": "Essai gratuit",
-                    "gift_card": "Carte-cadeau"
+                    "gift_card": "Carte-cadeau",
+                    "add_fund": "Ajout de crédit"
                 },
                 "gateway_canvas": "Moyens de paiement des clients",
                 "gateway_canvas_help": "Moyens de paiement utilisés par les clients pour payer leurs factures",
