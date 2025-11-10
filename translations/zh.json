@@ -130,7 +130,8 @@
                     "custom_item": "定制产品",
                     "upgrade": "起色",
                     "free_trial": "免费试用",
-                    "gift_card": "礼品卡"
+                    "gift_card": "礼品卡",
+                    "add_fund": "添加资金"
                 },
                 "gateway_canvas_help": "客户用于支付账单的付款方式",
                 "best_customers": "最佳客户",
