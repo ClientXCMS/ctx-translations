@@ -593,6 +593,7 @@
                         "password_timeout_help": "En secondes",
                         "allow_registration": "Autoriser l'inscription",
                         "auto_confirm_registration": "Confirmation automatique de l'inscription",
+                        "allow_plus_in_email": "Autoriser le signe '+' dans les emails",
                         "allow_reset_password": "Autoriser la réinitialisation du mot de passe",
                         "force_login_client": "Forcer la connexion pour accéder à l'espace client",
                         "banned_emails": "Emails bannis",
