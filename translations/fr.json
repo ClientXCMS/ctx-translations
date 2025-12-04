@@ -475,38 +475,37 @@
                     "show": "Affichage de la facture",
                     "billing": "Information de facturation",
                     "advanced": "Avancé",
-                    "logs": "Historique",
+                    "logs": "Historique"
                 },
                 "logs": {
-                      "title": "Historique des actions",
-                      "subheading": "Toutes les actions effectuées sur cette facture.",
-                      "count": "{count} entrée d’historique|{count} entrées d’historique",
-                      "empty": "Aucune activité enregistrée pour cette facture pour le moment.",
-                      "columns": {
-                        "timestamp": "Horodatage",
-                        "event": "Événement",
-                        "actor": "Acteur",
-                        "details": "Détails"
-                      },
-                      "actors": {
-                        "system": "Système"
-                      },
-                      "no_context": "Aucun détail supplémentaire",
-                      "statuses": {
-                        "pay_invoice": "Facture payée",
-                        "cancel_invoice": "Facture annulée",
-                        "refund_invoice": "Facture remboursée",
-                        "draft_invoice": "Facture en brouillon",
-                        "send_invoice": "Facture envoyée",
-                        "paid_invoice": "Paiement confirmé",
-                        "failed_invoice": "Paiement échoué",
-                        "pending_invoice": "Paiement en attente",
-                        "add_line": "Ligne ajoutée",
-                        "remove_line": "Ligne supprimée",
-                        "delete_invoice": "Facture supprimée",
-                        "update_balance": "Solde mis à jour"
-                      }
-                    }
+                  "title": "Historique des actions",
+                  "subheading": "Toutes les actions effectuées sur cette facture.",
+                  "count": "{count} entrée d’historique|{count} entrées d’historique",
+                  "empty": "Aucune activité enregistrée pour cette facture pour le moment.",
+                  "columns": {
+                    "timestamp": "Horodatage",
+                    "event": "Événement",
+                    "actor": "Acteur",
+                    "details": "Détails"
+                  },
+                  "actors": {
+                    "system": "Système"
+                  },
+                  "no_context": "Aucun détail supplémentaire",
+                  "statuses": {
+                    "pay_invoice": "Facture payée",
+                    "cancel_invoice": "Facture annulée",
+                    "refund_invoice": "Facture remboursée",
+                    "draft_invoice": "Facture en brouillon",
+                    "send_invoice": "Facture envoyée",
+                    "paid_invoice": "Paiement confirmé",
+                    "failed_invoice": "Paiement échoué",
+                    "pending_invoice": "Paiement en attente",
+                    "add_line": "Ligne ajoutée",
+                    "remove_line": "Ligne supprimée",
+                    "delete_invoice": "Facture supprimée",
+                    "update_balance": "Solde mis à jour"
+                  }
                 },
                 "fulfillment": {
                     "title": "Livraison de la facture",
