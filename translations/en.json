@@ -5,8 +5,6 @@
             "title": "History of actions",
             "description": "A list of actions taken by staff and the system.",
             "subheading": "History of actions",
-            "user": "User",
-            "action": "Action",
             "model": "Model",
             "model_id": "Template ID",
             "payload": "Payload",
@@ -131,8 +129,7 @@
                     "custom_item": "Customized product",
                     "upgrade": "Improvement",
                     "free_trial": "Free trial",
-                    "gift_card": "Gift card",
-                    "add_fund": "Add fund"
+                    "gift_card": "Gift card"
                 },
                 "gateway_canvas_help": "Payment methods used by customers to pay their bills",
                 "best_customers": "Best customers",
@@ -142,12 +139,10 @@
                 "max_periods": "Higher number of service renewals",
                 "average_service_price": "Average price of a service",
                 "max_services_by_customer": "More services per customer",
-                "max_price": "Highest price of a service",
                 "last_renewals": "Latest renewals",
                 "average_services_by_customer": "Average number of services per customer",
                 "services": {
                     "title": "Classification of services",
-                    "price_avg": "Average price",
                     "renewals_avg": "Average renewals"
                 }
             },
@@ -228,8 +223,6 @@
             "create": {
                 "title": "Send an email",
                 "subheading": "Send an email to a customer or group of customers",
-                "next": "Next",
-                "send": "Send",
                 "preview": "Preview"
             }
         },
@@ -316,7 +309,6 @@
             "show": {
                 "email_sent": "The email has been sent successfully",
                 "email_confirmed": "The account has been successfully confirmed",
-                "resend": "Resend confirmation email",
                 "confirm": "Confirm Account",
                 "title": "Customer profile of {_name}",
                 "login_ip": "Connection IP",
@@ -362,7 +354,11 @@
                 "email_already_confirmed": "The account has already been confirmed.",
                 "create_invoice": "Create an invoice",
                 "create_service": "Deliver a service",
-                "create_ticket": "Create a ticket"
+                "create_ticket": "Create a ticket",
+                "no_notes": "No notes for this customer.",
+                "note_added": "Note added successfully.",
+                "notes_placeholder": "Add a note...",
+                "payment_methods": "Payment methods"
             },
             "create": {
                 "title": "Create a client",
@@ -382,11 +378,7 @@
                 "login": "Latest Connections"
             }
         },
-        "users": {
-            "title": "Users"
-        },
         "invoices": {
-            "currency": "Currency",
             "mass": {
                 "complete": "Mark as Paid",
                 "refund": "Mark as refunded",
@@ -469,8 +461,7 @@
             },
             "create": {
                 "title": "Create an invoice",
-                "subheading": "Create a new invoice for the system",
-                "btn": "Create"
+                "subheading": "Create a new invoice for the system"
             },
             "title": "Invoices",
             "subheading": "Here is the list of all the invoices in the system",
@@ -494,11 +485,11 @@
             "deliver": "Deliver",
             "delivered_at": "Delivered on {_date}",
             "cancelled_at": "Cancelled on {_date}",
-            "itemcancelled": "The article was successfully canceled."
+            "itemcancelled": "The article was successfully canceled.",
+            "deliveryqueued": "Product delivery has been queued successfully"
         },
         "admins": {
             "title": "Staffs",
-            "expires_at": "Expiration",
             "subheading": "Here is the list of all the personnel in the system",
             "description": "Manage staff credentials for the admin area",
             "badge": {
@@ -511,7 +502,6 @@
                 "subheading": "Create new staff for administration"
             },
             "signature": "Signature",
-            "expiration": "Expiration",
             "show": {
                 "title": "Personal profile {_name}",
                 "login": "Latest staff connections",
@@ -616,7 +606,8 @@
                         "banned_emails": "Banned emails",
                         "banned_emails_help": "Separated by commas (e.g. mailinator.com, yopmail.com, exemple@example.com)",
                         "hash_driver_help": "/!\\ The old passwords will not be compatible with the new driver. You need to reset user passwords.",
-                        "gdrp_cookies_privacy_link": "Link to your privacy policy"
+                        "gdrp_cookies_privacy_link": "Link to your privacy policy",
+                        "allow_plus_in_email": "Allow the \"+\" sign in emails"
                     },
                     "success": "The security settings have been saved successfully."
                 }
@@ -636,9 +627,21 @@
                         "webhook": "Webhook",
                         "webhookhelp": "Notification URL: {_url}",
                         "payments_types": "Types of payment allowed",
-                        "paypal_email": "PayPal Email Address"
+                        "paypal_email": "PayPal Email Address",
+                        "access_token": "Access token",
+                        "location_id": "Location ID",
+                        "merchant_code": "Merchant code",
+                        "webhook_secret": "Webhook key"
                     },
-                    "success": "The gateway configuration has been successfully saved."
+                    "success": "The gateway configuration has been successfully saved.",
+                    "square": {
+                        "location_help": "Square location ID (find it in the Developer Dashboard)",
+                        "webhook_help": "Signature for validating webhooks (optional)"
+                    },
+                    "sumup": {
+                        "api_key_help": "API key obtained from developers.sumup.com",
+                        "merchant_help": "Merchant code visible in your SumUp dashboard"
+                    }
                 }
             }
         },
@@ -649,14 +652,10 @@
             "subheading2": "Manage your license and related information or update your available modules.",
             "expiration": "Your license expires on {_date}",
             "onetime": "Onetime",
-            "modules": "Modules Included",
             "extensions": "Available extensions: {_extensions}",
             "domain": "Domain: {_domain}",
-            "max_customers": "Maximum number of clients: {_count}",
-            "current_customers": "Number of current customers: {_count}",
             "last_check": "Last checked {_date}",
             "client_id": "Client ID",
-            "description": "Manage your license and related information or update your available modules.",
             "force": "Force verification",
             "support_expiration": "Your support expires on {_date}.",
             "support_expired": "Your support has expired on {_date}",
@@ -668,27 +667,10 @@
         },
         "metadata": {
             "title": "Metadata",
-            "key": "Key",
-            "value": "Value",
             "subheading": "Metadata Management",
             "add": "Add metadata",
             "editwarning": "Be careful, modifying or deleting metadata can have consequences on the system. Please be sure of what you are doing.",
             "updated": "Metadatas was successfully updated."
-        },
-        "schedules": {
-            "title": "Scheduled tasks",
-            "subheading": "See scheduled tasks",
-            "filters": {
-                "all": "All tasks",
-                "services:delivery": "Service Delivery",
-                "services:expire": "Expiration of Services"
-            },
-            "readmore": "Read more",
-            "readless": "Read less",
-            "command": "Order",
-            "output": "Exit",
-            "runtime": "Runtime",
-            "created_at": "Created in"
         },
         "flash": {
             "created": "Successfully created item.",
@@ -708,13 +690,7 @@
             "translations_saved": "The translations were successfully recorded.",
             "subheading": "Translation",
             "title": "Languages",
-            "is_downloaded": "Downloaded",
-            "is_default": "By default",
-            "download": "Download",
-            "update": "Update",
             "changedefaulthelp": "You can change the default language in the global settings.",
-            "is_enabled": "Activated",
-            "disabled": "Disabled",
             "download_success": "The translation files have been successfully uploaded.",
             "description": "Find the list of languages available for the customer area. Turn languages on or off as needed.",
             "download_error": "You cannot download the translation files for the French language locally."
@@ -755,7 +731,10 @@
             "added": "Additions",
             "changed": "Changes & Improvements",
             "error_fetching": "Unable to retrieve the information",
-            "error_fetching_message": "Please try again later or contact support."
+            "error_fetching_message": "Please try again later or contact support.",
+            "beta_warning_title": "Beta feature",
+            "beta_warning_message": "This automatic update feature is in beta and may have issues. It is recommended to perform updates manually by following the documentation.",
+            "beta_warning_link": "View documentation"
         }
     },
     "lang.fr.auth": {
@@ -842,7 +821,6 @@
                     "store_vat_enabled": "Activate VAT",
                     "customermustbeconfirmed": "Customer must be confirmed to order",
                     "toslink": "Link to the general terms and conditions of sale",
-                    "currency": "Currency",
                     "invoice_prefix": "Invoice prefix",
                     "billing_mode": "Billing method",
                     "billing_modes": {
@@ -854,11 +832,6 @@
                     "remove_pending_invoice_types": {
                         "delete": "Delete",
                         "cancel": "Cancel"
-                    },
-                    "mode_tax": {
-                        "title": "Tax method",
-                        "included": "Included - The price displayed is inclusive of VAT",
-                        "excluded": "Excluded - The price displayed is excl. VAT"
                     },
                     "vat_default_country": "Default country for VAT",
                     "rates": {
@@ -878,7 +851,9 @@
                         "title": "Tax mode",
                         "tax_included": "Tax included",
                         "tax_excluded": "Tax excluded"
-                    }
+                    },
+                    "store_enabled": "Store enabled",
+                    "store_redirect_url": "Redirect URL (if disabled)"
                 },
                 "tax": "VAT management"
             },
@@ -934,7 +909,6 @@
                 "flash": "Please make the payment to the bank account indicated on the invoice. Your order will be processed once payment is received."
             },
             "paid_date": "Payment Date",
-            "deliver": "Deliver",
             "renewal_description": "Added {_month_label} to the {_service_label} service",
             "pay_with_balance": "Pay part of the bill with the balance",
             "balance": {
@@ -985,21 +959,11 @@
             "expire_date": "Expiration Date",
             "noservices": "No services found",
             "startorder": "Start by ordering a service",
-            "server": "Server",
-            "onetime": "Onetime",
             "changename": "Change service name",
             "managerenew": "Manage the service cycle",
             "manageserviceonadmin": "Manage the service from the administration",
             "dayremaining": "{_days} day left",
             "daysremaining": "{_days} days left",
-            "expirationtooltip": "The service will expire on {_date}",
-            "expirationtooltipexpired": "The service expired on {_date}",
-            "expirationtooltipneverexpire": "Service never expires",
-            "expirationtooltipsuspended": "The service was suspended on {_date}",
-            "subusers": {
-                "index": "Sub-users",
-                "manage": "Manage access"
-            },
             "cancel": {
                 "index": "Cancel the service",
                 "subtitle": "Do you really want to leave us?",
@@ -1039,7 +1003,6 @@
                 "saveandrenew": "Register and renew",
                 "date": "Date",
                 "manage": "Below is a list of your service renewals that have already been completed.",
-                "not_autorized_to_change_billing": "You are not allowed to change the billing method",
                 "not_authorized_to_change_billing": "You are not authorized to change the billing mode."
             },
             "subscription": {
@@ -1209,13 +1172,11 @@
             "required_products": "Required Products",
             "all_products_in_group": "All products of the group {_group}",
             "usages": "Number of uses",
-            "products_required": "Required Products",
             "minimum_order_amount": "Minimum Order Amount",
             "applied_month_help": "-1 for unlimited, 0 for the first payment only. (Ex: 3 recurrences = first payment + 3 renewals)",
             "code": "Code",
             "pricelabel": "Reduction",
             "used_at": "Used on",
-            "amount": "Amount",
             "usage": "Usage",
             "groups": "Authorized Groups",
             "no_products": "This coupon does not contain any authorized products. It cannot be used. Allow products for this coupon or activate it for the entire store.",
@@ -1402,7 +1363,11 @@
             "confirmed": "Confirmed",
             "answered": "Answered",
             "yes": "Yes",
-            "no": "No"
+            "no": "No",
+            "accepted": "Accepted",
+            "converted": "Converted",
+            "refused": "Refused",
+            "sent": "Sent"
         },
         "add": "Add",
         "invoice_was_cancelled": "The invoice has just been cancelled",
@@ -1491,11 +1456,25 @@
         "gdpr": {
             "text": "By using this site, you accept our",
             "link": "Privacy policy"
-        }
+        },
+        "due_date": "Due date",
+        "fees": "Setup fees",
+        "items": "Items",
+        "notes": "Notes",
+        "price": "Price",
+        "qty": "Qty",
+        "quantity": "Quantity",
+        "recurring_price": "Recurring price",
+        "setup_price": "Setup fees",
+        "subtotal": "Subtotal",
+        "tax": "Tax",
+        "total": "Total",
+        "transaction_fee": "Transaction fee",
+        "unit": "Unit",
+        "unit_price": "Unit price",
+        "vat": "VAT"
     },
     "lang.fr.helpdesk": {
-        "ticket": "Ticket",
-        "tickets": "Tickets",
         "subject": "Subject",
         "priority": "Priority",
         "attachments": "Attachments",
@@ -1554,27 +1533,10 @@
                 "relatednone": "None",
                 "messagehelp": "Please provide as much detail as possible to help us resolve your issue."
             },
-            "departmentsseeder": {
-                "general": {
-                    "name": "General",
-                    "description": "General Department"
-                },
-                "billing": {
-                    "name": "Invoicing",
-                    "description": "Billing Department"
-                },
-                "technical": {
-                    "name": "Technique",
-                    "description": "Technical Department"
-                },
-                "sales": {
-                    "name": "Commercial",
-                    "description": "Sales Department"
-                }
-            },
             "ticket_closed_by": "Closed by {_name}",
             "ticket_auto_close": "The ticket was automatically closed after {_days} days.",
-            "message_updated": "The message has been updated"
+            "message_updated": "The message has been updated",
+            "ticket_message_deleted": "The message has been deleted"
         },
         "admin": {
             "title": "Help Center",
@@ -1865,12 +1827,12 @@
         "manage_api_keys": "Manage API keys",
         "export_invoices": "Export invoices",
         "manage_subdomains_hosts": "Manage the host subdomains",
-        "manage_update": "Update CLIENTXCMS"
+        "manage_update": "Update CLIENTXCMS",
+        "manage_backups": "Manage backups"
     },
     "lang.fr.personalization": {
         "title": "Customization",
         "icon": "Bootstrap",
-        "addmenu": "Add a menu",
         "demo": "Demo",
         "icon_help": "See the list of icons on icons.getbootstrap.com",
         "email_templates": {
@@ -1967,13 +1929,11 @@
         },
         "front_menu": {
             "title": "Top menu",
-            "description": "Customize the top menu of the customer area",
-            "help": "Each URL must be unique. To add an external link, use the format: https://www.example.com"
+            "description": "Customize the top menu of the customer area"
         },
         "bottom_menu": {
             "title": "Footer Menu",
-            "description": "Customize the footer menu of the customer area",
-            "help": "Please note that each URL must be unique"
+            "description": "Customize the footer menu of the customer area"
         },
         "sections": {
             "restoresuccess": "The section has been successfully restored.",
@@ -1994,7 +1954,6 @@
             "disable": "Deactivate",
             "enable": "Activate",
             "types": {
-                "subheading": "Here is the list of sections that can be easily added in the {_name} category",
                 "title": "Sections available for the theme {_name}"
             },
             "pages": {
@@ -2023,13 +1982,14 @@
                 "theme_home_image": "Home Page Image",
                 "theme_home_enabled": "Enable the home page",
                 "theme_home_title_meta": "Home Page Name",
-                "theme_home_title_meta_help": "The name of the homepage in browser tabs"
+                "theme_home_title_meta_help": "The name of the homepage in browser tabs",
+                "theme_home_redirect_route": "Redirect URL",
+                "theme_home_redirect_route_help": "Used if the home page is disabled."
             }
         },
         "theme": {
             "title": "Theme Settings",
             "description": "Customer Area Theme Settings",
-            "success": "The theme settings have been saved successfully.",
             "fields": {
                 "theme_footer_description": "Footer Description",
                 "theme_footer_description_help": "HTML support",
@@ -2042,18 +2002,11 @@
                     "both": "Both"
                 }
             },
-            "themename": "Theme Name",
-            "enabled": "Enabled",
-            "disabled": "Disabled",
-            "not_found": "The theme has not been found.",
             "info": "You can now choose your theme in extensions > themes. <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Click here to access it</a>.",
             "current_theme": "Current theme"
         },
-        "addline": "Add a row",
         "useful": "Useful information",
         "badge": "Badge",
-        "adddropdownmenu": "Add a drop-down menu",
-        "icon_help2": "You can put a URL of an image in place of an icon",
         "menu_links": {
             "title": "Menu links",
             "description": "Customize the menu links of the customer area",
@@ -2076,7 +2029,11 @@
                 "dropdown": "Dropdown menu"
             }
         },
-        "addelement": "Add an item"
+        "addelement": "Add an item",
+        "themename": "Theme name",
+        "custom_menu": {
+            "title": "Custom links"
+        }
     },
     "lang.fr.provisioning": {
         "disk": "Disk",
@@ -2150,10 +2107,8 @@
                     "fields": {
                         "days_before_creation_invoice_renewal": "Days before the renewal invoice was created",
                         "days_before_expiration": "Days before expiration",
-                        "service_days_before_subscription_renewal": "Days before subscription renewals",
                         "max_subscription_tries": "Maximum number of auto-renewal attempts",
                         "max_subscription_tries_help": "After this number, the subscription will be canceled .0 to disable",
-                        "service_days_before_subscription_renewal_help": "It sets the number of days before the expiration date to execute the invoice payment. It must be less than the number of days before the renewal invoice is created.",
                         "notifications_expiration_days": "Notification days before expiration",
                         "days_before_expiration_help": "Number of days after service suspension before service is discontinued",
                         "allow_cancellation": "Allow customers to request cancellation",
@@ -2229,14 +2184,11 @@
                 "invalid_product_type": "Invalid service type. You requested a product of type {_product} and selected a type {_type}. Please choose the same type.",
                 "expired": "This service has expired or has ended.",
                 "delete_failed": "Unable to delete the service on the server: {_error}",
-                "customer": "Customer",
                 "imported": "Successfully imported service",
                 "create": {
                     "nothingtoshow": "No service configuration is available at this time. You can create the service",
                     "title": "Create a service",
                     "subheading": "Create a new service or import an existing one",
-                    "btn1": "Next",
-                    "btn2": "Import",
                     "choose": "Choose an existing server",
                     "import": "Import a service",
                     "new": "Create a new service",
@@ -2248,9 +2200,7 @@
                     "type": "Type of service",
                     "notes": "Service Notes",
                     "title": "Service sheet {_name}",
-                    "initial_price": "Initial price",
                     "max_renewals": "Maximum renewals",
-                    "expires_at": "Expiration",
                     "subheading": "Here is the information related to the {_owner} service created on {_date}",
                     "panel": {
                         "title": "Management Panel"
@@ -2273,7 +2223,8 @@
                     "btn2": "Redelivering the service",
                     "success": "The service was successfully delivered",
                     "reinstall": "The service will be delivered again",
-                    "not_pending": "The service is not waiting for delivery"
+                    "not_pending": "The service is not waiting for delivery",
+                    "in_queue": "Service delivery is already in the queue"
                 },
                 "suspend": {
                     "btn": "Suspend",
@@ -2323,8 +2274,7 @@
                     "upgrade_type": "Enhancement Type",
                     "upgrade_types": {
                         "invoice": "Generate an invoice to be paid by the customer",
-                        "no_invoice": "Improve billless service",
-                        "add_in_next_invoice": "Upgrade now and add to the next renewal invoice"
+                        "no_invoice": "Improve billless service"
                     }
                 },
                 "pricing_custom": "The price must be set manually for this service. You can modify it later.",
@@ -2496,7 +2446,6 @@
         "weekly": "Weekly"
     },
     "lang.fr.store": {
-        "admin": "",
         "basket": {
             "title": "Basket",
             "empty": "Your cart is empty",
@@ -2523,7 +2472,8 @@
             "removed": "This product has been removed from your cart",
             "added": "This product has been added to your shopping cart",
             "quantity_changed": "Quantity has been changed",
-            "already_ordered": "You have already ordered a {_product} service"
+            "already_ordered": "You have already ordered a {_product} service",
+            "show": "View basket"
         },
         "checkout": {
             "title": "Order",
@@ -2831,6 +2781,10 @@
         "upgrade": {
             "title": "Service upgraded",
             "description": "A service has been upgraded."
+        },
+        "ticket_closed": {
+            "title": "Ticket closure",
+            "description": "A ticket has just been closed"
         }
     }
 }
