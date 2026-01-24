@@ -40,7 +40,7 @@
             "extension_disabled": "{_extension} extensie uitgeschakeld",
             "extension_installed": "{_extension} extensie geïnstalleerd",
             "theme_changed": "Thema gewijzigd",
-            "balance_changed": "Klantsaldo gewijzigd van {_old} naar {_new}",
+            "balance_changed": "Klantsaldo gewijzigd van {_old} naar {_new} {_reason}",
             "account_verified": "Geverifieerd account",
             "password_reset": "Wachtwoord opnieuw instellen",
             "two_factor_enabled": "Tweefactorauthenticatie ingeschakeld",
@@ -441,7 +441,38 @@
                     "edit": "Factuuruitgave",
                     "show": "Weergave van de factuur",
                     "billing": "Factureringsinformatie",
-                    "advanced": "Geavanceerd"
+                    "advanced": "Geavanceerd",
+                    "logs": "Geschiedenis"
+                },
+                "logs": {
+                    "title": "Actiegeschiedenis",
+                    "subheading": "Alle acties uitgevoerd op deze factuur.",
+                    "count": "{count} geschiedenisvermelding|{count} geschiedenisvermeldingen",
+                    "empty": "Er is momenteel geen activiteit geregistreerd voor deze factuur.",
+                    "columns": {
+                        "timestamp": "Tijdstempel",
+                        "event": "Gebeurtenis",
+                        "actor": "Actor",
+                        "details": "Details"
+                    },
+                    "actors": {
+                        "system": "Systeem"
+                    },
+                    "no_context": "Geen aanvullende details",
+                    "statuses": {
+                        "pay_invoice": "Factuur betaald",
+                        "cancel_invoice": "Factuur geannuleerd",
+                        "refund_invoice": "Factuur terugbetaald",
+                        "draft_invoice": "Factuur in concept",
+                        "send_invoice": "Factuur verzonden",
+                        "paid_invoice": "Betaling bevestigd",
+                        "failed_invoice": "Betaling mislukt",
+                        "pending_invoice": "Betaling in behandeling",
+                        "add_line": "Regel toegevoegd",
+                        "remove_line": "Regel verwijderd",
+                        "delete_invoice": "Factuur verwijderd",
+                        "update_balance": "Saldo bijgewerkt"
+                    }
                 },
                 "fulfillment": {
                     "title": "Levering van de factuur",
@@ -500,6 +531,25 @@
                 "details": "Gegevens van het personeel",
                 "subheading": "Hier is de informatie met betrekking tot deze staf gemaakt op {_date}"
             }
+        },
+        "security_questions": {
+            "title": "Beveiligingsvragen",
+            "description": "Beheer van beveiligingsvragen voor accountbescherming",
+            "subheading": "Configureer de beveiligingsvragen die beschikbaar zijn voor klanten",
+            "fields": {
+                "question": "Vraag",
+                "is_active": "Activeren",
+                "sort_order": "Weergavevolgorde"
+            },
+            "create": {
+                "title": "Nieuwe beveiligingsvraag",
+                "description": "Maak een nieuwe beveiligingsvraag aan"
+            },
+            "show": {
+                "title": "Beveiligingsvraag wijzigen",
+                "description": "Wijzig de details van deze beveiligingsvraag"
+            },
+            "empty": "Er zijn geen beveiligingsvragen aangemaakt."
         },
         "settings": {
             "title": "Parameters",
@@ -697,8 +747,8 @@
             "new_version_is": "De versie {_version} is beschikbaar.",
             "current_version": "Huidige versie",
             "available_version": "Beschikbare versie",
-            "update_to_version": "Bijwerken naar versie {version}",
-            "whats_new_in": "Nieuwigheden van de {_versie}",
+            "update_to_version": "Bijwerken naar v{_version}",
+            "whats_new_in": "Nieuwigheden van de {_version}",
             "published_on": "Gepubliceerd op {_date}",
             "added": "Toevoegingen",
             "changed": "Veranderingen & Verbeteringen",
@@ -949,6 +999,7 @@
             },
             "cancel": {
                 "index": "Service annuleren",
+                "manage": "Annulering beheren",
                 "subtitle": "Wil je ons echt verlaten?",
                 "index_description": "Selecteer een reden om uw service te annuleren.",
                 "back": "De service blijven gebruiken",
@@ -959,7 +1010,24 @@
                 "success": "De dienst is succesvol geannuleerd",
                 "expiration": "Vervaldatum van de service",
                 "expiration_now": "Nu onmiddellijk",
-                "expiration_end": "Aan het einde van de periode"
+                "expiration_end": "Aan het einde van de periode",
+                "disabled": "Annulering is niet beschikbaar voor deze service.",
+                "locked": "U kunt een annulering aanvragen vanaf {_date}.",
+                "existing_request": "Lopende annuleringsaanvraag",
+                "withdraw": "Aanvraag intrekken",
+                "request_withdrawn": "De annuleringsaanvraag is ingetrokken.",
+                "request_exists": "U heeft al een lopende annuleringsaanvraag.",
+                "request_pending": "Uw aanvraag is succesvol verzonden en wacht op goedkeuring van een beheerder.",
+                "request_scheduled": "Uw aanvraag is gepland voor {_date} en wordt automatisch verwerkt.",
+                "no_request": "Geen annuleringsaanvraag gevonden.",
+                "status": {
+                    "pending": "In behandeling",
+                    "scheduled": "Gepland",
+                    "approved": "Goedgekeurd",
+                    "rejected": "Afgewezen",
+                    "cancelled": "Door u geannuleerd",
+                    "processed": "Verwerkt"
+                }
             },
             "renewals": {
                 "index": "Verlenging van de dienst",
@@ -1005,7 +1073,44 @@
         "profile": {
             "index": "Mijn profiel",
             "index_description": "Wijzig hier uw persoonlijke gegevens.",
+            "security_answer_invalid": "Het antwoord op de beveiligingsvraag is onjuist.",
+            "security_question_saved": "Uw beveiligingsvraag is succesvol opgeslagen.",
             "updated": "Bijgewerkt profiel",
+            "security_question": {
+                "title": "Beveiligingsvraag",
+                "description": "Voeg een beveiligingsvraag toe om uw account te beschermen",
+                "current": "Huidige vraag",
+                "select": "Kies een vraag",
+                "choose": "-- Selecteer een vraag --",
+                "answer": "Uw antwoord",
+                "answer_placeholder": "Voer uw geheime antwoord in...",
+                "save": "Vraag opslaan",
+                "update": "Vraag bijwerken"
+            },
+            "delete": {
+                "title": "Mijn account verwijderen",
+                "danger_zone": "Gevarenzone",
+                "warning_message": "Het verwijderen van uw account is onomkeerbaar. Al uw persoonlijke gegevens worden verwijderd.",
+                "cannot_delete": "Kan uw account niet verwijderen",
+                "has_active_services": "U heeft {_count} actieve dienst(en). Annuleer deze voordat u uw account verwijdert.",
+                "has_pending_invoices": "U heeft {_count} factuur(en) in afwachting van betaling.",
+                "consequences_title": "Wat wordt verwijderd:",
+                "consequence_access": "U verliest de toegang tot uw account",
+                "consequence_2fa": "Tweefactorauthenticatie wordt uitgeschakeld",
+                "consequence_tickets": "Uw supporttickets worden gesloten",
+                "consequence_invoices": "Uw facturen worden om juridische redenen bewaard",
+                "password_label": "Bevestig uw wachtwoord",
+                "password_placeholder": "Voer uw huidige wachtwoord in",
+                "2fa_label": "2FA-authenticatiecode",
+                "2fa_placeholder": "Voer uw 2FA-code in",
+                "confirm_checkbox": "Ik begrijp dat deze actie onomkeerbaar is en ik wens mijn account definitief te verwijderen.",
+                "submit_button": "Mijn account definitief verwijderen",
+                "final_confirm": "Weet u absoluut zeker dat u uw account wilt verwijderen? Deze actie is onomkeerbaar.",
+                "success": "Uw account is succesvol verwijderd.",
+                "invalid_password": "Het wachtwoord is onjuist.",
+                "must_confirm": "U moet de verwijdering bevestigen.",
+                "2fa_required": "De 2FA-code is vereist."
+            },
             "security": {
                 "index": "Veiligheid",
                 "index_description": "Wijzig hier uw wachtwoord.",
@@ -1043,8 +1148,8 @@
             "service_uncancelled": "De service is opnieuw geactiveerd",
             "vpsnotfound": "VPS is niet gevonden",
             "spam": "Spam gedetecteerd",
-            "account_blocked": "Je account is geblokkeerd",
-            "account_suspended": "Uw account is opgeschort",
+            "account_blocked": "Uw account is geblokkeerd om de volgende reden: {_reason}. Neem contact met ons op voor meer informatie.",
+            "account_suspended": "Uw account is opgeschort om de volgende reden: {_reason}. Neem contact met ons op voor meer informatie.",
             "service_name_updated": "De naam van de dienst is bijgewerkt",
             "service_billing_updated": "Factuurgegevens zijn bijgewerkt",
             "email_must_be_verified": "Uw e-mailadres moet worden geverifieerd om toegang te krijgen tot deze pagina",
@@ -1137,21 +1242,49 @@
             "title": "Instellingen voor extensies",
             "description": "Instellingen voor geïnstalleerde extensies beheren",
             "clearcache": "Cache wissen",
+            "search_placeholder": "Zoeken op naam, beschrijving of tag",
+            "processing": "Behandeling in uitvoering...",
+            "no_extensions_found": "Geen extensies gevonden",
+            "tabs": {
+                "my_extensions": "Mijn extensies",
+                "discover": "Ontdekken",
+                "themes": "Thema's"
+            },
+            "sections": {
+                "my_themes": "Mijn thema's",
+                "my_modules": "Mijn modules & add-ons",
+                "new": "Nieuw",
+                "popular": "Populair",
+                "all_extensions": "Alle extensies",
+                "all_themes": "Alle thema's"
+            },
+            "tags": {
+                "featured": "Uitgelicht",
+                "new": "Nieuw",
+                "popular": "Populair"
+            },
+            "no_installed": "Geen extensies geïnstalleerd",
+            "no_installed_desc": "Ontdek onze extensiecatalogus om uw ClientXCMS te verrijken",
+            "discover_extensions": "Extensies ontdekken",
+            "extensions_count": "extensies",
+            "no_results": "Geen extensies voldoen aan uw zoekopdracht",
+            "themes_available": "thema's beschikbaar",
+            "no_themes": "Geen thema's beschikbaar",
+            "update_available": "Update beschikbaar",
+            "active": "Actief",
             "enable": "Activeren",
             "disable": "Deactiveren",
             "enabled": "Geactiveerd",
-            "disabled": "Invalide",
-            "activable": "Geactiveerd",
-            "notactivable": "Niet activeerbaar",
-            "buy": "Kopen",
+            "disabled": "Uitgeschakeld",
             "installed": "Geïnstalleerd",
             "update": "Bijwerken",
-            "processing": "Behandeling in uitvoering...",
             "processing_error": "Er is een fout opgetreden, probeer het alstublieft opnieuw.",
-            "install": "installer",
-            "reviews": "advies",
+            "install": "Installeren",
+            "reviews": "beoordelingen",
             "search": "Zoek een extensie",
-            "search_placeholder": "Zoeken op naam, beschrijving of tag"
+            "activable": "Activeerbaar",
+            "notactivable": "Niet activeerbaar",
+            "buy": "Kopen"
         },
         "onetime": "Slechts één keer",
         "monthly": "Maandelijks",
@@ -1385,7 +1518,7 @@
                 "attachments": "Er zijn één of meerdere bijlagen aan dit ticket toegevoegd",
                 "closed": "Dit ticket is gesloten. Je kunt niet antwoorden. Als je hulp nodig hebt, open dan een nieuw ticket of heropen dit ticket.",
                 "replyinticket": "Reageer op het ticket",
-                "closed2": "Dit ticket is gesloten. Je kunt niet antwoorden.",
+                "closed2": "Dit ticket is gesloten om de volgende reden: {_reason}. U kunt niet antwoorden.",
                 "index_description": "Hieronder vindt u de details van het ondersteuningsticket.",
                 "close_reason": "Reden voor de sluiting",
                 "assigned_to": "Toegewezen aan",
@@ -1613,7 +1746,33 @@
         "email": "E-mail",
         "password_confirmation": "Bevestiging van het wachtwoord",
         "authentication": "Authenticatie",
-        "extensions": "Extensies"
+        "extensions": "Extensies",
+        "departmentsseeder": {
+            "general": {
+                "name": "Algemeen",
+                "description": "Algemene afdeling"
+            },
+            "billing": {
+                "name": "Facturering",
+                "description": "Factureringsafdeling"
+            },
+            "technical": {
+                "name": "Technisch",
+                "description": "Technische afdeling"
+            },
+            "sales": {
+                "name": "Commercieel",
+                "description": "Commerciële afdeling"
+            }
+        },
+        "security_questions": {
+            "pet_name": "Wat is de naam van uw eerste huisdier?",
+            "birth_city": "In welke stad bent u geboren?",
+            "mother_maiden_name": "Wat is de meisjesnaam van uw moeder?",
+            "first_school": "Wat is de naam van uw eerste school?",
+            "favorite_movie": "Wat is uw favoriete film?",
+            "childhood_nickname": "Wat was uw bijnaam als kind?"
+        }
     },
     "lang.fr.maintenance": {
         "settings": {
@@ -1998,9 +2157,73 @@
                         "max_subscription_tries_help": "Na dit nummer wordt het abonnement geannuleerd .0 om uit te schakelen",
                         "service_days_before_subscription_renewal_help": "Het stelt het aantal dagen voor de vervaldatum in om de factuurbetaling uit te voeren. Het moet minder zijn dan het aantal dagen voordat de verlengingsfactuur wordt gemaakt.",
                         "notifications_expiration_days": "Kennisgeving dagen voor de vervaldatum",
-                        "days_before_expiration_help": "Aantal dagen na opschorting van de service voordat de service wordt stopgezet"
+                        "days_before_expiration_help": "Aantal dagen na opschorting van de service voordat de service wordt stopgezet",
+                        "allow_cancellation": "Klanten toestaan een annulering aan te vragen",
+                        "allow_cancellation_help": "Indien uitgeschakeld, is de annuleringspagina niet zichtbaar aan de klantzijde.",
+                        "cancellation_lock_days": "Aantal dagen na activering voordat annulering mogelijk is",
+                        "cancellation_lock_days_help": "Tijdens deze periode blijft het annuleringsformulier verborgen, zelfs als de optie is ingeschakeld."
                     }
                 }
+            },
+            "cancellation_reasons": {
+                "title": "Annuleringsredenen",
+                "subheading": "Beheer de annuleringsredenen voor services",
+                "reason": "Reden",
+                "reason_placeholder": "Voer de annuleringsreden in...",
+                "create": "Een annuleringsreden aanmaken",
+                "create_description": "Een nieuwe annuleringsreden toevoegen",
+                "show": "Annuleringsreden wijzigen",
+                "show_description": "De details van deze annuleringsreden wijzigen",
+                "usage_count": "Deze reden wordt gebruikt door {_count} geannuleerde service(s).",
+                "analytics": {
+                    "title": "Annuleringsstatistieken",
+                    "description": "Analyseer de annuleringsredenen van uw services",
+                    "total_cancellations": "Totaal aantal annuleringen",
+                    "reasons_count": "Aantal redenen",
+                    "period": "Periode",
+                    "distribution": "Verdeling van annuleringen",
+                    "breakdown": "Detail per reden",
+                    "cancelled_services": "Geannuleerde services",
+                    "cancelled_at": "Geannuleerd op",
+                    "no_data": "Geen gegevens voor deze periode",
+                    "all_data": "Alle gegevens"
+                }
+            },
+            "cancellation_analytics": {
+                "title": "Annuleringsstatistieken",
+                "subheading": "Annuleringstendensen analyseren"
+            },
+            "cancellation_requests": {
+                "title": "Annuleringsaanvragen",
+                "subheading": "Volg en verwerk annuleringsaanvragen ingediend door uw klanten.",
+                "service": "Service",
+                "customer": "Klant",
+                "mode": "Modus",
+                "status": "Status",
+                "requested_at": "Aangevraagd op",
+                "execute_at": "Uitgevoerd op",
+                "reason": "Reden",
+                "message": "Klantbericht",
+                "handler": "Verwerkt door",
+                "empty": "Geen annuleringsaanvragen gevonden.",
+                "modes": {
+                    "now": "Onmiddellijk",
+                    "end_of_period": "Einde van de periode"
+                },
+                "actions": {
+                    "approve": "Aanvraag bevestigen",
+                    "reject": "Aanvraag annuleren"
+                },
+                "flash": {
+                    "approved": "De annuleringsaanvraag is goedgekeurd.",
+                    "rejected": "De annuleringsaanvraag is geannuleerd.",
+                    "not_actionable": "Deze aanvraag is al verwerkt."
+                },
+                "show": {
+                    "title": "Aanvraag nr. {_id}",
+                    "subheading": "Volledige details van de annuleringsaanvraag van de klant."
+                },
+                "no_actions": "Geen actie mogelijk voor deze aanvraag."
             },
             "servers": {
                 "testconnection": {
@@ -2478,7 +2701,7 @@
         "required_with": "Het veld {_attribute} is vereist als {_values} aanwezig is.",
         "required_with_all": "Het veld {_attribute} is vereist als {_values} aanwezig zijn.",
         "required_without": "Het veld {_attribute} is vereist als {_values} niet aanwezig is.",
-        "required_without_all": "Het veld {_attribute} is vereist als geen van de volgende nummers (_values} aanwezig is.",
+        "required_without_all": "Het veld {_attribute} is vereist als geen van de volgende velden {_values} aanwezig is.",
         "same": "De velden {_attribute} en {_other} moeten identiek zijn.",
         "size": {
             "array": "De matrix {_attribute} moet {_size} elementen bevatten.",
