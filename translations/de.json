@@ -40,7 +40,7 @@
             "extension_disabled": "{_extension}-Erweiterung deaktiviert",
             "extension_installed": "{_extension}-Erweiterung installiert",
             "theme_changed": "Thema geändert",
-            "balance_changed": "Der Kundensaldo wurde von {_old} in {_new} geändert.",
+            "balance_changed": "Kundensaldo von {_old} auf {_new} geändert {_reason}",
             "account_verified": "Verifiziertes Konto",
             "password_reset": "Zurücksetzen des Passworts",
             "two_factor_enabled": "Zwei-Faktor-Authentifizierung aktiviert",
@@ -422,7 +422,38 @@
                     "edit": "Ausstellung der Rechnung",
                     "show": "Anzeigen der Rechnung",
                     "billing": "Rechnungsinformationen",
-                    "advanced": "Fortgeschritten"
+                    "advanced": "Fortgeschritten",
+                    "logs": "Verlauf"
+                },
+                "logs": {
+                    "title": "Aktionsverlauf",
+                    "subheading": "Alle Aktionen, die für diese Rechnung durchgeführt wurden.",
+                    "count": "{count} Verlaufseintrag|{count} Verlaufseinträge",
+                    "empty": "Keine Aktivität für diese Rechnung bisher verzeichnet.",
+                    "columns": {
+                        "timestamp": "Zeitstempel",
+                        "event": "Ereignis",
+                        "actor": "Akteur",
+                        "details": "Details"
+                    },
+                    "actors": {
+                        "system": "System"
+                    },
+                    "no_context": "Keine zusätzlichen Details",
+                    "statuses": {
+                        "pay_invoice": "Rechnung bezahlt",
+                        "cancel_invoice": "Rechnung storniert",
+                        "refund_invoice": "Rechnung erstattet",
+                        "draft_invoice": "Rechnungsentwurf",
+                        "send_invoice": "Rechnung gesendet",
+                        "paid_invoice": "Zahlung bestätigt",
+                        "failed_invoice": "Zahlung fehlgeschlagen",
+                        "pending_invoice": "Zahlung ausstehend",
+                        "add_line": "Position hinzugefügt",
+                        "remove_line": "Position entfernt",
+                        "delete_invoice": "Rechnung gelöscht",
+                        "update_balance": "Guthaben aktualisiert"
+                    }
                 },
                 "fulfillment": {
                     "title": "Lieferung der Rechnung",
@@ -487,6 +518,25 @@
                 "subheading": "Hier sind die Informationen zu diesem Mitarbeiter, die am {_date} erstellt wurden."
             }
         },
+        "security_questions": {
+            "title": "Sicherheitsfragen",
+            "description": "Verwaltung der Sicherheitsfragen zum Schutz von Konten",
+            "subheading": "Konfigurieren Sie die verfügbaren Sicherheitsfragen für Kunden",
+            "fields": {
+                "question": "Frage",
+                "is_active": "Aktivieren",
+                "sort_order": "Anzeigereihenfolge"
+            },
+            "create": {
+                "title": "Neue Sicherheitsfrage",
+                "description": "Erstellen Sie eine neue Sicherheitsfrage"
+            },
+            "show": {
+                "title": "Sicherheitsfrage bearbeiten",
+                "description": "Bearbeiten Sie die Details dieser Sicherheitsfrage"
+            },
+            "empty": "Es wurden keine Sicherheitsfragen erstellt."
+        },
         "settings": {
             "title": "Parameter",
             "core": {
@@ -503,7 +553,7 @@
                     "test": {
                         "btn": "Testen der Verbindung",
                         "help": "Sie müssen die E-Mail-Einstellungen konfiguriert und gesichert haben, bevor Sie die Verbindung testen können.",
-                        "success": "Der Verbindungstest ist erfolgreich. Sie sollten innerhalb weniger Minuten eine E-Mail erhalten."
+                        "success": "Der Verbindungstest war erfolgreich. Sie sollten innerhalb weniger Minuten eine E-Mail an {_email} erhalten."
                     },
                     "disable_mail": "E-Mails deaktivieren",
                     "disable_mail_help": "Deaktiviert das Versenden von E-Mails aus dem Kundenbereich und versendet diese in den Protokollen",
@@ -844,7 +894,7 @@
                 "active_subscription": "Aktive Abonnements",
                 "services_empty": "Keine Dienste gefunden",
                 "earn": {
-                    "service_subscription_help": "Prozentsatz der Dienste mit einem aktiven Abonnement",
+                    "service_subscription_help": "Diese Daten basieren auf dem {_date}",
                     "monthly": "Monatliche Abonnements",
                     "monthly_earn": "Monatliche Verlängerungen",
                     "subscription_and_services": "Abonnements und Serviceverlängerungen",
@@ -949,6 +999,7 @@
             },
             "cancel": {
                 "index": "Service kündigen",
+                "manage": "Kündigung verwalten",
                 "subtitle": "Wollen Sie uns wirklich verlassen?",
                 "index_description": "Bitte wählen Sie einen Grund aus, um Ihren Service zu kündigen.",
                 "back": "Verwenden Sie den Dienst weiterhin",
@@ -959,7 +1010,24 @@
                 "success": "Der Dienst wurde erfolgreich gekündigt",
                 "expiration": "Ablauf des Dienstes",
                 "expiration_now": "Jetzt gerade",
-                "expiration_end": "Am Ende des Zeitraums"
+                "expiration_end": "Am Ende des Zeitraums",
+                "disabled": "Die Kündigung ist für diesen Service nicht verfügbar.",
+                "locked": "Sie können eine Kündigung ab dem {_date} beantragen.",
+                "existing_request": "Laufende Kündigungsanfrage",
+                "withdraw": "Anfrage zurückziehen",
+                "request_withdrawn": "Die Kündigungsanfrage wurde zurückgezogen.",
+                "request_exists": "Sie haben bereits eine laufende Kündigungsanfrage.",
+                "request_pending": "Ihre Anfrage wurde gesendet und wartet auf die Validierung eines Administrators.",
+                "request_scheduled": "Ihre Anfrage wurde für den {_date} geplant und wird automatisch angewendet.",
+                "no_request": "Keine Kündigungsanfrage gefunden.",
+                "status": {
+                    "pending": "Ausstehend",
+                    "scheduled": "Geplant",
+                    "approved": "Genehmigt",
+                    "rejected": "Abgelehnt",
+                    "cancelled": "Von Ihnen storniert",
+                    "processed": "Verarbeitet"
+                }
             },
             "renewals": {
                 "index": "Verlängerungen von Diensten",
@@ -1011,7 +1079,46 @@
         "profile": {
             "index": "Mein Profil",
             "index_description": "Ändern Sie hier Ihre persönlichen Daten.",
+            "security_answer_invalid": "Die Antwort auf die Sicherheitsfrage ist falsch.",
+            "security_question_saved": "Ihre Sicherheitsfrage wurde erfolgreich gespeichert.",
             "updated": "Aktualisiertes Profil",
+            "security_question": {
+                "title": "Sicherheitsfrage",
+                "description": "Fügen Sie eine Sicherheitsfrage hinzu, um Ihr Konto zu schützen",
+                "current": "Aktuelle Frage",
+                "select": "Frage auswählen",
+                "choose": "-- Frage auswählen --",
+                "answer": "Ihre Antwort",
+                "answer_placeholder": "Geben Sie Ihre geheime Antwort ein...",
+                "save": "Frage speichern",
+                "update": "Frage aktualisieren"
+            },
+            "delete": {
+                "title": "Mein Konto löschen",
+                "danger_zone": "Gefahrenzone",
+                "warning_message": "Die Löschung Ihres Kontos ist unwiderruflich. Alle Ihre persönlichen Daten werden gelöscht.",
+                "cannot_delete": "Ihr Konto kann nicht gelöscht werden",
+                "has_active_services": "Sie haben {_count} aktive(n) Dienst(e). Bitte kündigen Sie diese, bevor Sie Ihr Konto löschen.",
+                "has_pending_invoices": "Sie haben {_count} Rechnung(en), die auf Zahlung warten.",
+                "consequences_title": "Was gelöscht wird:",
+                "consequence_access": "Sie verlieren den Zugang zu Ihrem Konto",
+                "consequence_2fa": "Die Zwei-Faktor-Authentifizierung wird deaktiviert",
+                "consequence_tickets": "Ihre Support-Tickets werden geschlossen",
+                "consequence_invoices": "Ihre Rechnungen werden aus rechtlichen Gründen aufbewahrt",
+                "password_label": "Bestätigen Sie Ihr Passwort",
+                "password_placeholder": "Geben Sie Ihr aktuelles Passwort ein",
+                "2fa_label": "2FA-Authentifizierungscode",
+                "2fa_placeholder": "Geben Sie Ihren 2FA-Code ein",
+                "confirm_checkbox": "Ich verstehe, dass diese Aktion unwiderruflich ist und möchte mein Konto dauerhaft löschen.",
+                "submit_button": "Mein Konto dauerhaft löschen",
+                "final_confirm": "Sind Sie absolut sicher, dass Sie Ihr Konto löschen möchten? Diese Aktion ist unwiderruflich.",
+                "success": "Ihr Konto wurde erfolgreich gelöscht.",
+                "invalid_password": "Das Passwort ist falsch.",
+                "must_confirm": "Sie müssen die Löschung bestätigen.",
+                "2fa_required": "Der 2FA-Code ist erforderlich.",
+                "has_blocking_reasons": "Konto kann nicht gelöscht werden: Es gibt blockierende Gründe.",
+                "deleted_user_placeholder": "Gelöschter Benutzer"
+            },
             "security": {
                 "index": "Sicherheit",
                 "index_description": "Ändern Sie hier Ihr Passwort.",
@@ -1049,8 +1156,8 @@
             "service_uncancelled": "Der Dienst wurde reaktiviert",
             "vpsnotfound": "VPS wurde nicht gefunden",
             "spam": "Spam erkannt",
-            "account_blocked": "Ihr Konto wurde gesperrt",
-            "account_suspended": "Ihr Konto wurde gesperrt",
+            "account_blocked": "Ihr Konto wurde aus folgendem Grund gesperrt: {_reason}. Bitte kontaktieren Sie uns für weitere Informationen.",
+            "account_suspended": "Ihr Konto wurde aus folgendem Grund suspendiert: {_reason}. Bitte kontaktieren Sie uns für weitere Informationen.",
             "service_name_updated": "Der Name des Dienstes wurde aktualisiert",
             "service_billing_updated": "Die Rechnungsinformationen wurden aktualisiert",
             "email_must_be_verified": "Ihre E-Mail-Adresse muss verifiziert sein, um auf diese Seite zugreifen zu können",
@@ -1143,21 +1250,49 @@
             "title": "Einstellungen für Erweiterungen",
             "description": "Verwalten von Einstellungen für installierte Erweiterungen",
             "clearcache": "Cache leeren",
+            "search_placeholder": "Nach Namen, Beschreibung oder Tag suchen",
+            "processing": "Bearbeitung läuft...",
+            "no_extensions_found": "Keine Erweiterung gefunden",
+            "tabs": {
+                "my_extensions": "Meine Erweiterungen",
+                "discover": "Entdecken",
+                "themes": "Themes"
+            },
+            "sections": {
+                "my_themes": "Meine Themes",
+                "my_modules": "Meine Module & Addons",
+                "new": "Neuheiten",
+                "popular": "Beliebt",
+                "all_extensions": "Alle Erweiterungen",
+                "all_themes": "Alle Themes"
+            },
+            "tags": {
+                "featured": "Empfohlen",
+                "new": "Neu",
+                "popular": "Beliebt"
+            },
+            "no_installed": "Keine Erweiterung installiert",
+            "no_installed_desc": "Entdecken Sie unseren Erweiterungskatalog, um Ihr ClientXCMS zu bereichern",
+            "discover_extensions": "Erweiterungen entdecken",
+            "extensions_count": "Erweiterungen",
+            "no_results": "Keine Erweiterung entspricht Ihrer Suche",
+            "themes_available": "Themes verfügbar",
+            "no_themes": "Kein Theme verfügbar",
+            "update_available": "Update verfügbar",
+            "active": "Aktiv",
             "enable": "Aktivieren",
             "disable": "Deaktivieren",
             "enabled": "Aktiviert",
-            "disabled": "Arbeitsunfähig",
-            "activable": "Aktiviert",
-            "notactivable": "Nicht aktivierbar",
-            "buy": "Kaufen",
+            "disabled": "Deaktiviert",
             "installed": "Installiert",
             "update": "Aktualisieren",
-            "processing": "Bearbeitung läuft...",
             "processing_error": "Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
-            "install": "installieren",
-            "reviews": "Bewertung",
+            "install": "Installieren",
+            "reviews": "Bewertungen",
             "search": "Eine Erweiterung suchen",
-            "search_placeholder": "Nach Namen, Beschreibung oder Tag suchen"
+            "activable": "Aktivierbar",
+            "notactivable": "Nicht aktivierbar",
+            "buy": "Kaufen"
         },
         "onetime": "Nur einmal",
         "monthly": "Monatlich",
@@ -1391,7 +1526,7 @@
                 "attachments": "Diesem Ticket wurden ein oder mehrere Anhänge hinzugefügt",
                 "closed": "Dieses Ticket ist geschlossen. Du kannst nicht antworten. Wenn Sie Hilfe benötigen, öffnen Sie bitte ein neues Ticket oder öffnen Sie dieses Ticket erneut.",
                 "replyinticket": "Auf das Ticket antworten",
-                "closed2": "Dieses Ticket ist geschlossen. Du kannst nicht antworten.",
+                "closed2": "Dieses Ticket ist aus folgendem Grund geschlossen: {_reason}. Sie können nicht antworten.",
                 "index_description": "Nachfolgend finden Sie die Details des Support-Tickets.",
                 "close_reason": "Grund für die Schließung",
                 "assigned_to": "Zugewiesen an",
@@ -1619,7 +1754,33 @@
         "email": "E-Mail",
         "password_confirmation": "Bestätigung des Passworts",
         "authentication": "Authentifizierung",
-        "extensions": "Erweiterungen"
+        "extensions": "Erweiterungen",
+        "departmentsseeder": {
+            "general": {
+                "name": "Allgemein",
+                "description": "Allgemeine Abteilung"
+            },
+            "billing": {
+                "name": "Rechnungsstellung",
+                "description": "Rechnungsabteilung"
+            },
+            "technical": {
+                "name": "Technik",
+                "description": "Technische Abteilung"
+            },
+            "sales": {
+                "name": "Vertrieb",
+                "description": "Vertriebsabteilung"
+            }
+        },
+        "security_questions": {
+            "pet_name": "Wie lautet der Name Ihres ersten Haustieres?",
+            "birth_city": "In welcher Stadt wurden Sie geboren?",
+            "mother_maiden_name": "Wie lautet der Mädchenname Ihrer Mutter?",
+            "first_school": "Wie hieß Ihre erste Schule?",
+            "favorite_movie": "Was ist Ihr Lieblingsfilm?",
+            "childhood_nickname": "Wie lautete Ihr Spitzname als Kind?"
+        }
     },
     "lang.fr.maintenance": {
         "settings": {
@@ -1815,7 +1976,7 @@
             "restoresuccess": "Der Abschnitt wurde erfolgreich wiederhergestellt.",
             "restore": "Wiederherstellen",
             "title": "Abschnitte",
-            "subheading": "Hier ist die Liste aller Abschnitte des Systems",
+            "subheading": "Hier sind die Abschnitte für die Seite {_name}",
             "description": "Passen Sie die Abschnitte des Kundenbereichs an",
             "content": "Inhalt",
             "show": {
@@ -1991,7 +2152,11 @@
                         "max_subscription_tries_help": "Nach dieser Anzahl wird das Abonnement mit .0 gekündigt, um es zu deaktivieren",
                         "service_days_before_subscription_renewal_help": "Er legt die Anzahl der Tage vor dem Ablaufdatum fest, nach denen die Rechnungszahlung ausgeführt werden soll. Sie muss kürzer sein als die Anzahl der Tage, bevor die Verlängerungsrechnung erstellt wird.",
                         "notifications_expiration_days": "Benachrichtigung Tage vor Ablauf",
-                        "days_before_expiration_help": "Anzahl der Tage nach der Aussetzung des Dienstes, bevor der Dienst eingestellt wird"
+                        "days_before_expiration_help": "Anzahl der Tage nach der Aussetzung des Dienstes, bevor der Dienst eingestellt wird",
+                        "allow_cancellation": "Kunden erlauben, eine Kündigung zu beantragen",
+                        "allow_cancellation_help": "Wenn deaktiviert, ist die Kündigungsseite für Kunden nicht sichtbar.",
+                        "cancellation_lock_days": "Anzahl der Tage nach der Aktivierung, bevor eine Kündigung möglich ist",
+                        "cancellation_lock_days_help": "Während dieser Zeit bleibt das Kündigungsformular verborgen, auch wenn die Option aktiviert ist."
                     }
                 }
             },
@@ -2018,6 +2183,34 @@
                     "enable_extension": "Eine Erweiterung aktivieren",
                     "enable_extension_help": "Sie müssen eine Erweiterung aktivieren, um einen Server zu erstellen. Sie können je nach Verwendung Pterodactyl, Plesk, Proxmox oder Virtualizor wählen."
                 }
+            },
+            "cancellation_reasons": {
+                "title": "Kündigungsgründe",
+                "subheading": "Verwalten Sie die Kündigungsgründe für Dienste",
+                "reason": "Grund",
+                "reason_placeholder": "Geben Sie den Kündigungsgrund ein...",
+                "create": "Einen Kündigungsgrund erstellen",
+                "create_description": "Einen neuen Kündigungsgrund hinzufügen",
+                "show": "Kündigungsgrund bearbeiten",
+                "show_description": "Details dieses Kündigungsgrunds bearbeiten",
+                "usage_count": "Dieser Grund wird von {_count} gekündigtem(n) Dienst(en) verwendet.",
+                "analytics": {
+                    "title": "Kündigungsstatistiken",
+                    "description": "Analysieren Sie die Kündigungsgründe Ihrer Dienste",
+                    "total_cancellations": "Kündigungen insgesamt",
+                    "reasons_count": "Anzahl der Gründe",
+                    "period": "Zeitraum",
+                    "distribution": "Verteilung der Kündigungen",
+                    "breakdown": "Aufschlüsselung nach Grund",
+                    "cancelled_services": "Gekündigte Dienste",
+                    "cancelled_at": "Gekündigt am",
+                    "no_data": "Keine Daten für diesen Zeitraum",
+                    "all_data": "Alle Daten"
+                }
+            },
+            "cancellation_analytics": {
+                "title": "Kündigungsstatistiken",
+                "subheading": "Kündigungstrends analysieren"
             },
             "services": {
                 "no_gateway": "Für diesen Dienst ist kein Zahlungsgateway eingerichtet",
@@ -2136,6 +2329,38 @@
                 "resync": "Mit dem Produkt neu synchronisieren",
                 "pricing_synchronized": "Der Preis für die Dienstleistung ist mit dem Preis des Produkts synchronisiert. Sie können ihn nach Belieben nur für diesen Dienst ändern.",
                 "tab_not_found": "Es ist unmöglich, den Tab zu finden"
+            },
+            "cancellation_requests": {
+                "title": "Kündigungsanfragen",
+                "subheading": "Verfolgen und bearbeiten Sie die von Ihren Kunden eingereichten Kündigungsanfragen.",
+                "service": "Dienst",
+                "customer": "Kunde",
+                "mode": "Modus",
+                "status": "Status",
+                "requested_at": "Angefragt am",
+                "execute_at": "Wirksam am",
+                "reason": "Grund",
+                "message": "Kundenmitteilung",
+                "handler": "Bearbeitet von",
+                "empty": "Keine Kündigungsanfrage gefunden.",
+                "modes": {
+                    "now": "Sofort",
+                    "end_of_period": "Ende der Periode"
+                },
+                "actions": {
+                    "approve": "Anfrage bestätigen",
+                    "reject": "Anfrage ablehnen"
+                },
+                "flash": {
+                    "approved": "Die Kündigungsanfrage wurde genehmigt.",
+                    "rejected": "Die Kündigungsanfrage wurde abgelehnt.",
+                    "not_actionable": "Diese Anfrage wurde bereits bearbeitet."
+                },
+                "show": {
+                    "title": "Anfrage Nr. {_id}",
+                    "subheading": "Vollständige Details der Kündigungsanfrage des Kunden."
+                },
+                "no_actions": "Für diese Anfrage ist keine Aktion möglich."
             },
             "subdomains_hosts": {
                 "title": "Subdomains",
