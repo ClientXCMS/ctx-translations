@@ -385,7 +385,7 @@
             "title": "Usuários"
         },
         "invoices": {
-            "currency": "Lema",
+            "currency": "Moeda",
             "mass": {
                 "complete": "Marcar como pago",
                 "refund": "Marcar como reembolsado",
@@ -791,7 +791,7 @@
                     "store_vat_enabled": "Ativar IVA",
                     "customermustbeconfirmed": "O cliente deve ser confirmado para fazer o pedido",
                     "toslink": "Link para os termos e condições gerais de venda",
-                    "currency": "Lema",
+                    "currency": "Moeda",
                     "invoice_prefix": "Prefixo da fatura",
                     "billing_mode": "Forma de cobrança",
                     "billing_modes": {
@@ -903,12 +903,12 @@
             "paymentmethod": "Forma de pagamento",
             "index": "Meus métodos de pagamento",
             "index_description": "Abaixo está uma lista de seus métodos de pagamento salvos.",
-            "card": "Mapa",
+            "card": "Cartão",
             "expiration": "Expiração",
             "add": "Adicionar uma forma de pagamento",
             "add_description": "Adicione uma nova forma de pagamento à sua conta.",
             "success": "Método de pagamento adicionado com sucesso",
-            "default": "Defeito",
+            "default": "Predefinido",
             "defaultsucces": "Método de pagamento padrão atualizado",
             "set_default": "Definir como padrão",
             "manage": "Gerir",
@@ -1184,7 +1184,7 @@
         "username": "Nome de usuário",
         "password_confirmation": "Confirmação de senha",
         "address": "Endereço",
-        "currency": "Lema",
+        "currency": "Moeda",
         "title": "Título",
         "content": "Conteúdo",
         "address2": "Endereço adicional",
