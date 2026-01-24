@@ -40,7 +40,8 @@
             "extension_disabled": "{_extension} extension disabled",
             "extension_installed": "{_extension} extension installed",
             "theme_changed": "Theme changed",
-            "balance_changed": "Customer balance changed from {_old} to {_new}",
+            "balance_changed": "Customer balance changed from {_old} to {_new} {_reason}",
+            "account_deleted": "Account deleted",
             "account_verified": "Verified Account",
             "password_reset": "Password reset",
             "two_factor_enabled": "Two-factor authentication enabled",
@@ -422,7 +423,38 @@
                     "edit": "Issuance of the invoice",
                     "show": "Display of the invoice",
                     "billing": "Billing information",
-                    "advanced": "Advanced"
+                    "advanced": "Advanced",
+                    "logs": "History"
+                },
+                "logs": {
+                    "title": "Action history",
+                    "subheading": "All actions performed on this invoice.",
+                    "count": "{count} history entry|{count} history entries",
+                    "empty": "No activity recorded for this invoice at the moment.",
+                    "columns": {
+                        "timestamp": "Timestamp",
+                        "event": "Event",
+                        "actor": "Actor",
+                        "details": "Details"
+                    },
+                    "actors": {
+                        "system": "System"
+                    },
+                    "no_context": "No additional details",
+                    "statuses": {
+                        "pay_invoice": "Invoice paid",
+                        "cancel_invoice": "Invoice cancelled",
+                        "refund_invoice": "Invoice refunded",
+                        "draft_invoice": "Invoice drafted",
+                        "send_invoice": "Invoice sent",
+                        "paid_invoice": "Payment confirmed",
+                        "failed_invoice": "Payment failed",
+                        "pending_invoice": "Payment pending",
+                        "add_line": "Line added",
+                        "remove_line": "Line removed",
+                        "delete_invoice": "Invoice deleted",
+                        "update_balance": "Balance updated"
+                    }
                 },
                 "fulfillment": {
                     "title": "Delivery of the invoice",
@@ -487,6 +519,25 @@
                 "subheading": "Here is the information related to this staff created on {_date}"
             }
         },
+        "security_questions": {
+            "title": "Security questions",
+            "description": "Manage security questions for account protection",
+            "subheading": "Configure the security questions available to customers",
+            "fields": {
+                "question": "Question",
+                "is_active": "Enable",
+                "sort_order": "Display order"
+            },
+            "create": {
+                "title": "New security question",
+                "description": "Create a new security question"
+            },
+            "show": {
+                "title": "Edit security question",
+                "description": "Edit the details of this security question"
+            },
+            "empty": "No security questions have been created."
+        },
         "settings": {
             "title": "Settings",
             "core": {
@@ -503,7 +554,7 @@
                     "test": {
                         "btn": "Test the connection",
                         "help": "You must have configured and backed up the email settings before you can test the connection.",
-                        "success": "The connection test passed. You should receive an email within a few minutes."
+                        "success": "The connection test passed. You should receive an email within a few minutes at {_email}."
                     },
                     "disable_mail": "Disable emails",
                     "disable_mail_help": "Disables the sending of emails from the customer area and sends them in the logs",
@@ -844,7 +895,7 @@
                 "active_subscription": "Active subscriptions",
                 "services_empty": "No services found",
                 "earn": {
-                    "service_subscription_help": "Percentage of services with an active subscription",
+                    "service_subscription_help": "This data is based from {_date}",
                     "monthly": "Monthly subscriptions",
                     "monthly_earn": "Monthly renewals",
                     "subscription_and_services": "Subscriptions and Service Renewals",
@@ -914,6 +965,8 @@
             "manage": "Manage",
             "deleted": "Payment method removed",
             "add_paypal": "Add a PayPal account",
+            "add_method": "Add a method",
+            "add_method_with": "Add a method with {_method}",
             "errors": {
                 "not_supported": "This payment method is not supported",
                 "not_found": "This payment method was not found"
@@ -959,7 +1012,25 @@
                 "success": "The service was successfully cancelled",
                 "expiration": "Service Expiration",
                 "expiration_now": "Now",
-                "expiration_end": "At the end of the period"
+                "expiration_end": "At the end of the period",
+                "manage": "Manage cancellation",
+                "disabled": "Cancellation is not available for this service.",
+                "locked": "You will be able to request cancellation from {_date}.",
+                "existing_request": "Cancellation request in progress",
+                "withdraw": "Withdraw the request",
+                "request_withdrawn": "The cancellation request has been withdrawn.",
+                "request_exists": "You already have a cancellation request in progress.",
+                "request_pending": "Your request has been sent and is awaiting administrator validation.",
+                "request_scheduled": "Your request has been scheduled for {_date} and will be applied automatically.",
+                "no_request": "No cancellation request found.",
+                "status": {
+                    "pending": "Pending",
+                    "scheduled": "Scheduled",
+                    "approved": "Approved",
+                    "rejected": "Rejected",
+                    "cancelled": "Cancelled by you",
+                    "processed": "Processed"
+                }
             },
             "renewals": {
                 "index": "Service Renewals",
@@ -1027,6 +1098,45 @@
                 "subheading": "Please enter the two-factor authentication code generated by your mobile app.",
                 "info": "Scan the QR code with your two-factor authentication app.",
                 "download_codes": "Download the recovery codes <a href=\"{_url}\" class=\"text-primary\"> by clicking here</a>."
+            },
+            "security_answer_invalid": "The answer to the security question is incorrect.",
+            "security_question_saved": "Your security question has been saved successfully.",
+            "security_question": {
+                "title": "Security question",
+                "description": "Add a security question to protect your account",
+                "current": "Current question",
+                "select": "Choose a question",
+                "choose": "-- Select a question --",
+                "answer": "Your answer",
+                "answer_placeholder": "Enter your secret answer...",
+                "save": "Save the question",
+                "update": "Update the question"
+            },
+            "delete": {
+                "title": "Delete my account",
+                "danger_zone": "Danger zone",
+                "warning_message": "Deleting your account is irreversible. All your personal data will be deleted.",
+                "cannot_delete": "Unable to delete your account",
+                "has_active_services": "You have {_count} active service(s). Please cancel them before deleting your account.",
+                "has_pending_invoices": "You have {_count} invoice(s) awaiting payment.",
+                "consequences_title": "What will be deleted:",
+                "consequence_access": "You will lose access to your account",
+                "consequence_2fa": "Two-factor authentication will be disabled",
+                "consequence_tickets": "Your support tickets will be closed",
+                "consequence_invoices": "Your invoices will be retained for legal reasons",
+                "password_label": "Confirm your password",
+                "password_placeholder": "Enter your current password",
+                "2fa_label": "2FA authentication code",
+                "2fa_placeholder": "Enter your 2FA code",
+                "confirm_checkbox": "I understand that this action is irreversible and I wish to permanently delete my account.",
+                "submit_button": "Permanently delete my account",
+                "final_confirm": "Are you absolutely certain you want to delete your account? This action is irreversible.",
+                "success": "Your account has been successfully deleted.",
+                "invalid_password": "The password is incorrect.",
+                "must_confirm": "You must confirm the deletion.",
+                "2fa_required": "The 2FA code is required.",
+                "has_blocking_reasons": "Unable to delete the account: blocking reasons exist.",
+                "deleted_user_placeholder": "Deleted user"
             }
         },
         "pending_invoices": "{_count} invoice(s) awaiting payment. Please pay them to avoid a service interruption.",
@@ -1049,8 +1159,8 @@
             "service_uncancelled": "The service has been reactivated",
             "vpsnotfound": "VPS was not found",
             "spam": "Spam detected",
-            "account_blocked": "Your account has been blocked",
-            "account_suspended": "Your account has been suspended",
+            "account_blocked": "Your account has been blocked for the following reason: {_reason}",
+            "account_suspended": "Your account has been suspended for the following reason: {_reason}",
             "service_name_updated": "The name of the service has been updated",
             "service_billing_updated": "Billing information has been updated",
             "email_must_be_verified": "Your email address must be verified to access this page",
@@ -1157,7 +1267,35 @@
             "install": "to install",
             "reviews": "opinion",
             "search": "Search for an extension",
-            "search_placeholder": "Search by name, description, or tag"
+            "search_placeholder": "Search by name, description, or tag",
+            "no_extensions_found": "No extensions found",
+            "tabs": {
+                "my_extensions": "My extensions",
+                "discover": "Discover",
+                "themes": "Themes"
+            },
+            "sections": {
+                "my_themes": "My themes",
+                "my_modules": "My modules & addons",
+                "new": "New releases",
+                "popular": "Popular",
+                "all_extensions": "All extensions",
+                "all_themes": "All themes"
+            },
+            "tags": {
+                "featured": "Featured",
+                "new": "New",
+                "popular": "Popular"
+            },
+            "no_installed": "No extensions installed",
+            "no_installed_desc": "Discover our catalogue of extensions to enhance your ClientXCMS",
+            "discover_extensions": "Discover extensions",
+            "extensions_count": "extensions",
+            "no_results": "No extensions match your search",
+            "themes_available": "themes available",
+            "no_themes": "No themes available",
+            "update_available": "Update available",
+            "active": "Active"
         },
         "onetime": "Onetime",
         "monthly": "Monthly",
@@ -1391,7 +1529,7 @@
                 "attachments": "One or more attachments have been added to this ticket",
                 "closed": "This ticket is closed. You can't answer. If you need help, please open a new ticket or reopen this ticket.",
                 "replyinticket": "Reply to the ticket",
-                "closed2": "This ticket is closed. You can't answer.",
+                "closed2": "This ticket has been closed: {_reason}",
                 "index_description": "Below are the details of the support ticket.",
                 "close_reason": "Reason for the closure",
                 "assigned_to": "Assigned to",
@@ -1619,7 +1757,33 @@
         "email": "E-mail",
         "password_confirmation": "Password confirmation",
         "authentication": "Authentication",
-        "extensions": "Extensions"
+        "extensions": "Extensions",
+        "departmentsseeder": {
+            "general": {
+                "name": "General",
+                "description": "General department"
+            },
+            "billing": {
+                "name": "Billing",
+                "description": "Billing department"
+            },
+            "technical": {
+                "name": "Technical",
+                "description": "Technical department"
+            },
+            "sales": {
+                "name": "Sales",
+                "description": "Sales department"
+            }
+        },
+        "security_questions": {
+            "pet_name": "What is the name of your first pet?",
+            "birth_city": "In which city were you born?",
+            "mother_maiden_name": "What is your mother's maiden name?",
+            "first_school": "What is the name of your first school?",
+            "favorite_movie": "What is your favourite film?",
+            "childhood_nickname": "What was your childhood nickname?"
+        }
     },
     "lang.fr.maintenance": {
         "settings": {
@@ -1815,7 +1979,7 @@
             "restoresuccess": "The section has been successfully restored.",
             "restore": "Restore",
             "title": "Sections",
-            "subheading": "Here is the list of all the sections of the system",
+            "subheading": "Here are the sections for the page {_name}",
             "description": "Customize the sections of the customer area",
             "content": "Content",
             "show": {
@@ -1991,7 +2155,11 @@
                         "max_subscription_tries_help": "After this number, the subscription will be canceled .0 to disable",
                         "service_days_before_subscription_renewal_help": "It sets the number of days before the expiration date to execute the invoice payment. It must be less than the number of days before the renewal invoice is created.",
                         "notifications_expiration_days": "Notification days before expiration",
-                        "days_before_expiration_help": "Number of days after service suspension before service is discontinued"
+                        "days_before_expiration_help": "Number of days after service suspension before service is discontinued",
+                        "allow_cancellation": "Allow customers to request cancellation",
+                        "allow_cancellation_help": "If disabled, the cancellation page is not visible to customers.",
+                        "cancellation_lock_days": "Number of days after activation before cancellation is allowed",
+                        "cancellation_lock_days_help": "During this period, the cancellation form remains hidden even if the option is enabled."
                     }
                 }
             },
@@ -2018,6 +2186,34 @@
                     "enable_extension": "Enable an extension",
                     "enable_extension_help": "You need to enable an extension to create a server. You can choose Pterodactyl, Plesk, Proxmox, or Virtualizor for example, depending on your usage."
                 }
+            },
+            "cancellation_reasons": {
+                "title": "Cancellation reasons",
+                "subheading": "Manage service cancellation reasons",
+                "reason": "Reason",
+                "reason_placeholder": "Enter the cancellation reason...",
+                "create": "Create a cancellation reason",
+                "create_description": "Add a new cancellation reason",
+                "show": "Edit cancellation reason",
+                "show_description": "Edit the details of this cancellation reason",
+                "usage_count": "This reason is used by {_count} cancelled service(s).",
+                "analytics": {
+                    "title": "Cancellation statistics",
+                    "description": "Analyse the cancellation reasons for your services",
+                    "total_cancellations": "Total cancellations",
+                    "reasons_count": "Number of reasons",
+                    "period": "Period",
+                    "distribution": "Cancellation distribution",
+                    "breakdown": "Breakdown by reason",
+                    "cancelled_services": "Cancelled services",
+                    "cancelled_at": "Cancelled on",
+                    "no_data": "No data for this period",
+                    "all_data": "All data"
+                }
+            },
+            "cancellation_analytics": {
+                "title": "Cancellation statistics",
+                "subheading": "Analyse cancellation trends"
             },
             "services": {
                 "no_gateway": "There is no payment gateway set up for this service",
@@ -2136,6 +2332,38 @@
                 "resync": "Resynchronize with the product",
                 "pricing_synchronized": "The price of the service is synchronized with the price of the product. You can modify it if you wish for this service only.",
                 "tab_not_found": "Unable to find the tab"
+            },
+            "cancellation_requests": {
+                "title": "Cancellation requests",
+                "subheading": "Track and process cancellation requests submitted by your customers.",
+                "service": "Service",
+                "customer": "Customer",
+                "mode": "Mode",
+                "status": "Status",
+                "requested_at": "Requested on",
+                "execute_at": "Effective on",
+                "reason": "Reason",
+                "message": "Customer message",
+                "handler": "Processed by",
+                "empty": "No cancellation requests found.",
+                "modes": {
+                    "now": "Immediate",
+                    "end_of_period": "End of period"
+                },
+                "actions": {
+                    "approve": "Confirm the request",
+                    "reject": "Cancel the request"
+                },
+                "flash": {
+                    "approved": "The cancellation request has been approved.",
+                    "rejected": "The cancellation request has been cancelled.",
+                    "not_actionable": "This request has already been processed."
+                },
+                "show": {
+                    "title": "Request no.{_id}",
+                    "subheading": "Complete details of the customer's cancellation request."
+                },
+                "no_actions": "No actions are possible for this request."
             },
             "subdomains_hosts": {
                 "title": "Subdomains",
