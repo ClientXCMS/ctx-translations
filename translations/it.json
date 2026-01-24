@@ -40,13 +40,14 @@
             "extension_disabled": "Estensione {_extension} disabilitata",
             "extension_installed": "Estensione {_extension} installata",
             "theme_changed": "Tema cambiato",
-            "balance_changed": "Saldo clienti modificato da {_old} a {_new}",
+            "balance_changed": "Saldo clienti modificato da {_old} a {_new} {_reason}",
             "account_verified": "Account verificato",
             "password_reset": "Reimpostazione della password",
             "two_factor_enabled": "Autenticazione a due fattori abilitata",
             "two_factor_disabled": "Autenticazione a due fattori disabilitata",
             "two_factor_recovery_codes_generated": "Codici di recupero dell'autenticazione a due fattori generati",
-            "failed_login": "Connessione fallita Indirizzo IP : {_ip}"
+            "failed_login": "Connessione fallita Indirizzo IP : {_ip}",
+            "account_deleted": "Account eliminato"
         }
     },
     "lang.fr.admin": {
@@ -422,7 +423,38 @@
                     "edit": "Edizione della fattura",
                     "show": "Visualizzazione della fattura",
                     "billing": "Informazioni di fatturazione",
-                    "advanced": "Avanzato"
+                    "advanced": "Avanzato",
+                    "logs": "Cronologia"
+                },
+                "logs": {
+                    "title": "Cronologia delle azioni",
+                    "subheading": "Tutte le azioni eseguite su questa fattura.",
+                    "count": "{count} voce di cronologia|{count} voci di cronologia",
+                    "empty": "Nessuna attività registrata per questa fattura al momento.",
+                    "columns": {
+                        "timestamp": "Marca temporale",
+                        "event": "Evento",
+                        "actor": "Attore",
+                        "details": "Dettagli"
+                    },
+                    "actors": {
+                        "system": "Sistema"
+                    },
+                    "no_context": "Nessun dettaglio aggiuntivo",
+                    "statuses": {
+                        "pay_invoice": "Fattura pagata",
+                        "cancel_invoice": "Fattura annullata",
+                        "refund_invoice": "Fattura rimborsata",
+                        "draft_invoice": "Fattura in bozza",
+                        "send_invoice": "Fattura inviata",
+                        "paid_invoice": "Pagamento confermato",
+                        "failed_invoice": "Pagamento fallito",
+                        "pending_invoice": "Pagamento in attesa",
+                        "add_line": "Riga aggiunta",
+                        "remove_line": "Riga rimossa",
+                        "delete_invoice": "Fattura eliminata",
+                        "update_balance": "Saldo aggiornato"
+                    }
                 },
                 "fulfillment": {
                     "title": "Consegna della fattura",
@@ -487,6 +519,25 @@
                 "subheading": "Ecco le informazioni relative a questo staff creato il {_date}"
             }
         },
+        "security_questions": {
+            "title": "Domande di sicurezza",
+            "description": "Gestione delle domande di sicurezza per la protezione degli account",
+            "subheading": "Configuri le domande di sicurezza disponibili per i clienti",
+            "fields": {
+                "question": "Domanda",
+                "is_active": "Attivare",
+                "sort_order": "Ordine di visualizzazione"
+            },
+            "create": {
+                "title": "Nuova domanda di sicurezza",
+                "description": "Crei una nuova domanda di sicurezza"
+            },
+            "show": {
+                "title": "Modifica la domanda di sicurezza",
+                "description": "Modifichi i dettagli di questa domanda di sicurezza"
+            },
+            "empty": "Nessuna domanda di sicurezza è stata creata."
+        },
         "settings": {
             "title": "Parametri",
             "core": {
@@ -503,7 +554,7 @@
                     "test": {
                         "btn": "Verifica la connessione",
                         "help": "È necessario aver configurato ed eseguito il backup delle impostazioni e-mail prima di poter testare la connessione.",
-                        "success": "Il test di connessione è stato superato. Dovresti ricevere un'e-mail entro pochi minuti."
+                        "success": "Il test di connessione è stato superato. Dovrebbe ricevere un'e-mail entro pochi minuti all'indirizzo {_email}."
                     },
                     "disable_mail": "Disabilita le e-mail",
                     "disable_mail_help": "Disabilita l'invio di email dall'area clienti e le invia nei log",
@@ -844,7 +895,7 @@
                 "active_subscription": "Abbonamenti attivi",
                 "services_empty": "Nessun servizio trovato",
                 "earn": {
-                    "service_subscription_help": "Percentuale di servizi con un abbonamento attivo",
+                    "service_subscription_help": "Questi dati sono basati dal {_date}",
                     "monthly": "Abbonamenti mensili",
                     "monthly_earn": "Rinnovi mensili",
                     "subscription_and_services": "Abbonamenti e rinnovi dei servizi",
@@ -949,17 +1000,35 @@
             },
             "cancel": {
                 "index": "Annulla servizio",
-                "subtitle": "Vuoi davvero lasciarci?",
-                "index_description": "Seleziona un motivo per annullare il servizio.",
+                "manage": "Gestisci l'annullamento",
+                "subtitle": "Vuole davvero lasciarci?",
+                "index_description": "La preghiamo di selezionare un motivo per annullare il Suo servizio.",
                 "back": "Continua a utilizzare il servizio",
-                "message": "Messaggio per noi",
-                "reason": "Ragione",
-                "submit": "Annulla servizio",
-                "uncancel": "Annulla annullamento",
+                "message": "Messaggio da trasmetterci",
+                "reason": "Motivo",
+                "submit": "Annulla il servizio",
+                "uncancel": "Annulla l'annullamento",
                 "success": "Il servizio è stato annullato con successo",
                 "expiration": "Scadenza del servizio",
                 "expiration_now": "Subito",
-                "expiration_end": "Al termine del periodo"
+                "expiration_end": "Alla fine del periodo",
+                "disabled": "L'annullamento non è disponibile per questo servizio.",
+                "locked": "Potrà richiedere un annullamento a partire dal {_date}.",
+                "existing_request": "Richiesta di annullamento in corso",
+                "withdraw": "Ritira la richiesta",
+                "request_withdrawn": "La richiesta di annullamento è stata ritirata.",
+                "request_exists": "Lei ha già una richiesta di annullamento in corso.",
+                "request_pending": "La Sua richiesta è stata inviata ed è in attesa di convalida da parte di un amministratore.",
+                "request_scheduled": "La Sua richiesta è stata programmata per il {_date} e verrà applicata automaticamente.",
+                "no_request": "Nessuna richiesta di annullamento trovata.",
+                "status": {
+                    "pending": "In attesa",
+                    "scheduled": "Programmato",
+                    "approved": "Approvato",
+                    "rejected": "Rifiutato",
+                    "cancelled": "Annullato da Lei",
+                    "processed": "Elaborato"
+                }
             },
             "renewals": {
                 "index": "Rinnovi dei servizi",
@@ -1010,8 +1079,46 @@
         },
         "profile": {
             "index": "Il mio profilo",
-            "index_description": "Modifica le tue informazioni personali qui.",
+            "index_description": "Modifica le Sue informazioni personali qui.",
+            "security_answer_invalid": "La risposta alla domanda di sicurezza non è corretta.",
+            "security_question_saved": "La Sua domanda di sicurezza è stata salvata con successo.",
             "updated": "Profilo aggiornato",
+            "security_question": {
+                "title": "Domanda di sicurezza",
+                "description": "Aggiunga una domanda di sicurezza per proteggere il Suo account",
+                "current": "Domanda attuale",
+                "select": "Scelga una domanda",
+                "choose": "-- Selezionare una domanda --",
+                "answer": "La Sua risposta",
+                "answer_placeholder": "Inserisca la Sua risposta segreta...",
+                "save": "Salva la domanda"
+            },
+            "delete": {
+                "title": "Elimina il mio account",
+                "danger_zone": "Zona pericolosa",
+                "warning_message": "L'eliminazione del Suo account è irreversibile. Tutti i Suoi dati personali saranno eliminati.",
+                "cannot_delete": "Impossibile eliminare il Suo account",
+                "has_active_services": "Lei ha {_count} servizio/i attivo/i. La preghiamo di annullarli prima di eliminare il Suo account.",
+                "has_pending_invoices": "Lei ha {_count} fattura/e in attesa di pagamento.",
+                "consequences_title": "Cosa verrà eliminato:",
+                "consequence_access": "Perderà l'accesso al Suo account",
+                "consequence_2fa": "L'autenticazione a due fattori verrà disabilitata",
+                "consequence_tickets": "I Suoi ticket di supporto verranno chiusi",
+                "consequence_invoices": "Le Sue fatture verranno conservate per motivi legali",
+                "password_label": "Confermi la Sua password",
+                "password_placeholder": "Inserisca la Sua password attuale",
+                "2fa_label": "Codice di autenticazione 2FA",
+                "2fa_placeholder": "Inserisca il Suo codice 2FA",
+                "confirm_checkbox": "Comprendo che questa azione è irreversibile e desidero eliminare definitivamente il mio account.",
+                "submit_button": "Elimina definitivamente il mio account",
+                "final_confirm": "È assolutamente certo/a di voler eliminare il Suo account? Questa azione è irreversibile.",
+                "success": "Il Suo account è stato eliminato con successo.",
+                "invalid_password": "La password non è corretta.",
+                "must_confirm": "Deve confermare l'eliminazione.",
+                "2fa_required": "Il codice 2FA è richiesto.",
+                "has_blocking_reasons": "Impossibile eliminare l'account: esistono motivi bloccanti.",
+                "deleted_user_placeholder": "Utente eliminato"
+            },
             "security": {
                 "index": "Sicurezza",
                 "index_description": "Cambia la tua password qui.",
@@ -1049,8 +1156,8 @@
             "service_uncancelled": "Il servizio è stato riattivato",
             "vpsnotfound": "VPS non trovato",
             "spam": "Spam rilevato",
-            "account_blocked": "Il tuo account è stato bloccato",
-            "account_suspended": "Il tuo account è stato sospeso",
+            "account_blocked": "Il Suo account è stato bloccato per il motivo {_reason}. La preghiamo di contattarci per maggiori informazioni.",
+            "account_suspended": "Il Suo account è stato sospeso per il motivo {_reason}. La preghiamo di contattarci per maggiori informazioni.",
             "service_name_updated": "Il nome del servizio è stato aggiornato",
             "service_billing_updated": "Le informazioni di fatturazione sono state aggiornate",
             "email_must_be_verified": "Il tuo indirizzo email deve essere verificato per accedere a questa pagina",
@@ -1140,24 +1247,52 @@
         "title": "Estensioni",
         "description": "Gestisci le estensioni CLIENTXCMS, abilita o disabilita le estensioni installate.",
         "settings": {
-            "title": "Impostazioni dell'estensione",
-            "description": "Gestire le impostazioni per le estensioni installate",
+            "title": "Impostazioni delle estensioni",
+            "description": "Gestisca le impostazioni per le estensioni installate",
             "clearcache": "Svuota cache",
+            "search_placeholder": "Cerca per nome, descrizione o tag",
+            "processing": "Elaborazione in corso...",
+            "no_extensions_found": "Nessuna estensione trovata",
+            "tabs": {
+                "my_extensions": "Le mie estensioni",
+                "discover": "Scopri",
+                "themes": "Temi"
+            },
+            "sections": {
+                "my_themes": "I miei temi",
+                "my_modules": "I miei moduli e addon",
+                "new": "Novità",
+                "popular": "Popolari",
+                "all_extensions": "Tutte le estensioni",
+                "all_themes": "Tutti i temi"
+            },
+            "tags": {
+                "featured": "In evidenza",
+                "new": "Nuovo",
+                "popular": "Popolare"
+            },
+            "no_installed": "Nessuna estensione installata",
+            "no_installed_desc": "Scopra il nostro catalogo di estensioni per arricchire il Suo ClientXCMS",
+            "discover_extensions": "Scopri le estensioni",
+            "extensions_count": "estensioni",
+            "no_results": "Nessuna estensione corrisponde alla Sua ricerca",
+            "themes_available": "temi disponibili",
+            "no_themes": "Nessun tema disponibile",
+            "update_available": "Aggiornamento disponibile",
+            "active": "Attivo",
             "enable": "Attivare",
             "disable": "Disattivare",
-            "enabled": "Attivante",
-            "disabled": "Disabile",
-            "activable": "Attivante",
-            "notactivable": "Non attivabile",
-            "buy": "Comprare",
+            "enabled": "Attivato",
+            "disabled": "Disattivato",
             "installed": "Installato",
             "update": "Aggiornare",
-            "processing": "Elaborazione in corso...",
-            "processing_error": "Si è verificato un errore, per favore riprova.",
-            "install": "installare",
-            "reviews": "recensione",
+            "processing_error": "Si è verificato un errore, La preghiamo di riprovare.",
+            "install": "Installare",
+            "reviews": "recensioni",
             "search": "Cercare un'estensione",
-            "search_placeholder": "Cerca per nome, descrizione o tag"
+            "activable": "Attivabile",
+            "notactivable": "Non attivabile",
+            "buy": "Acquistare"
         },
         "onetime": "Solo una volta",
         "monthly": "Mensile",
@@ -1391,7 +1526,7 @@
                 "attachments": "Uno o più allegati sono stati aggiunti a questo ticket",
                 "closed": "Questo biglietto è chiuso. Non puoi rispondere. Se hai bisogno di aiuto, apri un nuovo ticket o riapri questo ticket.",
                 "replyinticket": "Rispondi al ticket",
-                "closed2": "Questo biglietto è chiuso. Non puoi rispondere.",
+                "closed2": "Questo biglietto è chiuso per il motivo: {_reason}. Non può rispondere.",
                 "index_description": "Di seguito sono riportati i dettagli del ticket di supporto.",
                 "close_reason": "Motivo della chiusura",
                 "assigned_to": "Assegnato a",
@@ -1619,7 +1754,33 @@
         "email": "E-mail",
         "password_confirmation": "Conferma della password",
         "authentication": "Autenticazione",
-        "extensions": "Estensioni"
+        "extensions": "Estensioni",
+        "departmentsseeder": {
+            "general": {
+                "name": "Generale",
+                "description": "Dipartimento generale"
+            },
+            "billing": {
+                "name": "Fatturazione",
+                "description": "Dipartimento di fatturazione"
+            },
+            "technical": {
+                "name": "Tecnico",
+                "description": "Dipartimento tecnico"
+            },
+            "sales": {
+                "name": "Commerciale",
+                "description": "Dipartimento commerciale"
+            }
+        },
+        "security_questions": {
+            "pet_name": "Qual è il nome del Suo primo animale domestico?",
+            "birth_city": "In quale città è nato/a?",
+            "mother_maiden_name": "Qual è il cognome da nubile di Sua madre?",
+            "first_school": "Qual è il nome della Sua prima scuola?",
+            "favorite_movie": "Qual è il Suo film preferito?",
+            "childhood_nickname": "Qual era il Suo soprannome d'infanzia?"
+        }
     },
     "lang.fr.maintenance": {
         "settings": {
@@ -1701,7 +1862,8 @@
         "manage_api_keys": "Gestire le chiavi API",
         "export_invoices": "Esportare le fatture",
         "manage_subdomains_hosts": "Gestire i sottodomini host",
-        "manage_update": "Aggiornare CLIENTXCMS"
+        "manage_update": "Aggiornare CLIENTXCMS",
+        "manage_backups": "Gestire i backup"
     },
     "lang.fr.personalization": {
         "title": "Personalizzazione",
@@ -1815,7 +1977,7 @@
             "restoresuccess": "La sezione è stata restaurata con successo.",
             "restore": "Restaurare",
             "title": "Sezioni",
-            "subheading": "Ecco l'elenco di tutte le sezioni del sistema",
+            "subheading": "Ecco le sezioni per la pagina {_name}",
             "description": "Personalizza le sezioni dell'area clienti",
             "content": "Contenuto",
             "show": {
@@ -1991,9 +2153,73 @@
                         "max_subscription_tries_help": "Dopo questo numero, l'abbonamento verrà annullato .0 per disabilitare",
                         "service_days_before_subscription_renewal_help": "Imposta il numero di giorni prima della data di scadenza per eseguire il pagamento della fattura. Deve essere inferiore al numero di giorni prima della creazione della fattura di rinnovo.",
                         "notifications_expiration_days": "Giorni di notifica prima della scadenza",
-                        "days_before_expiration_help": "Numero di giorni dopo la sospensione del servizio prima dell'interruzione del servizio"
+                        "days_before_expiration_help": "Numero di giorni dopo la sospensione del servizio prima dell'interruzione del servizio",
+                        "allow_cancellation": "Autorizzare i clienti a richiedere un annullamento",
+                        "allow_cancellation_help": "Se disattivato, la pagina di annullamento non è visibile lato cliente.",
+                        "cancellation_lock_days": "Numero di giorni dopo l'attivazione prima di poter annullare",
+                        "cancellation_lock_days_help": "Durante questo periodo, il modulo di annullamento rimane nascosto anche se l'opzione è attivata."
                     }
                 }
+            },
+            "cancellation_reasons": {
+                "title": "Motivi di annullamento",
+                "subheading": "Gestisca i motivi di annullamento dei servizi",
+                "reason": "Motivo",
+                "reason_placeholder": "Inserisca il motivo di annullamento...",
+                "create": "Creare un motivo di annullamento",
+                "create_description": "Aggiungere un nuovo motivo di annullamento",
+                "show": "Modificare il motivo di annullamento",
+                "show_description": "Modifichi i dettagli di questo motivo di annullamento",
+                "usage_count": "Questo motivo è utilizzato da {_count} servizio/i annullato/i.",
+                "analytics": {
+                    "title": "Statistiche di annullamento",
+                    "description": "Analizzi i motivi di annullamento dei Suoi servizi",
+                    "total_cancellations": "Totale degli annullamenti",
+                    "reasons_count": "Numero di motivi",
+                    "period": "Periodo",
+                    "distribution": "Distribuzione degli annullamenti",
+                    "breakdown": "Dettaglio per motivo",
+                    "cancelled_services": "Servizi annullati",
+                    "cancelled_at": "Annullato il",
+                    "no_data": "Nessun dato per questo periodo",
+                    "all_data": "Tutti i dati"
+                }
+            },
+            "cancellation_analytics": {
+                "title": "Statistiche di annullamento",
+                "subheading": "Analizzare le tendenze di annullamento"
+            },
+            "cancellation_requests": {
+                "title": "Richieste di annullamento",
+                "subheading": "Segua e gestisca le richieste di annullamento inviate dai Suoi clienti.",
+                "service": "Servizio",
+                "customer": "Cliente",
+                "mode": "Modalità",
+                "status": "Stato",
+                "requested_at": "Richiesto il",
+                "execute_at": "Effettivo il",
+                "reason": "Motivo",
+                "message": "Messaggio del cliente",
+                "handler": "Gestito da",
+                "empty": "Nessuna richiesta di annullamento trovata.",
+                "modes": {
+                    "now": "Immediato",
+                    "end_of_period": "Fine del periodo"
+                },
+                "actions": {
+                    "approve": "Confermare la richiesta",
+                    "reject": "Annullare la richiesta"
+                },
+                "flash": {
+                    "approved": "La richiesta di annullamento è stata approvata.",
+                    "rejected": "La richiesta di annullamento è stata annullata.",
+                    "not_actionable": "Questa richiesta è già stata elaborata."
+                },
+                "show": {
+                    "title": "Richiesta n°{_id}",
+                    "subheading": "Dettagli completi della richiesta di annullamento del cliente."
+                },
+                "no_actions": "Nessuna azione è possibile per questa richiesta."
             },
             "servers": {
                 "testconnection": {
