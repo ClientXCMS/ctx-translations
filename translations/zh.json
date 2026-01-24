@@ -5,8 +5,6 @@
             "title": "操作历史记录",
             "description": "员工和系统执行的操作列表。",
             "subheading": "操作历史记录",
-            "user": "用户",
-            "action": "操作",
             "model": "型",
             "model_id": "模板 ID",
             "payload": "有效载荷",
@@ -131,8 +129,7 @@
                     "custom_item": "定制产品",
                     "upgrade": "升级",
                     "free_trial": "免费试用",
-                    "gift_card": "礼品卡",
-                    "add_fund": "添加资金"
+                    "gift_card": "礼品卡"
                 },
                 "gateway_canvas_help": "客户用于支付账单的付款方式",
                 "best_customers": "最佳客户",
@@ -142,12 +139,10 @@
                 "max_periods": "服务续订数量增加",
                 "average_service_price": "服务的平均价格",
                 "max_services_by_customer": "为每位客户提供更多服务",
-                "max_price": "服务的最高价格",
                 "last_renewals": "最新续订",
                 "average_services_by_customer": "每个客户的平均服务数量",
                 "services": {
                     "title": "服务分类",
-                    "price_avg": "平均价格",
                     "renewals_avg": "平均续订数"
                 }
             },
@@ -228,8 +223,6 @@
             "create": {
                 "title": "发送电子邮件",
                 "subheading": "向客户或客户组发送电子邮件",
-                "next": "下一个",
-                "send": "发送",
                 "preview": "预览"
             }
         },
@@ -316,7 +309,6 @@
             "show": {
                 "email_sent": "电子邮件已成功发送",
                 "email_confirmed": "账户已成功确认",
-                "resend": "重新发送确认电子邮件",
                 "confirm": "确认账户",
                 "title": "{_name} 的客户资料",
                 "login_ip": "连接 IP",
@@ -386,11 +378,7 @@
                 "login": "最新连接"
             }
         },
-        "users": {
-            "title": "用户"
-        },
         "invoices": {
-            "currency": "货币",
             "mass": {
                 "complete": "标记为已付款",
                 "refund": "标记为已退款",
@@ -473,8 +461,7 @@
             },
             "create": {
                 "title": "创建发票",
-                "subheading": "为系统创建新发票",
-                "btn": "创造"
+                "subheading": "为系统创建新发票"
             },
             "title": "发票",
             "subheading": "这是系统中所有发票的列表",
@@ -503,7 +490,6 @@
         },
         "admins": {
             "title": "员工",
-            "expires_at": "到期日期",
             "subheading": "这是系统中所有人员的列表",
             "description": "管理管理员区域的员工凭证",
             "badge": {
@@ -516,7 +502,6 @@
                 "subheading": "创建新员工进行管理"
             },
             "signature": "签名",
-            "expiration": "到期日期",
             "show": {
                 "title": "个人简介 {_name}",
                 "login": "最新的员工联系",
@@ -648,14 +633,10 @@
             "subheading2": "管理您的许可证和相关信息或更新您的可用模块。",
             "expiration": "您的许可证将于 {_date} 到期",
             "onetime": "终身许可证",
-            "modules": "包含的模块",
             "extensions": "可用扩展名：{_extensions}",
             "domain": "域：{_domain}",
-            "max_customers": "最大客户端数：{_count}",
-            "current_customers": "当前客户数量：{_count}",
             "last_check": "上次检查 {_date}",
             "client_id": "客户端 ID",
-            "description": "管理您的许可证和相关信息或更新您的可用模块。",
             "force": "强制验证",
             "support_expiration": "您的支持将在 {_date} 到期",
             "support_expired": "您的支持已于 {_date} 到期",
@@ -667,27 +648,10 @@
         },
         "metadata": {
             "title": "元数据",
-            "key": "键",
-            "value": "值",
             "subheading": "元数据管理",
             "add": "添加元数据",
             "editwarning": "请注意，修改或删除元数据可能会对系统产生影响。请确定您在做什么。",
             "updated": "元数据已成功更新。"
-        },
-        "schedules": {
-            "title": "计划任务",
-            "subheading": "查看计划任务",
-            "filters": {
-                "all": "所有任务",
-                "services:delivery": "服务交付",
-                "services:expire": "服务到期"
-            },
-            "readmore": "阅读更多",
-            "readless": "阅读更少",
-            "command": "命令",
-            "output": "输出",
-            "runtime": "运行",
-            "created_at": "创建于"
         },
         "flash": {
             "created": "已成功创建项目。",
@@ -707,13 +671,7 @@
             "translations_saved": "翻译被成功录制。",
             "subheading": "译本",
             "title": "语言",
-            "is_downloaded": "下载",
-            "is_default": "默认情况下",
-            "download": "下载",
-            "update": "更新",
             "changedefaulthelp": "您可以在全局设置中更改默认语言。",
-            "is_enabled": "激活",
-            "disabled": "禁用",
             "download_success": "翻译文件已成功上传。",
             "description": "查找 Customer Area 的可用语言列表。根据需要开启或关闭语言。",
             "download_error": "您无法在本地下载法语翻译文件。"
@@ -863,7 +821,6 @@
                     "store_vat_enabled": "激活增值税",
                     "customermustbeconfirmed": "客户必须确认订单",
                     "toslink": "链接到一般销售条款和条件",
-                    "currency": "货币",
                     "invoice_prefix": "发票前缀",
                     "billing_mode": "计费方式",
                     "billing_modes": {
@@ -875,11 +832,6 @@
                     "remove_pending_invoice_types": {
                         "delete": "删除",
                         "cancel": "取消"
-                    },
-                    "mode_tax": {
-                        "title": "税务方法",
-                        "included": "包含 - 显示的价格包含增值税",
-                        "excluded": "不包含 - 显示的价格不含增值税"
                     },
                     "vat_default_country": "增值税的默认国家/地区",
                     "rates": {
@@ -957,7 +909,6 @@
                 "flash": "请向发票上显示的银行账户付款。一旦收到付款，您的订单将被处理。"
             },
             "paid_date": "付款日期",
-            "deliver": "提供",
             "renewal_description": "向 {_service_label} 服务添加了 {_month_label}",
             "pay_with_balance": "用余额支付部分账单",
             "balance": {
@@ -1008,21 +959,11 @@
             "expire_date": "有效期",
             "noservices": "未找到服务",
             "startorder": "首先订购服务",
-            "server": "服务器",
-            "onetime": "终身服务",
             "changename": "更改服务名称",
             "managerenew": "管理服务周期",
             "manageserviceonadmin": "从管理部门管理",
             "dayremaining": "还剩 {_days} 天",
             "daysremaining": "剩余 {_days} 天",
-            "expirationtooltip": "该服务将于 {_date} 过期",
-            "expirationtooltipexpired": "服务已于 {_date} 过期",
-            "expirationtooltipneverexpire": "服务永不过期",
-            "expirationtooltipsuspended": "服务已于 {_date} 暂停",
-            "subusers": {
-                "index": "子用户",
-                "manage": "管理访问权限"
-            },
             "cancel": {
                 "index": "取消服务",
                 "subtitle": "您真的想离开我们吗？",
@@ -1062,7 +1003,6 @@
                 "saveandrenew": "注册和续订",
                 "date": "日期",
                 "manage": "以下是已完成的服务续订列表。",
-                "not_autorized_to_change_billing": "您不能更改计费方式",
                 "not_authorized_to_change_billing": "您不被允许更改计费方式"
             },
             "subscription": {
@@ -1232,13 +1172,11 @@
             "required_products": "所需产品",
             "all_products_in_group": "集团 {_group} 的所有产品",
             "usages": "使用次数",
-            "products_required": "所需产品",
             "minimum_order_amount": "最低订购金额",
             "applied_month_help": "-1 表示无限制，0 仅表示首次付款。（例如：3 次重复 = 首次付款 + 3 次续订）",
             "code": "代码",
             "pricelabel": "减少",
             "used_at": "用于",
-            "amount": "金额",
             "usage": "用法",
             "groups": "授权组",
             "no_products": "此优惠券不包含任何授权产品。它不能使用。允许此优惠券的产品或为整个商店激活它。",
@@ -1482,7 +1420,6 @@
         "updated": "更新",
         "already_set": "已定义",
         "create": "创建",
-        "unkwown": "未知",
         "deleted": "已删除",
         "action": "操作",
         "is_downloaded": "下载",
@@ -1538,8 +1475,6 @@
         "quantity": "数量"
     },
     "lang.fr.helpdesk": {
-        "ticket": "工单",
-        "tickets": "工单",
         "subject": "主题",
         "priority": "优先权",
         "attachments": "附件",
@@ -1597,24 +1532,6 @@
                 "send": "发送",
                 "relatednone": "没有",
                 "messagehelp": "请提供尽可能多的详细信息，以帮助我们解决您的问题。"
-            },
-            "departmentsseeder": {
-                "general": {
-                    "name": "常规",
-                    "description": "综合部"
-                },
-                "billing": {
-                    "name": "发票",
-                    "description": "计费部"
-                },
-                "technical": {
-                    "name": "技术",
-                    "description": "技术部"
-                },
-                "sales": {
-                    "name": "商业",
-                    "description": "销售部"
-                }
             },
             "ticket_closed_by": "由{_name}关闭",
             "ticket_auto_close": "票据在 {_days} 天后自动关闭",
@@ -1916,7 +1833,6 @@
     "lang.fr.personalization": {
         "title": "定制",
         "icon": "图标",
-        "addmenu": "添加菜单",
         "demo": "演示",
         "icon_help": "查看 icons.getbootstrap.com 上的图标列表",
         "email_templates": {
@@ -2013,13 +1929,11 @@
         },
         "front_menu": {
             "title": "顶部菜单",
-            "description": "自定义 Customer Area 的顶部菜单",
-            "help": "每个 URL 必须是唯一的。要添加外部链接，请使用以下格式：https://www.example.com"
+            "description": "自定义 Customer Area 的顶部菜单"
         },
         "bottom_menu": {
             "title": "页脚菜单",
-            "description": "自定义 Customer Area 的页脚菜单",
-            "help": "请注意，每个 URL 必须是唯一的"
+            "description": "自定义 Customer Area 的页脚菜单"
         },
         "sections": {
             "restoresuccess": "该部分已成功恢复。",
@@ -2040,7 +1954,6 @@
             "disable": "关闭",
             "enable": "激活",
             "types": {
-                "subheading": "以下是可以轻松添加到 {_name} 类别中的部分列表",
                 "title": "主题 {_name} 可用的部分"
             },
             "pages": {
@@ -2077,7 +1990,6 @@
         "theme": {
             "title": "主题设置",
             "description": "Customer Area Theme 设置",
-            "success": "主题设置已成功保存。",
             "fields": {
                 "theme_footer_description": "页脚描述",
                 "theme_footer_description_help": "HTML 支持",
@@ -2090,18 +2002,11 @@
                     "both": "双"
                 }
             },
-            "themename": "主题名称",
-            "enabled": "激活",
-            "disabled": "禁用",
-            "not_found": "尚未找到主题。",
             "info": "您现在可以在扩展 > 主题中选择您的主题。<a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">点击这里访问</a>.",
             "current_theme": "当前主题"
         },
-        "addline": "添加行",
         "useful": "实用信息",
         "badge": "徽章",
-        "adddropdownmenu": "添加下拉菜单",
-        "icon_help2": "您可以使用图像的 URL 代替图标",
         "menu_links": {
             "title": "菜单链接",
             "description": "个性化客户空间菜单的链接",
@@ -2202,10 +2107,8 @@
                     "fields": {
                         "days_before_creation_invoice_renewal": "创建续订发票前的天数",
                         "days_before_expiration": "到期前天数",
-                        "service_days_before_subscription_renewal": "订阅续订前的天数",
                         "max_subscription_tries": "最大自动续订尝试次数",
                         "max_subscription_tries_help": "在此数字之后，订阅将被取消 .0 以禁用",
-                        "service_days_before_subscription_renewal_help": "它设置在到期日期之前执行发票付款的天数。它必须小于创建续订发票之前的天数。",
                         "notifications_expiration_days": "到期前通知天数",
                         "days_before_expiration_help": "服务暂停后服务停止前的天数",
                         "allow_cancellation": "允许客户请求取消服务",
@@ -2253,14 +2156,11 @@
                 "invalid_product_type": "服务类型无效。您请求了 {_product} 类型的产品并选择了 {_type} 类型。请选择相同的类型。",
                 "expired": "此服务已过期或已结束。",
                 "delete_failed": "无法删除服务器上的服务 {_error}",
-                "customer": "客户",
                 "imported": "已成功导入服务",
                 "create": {
                     "nothingtoshow": "目前没有可用的服务配置。您可以创建服务",
                     "title": "创建服务",
                     "subheading": "创建新服务或导入现有服务",
-                    "btn1": "下一个",
-                    "btn2": "导入",
                     "choose": "选择现有服务器",
                     "import": "<u> 或</u>&nbsp;导入服务",
                     "new": "创建新服务",
@@ -2272,9 +2172,7 @@
                     "type": "服务类型",
                     "notes": "服务说明",
                     "title": "Service sheet {_name}",
-                    "initial_price": "初始价格",
                     "max_renewals": "最大续订数",
-                    "expires_at": "到期日期",
                     "subheading": "以下是与在 {_date} 创建的 {_owner} 服务的相关信息",
                     "panel": {
                         "title": "管理面板"
@@ -2348,8 +2246,7 @@
                     "upgrade_type": "增强类型",
                     "upgrade_types": {
                         "invoice": "生成要由客户支付的发票",
-                        "no_invoice": "改进无计费服务",
-                        "add_in_next_invoice": "立即升级并添加到下一张续订发票"
+                        "no_invoice": "改进无计费服务"
                     }
                 },
                 "pricing_custom": "此服务的价格必须手动设置。您可以稍后更改它。",
@@ -2549,7 +2446,6 @@
         "weekly": "周刊"
     },
     "lang.fr.store": {
-        "admin": "",
         "basket": {
             "title": "购物车",
             "empty": "您的购物车是空的",
