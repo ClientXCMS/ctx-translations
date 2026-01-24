@@ -55,7 +55,7 @@
             "description": "Impostazioni di sicurezza nell'area clienti"
         },
         "dashboard": {
-            "title": "Cruscotto",
+            "title": "Dashboard",
             "autologin_success": "Ora hai effettuato l'accesso come {_name}",
             "frozen": "Il sistema è attualmente in modalità bloccata. Alcune funzioni potrebbero essere disabilitate. Per uscire dalla modalità bloccata, contattare l'assistenza.",
             "in_debug": "Attualmente si è in modalità di debug. Potrebbero essere visualizzate informazioni sensibili. Per motivi di sicurezza, disabilitare la modalità di debug nelle impostazioni generali.",
@@ -385,7 +385,7 @@
             "title": "Gli utenti"
         },
         "invoices": {
-            "currency": "Motto",
+            "currency": "Valuta",
             "mass": {
                 "complete": "Segna come pagato",
                 "refund": "Contrassegna come rimborsato",
@@ -791,7 +791,7 @@
                     "store_vat_enabled": "Attiva l'IVA",
                     "customermustbeconfirmed": "Il cliente deve essere confermato per ordinare",
                     "toslink": "Link alle condizioni generali di vendita",
-                    "currency": "Motto",
+                    "currency": "Valuta",
                     "invoice_prefix": "Prefisso fattura",
                     "billing_mode": "Metodo di fatturazione",
                     "billing_modes": {
@@ -903,7 +903,7 @@
             "paymentmethod": "Metodo di pagamento",
             "index": "I miei metodi di pagamento",
             "index_description": "Di seguito è riportato un elenco dei metodi di pagamento salvati.",
-            "card": "Mappa",
+            "card": "Carta",
             "expiration": "Scadenza",
             "add": "Aggiungere un metodo di pagamento",
             "add_description": "Aggiungi un nuovo metodo di pagamento al tuo account.",
@@ -1184,7 +1184,7 @@
         "username": "Nome utente",
         "password_confirmation": "Conferma della password",
         "address": "Indirizzo",
-        "currency": "Motto",
+        "currency": "Valuta",
         "title": "Titolo",
         "content": "Contenuto",
         "address2": "Indirizzo aggiuntivo",
