@@ -209,11 +209,11 @@
             "migrate": "Trekken",
             "pmaaccess": "Toegang tot PHPMyAdmin",
             "title": "Databank",
-            "host": "Gastheer",
-            "port": "Haven",
+            "host": "Host",
+            "port": "Poort",
             "username": "Gebruikersnaam",
             "password": "Wachtwoord",
-            "output": "Uitgang",
+            "output": "Uitvoer",
             "description": "Voer migraties uit of krijg toegang tot PHPMyAdmin om de database van uw instantie te beheren",
             "subheading": "Waarschuwing, deze pagina is gemaakt voor gevorderde beheerders"
         },
@@ -399,7 +399,7 @@
             "title": "Gebruikers"
         },
         "invoices": {
-            "currency": "Motto",
+            "currency": "Valuta",
             "mass": {
                 "complete": "Markeren als betaald",
                 "refund": "Markeren als terugbetaald",
@@ -649,7 +649,7 @@
             "readmore": "Lees meer",
             "readless": "Lees minder",
             "command": "Bevelen",
-            "output": "Uitgang",
+            "output": "Uitvoer",
             "runtime": "Runtime",
             "created_at": "Gemaakt in"
         },
@@ -796,7 +796,7 @@
                     "store_vat_enabled": "Btw activeren",
                     "customermustbeconfirmed": "De klant moet worden bevestigd om te bestellen",
                     "toslink": "Link naar de algemene verkoopsvoorwaarden",
-                    "currency": "Motto",
+                    "currency": "Valuta",
                     "invoice_prefix": "Voorvoegsel van de factuur",
                     "billing_mode": "Wijze van facturering",
                     "billing_modes": {
@@ -902,7 +902,7 @@
             "add": "Een betaalmethode toevoegen",
             "add_description": "Voeg een nieuwe betaalmethode toe aan uw account.",
             "success": "Betaalmethode succesvol toegevoegd",
-            "default": "Defect",
+            "default": "Standaard",
             "defaultsucces": "Bijgewerkte standaard betaalmethode",
             "set_default": "Instellen als standaard",
             "manage": "Beheren",
@@ -1179,9 +1179,9 @@
         "username": "Gebruikersnaam",
         "password_confirmation": "Bevestiging van het wachtwoord",
         "address": "Adres",
-        "currency": "Motto",
+        "currency": "Valuta",
         "title": "Titel",
-        "content": "Tevreden",
+        "content": "Inhoud",
         "address2": "Extra adres",
         "city": "Stad",
         "value": "Waarde",
@@ -1820,7 +1820,7 @@
             },
             "subheading": "Hier is de lijst van alle secties van het systeem",
             "description": "Beheer en pas de verschillende secties aan die beschikbaar zijn op de site om de inhoud op een efficiënte en intuïtieve manier voor gebruikers te organiseren en te structureren.",
-            "content": "Tevreden",
+            "content": "Inhoud",
             "show": {
                 "title": "Een sectie bewerken",
                 "subheading": "U kunt de inhoud van uw sectie naar wens bewerken",
@@ -2013,7 +2013,7 @@
                 "subheading": "Bekijk een lijst met geconfigureerde servers, bekijk hun details en beheer hun status en verbindingsinformatie om een optimale werking te garanderen.",
                 "hostname": "Hostnaam",
                 "address": "IP-adres",
-                "port": "Haven",
+                "port": "Poort",
                 "type": "Server Type",
                 "show": {
                     "title": "Server Blad {_name}",
