@@ -707,7 +707,7 @@
             "current_version": "当前版本",
             "available_version": "可用版本",
             "update_to_version": "更新到版本{_version}",
-            "whats_new_in": "新版本的功能",
+            "whats_new_in": "{_version} 版本的新功能",
             "published_on": "发布于{_date}",
             "added": "添加",
             "changed": "变化与改进",
