@@ -1364,6 +1364,8 @@
         "show": "Afficher",
         "hour": "Heure",
         "date": "Date",
+        "apply": "Appliquer",
+        "restore": "Restaurer",
         "clicktoremove": "Cliquez pour supprimer",
         "separebycomma": "Séparés par des virgules",
         "week": "Semaine",
@@ -1847,6 +1849,17 @@
             "link": "Lien",
             "dropdown": "Menu déroulant",
             "parent": "Parent",
+            "unsaved_changes": "Modifications non enregistrées",
+            "bulk_saved": "Menu enregistré avec succès.",
+            "validation_error": "Veuillez corriger les erreurs de validation avant de sauvegarder.",
+            "save_error": "Une erreur s'est produite lors de la sauvegarde.",
+            "add_child": "Ajouter enfant",
+            "children": "Enfants",
+            "full_edit": "Détails",
+            "max_depth": "Profondeur maximale atteinte",
+            "empty_state": "Aucun élément de menu. Cliquez sur le bouton ci-dessous pour en ajouter.",
+            "translating": "Traduction en cours",
+            "translation_note": "Les traductions seront enregistrées lorsque tous les éléments du menu seront sauvegardés."
             "allowed_roles": {
                 "all": "Tous",
                 "logged": "Connecté",
@@ -1858,6 +1871,9 @@
                 "link": "Lien",
                 "dropdown": "Menu déroulant"
             }
+              "bottom_menu": {
+    "footer_settings": "Paramètres du pied de page"
+  },
         },
         "icon": "Icone (Bootstrap)",
         "addelement": "Ajouter un élement",
