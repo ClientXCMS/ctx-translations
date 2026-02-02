@@ -1871,9 +1871,9 @@
                 "link": "Lien",
                 "dropdown": "Menu déroulant"
             },
-              "bottom_menu": {
-    "footer_settings": "Paramètres du pied de page"
-  },
+            "bottom_menu": {
+                "footer_settings": "Paramètres du pied de page"
+            }
         },
         "icon": "Icone (Bootstrap)",
         "addelement": "Ajouter un élement",
