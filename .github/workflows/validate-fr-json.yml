@@ -1,0 +1,22 @@
+name: Validate French JSON
+
+on:
+  push:
+    branches: [main]
+    paths: [translations/fr.json]
+  pull_request:
+    branches: [main]
+    paths: [translations/fr.json]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate translations/fr.json
+        run: jq -e . translations/fr.json >/dev/null
+      - name: Revert fr.json to last commit on failure
+        if: failure()
+        run: git checkout -- translations/fr.json
