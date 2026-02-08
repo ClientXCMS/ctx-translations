@@ -1913,8 +1913,15 @@
                 "footscripts": "Scripts in the footer",
                 "disablereferencement": "Disable SEO",
                 "site_title": "Site Title",
-                "site_title_help": "The site title in browser tabs after the page name"
+                "site_title_help": "The site title in browser tabs after the page name",
+                "og_title": "OG Title",
+                "og_description": "OG Description",
+                "og_image": "OG Image",
+                "og_image_help": "Recommended size: 1200x630px",
+                "twitter_handle": "Twitter Handle",
+                "twitter_handle_help": "@username"
             },
+            "social_section": "Social Media / Open Graph",
             "success": "The SEO settings have been saved successfully."
         },
         "primary": {

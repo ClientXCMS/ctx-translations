@@ -1913,8 +1913,15 @@
                 "footscripts": "Scripts en el pie de página",
                 "disablereferencement": "Desactivar el SEO",
                 "site_title": "Título del sitio",
-                "site_title_help": "El título del sitio en las pestañas del navegador después del nombre de la página"
+                "site_title_help": "El título del sitio en las pestañas del navegador después del nombre de la página",
+                "og_title": "Título OG",
+                "og_description": "Descripción OG",
+                "og_image": "Imagen OG",
+                "og_image_help": "Tamaño recomendado: 1200x630px",
+                "twitter_handle": "Cuenta de Twitter",
+                "twitter_handle_help": "@nombredeusuario"
             },
+            "social_section": "Redes sociales / Open Graph",
             "success": "La configuración de SEO se ha guardado con éxito."
         },
         "primary": {

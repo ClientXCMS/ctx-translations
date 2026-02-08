@@ -1,5 +1,5 @@
 {
-    "language": "Néerlandais",
+    "language": "Neerlandais",
     "lang.fr.actionslog": {
         "settings": {
             "title": "Logboeken van acties",
@@ -1915,8 +1915,15 @@
                 "footscripts": "Scripts in de footer",
                 "disablereferencement": "SEO uitschakelen",
                 "site_title": "Titel van de site",
-                "site_title_help": "De sitetitel in browsertabbladen na de paginanaam"
+                "site_title_help": "De sitetitel in browsertabbladen na de paginanaam",
+                "og_title": "OG-titel",
+                "og_description": "OG-beschrijving",
+                "og_image": "OG-afbeelding",
+                "og_image_help": "Aanbevolen formaat: 1200x630px",
+                "twitter_handle": "Twitter-account",
+                "twitter_handle_help": "@gebruikersnaam"
             },
+            "social_section": "Sociale media / Open Graph",
             "success": "De SEO-instellingen zijn succesvol opgeslagen."
         },
         "primary": {

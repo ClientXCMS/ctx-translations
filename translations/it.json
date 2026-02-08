@@ -1942,8 +1942,15 @@
                 "footscripts": "Script nel piè di pagina",
                 "disablereferencement": "Disabilita SEO",
                 "site_title": "Titolo del sito",
-                "site_title_help": "Il titolo del sito nelle schede del browser dopo il nome della pagina"
+                "site_title_help": "Il titolo del sito nelle schede del browser dopo il nome della pagina",
+                "og_title": "Titolo OG",
+                "og_description": "Descrizione OG",
+                "og_image": "Immagine OG",
+                "og_image_help": "Dimensione consigliata: 1200x630px",
+                "twitter_handle": "Account Twitter",
+                "twitter_handle_help": "@nomeutente"
             },
+            "social_section": "Social media / Open Graph",
             "success": "Le impostazioni SEO sono state salvate con successo."
         },
         "primary": {
