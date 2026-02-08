@@ -1859,7 +1859,7 @@
             "max_depth": "Profondeur maximale atteinte",
             "empty_state": "Aucun élément de menu. Cliquez sur le bouton ci-dessous pour en ajouter.",
             "translating": "Traduction en cours",
-            "translation_note": "Les traductions seront enregistrées lorsque tous les éléments du menu seront sauvegardés."
+            "translation_note": "Les traductions seront enregistrées lorsque tous les éléments du menu seront sauvegardés.",
             "allowed_roles": {
                 "all": "Tous",
                 "logged": "Connecté",
@@ -1870,10 +1870,10 @@
                 "new_tab": "Nouvel onglet",
                 "link": "Lien",
                 "dropdown": "Menu déroulant"
+            },
+            "bottom_menu": {
+                "footer_settings": "Paramètres du pied de page"
             }
-              "bottom_menu": {
-    "footer_settings": "Paramètres du pied de page"
-  },
         },
         "icon": "Icone (Bootstrap)",
         "addelement": "Ajouter un élement",
