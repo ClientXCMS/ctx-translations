@@ -1882,6 +1882,9 @@
                 "customer_banned": "Klant geblokkeerd",
                 "customer_suspended": "Cliënt opgeschort",
                 "customer_reactivated": "Cliënt geactiveerd"
+            },
+            "errors": {
+                "dangerous_content": "De inhoud bevat verboden PHP- of Blade-richtlijnen."
             }
         },
         "description": "Pas de menu's aan in het klantengedeelte en de sociale netwerken van het bedrijf.",
@@ -1950,7 +1953,8 @@
             "title": "Secties",
             "errors": {
                 "notfound": "Sectie niet gevonden",
-                "advanced_personalization": "Schakel de module Geavanceerde aanpassing in om toegang te krijgen tot dit gedeelte"
+                "advanced_personalization": "Schakel de module Geavanceerde aanpassing in om toegang te krijgen tot dit gedeelte",
+                "sanitized_content": "De inhoud bevat verboden PHP- of Blade-richtlijnen."
             },
             "subheading": "Hier zijn de secties voor de pagina {_name}",
             "description": "Beheer en pas de verschillende secties aan die beschikbaar zijn op de site om de inhoud op een efficiënte en intuïtieve manier voor gebruikers te organiseren en te structureren.",

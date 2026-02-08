@@ -1925,6 +1925,9 @@
                 "customer_banned": "Client banni",
                 "customer_suspended": "Client suspendu",
                 "customer_reactivated": "Client réactivé"
+            },
+            "errors": {
+                "dangerous_content": "Le contenu contient des directives PHP ou Blade interdites."
             }
         },
         "description": "Personnalisez les menus de l'espaces client et les réseaux sociaux de l'entreprise.",
@@ -1994,7 +1997,8 @@
             "empty": "Aucune section trouvée pour cette page.<br/> Vous pouvez en importer une depuis le thème plus bas.",
             "errors": {
                 "notfound": "La section n'a pas été trouvée",
-                "advanced_personalization": "Veuillez activer le module de personnalisation avancée pour accéder à cette section"
+                "advanced_personalization": "Veuillez activer le module de personnalisation avancée pour accéder à cette section",
+                "sanitized_content": "Le contenu contient des directives PHP ou Blade interdites."
             },
             "subheading": "Voici les sections pour la page {_name}",
             "description": "Personnalisez les sections de l'espace client",

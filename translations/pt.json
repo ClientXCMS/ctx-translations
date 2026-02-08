@@ -1880,6 +1880,9 @@
                 "btn": "Importação",
                 "invalid_file": "O arquivo deve ser um arquivo blade HTML válido",
                 "success": "O modelo de e-mail foi importado com sucesso."
+            },
+            "errors": {
+                "dangerous_content": "O conteúdo contém diretivas PHP ou Blade proibidas."
             }
         },
         "description": "Personalize os menus na área de cliente e nas redes sociais da empresa.",
@@ -1975,7 +1978,8 @@
             },
             "errors": {
                 "notfound": "Seção não encontrada",
-                "advanced_personalization": "Ative o módulo de Personalização Avançada para acessar esta seção"
+                "advanced_personalization": "Ative o módulo de Personalização Avançada para acessar esta seção",
+                "sanitized_content": "O conteúdo contém diretivas PHP ou Blade proibidas."
             },
             "empty": "Nenhuma seção encontrada para esta página.<br/> Você pode importar uma do tema abaixo."
         },
