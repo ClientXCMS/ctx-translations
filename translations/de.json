@@ -1909,6 +1909,9 @@
                 "customer_banned": "Kunde gesperrt",
                 "customer_suspended": "Kunde gesperrt",
                 "customer_reactivated": "Kunde reaktiviert"
+            },
+            "errors": {
+                "dangerous_content": "Der Inhalt enthält verbotene PHP- oder Blade-Direktiven."
             }
         },
         "description": "Passen Sie die Menüs im Kundenbereich und in den sozialen Netzwerken des Unternehmens an.",
@@ -1942,8 +1945,15 @@
                 "footscripts": "Skripte in der Fußzeile",
                 "disablereferencement": "SEO deaktivieren",
                 "site_title": "Titel der Website",
-                "site_title_help": "Der Website-Titel in Browser-Tabs nach dem Seitennamen"
+                "site_title_help": "Der Website-Titel in Browser-Tabs nach dem Seitennamen",
+                "og_title": "OG-Titel",
+                "og_description": "OG-Beschreibung",
+                "og_image": "OG-Bild",
+                "og_image_help": "Empfohlene Groesse: 1200x630px",
+                "twitter_handle": "Twitter-Konto",
+                "twitter_handle_help": "@Benutzername"
             },
+            "social_section": "Soziale Medien / Open Graph",
             "success": "Die SEO-Einstellungen wurden erfolgreich gespeichert."
         },
         "primary": {
@@ -1971,7 +1981,8 @@
             "empty": "Keine Sektion für diese Seite gefunden.<br/> Sie können eine von dem Thema weiter unten importieren.",
             "errors": {
                 "notfound": "Abschnitt nicht gefunden",
-                "advanced_personalization": "Bitte aktivieren Sie das Modul Erweiterte Anpassung, um auf diesen Abschnitt zuzugreifen"
+                "advanced_personalization": "Bitte aktivieren Sie das Modul Erweiterte Anpassung, um auf diesen Abschnitt zuzugreifen",
+                "sanitized_content": "Der Inhalt enthält verbotene PHP- oder Blade-Direktiven."
             },
             "subheading": "Hier sind die Abschnitte für die Seite {_name}",
             "description": "Passen Sie die Abschnitte des Kundenbereichs an",

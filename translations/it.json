@@ -1909,6 +1909,9 @@
                 "customer_banned": "Il cliente banna",
                 "customer_suspended": "Cliente sospeso",
                 "customer_reactivated": "Cliente riattivato"
+            },
+            "errors": {
+                "dangerous_content": "Il contenuto contiene direttive PHP o Blade vietate."
             }
         },
         "description": "Personalizza i menu nell'area clienti e i social network dell'azienda.",
@@ -1942,8 +1945,15 @@
                 "footscripts": "Script nel piè di pagina",
                 "disablereferencement": "Disabilita SEO",
                 "site_title": "Titolo del sito",
-                "site_title_help": "Il titolo del sito nelle schede del browser dopo il nome della pagina"
+                "site_title_help": "Il titolo del sito nelle schede del browser dopo il nome della pagina",
+                "og_title": "Titolo OG",
+                "og_description": "Descrizione OG",
+                "og_image": "Immagine OG",
+                "og_image_help": "Dimensione consigliata: 1200x630px",
+                "twitter_handle": "Account Twitter",
+                "twitter_handle_help": "@nomeutente"
             },
+            "social_section": "Social media / Open Graph",
             "success": "Le impostazioni SEO sono state salvate con successo."
         },
         "primary": {
@@ -1971,7 +1981,8 @@
             "empty": "Nessuna sezione trovata per questa pagina.<br/> Puoi importarene una dal tema qui sotto.",
             "errors": {
                 "notfound": "Sezione non trovata",
-                "advanced_personalization": "Abilita il modulo di personalizzazione avanzata per accedere a questa sezione"
+                "advanced_personalization": "Abilita il modulo di personalizzazione avanzata per accedere a questa sezione",
+                "sanitized_content": "Il contenuto contiene direttive PHP o Blade vietate."
             },
             "subheading": "Ecco le sezioni per la pagina {_name}",
             "description": "Personalizza le sezioni dell'area clienti",

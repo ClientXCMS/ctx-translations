@@ -100,7 +100,7 @@
             },
             "documentation": "Documentation OpenAPI",
             "rotate": "Régénérer",
-            "created": "<span>La clé API a été créée avec succès. Clé d'API Application : \"<b><code>{_key}<\/code><\/b>\" <br\/> Attention, elle ne sera plus affichée après cette page. Veuillez la copier et la conserver en lieu sûr.<\/span>"
+            "created": "<span>La clé API a été créée avec succès. Clé d'API Application : \"<b><code>{_key}</code></b>\" <br/> Attention, elle ne sera plus affichée après cette page. Veuillez la copier et la conserver en lieu sûr.</span>"
         },
         "dashboard": {
             "title": "Tableau de bord",
@@ -638,9 +638,9 @@
                             "driver_help": "Vous devez avoir une clé secrète pour le driver reCaptcha",
                             "site_key": "Clé du site",
                             "secret_key": "Clé secrète",
-                            "driver_recaptcha_help": "Vous pouvez obtenir une clé sur <a href=\"https:\/\/{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}<\/a>. Vous avez besoin d'utiliser les clés v2 invisibles",
-                            "driver_hcaptcha_help": "Vous pouvez obtenir une clé sur <a href=\"https:\/\/{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}<\/a>",
-                            "driver_cloudflare_help": "Vous pouvez obtenir une clé sur <a href=\"https:\/\/{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}<\/a>. Vous devez sélectionner le widget \"managed\""
+                            "driver_recaptcha_help": "Vous pouvez obtenir une clé sur <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. Vous avez besoin d'utiliser les clés v2 invisibles",
+                            "driver_hcaptcha_help": "Vous pouvez obtenir une clé sur <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>",
+                            "driver_cloudflare_help": "Vous pouvez obtenir une clé sur <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. Vous devez sélectionner le widget \"managed\""
                         }
                     },
                     "fields": {
@@ -656,7 +656,7 @@
                         "force_login_client": "Forcer la connexion pour accéder à l'espace client",
                         "banned_emails": "Emails bannis",
                         "banned_emails_help": "Séparés par des virgules (exemple : mailinator.com, yopmail.com, exemple@example.com)",
-                        "hash_driver_help": "\/!\\ Les anciens mots de passe ne seront pas compatibles avec le nouveau driver. Vous devez réinitialiser les mots de passe des utilisateurs."
+                        "hash_driver_help": "/!\\ Les anciens mots de passe ne seront pas compatibles avec le nouveau driver. Vous devez réinitialiser les mots de passe des utilisateurs."
                     },
                     "success": "Les paramètres de sécurité ont été enregistrés avec succès."
                 }
@@ -1020,7 +1020,7 @@
                 "failed": "Le renouvellement automatique a échoué le {_date} ({_tries} essaie(s)). Veuillez vérifier vos informations de paiement.",
                 "cannot": "Ce service ne peut pas être renouvelé automatiquement",
                 "success": "Le renouvellement automatique a été activé. Le prochain paiement sera effectué le {_date}.",
-                "add_payments_method": "Vous devez ajouter un moyen de paiement pour activer le renouvellement automatique. Vous pouvez le faire depuis la page <a href=\"{_url}\" class=\"text-primary\">des moyens de paiement<\/a>.",
+                "add_payments_method": "Vous devez ajouter un moyen de paiement pour activer le renouvellement automatique. Vous pouvez le faire depuis la page <a href=\"{_url}\" class=\"text-primary\">des moyens de paiement</a>.",
                 "enabled": "Le renouvellement automatique est activé pour ce service. La facture sera générée automatiquement puis payer le {_date}.",
                 "invalid_billing_day": "Le prochain jour de facturation doit être entre le {_day} et {_now}",
                 "billing_day": "Jour de facturation",
@@ -1099,7 +1099,7 @@
                 "heading": "Vériﬁcation à deux facteurs",
                 "subheading": "Veuillez saisir le code d'authentiﬁcation à deux facteurs généré par votre application mobile.",
                 "info": "Scannez le code QR avec votre application d'authentification à deux facteurs.",
-                "download_codes": "Télécharger les codes de récupération <a href=\"{_url}\" class=\"text-primary\">en cliquant ici<\/a>."
+                "download_codes": "Télécharger les codes de récupération <a href=\"{_url}\" class=\"text-primary\">en cliquant ici</a>."
             }
         },
         "pending_invoices": "{_count} facture(s) en attente de paiement. Veuillez les payer pour éviter une interruption de service.",
@@ -1111,8 +1111,8 @@
             "service_suspended": "Le service est suspendu",
             "power_success": "L'action a été effectuée avec succès",
             "power_error": "Une erreur est survenue lors de l'exécution de l'action",
-            "email_not_verified": "Votre adresse email n'est pas vérifiée. &nbsp;<a href=\"{_url}\">Cliquez ici<\/a>&nbsp; pour recevoir un nouveau lien de vérification.",
-            "service_not_paid": "La facture de renouvellement est disponible. &nbsp;<a href=\"{_url}\">Cliquez ici<\/a>&nbsp; pour la payer et éviter une interruption.",
+            "email_not_verified": "Votre adresse email n'est pas vérifiée. &nbsp;<a href=\"{_url}\">Cliquez ici</a>&nbsp; pour recevoir un nouveau lien de vérification.",
+            "service_not_paid": "La facture de renouvellement est disponible. &nbsp;<a href=\"{_url}\">Cliquez ici</a>&nbsp; pour la payer et éviter une interruption.",
             "email_verification_sent": "Un nouveau lien de vérification a été envoyé à votre adresse email.",
             "internalerror": "Une erreur interne est survenue lors de l'affichage du service",
             "cannot_renew": "Ce service ne peut pas être renouvelé",
@@ -1721,10 +1721,10 @@
             "hosting_name": "Nom de la société",
             "connect": "Se connecter",
             "locales": "Langues",
-            "infolicense": "Pour obtenir un ID client et un secret client, vous devez avoir une licence CLIENTXCMS. <a href=\"{_link}\" target=\"_blank\" class=\"underline\">Cliquez ici pour récupérer vos identifiants gratuitement.<\/a>",
+            "infolicense": "Pour obtenir un ID client et un secret client, vous devez avoir une licence CLIENTXCMS. <a href=\"{_link}\" target=\"_blank\" class=\"underline\">Cliquez ici pour récupérer vos identifiants gratuitement.</a>",
             "migrationwarning": "Attention : la base de données n'a pas été migrée. Veuillez exécuter \"php artisan migrate --force --seed\" pour migrer la base de données.",
             "detecteddomain": "Domaine détecté : {_domain}. Assurez-vous que le domaine correspond exactement à celui de votre licence (y compris le sous-domaine le cas échéant).",
-            "eula": "En consultant cette page, vous acceptez les termes de la licence CLIENTXCMS disponible sur clientxcms.com\/eula."
+            "eula": "En consultant cette page, vous acceptez les termes de la licence CLIENTXCMS disponible sur clientxcms.com/eula."
         },
         "register": {
             "title": "Inscription",
@@ -1946,6 +1946,9 @@
                 "customer_banned": "Client banni",
                 "customer_suspended": "Client suspendu",
                 "customer_reactivated": "Client réactivé"
+            },
+            "errors": {
+                "dangerous_content": "Le contenu contient des directives PHP ou Blade interdites."
             }
         },
         "description": "Personnalisez les menus de l'espaces client et les réseaux sociaux de l'entreprise.",
@@ -1979,8 +1982,15 @@
                 "footscripts": "Scripts dans le footer",
                 "disablereferencement": "Désactiver le référencement",
                 "site_title": "Titre du site",
-                "site_title_help": "Le titre du site dans les onglets du navigateur après le nom de la page"
+                "site_title_help": "Le titre du site dans les onglets du navigateur après le nom de la page",
+                "og_title": "Titre OG",
+                "og_description": "Description OG",
+                "og_image": "Image OG",
+                "og_image_help": "Taille recommandee : 1200x630px",
+                "twitter_handle": "Compte Twitter",
+                "twitter_handle_help": "@nomdutilisateur"
             },
+            "social_section": "Reseaux sociaux / Open Graph",
             "success": "Les paramètres SEO ont été enregistrés avec succès."
         },
         "primary": {
@@ -2005,10 +2015,11 @@
             "restoresuccess": "La section a été restaurée avec succès.",
             "restore": "Restaurer",
             "title": "Sections",
-            "empty": "Aucune section trouvée pour cette page.<br\/> Vous pouvez en importer une depuis le thème plus bas.",
+            "empty": "Aucune section trouvée pour cette page.<br/> Vous pouvez en importer une depuis le thème plus bas.",
             "errors": {
                 "notfound": "La section n'a pas été trouvée",
-                "advanced_personalization": "Veuillez activer le module de personnalisation avancée pour accéder à cette section"
+                "advanced_personalization": "Veuillez activer le module de personnalisation avancée pour accéder à cette section",
+                "sanitized_content": "Le contenu contient des directives PHP ou Blade interdites."
             },
             "subheading": "Voici les sections pour la page {_name}",
             "description": "Personnalisez les sections de l'espace client",
@@ -2061,7 +2072,7 @@
         "theme": {
             "title": "Configuration du thème",
             "description": "Configurez un thème visuel pour améliorer l'esthétique et l'apparence de votre espace client",
-            "info": "Vous pouvez désormais choisir votre thème dans les extensions > thèmes.  <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Cliquez ici pour y accéder<\/a>.",
+            "info": "Vous pouvez désormais choisir votre thème dans les extensions > thèmes.  <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Cliquez ici pour y accéder</a>.",
             "current_theme": "Thème actuel",
             "themename": "Nom du thème",
             "fields": {
@@ -2092,7 +2103,7 @@
         "guaranteed_memory": "Mémoire garantie",
         "memory": "Mémoire",
         "cpu": "Processeur",
-        "io": "I\/O",
+        "io": "I/O",
         "database": "Base de données",
         "backups": "Sauvegardes",
         "databases": "Bases de données",
@@ -2460,12 +2471,12 @@
                     "ratelimit": "Débit",
                     "additional_disk": "Disque additionnel",
                     "node": "Node de livraison",
-                    "server_id": "Serveur\/Localisation",
+                    "server_id": "Serveur/Localisation",
                     "additional_swap": "Swap additionnel",
                     "additional_cpu": "Processeur additionnel",
                     "additional_databases": "Bases de données additionnelles",
                     "additional_backups": "Sauvegardes additionnelles",
-                    "additional_io": "I\/O additionnelle",
+                    "additional_io": "I/O additionnelle",
                     "additional_allocations": "Allocations additionnelles",
                     "custom": "Personnalisé"
                 }

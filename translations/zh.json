@@ -1880,6 +1880,9 @@
                 "btn": "导入",
                 "invalid_file": "该文件必须是有效的 HTML 刀片文件",
                 "success": "电子邮件模板已成功导入。"
+            },
+            "errors": {
+                "dangerous_content": "内容包含被禁止的 PHP 或 Blade 指令。"
             }
         },
         "description": "自定义客户区和公司社交网络中的菜单。",
@@ -1913,8 +1916,15 @@
                 "footscripts": "页脚中的脚本",
                 "disablereferencement": "禁用 SEO",
                 "site_title": "站点标题",
-                "site_title_help": "页面名称后面的浏览器选项卡中的站点标题"
+                "site_title_help": "页面名称后面的浏览器选项卡中的站点标题",
+                "og_title": "OG 标题",
+                "og_description": "OG 描述",
+                "og_image": "OG 图片",
+                "og_image_help": "建议尺寸：1200x630px",
+                "twitter_handle": "Twitter 账号",
+                "twitter_handle_help": "@用户名"
             },
+            "social_section": "社交媒体 / Open Graph",
             "success": "SEO 设置已成功保存。"
         },
         "primary": {
@@ -1968,7 +1978,8 @@
             },
             "errors": {
                 "notfound": "未找到部分",
-                "advanced_personalization": "请启用 Advanced Customization 模块以访问此部分"
+                "advanced_personalization": "请启用 Advanced Customization 模块以访问此部分",
+                "sanitized_content": "内容包含被禁止的 PHP 或 Blade 指令。"
             },
             "empty": "未找到该页面的任何部分。<br/>您可以从下面的主题导入一个。"
         },

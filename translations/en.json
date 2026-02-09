@@ -1692,31 +1692,31 @@
         "install": "Installation",
         "step": "Step",
         "settings": {
-            "title": "Parameters",
+            "title": "Settings",
             "client_id": "Client ID",
             "client_secret": "Client Secret",
             "hosting_name": "Company Name",
-            "connect": "Sign in",
-            "migrationwarning": "Warning: the database has not been migrated. Please run \"php artisan migrate --force\" to migrate the database.",
-            "detecteddomain": "Domain detected: {_domain}. Make sure that the domain exactly matches the domain of your license (including the subdomain if applicable).",
+            "connect": "Connect",
             "locales": "Languages",
-            "infolicense": "To obtain a client ID and a client secret, you must have a CLIENTXCMS license. <a href=\"{_link}\" target=\"_blank\" class=\"underline\">Click here to retrieve your credentials for free.</a>",
-            "eula": "By consulting this page, you accept the terms of the CLIENTXCMS license available at clientxcms.com/eula."
+            "infolicense": "To obtain a client ID and client secret, you must have a CLIENTXCMS license. <a href=\"{_link}\" target=\"_blank\" class=\"underline\">Click here to get your credentials for free.</a>",
+            "migrationwarning": "Warning: the database has not been migrated. Please run \"php artisan migrate --force --seed\" to migrate the database.",
+            "detecteddomain": "Detected domain: {_domain}. Make sure the domain exactly matches the one on your license (including subdomain if applicable).",
+            "eula": "By viewing this page, you agree to the terms of the CLIENTXCMS license available at clientxcms.com/eula."
         },
         "register": {
             "title": "Registration",
-            "btn": "Create Account",
+            "btn": "Create account",
             "telemetry": "Send anonymized telemetry data. This helps us improve the CMS and fix bugs. You can disable this option later in the settings."
         },
         "summary": {
             "title": "Summary",
             "btn": "Finish"
         },
-        "submit": "Send",
+        "submit": "Submit",
         "password": "Password",
         "firstname": "First name",
         "lastname": "Last name",
-        "email": "E-mail",
+        "email": "Email",
         "password_confirmation": "Password confirmation",
         "authentication": "Authentication",
         "extensions": "Extensions",
@@ -1738,12 +1738,24 @@
                 "description": "Sales department"
             }
         },
+        "billing": {
+            "name": "Billing",
+            "description": "Billing department"
+        },
+        "technical": {
+            "name": "Technical",
+            "description": "Technical department"
+        },
+        "sales": {
+            "name": "Sales",
+            "description": "Sales department"
+        },
         "security_questions": {
             "pet_name": "What is the name of your first pet?",
             "birth_city": "In which city were you born?",
             "mother_maiden_name": "What is your mother's maiden name?",
             "first_school": "What is the name of your first school?",
-            "favorite_movie": "What is your favourite film?",
+            "favorite_movie": "What is your favorite movie?",
             "childhood_nickname": "What was your childhood nickname?"
         }
     },
@@ -1880,6 +1892,9 @@
                 "btn": "Import",
                 "invalid_file": "The file must be a valid HTML blade file",
                 "success": "The email template has been successfully imported."
+            },
+            "errors": {
+                "dangerous_content": "The content contains forbidden PHP or Blade directives."
             }
         },
         "description": "Customize the menus in the customer area and the company's social networks.",
@@ -1913,8 +1928,15 @@
                 "footscripts": "Scripts in the footer",
                 "disablereferencement": "Disable SEO",
                 "site_title": "Site Title",
-                "site_title_help": "The site title in browser tabs after the page name"
+                "site_title_help": "The site title in browser tabs after the page name",
+                "og_title": "OG Title",
+                "og_description": "OG Description",
+                "og_image": "OG Image",
+                "og_image_help": "Recommended size: 1200x630px",
+                "twitter_handle": "Twitter Handle",
+                "twitter_handle_help": "@username"
             },
+            "social_section": "Social Media / Open Graph",
             "success": "The SEO settings have been saved successfully."
         },
         "primary": {
@@ -1968,7 +1990,8 @@
             },
             "errors": {
                 "notfound": "Section not found",
-                "advanced_personalization": "Please enable the Advanced Customization module to access this section"
+                "advanced_personalization": "Please enable the Advanced Customization module to access this section",
+                "sanitized_content": "The content contains forbidden PHP or Blade directives."
             },
             "empty": "No section found for this page.<br/> You can import one from the theme below."
         },

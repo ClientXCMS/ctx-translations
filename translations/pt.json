@@ -1880,6 +1880,9 @@
                 "btn": "Importação",
                 "invalid_file": "O arquivo deve ser um arquivo blade HTML válido",
                 "success": "O modelo de e-mail foi importado com sucesso."
+            },
+            "errors": {
+                "dangerous_content": "O conteúdo contém diretivas PHP ou Blade proibidas."
             }
         },
         "description": "Personalize os menus na área de cliente e nas redes sociais da empresa.",
@@ -1913,8 +1916,15 @@
                 "footscripts": "Scripts no rodapé",
                 "disablereferencement": "Desativar SEO",
                 "site_title": "Título do site",
-                "site_title_help": "O título do site nas guias do navegador após o nome da página"
+                "site_title_help": "O título do site nas guias do navegador após o nome da página",
+                "og_title": "Titulo OG",
+                "og_description": "Descricao OG",
+                "og_image": "Imagem OG",
+                "og_image_help": "Tamanho recomendado: 1200x630px",
+                "twitter_handle": "Conta do Twitter",
+                "twitter_handle_help": "@nomedeusuario"
             },
+            "social_section": "Redes sociais / Open Graph",
             "success": "As configurações de SEO foram salvas com sucesso."
         },
         "primary": {
@@ -1968,7 +1978,8 @@
             },
             "errors": {
                 "notfound": "Seção não encontrada",
-                "advanced_personalization": "Ative o módulo de Personalização Avançada para acessar esta seção"
+                "advanced_personalization": "Ative o módulo de Personalização Avançada para acessar esta seção",
+                "sanitized_content": "O conteúdo contém diretivas PHP ou Blade proibidas."
             },
             "empty": "Nenhuma seção encontrada para esta página.<br/> Você pode importar uma do tema abaixo."
         },
