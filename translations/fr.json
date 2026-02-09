@@ -1258,6 +1258,27 @@
             "notactivable": "Non activable",
             "buy": "Acheter"
         },
+      "bulk": {
+        "select_all": "Tout sélectionner",
+        "deselect_all": "Tout désélectionner",
+        "selected_count": ":count sélectionné(s)",
+        "install_selected": "Installer la sélection",
+        "enable_selected": "Activer la sélection",
+        "disable_selected": "Désactiver la sélection",
+        "processing": "Traitement en cours...",
+        "success": "Opération terminée avec succès",
+        "partial_success": ":success réussi(s), :failed échoué(s)"
+      },
+        "modal": {
+            "version": "Version",
+            "author": "Auteur",
+            "price": "Prix",
+            "buy_now": "Acheter maintenant",
+            "view_details": "Voir les détails",
+            "close": "Fermer",
+            "tags": "Tags",
+            "last_update": "Dernière mise à jour"
+        },
         "onetime": "Une seule fois",
         "monthly": "Mensuel",
         "flash": {
@@ -1997,6 +2018,11 @@
                 "protected_content": "Cette section est protégée et ne peut pas être modifiée.",
                 "subheading": "Vous pouvez modifier le contenu de votre section comme vous le souhaitez"
             },
+            "config": {
+                "btn": "Configurer la section",
+                "title": "Configuration de la section",
+                "subheading": "Vous pouvez modifier le contenu de votre section comme vous le souhaitez"
+            },
             "fields": {
                 "url": "Page de la section",
                 "active": "Actif"
@@ -2037,6 +2063,7 @@
             "description": "Configurez un thème visuel pour améliorer l'esthétique et l'apparence de votre espace client",
             "info": "Vous pouvez désormais choisir votre thème dans les extensions > thèmes.  <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Cliquez ici pour y accéder<\/a>.",
             "current_theme": "Thème actuel",
+            "themename": "Nom du thème",
             "fields": {
                 "theme_footer_description": "Description du pied de page",
                 "theme_footer_description_help": "Support de l'HTML",
