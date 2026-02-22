@@ -2809,5 +2809,50 @@
             "title": "Ticket closure",
             "description": "A ticket has just been closed"
         }
+    },
+    "lang": {
+        "fr": {
+            "admin": {
+                "invoices": {
+                    "regenerate_pdf": "Regenerate PDF"
+                }
+            },
+            "client": {
+                "invoices": {
+                    "generated_at": "Generated on"
+                }
+            },
+            "extensions": {
+                "settings": {
+                    "uninstall": "Uninstall"
+                },
+                "flash": {
+                    "uninstalled": "The extension has been successfully uninstalled.",
+                    "uninstall_must_disable_first": "The extension must be disabled before being uninstalled."
+                }
+            },
+            "global": {
+                "apply": "Apply",
+                "restore": "Restore"
+            },
+            "personalization": {
+                "menu_links": {
+                    "unsaved_changes": "Unsaved changes",
+                    "bulk_saved": "Menu successfully saved.",
+                    "validation_error": "Please correct validation errors before saving.",
+                    "save_error": "An error occurred while saving.",
+                    "add_child": "Add child",
+                    "children": "Children",
+                    "full_edit": "Details",
+                    "max_depth": "Maximum depth reached",
+                    "empty_state": "No menu items. Click the button below to add one.",
+                    "translating": "Translation in progress",
+                    "translation_note": "Translations will be saved when all menu items are saved.",
+                    "bottom_menu": {
+                        "footer_settings": "Footer settings"
+                    }
+                }
+            }
+        }
     }
 }

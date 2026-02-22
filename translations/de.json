@@ -2797,5 +2797,50 @@
             "title": "Service aufgerüstet",
             "description": "Ein Dienst wurde aufgerüstet"
         }
+    },
+    "lang": {
+        "fr": {
+            "admin": {
+                "invoices": {
+                    "regenerate_pdf": "PDF regenerieren"
+                }
+            },
+            "client": {
+                "invoices": {
+                    "generated_at": "Generiert am"
+                }
+            },
+            "extensions": {
+                "settings": {
+                    "uninstall": "Deinstallieren"
+                },
+                "flash": {
+                    "uninstalled": "Die Erweiterung wurde erfolgreich deinstalliert.",
+                    "uninstall_must_disable_first": "Die Erweiterung muss vor der Deinstallation deaktiviert werden."
+                }
+            },
+            "global": {
+                "apply": "Anwenden",
+                "restore": "Wiederherstellen"
+            },
+            "personalization": {
+                "menu_links": {
+                    "unsaved_changes": "Nicht gespeicherte Änderungen",
+                    "bulk_saved": "Menü erfolgreich gespeichert.",
+                    "validation_error": "Bitte korrigieren Sie die Validierungsfehler vor dem Speichern.",
+                    "save_error": "Beim Speichern ist ein Fehler aufgetreten.",
+                    "add_child": "Kind hinzufügen",
+                    "children": "Kinder",
+                    "full_edit": "Details",
+                    "max_depth": "Maximale Tiefe erreicht",
+                    "empty_state": "Keine Menüpunkte. Klicken Sie auf die Schaltfläche unten, um einen hinzuzufügen.",
+                    "translating": "Übersetzung läuft",
+                    "translation_note": "Übersetzungen werden gespeichert, wenn alle Menüpunkte gespeichert sind.",
+                    "bottom_menu": {
+                        "footer_settings": "Footer-Einstellungen"
+                    }
+                }
+            }
+        }
     }
 }

@@ -2797,5 +2797,50 @@
             "title": "Sluiting van een ticket",
             "description": "Een ticket is zojuist gesloten"
         }
+    },
+    "lang": {
+        "fr": {
+            "admin": {
+                "invoices": {
+                    "regenerate_pdf": "PDF regenereren"
+                }
+            },
+            "client": {
+                "invoices": {
+                    "generated_at": "Gegenereerd op"
+                }
+            },
+            "extensions": {
+                "settings": {
+                    "uninstall": "Verwijderen"
+                },
+                "flash": {
+                    "uninstalled": "De extensie is succesvol verwijderd.",
+                    "uninstall_must_disable_first": "De extensie moet worden uitgeschakeld voordat deze kan worden verwijderd."
+                }
+            },
+            "global": {
+                "apply": "Toepassen",
+                "restore": "Herstellen"
+            },
+            "personalization": {
+                "menu_links": {
+                    "unsaved_changes": "Niet-opgeslagen wijzigingen",
+                    "bulk_saved": "Menu succesvol opgeslagen.",
+                    "validation_error": "Corrigeer de validatiefouten voordat u opslaat.",
+                    "save_error": "Er is een fout opgetreden bij het opslaan.",
+                    "add_child": "Kind toevoegen",
+                    "children": "Kinderen",
+                    "full_edit": "Details",
+                    "max_depth": "Maximale diepte bereikt",
+                    "empty_state": "Geen menu-items. Klik op de knop hieronder om er een toe te voegen.",
+                    "translating": "Vertaling in uitvoering",
+                    "translation_note": "Vertalingen worden opgeslagen wanneer alle menu-items zijn opgeslagen.",
+                    "bottom_menu": {
+                        "footer_settings": "Footer instellingen"
+                    }
+                }
+            }
+        }
     }
 }

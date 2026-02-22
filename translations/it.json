@@ -2797,5 +2797,50 @@
             "title": "Servizio aggiornato",
             "description": "Un servizio è stato aggiornato"
         }
+    },
+    "lang": {
+        "fr": {
+            "admin": {
+                "invoices": {
+                    "regenerate_pdf": "Rigenera PDF"
+                }
+            },
+            "client": {
+                "invoices": {
+                    "generated_at": "Generato il"
+                }
+            },
+            "extensions": {
+                "settings": {
+                    "uninstall": "Disinstalla"
+                },
+                "flash": {
+                    "uninstalled": "L'estensione è stata disinstallata con successo.",
+                    "uninstall_must_disable_first": "L'estensione deve essere disabilitata prima di essere disinstallata."
+                }
+            },
+            "global": {
+                "apply": "Applica",
+                "restore": "Ripristina"
+            },
+            "personalization": {
+                "menu_links": {
+                    "unsaved_changes": "Modifiche non salvate",
+                    "bulk_saved": "Menu salvato con successo.",
+                    "validation_error": "Si prega di correggere gli errori di validazione prima di salvare.",
+                    "save_error": "Si è verificato un errore durante il salvataggio.",
+                    "add_child": "Aggiungi figlio",
+                    "children": "Figli",
+                    "full_edit": "Dettagli",
+                    "max_depth": "Profondità massima raggiunta",
+                    "empty_state": "Nessun elemento del menu. Clicca sul pulsante qui sotto per aggiungerne uno.",
+                    "translating": "Traduzione in corso",
+                    "translation_note": "Le traduzioni verranno salvate quando tutti gli elementi del menu saranno salvati.",
+                    "bottom_menu": {
+                        "footer_settings": "Impostazioni del piè di pagina"
+                    }
+                }
+            }
+        }
     }
 }

@@ -2797,5 +2797,50 @@
             "title": "工单关闭",
             "description": "当工单被关闭时触发"
         }
+    },
+    "lang": {
+        "fr": {
+            "admin": {
+                "invoices": {
+                    "regenerate_pdf": "重新生成 PDF"
+                }
+            },
+            "client": {
+                "invoices": {
+                    "generated_at": "生成于"
+                }
+            },
+            "extensions": {
+                "settings": {
+                    "uninstall": "卸载"
+                },
+                "flash": {
+                    "uninstalled": "插件已成功卸载。",
+                    "uninstall_must_disable_first": "必须先禁用插件才能进行卸载。"
+                }
+            },
+            "global": {
+                "apply": "应用",
+                "restore": "还原"
+            },
+            "personalization": {
+                "menu_links": {
+                    "unsaved_changes": "未保存的更改",
+                    "bulk_saved": "菜单已成功保存。",
+                    "validation_error": "请在保存前修正校验错误。",
+                    "save_error": "保存时发生错误。",
+                    "add_child": "添加子项",
+                    "children": "子项",
+                    "full_edit": "详情",
+                    "max_depth": "达到最大深度",
+                    "empty_state": "没有菜单项。点击下方按钮添加一个。",
+                    "translating": "翻译中",
+                    "translation_note": "所有菜单项保存后，翻译也将被保存。",
+                    "bottom_menu": {
+                        "footer_settings": "页脚设置"
+                    }
+                }
+            }
+        }
     }
 }

@@ -447,6 +447,7 @@
             "deliveredsuccess": "Le produit a été livré avec succès",
             "deliveryqueued": "La livraison du produit a été mise en file d'attente avec succès",
             "notified": "Le client a été notifié",
+            "regenerate_pdf": "Régénérer le PDF",
             "notify": "Notifier le client",
             "edit": "Editer la facture",
             "deliver": "Livrer",
@@ -893,6 +894,7 @@
             "due_date": "Date d'échéance",
             "paid_date": "Date de paiement",
             "invoice_date": "Date de facturation",
+            "generated_at": "Généré le",
             "print": "Imprimer",
             "download": "Télécharger",
             "pay_with_balance": "Payer une partie de la facture avec le solde",
@@ -1239,6 +1241,7 @@
             "no_installed_desc": "Découvrez notre catalogue d'extensions pour enrichir votre ClientXCMS",
             "discover_extensions": "Découvrir les extensions",
             "extensions_count": "extensions",
+            "uninstall": "Désinstaller",
             "no_results": "Aucune extension ne correspond à votre recherche",
             "themes_available": "thèmes disponibles",
             "no_themes": "Aucun thème disponible",
@@ -1292,7 +1295,9 @@
             "cache_cleared": "Le cache a été vidé avec succès.",
             "enabled": "L'extension a été activée avec succès.",
             "disabled": "L'extension a été désactivée avec succès.",
-            "updated": "L'extension a été mise à jour avec succès."
+            "updated": "L'extension a été mise à jour avec succès.",
+            "uninstalled": "L'extension a été désinstallée avec succès.",
+            "uninstall_must_disable_first": "L'extension doit être désactivée avant d'être désinstallée."
         }
     },
     "lang.fr.global": {

@@ -2809,5 +2809,50 @@
             "description": "Un ticket acaba de ser cerrado",
             "title": "Cierre de un ticket"
         }
+    },
+    "lang": {
+        "fr": {
+            "admin": {
+                "invoices": {
+                    "regenerate_pdf": "Regenerar PDF"
+                }
+            },
+            "client": {
+                "invoices": {
+                    "generated_at": "Generado el"
+                }
+            },
+            "extensions": {
+                "settings": {
+                    "uninstall": "Desinstalar"
+                },
+                "flash": {
+                    "uninstalled": "La extensión ha sido desinstalada con éxito.",
+                    "uninstall_must_disable_first": "La extensión debe ser desactivada antes de ser desinstalada."
+                }
+            },
+            "global": {
+                "apply": "Aplicar",
+                "restore": "Restaurar"
+            },
+            "personalization": {
+                "menu_links": {
+                    "unsaved_changes": "Cambios no guardados",
+                    "bulk_saved": "Menú guardado con éxito.",
+                    "validation_error": "Por favor, corrija los errores de validación antes de guardar.",
+                    "save_error": "Ocurrió un error al guardar.",
+                    "add_child": "Añadir hijo",
+                    "children": "Hijos",
+                    "full_edit": "Detalles",
+                    "max_depth": "Profundidad máxima alcanzada",
+                    "empty_state": "No hay elementos de menú. Haga clic en el botón de abajo para añadir uno.",
+                    "translating": "Traducción en curso",
+                    "translation_note": "Las traducciones se guardarán cuando se guarden todos los elementos del menú.",
+                    "bottom_menu": {
+                        "footer_settings": "Ajustes del pie de página"
+                    }
+                }
+            }
+        }
     }
 }
