@@ -2829,6 +2829,27 @@
                 "flash": {
                     "uninstalled": "The extension has been successfully uninstalled.",
                     "uninstall_must_disable_first": "The extension must be disabled before being uninstalled."
+                },
+                "bulk": {
+                    "select_all": "Select all",
+                    "deselect_all": "Deselect all",
+                    "selected_count": ":count selected",
+                    "install_selected": "Install selection",
+                    "enable_selected": "Enable selection",
+                    "disable_selected": "Disable selection",
+                    "processing": "Processing...",
+                    "success": "Operation completed successfully",
+                    "partial_success": ":success succeeded, :failed failed"
+                },
+                "modal": {
+                    "version": "Version",
+                    "author": "Author",
+                    "price": "Price",
+                    "buy_now": "Buy now",
+                    "view_details": "View details",
+                    "close": "Close",
+                    "tags": "Tags",
+                    "last_update": "Last update"
                 }
             },
             "global": {
@@ -2851,6 +2872,16 @@
                     "bottom_menu": {
                         "footer_settings": "Footer settings"
                     }
+                },
+                "sections": {
+                    "config": {
+                        "btn": "Configure section",
+                        "title": "Section configuration",
+                        "subheading": "You can modify your section content as you wish"
+                    }
+                },
+                "theme": {
+                    "themename": "Theme name"
                 }
             }
         }

@@ -2817,6 +2817,27 @@
                 "flash": {
                     "uninstalled": "De extensie is succesvol verwijderd.",
                     "uninstall_must_disable_first": "De extensie moet worden uitgeschakeld voordat deze kan worden verwijderd."
+                },
+                "bulk": {
+                    "select_all": "Alles selecteren",
+                    "deselect_all": "Alles deselecteren",
+                    "selected_count": ":count geselecteerd",
+                    "install_selected": "Selectie installeren",
+                    "enable_selected": "Selectie inschakelen",
+                    "disable_selected": "Selectie uitschakelen",
+                    "processing": "Verwerken...",
+                    "success": "Bewerking succesvol voltooid",
+                    "partial_success": ":success geslaagd, :failed mislukt"
+                },
+                "modal": {
+                    "version": "Versie",
+                    "author": "Auteur",
+                    "price": "Prijs",
+                    "buy_now": "Nu kopen",
+                    "view_details": "Details bekijken",
+                    "close": "Sluiten",
+                    "tags": "Tags",
+                    "last_update": "Laatste update"
                 }
             },
             "global": {
@@ -2839,6 +2860,16 @@
                     "bottom_menu": {
                         "footer_settings": "Footer instellingen"
                     }
+                },
+                "sections": {
+                    "config": {
+                        "btn": "Sectie configureren",
+                        "title": "Sectie configuratie",
+                        "subheading": "U kunt de inhoud van uw sectie naar wens aanpassen"
+                    }
+                },
+                "theme": {
+                    "themename": "Themanaam"
                 }
             }
         }

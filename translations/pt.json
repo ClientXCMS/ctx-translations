@@ -2817,6 +2817,27 @@
                 "flash": {
                     "uninstalled": "A extensão foi desinstalada com sucesso.",
                     "uninstall_must_disable_first": "A extensão deve ser desativada antes de ser desinstalada."
+                },
+                "bulk": {
+                    "select_all": "Selecionar tudo",
+                    "deselect_all": "Desmarcar tudo",
+                    "selected_count": ":count selecionado(s)",
+                    "install_selected": "Instalar seleção",
+                    "enable_selected": "Ativar seleção",
+                    "disable_selected": "Desativar seleção",
+                    "processing": "Processando...",
+                    "success": "Operação concluída com sucesso",
+                    "partial_success": ":success com sucesso, :failed com falha"
+                },
+                "modal": {
+                    "version": "Versão",
+                    "author": "Autor",
+                    "price": "Preço",
+                    "buy_now": "Comprar agora",
+                    "view_details": "Ver detalhes",
+                    "close": "Fechar",
+                    "tags": "Tags",
+                    "last_update": "Última atualização"
                 }
             },
             "global": {
@@ -2828,7 +2849,7 @@
                     "unsaved_changes": "Alterações não salvas",
                     "bulk_saved": "Menu salvo com sucesso.",
                     "validation_error": "Corrija os erros de validação antes de salvar.",
-                    "save_error": "Ocorreu um erro ao salvar.",
+                    "save_error": "Ocorreu um error ao salvar.",
                     "add_child": "Adicionar filho",
                     "children": "Filhos",
                     "full_edit": "Detalhes",
@@ -2839,6 +2860,16 @@
                     "bottom_menu": {
                         "footer_settings": "Configurações do rodapé"
                     }
+                },
+                "sections": {
+                    "config": {
+                        "btn": "Configurar seção",
+                        "title": "Configuração da seção",
+                        "subheading": "Você pode modificar o conteúdo da sua seção como desejar"
+                    }
+                },
+                "theme": {
+                    "themename": "Nome do tema"
                 }
             }
         }

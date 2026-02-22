@@ -2817,6 +2817,27 @@
                 "flash": {
                     "uninstalled": "Die Erweiterung wurde erfolgreich deinstalliert.",
                     "uninstall_must_disable_first": "Die Erweiterung muss vor der Deinstallation deaktiviert werden."
+                },
+                "bulk": {
+                    "select_all": "Alle auswählen",
+                    "deselect_all": "Alle abwählen",
+                    "selected_count": ":count ausgewählt",
+                    "install_selected": "Auswahl installieren",
+                    "enable_selected": "Auswahl aktivieren",
+                    "disable_selected": "Auswahl deaktivieren",
+                    "processing": "Verarbeitung läuft...",
+                    "success": "Vorgang erfolgreich abgeschlossen",
+                    "partial_success": ":success erfolgreich, :failed fehlgeschlagen"
+                },
+                "modal": {
+                    "version": "Version",
+                    "author": "Autor",
+                    "price": "Preis",
+                    "buy_now": "Jetzt kaufen",
+                    "view_details": "Details anzeigen",
+                    "close": "Schließen",
+                    "tags": "Tags",
+                    "last_update": "Letzte Aktualisierung"
                 }
             },
             "global": {
@@ -2839,6 +2860,16 @@
                     "bottom_menu": {
                         "footer_settings": "Footer-Einstellungen"
                     }
+                },
+                "sections": {
+                    "config": {
+                        "btn": "Abschnitt konfigurieren",
+                        "title": "Abschnittskonfiguration",
+                        "subheading": "Sie können den Inhalt Ihres Abschnitts nach Ihren Wünschen ändern"
+                    }
+                },
+                "theme": {
+                    "themename": "Themenname"
                 }
             }
         }

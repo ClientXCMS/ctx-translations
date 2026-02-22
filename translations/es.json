@@ -2829,6 +2829,27 @@
                 "flash": {
                     "uninstalled": "La extensión ha sido desinstalada con éxito.",
                     "uninstall_must_disable_first": "La extensión debe ser desactivada antes de ser desinstalada."
+                },
+                "bulk": {
+                    "select_all": "Seleccionar todo",
+                    "deselect_all": "Deseleccionar todo",
+                    "selected_count": ":count seleccionado(s)",
+                    "install_selected": "Instalar selección",
+                    "enable_selected": "Activar selección",
+                    "disable_selected": "Desactivar selección",
+                    "processing": "Procesando...",
+                    "success": "Operación completada con éxito",
+                    "partial_success": ":success exitoso(s), :failed fallido(s)"
+                },
+                "modal": {
+                    "version": "Versión",
+                    "author": "Autor",
+                    "price": "Precio",
+                    "buy_now": "Comprar ahora",
+                    "view_details": "Ver detalles",
+                    "close": "Cerrar",
+                    "tags": "Etiquetas",
+                    "last_update": "Última actualización"
                 }
             },
             "global": {
@@ -2851,6 +2872,16 @@
                     "bottom_menu": {
                         "footer_settings": "Ajustes del pie de página"
                     }
+                },
+                "sections": {
+                    "config": {
+                        "btn": "Configurar sección",
+                        "title": "Configuración de la sección",
+                        "subheading": "Puedes modificar el contenido de tu sección como desees"
+                    }
+                },
+                "theme": {
+                    "themename": "Nombre del tema"
                 }
             }
         }

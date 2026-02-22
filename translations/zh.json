@@ -2817,6 +2817,27 @@
                 "flash": {
                     "uninstalled": "插件已成功卸载。",
                     "uninstall_must_disable_first": "必须先禁用插件才能进行卸载。"
+                },
+                "bulk": {
+                    "select_all": "全选",
+                    "deselect_all": "取消全选",
+                    "selected_count": "已选择 :count 项",
+                    "install_selected": "安装所选内容",
+                    "enable_selected": "启用所选内容",
+                    "disable_selected": "禁用所选内容",
+                    "processing": "正在处理...",
+                    "success": "操作成功完成",
+                    "partial_success": ":success 成功, :failed 失败"
+                },
+                "modal": {
+                    "version": "版本",
+                    "author": "作者",
+                    "price": "价格",
+                    "buy_now": "立即购买",
+                    "view_details": "查看详情",
+                    "close": "关闭",
+                    "tags": "标签",
+                    "last_update": "最后更新"
                 }
             },
             "global": {
@@ -2839,6 +2860,16 @@
                     "bottom_menu": {
                         "footer_settings": "页脚设置"
                     }
+                },
+                "sections": {
+                    "config": {
+                        "btn": "配置板块",
+                        "title": "板块配置",
+                        "subheading": "您可以根据需要修改板块内容"
+                    }
+                },
+                "theme": {
+                    "themename": "主题名称"
                 }
             }
         }
