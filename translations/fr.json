@@ -1316,6 +1316,7 @@
         "currency": "Devise",
         "title": "Titre",
         "content": "Contenu",
+        "clicktoupload": "Cliquez pour téléverser un fichier",
         "address2": "Complément d'adresse",
         "company_name": "Nom de l'entreprise",
         "billing_details": "Détails de facturation",
@@ -2507,6 +2508,7 @@
     "lang.fr.store": {
         "basket": {
             "title": "Panier",
+            "subtitle": "Voici le résumé des produits et options ajoutés à votre panier",
             "empty": "Votre panier est vide",
             "total": "Total",
             "show": "Voir le panier",
