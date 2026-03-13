@@ -631,7 +631,8 @@
                         "access_token": "Token de acceso",
                         "location_id": "ID de ubicación",
                         "merchant_code": "Código de comerciante",
-                        "webhook_secret": "Clave webhook"
+                        "webhook_secret": "Clave webhook",
+                        "api_key": "Clave API"
                     },
                     "success": "La configuración de la puerta de enlace se ha guardado correctamente.",
                     "square": {
@@ -1003,7 +1004,8 @@
                 "saveandrenew": "Regístrese y renueve",
                 "date": "Fecha",
                 "manage": "A continuación se muestra una lista de las renovaciones de servicio que ya se han completado.",
-                "not_authorized_to_change_billing": "No tienes permiso para cambiar el modo de facturación"
+                "not_authorized_to_change_billing": "No tienes permiso para cambiar el modo de facturación",
+                "not_autorized_to_change_billing": "No está autorizado a cambiar el modo de facturación"
             },
             "subscription": {
                 "cancelled": "La renovación automática ha sido cancelada. Su servicio caducará el {_date}.",

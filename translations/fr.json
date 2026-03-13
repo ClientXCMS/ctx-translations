@@ -681,7 +681,8 @@
                         "location_id": "ID de localisation",
                         "merchant_code": "Code marchand",
                         "webhook_secret": "Clé webhook",
-                        "access_token": "Jeton d'accès"
+                        "access_token": "Jeton d'accès",
+                        "api_key": "Clé API"
                     },
                     "sumup": {
                         "api_key_help": "Clé API obtenue sur developers.sumup.com",
@@ -1013,7 +1014,8 @@
                 "saveandrenew": "Enregistrer et renouveler",
                 "date": "Date",
                 "manage": "Vous trouverez ci-dessous la liste des renouvellements de votre service déjà effectués.",
-                "not_authorized_to_change_billing": "Vous n'êtes pas autorisé à changer le mode de facturation"
+                "not_authorized_to_change_billing": "Vous n'êtes pas autorisé à changer le mode de facturation",
+                "not_autorized_to_change_billing": "Vous n'êtes pas autorisé à changer le mode de facturation"
             },
             "subscription": {
                 "cancelled": "Le renouvellement automatique a été annulé. Votre service expirera le {_date}.",
@@ -1261,17 +1263,17 @@
             "notactivable": "Non activable",
             "buy": "Acheter"
         },
-      "bulk": {
-        "select_all": "Tout sélectionner",
-        "deselect_all": "Tout désélectionner",
-        "selected_count": ":count sélectionné(s)",
-        "install_selected": "Installer la sélection",
-        "enable_selected": "Activer la sélection",
-        "disable_selected": "Désactiver la sélection",
-        "processing": "Traitement en cours...",
-        "success": "Opération terminée avec succès",
-        "partial_success": ":success réussi(s), :failed échoué(s)"
-      },
+        "bulk": {
+            "select_all": "Tout sélectionner",
+            "deselect_all": "Tout désélectionner",
+            "selected_count": ":count sélectionné(s)",
+            "install_selected": "Installer la sélection",
+            "enable_selected": "Activer la sélection",
+            "disable_selected": "Désactiver la sélection",
+            "processing": "Traitement en cours...",
+            "success": "Opération terminée avec succès",
+            "partial_success": ":success réussi(s), :failed échoué(s)"
+        },
         "modal": {
             "version": "Version",
             "author": "Auteur",

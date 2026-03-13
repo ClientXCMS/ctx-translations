@@ -631,7 +631,8 @@
                         "access_token": "Token de acesso",
                         "location_id": "ID de localização",
                         "merchant_code": "Código do comerciante",
-                        "webhook_secret": "Chave webhook"
+                        "webhook_secret": "Chave webhook",
+                        "api_key": "Chave API"
                     },
                     "success": "A configuração do gateway foi salva com êxito.",
                     "square": {
@@ -1003,7 +1004,8 @@
                 "saveandrenew": "Registre-se e renove",
                 "date": "Data",
                 "manage": "Abaixo está uma lista de suas renovações de serviço que já foram concluídas.",
-                "not_authorized_to_change_billing": "Você não está autorizado a mudar o modo de faturamento."
+                "not_authorized_to_change_billing": "Você não está autorizado a mudar o modo de faturamento.",
+                "not_autorized_to_change_billing": "Você não tem permissão para alterar o método de faturamento"
             },
             "subscription": {
                 "cancelled": "A renovação automática foi cancelada. Seu serviço expirará em {_date}.",

@@ -680,7 +680,8 @@
                         "location_id": "ID posizione",
                         "merchant_code": "Codice commerciante",
                         "webhook_secret": "Chiave webhook",
-                        "access_token": "Token di accesso"
+                        "access_token": "Token di accesso",
+                        "api_key": "Chiave API"
                     },
                     "sumup": {
                         "api_key_help": "Chiave API ottenuta su developers.sumup.com",
@@ -1011,7 +1012,8 @@
                 "saveandrenew": "Registrati e rinnova",
                 "date": "Dattero",
                 "manage": "Di seguito è riportato un elenco dei rinnovi dei servizi che sono già stati completati.",
-                "not_authorized_to_change_billing": "Non sei autorizzato a cambiare il metodo di fatturazione"
+                "not_authorized_to_change_billing": "Non sei autorizzato a cambiare il metodo di fatturazione",
+                "not_autorized_to_change_billing": "Non sei autorizzato a modificare il metodo di fatturazione"
             },
             "subscription": {
                 "cancelled": "Il rinnovo automatico è stato annullato. Il servizio scadrà il {_date}.",

@@ -640,7 +640,8 @@
                         "access_token": "Toegangstoken",
                         "location_id": "Locatie-ID",
                         "merchant_code": "Handelaarscode",
-                        "webhook_secret": "Webhook-sleutel"
+                        "webhook_secret": "Webhook-sleutel",
+                        "api_key": "API-sleutel"
                     },
                     "success": "De gatewayconfiguratie is met succes opgeslagen.",
                     "square": {
@@ -1009,7 +1010,8 @@
                 "saveandrenew": "Registreren en verlengen",
                 "date": "Datum",
                 "manage": "Hieronder vindt u een lijst met uw serviceverlengingen die al zijn voltooid.",
-                "not_authorized_to_change_billing": "U bent niet gemachtigd om de factureringsmodus te wijzigen."
+                "not_authorized_to_change_billing": "U bent niet gemachtigd om de factureringsmodus te wijzigen.",
+                "not_autorized_to_change_billing": "U bent niet gemachtigd om de factureringsmethode te wijzigen"
             },
             "subscription": {
                 "cancelled": "Automatische verlenging is geannuleerd. Uw service verloopt op {_date}.",

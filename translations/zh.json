@@ -612,7 +612,8 @@
                         "location_id": "位置 ID",
                         "merchant_code": "商户代码",
                         "webhook_secret": "Webhook 密钥",
-                        "access_token": "访问令牌"
+                        "access_token": "访问令牌",
+                        "api_key": "API 密钥"
                     },
                     "success": "网关配置已成功保存。",
                     "sumup": {
@@ -1003,7 +1004,8 @@
                 "saveandrenew": "注册和续订",
                 "date": "日期",
                 "manage": "以下是已完成的服务续订列表。",
-                "not_authorized_to_change_billing": "您不被允许更改计费方式"
+                "not_authorized_to_change_billing": "您不被允许更改计费方式",
+                "not_autorized_to_change_billing": "您无权更改计费模式"
             },
             "subscription": {
                 "cancelled": "自动续费已取消。您的服务将于 {_date} 过期。",

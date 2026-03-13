@@ -680,7 +680,8 @@
                         "location_id": "Standort-ID",
                         "merchant_code": "Händlercode",
                         "webhook_secret": "Webhook-Schlüssel",
-                        "access_token": "Zugriffstoken"
+                        "access_token": "Zugriffstoken",
+                        "api_key": "API-Schlüssel"
                     },
                     "sumup": {
                         "api_key_help": "API-Schlüssel von developers.sumup.com",
@@ -1011,7 +1012,8 @@
                 "saveandrenew": "Registrieren und verlängern",
                 "date": "Datum",
                 "manage": "Nachfolgend finden Sie eine Liste Ihrer Serviceverlängerungen, die bereits abgeschlossen wurden.",
-                "not_authorized_to_change_billing": "Sie sind nicht berechtigt, den Abrechnungsmodus zu ändern."
+                "not_authorized_to_change_billing": "Sie sind nicht berechtigt, den Abrechnungsmodus zu ändern.",
+                "not_autorized_to_change_billing": "Sie sind nicht berechtigt, die Abrechnungsart zu ändern"
             },
             "subscription": {
                 "cancelled": "Die automatische Verlängerung wurde abgebrochen. Ihr Dienst läuft am {_date} ab.",

@@ -631,7 +631,8 @@
                         "access_token": "Access token",
                         "location_id": "Location ID",
                         "merchant_code": "Merchant code",
-                        "webhook_secret": "Webhook key"
+                        "webhook_secret": "Webhook key",
+                        "api_key": "API key"
                     },
                     "success": "The gateway configuration has been successfully saved.",
                     "square": {
@@ -1003,7 +1004,8 @@
                 "saveandrenew": "Register and renew",
                 "date": "Date",
                 "manage": "Below is a list of your service renewals that have already been completed.",
-                "not_authorized_to_change_billing": "You are not authorized to change the billing mode."
+                "not_authorized_to_change_billing": "You are not authorized to change the billing mode.",
+                "not_autorized_to_change_billing": "You are not authorized to change the billing mode"
             },
             "subscription": {
                 "cancelled": "Auto-renewal has been canceled. Your service will expire on {_date}.",
