@@ -367,7 +367,6 @@
         "create_invoice": "Creare una fattura",
         "create_service": "Fornire un servizio",
         "create_ticket": "Creare un ticket",
-        "reset_security_question": "Reimpostare la domanda di sicurezza del cliente",
         "confirm": "Conferma account",
         "title": "Profilo del cliente di {_name}",
         "login_ip": "IP di connessione",
@@ -407,6 +406,7 @@
         "suspend_services": "Sospendere i servizi del cliente",
         "unsuspend_services": "Riattivare i servizi del cliente",
         "expire_services": "Scade i servizi del cliente",
+        "reset_security_question": "Reimpostare la domanda di sicurezza del cliente",
         "is_banned": "Questo client è stato bannato il {_date} da {_username} per motivi {_reason}",
         "is_suspended": "Questo client è stato sospeso il {_date} da {_username} per il motivo {_reason}"
       },
@@ -448,6 +448,7 @@
       "deliveredsuccess": "Il prodotto è stato consegnato con successo",
       "deliveryqueued": "La consegna del prodotto è stata messa in coda con successo",
       "notified": "Il cliente è stato avvisato",
+      "regenerate_pdf": "Rigenera PDF",
       "notify": "Avvisare il cliente",
       "edit": "Modificare la fattura",
       "deliver": "Consegnare",
@@ -895,6 +896,7 @@
       "due_date": "Data di scadenza",
       "paid_date": "Data di pagamento",
       "invoice_date": "Data della fattura",
+      "generated_at": "Generato il",
       "print": "Stampare",
       "download": "Scaricare",
       "pay_with_balance": "Pagare una parte della fattura con il saldo",
@@ -1007,6 +1009,7 @@
         }
       },
       "renewals": {
+        "test_auto_translation": "Questo è un test di traduzione automatica per{_name}",
         "index": "Rinnovi dei servizi",
         "title": "Gestione dei rinnovi",
         "period": "Periodo",
@@ -1246,6 +1249,7 @@
       "no_installed_desc": "Scopra il nostro catalogo di estensioni per arricchire il Suo ClientXCMS",
       "discover_extensions": "Scopri le estensioni",
       "extensions_count": "estensioni",
+      "uninstall": "Disinstalla",
       "no_results": "Nessuna estensione corrisponde alla Sua ricerca",
       "themes_available": "temi disponibili",
       "no_themes": "Nessun tema disponibile",
@@ -1265,6 +1269,27 @@
       "notactivable": "Non attivabile",
       "buy": "Acquistare"
     },
+    "bulk": {
+      "select_all": "Seleziona tutto",
+      "deselect_all": "Deseleziona tutto",
+      "selected_count": ":count selezionato/i",
+      "install_selected": "Installa selezione",
+      "enable_selected": "Abilita selezione",
+      "disable_selected": "Disabilita selezione",
+      "processing": "Elaborazione in corso...",
+      "success": "Operazione completata con successo",
+      "partial_success": ":success riuscito/i, :failed fallito/i"
+    },
+    "modal": {
+      "version": "Versione",
+      "author": "Autore",
+      "price": "Prezzo",
+      "buy_now": "Acquista ora",
+      "view_details": "Visualizza dettagli",
+      "close": "Chiudi",
+      "tags": "Tag",
+      "last_update": "Ultimo aggiornamento"
+    },
     "onetime": "Solo una volta",
     "monthly": "Mensile",
     "flash": {
@@ -1278,7 +1303,9 @@
       "cache_cleared": "La cache è stata cancellata correttamente.",
       "enabled": "L'estensione è stata attivata con successo.",
       "disabled": "L'estensione è stata disattivata con successo.",
-      "updated": "L'estensione è stata aggiornata con successo."
+      "updated": "L'estensione è stata aggiornata con successo.",
+      "uninstalled": "L'estensione è stata disinstallata con successo.",
+      "uninstall_must_disable_first": "L'estensione deve essere disabilitata prima di essere disinstallata."
     }
   },
   "lang.fr.global": {
@@ -1297,6 +1324,7 @@
     "currency": "Valuta",
     "title": "Titolo",
     "content": "Contenuto",
+    "clicktoupload": "Fare clic per caricare un file",
     "address2": "Indirizzo aggiuntivo",
     "company_name": "Nome dell'azienda",
     "billing_details": "Dettagli di fatturazione",
@@ -1371,6 +1399,8 @@
     "show": "Inserisci",
     "hour": "Ora",
     "date": "Dattero",
+    "apply": "Applica",
+    "restore": "Ripristina",
     "clicktoremove": "Clicca per eliminare",
     "separebycomma": "Separati da virgole",
     "week": "Settimana",
@@ -1795,6 +1825,17 @@
       "link": "Collegamento",
       "dropdown": "Menu a discesa",
       "parent": "Genitore",
+      "unsaved_changes": "Modifiche non salvate",
+      "bulk_saved": "Menu salvato con successo.",
+      "validation_error": "Si prega di correggere gli errori di validazione prima di salvare.",
+      "save_error": "Si è verificato un errore durante il salvataggio.",
+      "add_child": "Aggiungi figlio",
+      "children": "Figli",
+      "full_edit": "Dettagli",
+      "max_depth": "Profondità massima raggiunta",
+      "empty_state": "Nessun elemento del menu. Clicca sul pulsante qui sotto per aggiungerne uno.",
+      "translating": "Traduzione in corso",
+      "translation_note": "Le traduzioni verranno salvate quando tutti gli elementi del menu saranno salvati.",
       "allowed_roles": {
         "all": "Tutti",
         "logged": "Connesso",
@@ -1805,6 +1846,9 @@
         "new_tab": "Nuova scheda",
         "link": "Collegamento",
         "dropdown": "Menu a discesa"
+      },
+      "bottom_menu": {
+        "footer_settings": "Impostazioni del piè di pagina"
       }
     },
     "icon": "Bootstrap",
@@ -1940,6 +1984,11 @@
         "protected_content": "Questa sezione è protetta e non può essere modificata.",
         "subheading": "Puoi modificare il contenuto della tua sezione come desideri"
       },
+      "config": {
+        "btn": "Configura sezione",
+        "title": "Configurazione della sezione",
+        "subheading": "Puoi modificare il contenuto della tua sezione come desideri"
+      },
       "fields": {
         "url": "Pagina della sezione",
         "active": "Attivo"
@@ -1980,6 +2029,7 @@
       "description": "Impostazioni del tema dell'area clienti",
       "info": "Puoi ora scegliere il tuo tema nelle estensioni > temi. <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Clicca qui per accedervi</a>.",
       "current_theme": "Tema attuale",
+      "themename": "Nome del tema",
       "fields": {
         "theme_footer_description": "Descrizione del piè di pagina",
         "theme_footer_description_help": "Supporto HTML",
@@ -2069,6 +2119,14 @@
       "starting": "Introduttiva",
       "stopping": "Arresto in corso"
     },
+    "cancellation": {
+      "rule_label": "Regola di cancellazione",
+      "mode_immediate": "Consenti la cancellazione immediata",
+      "mode_support_ticket": "Reindirizzamento alla creazione di un ticket di supporto",
+      "mode_after_expiration": "Consenti la cancellazione dopo la scadenza del servizio",
+      "requires_ticket": "Questo motivo di annullamento richiede l'apertura di un ticket di supporto.",
+      "after_expiration_only": "Tale cancellazione sarà autorizzata solo dopo la scadenza del servizio."
+    },
     "config_option": "Opzione di configurazione",
     "admin": {
       "title": "Vettovagliamento",
@@ -2090,7 +2148,10 @@
             "allow_cancellation": "Autorizzare i clienti a richiedere un annullamento",
             "allow_cancellation_help": "Se disattivato, la pagina di annullamento non è visibile lato cliente.",
             "cancellation_lock_days": "Numero di giorni dopo l'attivazione prima di poter annullare",
-            "cancellation_lock_days_help": "Durante questo periodo, il modulo di annullamento rimane nascosto anche se l'opzione è attivata."
+            "cancellation_lock_days_help": "Durante questo periodo, il modulo di annullamento rimane nascosto anche se l'opzione è attivata.",
+            "lifecycle_title": "Ciclo di espirazione e sospensione",
+            "suspend_after_unpaid_days": "Sospensione automatica dopo fattura non pagata (D+)",
+            "renewal_grace_days": "Finestra di rinnovo con promemoria (giorni)"
           }
         }
       },
@@ -2407,6 +2468,7 @@
   "lang.fr.store": {
     "basket": {
       "title": "Cesto",
+      "subtitle": "Ecco il riepilogo dei prodotti e delle opzioni aggiunti al carrello",
       "empty": "Il tuo carrello è vuoto",
       "total": "Totale",
       "show": "Vedi il carrello",
@@ -2744,114 +2806,6 @@
     "upgrade": {
       "title": "Servizio aggiornato",
       "description": "Un servizio è stato aggiornato"
-    }
-  },
-  "lang": {
-    "fr": {
-      "admin": {
-        "invoices": {
-          "regenerate_pdf": "Rigenera PDF"
-        }
-      },
-      "client": {
-        "invoices": {
-          "generated_at": "Generato il"
-        },
-        "services": {
-          "renewals": {
-            "test_auto_translation": "Questo è un test di traduzione automatica per{_name}"
-          }
-        }
-      },
-      "extensions": {
-        "settings": {
-          "uninstall": "Disinstalla"
-        },
-        "flash": {
-          "uninstalled": "L'estensione è stata disinstallata con successo.",
-          "uninstall_must_disable_first": "L'estensione deve essere disabilitata prima di essere disinstallata."
-        },
-        "bulk": {
-          "select_all": "Seleziona tutto",
-          "deselect_all": "Deseleziona tutto",
-          "selected_count": ":count selezionato/i",
-          "install_selected": "Installa selezione",
-          "enable_selected": "Abilita selezione",
-          "disable_selected": "Disabilita selezione",
-          "processing": "Elaborazione in corso...",
-          "success": "Operazione completata con successo",
-          "partial_success": ":success riuscito/i, :failed fallito/i"
-        },
-        "modal": {
-          "version": "Versione",
-          "author": "Autore",
-          "price": "Prezzo",
-          "buy_now": "Acquista ora",
-          "view_details": "Visualizza dettagli",
-          "close": "Chiudi",
-          "tags": "Tag",
-          "last_update": "Ultimo aggiornamento"
-        }
-      },
-      "global": {
-        "apply": "Applica",
-        "restore": "Ripristina",
-        "clicktoupload": "Fare clic per caricare un file"
-      },
-      "personalization": {
-        "menu_links": {
-          "unsaved_changes": "Modifiche non salvate",
-          "bulk_saved": "Menu salvato con successo.",
-          "validation_error": "Si prega di correggere gli errori di validazione prima di salvare.",
-          "save_error": "Si è verificato un errore durante il salvataggio.",
-          "add_child": "Aggiungi figlio",
-          "children": "Figli",
-          "full_edit": "Dettagli",
-          "max_depth": "Profondità massima raggiunta",
-          "empty_state": "Nessun elemento del menu. Clicca sul pulsante qui sotto per aggiungerne uno.",
-          "translating": "Traduzione in corso",
-          "translation_note": "Le traduzioni verranno salvate quando tutti gli elementi del menu saranno salvati.",
-          "bottom_menu": {
-            "footer_settings": "Impostazioni del piè di pagina"
-          }
-        },
-        "sections": {
-          "config": {
-            "btn": "Configura sezione",
-            "title": "Configurazione della sezione",
-            "subheading": "Puoi modificare il contenuto della tua sezione come desideri"
-          }
-        },
-        "theme": {
-          "themename": "Nome del tema"
-        }
-      },
-      "store": {
-        "basket": {
-          "subtitle": "Ecco il riepilogo dei prodotti e delle opzioni aggiunti al carrello"
-        }
-      },
-      "provisioning": {
-        "cancellation": {
-          "rule_label": "Regola di cancellazione",
-          "mode_immediate": "Consenti la cancellazione immediata",
-          "mode_support_ticket": "Reindirizzamento alla creazione di un ticket di supporto",
-          "mode_after_expiration": "Consenti la cancellazione dopo la scadenza del servizio",
-          "requires_ticket": "Questo motivo di annullamento richiede l'apertura di un ticket di supporto.",
-          "after_expiration_only": "Tale cancellazione sarà autorizzata solo dopo la scadenza del servizio."
-        },
-        "admin": {
-          "settings": {
-            "services": {
-              "fields": {
-                "lifecycle_title": "Ciclo di espirazione e sospensione",
-                "suspend_after_unpaid_days": "Sospensione automatica dopo fattura non pagata (D+)",
-                "renewal_grace_days": "Finestra di rinnovo con promemoria (giorni)"
-              }
-            }
-          }
-        }
-      }
     }
   }
 }

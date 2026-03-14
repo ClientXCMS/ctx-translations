@@ -1,5 +1,5 @@
 {
-  "language": "Allemand",
+  "language": "Deutsch",
   "lang.fr.actionslog": {
     "settings": {
       "title": "Geschichte der Aktionen",
@@ -448,6 +448,7 @@
       "deliveredsuccess": "Das Produkt wurde erfolgreich ausgeliefert",
       "deliveryqueued": "Die Produktlieferung wurde erfolgreich in die Warteschlange gestellt",
       "notified": "Der Kunde wurde benachrichtigt",
+      "regenerate_pdf": "PDF regenerieren",
       "notify": "Benachrichtigen Sie den Kunden",
       "edit": "Bearbeiten der Rechnung",
       "deliver": "Liefern",
@@ -895,6 +896,7 @@
       "due_date": "Fälligkeitsdatum",
       "paid_date": "Zahlungsdatum",
       "invoice_date": "Rechnungsdatum",
+      "generated_at": "Generiert am",
       "print": "Drucken",
       "download": "Herunterladen",
       "pay_with_balance": "Zahlen Sie einen Teil der Rechnung mit dem Restbetrag",
@@ -1007,6 +1009,7 @@
         }
       },
       "renewals": {
+        "test_auto_translation": "Dies ist ein maschineller Übersetzungstest für{_name}",
         "index": "Verlängerungen von Diensten",
         "title": "Erneuerungsmanagement",
         "period": "Periode",
@@ -1246,6 +1249,7 @@
       "no_installed_desc": "Entdecken Sie unseren Erweiterungskatalog, um Ihr ClientXCMS zu bereichern",
       "discover_extensions": "Erweiterungen entdecken",
       "extensions_count": "Erweiterungen",
+      "uninstall": "Deinstallieren",
       "no_results": "Keine Erweiterung entspricht Ihrer Suche",
       "themes_available": "Themes verfügbar",
       "no_themes": "Kein Theme verfügbar",
@@ -1265,6 +1269,27 @@
       "notactivable": "Nicht aktivierbar",
       "buy": "Kaufen"
     },
+    "bulk": {
+      "select_all": "Alle auswählen",
+      "deselect_all": "Alle abwählen",
+      "selected_count": ":count ausgewählt",
+      "install_selected": "Auswahl installieren",
+      "enable_selected": "Auswahl aktivieren",
+      "disable_selected": "Auswahl deaktivieren",
+      "processing": "Verarbeitung läuft...",
+      "success": "Vorgang erfolgreich abgeschlossen",
+      "partial_success": ":success erfolgreich, :failed fehlgeschlagen"
+    },
+    "modal": {
+      "version": "Version",
+      "author": "Autor",
+      "price": "Preis",
+      "buy_now": "Jetzt kaufen",
+      "view_details": "Details anzeigen",
+      "close": "Schließen",
+      "tags": "Tags",
+      "last_update": "Letzte Aktualisierung"
+    },
     "onetime": "Nur einmal",
     "monthly": "Monatlich",
     "flash": {
@@ -1278,7 +1303,9 @@
       "cache_cleared": "Der Cache wurde erfolgreich geleert.",
       "enabled": "Die Erweiterung wurde erfolgreich aktiviert.",
       "disabled": "Die Erweiterung wurde erfolgreich deaktiviert.",
-      "updated": "Die Erweiterung wurde erfolgreich aktualisiert."
+      "updated": "Die Erweiterung wurde erfolgreich aktualisiert.",
+      "uninstalled": "Die Erweiterung wurde erfolgreich deinstalliert.",
+      "uninstall_must_disable_first": "Die Erweiterung muss vor der Deinstallation deaktiviert werden."
     }
   },
   "lang.fr.global": {
@@ -1297,6 +1324,7 @@
     "currency": "Währung",
     "title": "Titel",
     "content": "Inhalt",
+    "clicktoupload": "Klicken Sie hier, um eine Datei hochzuladen",
     "address2": "Zusatzadresse",
     "company_name": "Name des Unternehmens",
     "billing_details": "Rechnungsdetails",
@@ -1371,6 +1399,8 @@
     "show": "Bereitstellen",
     "hour": "Stunde",
     "date": "Datum",
+    "apply": "Anwenden",
+    "restore": "Wiederherstellen",
     "clicktoremove": "Klicken zum Löschen",
     "separebycomma": "Durch Kommas getrennt",
     "week": "Woche",
@@ -1795,6 +1825,17 @@
       "link": "Link",
       "dropdown": "Dropdown-Menü",
       "parent": "Eltern",
+      "unsaved_changes": "Nicht gespeicherte Änderungen",
+      "bulk_saved": "Menü erfolgreich gespeichert.",
+      "validation_error": "Bitte korrigieren Sie die Validierungsfehler vor dem Speichern.",
+      "save_error": "Beim Speichern ist ein Fehler aufgetreten.",
+      "add_child": "Kind hinzufügen",
+      "children": "Kinder",
+      "full_edit": "Details",
+      "max_depth": "Maximale Tiefe erreicht",
+      "empty_state": "Keine Menüpunkte. Klicken Sie auf die Schaltfläche unten, um einen hinzuzufügen.",
+      "translating": "Übersetzung läuft",
+      "translation_note": "Übersetzungen werden gespeichert, wenn alle Menüpunkte gespeichert sind.",
       "allowed_roles": {
         "all": "Alle",
         "logged": "Verbunden",
@@ -1805,6 +1846,9 @@
         "new_tab": "Neuer Tab",
         "link": "Link",
         "dropdown": "Dropdown-Menü"
+      },
+      "bottom_menu": {
+        "footer_settings": "Footer-Einstellungen"
       }
     },
     "icon": "Urlader",
@@ -1940,6 +1984,11 @@
         "protected_content": "Dieser Abschnitt ist geschützt und kann nicht geändert werden.",
         "subheading": "Sie können den Inhalt Ihres Abschnitts nach Belieben bearbeiten"
       },
+      "config": {
+        "btn": "Abschnitt konfigurieren",
+        "title": "Abschnittskonfiguration",
+        "subheading": "Sie können den Inhalt Ihres Abschnitts nach Ihren Wünschen ändern"
+      },
       "fields": {
         "url": "Sektions-Seite",
         "active": "Aktiv"
@@ -1980,6 +2029,7 @@
       "description": "Einstellungen für das Kundenbereichsthema",
       "info": "Sie können jetzt Ihr Thema unter Erweiterungen > Themen auswählen. <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Klicken Sie hier, um darauf zuzugreifen</a>.",
       "current_theme": "Aktuelles Thema",
+      "themename": "Themenname",
       "fields": {
         "theme_footer_description": "Beschreibung der Fußzeile",
         "theme_footer_description_help": "HTML-Unterstützung",
@@ -2069,6 +2119,14 @@
       "starting": "Erste Schritte",
       "stopping": "Abschaltung läuft"
     },
+    "cancellation": {
+      "rule_label": "Stornoregel",
+      "mode_immediate": "Erlauben Sie eine sofortige Stornierung",
+      "mode_support_ticket": "Weiter zum Erstellen eines Support-Tickets",
+      "mode_after_expiration": "Stornierung nach Ablauf des Dienstes zulassen",
+      "requires_ticket": "Dieser Stornierungsgrund erfordert die Eröffnung eines Support-Tickets.",
+      "after_expiration_only": "Diese Stornierung wird erst nach Ablauf des Dienstes genehmigt."
+    },
     "config_option": "Konfigurationsoption",
     "admin": {
       "title": "Bereitstellung",
@@ -2090,7 +2148,10 @@
             "allow_cancellation": "Kunden erlauben, eine Kündigung zu beantragen",
             "allow_cancellation_help": "Wenn deaktiviert, ist die Kündigungsseite für Kunden nicht sichtbar.",
             "cancellation_lock_days": "Anzahl der Tage nach der Aktivierung, bevor eine Kündigung möglich ist",
-            "cancellation_lock_days_help": "Während dieser Zeit bleibt das Kündigungsformular verborgen, auch wenn die Option aktiviert ist."
+            "cancellation_lock_days_help": "Während dieser Zeit bleibt das Kündigungsformular verborgen, auch wenn die Option aktiviert ist.",
+            "lifecycle_title": "Ausatmungs- und Schwebezyklus",
+            "suspend_after_unpaid_days": "Automatische Sperre nach unbezahlter Rechnung (D+)",
+            "renewal_grace_days": "Verlängerungsfenster mit Erinnerungen (Tage)"
           }
         }
       },
@@ -2407,6 +2468,7 @@
   "lang.fr.store": {
     "basket": {
       "title": "Korb",
+      "subtitle": "Hier finden Sie eine Zusammenfassung der Produkte und Optionen, die Ihrem Warenkorb hinzugefügt wurden",
       "empty": "Ihr Warenkorb ist leer",
       "total": "Gesamt",
       "show": "Warenkorb anzeigen",
@@ -2744,114 +2806,6 @@
     "upgrade": {
       "title": "Service aufgerüstet",
       "description": "Ein Dienst wurde aufgerüstet"
-    }
-  },
-  "lang": {
-    "fr": {
-      "admin": {
-        "invoices": {
-          "regenerate_pdf": "PDF regenerieren"
-        }
-      },
-      "client": {
-        "invoices": {
-          "generated_at": "Generiert am"
-        },
-        "services": {
-          "renewals": {
-            "test_auto_translation": "Dies ist ein maschineller Übersetzungstest für{_name}"
-          }
-        }
-      },
-      "extensions": {
-        "settings": {
-          "uninstall": "Deinstallieren"
-        },
-        "flash": {
-          "uninstalled": "Die Erweiterung wurde erfolgreich deinstalliert.",
-          "uninstall_must_disable_first": "Die Erweiterung muss vor der Deinstallation deaktiviert werden."
-        },
-        "bulk": {
-          "select_all": "Alle auswählen",
-          "deselect_all": "Alle abwählen",
-          "selected_count": ":count ausgewählt",
-          "install_selected": "Auswahl installieren",
-          "enable_selected": "Auswahl aktivieren",
-          "disable_selected": "Auswahl deaktivieren",
-          "processing": "Verarbeitung läuft...",
-          "success": "Vorgang erfolgreich abgeschlossen",
-          "partial_success": ":success erfolgreich, :failed fehlgeschlagen"
-        },
-        "modal": {
-          "version": "Version",
-          "author": "Autor",
-          "price": "Preis",
-          "buy_now": "Jetzt kaufen",
-          "view_details": "Details anzeigen",
-          "close": "Schließen",
-          "tags": "Tags",
-          "last_update": "Letzte Aktualisierung"
-        }
-      },
-      "global": {
-        "apply": "Anwenden",
-        "restore": "Wiederherstellen",
-        "clicktoupload": "Klicken Sie hier, um eine Datei hochzuladen"
-      },
-      "personalization": {
-        "menu_links": {
-          "unsaved_changes": "Nicht gespeicherte Änderungen",
-          "bulk_saved": "Menü erfolgreich gespeichert.",
-          "validation_error": "Bitte korrigieren Sie die Validierungsfehler vor dem Speichern.",
-          "save_error": "Beim Speichern ist ein Fehler aufgetreten.",
-          "add_child": "Kind hinzufügen",
-          "children": "Kinder",
-          "full_edit": "Details",
-          "max_depth": "Maximale Tiefe erreicht",
-          "empty_state": "Keine Menüpunkte. Klicken Sie auf die Schaltfläche unten, um einen hinzuzufügen.",
-          "translating": "Übersetzung läuft",
-          "translation_note": "Übersetzungen werden gespeichert, wenn alle Menüpunkte gespeichert sind.",
-          "bottom_menu": {
-            "footer_settings": "Footer-Einstellungen"
-          }
-        },
-        "sections": {
-          "config": {
-            "btn": "Abschnitt konfigurieren",
-            "title": "Abschnittskonfiguration",
-            "subheading": "Sie können den Inhalt Ihres Abschnitts nach Ihren Wünschen ändern"
-          }
-        },
-        "theme": {
-          "themename": "Themenname"
-        }
-      },
-      "store": {
-        "basket": {
-          "subtitle": "Hier finden Sie eine Zusammenfassung der Produkte und Optionen, die Ihrem Warenkorb hinzugefügt wurden"
-        }
-      },
-      "provisioning": {
-        "cancellation": {
-          "rule_label": "Stornoregel",
-          "mode_immediate": "Erlauben Sie eine sofortige Stornierung",
-          "mode_support_ticket": "Weiter zum Erstellen eines Support-Tickets",
-          "mode_after_expiration": "Stornierung nach Ablauf des Dienstes zulassen",
-          "requires_ticket": "Dieser Stornierungsgrund erfordert die Eröffnung eines Support-Tickets.",
-          "after_expiration_only": "Diese Stornierung wird erst nach Ablauf des Dienstes genehmigt."
-        },
-        "admin": {
-          "settings": {
-            "services": {
-              "fields": {
-                "lifecycle_title": "Ausatmungs- und Schwebezyklus",
-                "suspend_after_unpaid_days": "Automatische Sperre nach unbezahlter Rechnung (D+)",
-                "renewal_grace_days": "Verlängerungsfenster mit Erinnerungen (Tage)"
-              }
-            }
-          }
-        }
-      }
     }
   }
 }

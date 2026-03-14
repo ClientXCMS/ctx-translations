@@ -1,5 +1,5 @@
 {
-  "language": "Neerlandais",
+  "language": "Nederlands",
   "lang.fr.actionslog": {
     "settings": {
       "title": "Logboeken van acties",
@@ -59,11 +59,56 @@
       "title": "Talen",
       "changedefaulthelp": "U kunt de standaardtaal wijzigen in de algemene instellingen.",
       "download_success": "De vertaalbestanden zijn succesvol geüpload.",
-      "description": "Beheer de talen die beschikbaar zijn voor de gebruikers- en beheerdersinterface.",
-      "download_error": "U kunt de vertaalbestanden voor de Franse taal niet lokaal downloaden."
+      "download_error": "U kunt de vertaalbestanden voor de Franse taal niet lokaal downloaden.",
+      "description": "Beheer de talen die beschikbaar zijn voor de gebruikers- en beheerdersinterface."
+    },
+    "update": {
+      "changelog": "Journal van wijzigingen",
+      "title": "Bijwerken",
+      "subheading": "Controleer de laatste updates en houd uw systeem up-to-date.",
+      "update_version": "Bijwerken",
+      "local_environment": "U bent in een lokale omgeving",
+      "local_environment_message": "De update zal uw mogelijke wijzigingen overschrijven. Zorg ervoor dat u een backup heeft voordat u verder gaat.",
+      "status_title": "Status van uw versie",
+      "status_subtitle": "Controleer of er een nieuwe versie beschikbaar is.",
+      "up_to_date": "Je bent up-to-date!",
+      "up_to_date_message": "U gebruikt de nieuwste versie.",
+      "update_available": "Beschikbare update",
+      "new_version_is": "De versie {_version} is beschikbaar.",
+      "current_version": "Huidige versie",
+      "available_version": "Beschikbare versie",
+      "update_to_version": "Bijwerken naar v{_version}",
+      "whats_new_in": "Nieuwigheden van de {_version}",
+      "published_on": "Gepubliceerd op {_date}",
+      "added": "Toevoegingen",
+      "changed": "Veranderingen & Verbeteringen",
+      "error_fetching": "Kan de informatie niet ophalen",
+      "error_fetching_message": "Probeer het later opnieuw of neem contact op met de klantenservice.",
+      "beta_warning_title": "Bètafunctie",
+      "beta_warning_message": "Deze automatische updatefunctie is in bètaversie en kan problemen vertonen. Het wordt aanbevolen om updates handmatig uit te voeren volgens de documentatie.",
+      "beta_warning_link": "Bekijk de documentatie"
+    },
+    "api_keys": {
+      "title": "API-sleutels",
+      "subheading": "Beheer al uw CLIENTXCMS API-sleutels.",
+      "last_used": "Laatste gebruik",
+      "is_admin": "Administratieve toestemming",
+      "admin_help": "Beheer API-sleutels hebben toegang tot alle functies van het systeem.",
+      "create": {
+        "title": "Een API-sleutel aanmaken",
+        "subheading": "Maak een nieuwe API-sleutel voor het systeem"
+      },
+      "documentation": "Documentatie OpenAPI",
+      "rotate": "Regenereren",
+      "created": "<span>De API-sleutel is succesvol aangemaakt. API-sleutel Toepassing: \"<b><code>{_key}</code></b>\" <br/> Let op, deze zal na deze pagina niet meer worden weergegeven. Gelieve deze te kopiëren en veilig te bewaren.</span>"
     },
     "dashboard": {
       "title": "Dashboard",
+      "good_morning": "Hallo {_name}",
+      "good_afternoon": "Goede middag {_name}",
+      "good_evening": "Goedenavond {_name}",
+      "welcome": "Welkom op het administratiedashboard. Het is momenteel {_time}. Hier is een overzicht van uw systeem.",
+      "assigned_tickets": "U bent toegewezen aan de volgende tickets: {_tickets}. U kunt ze bekijken in het helpcentrum.",
       "autologin_success": "Je bent nu ingelogd als {_name}",
       "frozen": "Het systeem bevindt zich momenteel in de bevroren modus. Sommige functies zijn mogelijk uitgeschakeld. Neem contact op met de ondersteuning om uit de bevroren modus te komen.",
       "in_debug": "U bevindt zich momenteel in de foutopsporingsmodus. Er kan gevoelige informatie worden weergegeven. Schakel om veiligheidsredenen de foutopsporingsmodus uit in de algemene instellingen.",
@@ -154,12 +199,7 @@
           "title": "Classificatie van diensten",
           "renewals_avg": "Gemiddelde verlengingen"
         }
-      },
-      "good_morning": "Hallo {_name}",
-      "good_afternoon": "Goede middag {_name}",
-      "good_evening": "Goedenavond {_name}",
-      "welcome": "Welkom op het administratiedashboard. Het is momenteel {_time}. Hier is een overzicht van uw systeem.",
-      "assigned_tickets": "U bent toegewezen aan de volgende tickets: {_tickets}. U kunt ze bekijken in het helpcentrum."
+      }
     },
     "roles": {
       "is_default_help": "Deze rol is de standaardrol en kan niet worden verwijderd.",
@@ -319,10 +359,14 @@
         "email_sent": "De e-mail is succesvol verzonden",
         "send_email": "Stuur een e-mail",
         "password_reset_sent": "De e-mail voor het opnieuw instellen is succesvol verzonden",
+        "email_already_confirmed": "Het account is al bevestigd",
         "email_confirmed": "Het account is succesvol bevestigd",
         "resend_confirm": "Een bevestigingsmail opnieuw verzenden",
         "send_password": "Stuur een reset e-mail",
         "disable2fa": "Schakel tweefactorauthenticatie uit",
+        "create_invoice": "Een factuur maken",
+        "create_service": "Een dienst leveren",
+        "create_ticket": "Een ticket aanmaken",
         "confirm": "Account bevestigen",
         "title": "Klantprofiel van {_name}",
         "login_ip": "Verbinding IP",
@@ -338,6 +382,10 @@
         "passwordhelp": "Laat leeg zodat u niet verandert",
         "login": "Laatste klant logins",
         "history": "Geschiedenis van klantacties",
+        "note_added": "Notitie succesvol toegevoegd.",
+        "notes_placeholder": "Voeg een notitie toe...",
+        "no_notes": "Geen notities voor deze klant.",
+        "payment_methods": "Betaalmethoden",
         "url": {
           "confirmation": "Bevestiging URL",
           "reset": "URL's opnieuw instellen"
@@ -358,17 +406,9 @@
         "suspend_services": "De diensten van de klant opschorten",
         "unsuspend_services": "De diensten van de klant opnieuw activeren",
         "expire_services": "Verlopen Klantenservice",
+        "reset_security_question": "De beveiligingsvraag van de klant is succesvol gereset",
         "is_banned": "Deze client is verbannen op {_date} door {_username} om redenen {_reason}",
-        "is_suspended": "Deze client is op {_date} geschorst door {_username} om reden {_reason}",
-        "email_already_confirmed": "Het account is al bevestigd",
-        "create_invoice": "Een factuur maken",
-        "create_service": "Een dienst leveren",
-        "create_ticket": "Een ticket aanmaken",
-        "no_notes": "Geen notities voor deze klant.",
-        "note_added": "Notitie succesvol toegevoegd.",
-        "notes_placeholder": "Voeg een notitie toe...",
-        "payment_methods": "Betaalmethoden",
-        "reset_security_question": "De beveiligingsvraag van de klant is succesvol gereset"
+        "is_suspended": "Deze client is op {_date} geschorst door {_username} om reden {_reason}"
       },
       "create": {
         "title": "Maak een client aan",
@@ -395,12 +435,26 @@
         "cancel": "Markeren als geannuleerd",
         "fail": "Markeren als mislukt"
       },
+      "export": {
+        "btn": "Exporteur",
+        "title": "Facturen exporteren",
+        "subheading": "Exporteer de facturen in CSV-, XLSX- of PDF-formaat",
+        "format": "Formaat",
+        "date_to": "Einddatum",
+        "date_from": "Startdatum"
+      },
       "customproduct": "Product op maat",
       "invoice_number": "Factuurnummer",
       "deliveredsuccess": "Het product is succesvol afgeleverd",
+      "deliveryqueued": "De levering van het product is succesvol in de wachtrij geplaatst",
       "notified": "De klant is op de hoogte gebracht",
+      "regenerate_pdf": "PDF regenereren",
       "notify": "De klant op de hoogte stellen",
       "edit": "De factuur bewerken",
+      "deliver": "Leveren",
+      "delivered_at": "Afgeleverd op {_date}",
+      "cancelled_at": "Geannuleerd op {_date}",
+      "itemcancelled": "Het artikel is succesvol geannuleerd",
       "not_in_pending": "Deze factuur kan niet worden gewijzigd",
       "draft": {
         "add": "Een artikel toevoegen",
@@ -483,20 +537,7 @@
       "paidsuccess": "De factuur is gemarkeerd als succesvol betaald",
       "payinvoicebtn": "Debiteren",
       "payinvoicetitle": "Betaal de rekening",
-      "payinvoicedescription": "Breng kosten in rekening bij een klant om de rekening te betalen.",
-      "export": {
-        "btn": "Exporteur",
-        "title": "Facturen exporteren",
-        "subheading": "Exporteer de facturen in CSV-, XLSX- of PDF-formaat",
-        "format": "Formaat",
-        "date_to": "Einddatum",
-        "date_from": "Startdatum"
-      },
-      "deliver": "Leveren",
-      "delivered_at": "Afgeleverd op {_date}",
-      "cancelled_at": "Geannuleerd op {_date}",
-      "itemcancelled": "Het artikel is succesvol geannuleerd",
-      "deliveryqueued": "De levering van het product is succesvol in de wachtrij geplaatst"
+      "payinvoicedescription": "Breng kosten in rekening bij een klant om de rekening te betalen."
     },
     "admins": {
       "title": "Persoonlijk",
@@ -607,17 +648,17 @@
           "fields": {
             "admin_prefix": "Voorvoegsel voor beheer",
             "hash_driver": "Hash-stuurprogramma",
+            "gdrp_cookies_privacy_link": "Link naar uw privacybeleid",
             "password_timeout": "Tijd voor wachtwoordverificatie",
             "password_timeout_help": "In enkele seconden",
             "allow_registration": "Registratie toestaan",
             "auto_confirm_registration": "Automatische bevestiging van registratie",
             "allow_reset_password": "Wachtwoord opnieuw instellen toestaan",
+            "allow_plus_in_email": "Het teken \"+\" toestaan in e-mailadressen",
             "force_login_client": "Forceer de verbinding om toegang te krijgen tot het klantengedeelte",
             "banned_emails": "Verboden e-mails",
             "banned_emails_help": "Gescheiden door komma's (bijv. mailinator.com, yopmail.com, exemple@example.com)",
-            "hash_driver_help": "/!\\ De oude wachtwoorden zijn niet compatibel met het nieuwe stuurprogramma. U moet gebruikerswachtwoorden opnieuw instellen.",
-            "gdrp_cookies_privacy_link": "Link naar uw privacybeleid",
-            "allow_plus_in_email": "Het teken \"+\" toestaan in e-mailadressen"
+            "hash_driver_help": "/!\\ De oude wachtwoorden zijn niet compatibel met het nieuwe stuurprogramma. U moet gebruikerswachtwoorden opnieuw instellen."
           },
           "success": "De beveiligingsinstellingen zijn succesvol opgeslagen."
         }
@@ -638,21 +679,21 @@
             "webhookhelp": "Melding URL: {_url}",
             "payments_types": "Toegestane betaalmethoden",
             "paypal_email": "PayPal e-mailadres",
-            "access_token": "Toegangstoken",
             "location_id": "Locatie-ID",
             "merchant_code": "Handelaarscode",
             "webhook_secret": "Webhook-sleutel",
+            "access_token": "Toegangstoken",
             "api_key": "API-sleutel"
-          },
-          "success": "De gatewayconfiguratie is met succes opgeslagen.",
-          "square": {
-            "location_help": "Square Locatie-ID (te vinden in het Developer Dashboard)",
-            "webhook_help": "Handtekening om webhooks te valideren (optioneel)"
           },
           "sumup": {
             "api_key_help": "API-sleutel verkregen op developers.sumup.com",
             "merchant_help": "Handelaarscode zichtbaar in uw SumUp-dashboard"
-          }
+          },
+          "square": {
+            "location_help": "Square Locatie-ID (te vinden in het Developer Dashboard)",
+            "webhook_help": "Handtekening om webhooks te valideren (optioneel)"
+          },
+          "success": "De gatewayconfiguratie is met succes opgeslagen."
         }
       }
     },
@@ -662,19 +703,19 @@
       "subheading": "Valideer uw licentie om uw product te activeren",
       "subheading2": "Werk uw ClientXCMS-licentiegegevens en beschikbare add-ons bij.",
       "expiration": "Uw licentie verloopt op {_date}",
-      "onetime": "Levenslange licentie",
-      "extensions": "Beschikbare extensies: {_extensions}",
-      "domain": "Domein: {_domain}",
-      "last_check": "Laatst gecontroleerd {_date}",
-      "client_id": "Klant-ID",
-      "force": "Verificatie forceren",
       "support_expiration": "Uw ondersteuning verloopt op {_date}",
       "support_expired": "Uw ondersteuning is verlopen op {_date}",
       "renew_support": "Ondersteuning vernieuwen",
       "renew_license": "De licentie vernieuwen",
       "buy_support": "Ondersteuning kopen",
       "no_support": "U heeft geen actieve ondersteuning",
-      "type": "Type licentie"
+      "type": "Type licentie",
+      "onetime": "Levenslange licentie",
+      "extensions": "Beschikbare extensies: {_extensions}",
+      "domain": "Domein: {_domain}",
+      "last_check": "Laatst gecontroleerd {_date}",
+      "client_id": "Klant-ID",
+      "force": "Verificatie forceren"
     },
     "metadata": {
       "title": "Metagegevens",
@@ -696,48 +737,8 @@
     "updatedetails": "Details bijwerken",
     "backtosite": "Terug naar de website",
     "backtostore": "Terug naar de winkel",
-    "doyouwantreally": "Wil je dit echt doen? Deze actie kan problemen op het systeem veroorzaken.",
-    "api_keys": {
-      "title": "API-sleutels",
-      "subheading": "Beheer al uw CLIENTXCMS API-sleutels.",
-      "last_used": "Laatste gebruik",
-      "is_admin": "Administratieve toestemming",
-      "admin_help": "Beheer API-sleutels hebben toegang tot alle functies van het systeem.",
-      "create": {
-        "title": "Een API-sleutel aanmaken",
-        "subheading": "Maak een nieuwe API-sleutel voor het systeem"
-      },
-      "documentation": "Documentatie OpenAPI",
-      "rotate": "Regenereren",
-      "created": "<span>De API-sleutel is succesvol aangemaakt. API-sleutel Toepassing: \"<b><code>{_key}</code></b>\" <br/> Let op, deze zal na deze pagina niet meer worden weergegeven. Gelieve deze te kopiëren en veilig te bewaren.</span>"
-    },
     "doyouwantclone": "Wilt u dit element echt klonen?",
-    "update": {
-      "changelog": "Journal van wijzigingen",
-      "title": "Bijwerken",
-      "subheading": "Controleer de laatste updates en houd uw systeem up-to-date.",
-      "update_version": "Bijwerken",
-      "local_environment": "U bent in een lokale omgeving",
-      "local_environment_message": "De update zal uw mogelijke wijzigingen overschrijven. Zorg ervoor dat u een backup heeft voordat u verder gaat.",
-      "status_title": "Status van uw versie",
-      "status_subtitle": "Controleer of er een nieuwe versie beschikbaar is.",
-      "up_to_date": "Je bent up-to-date!",
-      "up_to_date_message": "U gebruikt de nieuwste versie.",
-      "update_available": "Beschikbare update",
-      "new_version_is": "De versie {_version} is beschikbaar.",
-      "current_version": "Huidige versie",
-      "available_version": "Beschikbare versie",
-      "update_to_version": "Bijwerken naar v{_version}",
-      "whats_new_in": "Nieuwigheden van de {_version}",
-      "published_on": "Gepubliceerd op {_date}",
-      "added": "Toevoegingen",
-      "changed": "Veranderingen & Verbeteringen",
-      "error_fetching": "Kan de informatie niet ophalen",
-      "error_fetching_message": "Probeer het later opnieuw of neem contact op met de klantenservice.",
-      "beta_warning_link": "Bekijk de documentatie",
-      "beta_warning_message": "Deze automatische updatefunctie is in bètaversie en kan problemen vertonen. Het wordt aanbevolen om updates handmatig uit te voeren volgens de documentatie.",
-      "beta_warning_title": "Bètafunctie"
-    }
+    "doyouwantreally": "Wil je dit echt doen? Deze actie kan problemen op het systeem veroorzaken."
   },
   "lang.fr.auth": {
     "failed": "Deze identificatiegegevens komen niet overeen met onze gegevens.",
@@ -839,6 +840,7 @@
           "minimum_days_to_force_renewal_with_upgrade": "Minimale tijd in dagen om vernieuwing te forceren met een verbetering",
           "remove_pending_invoice": "Actie op openstaande facturen na (dagen)",
           "remove_pending_invoice_help": "0 om uit te schakelen",
+          "allow_add_balance_to_invoices": "Toestaan dat het saldo aan de facturen wordt toegevoegd",
           "remove_pending_invoice_types": {
             "delete": "Verwijderen",
             "cancel": "Annuleren"
@@ -854,7 +856,6 @@
             "included": "Inbegrepen - De getoonde prijs is inclusief BTW",
             "excluded": "Exclusief - De getoonde prijs is excl. BTW"
           },
-          "allow_add_balance_to_invoices": "Toestaan dat het saldo aan de facturen wordt toegevoegd",
           "store_mode_tax": {
             "title": "Belastingmodus",
             "tax_included": "Inclusief belasting",
@@ -895,8 +896,10 @@
       "due_date": "Vervaldag",
       "paid_date": "Betaaldatum",
       "invoice_date": "Factuur datum",
+      "generated_at": "Gegenereerd op",
       "print": "Afdrukken",
       "download": "Downloaden",
+      "pay_with_balance": "Een deel van de factuur betalen met het saldo",
       "pay": "Betaal de rekening",
       "invoice_not_payable": "Deze factuur kan niet betaald worden",
       "thank": "Bedankt voor uw betaling",
@@ -912,7 +915,6 @@
         "setting_fielddescription": "Bankgegevens die op de factuur moeten worden weergegeven",
         "flash": "Gelieve de betaling over te maken op de bankrekening die op de factuur staat vermeld. Uw bestelling wordt verwerkt zodra de betaling is ontvangen."
       },
-      "pay_with_balance": "Een deel van de factuur betalen met het saldo",
       "balance": {
         "success": "Het saldo is gebruikt om de factuur te betalen.",
         "balance_addition": "Toevoegen van saldo aan de factuur",
@@ -932,6 +934,7 @@
       "index_description": "Hieronder vindt u een lijst met uw opgeslagen betaalmethoden.",
       "card": "Kaart",
       "expiration": "Afloop",
+      "payment_method_used_help": "Identificatie van de betaalmethode die is gebruikt om deze factuur te betalen. Optioneel, kan leeggelaten worden.",
       "add": "Een betaalmethode toevoegen",
       "add_description": "Voeg een nieuwe betaalmethode toe aan uw account.",
       "success": "Betaalmethode succesvol toegevoegd",
@@ -941,16 +944,15 @@
       "manage": "Beheren",
       "deleted": "Betaalmethode verwijderd",
       "add_paypal": "Een PayPal-account toevoegen",
-      "errors": {
-        "not_supported": "Deze betaalmethode wordt niet ondersteund",
-        "not_found": "Deze betaalmethode is niet gevonden"
-      },
+      "add_method": "Een methode toevoegen",
+      "add_method_with": "Een methode toevoegen met {_method}",
       "payment_method_used": "Betalingsmethode gebruikt",
       "invoices": "Facturen betaald met betaalmiddelen",
       "invoices_description": "Hieronder vindt u de lijst van de betaalde facturen met automatische incasso.",
-      "payment_method_used_help": "Identificatie van de betaalmethode die is gebruikt om deze factuur te betalen. Optioneel, kan leeggelaten worden.",
-      "add_method": "Een methode toevoegen",
-      "add_method_with": "Een methode toevoegen met {_method}"
+      "errors": {
+        "not_supported": "Deze betaalmethode wordt niet ondersteund",
+        "not_found": "Deze betaalmethode is niet gevonden"
+      }
     },
     "services": {
       "index": "Mijn diensten",
@@ -962,12 +964,14 @@
       "manageoptions": "Service opties",
       "expire_date": "Vervaldatum",
       "noservices": "Geen services gevonden",
+      "orderservice": "Heeft u nog een andere dienst nodig? Bestel het nu!",
       "startorder": "Begin met het bestellen van een dienst",
       "changename": "Servicenaam wijzigen",
       "managerenew": "Beheer de servicecyclus",
       "manageserviceonadmin": "Beheer de service vanuit de administratie",
       "dayremaining": "{_days} nog dag",
       "daysremaining": "{_days} resterende dagen",
+      "expired_at": "Verlopen op {_date}",
       "options": {
         "index": "Service opties",
         "index_description": "Hieronder vindt u de mogelijkheden voor uw service. Opties met dezelfde vervaldatum als de service worden automatisch verlengd met de service."
@@ -1005,6 +1009,7 @@
         }
       },
       "renewals": {
+        "test_auto_translation": "Dit is een machinevertalingstest voor{_name}",
         "index": "Verlenging van de dienst",
         "title": "Beheer van vernieuwing",
         "period": "Periode",
@@ -1023,27 +1028,25 @@
         "success": "Automatisch verlengen is ingeschakeld. De volgende betaling wordt gedaan op {_date}.",
         "add_payments_method": "U moet een betaalmethode toevoegen om automatische verlenging in te schakelen. U kunt dit doen vanaf de pagina met betaalmethoden <a href=\"{_url}\" class=\"text-primary\"></a>.",
         "enabled": "Automatische verlenging is ingeschakeld voor deze service. De factuur wordt automatisch gegenereerd en vervolgens betaald op {_date}.",
+        "invalid_billing_day": "De volgende factureringsdatum moet tussen de {_day} en {_now} liggen.",
+        "billing_day": "Factureringsdatum",
+        "billing_day_help": "De factureringsdag is de dag van de maand waarop de betaling zal plaatsvinden. Bijvoorbeeld, als u de 5 kiest, zal de betaling op de 5e van elke maand plaatsvinden.",
+        "billing_day_updated": "De facturering date is succesvol bijgewerkt. De volgende betaling wordt gedaan op {_date}.",
         "manage_subscriptions": {
           "index": "Beheer uw abonnementen",
           "index_description": "Hieronder vindt u de lijst van uw diensten die automatisch verlengd kunnen worden. U kunt de automatische verlenging voor elke dienst in- of uitschakelen.",
           "next_renewal": "Volgende vernieuwing"
-        },
-        "invalid_billing_day": "De volgende factureringsdatum moet tussen de {_day} en {_now} liggen.",
-        "billing_day": "Factureringsdatum",
-        "billing_day_help": "De factureringsdag is de dag van de maand waarop de betaling zal plaatsvinden. Bijvoorbeeld, als u de 5 kiest, zal de betaling op de 5e van elke maand plaatsvinden.",
-        "billing_day_updated": "De facturering date is succesvol bijgewerkt. De volgende betaling wordt gedaan op {_date}."
+        }
       },
       "upgrade": {
         "upgrade_to": "Upgraden naar {_product}",
         "upgrade_to2": "Verbetering naar {_product}",
         "index": "Verbeter de service",
         "upgradebtn": "Nu verbeteren",
+        "upgrade_notice": "Door een verbetering te accepteren, accepteert u de definitieve verhoging van de prijs van uw service en de verbetering van de prestaties ervan evenals de",
         "index_description": "Hieronder vindt u de lijst met producten die u kunt upgraden van uw huidige service.",
-        "minimum_days_to_force_renewal_with_upgrade": "De verlenging wordt toegevoegd aan de upgraderekening omdat de huidige service op het punt staat te verlopen.",
-        "upgrade_notice": "Door een verbetering te accepteren, accepteert u de definitieve verhoging van de prijs van uw service en de verbetering van de prestaties ervan evenals de"
-      },
-      "orderservice": "Heeft u nog een andere dienst nodig? Bestel het nu!",
-      "expired_at": "Verlopen op {_date}"
+        "minimum_days_to_force_renewal_with_upgrade": "De verlenging wordt toegevoegd aan de upgraderekening omdat de huidige service op het punt staat te verlopen."
+      }
     },
     "profile": {
       "index": "Mijn profiel",
@@ -1085,8 +1088,8 @@
         "invalid_password": "Het wachtwoord is onjuist.",
         "must_confirm": "U moet de verwijdering bevestigen.",
         "2fa_required": "De 2FA-code is vereist.",
-        "deleted_user_placeholder": "Verwijderde gebruiker",
-        "has_blocking_reasons": "Kan het account niet verwijderen: blokkerende redenen bestaan."
+        "has_blocking_reasons": "Kan het account niet verwijderen: blokkerende redenen bestaan.",
+        "deleted_user_placeholder": "Verwijderde gebruiker"
       },
       "security": {
         "index": "Veiligheid",
@@ -1113,6 +1116,7 @@
     "logout": "Logout",
     "alerts": {
       "servernotfound": "De server is niet gevonden",
+      "service_trial_ends_at": "De proefservice eindigt op {_date}",
       "servernotinstalled": "De server is nog niet geïnstalleerd",
       "service_suspended": "De dienst is opgeschort",
       "power_success": "De actie is succesvol uitgevoerd",
@@ -1129,19 +1133,19 @@
       "service_uncancelled": "De service is opnieuw geactiveerd",
       "vpsnotfound": "VPS is niet gevonden",
       "spam": "Spam gedetecteerd",
+      "invoice_payment_failed": "De betaling van uw factuur is mislukt",
       "account_blocked": "Uw account is geblokkeerd om de volgende reden: {_reason}. Neem contact met ons op voor meer informatie.",
       "account_suspended": "Uw account is opgeschort om de volgende reden: {_reason}. Neem contact met ons op voor meer informatie.",
       "service_name_updated": "De naam van de dienst is bijgewerkt",
       "service_billing_updated": "Factuurgegevens zijn bijgewerkt",
-      "email_must_be_verified": "Uw e-mailadres moet worden geverifieerd om toegang te krijgen tot deze pagina",
-      "service_trial_ends_at": "De proefservice eindigt op {_date}",
-      "invoice_payment_failed": "De betaling van uw factuur is mislukt"
+      "email_must_be_verified": "Uw e-mailadres moet worden geverifieerd om toegang te krijgen tot deze pagina"
     }
   },
   "lang.fr.coupon": {
     "not_found": "Coupon niet gevonden",
     "coupon_not_started": "De kortingsbon is nog niet ingegaan",
     "coupon_expired": "Kortingsbon is verlopen",
+    "coupon_not_applicable": "Deze coupon is niet van toepassing op uw winkelwagentje",
     "first_order_only": "Deze coupon is alleen geldig voor de eerste bestelling",
     "coupon_max_uses": "Deze kortingsbon heeft het maximale aantal toepassingen bereikt",
     "coupon_max_uses_per_customer": "Deze kortingsbon heeft het maximale aantal toepassingen per klant bereikt",
@@ -1182,6 +1186,7 @@
       "minimum_order_amount": "Minimaal bestelbedrag",
       "applied_month_help": "-1 voor onbeperkt, 0 alleen voor de eerste betaling. (Vb.: 3 herhalingen = eerste betaling + 3 verlengingen)",
       "code": "Code",
+      "allowed_customer": "Toegestane klant (laat leeg voor iedereen)",
       "pricelabel": "Reductie",
       "used_at": "Gebruikt op",
       "usage": "Gebruik",
@@ -1194,10 +1199,8 @@
       "create": {
         "title": "Maak een kortingsbon",
         "subheading": "Maak een nieuwe kortingsbon aan"
-      },
-      "allowed_customer": "Toegestane klant (laat leeg voor iedereen)"
-    },
-    "coupon_not_applicable": "Deze coupon is niet van toepassing op uw winkelwagentje"
+      }
+    }
   },
   "lang.fr.errors": {
     "404": {
@@ -1246,6 +1249,7 @@
       "no_installed_desc": "Ontdek onze extensiecatalogus om uw ClientXCMS te verrijken",
       "discover_extensions": "Extensies ontdekken",
       "extensions_count": "extensies",
+      "uninstall": "Verwijderen",
       "no_results": "Geen extensies voldoen aan uw zoekopdracht",
       "themes_available": "thema's beschikbaar",
       "no_themes": "Geen thema's beschikbaar",
@@ -1265,6 +1269,27 @@
       "notactivable": "Niet activeerbaar",
       "buy": "Kopen"
     },
+    "bulk": {
+      "select_all": "Alles selecteren",
+      "deselect_all": "Alles deselecteren",
+      "selected_count": ":count geselecteerd",
+      "install_selected": "Selectie installeren",
+      "enable_selected": "Selectie inschakelen",
+      "disable_selected": "Selectie uitschakelen",
+      "processing": "Verwerken...",
+      "success": "Bewerking succesvol voltooid",
+      "partial_success": ":success geslaagd, :failed mislukt"
+    },
+    "modal": {
+      "version": "Versie",
+      "author": "Auteur",
+      "price": "Prijs",
+      "buy_now": "Nu kopen",
+      "view_details": "Details bekijken",
+      "close": "Sluiten",
+      "tags": "Tags",
+      "last_update": "Laatste update"
+    },
     "onetime": "Slechts één keer",
     "monthly": "Maandelijks",
     "flash": {
@@ -1278,7 +1303,9 @@
       "cache_cleared": "De cache is gewist.",
       "enabled": "De extensie is succesvol geactiveerd.",
       "disabled": "De extensie is succesvol uitgeschakeld.",
-      "updated": "De extensie is succesvol bijgewerkt."
+      "updated": "De extensie is succesvol bijgewerkt.",
+      "uninstalled": "De extensie is succesvol verwijderd.",
+      "uninstall_must_disable_first": "De extensie moet worden uitgeschakeld voordat deze kan worden verwijderd."
     }
   },
   "lang.fr.global": {
@@ -1286,25 +1313,37 @@
     "lastname": "Naam",
     "email": "E-mail",
     "password": "Wachtwoord",
+    "by": "Door",
+    "for": "Voor",
     "locale": "Tong",
     "group": "Groep",
     "username": "Gebruikersnaam",
+    "create": "Creëren",
     "password_confirmation": "Bevestiging van het wachtwoord",
     "address": "Adres",
     "currency": "Valuta",
     "title": "Titel",
     "content": "Inhoud",
+    "clicktoupload": "Klik om een ​​bestand te uploaden",
     "address2": "Extra adres",
+    "company_name": "Naam van het bedrijf",
+    "billing_details": "Factureringdetails",
+    "billing_details_help": "Aanvullende informatie om op de facturen op te nemen",
     "city": "Stad",
     "value": "Waarde",
     "state": "Staat",
     "key": "Sleutel",
     "edit": "Modificeren",
     "url": "Naamsvermelding",
+    "used": "Gebruikt",
+    "pay": "Betaler",
+    "unknown": "Onbekend",
+    "deleted": "Verwijderd",
     "zip": "Postcode",
     "country": "Land",
     "type": "Type",
     "seemore": "Lees meer",
+    "seeless": "Minder zien",
     "region": "Regio",
     "clone": "Kloon",
     "phone": "Telefoon",
@@ -1322,11 +1361,16 @@
     "free": "Vrij",
     "month": "maand",
     "closemodal": "Sluiten",
+    "gdpr": {
+      "text": "Door deze site te gebruiken, accepteert u onze",
+      "link": "Privacybeleid"
+    },
     "year": "jaar",
     "product": "Product",
     "products": "Produceren",
     "description": "Beschrijving",
     "slug": "Naaktslak",
+    "home": "Thuis",
     "darkmode": "Donkere modus",
     "select": "Selecteren",
     "years": "Jaren",
@@ -1337,10 +1381,26 @@
     "no": "Nee",
     "searchfrom": "Zoeken vanaf",
     "actions": "Acties",
+    "action": "Actie",
+    "is_downloaded": "Gedownload",
+    "is_default": "Standaard",
+    "is_enabled": "Geactiveerd",
+    "is_disabled": "Deactiveer",
+    "download": "Downloaden",
+    "update": "Bijwerken",
+    "disable": "Deactiveren",
+    "enable": "Activeren",
+    "store": "Toevoegen",
+    "listing": "Lister",
+    "suspend": "Opschorten",
+    "unsuspend": "Heractiveer",
+    "terminate": "Eindigen",
     "view": "Om te zien",
     "show": "Verzenden",
     "hour": "Uur",
     "date": "Datum",
+    "apply": "Toepassen",
+    "restore": "Herstellen",
     "clicktoremove": "Klik om te verwijderen",
     "separebycomma": "Gescheiden door komma's",
     "week": "Week",
@@ -1375,12 +1435,18 @@
       "answered": "Beantwoord",
       "yes": "Ja",
       "no": "Nee",
-      "accepted": "Geaccepteerd",
+      "sent": "Verzonden",
       "converted": "Geconverteerd",
-      "refused": "Geweigerd",
-      "sent": "Verzonden"
+      "accepted": "Geaccepteerd",
+      "refused": "Geweigerd"
     },
+    "next": "Volgend",
+    "send": "Versturen",
     "add": "Toevoegen",
+    "users": "Gebruikers",
+    "user": "Gebruiker",
+    "expiration": "Vervaldatum",
+    "expires_at": "Verloopt het",
     "cancel": "Annuleren",
     "invoice_was_cancelled": "De factuur is zojuist geannuleerd",
     "invoice_cancelled": "De factuur is geannuleerd op {_date}",
@@ -1392,15 +1458,33 @@
     "balance": "Evenwicht",
     "sort_order": "Sorteervolgorde",
     "pinned": "Vastgemaakt",
+    "reset": "Resetten",
     "quote": "Citaat",
     "quotes": "Citaat",
     "ticket": "Kaartje",
     "tickets": "Tickets",
     "name": "Naam",
+    "server": "Server",
     "amount": "Aantal",
     "status": "Status",
     "created": "Geschapen",
     "updated": "Bijgewerkt",
+    "total": "Totaal",
+    "price": "Prijs",
+    "subtotal": "Subtotaal",
+    "tax": "Belasting",
+    "vat": "BTW",
+    "qty": "Aantal",
+    "unit": "Eenheid",
+    "fees": "Installatiekosten",
+    "unit_price": "Eenheidsprijs",
+    "recurring_price": "Terugkerende prijs",
+    "setup_price": "Installatiekosten",
+    "transaction_fee": "Transactiekosten",
+    "items": "Artikelen",
+    "due_date": "Vervaldatum",
+    "notes": "Notities",
+    "quantity": "Hoeveelheid",
     "filter": "Filter",
     "disabled": "Invalide",
     "enabled": "Geactiveerd",
@@ -1425,61 +1509,7 @@
     "none": "Geen",
     "delete": "Verwijderen",
     "already_sent": "Al verzonden",
-    "email_trouble_clicking_button": "Als u problemen ondervindt bij het klikken op de knop \"{_actionText}\", kopieert en plakt u de onderstaande URL",
-    "create": "Creëren",
-    "deleted": "Verwijderd",
-    "action": "Actie",
-    "is_downloaded": "Gedownload",
-    "is_default": "Standaard",
-    "download": "Downloaden",
-    "update": "Bijwerken",
-    "disable": "Deactiveren",
-    "enable": "Activeren",
-    "store": "Toevoegen",
-    "listing": "Lister",
-    "suspend": "Opschorten",
-    "unsuspend": "Heractiveer",
-    "terminate": "Eindigen",
-    "next": "Volgend",
-    "send": "Versturen",
-    "users": "Gebruikers",
-    "user": "Gebruiker",
-    "expiration": "Vervaldatum",
-    "expires_at": "Verloopt het",
-    "reset": "Resetten",
-    "server": "Server",
-    "is_enabled": "Geactiveerd",
-    "is_disabled": "Deactiveer",
-    "home": "Thuis",
-    "by": "Door",
-    "for": "Voor",
-    "company_name": "Naam van het bedrijf",
-    "billing_details": "Factureringdetails",
-    "billing_details_help": "Aanvullende informatie om op de facturen op te nemen",
-    "used": "Gebruikt",
-    "pay": "Betaler",
-    "seeless": "Minder zien",
-    "gdpr": {
-      "text": "Door deze site te gebruiken, accepteert u onze",
-      "link": "Privacybeleid"
-    },
-    "due_date": "Vervaldatum",
-    "fees": "Installatiekosten",
-    "items": "Artikelen",
-    "notes": "Notities",
-    "price": "Prijs",
-    "qty": "Aantal",
-    "quantity": "Hoeveelheid",
-    "recurring_price": "Terugkerende prijs",
-    "setup_price": "Installatiekosten",
-    "subtotal": "Subtotaal",
-    "tax": "Belasting",
-    "total": "Totaal",
-    "transaction_fee": "Transactiekosten",
-    "unit": "Eenheid",
-    "unit_price": "Eenheidsprijs",
-    "unknown": "Onbekend",
-    "vat": "BTW"
+    "email_trouble_clicking_button": "Als u problemen ondervindt bij het klikken op de knop \"{_actionText}\", kopieert en plakt u de onderstaande URL"
   },
   "lang.fr.helpdesk": {
     "subject": "Onderwerp",
@@ -1496,17 +1526,25 @@
       "index_description": "Hieronder vindt u een lijst met uw ondersteuningstickets.",
       "attachments_help": "Maximale grootte {_size} MB. Toegestane bestandstypen: {_types}",
       "ticket_reopen_days": "U kunt het ticket niet heropenen. U kunt een nieuwe openen.",
+      "ticket_closed_by": "Gesloten door {_name}",
+      "ticket_auto_close": "Het ticket is automatisch gesloten na {_days} dagen",
       "ticket_closed": "Het ticket is gesloten",
       "ticket_reopened": "Het ticket is heropend",
       "ticket_replied": "Uw antwoord is verzonden",
+      "message_updated": "Het bericht is bijgewerkt",
+      "ticket_message_deleted": "Het bericht is verwijderd",
       "show": {
+        "close_reason": "Reden voor de sluiting",
         "replybystaff": "Antwoord van {_app}",
         "messagebystaff": "Bericht van {_app}",
         "replybycustomer1": "Jouw antwoord",
         "replybycustomer2": "Antwoord van de klant",
         "your_demand": "Uw aanvraag",
+        "assigned_to": "Toegewezen aan",
         "reply": "Antwoorden",
         "replyandclose": "Antwoorden en sluiten",
+        "edit_message": "Bericht wijzigen",
+        "edited_at": "Bericht gewijzigd op {_date}",
         "close": "Sluiten",
         "customer_demand": "Vraag van de klant",
         "reopen": "Heropenen",
@@ -1516,12 +1554,8 @@
         "closed": "Dit ticket is gesloten. Je kunt niet antwoorden. Als je hulp nodig hebt, open dan een nieuw ticket of heropen dit ticket.",
         "replyinticket": "Reageer op het ticket",
         "closed2": "Dit ticket is gesloten om de volgende reden: {_reason}. U kunt niet antwoorden.",
-        "index_description": "Hieronder vindt u de details van het ondersteuningsticket.",
-        "close_reason": "Reden voor de sluiting",
-        "assigned_to": "Toegewezen aan",
-        "edit_message": "Bericht wijzigen",
-        "edited_at": "Bericht gewijzigd op {_date}",
         "closed3": "Dit ticket is gesloten. U kunt niet antwoorden.",
+        "index_description": "Hieronder vindt u de details van het ondersteuningsticket.",
         "comments": {
           "title": "Opmerkingen",
           "add": "Een opmerking toevoegen",
@@ -1539,16 +1573,22 @@
         "send": "Verzenden",
         "relatednone": "Geen",
         "messagehelp": "Geef zoveel mogelijk details om ons te helpen uw probleem op te lossen."
-      },
-      "ticket_closed_by": "Gesloten door {_name}",
-      "ticket_auto_close": "Het ticket is automatisch gesloten na {_days} dagen",
-      "message_updated": "Het bericht is bijgewerkt",
-      "ticket_message_deleted": "Het bericht is verwijderd"
+      }
     },
     "admin": {
       "title": "Helpcentrum",
       "description": "Het helpcentrum instellen en supporttickets beheren",
       "open_tickets": "Open kaarten",
+      "create_ticket": "Een aanvraag indienen",
+      "widgets": {
+        "pending_tickets": "Wachtende verzoeken",
+        "active_tickets": "Verzoeken in behandeling",
+        "total_tickets": "Totaal aantal aanvragen",
+        "tickets_last_week": "Tickets van vorige week",
+        "avg_reply_time": "Gemiddelde reactietijd",
+        "messages_sent": "Verzonden berichten",
+        "avg_resolution_time": "Gemiddelde oplosduur"
+      },
       "settings": {
         "title": "Instellingen Helpcentrum",
         "success": "De instellingen van het Helpcentrum zijn opgeslagen.",
@@ -1567,15 +1607,6 @@
         }
       },
       "tickets": {
-        "pending_title": "Tickets in afwachting",
-        "last_update": "Laatst bijgewerkt",
-        "subheading": "Hier is de lijst met alle tickets in het systeem",
-        "edit": "Ticket bewerken",
-        "customer_not_found": "Klant is niet gevonden",
-        "create": {
-          "title": "Maak een ticket aan",
-          "subheading": "Een nieuw ticket maken voor een klant"
-        },
         "graphs": "Grafiek van de tickets",
         "closed_tickets": "Gesloten aanvragen",
         "analytics": "Analyse van de tickets",
@@ -1584,10 +1615,19 @@
         "tickets_active_description": "Hier is de lijst van alle tickets in afwachting van uw reactie",
         "tickets_to_reply_description": "Hier is de lijst van alle tickets die wachten op een reactie van de klant.",
         "tickets_to_reply": "Verzoek wachten op antwoord",
+        "pending_title": "Tickets in afwachting",
+        "last_update": "Laatst bijgewerkt",
         "last_reply": "Laatste antwoord",
         "no_department_stats": "Geen afdeling momenteel gevonden.",
         "staff_message_counts": "Aantal berichten per personeelslid",
-        "no_staff_stats": "Momenteel geen personeel gevonden."
+        "no_staff_stats": "Momenteel geen personeel gevonden.",
+        "subheading": "Hier is de lijst met alle tickets in het systeem",
+        "edit": "Ticket bewerken",
+        "customer_not_found": "Klant is niet gevonden",
+        "create": {
+          "title": "Maak een ticket aan",
+          "subheading": "Een nieuw ticket maken voor een klant"
+        }
       },
       "departments": {
         "title": "Ondersteunende afdelingen",
@@ -1602,16 +1642,6 @@
           "title": "Departementsblad {_name}",
           "subheading": "Hier is de informatie met betrekking tot deze afdeling gemaakt op {_date}"
         }
-      },
-      "create_ticket": "Een aanvraag indienen",
-      "widgets": {
-        "pending_tickets": "Wachtende verzoeken",
-        "active_tickets": "Verzoeken in behandeling",
-        "total_tickets": "Totaal aantal aanvragen",
-        "tickets_last_week": "Tickets van vorige week",
-        "avg_reply_time": "Gemiddelde reactietijd",
-        "messages_sent": "Verzonden berichten",
-        "avg_resolution_time": "Gemiddelde oplosduur"
       }
     }
   },
@@ -1748,6 +1778,7 @@
     "show_metadata": "Metagegevens bekijken",
     "manage_invoices": "Facturen beheren",
     "show_invoices": "Facturen bekijken",
+    "export_invoices": "Facturen exporteren",
     "create_invoices": "Facturen maken",
     "show_services": "Bekijk diensten",
     "deliver_services": "Diensten leveren",
@@ -1758,11 +1789,13 @@
     "manage_database": "Beheer de database",
     "show_payment_methods": "Betaalmethoden bekijken",
     "manage_services": "Services beheren",
-    "create_tickets": "Tickets aanmaken",
     "show_tickets": "Bekijk tickets",
     "reply_tickets": "Reageer op tickets",
+    "create_tickets": "Tickets aanmaken",
     "close_tickets": "Tickets sluiten",
+    "show_helpdesk_analytics": "Bekijk de statistieken van het helpcentrum",
     "manage_tickets": "Tickets beheren",
+    "manage_tickets_department": "Beheer alleen de tickets van de afdeling {_name}",
     "manage_departments": "Beheer afdelingen",
     "manage_products": "Producten beheren",
     "manage_groups": "Groepen beheren",
@@ -1770,21 +1803,59 @@
     "manage_servers": "Servers beheren",
     "manage_personalization": "Aanpassingen beheren",
     "staff_permissions": "Machtigingen van het personeel",
-    "show_helpdesk_analytics": "Bekijk de statistieken van het helpcentrum",
-    "manage_tickets_department": "Beheer alleen de tickets van de afdeling {_name}",
     "manage_api_keys": "Beheren van API-sleutels",
-    "export_invoices": "Facturen exporteren",
     "manage_subdomains_hosts": "Beheren van de host-subdomeinen",
     "manage_update": "CLIENTXCMS bijwerken",
     "manage_backups": "Back-ups beheren"
   },
   "lang.fr.personalization": {
     "title": "Aanpassing",
+    "themename": "Thema naam",
+    "icon_help": "Bekijk de lijst met pictogrammen op icons.getbootstrap.com",
+    "custom_menu": {
+      "title": "Aangepaste links"
+    },
+    "menu_links": {
+      "title": "Menu links",
+      "description": "Pas de links van de klantenruimte menu's aan te passen",
+      "icon_help2": "Je kunt een URL van een afbeelding in plaats van een pictogram plaatsen.",
+      "allowed_role": "Toegestane rol",
+      "link_type": "Typ de link",
+      "new_tab": "Nieuw tabblad",
+      "link": "Link",
+      "dropdown": "Dropdown menu",
+      "parent": "Ouder",
+      "unsaved_changes": "Niet-opgeslagen wijzigingen",
+      "bulk_saved": "Menu succesvol opgeslagen.",
+      "validation_error": "Corrigeer de validatiefouten voordat u opslaat.",
+      "save_error": "Er is een fout opgetreden bij het opslaan.",
+      "add_child": "Kind toevoegen",
+      "children": "Kinderen",
+      "full_edit": "Details",
+      "max_depth": "Maximale diepte bereikt",
+      "empty_state": "Geen menu-items. Klik op de knop hieronder om er een toe te voegen.",
+      "translating": "Vertaling in uitvoering",
+      "translation_note": "Vertalingen worden opgeslagen wanneer alle menu-items zijn opgeslagen.",
+      "allowed_roles": {
+        "all": "Iedereen",
+        "logged": "Verbonden",
+        "customer": "Cliënt met een dienst",
+        "staff": "Personeel"
+      },
+      "link_types": {
+        "new_tab": "Nieuw tabblad",
+        "link": "Schakel",
+        "dropdown": "Dropdown menu"
+      },
+      "bottom_menu": {
+        "footer_settings": "Footer instellingen"
+      }
+    },
     "icon": "Bootstrap-pictogram",
+    "addelement": "Een element toevoegen",
     "demo": "Demo",
     "useful": "Nuttige informatie",
     "badge": "Insigne",
-    "icon_help": "Bekijk de lijst met pictogrammen op icons.getbootstrap.com",
     "email_templates": {
       "title": "E-mail sjablonen",
       "description": "Pas automatisch verzonden e-mailsjablonen aan voor meldingen en bevestigingen.",
@@ -1899,6 +1970,7 @@
       "restoresuccess": "De sectie is met succes gerestaureerd.",
       "restore": "Herstellen",
       "title": "Secties",
+      "empty": "Geen sectie gevonden voor deze pagina.<br/> U kunt er een importeren vanuit het thema hieronder.",
       "errors": {
         "notfound": "Sectie niet gevonden",
         "advanced_personalization": "Schakel de module Geavanceerde aanpassing in om toegang te krijgen tot dit gedeelte",
@@ -1909,8 +1981,13 @@
       "content": "Inhoud",
       "show": {
         "title": "Een sectie bewerken",
-        "subheading": "U kunt de inhoud van uw sectie naar wens bewerken",
-        "protected_content": "Dit gedeelte is beveiligd en kan niet worden gewijzigd."
+        "protected_content": "Dit gedeelte is beveiligd en kan niet worden gewijzigd.",
+        "subheading": "U kunt de inhoud van uw sectie naar wens bewerken"
+      },
+      "config": {
+        "btn": "Sectie configureren",
+        "title": "Sectie configuratie",
+        "subheading": "U kunt de inhoud van uw sectie naar wens aanpassen"
       },
       "fields": {
         "url": "Sectie Pagina",
@@ -1926,12 +2003,11 @@
         "page_store": "Winkel",
         "title": "Bladzijde",
         "subheading": "Hier is de lijst met secties voor deze pagina",
+        "description": "Beheer de secties voor de pagina {_name}",
         "page_group": "{_name} groepspagina",
         "page_checkout": "Afrekenen pagina",
-        "page_basket": "Winkelwagen Pagina",
-        "description": "Beheer de secties voor de pagina {_name}"
-      },
-      "empty": "Geen sectie gevonden voor deze pagina.<br/> U kunt er een importeren vanuit het thema hieronder."
+        "page_basket": "Winkelwagen Pagina"
+      }
     },
     "home": {
       "title": "Hoofdpagina",
@@ -1951,6 +2027,9 @@
     "theme": {
       "title": "Thema instellingen",
       "description": "Activeer en configureer een visueel thema om de esthetiek en het uiterlijk van uw klantenzone te verbeteren.",
+      "info": "U kunt nu uw thema kiezen onder extensies > thema's. <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Klik hier om toegang te krijgen</a>.",
+      "current_theme": "Huidig onderwerp",
+      "themename": "Themanaam",
       "fields": {
         "theme_footer_description": "Beschrijving voettekst",
         "theme_footer_description_help": "HTML-ondersteuning",
@@ -1962,40 +2041,12 @@
           "dark": "Donker",
           "both": "Beide"
         }
-      },
-      "info": "U kunt nu uw thema kiezen onder extensies > thema's. <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Klik hier om toegang te krijgen</a>.",
-      "current_theme": "Huidig onderwerp"
-    },
-    "menu_links": {
-      "title": "Menu links",
-      "description": "Pas de links van de klantenruimte menu's aan te passen",
-      "icon_help2": "Je kunt een URL van een afbeelding in plaats van een pictogram plaatsen.",
-      "allowed_role": "Toegestane rol",
-      "link_type": "Typ de link",
-      "new_tab": "Nieuw tabblad",
-      "link": "Link",
-      "dropdown": "Dropdown menu",
-      "parent": "Ouder",
-      "allowed_roles": {
-        "all": "Iedereen",
-        "logged": "Verbonden",
-        "customer": "Cliënt met een dienst",
-        "staff": "Personeel"
-      },
-      "link_types": {
-        "new_tab": "Nieuw tabblad",
-        "link": "Schakel",
-        "dropdown": "Dropdown menu"
       }
-    },
-    "addelement": "Een element toevoegen",
-    "themename": "Thema naam",
-    "custom_menu": {
-      "title": "Aangepaste links"
     }
   },
   "lang.fr.provisioning": {
     "disk": "Schijf",
+    "disks": "Schijven",
     "in_gb": "Waarde in GB",
     "in_mb": "Waarde in MB",
     "network_speed": "Netwerk snelheid",
@@ -2024,6 +2075,7 @@
     "port_range": "Bereik van de haven",
     "port_range_help": "Bijvoorbeeld: 30100-30200 voor FiveM",
     "eggs": "Spel Eieren",
+    "eggs_help": "Als je het spel ei dat je wilt niet kunt vinden, kun je de cache in je extensies leegmaken.",
     "location": "Plaats",
     "servers": "Geautoriseerde servers",
     "server": "Server",
@@ -2044,6 +2096,7 @@
     "sites": "Geautoriseerde sites",
     "subftp_users": "Extra FTP-gebruikers",
     "autologin": "Automatische verbinding",
+    "autologin_admin": "Automatische verbinding als administrator",
     "see_website": "Bezoek de website",
     "ftp_login": "FTP-ID",
     "ftp_password": "FTP-wachtwoord",
@@ -2055,6 +2108,7 @@
     "active_services": "Actieve diensten",
     "domains": "Gebieden",
     "clients": "Klanten",
+    "doyouwantreallyreinstallvps": "Wilt u deze server echt opnieuw installeren?",
     "website_info": "Website Informatie",
     "product_not_configured": "Het product is nog niet geconfigureerd. Configureer het product vanuit de beheerdersinterface.",
     "planname_help": "U kunt de naam van het hostingpakket configureren in het paneel {_plateform}",
@@ -2064,6 +2118,14 @@
       "stopped": "Uitgestorven",
       "starting": "Slag",
       "stopping": "Shutdown bezig"
+    },
+    "cancellation": {
+      "rule_label": "Annuleringsregel",
+      "mode_immediate": "Sta onmiddellijke annulering toe",
+      "mode_support_ticket": "Omleiding naar het maken van een supportticket",
+      "mode_after_expiration": "Sta annulering toe nadat de service is verlopen",
+      "requires_ticket": "Voor deze annuleringsreden is het openen van een supportticket vereist.",
+      "after_expiration_only": "Deze annulering is pas toegestaan ​​na het verstrijken van de dienst."
     },
     "config_option": "Configuratie optie",
     "admin": {
@@ -2086,8 +2148,35 @@
             "allow_cancellation": "Klanten toestaan een annulering aan te vragen",
             "allow_cancellation_help": "Indien uitgeschakeld, is de annuleringspagina niet zichtbaar aan de klantzijde.",
             "cancellation_lock_days": "Aantal dagen na activering voordat annulering mogelijk is",
-            "cancellation_lock_days_help": "Tijdens deze periode blijft het annuleringsformulier verborgen, zelfs als de optie is ingeschakeld."
+            "cancellation_lock_days_help": "Tijdens deze periode blijft het annuleringsformulier verborgen, zelfs als de optie is ingeschakeld.",
+            "lifecycle_title": "Uitadem- en opschortingscyclus",
+            "suspend_after_unpaid_days": "Automatische opschorting na onbetaalde factuur (D+)",
+            "renewal_grace_days": "Verlengingsperiode met herinneringen (dagen)"
           }
+        }
+      },
+      "servers": {
+        "testconnection": {
+          "title": "Test de verbinding",
+          "button": "Controleren",
+          "data": "Geretourneerde gegevens",
+          "statuscode": "Statuscode"
+        },
+        "title": "Servers",
+        "subheading": "Bekijk een lijst met geconfigureerde servers, bekijk hun details en beheer hun status en verbindingsinformatie om een optimale werking te garanderen.",
+        "hostname": "Hostnaam",
+        "address": "IP-adres",
+        "port": "Poort",
+        "type": "Server Type",
+        "show": {
+          "title": "Server Blad {_name}",
+          "subheading": "Hier is de informatie met betrekking tot deze server gemaakt op {_date}"
+        },
+        "create": {
+          "title": "Een server maken",
+          "enable_extension": "Een extensie inschakelen",
+          "enable_extension_help": "U moet een extensie inschakelen om een server te maken. U kunt bijvoorbeeld Pterodactyl, Plesk, Proxmox of Virtualizor kiezen, afhankelijk van uw gebruik.",
+          "subheading": "Maak een nieuwe server om deze met het systeem te verbinden"
         }
       },
       "cancellation_reasons": {
@@ -2118,62 +2207,6 @@
         "title": "Annuleringsstatistieken",
         "subheading": "Annuleringstendensen analyseren"
       },
-      "cancellation_requests": {
-        "title": "Annuleringsaanvragen",
-        "subheading": "Volg en verwerk annuleringsaanvragen ingediend door uw klanten.",
-        "service": "Service",
-        "customer": "Klant",
-        "mode": "Modus",
-        "status": "Status",
-        "requested_at": "Aangevraagd op",
-        "execute_at": "Uitgevoerd op",
-        "reason": "Reden",
-        "message": "Klantbericht",
-        "handler": "Verwerkt door",
-        "empty": "Geen annuleringsaanvragen gevonden.",
-        "modes": {
-          "now": "Onmiddellijk",
-          "end_of_period": "Einde van de periode"
-        },
-        "actions": {
-          "approve": "Aanvraag bevestigen",
-          "reject": "Aanvraag annuleren"
-        },
-        "flash": {
-          "approved": "De annuleringsaanvraag is goedgekeurd.",
-          "rejected": "De annuleringsaanvraag is geannuleerd.",
-          "not_actionable": "Deze aanvraag is al verwerkt."
-        },
-        "show": {
-          "title": "Aanvraag nr. {_id}",
-          "subheading": "Volledige details van de annuleringsaanvraag van de klant."
-        },
-        "no_actions": "Geen actie mogelijk voor deze aanvraag."
-      },
-      "servers": {
-        "testconnection": {
-          "title": "Test de verbinding",
-          "button": "Controleren",
-          "data": "Geretourneerde gegevens",
-          "statuscode": "Statuscode"
-        },
-        "title": "Servers",
-        "subheading": "Bekijk een lijst met geconfigureerde servers, bekijk hun details en beheer hun status en verbindingsinformatie om een optimale werking te garanderen.",
-        "hostname": "Hostnaam",
-        "address": "IP-adres",
-        "port": "Poort",
-        "type": "Server Type",
-        "show": {
-          "title": "Server Blad {_name}",
-          "subheading": "Hier is de informatie met betrekking tot deze server gemaakt op {_date}"
-        },
-        "create": {
-          "title": "Een server maken",
-          "subheading": "Maak een nieuwe server om deze met het systeem te verbinden",
-          "enable_extension": "Een extensie inschakelen",
-          "enable_extension_help": "U moet een extensie inschakelen om een server te maken. U kunt bijvoorbeeld Pterodactyl, Plesk, Proxmox of Virtualizor kiezen, afhankelijk van uw gebruik."
-        }
-      },
       "services": {
         "no_gateway": "Er is geen betalingsgateway ingesteld voor deze service",
         "invoice_not_found": "De factuur is niet gevonden",
@@ -2183,34 +2216,39 @@
         "title": "Diensten",
         "add_days": "Dagen toevoegen",
         "sub_days": "Dagen aftrekken",
+        "tab_not_found": "Kan het tabblad niet vinden",
         "add_days_question": "Hoeveel dagen wil je toevoegen?",
         "sub_days_question": "Hoeveel dagen wil je aftrekken?",
         "invalid_product_type": "Ongeldig servicetype. U hebt een product van het type {_product} aangevraagd en een type {_type} geselecteerd. Kies a.u.b. hetzelfde type.",
         "expired": "Deze service is verlopen of beëindigd.",
         "delete_failed": "Kan de service op de server niet verwijderen: {_error}",
         "imported": "Succesvol geïmporteerde service",
+        "pricing_custom": "De prijs moet handmatig worden ingesteld voor deze service. U kunt deze later wijzigen.",
+        "pricing_custom2": "De prijs is handmatig ingesteld voor deze service. Dit stelt in staat om wel of niet factureringscycli toe te staan.",
+        "resync": "Her-synchroniseren met het product",
+        "pricing_synchronized": "De prijs van de dienst is gesynchroniseerd met de prijs van het product. U kunt deze aanpassen als u dat wilt voor deze dienst alleen.",
         "create": {
           "nothingtoshow": "Er is op dit moment geen serviceconfiguratie beschikbaar. U kunt de service maken",
           "title": "Een dienst maken",
           "subheading": "Maak een nieuwe service of importeer een bestaande",
+          "importbtn": "Importeur",
           "choose": "Kies een bestaande accommodatie",
           "import": "<u> OF </u>&nbsp; Importeer een service",
           "new": "Maak een nieuwe service",
-          "created": "De service is succesvol gemaakt",
-          "importbtn": "Importeur"
+          "created": "De service is succesvol gemaakt"
         },
         "show": {
           "customerbtn": "Klantenbestand",
           "type": "Soort dienst",
           "notes": "Service opmerkingen",
+          "description_help": "U kunt een beschrijving voor deze service toevoegen. Deze zal zichtbaar zijn voor de klant in zijn ruimte.",
+          "notes_help": "U kunt een opmerking toevoegen voor deze service. Deze zal niet zichtbaar zijn voor de klant.",
           "title": "Onderhoudsfiche {_name}",
           "max_renewals": "Maximale verlengingen",
           "subheading": "Hier is de informatie met betrekking tot de {_owner}-service die op {_date} is gemaakt",
           "panel": {
             "title": "Beheer Paneel"
-          },
-          "description_help": "U kunt een beschrijving voor deze service toevoegen. Deze zal zichtbaar zijn voor de klant in zijn ruimte.",
-          "notes_help": "U kunt een opmerking toevoegen voor deze service. Deze zal niet zichtbaar zijn voor de klant."
+          }
         },
         "subheading": "Hier is de lijst met alle services in het systeem",
         "renewals": {
@@ -2241,9 +2279,9 @@
           "btn": "Het leveren van de service",
           "btn2": "De service opnieuw leveren",
           "success": "De service is succesvol opgeleverd",
+          "in_queue": "De levering van de service staat al in de wachtrij",
           "reinstall": "De service wordt opnieuw geleverd",
-          "not_pending": "De service wacht niet op levering",
-          "in_queue": "De levering van de service staat al in de wachtrij"
+          "not_pending": "De service wacht niet op levering"
         },
         "suspend": {
           "btn": "Hangen",
@@ -2280,12 +2318,39 @@
         },
         "uncancel": {
           "success": "De service is met succes hersteld"
+        }
+      },
+      "cancellation_requests": {
+        "title": "Annuleringsaanvragen",
+        "subheading": "Volg en verwerk annuleringsaanvragen ingediend door uw klanten.",
+        "service": "Service",
+        "customer": "Klant",
+        "mode": "Modus",
+        "status": "Status",
+        "requested_at": "Aangevraagd op",
+        "execute_at": "Uitgevoerd op",
+        "reason": "Reden",
+        "message": "Klantbericht",
+        "handler": "Verwerkt door",
+        "empty": "Geen annuleringsaanvragen gevonden.",
+        "modes": {
+          "now": "Onmiddellijk",
+          "end_of_period": "Einde van de periode"
         },
-        "pricing_custom": "De prijs moet handmatig worden ingesteld voor deze service. U kunt deze later wijzigen.",
-        "pricing_custom2": "De prijs is handmatig ingesteld voor deze service. Dit stelt in staat om wel of niet factureringscycli toe te staan.",
-        "resync": "Her-synchroniseren met het product",
-        "pricing_synchronized": "De prijs van de dienst is gesynchroniseerd met de prijs van het product. U kunt deze aanpassen als u dat wilt voor deze dienst alleen.",
-        "tab_not_found": "Kan het tabblad niet vinden"
+        "actions": {
+          "approve": "Aanvraag bevestigen",
+          "reject": "Aanvraag annuleren"
+        },
+        "flash": {
+          "approved": "De annuleringsaanvraag is goedgekeurd.",
+          "rejected": "De annuleringsaanvraag is geannuleerd.",
+          "not_actionable": "Deze aanvraag is al verwerkt."
+        },
+        "show": {
+          "title": "Aanvraag nr. {_id}",
+          "subheading": "Volledige details van de annuleringsaanvraag van de klant."
+        },
+        "no_actions": "Geen actie mogelijk voor deze aanvraag."
       },
       "subdomains_hosts": {
         "title": "Subdomeinen",
@@ -2330,6 +2395,7 @@
         "option_added": "De optie is succesvol toegevoegd",
         "option_last": "U kunt de laatste optie niet verwijderen",
         "per_unit": "Prijzen zijn per {_unit}",
+        "cannot_delete_in_use": "Het is niet mogelijk om deze configuratie-optie te verwijderen omdat deze wordt gebruikt door een of meerdere diensten.",
         "per_step": "Prijzen zijn per {_step} {_unit}",
         "show": {
           "title": "Configuratie-optie kaart {_name}",
@@ -2379,14 +2445,9 @@
           "additional_io": "Aanvullende I/O",
           "additional_allocations": "Aanvullende vergoedingen",
           "custom": "Gewoonte"
-        },
-        "cannot_delete_in_use": "Het is niet mogelijk om deze configuratie-optie te verwijderen omdat deze wordt gebruikt door een of meerdere diensten."
+        }
       }
-    },
-    "autologin_admin": "Automatische verbinding als administrator",
-    "doyouwantreallyreinstallvps": "Wilt u deze server echt opnieuw installeren?",
-    "disks": "Schijven",
-    "eggs_help": "Als je het spel ei dat je wilt niet kunt vinden, kun je de cache in je extensies leegmaken."
+    }
   },
   "lang.fr.recurring": {
     "onetime": "Levenslang",
@@ -2407,8 +2468,10 @@
   "lang.fr.store": {
     "basket": {
       "title": "Mand",
+      "subtitle": "Hier vindt u een overzicht van de producten en opties die aan uw winkelmandje zijn toegevoegd",
       "empty": "Uw winkelwagen is leeg",
       "total": "Totaal",
+      "show": "Bekijk de winkelwagen",
       "checkout": "Bevelen",
       "continue": "Ga verder met winkelen",
       "remove": "Verwijderen",
@@ -2431,8 +2494,7 @@
       "removed": "Dit product is uit uw winkelwagen verwijderd",
       "added": "Dit product is toegevoegd aan uw winkelwagen",
       "quantity_changed": "Aantal is gewijzigd",
-      "already_ordered": "U heeft al een {_product} service besteld",
-      "show": "Bekijk de winkelwagen"
+      "already_ordered": "U heeft al een {_product} service besteld"
     },
     "checkout": {
       "title": "Bevelen",
@@ -2478,6 +2540,7 @@
     "from_price": "Van {_price} {_currency}",
     "taxes": "Belastingen",
     "total": "Totaal",
+    "total_topay": "Totaal te betalen",
     "price": "Prijs",
     "fees": "Installatiekosten",
     "unit": "Eenheid",
@@ -2491,8 +2554,7 @@
     "ht": "HT",
     "our_offers": "Onze aanbiedingen",
     "ttc": "TTC",
-    "transaction_fee": "Transactiekosten",
-    "total_topay": "Totaal te betalen"
+    "transaction_fee": "Transactiekosten"
   },
   "lang.fr.validation": {
     "accepted": "Het veld {_attribute} moet worden geaccepteerd.",
@@ -2734,124 +2796,16 @@
       "title": "Reageren op een ticket",
       "description": "Een ticket is beantwoord"
     },
+    "ticket_closed": {
+      "title": "Sluiting van een ticket",
+      "description": "Een ticket is zojuist gesloten"
+    },
     "ticket_staff": {
       "title": "Reageren op een ticket door het personeel"
     },
     "upgrade": {
       "title": "Service upgraded",
       "description": "Een dienst is geüpgraded"
-    },
-    "ticket_closed": {
-      "title": "Sluiting van een ticket",
-      "description": "Een ticket is zojuist gesloten"
-    }
-  },
-  "lang": {
-    "fr": {
-      "admin": {
-        "invoices": {
-          "regenerate_pdf": "PDF regenereren"
-        }
-      },
-      "client": {
-        "invoices": {
-          "generated_at": "Gegenereerd op"
-        },
-        "services": {
-          "renewals": {
-            "test_auto_translation": "Dit is een machinevertalingstest voor{_name}"
-          }
-        }
-      },
-      "extensions": {
-        "settings": {
-          "uninstall": "Verwijderen"
-        },
-        "flash": {
-          "uninstalled": "De extensie is succesvol verwijderd.",
-          "uninstall_must_disable_first": "De extensie moet worden uitgeschakeld voordat deze kan worden verwijderd."
-        },
-        "bulk": {
-          "select_all": "Alles selecteren",
-          "deselect_all": "Alles deselecteren",
-          "selected_count": ":count geselecteerd",
-          "install_selected": "Selectie installeren",
-          "enable_selected": "Selectie inschakelen",
-          "disable_selected": "Selectie uitschakelen",
-          "processing": "Verwerken...",
-          "success": "Bewerking succesvol voltooid",
-          "partial_success": ":success geslaagd, :failed mislukt"
-        },
-        "modal": {
-          "version": "Versie",
-          "author": "Auteur",
-          "price": "Prijs",
-          "buy_now": "Nu kopen",
-          "view_details": "Details bekijken",
-          "close": "Sluiten",
-          "tags": "Tags",
-          "last_update": "Laatste update"
-        }
-      },
-      "global": {
-        "apply": "Toepassen",
-        "restore": "Herstellen",
-        "clicktoupload": "Klik om een ​​bestand te uploaden"
-      },
-      "personalization": {
-        "menu_links": {
-          "unsaved_changes": "Niet-opgeslagen wijzigingen",
-          "bulk_saved": "Menu succesvol opgeslagen.",
-          "validation_error": "Corrigeer de validatiefouten voordat u opslaat.",
-          "save_error": "Er is een fout opgetreden bij het opslaan.",
-          "add_child": "Kind toevoegen",
-          "children": "Kinderen",
-          "full_edit": "Details",
-          "max_depth": "Maximale diepte bereikt",
-          "empty_state": "Geen menu-items. Klik op de knop hieronder om er een toe te voegen.",
-          "translating": "Vertaling in uitvoering",
-          "translation_note": "Vertalingen worden opgeslagen wanneer alle menu-items zijn opgeslagen.",
-          "bottom_menu": {
-            "footer_settings": "Footer instellingen"
-          }
-        },
-        "sections": {
-          "config": {
-            "btn": "Sectie configureren",
-            "title": "Sectie configuratie",
-            "subheading": "U kunt de inhoud van uw sectie naar wens aanpassen"
-          }
-        },
-        "theme": {
-          "themename": "Themanaam"
-        }
-      },
-      "store": {
-        "basket": {
-          "subtitle": "Hier vindt u een overzicht van de producten en opties die aan uw winkelmandje zijn toegevoegd"
-        }
-      },
-      "provisioning": {
-        "cancellation": {
-          "rule_label": "Annuleringsregel",
-          "mode_immediate": "Sta onmiddellijke annulering toe",
-          "mode_support_ticket": "Omleiding naar het maken van een supportticket",
-          "mode_after_expiration": "Sta annulering toe nadat de service is verlopen",
-          "requires_ticket": "Voor deze annuleringsreden is het openen van een supportticket vereist.",
-          "after_expiration_only": "Deze annulering is pas toegestaan ​​na het verstrijken van de dienst."
-        },
-        "admin": {
-          "settings": {
-            "services": {
-              "fields": {
-                "lifecycle_title": "Uitadem- en opschortingscyclus",
-                "suspend_after_unpaid_days": "Automatische opschorting na onbetaalde factuur (D+)",
-                "renewal_grace_days": "Verlengingsperiode met herinneringen (dagen)"
-              }
-            }
-          }
-        }
-      }
     }
   }
 }
