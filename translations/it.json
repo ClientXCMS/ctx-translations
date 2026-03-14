@@ -2830,6 +2830,27 @@
         "basket": {
           "subtitle": "Ecco il riepilogo dei prodotti e delle opzioni aggiunti al carrello"
         }
+      },
+      "provisioning": {
+        "cancellation": {
+          "rule_label": "Regola di cancellazione",
+          "mode_immediate": "Consenti la cancellazione immediata",
+          "mode_support_ticket": "Reindirizzamento alla creazione di un ticket di supporto",
+          "mode_after_expiration": "Consenti la cancellazione dopo la scadenza del servizio",
+          "requires_ticket": "Questo motivo di annullamento richiede l'apertura di un ticket di supporto.",
+          "after_expiration_only": "Tale cancellazione sarà autorizzata solo dopo la scadenza del servizio."
+        },
+        "admin": {
+          "settings": {
+            "services": {
+              "fields": {
+                "lifecycle_title": "Ciclo di espirazione e sospensione",
+                "suspend_after_unpaid_days": "Sospensione automatica dopo fattura non pagata (D+)",
+                "renewal_grace_days": "Finestra di rinnovo con promemoria (giorni)"
+              }
+            }
+          }
+        }
       }
     }
   }

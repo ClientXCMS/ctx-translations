@@ -2830,6 +2830,27 @@
         "basket": {
           "subtitle": "Here is the summary of the products and options added to your basket"
         }
+      },
+      "provisioning": {
+        "cancellation": {
+          "rule_label": "Cancellation rule",
+          "mode_immediate": "Allow immediate cancellation",
+          "mode_support_ticket": "Redirect to creating a support ticket",
+          "mode_after_expiration": "Allow cancellation after service expires",
+          "requires_ticket": "This cancellation reason requires opening a support ticket.",
+          "after_expiration_only": "This cancellation will be authorized only after expiration of the service."
+        },
+        "admin": {
+          "settings": {
+            "services": {
+              "fields": {
+                "lifecycle_title": "Exhalation and suspension cycle",
+                "suspend_after_unpaid_days": "Automatic suspension after unpaid invoice (D+)",
+                "renewal_grace_days": "Renewal window with reminders (days)"
+              }
+            }
+          }
+        }
       }
     }
   }

@@ -2838,6 +2838,27 @@
         "basket": {
           "subtitle": "以下是添加到您的购物篮中的产品和选项的摘要"
         }
+      },
+      "provisioning": {
+        "cancellation": {
+          "rule_label": "取消规则",
+          "mode_immediate": "允许立即取消",
+          "mode_support_ticket": "重定向到创建支持票证",
+          "mode_after_expiration": "服务到期后允许取消",
+          "requires_ticket": "此取消原因需要开具支持票证。",
+          "after_expiration_only": "只有在服务到期后才可以取消。"
+        },
+        "admin": {
+          "settings": {
+            "services": {
+              "fields": {
+                "lifecycle_title": "呼气和暂停循环",
+                "suspend_after_unpaid_days": "未付发票后自动暂停 (D+)",
+                "renewal_grace_days": "带提醒的续订窗口（天）"
+              }
+            }
+          }
+        }
       }
     }
   }

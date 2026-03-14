@@ -2830,6 +2830,27 @@
         "basket": {
           "subtitle": "Aqui está o resumo dos produtos e opções adicionados ao seu carrinho"
         }
+      },
+      "provisioning": {
+        "cancellation": {
+          "rule_label": "Regra de cancelamento",
+          "mode_immediate": "Permitir cancelamento imediato",
+          "mode_support_ticket": "Redirecionar para a criação de um ticket de suporte",
+          "mode_after_expiration": "Permitir cancelamento após a expiração do serviço",
+          "requires_ticket": "Este motivo de cancelamento requer a abertura de um ticket de suporte.",
+          "after_expiration_only": "Este cancelamento será autorizado somente após o término do serviço."
+        },
+        "admin": {
+          "settings": {
+            "services": {
+              "fields": {
+                "lifecycle_title": "Ciclo de expiração e suspensão",
+                "suspend_after_unpaid_days": "Suspensão automática após fatura não paga (D+)",
+                "renewal_grace_days": "Janela de renovação com lembretes (dias)"
+              }
+            }
+          }
+        }
       }
     }
   }

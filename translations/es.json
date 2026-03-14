@@ -2830,6 +2830,27 @@
         "basket": {
           "subtitle": "Aquí tienes el resumen de los productos y opciones añadidos a tu cesta"
         }
+      },
+      "provisioning": {
+        "cancellation": {
+          "rule_label": "Regla de cancelación",
+          "mode_immediate": "Permitir cancelación inmediata",
+          "mode_support_ticket": "Redirigir a crear un ticket de soporte",
+          "mode_after_expiration": "Permitir cancelación después de que expire el servicio",
+          "requires_ticket": "Este motivo de cancelación requiere abrir un ticket de soporte.",
+          "after_expiration_only": "Esta cancelación será autorizada únicamente después de la expiración del servicio."
+        },
+        "admin": {
+          "settings": {
+            "services": {
+              "fields": {
+                "lifecycle_title": "Ciclo de exhalación y suspensión.",
+                "suspend_after_unpaid_days": "Suspensión automática tras factura impaga (D+)",
+                "renewal_grace_days": "Ventana de renovación con recordatorios (días)"
+              }
+            }
+          }
+        }
       }
     }
   }

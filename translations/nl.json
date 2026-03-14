@@ -2830,6 +2830,27 @@
         "basket": {
           "subtitle": "Hier vindt u een overzicht van de producten en opties die aan uw winkelmandje zijn toegevoegd"
         }
+      },
+      "provisioning": {
+        "cancellation": {
+          "rule_label": "Annuleringsregel",
+          "mode_immediate": "Sta onmiddellijke annulering toe",
+          "mode_support_ticket": "Omleiding naar het maken van een supportticket",
+          "mode_after_expiration": "Sta annulering toe nadat de service is verlopen",
+          "requires_ticket": "Voor deze annuleringsreden is het openen van een supportticket vereist.",
+          "after_expiration_only": "Deze annulering is pas toegestaan ​​na het verstrijken van de dienst."
+        },
+        "admin": {
+          "settings": {
+            "services": {
+              "fields": {
+                "lifecycle_title": "Uitadem- en opschortingscyclus",
+                "suspend_after_unpaid_days": "Automatische opschorting na onbetaalde factuur (D+)",
+                "renewal_grace_days": "Verlengingsperiode met herinneringen (dagen)"
+              }
+            }
+          }
+        }
       }
     }
   }

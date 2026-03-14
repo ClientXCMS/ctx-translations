@@ -2830,6 +2830,27 @@
         "basket": {
           "subtitle": "Hier finden Sie eine Zusammenfassung der Produkte und Optionen, die Ihrem Warenkorb hinzugefügt wurden"
         }
+      },
+      "provisioning": {
+        "cancellation": {
+          "rule_label": "Stornoregel",
+          "mode_immediate": "Erlauben Sie eine sofortige Stornierung",
+          "mode_support_ticket": "Weiter zum Erstellen eines Support-Tickets",
+          "mode_after_expiration": "Stornierung nach Ablauf des Dienstes zulassen",
+          "requires_ticket": "Dieser Stornierungsgrund erfordert die Eröffnung eines Support-Tickets.",
+          "after_expiration_only": "Diese Stornierung wird erst nach Ablauf des Dienstes genehmigt."
+        },
+        "admin": {
+          "settings": {
+            "services": {
+              "fields": {
+                "lifecycle_title": "Ausatmungs- und Schwebezyklus",
+                "suspend_after_unpaid_days": "Automatische Sperre nach unbezahlter Rechnung (D+)",
+                "renewal_grace_days": "Verlängerungsfenster mit Erinnerungen (Tage)"
+              }
+            }
+          }
+        }
       }
     }
   }
