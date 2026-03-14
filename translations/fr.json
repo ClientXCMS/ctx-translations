@@ -2118,6 +2118,14 @@
       "starting": "Démarrage en cours",
       "stopping": "Arrêt en cours"
     },
+    "cancellation": {
+      "rule_label": "Règle d'annulation",
+      "mode_immediate": "Autoriser l'annulation immédiate",
+      "mode_support_ticket": "Rediriger vers la création d'un ticket de support",
+      "mode_after_expiration": "Autoriser l'annulation après expiration du service",
+      "requires_ticket": "Cette raison d'annulation nécessite l'ouverture d'un ticket de support.",
+      "after_expiration_only": "Cette annulation sera autorisée uniquement après expiration du service."
+    },
     "config_option": "Option de configuration",
     "admin": {
       "title": "Approvisionnement",
@@ -2139,7 +2147,10 @@
             "allow_cancellation": "Autoriser les clients à demander une annulation",
             "allow_cancellation_help": "Si désactivé, la page d’annulation n’est pas visible côté client.",
             "cancellation_lock_days": "Nombre de jours après l’activation avant de pouvoir annuler",
-            "cancellation_lock_days_help": "Pendant cette période, le formulaire d’annulation reste masqué même si l’option est activée."
+            "cancellation_lock_days_help": "Pendant cette période, le formulaire d’annulation reste masqué même si l’option est activée.",
+            "lifecycle_title": "Cycle d'expiration et de suspension",
+            "suspend_after_unpaid_days": "Suspension automatique après facture impayée (J+)",
+            "renewal_grace_days": "Fenêtre de renouvellement avec rappels (jours)"
           }
         }
       },
