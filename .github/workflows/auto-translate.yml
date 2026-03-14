@@ -1,0 +1,36 @@
+name: Auto Translate
+
+on:
+  push:
+    branches: [main]
+    paths: [translations/fr.json]
+  workflow_dispatch:
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate translations/fr.json
+        run: jq -e . translations/fr.json >/dev/null
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install translators
+
+      - name: Run translation script
+        run: python auto_translate.py
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: automatic translations update from fr.json"
+          file_pattern: 'translations/*.json'
