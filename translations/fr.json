@@ -1864,6 +1864,11 @@
       "shouldnotchanged": "Ce champs est laisser modifiable mais ne devrait pas être modifié hors cas exceptionnel",
       "button_text": "Texte du bouton",
       "subject": "Sujet du e-mail",
+      "config": {
+        "title": "Configuration du modèle",
+        "btn": "Importer",
+        "success": "Le modèle d'email a été configuré avec succès."
+      },
       "import": {
         "title": "Importer un modèle d'email",
         "btn": "Importer",
