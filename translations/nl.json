@@ -1865,6 +1865,11 @@
       "shouldnotchanged": "Dit veld kan worden bewerkt, maar mag niet worden gewijzigd, behalve in uitzonderlijke gevallen",
       "button_text": "Knop tekst",
       "subject": "Onderwerp van de e-mail",
+      "config": {
+        "title": "Modelopstelling",
+        "btn": "Importeren",
+        "success": "De e-mailsjabloon is succesvol geconfigureerd."
+      },
       "import": {
         "title": "Een e-mailsjabloon importeren",
         "btn": "Importeren",

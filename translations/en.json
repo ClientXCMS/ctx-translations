@@ -1865,6 +1865,11 @@
       "shouldnotchanged": "This field is editable but should not be modified except in exceptional cases",
       "button_text": "Button text",
       "subject": "Subject of the email",
+      "config": {
+        "title": "Model setup",
+        "btn": "Import",
+        "success": "The email template has been successfully configured."
+      },
       "import": {
         "title": "Import an email template",
         "btn": "Import",

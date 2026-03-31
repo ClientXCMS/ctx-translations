@@ -1865,6 +1865,11 @@
       "shouldnotchanged": "Dieses Feld kann bearbeitet werden, sollte aber nur in Ausnahmefällen geändert werden",
       "button_text": "Text der Schaltfläche",
       "subject": "Betreff der E-Mail",
+      "config": {
+        "title": "Modellaufbau",
+        "btn": "Import",
+        "success": "Die E-Mail-Vorlage wurde erfolgreich konfiguriert."
+      },
       "import": {
         "title": "Importieren einer E-Mail-Vorlage",
         "btn": "Importieren",

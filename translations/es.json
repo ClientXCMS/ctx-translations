@@ -1865,6 +1865,11 @@
       "shouldnotchanged": "Este campo es editable, pero no debe modificarse excepto en casos excepcionales",
       "button_text": "Texto del botón",
       "subject": "Asunto del correo electrónico",
+      "config": {
+        "title": "Configuración del modelo",
+        "btn": "Importar",
+        "success": "La plantilla de correo electrónico se ha configurado correctamente."
+      },
       "import": {
         "title": "Importar una plantilla de correo electrónico",
         "btn": "Importar",

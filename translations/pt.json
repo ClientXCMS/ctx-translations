@@ -1865,6 +1865,11 @@
       "shouldnotchanged": "Este campo é editável, mas não deve ser modificado, exceto em casos excepcionais",
       "button_text": "Texto do botão",
       "subject": "Assunto do e-mail",
+      "config": {
+        "title": "Configuração do modelo",
+        "btn": "Importar",
+        "success": "O modelo de e-mail foi configurado com sucesso."
+      },
       "import": {
         "title": "Importar um modelo de e-mail",
         "btn": "Importação",

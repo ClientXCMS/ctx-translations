@@ -1865,6 +1865,11 @@
       "shouldnotchanged": "此字段是可编辑的，但除非在特殊情况下，否则不应修改",
       "button_text": "按钮文本",
       "subject": "电子邮件的主题",
+      "config": {
+        "title": "模型设置",
+        "btn": "进口",
+        "success": "电子邮件模板已成功配置。"
+      },
       "import": {
         "title": "导入电子邮件模板",
         "btn": "导入",
