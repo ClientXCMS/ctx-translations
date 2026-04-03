@@ -45,7 +45,13 @@
       "two_factor_disabled": "Double authentification désactivée",
       "two_factor_recovery_codes_generated": "Codes de récupération de double authentification générés",
       "failed_login": "Échec de connexion Adresse IP : {_ip}",
-      "account_deleted": "Compte supprimé"
+      "account_deleted": "Compte supprimé",
+      "new_registered": "Nouvelle inscription",
+      "basket_complet": "Panier complété de {_amount}.",
+      "ticket_create": "Ouverture d'un nouveau ticket {_subject}",
+      "ticket_replied": "Nouvelle réponse au ticket {_subject}",
+      "ticket_reopened": "Réouverture du ticket {_subject}",
+      "basket": "Complétion d'un panier de {_amount}"
     }
   },
   "lang.fr.admin": {
