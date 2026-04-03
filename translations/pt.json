@@ -45,7 +45,13 @@
       "two_factor_disabled": "Autenticação de dois fatores desativada",
       "two_factor_recovery_codes_generated": "Códigos de recuperação de autenticação de dois fatores gerados",
       "failed_login": "Falha de conexão Endereço IP: {_ip}",
-      "account_deleted": "Conta eliminada"
+      "account_deleted": "Conta eliminada",
+      "new_registered": "Novo registro",
+      "basket_complet": "Cesta concluída com{_amount}.",
+      "ticket_create": "Abrindo um novo ticket{_subject}",
+      "ticket_replied": "Nova resposta ao ticket{_subject}",
+      "ticket_reopened": "Reabertura de ticket{_subject}",
+      "basket": "Completando uma cesta de{_amount}"
     }
   },
   "lang.fr.admin": {

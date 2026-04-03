@@ -45,7 +45,13 @@
       "two_factor_disabled": "Autenticazione a due fattori disabilitata",
       "two_factor_recovery_codes_generated": "Codici di recupero dell'autenticazione a due fattori generati",
       "failed_login": "Connessione fallita Indirizzo IP : {_ip}",
-      "account_deleted": "Account eliminato"
+      "account_deleted": "Account eliminato",
+      "new_registered": "Nuova registrazione",
+      "basket_complet": "Carrello completato con{_amount}.",
+      "ticket_create": "Apertura di un nuovo ticket{_subject}",
+      "ticket_replied": "Nuova risposta al ticket{_subject}",
+      "ticket_reopened": "Riapertura ticket{_subject}",
+      "basket": "Completando un paniere di{_amount}"
     }
   },
   "lang.fr.admin": {

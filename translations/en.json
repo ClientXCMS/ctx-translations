@@ -45,7 +45,13 @@
       "two_factor_disabled": "Two-factor authentication disabled",
       "two_factor_recovery_codes_generated": "Two-factor authentication recovery codes generated",
       "failed_login": "Connection failed IP address: {_ip}",
-      "account_deleted": "Account deleted"
+      "account_deleted": "Account deleted",
+      "new_registered": "New registration",
+      "basket_complet": "Basket completed with{_amount}.",
+      "ticket_create": "Opening a new ticket{_subject}",
+      "ticket_replied": "New response to ticket{_subject}",
+      "ticket_reopened": "Reopening ticket{_subject}",
+      "basket": "Completing a basket of{_amount}"
     }
   },
   "lang.fr.admin": {

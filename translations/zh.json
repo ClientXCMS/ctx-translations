@@ -45,7 +45,13 @@
       "two_factor_disabled": "禁用了双重身份验证",
       "two_factor_recovery_codes_generated": "生成的双重身份验证恢复代码",
       "failed_login": "连接失败 IP地址 : {_ip}",
-      "account_deleted": "账户已删除"
+      "account_deleted": "账户已删除",
+      "new_registered": "新注册",
+      "basket_complet": "篮子用{_amount}完成。",
+      "ticket_create": "开立新票{_subject}",
+      "ticket_replied": "对票证的新回复{_subject}",
+      "ticket_reopened": "重新开票{_subject}",
+      "basket": "完成一篮子{_amount}"
     }
   },
   "lang.fr.admin": {
