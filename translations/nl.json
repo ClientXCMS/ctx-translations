@@ -73,6 +73,7 @@
       "title": "Bijwerken",
       "subheading": "Controleer de laatste updates en houd uw systeem up-to-date.",
       "update_version": "Bijwerken",
+      "updated_success": "Bijgewerkt",
       "local_environment": "U bent in een lokale omgeving",
       "local_environment_message": "De update zal uw mogelijke wijzigingen overschrijven. Zorg ervoor dat u een backup heeft voordat u verder gaat.",
       "status_title": "Status van uw versie",

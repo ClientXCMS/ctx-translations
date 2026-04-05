@@ -73,6 +73,7 @@
       "title": "更新",
       "subheading": "查看最新更新并保持系统更新。",
       "update_version": "更新",
+      "updated_success": "已更新",
       "local_environment": "您在本地环境中",
       "local_environment_message": "更新将覆盖您可能的修改。请确保在继续之前做好备份。",
       "status_title": "您版本的状态",

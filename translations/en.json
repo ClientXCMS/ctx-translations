@@ -73,6 +73,7 @@
       "title": "Update",
       "subheading": "Check the latest updates and keep your system up to date.",
       "update_version": "Update",
+      "updated_success": "Updated",
       "local_environment": "You are in a local environment",
       "local_environment_message": "The update will overwrite your possible changes. Please ensure you have a backup before proceeding.",
       "status_title": "Status of your version",

@@ -73,6 +73,7 @@
       "title": "Atualização",
       "subheading": "Consulte as últimas atualizações e mantenha seu sistema atualizado.",
       "update_version": "Atualizar",
+      "updated_success": "Atualizado",
       "local_environment": "Você está em um ambiente local",
       "local_environment_message": "A atualização substituirá suas possíveis modificações. Por favor, certifique-se de ter um backup antes de continuar.",
       "status_title": "Status da sua versão",
