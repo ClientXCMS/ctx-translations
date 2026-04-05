@@ -73,6 +73,7 @@
       "title": "Mise à jour",
       "subheading": "Consultez les dernières mises à jour et maintenez votre système à jour.",
       "update_version": "Mettre à jour",
+      "updated_success": "Mise à jour effectuée",
       "local_environment": "Vous êtes en environnement local",
       "local_environment_message": "La mise à jour écrasera vos possibles modifications. Veuillez vous assurer d'avoir une sauvegarde avant de continuer.",
       "status_title": "Statut de votre version",
