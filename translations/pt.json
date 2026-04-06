@@ -572,6 +572,7 @@
       "title": "Perguntas de segurança",
       "description": "Gestão das perguntas de segurança para a proteção das contas",
       "subheading": "Configure as perguntas de segurança disponíveis para os clientes",
+      "can_not_delete": "Não foi possível excluir a pergunta de segurança porque ela é usada por alguns usuários ou administradores.",
       "fields": {
         "question": "Pergunta",
         "is_active": "Ativar",

@@ -572,6 +572,7 @@
       "title": "Sicherheitsfragen",
       "description": "Verwaltung der Sicherheitsfragen zum Schutz von Konten",
       "subheading": "Konfigurieren Sie die verfügbaren Sicherheitsfragen für Kunden",
+      "can_not_delete": "Die Sicherheitsfrage kann nicht gelöscht werden, da sie von einigen Benutzern oder Administratoren verwendet wird.",
       "fields": {
         "question": "Frage",
         "is_active": "Aktivieren",

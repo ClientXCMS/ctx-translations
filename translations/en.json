@@ -572,6 +572,7 @@
       "title": "Security questions",
       "description": "Manage security questions for account protection",
       "subheading": "Configure the security questions available to customers",
+      "can_not_delete": "Unable to delete security question because it is used by some users or administrators.",
       "fields": {
         "question": "Question",
         "is_active": "Enable",

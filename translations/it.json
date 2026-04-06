@@ -572,6 +572,7 @@
       "title": "Domande di sicurezza",
       "description": "Gestione delle domande di sicurezza per la protezione degli account",
       "subheading": "Configuri le domande di sicurezza disponibili per i clienti",
+      "can_not_delete": "Impossibile eliminare la domanda di sicurezza perché utilizzata da alcuni utenti o amministratori.",
       "fields": {
         "question": "Domanda",
         "is_active": "Attivare",

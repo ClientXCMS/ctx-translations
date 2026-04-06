@@ -572,6 +572,7 @@
       "title": "安全问题",
       "description": "管理安全问题以保护账户",
       "subheading": "配置客户可用的安全问题",
+      "can_not_delete": "无法删除安全问题，因为它已被某些用户或管理员使用。",
       "fields": {
         "question": "问题",
         "is_active": "启用",
