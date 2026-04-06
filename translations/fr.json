@@ -572,6 +572,7 @@
       "title": "Questions de sécurité",
       "description": "Gestion des questions de sécurité pour la protection des comptes",
       "subheading": "Configurez les questions de sécurité disponibles pour les clients",
+      "can_not_delete": "Impossible de supprimer la question de sécurité car elle est utilisée par certains utilisateurs ou administrateurs.",
       "fields": {
         "question": "Question",
         "is_active": "Activer",
