@@ -991,6 +991,13 @@
         "index": "Service opties",
         "index_description": "Hieronder vindt u de mogelijkheden voor uw service. Opties met dezelfde vervaldatum als de service worden automatisch verlengd met de service."
       },
+      "subusers": {
+        "index": "Subgebruikers",
+        "manage": "Service-subgebruikers",
+        "description": "Kies de subgebruikers die toegang hebben tot deze dienst en de toegestane acties.",
+        "active_description": "Schakel de toegang tot deze service in of verwijder deze voor uw bestaande subgebruikers.",
+        "pending_description": "Openstaande uitnodigingen die toegang geven tot deze service."
+      },
       "cancel": {
         "index": "Service annuleren",
         "manage": "Annulering beheren",
@@ -1128,6 +1135,63 @@
       }
     },
     "pending_invoices": "{_count} factuur(en) in afwachting van betaling. Betaal ze om een onderbreking van de service te voorkomen.",
+    "subusers": {
+      "index": "Subgebruikers",
+      "account_access": "Accounttoegang",
+      "account_access_description": "Bekijk wie toegang heeft tot dit account en tot welke accounts u toegang heeft.",
+      "manage": "Beheren",
+      "users_found": ":aantal gebruikers gevonden|:aantal gebruikers gevonden",
+      "owner_badge": "Eigenaar",
+      "subuser_badge": "Toegang",
+      "services": "Diensten",
+      "services_count": ":teldiensten|:teldiensten",
+      "invoice_permissions_auto_granted": "Voegt automatisch factuurrechten toe: saldo bekijken, betalen, downloaden en gebruiken.",
+      "all_services": "Alle diensten",
+      "all_services_locked": "Deze toegang dekt al alle diensten.",
+      "master_account_current": "Huidige · accountmaster",
+      "my_external_accesses": "Mijn subgebruikerstoegang",
+      "subuser_role": "Accountsubgebruiker",
+      "permissions": "Machtigingen",
+      "leave_access": "Verwijder mijn toegang",
+      "confirm_leave": "Weet u zeker dat u uw toegang tot dit account wilt intrekken?",
+      "confirm_revoke": "Weet u zeker dat u deze toegang wilt intrekken?",
+      "active_accesses": "Actieve toegang",
+      "pending_invitations": "Openstaande uitnodigingen",
+      "received_accesses": "Toegang ontvangen",
+      "received_accesses_description": "Klantaccounts waartoe u als subgebruiker toegang heeft.",
+      "expires_at": "Verloopt",
+      "resend": "Opnieuw verzenden",
+      "no_active_accesses": "Geen actieve subgebruikers.",
+      "invite_first": "Nodig een subgebruiker uit",
+      "manage_global": "Algemeen beheer",
+      "invite": {
+        "title": "Nodig een subgebruiker uit",
+        "description": "Geef toegang tot uw diensten en facturen.",
+        "service_description": "Nodig iemand uit om alleen toegang te krijgen tot deze service. De gebruiker ontvangt per e-mail een uitnodiging met een link om toegang te accepteren of zich te registreren. U kunt deze toegang op elk gewenst moment intrekken.",
+        "submit": "Uitnodiging"
+      },
+      "alerts": {
+        "self_invite": "Je kunt je eigen account niet uitnodigen.",
+        "pending_exists": "Er staat al een uitnodiging in behandeling voor deze e-mail.",
+        "access_exists": "Deze klant heeft al toegang tot dit account.",
+        "access_created": "Er is toegang verleend.",
+        "access_updated": "De toegang is bijgewerkt.",
+        "access_revoked": "De toegang is ingetrokken.",
+        "invitation_sent": "De uitnodiging is verzonden.",
+        "invitation_resent": "De uitnodiging is teruggestuurd.",
+        "invitation_revoked": "De uitnodiging is ingetrokken.",
+        "invitation_accepted": "De uitnodiging werd geaccepteerd.",
+        "service_required": "Selecteer ten minste één service of sta alle services toe.",
+        "service_permission_required": "Selecteer ten minste één servicemachtiging.",
+        "service_access_updated": "De toegang tot de service is bijgewerkt."
+      },
+      "mail": {
+        "invitation_subject": "Uitnodiging voor toegang tot een account",
+        "invitation_body": "Je bent uitgenodigd om toegang te krijgen tot het account van :name. Open deze link: :url",
+        "access_subject": "Accounttoegang verleend",
+        "access_body": "Je hebt nu toegang tot het account van :name. Open deze link: :url"
+      }
+    },
     "logout": "Logout",
     "alerts": {
       "servernotfound": "De server is niet gevonden",

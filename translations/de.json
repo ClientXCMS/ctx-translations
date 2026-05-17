@@ -991,6 +991,13 @@
         "index": "Service-Optionen",
         "index_description": "Nachfolgend finden Sie die Optionen für Ihren Service. Optionen mit demselben Ablaufdatum wie der Dienst werden automatisch mit dem Dienst verlängert."
       },
+      "subusers": {
+        "index": "Unterbenutzer",
+        "manage": "Unterbenutzer des Dienstes",
+        "description": "Wählen Sie die Unterbenutzer aus, die auf diesen Dienst zugreifen können, und die zulässigen Aktionen.",
+        "active_description": "Aktivieren oder entfernen Sie den Zugriff auf diesen Dienst für Ihre bestehenden Unterbenutzer.",
+        "pending_description": "Ausstehende Einladungen, die Zugriff auf diesen Dienst ermöglichen."
+      },
       "cancel": {
         "index": "Service kündigen",
         "manage": "Kündigung verwalten",
@@ -1128,6 +1135,63 @@
       }
     },
     "pending_invoices": "{_count} Rechnung(en), die auf Zahlung warten. Bitte zahlen Sie diese, um eine Unterbrechung des Dienstes zu vermeiden.",
+    "subusers": {
+      "index": "Unterbenutzer",
+      "account_access": "Kontozugriff",
+      "account_access_description": "Sehen Sie, wer auf dieses Konto zugreifen kann und auf welche Konten Sie Zugriff haben.",
+      "manage": "Verwalten",
+      "users_found": ":Benutzeranzahl gefunden|:Benutzeranzahl gefunden",
+      "owner_badge": "Eigentümer",
+      "subuser_badge": "Zugang",
+      "services": "Dienstleistungen",
+      "services_count": ":count-Dienst|:count-Dienste",
+      "invoice_permissions_auto_granted": "Fügt automatisch Rechnungsberechtigungen hinzu: Anzeigen, Bezahlen, Herunterladen und Guthaben verwenden.",
+      "all_services": "Alle Dienstleistungen",
+      "all_services_locked": "Dieser Zugang deckt bereits alle Leistungen ab.",
+      "master_account_current": "Girokontostamm",
+      "my_external_accesses": "Mein Unterbenutzerzugriff",
+      "subuser_role": "Unterbenutzer des Kontos",
+      "permissions": "Berechtigungen",
+      "leave_access": "Entferne meinen Zugriff",
+      "confirm_leave": "Sind Sie sicher, dass Sie Ihren Zugriff auf dieses Konto widerrufen möchten?",
+      "confirm_revoke": "Sind Sie sicher, dass Sie diesen Zugriff widerrufen möchten?",
+      "active_accesses": "Aktiver Zugriff",
+      "pending_invitations": "Ausstehende Einladungen",
+      "received_accesses": "Zugriff erhalten",
+      "received_accesses_description": "Kundenkonten, auf die Sie als Unterbenutzer Zugriff haben.",
+      "expires_at": "Läuft ab",
+      "resend": "Erneut senden",
+      "no_active_accesses": "Keine aktiven Unterbenutzer.",
+      "invite_first": "Laden Sie einen Unterbenutzer ein",
+      "manage_global": "Gesamtleitung",
+      "invite": {
+        "title": "Laden Sie einen Unterbenutzer ein",
+        "description": "Gewähren Sie Zugriff auf Ihre Leistungen und Rechnungen.",
+        "service_description": "Laden Sie jemanden ein, nur auf diesen Dienst zuzugreifen. Der Benutzer erhält per E-Mail eine Einladung mit einem Link zur Annahme des Zugangs oder zur Registrierung. Sie können diesen Zugriff jederzeit widerrufen.",
+        "submit": "Einladen"
+      },
+      "alerts": {
+        "self_invite": "Sie können Ihr eigenes Konto nicht einladen.",
+        "pending_exists": "Diese E-Mail enthält bereits eine ausstehende Einladung.",
+        "access_exists": "Dieser Kunde hat bereits Zugriff auf dieses Konto.",
+        "access_created": "Der Zugriff wurde gewährt.",
+        "access_updated": "Der Zugang wurde aktualisiert.",
+        "access_revoked": "Der Zugriff wurde widerrufen.",
+        "invitation_sent": "Die Einladung wurde versendet.",
+        "invitation_resent": "Die Einladung wurde zurückgesendet.",
+        "invitation_revoked": "Die Einladung wurde widerrufen.",
+        "invitation_accepted": "Die Einladung wurde angenommen.",
+        "service_required": "Wählen Sie mindestens einen Dienst aus oder lassen Sie alle Dienste zu.",
+        "service_permission_required": "Wählen Sie mindestens eine Dienstberechtigung aus.",
+        "service_access_updated": "Der Zugriff auf den Dienst wurde aktualisiert."
+      },
+      "mail": {
+        "invitation_subject": "Einladung zum Zugriff auf ein Konto",
+        "invitation_body": "Sie wurden eingeladen, auf das Konto von :name zuzugreifen. Öffnen Sie diesen Link: :url",
+        "access_subject": "Kontozugriff gewährt",
+        "access_body": "Sie haben jetzt Zugriff auf das Konto von :name. Öffnen Sie diesen Link: :url"
+      }
+    },
     "logout": "Abmeldung",
     "alerts": {
       "servernotfound": "Der Server wurde nicht gefunden",

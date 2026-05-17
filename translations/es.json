@@ -991,6 +991,13 @@
         "index": "Opciones de servicio",
         "index_description": "A continuación se muestran las opciones para su servicio. Las opciones con la misma fecha de vencimiento que el servicio se renovarán automáticamente con el servicio."
       },
+      "subusers": {
+        "index": "Subusuarios",
+        "manage": "Subusuarios del servicio",
+        "description": "Elija los subusuarios que pueden acceder a este servicio y las acciones permitidas.",
+        "active_description": "Habilite o elimine el acceso a este servicio para sus subusuarios existentes.",
+        "pending_description": "Invitaciones pendientes que dan acceso a este servicio."
+      },
       "cancel": {
         "index": "Cancelar servicio",
         "manage": "Gestionar la cancelación",
@@ -1128,6 +1135,63 @@
       }
     },
     "pending_invoices": "{_count} factura(s) pendiente(s) de pago. Por favor, págueles para evitar una interrupción del servicio.",
+    "subusers": {
+      "index": "Subusuarios",
+      "account_access": "Acceso a la cuenta",
+      "account_access_description": "Vea quién puede acceder a esta cuenta y a qué cuentas tiene acceso usted.",
+      "manage": "Administrar",
+      "users_found": ":recuento de usuarios encontrado|:recuento de usuarios encontrado",
+      "owner_badge": "Dueño",
+      "subuser_badge": "Acceso",
+      "services": "Servicios",
+      "services_count": ":contar servicio|:contar servicios",
+      "invoice_permissions_auto_granted": "Agrega automáticamente permisos de factura: ver, pagar, descargar y usar saldo.",
+      "all_services": "Todos los servicios",
+      "all_services_locked": "Este acceso ya cubre todos los servicios.",
+      "master_account_current": "Cuenta corriente · maestra",
+      "my_external_accesses": "Mi acceso de subusuario",
+      "subuser_role": "Subusuario de cuenta",
+      "permissions": "Permisos",
+      "leave_access": "Quitar mi acceso",
+      "confirm_leave": "¿Está seguro de que desea revocar su acceso a esta cuenta?",
+      "confirm_revoke": "¿Está seguro de que desea revocar este acceso?",
+      "active_accesses": "Acceso activo",
+      "pending_invitations": "Invitaciones pendientes",
+      "received_accesses": "Acceso recibido",
+      "received_accesses_description": "Cuentas de clientes a las que tienes acceso como subusuario.",
+      "expires_at": "Vence",
+      "resend": "Reenviar",
+      "no_active_accesses": "No hay subusuarios activos.",
+      "invite_first": "Invitar a un subusuario",
+      "manage_global": "Gestión general",
+      "invite": {
+        "title": "Invitar a un subusuario",
+        "description": "Da acceso a tus servicios y facturas.",
+        "service_description": "Invita a alguien a acceder únicamente a este servicio. El usuario recibirá una invitación por correo electrónico con un enlace para aceptar el acceso o registrarse. Puedes revocar este acceso en cualquier momento.",
+        "submit": "Invitar"
+      },
+      "alerts": {
+        "self_invite": "No puedes invitar a tu propia cuenta.",
+        "pending_exists": "Este correo electrónico ya tiene una invitación pendiente.",
+        "access_exists": "Este cliente ya tiene acceso a esta cuenta.",
+        "access_created": "Se ha concedido el acceso.",
+        "access_updated": "El acceso ha sido actualizado.",
+        "access_revoked": "El acceso ha sido revocado.",
+        "invitation_sent": "La invitación ha sido enviada.",
+        "invitation_resent": "La invitación ha sido devuelta.",
+        "invitation_revoked": "La invitación ha sido revocada.",
+        "invitation_accepted": "La invitación fue aceptada.",
+        "service_required": "Seleccione al menos un servicio o permita todos los servicios.",
+        "service_permission_required": "Seleccione al menos un permiso de servicio.",
+        "service_access_updated": "Se ha actualizado el acceso al servicio."
+      },
+      "mail": {
+        "invitation_subject": "Invitación para acceder a una cuenta",
+        "invitation_body": "Has sido invitado a acceder a la cuenta de :name. Abra este enlace: :url",
+        "access_subject": "Acceso a la cuenta concedido",
+        "access_body": "Ahora tienes acceso a la cuenta de :name. Abra este enlace: :url"
+      }
+    },
     "logout": "Cerrar sesión",
     "alerts": {
       "servernotfound": "No se encontró el servidor",

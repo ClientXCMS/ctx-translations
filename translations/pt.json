@@ -991,6 +991,13 @@
         "index": "Opções de serviço",
         "index_description": "Abaixo estão as opções para o seu serviço. As opções com a mesma data de expiração do serviço serão renovadas automaticamente com o serviço."
       },
+      "subusers": {
+        "index": "Subusuários",
+        "manage": "Subusuários de serviço",
+        "description": "Escolha os subusuários que podem acessar este serviço e as ações permitidas.",
+        "active_description": "Habilite ou remova o acesso a este serviço para seus subusuários existentes.",
+        "pending_description": "Invitations en attente qui donnent accès à ce service."
+      },
       "cancel": {
         "index": "Cancelar serviço",
         "manage": "Gerir o cancelamento",
@@ -1128,6 +1135,63 @@
       }
     },
     "pending_invoices": "{_count} fatura(s) aguardando pagamento. Pague-os para evitar uma interrupção do serviço.",
+    "subusers": {
+      "index": "Subusuários",
+      "account_access": "Acesso à conta",
+      "account_access_description": "Veja quem pode acessar esta conta e a quais contas você tem acesso.",
+      "manage": "Gerenciar",
+      "users_found": ":contagem de usuários encontrada|:contagem de usuários encontrada",
+      "owner_badge": "Proprietário",
+      "subuser_badge": "Acesso",
+      "services": "Serviços",
+      "services_count": ":contar serviço|:contar serviços",
+      "invoice_permissions_auto_granted": "Adiciona automaticamente permissões de fatura: visualizar, pagar, baixar e usar saldo.",
+      "all_services": "Todos os serviços",
+      "all_services_locked": "Este acesso já abrange todos os serviços.",
+      "master_account_current": "Corrente · mestre da conta",
+      "my_external_accesses": "Meu acesso de subusuário",
+      "subuser_role": "Subusuário da conta",
+      "permissions": "Permissões",
+      "leave_access": "Remover meu acesso",
+      "confirm_leave": "Tem certeza de que deseja revogar seu acesso a esta conta?",
+      "confirm_revoke": "Tem certeza de que deseja revogar este acesso?",
+      "active_accesses": "Acesso ativo",
+      "pending_invitations": "Convites pendentes",
+      "received_accesses": "Acesso recebido",
+      "received_accesses_description": "Contas de clientes às quais você tem acesso como subusuário.",
+      "expires_at": "Expira",
+      "resend": "Reenviar",
+      "no_active_accesses": "Nenhum subusuário ativo.",
+      "invite_first": "Convidar um subusuário",
+      "manage_global": "Gestão geral",
+      "invite": {
+        "title": "Convidar um subusuário",
+        "description": "Dê acesso aos seus serviços e faturas.",
+        "service_description": "Convide alguém para acessar apenas este serviço. O usuário receberá um convite por e-mail com um link para aceitar o acesso ou se cadastrar. Você pode revogar esse acesso a qualquer momento.",
+        "submit": "Convidar"
+      },
+      "alerts": {
+        "self_invite": "Você não pode convidar sua própria conta.",
+        "pending_exists": "Este e-mail já possui um convite pendente.",
+        "access_exists": "Este cliente já tem acesso a esta conta.",
+        "access_created": "O acesso foi concedido.",
+        "access_updated": "O acesso foi atualizado.",
+        "access_revoked": "O acesso foi revogado.",
+        "invitation_sent": "O convite foi enviado.",
+        "invitation_resent": "O convite foi devolvido.",
+        "invitation_revoked": "O convite foi revogado.",
+        "invitation_accepted": "O convite foi aceito.",
+        "service_required": "Selecione pelo menos um serviço ou permita todos os serviços.",
+        "service_permission_required": "Selecione pelo menos uma permissão de serviço.",
+        "service_access_updated": "O acesso ao serviço foi atualizado."
+      },
+      "mail": {
+        "invitation_subject": "Convite para acessar uma conta",
+        "invitation_body": "Você foi convidado para acessar a conta de :name. Abra este link: :url",
+        "access_subject": "Acesso à conta concedido",
+        "access_body": "Agora você tem acesso à conta de :name. Abra este link: :url"
+      }
+    },
     "logout": "Logout",
     "alerts": {
       "servernotfound": "O servidor não foi encontrado",

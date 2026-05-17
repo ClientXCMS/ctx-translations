@@ -991,6 +991,13 @@
         "index": "服务选项",
         "index_description": "以下是您的服务选项。与服务具有相同到期日期的选项将自动随该服务一起续订。"
       },
+      "subusers": {
+        "index": "子用户",
+        "manage": "服务子用户",
+        "description": "选择可以访问该服务的子用户以及允许的操作。",
+        "active_description": "启用或删除现有子用户对此服务的访问权限。",
+        "pending_description": "提供对此服务访问权限的待处理邀请。"
+      },
       "cancel": {
         "index": "取消服务",
         "manage": "管理取消",
@@ -1128,6 +1135,63 @@
       }
     },
     "pending_invoices": "{_count} 张等待付款的发票。请向他们付款以避免服务中断。",
+    "subusers": {
+      "index": "子用户",
+      "account_access": "账户访问",
+      "account_access_description": "查看谁可以访问此帐户以及您有权访问哪些帐户。",
+      "manage": "管理",
+      "users_found": ":找到的用户数|:找到的用户数",
+      "owner_badge": "所有者",
+      "subuser_badge": "使用权",
+      "services": "服务",
+      "services_count": ":计数服务|:计数服务",
+      "invoice_permissions_auto_granted": "自动添加发票权限：查看、支付、下载和使用余额。",
+      "all_services": "所有服务",
+      "all_services_locked": "这种访问已经涵盖了所有服务。",
+      "master_account_current": "当前·账户主",
+      "my_external_accesses": "我的子用户访问",
+      "subuser_role": "账户子用户",
+      "permissions": "权限",
+      "leave_access": "删除我的访问权限",
+      "confirm_leave": "您确定要撤销对此帐户的访问权限吗？",
+      "confirm_revoke": "您确定要撤销此访问权限吗？",
+      "active_accesses": "主动访问",
+      "pending_invitations": "待处理的邀请",
+      "received_accesses": "收到访问权限",
+      "received_accesses_description": "您可以作为子用户访问的客户帐户。",
+      "expires_at": "过期",
+      "resend": "重新发送",
+      "no_active_accesses": "没有活跃的子用户。",
+      "invite_first": "邀请子用户",
+      "manage_global": "整体管理",
+      "invite": {
+        "title": "邀请子用户",
+        "description": "授予访问您的服务和发票的权限。",
+        "service_description": "邀请某人仅访问此服务。 用户将通过电子邮件收到邀请，其中包含接受访问或注册的链接。 您可以随时撤销此访问权限。",
+        "submit": "邀请"
+      },
+      "alerts": {
+        "self_invite": "您不能邀请自己的帐户。",
+        "pending_exists": "此电子邮件已有待处理的邀请。",
+        "access_exists": "该客户已有权访问该帐户。",
+        "access_created": "已授予访问权限。",
+        "access_updated": "访问权限已更新。",
+        "access_revoked": "访问权限已被撤销。",
+        "invitation_sent": "邀请函已发送。",
+        "invitation_resent": "邀请函已退回。",
+        "invitation_revoked": "邀请已被撤销。",
+        "invitation_accepted": "邀请被接受了。",
+        "service_required": "至少选择一项服务或允许所有服务。",
+        "service_permission_required": "至少选择一项服务权限。",
+        "service_access_updated": "该服务的访问权限已更新。"
+      },
+      "mail": {
+        "invitation_subject": "邀请访问帐户",
+        "invitation_body": "您已被邀请访问 :name 的帐户。 打开此链接：:url",
+        "access_subject": "已授予帐户访问权限",
+        "access_body": "您现在可以访问 :name 的帐户。 打开此链接：:url"
+      }
+    },
     "logout": "注销",
     "alerts": {
       "servernotfound": "未找到服务器",

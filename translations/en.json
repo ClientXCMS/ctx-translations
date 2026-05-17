@@ -991,6 +991,13 @@
         "index": "Service Options",
         "index_description": "Below are the options for your service. Options with the same expiration date as the service will automatically renew with the service."
       },
+      "subusers": {
+        "index": "Subusers",
+        "manage": "Service sub-users",
+        "description": "Choose the sub-users who can access this service and the actions allowed.",
+        "active_description": "Enable or remove access to this service for your existing sub-users.",
+        "pending_description": "Pending invitations that provide access to this service."
+      },
       "cancel": {
         "index": "Cancel the service",
         "manage": "Manage cancellation",
@@ -1128,6 +1135,63 @@
       }
     },
     "pending_invoices": "{_count} invoice(s) awaiting payment. Please pay them to avoid a service interruption.",
+    "subusers": {
+      "index": "Subusers",
+      "account_access": "Account access",
+      "account_access_description": "See who can access this account and which accounts you have access to.",
+      "manage": "Manage",
+      "users_found": ":user count found|:user count found",
+      "owner_badge": "Owner",
+      "subuser_badge": "Access",
+      "services": "Services",
+      "services_count": ":count service|:count services",
+      "invoice_permissions_auto_granted": "Automatically adds invoice permissions: view, pay, download and use balance.",
+      "all_services": "All services",
+      "all_services_locked": "This access already covers all services.",
+      "master_account_current": "Current · account master",
+      "my_external_accesses": "My sub-user access",
+      "subuser_role": "Account sub-user",
+      "permissions": "Permissions",
+      "leave_access": "Remove my access",
+      "confirm_leave": "Are you sure you want to revoke your access to this account?",
+      "confirm_revoke": "Are you sure you want to revoke this access?",
+      "active_accesses": "Active access",
+      "pending_invitations": "Pending invitations",
+      "received_accesses": "Access received",
+      "received_accesses_description": "Customer accounts to which you have access as a sub-user.",
+      "expires_at": "Expires",
+      "resend": "Resend",
+      "no_active_accesses": "No active subusers.",
+      "invite_first": "Invite a subuser",
+      "manage_global": "Overall management",
+      "invite": {
+        "title": "Invite a subuser",
+        "description": "Give access to your services and invoices.",
+        "service_description": "Invite someone to access only this service. The user will receive an invitation by email with a link to accept access or register. You can revoke this access at any time.",
+        "submit": "Invite"
+      },
+      "alerts": {
+        "self_invite": "You cannot invite your own account.",
+        "pending_exists": "This email already has a pending invitation.",
+        "access_exists": "This customer already has access to this account.",
+        "access_created": "Access has been granted.",
+        "access_updated": "Access has been updated.",
+        "access_revoked": "Access has been revoked.",
+        "invitation_sent": "The invitation has been sent.",
+        "invitation_resent": "The invitation has been returned.",
+        "invitation_revoked": "The invitation has been revoked.",
+        "invitation_accepted": "The invitation was accepted.",
+        "service_required": "Select at least one service or allow all services.",
+        "service_permission_required": "Select at least one service permission.",
+        "service_access_updated": "Access to the service has been updated."
+      },
+      "mail": {
+        "invitation_subject": "Invitation to access an account",
+        "invitation_body": "You have been invited to access :name's account. Open this link: :url",
+        "access_subject": "Account access granted",
+        "access_body": "You now have access to :name's account. Open this link: :url"
+      }
+    },
     "logout": "Logout",
     "alerts": {
       "servernotfound": "The server was not found",
