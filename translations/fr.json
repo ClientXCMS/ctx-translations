@@ -66,7 +66,12 @@
       "changedefaulthelp": "Vous pouvez changer la langue par défaut dans les paramètres globaux.",
       "download_success": "Les fichiers de traduction ont été téléchargés avec succès.",
       "download_error": "Vous ne pouvez pas télécharger les fichiers de traduction pour la langue française en local.",
-      "description": "Retrouvez la liste des langues disponibles pour l'espace client. Activez ou désactivez les langues selon vos besoins."
+      "description": "Retrouvez la liste des langues disponibles pour l'espace client. Activez ou désactivez les langues selon vos besoins.",
+      "countries_saved": "La liste des pays activés a été enregistrée avec succès.",
+      "countries": {
+        "admin.locales.countries.description": "Sélectionnez les pays disponibles dans les formulaires et les validations de l'espace client.",
+        "admin.locales.countries.field": "Pays disponibles"
+      }
     },
     "update": {
       "changelog": "Journal des modifications",
@@ -655,6 +660,8 @@
               "driver_help": "Vous devez avoir une clé secrète pour le driver reCaptcha",
               "site_key": "Clé du site",
               "secret_key": "Clé secrète",
+              "force_2fa_client": "Forcer la double authentification pour les clients",
+              "force_2fa_admin": "Forcer la double authentification pour les administrateurs",  
               "driver_recaptcha_help": "Vous pouvez obtenir une clé sur <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. Vous avez besoin d'utiliser les clés v2 invisibles",
               "driver_hcaptcha_help": "Vous pouvez obtenir une clé sur <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>",
               "driver_cloudflare_help": "Vous pouvez obtenir une clé sur <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. Vous devez sélectionner le widget \"managed\""
@@ -1123,6 +1130,10 @@
       },
       "password_updated": "Votre mot de passe a été mis à jour avec succès.",
       "2fa": {
+        "send_email_code": "Envoyer un code par e-mail",
+        "email_sent": "Un code de double authentification a été envoyé par e-mail. Il est valide pendant 5 minutes.",
+        "email_new_ip": "Demander un code de double authentification par e-mail lors d’une connexion depuis une nouvelle adresse IP",
+        "options_saved": "Les options de double authentification ont été enregistrées.",
         "enabled": "L'authentification à deux facteurs a été activée",
         "disabled": "L'authentification à deux facteurs a été désactivée",
         "title": "Authentification à deux facteurs",
@@ -2202,6 +2213,31 @@
       "starting": "Démarrage en cours",
       "stopping": "Arrêt en cours"
     },
+    "domain_manager": {
+      "server_type": "Gestionnaire de domaines",
+      "domain": "Domaine",
+      "tld": "Extension",
+      "details": "Détails du domaine",
+      "register": "Enregistrement",
+      "renew": "Renouvellement",
+      "transfer": "Transfert",
+      "nameservers": "Serveurs de noms",
+      "nameserver": "Serveur de noms :number",
+      "dns": "DNS",
+      "whois_privacy": "Protection WHOIS",
+      "creation_date": "Date de création",
+      "expiration_date": "Date d'expiration",
+      "search": {
+        "title": "Rechercher un domaine",
+        "submit": "Rechercher",
+        "available": "Disponible",
+        "unavailable": "Indisponible",
+        "no_product": "Aucun produit de type domaine actif n'est configuré."
+      },
+      "errors": {
+        "invalid_tld": "Le domaine ne correspond pas à l'extension sélectionnée."
+      }
+    },
     "cancellation": {
       "rule_label": "Règle d'annulation",
       "mode_immediate": "Autoriser l'annulation immédiate",
@@ -2234,8 +2270,23 @@
             "cancellation_lock_days_help": "Pendant cette période, le formulaire d’annulation reste masqué même si l’option est activée.",
             "lifecycle_title": "Cycle d'expiration et de suspension",
             "suspend_after_unpaid_days": "Suspension automatique après facture impayée (J+)",
-            "renewal_grace_days": "Fenêtre de renouvellement avec rappels (jours)"
+            "renewal_grace_days": "Fenêtre de renouvellement avec rappels (jours)",
+            "domain_search_enabled": "Activer la recherche de domaines",
           }
+        }
+      },
+      "domain_tlds": {
+        "title": "Extensions de domaines",
+        "subheading": "Configurez les extensions, providers et prix des domaines.",
+        "extension": "Extension",
+        "server": "Provider par défaut",
+        "prices": "Prix par action",
+        "create": {
+          "title": "Créer une extension",
+          "subheading": "Ajouter une nouvelle extension de domaine."
+        },
+        "show": {
+          "title": "Extension :name"
         }
       },
       "servers": {
@@ -2439,6 +2490,13 @@
         "title": "Sous-domaines",
         "subdomain": "Sous-domaine",
         "subheading": "Ajoutez ou gérez les sous-domaines autorisés que vos clients peuvent utiliser pour leurs services Web hébergés.",
+        "products": "Produits autorisés",
+        "groups": "Groupes autorisés",
+        "restrictions": "Restrictions",
+        "restrictions_help": "Laissez vide pour autoriser ce sous-domaine sur tous les produits.",
+        "all_products": "Tous les produits",
+        "products_count": ":count produit|:count produits",
+        "groups_count": ":count groupe|:count groupes",
         "create": {
           "title": "Créer un sous-domaine",
           "subheading": "Créer un nouveau sous-domaine pour les clients."
