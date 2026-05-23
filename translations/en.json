@@ -1,5 +1,47 @@
 {
   "language": "English",
+  "lang.en.admin": {
+    "bulk": {
+      "selected": "Selected",
+      "confirm": "Apply \"{_action}\" to the selected items?"
+    },
+    "selected": "Selection"
+  },
+  "lang.en.global": {
+    "close": "Close",
+    "confirm": "Confirm",
+    "departments": "Departments",
+    "emails": "Emails",
+    "groups": "Groups",
+    "locales": "Locales",
+    "reopen": "Reopen",
+    "roles": "Roles",
+    "staffs": "Staff",
+    "unblock": "Unblock"
+  },
+  "lang.en.helpdesk": {
+    "admin": {
+      "statistics": "Statistics"
+    },
+    "message": "Message",
+    "guest": {
+      "title": "Open a ticket without an account",
+      "intro": "Our team will reply at the email address you provide below. No account is required to follow the conversation.",
+      "email_help": "Make sure this address is right - that's how we'll reach back to you.",
+      "disclaimer": "By submitting this message you agree to be contacted by email.",
+      "submit": "Send message",
+      "submitted": "Your request has been received. Keep the tracking link to read our replies.",
+      "replied": "Your reply has been sent.",
+      "reply_submit": "Send reply",
+      "reply_title": "Reply",
+      "tracking_title": "Ticket: {_subject}",
+      "opened_at": "Opened on {_date}",
+      "bookmark_warning": "Bookmark this page - it's your only access to the ticket without an account.",
+      "staff_reply": "Support reply",
+      "you": "You",
+      "closed_notice": "This ticket has been closed. Open a new one if you have a follow-up question."
+    }
+  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "History of actions",
@@ -66,7 +108,12 @@
       "changedefaulthelp": "You can change the default language in the global settings.",
       "download_success": "The translation files have been successfully uploaded.",
       "download_error": "You cannot download the translation files for the French language locally.",
-      "description": "Find the list of languages available for the customer area. Turn languages on or off as needed."
+      "description": "Find the list of languages available for the customer area. Turn languages on or off as needed.",
+      "countries_saved": "The list of activated countries has been saved successfully.",
+      "countries": {
+        "admin.locales.countries.description": "Select the countries available in the forms and validations in the customer area.",
+        "admin.locales.countries.field": "Countries available"
+      }
     },
     "update": {
       "changelog": "Changelog",
@@ -655,6 +702,8 @@
               "driver_help": "You must have a secret key for the reCaptcha driver",
               "site_key": "Site Key",
               "secret_key": "Secret Key",
+              "force_2fa_client": "Force double authentication for clients",
+              "force_2fa_admin": "Force double authentication for administrators",
               "driver_recaptcha_help": "You can get a key at <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. You need to use invisible v2 keys",
               "driver_hcaptcha_help": "You can get a key at <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>",
               "driver_cloudflare_help": "You can get a key at <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. You need to select the \"managed\" widget"
@@ -753,7 +802,12 @@
     "backtosite": "Back to the website",
     "backtostore": "Back to the shop",
     "doyouwantclone": "Do you really want to clone this item?",
-    "doyouwantreally": "Do you really want to do this?"
+    "doyouwantreally": "Do you really want to do this?",
+    "bulk": {
+      "selected": "Selected",
+      "confirm": "Apply “{_action}” to selected elements?"
+    },
+    "selected": "Selection"
   },
   "lang.fr.auth": {
     "failed": "These identifiers do not correspond to our records.",
@@ -1124,6 +1178,10 @@
       },
       "password_updated": "Your password has been updated successfully.",
       "2fa": {
+        "send_email_code": "Send a code by email",
+        "email_sent": "A double authentication code has been sent by email. It is valid for 5 minutes.",
+        "email_new_ip": "Request a double authentication code by email when connecting from a new IP address",
+        "options_saved": "The two-factor authentication options have been saved.",
         "enabled": "Two-factor authentication has been enabled",
         "disabled": "Two-factor authentication has been disabled",
         "title": "Two-factor authentication",
@@ -1588,7 +1646,17 @@
     "none": "None",
     "delete": "Delete",
     "already_sent": "Already Sent",
-    "email_trouble_clicking_button": "If you have problems clicking on the \"{_actionText}\" button, copy and paste the URL below"
+    "email_trouble_clicking_button": "If you have problems clicking on the \"{_actionText}\" button, copy and paste the URL below",
+    "close": "Close",
+    "confirm": "Confirm",
+    "departments": "Departments",
+    "emails": "Emails",
+    "groups": "Groups",
+    "locales": "LANGUAGES",
+    "reopen": "Reopen",
+    "roles": "Roles",
+    "staffs": "Staff",
+    "unblock": "Unblock"
   },
   "lang.fr.helpdesk": {
     "subject": "Subject",
@@ -1721,7 +1789,26 @@
           "title": "Department sheet {_name}",
           "subheading": "Here is the information related to this department created on {_date}"
         }
-      }
+      },
+      "statistics": "Statistics"
+    },
+    "message": "Message",
+    "guest": {
+      "title": "Open a ticket without an account",
+      "intro": "Our team will respond to you at the email address you provide below. No account is required to follow the conversation.",
+      "email_help": "Please keep this address carefully - we will use it to respond to you.",
+      "disclaimer": "By sending this message you agree to be contacted by email.",
+      "submit": "Send message",
+      "submitted": "Your request has been received. Keep the tracking link to see the responses.",
+      "replied": "Your response has been sent.",
+      "reply_submit": "Send reply",
+      "reply_title": "Answer",
+      "tracking_title": "Ticket:{_subject}",
+      "opened_at": "Opened on{_date}",
+      "bookmark_warning": "Bookmark this page - it's your only access to the ticket without an account.",
+      "staff_reply": "Support response",
+      "you": "YOU",
+      "closed_notice": "This ticket has been closed. Open a new one if you have an additional question."
     }
   },
   "lang.fr.http-statuses": {
@@ -2203,6 +2290,31 @@
       "starting": "Starting",
       "stopping": "Stopping"
     },
+    "domain_manager": {
+      "server_type": "Domain Manager",
+      "domain": "Domain",
+      "tld": "Extension",
+      "details": "Domain Details",
+      "register": "Registration",
+      "renew": "Renewal",
+      "transfer": "Transfer",
+      "nameservers": "Name servers",
+      "nameserver": "Nameserver: number",
+      "dns": "DNS",
+      "whois_privacy": "WHOIS Protection",
+      "creation_date": "Creation date",
+      "expiration_date": "Expiration date",
+      "search": {
+        "title": "Search for a domain",
+        "submit": "To research",
+        "available": "Available",
+        "unavailable": "Unavailable",
+        "no_product": "No active domain type product is configured."
+      },
+      "errors": {
+        "invalid_tld": "The domain does not match the selected extension."
+      }
+    },
     "cancellation": {
       "rule_label": "Cancellation rule",
       "mode_immediate": "Allow immediate cancellation",
@@ -2235,8 +2347,23 @@
             "cancellation_lock_days_help": "During this period, the cancellation form remains hidden even if the option is enabled.",
             "lifecycle_title": "Exhalation and suspension cycle",
             "suspend_after_unpaid_days": "Automatic suspension after unpaid invoice (D+)",
-            "renewal_grace_days": "Renewal window with reminders (days)"
+            "renewal_grace_days": "Renewal window with reminders (days)",
+            "domain_search_enabled": "Enable domain search"
           }
+        }
+      },
+      "domain_tlds": {
+        "title": "Domain extensions",
+        "subheading": "Configure domain extensions, providers and prices.",
+        "extension": "Extension",
+        "server": "Default Provider",
+        "prices": "Price per share",
+        "create": {
+          "title": "Create an extension",
+          "subheading": "Add a new domain extension."
+        },
+        "show": {
+          "title": "Extension :name"
         }
       },
       "servers": {
@@ -2440,6 +2567,13 @@
         "title": "Subdomains",
         "subdomain": "Subdomain",
         "subheading": "Manage which domains can be used with a subdomain by customers.",
+        "products": "Authorized products",
+        "groups": "Allowed groups",
+        "restrictions": "Restrictions",
+        "restrictions_help": "Leave blank to allow this subdomain on all products.",
+        "all_products": "All products",
+        "products_count": ":count product|:count products",
+        "groups_count": ":count group|:count groups",
         "create": {
           "title": "Create a subdomain",
           "subheading": "Create a new subdomain for customers."
@@ -2890,48 +3024,6 @@
     "upgrade": {
       "title": "Service upgraded",
       "description": "A service has been upgraded."
-    }
-  },
-  "lang.en.admin": {
-    "bulk": {
-      "selected": "Selected",
-      "confirm": "Apply \"{_action}\" to the selected items?"
-    },
-    "selected": "Selection"
-  },
-  "lang.en.global": {
-    "close": "Close",
-    "confirm": "Confirm",
-    "departments": "Departments",
-    "emails": "Emails",
-    "groups": "Groups",
-    "locales": "Locales",
-    "reopen": "Reopen",
-    "roles": "Roles",
-    "staffs": "Staff",
-    "unblock": "Unblock"
-  },
-  "lang.en.helpdesk": {
-    "admin": {
-      "statistics": "Statistics"
-    },
-    "message": "Message",
-    "guest": {
-      "title": "Open a ticket without an account",
-      "intro": "Our team will reply at the email address you provide below. No account is required to follow the conversation.",
-      "email_help": "Make sure this address is right - that's how we'll reach back to you.",
-      "disclaimer": "By submitting this message you agree to be contacted by email.",
-      "submit": "Send message",
-      "submitted": "Your request has been received. Keep the tracking link to read our replies.",
-      "replied": "Your reply has been sent.",
-      "reply_submit": "Send reply",
-      "reply_title": "Reply",
-      "tracking_title": "Ticket: {_subject}",
-      "opened_at": "Opened on {_date}",
-      "bookmark_warning": "Bookmark this page - it's your only access to the ticket without an account.",
-      "staff_reply": "Support reply",
-      "you": "You",
-      "closed_notice": "This ticket has been closed. Open a new one if you have a follow-up question."
     }
   }
 }

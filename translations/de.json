@@ -1,5 +1,47 @@
 {
   "language": "Deutsch",
+  "lang.de.admin": {
+    "bulk": {
+      "selected": "Ausgewählt",
+      "confirm": "„{_action}\" auf die ausgewählten Elemente anwenden?"
+    },
+    "selected": "Auswahl"
+  },
+  "lang.de.global": {
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "departments": "Abteilungen",
+    "emails": "E-Mails",
+    "groups": "Gruppen",
+    "locales": "Sprachen",
+    "reopen": "Wieder öffnen",
+    "roles": "Rollen",
+    "staffs": "Personal",
+    "unblock": "Entsperren"
+  },
+  "lang.de.helpdesk": {
+    "admin": {
+      "statistics": "Statistiken"
+    },
+    "message": "Nachricht",
+    "guest": {
+      "title": "Ticket ohne Konto eröffnen",
+      "intro": "Unser Team antwortet an die unten angegebene E-Mail-Adresse. Kein Konto erforderlich, um die Konversation zu verfolgen.",
+      "email_help": "Stellen Sie sicher, dass diese Adresse korrekt ist - darüber erreichen wir Sie.",
+      "disclaimer": "Mit dem Absenden dieser Nachricht erklären Sie sich damit einverstanden, per E-Mail kontaktiert zu werden.",
+      "submit": "Nachricht senden",
+      "submitted": "Ihre Anfrage wurde empfangen. Bewahren Sie den Tracking-Link auf, um Antworten zu lesen.",
+      "replied": "Ihre Antwort wurde gesendet.",
+      "reply_submit": "Antwort senden",
+      "reply_title": "Antworten",
+      "tracking_title": "Ticket: {_subject}",
+      "opened_at": "Eröffnet am {_date}",
+      "bookmark_warning": "Setzen Sie diese Seite als Lesezeichen - es ist Ihr einziger Zugriff auf das Ticket ohne Konto.",
+      "staff_reply": "Antwort vom Support",
+      "you": "Sie",
+      "closed_notice": "Dieses Ticket wurde geschlossen. Öffnen Sie ein neues, wenn Sie eine weitere Frage haben."
+    }
+  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "Geschichte der Aktionen",
@@ -66,7 +108,12 @@
       "changedefaulthelp": "Sie können die Standardsprache in den globalen Einstellungen ändern.",
       "download_success": "Die Übersetzungsdateien wurden erfolgreich hochgeladen.",
       "download_error": "Sie können die Übersetzungsdateien für die französische Sprache nicht lokal herunterladen.",
-      "description": "Suchen Sie die Liste der Sprachen, die für den Kundenbereich verfügbar sind. Schalten Sie Sprachen nach Bedarf ein oder aus."
+      "description": "Suchen Sie die Liste der Sprachen, die für den Kundenbereich verfügbar sind. Schalten Sie Sprachen nach Bedarf ein oder aus.",
+      "countries_saved": "Die Liste der aktivierten Länder wurde erfolgreich gespeichert.",
+      "countries": {
+        "admin.locales.countries.description": "Wählen Sie die in den Formularen und Validierungen im Kundenbereich verfügbaren Länder aus.",
+        "admin.locales.countries.field": "Länder verfügbar"
+      }
     },
     "update": {
       "changelog": "Journal der Änderungen",
@@ -655,6 +702,8 @@
               "driver_help": "Sie müssen einen geheimen Schlüssel für den reCaptcha-Treiber haben",
               "site_key": "Site-Schlüssel",
               "secret_key": "Geheimer Schlüssel",
+              "force_2fa_client": "Erzwingen Sie eine doppelte Authentifizierung für Clients",
+              "force_2fa_admin": "Erzwingen Sie eine doppelte Authentifizierung für Administratoren",
               "driver_recaptcha_help": "Sie können einen Schlüssel unter <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>\" abrufen. Sie müssen unsichtbare v2-Schlüssel verwenden",
               "driver_hcaptcha_help": "Sie können einen Schlüssel unter <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>",
               "driver_cloudflare_help": "Sie können einen Schlüssel unter <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>\" abrufen. Sie müssen das Widget \"verwaltet\" auswählen"
@@ -753,7 +802,12 @@
     "backtosite": "Zurück zur Website",
     "backtostore": "Zurück zum Shop",
     "doyouwantclone": "Wollen Sie dieses Element wirklich klonen?",
-    "doyouwantreally": "Wollen Sie das wirklich tun?"
+    "doyouwantreally": "Wollen Sie das wirklich tun?",
+    "bulk": {
+      "selected": "Ausgewählt",
+      "confirm": "„{_action}“ auf ausgewählte Elemente anwenden?"
+    },
+    "selected": "Auswahl"
   },
   "lang.fr.auth": {
     "failed": "Diese Identifikatoren stimmen nicht mit unseren Aufzeichnungen überein.",
@@ -1124,6 +1178,10 @@
       },
       "password_updated": "Ihr Passwort wurde erfolgreich aktualisiert.",
       "2fa": {
+        "send_email_code": "Senden Sie einen Code per E-Mail",
+        "email_sent": "Ein doppelter Authentifizierungscode wurde per E-Mail gesendet. Es ist 5 Minuten gültig.",
+        "email_new_ip": "Fordern Sie per E-Mail einen doppelten Authentifizierungscode an, wenn Sie eine Verbindung von einer neuen IP-Adresse herstellen",
+        "options_saved": "Die Optionen zur Zwei-Faktor-Authentifizierung wurden gespeichert.",
         "enabled": "Die Zwei-Faktor-Authentifizierung wurde aktiviert",
         "disabled": "Die Zwei-Faktor-Authentifizierung wurde deaktiviert",
         "title": "Zwei-Faktor-Authentifizierung",
@@ -1588,7 +1646,17 @@
     "none": "Nichts",
     "delete": "Löschen",
     "already_sent": "Bereits gesendet",
-    "email_trouble_clicking_button": "Wenn Sie Probleme haben, auf die Schaltfläche \"{_actionText}\" zu klicken, kopieren Sie die untenstehende URL und fügen Sie sie ein"
+    "email_trouble_clicking_button": "Wenn Sie Probleme haben, auf die Schaltfläche \"{_actionText}\" zu klicken, kopieren Sie die untenstehende URL und fügen Sie sie ein",
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "departments": "Abteilungen",
+    "emails": "E-Mails",
+    "groups": "Gruppen",
+    "locales": "SPRACHEN",
+    "reopen": "Wieder öffnen",
+    "roles": "Rollen",
+    "staffs": "Personal",
+    "unblock": "Entsperren"
   },
   "lang.fr.helpdesk": {
     "subject": "Betreff",
@@ -1721,7 +1789,26 @@
           "title": "Abteilungsblatt {_name}",
           "subheading": "Hier sind die Informationen zu dieser Abteilung, die am {_date} erstellt wurden."
         }
-      }
+      },
+      "statistics": "Statistiken"
+    },
+    "message": "Nachricht",
+    "guest": {
+      "title": "Eröffnen Sie ein Ticket ohne Konto",
+      "intro": "Unser Team wird Ihnen unter der unten angegebenen E-Mail-Adresse antworten. Um dem Gespräch zu folgen, ist kein Konto erforderlich.",
+      "email_help": "Bitte bewahren Sie diese Adresse sorgfältig auf – wir werden sie für die Beantwortung Ihrer Anfrage verwenden.",
+      "disclaimer": "Mit dem Absenden dieser Nachricht stimmen Sie der Kontaktaufnahme per E-Mail zu.",
+      "submit": "Nachricht senden",
+      "submitted": "Ihre Anfrage ist eingegangen. Behalten Sie den Tracking-Link, um die Antworten zu sehen.",
+      "replied": "Ihre Antwort wurde gesendet.",
+      "reply_submit": "Antwort senden",
+      "reply_title": "Antwort",
+      "tracking_title": "Ticket:{_subject}",
+      "opened_at": "Geöffnet am{_date}",
+      "bookmark_warning": "Setzen Sie ein Lesezeichen auf diese Seite – es ist Ihr einziger Zugriff auf das Ticket ohne Konto.",
+      "staff_reply": "Support-Antwort",
+      "you": "DU",
+      "closed_notice": "Dieses Ticket wurde geschlossen. Öffnen Sie eine neue, wenn Sie eine weitere Frage haben."
     }
   },
   "lang.fr.http-statuses": {
@@ -2203,6 +2290,31 @@
       "starting": "Erste Schritte",
       "stopping": "Abschaltung läuft"
     },
+    "domain_manager": {
+      "server_type": "Domänenmanager",
+      "domain": "Domain",
+      "tld": "Verlängerung",
+      "details": "Domaindetails",
+      "register": "Anmeldung",
+      "renew": "Erneuerung",
+      "transfer": "Überweisen",
+      "nameservers": "Nameserver",
+      "nameserver": "Nameserver: Nummer",
+      "dns": "DNS",
+      "whois_privacy": "WHOIS-Schutz",
+      "creation_date": "Erstellungsdatum",
+      "expiration_date": "Verfallsdatum",
+      "search": {
+        "title": "Suchen Sie nach einer Domain",
+        "submit": "Zur Recherche",
+        "available": "Verfügbar",
+        "unavailable": "Nicht verfügbar",
+        "no_product": "Es ist kein aktives Domänentypprodukt konfiguriert."
+      },
+      "errors": {
+        "invalid_tld": "Die Domain stimmt nicht mit der ausgewählten Erweiterung überein."
+      }
+    },
     "cancellation": {
       "rule_label": "Stornoregel",
       "mode_immediate": "Erlauben Sie eine sofortige Stornierung",
@@ -2235,8 +2347,23 @@
             "cancellation_lock_days_help": "Während dieser Zeit bleibt das Kündigungsformular verborgen, auch wenn die Option aktiviert ist.",
             "lifecycle_title": "Ausatmungs- und Schwebezyklus",
             "suspend_after_unpaid_days": "Automatische Sperre nach unbezahlter Rechnung (D+)",
-            "renewal_grace_days": "Verlängerungsfenster mit Erinnerungen (Tage)"
+            "renewal_grace_days": "Verlängerungsfenster mit Erinnerungen (Tage)",
+            "domain_search_enabled": "Aktivieren Sie die Domänensuche"
           }
+        }
+      },
+      "domain_tlds": {
+        "title": "Domain-Erweiterungen",
+        "subheading": "Konfigurieren Sie Domainendungen, Anbieter und Preise.",
+        "extension": "Verlängerung",
+        "server": "Standardanbieter",
+        "prices": "Preis pro Aktie",
+        "create": {
+          "title": "Erstellen Sie eine Erweiterung",
+          "subheading": "Fügen Sie eine neue Domainendung hinzu."
+        },
+        "show": {
+          "title": "Erweiterung :name"
         }
       },
       "servers": {
@@ -2440,6 +2567,13 @@
         "title": "Subdomains",
         "subdomain": "Unterdomäne",
         "subheading": "Verwalten Sie, welche Domains von Kunden mit einer Subdomain verwendet werden können.",
+        "products": "Autorisierte Produkte",
+        "groups": "Erlaubte Gruppen",
+        "restrictions": "Einschränkungen",
+        "restrictions_help": "Lassen Sie das Feld leer, um diese Subdomain für alle Produkte zuzulassen.",
+        "all_products": "Alle Produkte",
+        "products_count": ":Produkt zählen|:Produkte zählen",
+        "groups_count": ":count-Gruppe|:count-Gruppen",
         "create": {
           "title": "Erstellen einer Subdomain",
           "subheading": "Erstellen Sie eine neue Subdomain für Kunden."
@@ -2890,48 +3024,6 @@
     "upgrade": {
       "title": "Service aufgerüstet",
       "description": "Ein Dienst wurde aufgerüstet"
-    }
-  },
-  "lang.de.admin": {
-    "bulk": {
-      "selected": "Ausgewählt",
-      "confirm": "„{_action}\" auf die ausgewählten Elemente anwenden?"
-    },
-    "selected": "Auswahl"
-  },
-  "lang.de.global": {
-    "close": "Schließen",
-    "confirm": "Bestätigen",
-    "departments": "Abteilungen",
-    "emails": "E-Mails",
-    "groups": "Gruppen",
-    "locales": "Sprachen",
-    "reopen": "Wieder öffnen",
-    "roles": "Rollen",
-    "staffs": "Personal",
-    "unblock": "Entsperren"
-  },
-  "lang.de.helpdesk": {
-    "admin": {
-      "statistics": "Statistiken"
-    },
-    "message": "Nachricht",
-    "guest": {
-      "title": "Ticket ohne Konto eröffnen",
-      "intro": "Unser Team antwortet an die unten angegebene E-Mail-Adresse. Kein Konto erforderlich, um die Konversation zu verfolgen.",
-      "email_help": "Stellen Sie sicher, dass diese Adresse korrekt ist - darüber erreichen wir Sie.",
-      "disclaimer": "Mit dem Absenden dieser Nachricht erklären Sie sich damit einverstanden, per E-Mail kontaktiert zu werden.",
-      "submit": "Nachricht senden",
-      "submitted": "Ihre Anfrage wurde empfangen. Bewahren Sie den Tracking-Link auf, um Antworten zu lesen.",
-      "replied": "Ihre Antwort wurde gesendet.",
-      "reply_submit": "Antwort senden",
-      "reply_title": "Antworten",
-      "tracking_title": "Ticket: {_subject}",
-      "opened_at": "Eröffnet am {_date}",
-      "bookmark_warning": "Setzen Sie diese Seite als Lesezeichen - es ist Ihr einziger Zugriff auf das Ticket ohne Konto.",
-      "staff_reply": "Antwort vom Support",
-      "you": "Sie",
-      "closed_notice": "Dieses Ticket wurde geschlossen. Öffnen Sie ein neues, wenn Sie eine weitere Frage haben."
     }
   }
 }

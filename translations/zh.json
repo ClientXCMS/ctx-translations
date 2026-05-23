@@ -1,5 +1,47 @@
 {
   "language": "中文",
+  "lang.zh.admin": {
+    "bulk": {
+      "selected": "已选",
+      "confirm": "对所选项目应用\"{_action}\"？"
+    },
+    "selected": "选择"
+  },
+  "lang.zh.global": {
+    "close": "关闭",
+    "confirm": "确认",
+    "departments": "部门",
+    "emails": "邮件",
+    "groups": "组",
+    "locales": "语言",
+    "reopen": "重新打开",
+    "roles": "角色",
+    "staffs": "员工",
+    "unblock": "解除封锁"
+  },
+  "lang.zh.helpdesk": {
+    "admin": {
+      "statistics": "统计"
+    },
+    "message": "消息",
+    "guest": {
+      "title": "无需账户即可开单",
+      "intro": "我们的团队将回复您在下方提供的电子邮件地址。无需账户即可关注对话。",
+      "email_help": "请确保此地址正确，我们将通过它回复您。",
+      "disclaimer": "提交此消息即表示您同意通过电子邮件联系。",
+      "submit": "发送消息",
+      "submitted": "您的请求已收到。请保存跟踪链接以查看回复。",
+      "replied": "您的回复已发送。",
+      "reply_submit": "发送回复",
+      "reply_title": "回复",
+      "tracking_title": "工单：{_subject}",
+      "opened_at": "于 {_date} 开单",
+      "bookmark_warning": "请将此页加入书签——它是您无需账户访问该工单的唯一入口。",
+      "staff_reply": "支持回复",
+      "you": "您",
+      "closed_notice": "此工单已关闭。如有其他问题，请新建工单。"
+    }
+  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "操作历史记录",
@@ -66,7 +108,12 @@
       "changedefaulthelp": "您可以在全局设置中更改默认语言。",
       "download_success": "翻译文件已成功上传。",
       "download_error": "您无法在本地下载法语翻译文件。",
-      "description": "查找 Customer Area 的可用语言列表。根据需要开启或关闭语言。"
+      "description": "查找 Customer Area 的可用语言列表。根据需要开启或关闭语言。",
+      "countries_saved": "已成功保存激活的国家/地区列表。",
+      "countries": {
+        "admin.locales.countries.description": "选择客户区域的表格和验证中可用的国家/地区。",
+        "admin.locales.countries.field": "可用国家"
+      }
     },
     "update": {
       "changelog": "修改日志",
@@ -655,6 +702,8 @@
               "driver_help": "您必须拥有 reCaptcha 驱动程序的密钥",
               "site_key": "站点密钥",
               "secret_key": "密钥",
+              "force_2fa_client": "强制对客户端进行双重身份验证",
+              "force_2fa_admin": "强制管理员进行双重身份验证",
               "driver_recaptcha_help": "您可以在 <a href=“https://{_url}” class=“text-primary” target=“_blank” rel=“noopener noreferrer”>{_url} 处获取密钥</a>。您需要使用不可见的 v2 密钥",
               "driver_hcaptcha_help": "您可以在 <a href=“https://{_url}” class=“text-primary” target=“_blank” rel=“noopener noreferrer”>{_url} 获取键</a>",
               "driver_cloudflare_help": "您可以在 <a href=“https://{_url}” class=“text-primary” target=“_blank” rel=“noopener noreferrer”>{_url} 处获取密钥</a>。您需要选择“托管”小部件"
@@ -753,7 +802,12 @@
     "backtosite": "返回网站",
     "backtostore": "返回商店",
     "doyouwantclone": "您真的想克隆这个元素吗？",
-    "doyouwantreally": "您真的想这样做吗？"
+    "doyouwantreally": "您真的想这样做吗？",
+    "bulk": {
+      "selected": "已选择",
+      "confirm": "将“{_action}”应用于所选元素？"
+    },
+    "selected": "选择"
   },
   "lang.fr.auth": {
     "failed": "这些标识符与我们的记录不对应。",
@@ -1124,6 +1178,10 @@
       },
       "password_updated": "您的密码已成功更新。",
       "2fa": {
+        "send_email_code": "通过电子邮件发送代码",
+        "email_sent": "双重验证码已通过电子邮件发送。 有效期为5分钟。",
+        "email_new_ip": "从新 IP 地址连接时通过电子邮件请求双重身份验证码",
+        "options_saved": "双因素身份验证选项已保存。",
         "enabled": "已启用双重身份验证",
         "disabled": "双因素身份验证已禁用",
         "title": "双重认证",
@@ -1588,7 +1646,17 @@
     "none": "没有",
     "delete": "删除",
     "already_sent": "已发送",
-    "email_trouble_clicking_button": "如果您在点击“{_actionText}”按钮时遇到问题，请复制并粘贴下面的 URL"
+    "email_trouble_clicking_button": "如果您在点击“{_actionText}”按钮时遇到问题，请复制并粘贴下面的 URL",
+    "close": "关闭",
+    "confirm": "确认",
+    "departments": "部门",
+    "emails": "电子邮件",
+    "groups": "团体",
+    "locales": "语言",
+    "reopen": "重新开放",
+    "roles": "角色",
+    "staffs": "职员",
+    "unblock": "解锁"
   },
   "lang.fr.helpdesk": {
     "subject": "主题",
@@ -1721,7 +1789,26 @@
           "title": "部门表 {_name}",
           "subheading": "以下是在 {_date} 上创建的与此部门相关的信息"
         }
-      }
+      },
+      "statistics": "统计数据"
+    },
+    "message": "信息",
+    "guest": {
+      "title": "无需账户即可开票",
+      "intro": "我们的团队将通过您在下面提供的电子邮件地址回复您。 无需帐户即可关注对话。",
+      "email_help": "请仔细保存此地址 - 我们将用它来回复您。",
+      "disclaimer": "发送此消息即表示您同意通过电子邮件与我们联系。",
+      "submit": "发送消息",
+      "submitted": "您的请求已收到。 保留跟踪链接以查看回复。",
+      "replied": "您的回复已发送。",
+      "reply_submit": "发送回复",
+      "reply_title": "回答",
+      "tracking_title": "门票：{_subject}",
+      "opened_at": "已于{_date}开启",
+      "bookmark_warning": "将此页面添加为书签 - 这是您在没有帐户的情况下访问门票的唯一途径。",
+      "staff_reply": "支持响应",
+      "you": "你",
+      "closed_notice": "此票已关闭。 如果您还有其他问题，请打开新的问题。"
     }
   },
   "lang.fr.http-statuses": {
@@ -2203,6 +2290,31 @@
       "starting": "开始",
       "stopping": "正在关闭"
     },
+    "domain_manager": {
+      "server_type": "域经理",
+      "domain": "领域",
+      "tld": "扩大",
+      "details": "域名详细信息",
+      "register": "登记",
+      "renew": "更新",
+      "transfer": "转移",
+      "nameservers": "名称服务器",
+      "nameserver": "名称服务器：号码",
+      "dns": "域名系统",
+      "whois_privacy": "WHOIS 保护",
+      "creation_date": "创建日期",
+      "expiration_date": "截止日期",
+      "search": {
+        "title": "搜索域名",
+        "submit": "去研究",
+        "available": "可用的",
+        "unavailable": "不可用",
+        "no_product": "未配置主域类型产品。"
+      },
+      "errors": {
+        "invalid_tld": "该域与所选扩展名不匹配。"
+      }
+    },
     "cancellation": {
       "rule_label": "取消规则",
       "mode_immediate": "允许立即取消",
@@ -2235,8 +2347,23 @@
             "cancellation_lock_days_help": "在此期间，即使启用了该选项，取消表单也将保持隐藏。",
             "lifecycle_title": "呼气和暂停循环",
             "suspend_after_unpaid_days": "未付发票后自动暂停 (D+)",
-            "renewal_grace_days": "带提醒的续订窗口（天）"
+            "renewal_grace_days": "带提醒的续订窗口（天）",
+            "domain_search_enabled": "启用域搜索"
           }
+        }
+      },
+      "domain_tlds": {
+        "title": "域名扩展",
+        "subheading": "配置域名扩展、提供商和价格。",
+        "extension": "扩大",
+        "server": "默认提供商",
+        "prices": "每股价格",
+        "create": {
+          "title": "创建扩展",
+          "subheading": "添加新的域名扩展。"
+        },
+        "show": {
+          "title": "扩展名：名称"
         }
       },
       "servers": {
@@ -2440,6 +2567,13 @@
         "title": "子域",
         "subdomain": "子域",
         "subheading": "管理客户可以将哪些域与子域一起使用。",
+        "products": "授权产品",
+        "groups": "允许的团体",
+        "restrictions": "限制",
+        "restrictions_help": "留空可在所有产品上允许此子域。",
+        "all_products": "所有产品",
+        "products_count": ":计数产品|:计数产品",
+        "groups_count": ":计数组|:计数组",
         "create": {
           "title": "创建子域",
           "subheading": "为客户创建新的子域。"
@@ -2890,48 +3024,6 @@
     "upgrade": {
       "title": "服务升级",
       "description": "服务已升级"
-    }
-  },
-  "lang.zh.admin": {
-    "bulk": {
-      "selected": "已选",
-      "confirm": "对所选项目应用\"{_action}\"？"
-    },
-    "selected": "选择"
-  },
-  "lang.zh.global": {
-    "close": "关闭",
-    "confirm": "确认",
-    "departments": "部门",
-    "emails": "邮件",
-    "groups": "组",
-    "locales": "语言",
-    "reopen": "重新打开",
-    "roles": "角色",
-    "staffs": "员工",
-    "unblock": "解除封锁"
-  },
-  "lang.zh.helpdesk": {
-    "admin": {
-      "statistics": "统计"
-    },
-    "message": "消息",
-    "guest": {
-      "title": "无需账户即可开单",
-      "intro": "我们的团队将回复您在下方提供的电子邮件地址。无需账户即可关注对话。",
-      "email_help": "请确保此地址正确，我们将通过它回复您。",
-      "disclaimer": "提交此消息即表示您同意通过电子邮件联系。",
-      "submit": "发送消息",
-      "submitted": "您的请求已收到。请保存跟踪链接以查看回复。",
-      "replied": "您的回复已发送。",
-      "reply_submit": "发送回复",
-      "reply_title": "回复",
-      "tracking_title": "工单：{_subject}",
-      "opened_at": "于 {_date} 开单",
-      "bookmark_warning": "请将此页加入书签——它是您无需账户访问该工单的唯一入口。",
-      "staff_reply": "支持回复",
-      "you": "您",
-      "closed_notice": "此工单已关闭。如有其他问题，请新建工单。"
     }
   }
 }

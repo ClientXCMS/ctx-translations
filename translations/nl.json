@@ -1,5 +1,47 @@
 {
   "language": "Nederlands",
+  "lang.nl.admin": {
+    "bulk": {
+      "selected": "Geselecteerd",
+      "confirm": "\"{_action}\" toepassen op de geselecteerde items?"
+    },
+    "selected": "Selectie"
+  },
+  "lang.nl.global": {
+    "close": "Sluiten",
+    "confirm": "Bevestigen",
+    "departments": "Afdelingen",
+    "emails": "E-mails",
+    "groups": "Groepen",
+    "locales": "Talen",
+    "reopen": "Heropenen",
+    "roles": "Rollen",
+    "staffs": "Personeel",
+    "unblock": "Deblokkeren"
+  },
+  "lang.nl.helpdesk": {
+    "admin": {
+      "statistics": "Statistieken"
+    },
+    "message": "Bericht",
+    "guest": {
+      "title": "Open een ticket zonder account",
+      "intro": "Ons team reageert op het e-mailadres dat u hieronder opgeeft. Geen account nodig om het gesprek te volgen.",
+      "email_help": "Zorg ervoor dat dit adres klopt - daarop nemen we contact met u op.",
+      "disclaimer": "Door dit bericht te verzenden gaat u akkoord met contact via e-mail.",
+      "submit": "Bericht verzenden",
+      "submitted": "Uw verzoek is ontvangen. Bewaar de tracking-link om de antwoorden te lezen.",
+      "replied": "Uw antwoord is verzonden.",
+      "reply_submit": "Antwoord verzenden",
+      "reply_title": "Antwoorden",
+      "tracking_title": "Ticket: {_subject}",
+      "opened_at": "Geopend op {_date}",
+      "bookmark_warning": "Maak deze pagina favoriet - het is uw enige toegang tot het ticket zonder account.",
+      "staff_reply": "Reactie van support",
+      "you": "U",
+      "closed_notice": "Dit ticket is gesloten. Open een nieuwe als u nog een vraag heeft."
+    }
+  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "Logboeken van acties",
@@ -66,7 +108,12 @@
       "changedefaulthelp": "U kunt de standaardtaal wijzigen in de algemene instellingen.",
       "download_success": "De vertaalbestanden zijn succesvol geüpload.",
       "download_error": "U kunt de vertaalbestanden voor de Franse taal niet lokaal downloaden.",
-      "description": "Beheer de talen die beschikbaar zijn voor de gebruikers- en beheerdersinterface."
+      "description": "Beheer de talen die beschikbaar zijn voor de gebruikers- en beheerdersinterface.",
+      "countries_saved": "De lijst met geactiveerde landen is succesvol opgeslagen.",
+      "countries": {
+        "admin.locales.countries.description": "Selecteer de beschikbare landen in de formulieren en validaties in het klantengedeelte.",
+        "admin.locales.countries.field": "Beschikbare landen"
+      }
     },
     "update": {
       "changelog": "Journal van wijzigingen",
@@ -655,6 +702,8 @@
               "driver_help": "U moet een geheime sleutel hebben voor het reCaptcha-stuurprogramma",
               "site_key": "Site Sleutel",
               "secret_key": "Geheime sleutel",
+              "force_2fa_client": "Forceer dubbele authenticatie voor clients",
+              "force_2fa_admin": "Forceer dubbele authenticatie voor beheerders",
               "driver_recaptcha_help": "Je kunt een sleutel krijgen op <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. U moet onzichtbare v2-toetsen gebruiken",
               "driver_hcaptcha_help": "Je kunt een sleutel krijgen op <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>",
               "driver_cloudflare_help": "Je kunt een sleutel krijgen op <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. U moet de \"beheerde\" widget selecteren"
@@ -753,7 +802,12 @@
     "backtosite": "Terug naar de website",
     "backtostore": "Terug naar de winkel",
     "doyouwantclone": "Wilt u dit element echt klonen?",
-    "doyouwantreally": "Wil je dit echt doen? Deze actie kan problemen op het systeem veroorzaken."
+    "doyouwantreally": "Wil je dit echt doen? Deze actie kan problemen op het systeem veroorzaken.",
+    "bulk": {
+      "selected": "Gekozen",
+      "confirm": "“{_action}” toepassen op geselecteerde elementen?"
+    },
+    "selected": "Selectie"
   },
   "lang.fr.auth": {
     "failed": "Deze identificatiegegevens komen niet overeen met onze gegevens.",
@@ -1124,6 +1178,10 @@
       },
       "password_updated": "Uw wachtwoord is succesvol bijgewerkt.",
       "2fa": {
+        "send_email_code": "Stuur een code per e-mail",
+        "email_sent": "Er is per e-mail een dubbele authenticatiecode verzonden. Het is 5 minuten geldig.",
+        "email_new_ip": "Vraag een dubbele authenticatiecode per e-mail aan wanneer u verbinding maakt vanaf een nieuw IP-adres",
+        "options_saved": "De tweefactorauthenticatieopties zijn opgeslagen.",
         "enabled": "Tweefactorauthenticatie is ingeschakeld",
         "disabled": "Twee-factor-authenticatie is uitgeschakeld",
         "title": "Twee-factor-authenticatie",
@@ -1588,7 +1646,17 @@
     "none": "Geen",
     "delete": "Verwijderen",
     "already_sent": "Al verzonden",
-    "email_trouble_clicking_button": "Als u problemen ondervindt bij het klikken op de knop \"{_actionText}\", kopieert en plakt u de onderstaande URL"
+    "email_trouble_clicking_button": "Als u problemen ondervindt bij het klikken op de knop \"{_actionText}\", kopieert en plakt u de onderstaande URL",
+    "close": "Dichtbij",
+    "confirm": "Bevestigen",
+    "departments": "Afdelingen",
+    "emails": "E-mails",
+    "groups": "Groepen",
+    "locales": "TALEN",
+    "reopen": "Heropenen",
+    "roles": "Rollen",
+    "staffs": "Personeel",
+    "unblock": "Deblokkeren"
   },
   "lang.fr.helpdesk": {
     "subject": "Onderwerp",
@@ -1721,7 +1789,26 @@
           "title": "Departementsblad {_name}",
           "subheading": "Hier is de informatie met betrekking tot deze afdeling gemaakt op {_date}"
         }
-      }
+      },
+      "statistics": "Statistieken"
+    },
+    "message": "Bericht",
+    "guest": {
+      "title": "Open een ticket zonder account",
+      "intro": "Ons team zal contact met u opnemen via het e-mailadres dat u hieronder opgeeft. Om het gesprek te volgen is geen account nodig.",
+      "email_help": "Bewaar dit adres zorgvuldig. Wij gebruiken het om u te antwoorden.",
+      "disclaimer": "Door dit bericht te verzenden, gaat u ermee akkoord dat er per e-mail contact met u wordt opgenomen.",
+      "submit": "Bericht verzenden",
+      "submitted": "Uw verzoek is ontvangen. Bewaar de trackinglink om de reacties te zien.",
+      "replied": "Uw reactie is verzonden.",
+      "reply_submit": "Antwoord verzenden",
+      "reply_title": "Antwoord",
+      "tracking_title": "Ticket:{_subject}",
+      "opened_at": "Geopend op{_date}",
+      "bookmark_warning": "Maak een bladwijzer van deze pagina - het is uw enige toegang tot het ticket zonder account.",
+      "staff_reply": "Ondersteuning reactie",
+      "you": "JIJ",
+      "closed_notice": "Dit kaartje is gesloten. Open een nieuwe als u nog een aanvullende vraag heeft."
     }
   },
   "lang.fr.http-statuses": {
@@ -2203,6 +2290,31 @@
       "starting": "Slag",
       "stopping": "Shutdown bezig"
     },
+    "domain_manager": {
+      "server_type": "Domeinbeheerder",
+      "domain": "Domein",
+      "tld": "Verlenging",
+      "details": "Domeingegevens",
+      "register": "Registratie",
+      "renew": "Vernieuwing",
+      "transfer": "Overdracht",
+      "nameservers": "Naamservers",
+      "nameserver": "Naamserver: nummer",
+      "dns": "DNS",
+      "whois_privacy": "WHOIS-bescherming",
+      "creation_date": "Aanmaakdatum",
+      "expiration_date": "Vervaldatum",
+      "search": {
+        "title": "Zoek een domein",
+        "submit": "Om te onderzoeken",
+        "available": "Beschikbaar",
+        "unavailable": "Niet beschikbaar",
+        "no_product": "Er is geen actief domeintypeproduct geconfigureerd."
+      },
+      "errors": {
+        "invalid_tld": "Het domein komt niet overeen met de geselecteerde extensie."
+      }
+    },
     "cancellation": {
       "rule_label": "Annuleringsregel",
       "mode_immediate": "Sta onmiddellijke annulering toe",
@@ -2235,8 +2347,23 @@
             "cancellation_lock_days_help": "Tijdens deze periode blijft het annuleringsformulier verborgen, zelfs als de optie is ingeschakeld.",
             "lifecycle_title": "Uitadem- en opschortingscyclus",
             "suspend_after_unpaid_days": "Automatische opschorting na onbetaalde factuur (D+)",
-            "renewal_grace_days": "Verlengingsperiode met herinneringen (dagen)"
+            "renewal_grace_days": "Verlengingsperiode met herinneringen (dagen)",
+            "domain_search_enabled": "Domein zoeken inschakelen"
           }
+        }
+      },
+      "domain_tlds": {
+        "title": "Domeinextensies",
+        "subheading": "Configureer domeinextensies, providers en prijzen.",
+        "extension": "Verlenging",
+        "server": "Standaardaanbieder",
+        "prices": "Prijs per aandeel",
+        "create": {
+          "title": "Maak een extensie",
+          "subheading": "Voeg een nieuwe domeinextensie toe."
+        },
+        "show": {
+          "title": "Extensie: naam"
         }
       },
       "servers": {
@@ -2440,6 +2567,13 @@
         "title": "Subdomeinen",
         "subdomain": "Subdomein",
         "subheading": "Voeg de geautoriseerde subdomeinen toe of beheer ze die uw klanten kunnen gebruiken voor hun gehoste webservices.",
+        "products": "Geautoriseerde producten",
+        "groups": "Toegestane groepen",
+        "restrictions": "Beperkingen",
+        "restrictions_help": "Laat dit veld leeg om dit subdomein op alle producten toe te staan.",
+        "all_products": "Alle producten",
+        "products_count": ":tel product|:tel producten",
+        "groups_count": ":tel groep|:tel groepen",
         "create": {
           "title": "Maak een subdomein aan",
           "subheading": "Maak een nieuw subdomein voor klanten."
@@ -2890,48 +3024,6 @@
     "upgrade": {
       "title": "Service upgraded",
       "description": "Een dienst is geüpgraded"
-    }
-  },
-  "lang.nl.admin": {
-    "bulk": {
-      "selected": "Geselecteerd",
-      "confirm": "\"{_action}\" toepassen op de geselecteerde items?"
-    },
-    "selected": "Selectie"
-  },
-  "lang.nl.global": {
-    "close": "Sluiten",
-    "confirm": "Bevestigen",
-    "departments": "Afdelingen",
-    "emails": "E-mails",
-    "groups": "Groepen",
-    "locales": "Talen",
-    "reopen": "Heropenen",
-    "roles": "Rollen",
-    "staffs": "Personeel",
-    "unblock": "Deblokkeren"
-  },
-  "lang.nl.helpdesk": {
-    "admin": {
-      "statistics": "Statistieken"
-    },
-    "message": "Bericht",
-    "guest": {
-      "title": "Open een ticket zonder account",
-      "intro": "Ons team reageert op het e-mailadres dat u hieronder opgeeft. Geen account nodig om het gesprek te volgen.",
-      "email_help": "Zorg ervoor dat dit adres klopt - daarop nemen we contact met u op.",
-      "disclaimer": "Door dit bericht te verzenden gaat u akkoord met contact via e-mail.",
-      "submit": "Bericht verzenden",
-      "submitted": "Uw verzoek is ontvangen. Bewaar de tracking-link om de antwoorden te lezen.",
-      "replied": "Uw antwoord is verzonden.",
-      "reply_submit": "Antwoord verzenden",
-      "reply_title": "Antwoorden",
-      "tracking_title": "Ticket: {_subject}",
-      "opened_at": "Geopend op {_date}",
-      "bookmark_warning": "Maak deze pagina favoriet - het is uw enige toegang tot het ticket zonder account.",
-      "staff_reply": "Reactie van support",
-      "you": "U",
-      "closed_notice": "Dit ticket is gesloten. Open een nieuwe als u nog een vraag heeft."
     }
   }
 }

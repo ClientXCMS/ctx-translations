@@ -1,5 +1,47 @@
 {
   "language": "Português",
+  "lang.pt.admin": {
+    "bulk": {
+      "selected": "Selecionados",
+      "confirm": "Aplicar \"{_action}\" aos itens selecionados?"
+    },
+    "selected": "Seleção"
+  },
+  "lang.pt.global": {
+    "close": "Fechar",
+    "confirm": "Confirmar",
+    "departments": "Departamentos",
+    "emails": "E-mails",
+    "groups": "Grupos",
+    "locales": "Idiomas",
+    "reopen": "Reabrir",
+    "roles": "Funções",
+    "staffs": "Equipa",
+    "unblock": "Desbloquear"
+  },
+  "lang.pt.helpdesk": {
+    "admin": {
+      "statistics": "Estatísticas"
+    },
+    "message": "Mensagem",
+    "guest": {
+      "title": "Abrir um ticket sem conta",
+      "intro": "A nossa equipa responderá ao endereço de e-mail que indicar abaixo. Não é necessária conta para acompanhar a conversa.",
+      "email_help": "Certifique-se de que este endereço está correto - é por onde lhe responderemos.",
+      "disclaimer": "Ao enviar esta mensagem aceita ser contactado por e-mail.",
+      "submit": "Enviar mensagem",
+      "submitted": "O seu pedido foi recebido. Guarde o link de acompanhamento para ler as respostas.",
+      "replied": "A sua resposta foi enviada.",
+      "reply_submit": "Enviar resposta",
+      "reply_title": "Responder",
+      "tracking_title": "Ticket: {_subject}",
+      "opened_at": "Aberto em {_date}",
+      "bookmark_warning": "Marque esta página nos favoritos - é o seu único acesso ao ticket sem conta.",
+      "staff_reply": "Resposta do suporte",
+      "you": "Você",
+      "closed_notice": "Este ticket foi fechado. Abra um novo se tiver outra questão."
+    }
+  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "Histórico de ações",
@@ -66,7 +108,12 @@
       "changedefaulthelp": "Você pode alterar o idioma padrão nas configurações globais.",
       "download_success": "Os arquivos de tradução foram carregados com sucesso.",
       "download_error": "Você não pode baixar os arquivos de tradução para a língua francesa localmente.",
-      "description": "Encontre a lista de idiomas disponíveis para a área do cliente. Ative ou desative os idiomas conforme necessário."
+      "description": "Encontre a lista de idiomas disponíveis para a área do cliente. Ative ou desative os idiomas conforme necessário.",
+      "countries_saved": "A lista de países ativados foi salva com sucesso.",
+      "countries": {
+        "admin.locales.countries.description": "Selecione os países disponíveis nos formulários e validações na área do cliente.",
+        "admin.locales.countries.field": "Países disponíveis"
+      }
     },
     "update": {
       "changelog": "Jornal das modificações",
@@ -655,6 +702,8 @@
               "driver_help": "Você deve ter uma chave secreta para o driver reCaptcha",
               "site_key": "Chave do site",
               "secret_key": "Chave secreta",
+              "force_2fa_client": "Forçar autenticação dupla para clientes",
+              "force_2fa_admin": "Forçar autenticação dupla para administradores",
               "driver_recaptcha_help": "Você pode obter uma chave em <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. Você precisa usar chaves v2 invisíveis",
               "driver_hcaptcha_help": "Você pode obter uma chave em <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>",
               "driver_cloudflare_help": "Você pode obter uma chave em <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. Você precisa selecionar o widget \"gerenciado\""
@@ -753,7 +802,12 @@
     "backtosite": "Voltar para o site",
     "backtostore": "Voltar para a loja",
     "doyouwantclone": "Você realmente quer clonar este elemento?",
-    "doyouwantreally": "Você realmente quer fazer isso?"
+    "doyouwantreally": "Você realmente quer fazer isso?",
+    "bulk": {
+      "selected": "Selecionado",
+      "confirm": "Aplicar “{_action}” aos elementos selecionados?"
+    },
+    "selected": "Seleção"
   },
   "lang.fr.auth": {
     "failed": "Esses identificadores não correspondem aos nossos registros.",
@@ -1124,6 +1178,10 @@
       },
       "password_updated": "Sua senha foi atualizada com sucesso.",
       "2fa": {
+        "send_email_code": "Envie um código por e-mail",
+        "email_sent": "Um código de autenticação dupla foi enviado por email. É válido por 5 minutos.",
+        "email_new_ip": "Solicite um código de autenticação dupla por e-mail ao conectar-se a partir de um novo endereço IP",
+        "options_saved": "As opções de autenticação de dois fatores foram salvas.",
         "enabled": "A autenticação de dois fatores foi ativada",
         "disabled": "A autenticação de dois fatores foi desativada",
         "title": "Autenticação de dois fatores",
@@ -1588,7 +1646,17 @@
     "none": "Nenhum",
     "delete": "Excluir",
     "already_sent": "Já enviado",
-    "email_trouble_clicking_button": "Se você tiver problemas ao clicar no botão \"{_actionText}\", copie e cole o URL abaixo"
+    "email_trouble_clicking_button": "Se você tiver problemas ao clicar no botão \"{_actionText}\", copie e cole o URL abaixo",
+    "close": "Fechar",
+    "confirm": "Confirmar",
+    "departments": "Departamentos",
+    "emails": "E-mails",
+    "groups": "Grupos",
+    "locales": "IDIOMAS",
+    "reopen": "Reabrir",
+    "roles": "Funções",
+    "staffs": "Funcionários",
+    "unblock": "Desbloquear"
   },
   "lang.fr.helpdesk": {
     "subject": "Assunto",
@@ -1721,7 +1789,26 @@
           "title": "Folha de departamento {_name}",
           "subheading": "Aqui estão as informações relacionadas a este departamento criado em {_date}"
         }
-      }
+      },
+      "statistics": "Estatísticas"
+    },
+    "message": "Mensagem",
+    "guest": {
+      "title": "Abra um ticket sem uma conta",
+      "intro": "Nossa equipe responderá a você no endereço de e-mail fornecido abaixo. Nenhuma conta é necessária para acompanhar a conversa.",
+      "email_help": "Por favor, guarde este endereço com cuidado - nós o usaremos para responder a você.",
+      "disclaimer": "Ao enviar esta mensagem você concorda em ser contatado por email.",
+      "submit": "Enviar mensagem",
+      "submitted": "Sua solicitação foi recebida. Guarde o link de rastreamento para ver as respostas.",
+      "replied": "Sua resposta foi enviada.",
+      "reply_submit": "Enviar resposta",
+      "reply_title": "Responder",
+      "tracking_title": "Ingresso:{_subject}",
+      "opened_at": "Aberto em{_date}",
+      "bookmark_warning": "Marque esta página como favorita - é o seu único acesso ao ingresso sem uma conta.",
+      "staff_reply": "Resposta de suporte",
+      "you": "VOCÊ",
+      "closed_notice": "Este ticket foi fechado. Abra um novo se tiver alguma dúvida adicional."
     }
   },
   "lang.fr.http-statuses": {
@@ -2203,6 +2290,31 @@
       "starting": "Primeiros passos",
       "stopping": "Desligamento em andamento"
     },
+    "domain_manager": {
+      "server_type": "Gerenciador de domínio",
+      "domain": "Domínio",
+      "tld": "Extensão",
+      "details": "Detalhes do domínio",
+      "register": "Cadastro",
+      "renew": "Renovação",
+      "transfer": "Transferir",
+      "nameservers": "Servidores de nomes",
+      "nameserver": "Servidor de nomes: número",
+      "dns": "DNS",
+      "whois_privacy": "Proteção WHOIS",
+      "creation_date": "Data de criação",
+      "expiration_date": "Data de validade",
+      "search": {
+        "title": "Procure um domínio",
+        "submit": "Para pesquisar",
+        "available": "Disponível",
+        "unavailable": "Indisponível",
+        "no_product": "Nenhum produto do tipo de domínio ativo está configurado."
+      },
+      "errors": {
+        "invalid_tld": "O domínio não corresponde à extensão selecionada."
+      }
+    },
     "cancellation": {
       "rule_label": "Regra de cancelamento",
       "mode_immediate": "Permitir cancelamento imediato",
@@ -2235,8 +2347,23 @@
             "cancellation_lock_days_help": "Durante este período, o formulário de cancelamento permanece oculto mesmo que a opção esteja ativada.",
             "lifecycle_title": "Ciclo de expiração e suspensão",
             "suspend_after_unpaid_days": "Suspensão automática após fatura não paga (D+)",
-            "renewal_grace_days": "Janela de renovação com lembretes (dias)"
+            "renewal_grace_days": "Janela de renovação com lembretes (dias)",
+            "domain_search_enabled": "Habilitar pesquisa de domínio"
           }
+        }
+      },
+      "domain_tlds": {
+        "title": "Extensões de domínio",
+        "subheading": "Configure extensões de domínio, provedores e preços.",
+        "extension": "Extensão",
+        "server": "Provedor padrão",
+        "prices": "Preço por ação",
+        "create": {
+          "title": "Crie uma extensão",
+          "subheading": "Adicione uma nova extensão de domínio."
+        },
+        "show": {
+          "title": "Extensão: nome"
         }
       },
       "servers": {
@@ -2440,6 +2567,13 @@
         "title": "Subdomínios",
         "subdomain": "Subdomínio",
         "subheading": "Gerencie quais domínios podem ser usados com um subdomínio pelos clientes.",
+        "products": "Produtos autorizados",
+        "groups": "Grupos permitidos",
+        "restrictions": "Restrições",
+        "restrictions_help": "Deixe em branco para permitir este subdomínio em todos os produtos.",
+        "all_products": "Todos os produtos",
+        "products_count": ":contar produto|:contar produtos",
+        "groups_count": ":contar grupo|:contar grupos",
         "create": {
           "title": "Criar um subdomínio",
           "subheading": "Crie um novo subdomínio para os clientes."
@@ -2890,48 +3024,6 @@
     "upgrade": {
       "title": "Serviço atualizado",
       "description": "Um serviço foi atualizado"
-    }
-  },
-  "lang.pt.admin": {
-    "bulk": {
-      "selected": "Selecionados",
-      "confirm": "Aplicar \"{_action}\" aos itens selecionados?"
-    },
-    "selected": "Seleção"
-  },
-  "lang.pt.global": {
-    "close": "Fechar",
-    "confirm": "Confirmar",
-    "departments": "Departamentos",
-    "emails": "E-mails",
-    "groups": "Grupos",
-    "locales": "Idiomas",
-    "reopen": "Reabrir",
-    "roles": "Funções",
-    "staffs": "Equipa",
-    "unblock": "Desbloquear"
-  },
-  "lang.pt.helpdesk": {
-    "admin": {
-      "statistics": "Estatísticas"
-    },
-    "message": "Mensagem",
-    "guest": {
-      "title": "Abrir um ticket sem conta",
-      "intro": "A nossa equipa responderá ao endereço de e-mail que indicar abaixo. Não é necessária conta para acompanhar a conversa.",
-      "email_help": "Certifique-se de que este endereço está correto - é por onde lhe responderemos.",
-      "disclaimer": "Ao enviar esta mensagem aceita ser contactado por e-mail.",
-      "submit": "Enviar mensagem",
-      "submitted": "O seu pedido foi recebido. Guarde o link de acompanhamento para ler as respostas.",
-      "replied": "A sua resposta foi enviada.",
-      "reply_submit": "Enviar resposta",
-      "reply_title": "Responder",
-      "tracking_title": "Ticket: {_subject}",
-      "opened_at": "Aberto em {_date}",
-      "bookmark_warning": "Marque esta página nos favoritos - é o seu único acesso ao ticket sem conta.",
-      "staff_reply": "Resposta do suporte",
-      "you": "Você",
-      "closed_notice": "Este ticket foi fechado. Abra um novo se tiver outra questão."
     }
   }
 }
