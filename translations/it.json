@@ -2891,5 +2891,47 @@
       "title": "Servizio aggiornato",
       "description": "Un servizio è stato aggiornato"
     }
+  },
+  "lang.it.admin": {
+    "bulk": {
+      "selected": "Selezionati",
+      "confirm": "Applicare \"{_action}\" agli elementi selezionati?"
+    },
+    "selected": "Selezione"
+  },
+  "lang.it.global": {
+    "close": "Chiudi",
+    "confirm": "Conferma",
+    "departments": "Dipartimenti",
+    "emails": "E-mail",
+    "groups": "Gruppi",
+    "locales": "Lingue",
+    "reopen": "Riapri",
+    "roles": "Ruoli",
+    "staffs": "Personale",
+    "unblock": "Sblocca"
+  },
+  "lang.it.helpdesk": {
+    "admin": {
+      "statistics": "Statistiche"
+    },
+    "message": "Messaggio",
+    "guest": {
+      "title": "Apri un ticket senza account",
+      "intro": "Il nostro team risponderà all'indirizzo e-mail che indichi qui sotto. Non è necessario un account per seguire la conversazione.",
+      "email_help": "Assicurati che questo indirizzo sia corretto - è qui che ti risponderemo.",
+      "disclaimer": "Inviando questo messaggio accetti di essere contattato via e-mail.",
+      "submit": "Invia messaggio",
+      "submitted": "La tua richiesta è stata ricevuta. Conserva il link di tracciamento per leggere le risposte.",
+      "replied": "La tua risposta è stata inviata.",
+      "reply_submit": "Invia risposta",
+      "reply_title": "Rispondi",
+      "tracking_title": "Ticket: {_subject}",
+      "opened_at": "Aperto il {_date}",
+      "bookmark_warning": "Aggiungi questa pagina ai segnalibri - è il tuo unico accesso al ticket senza account.",
+      "staff_reply": "Risposta del supporto",
+      "you": "Tu",
+      "closed_notice": "Questo ticket è stato chiuso. Aprine uno nuovo se hai un'altra domanda."
+    }
   }
 }

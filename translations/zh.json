@@ -2891,5 +2891,47 @@
       "title": "服务升级",
       "description": "服务已升级"
     }
+  },
+  "lang.zh.admin": {
+    "bulk": {
+      "selected": "已选",
+      "confirm": "对所选项目应用\"{_action}\"？"
+    },
+    "selected": "选择"
+  },
+  "lang.zh.global": {
+    "close": "关闭",
+    "confirm": "确认",
+    "departments": "部门",
+    "emails": "邮件",
+    "groups": "组",
+    "locales": "语言",
+    "reopen": "重新打开",
+    "roles": "角色",
+    "staffs": "员工",
+    "unblock": "解除封锁"
+  },
+  "lang.zh.helpdesk": {
+    "admin": {
+      "statistics": "统计"
+    },
+    "message": "消息",
+    "guest": {
+      "title": "无需账户即可开单",
+      "intro": "我们的团队将回复您在下方提供的电子邮件地址。无需账户即可关注对话。",
+      "email_help": "请确保此地址正确，我们将通过它回复您。",
+      "disclaimer": "提交此消息即表示您同意通过电子邮件联系。",
+      "submit": "发送消息",
+      "submitted": "您的请求已收到。请保存跟踪链接以查看回复。",
+      "replied": "您的回复已发送。",
+      "reply_submit": "发送回复",
+      "reply_title": "回复",
+      "tracking_title": "工单：{_subject}",
+      "opened_at": "于 {_date} 开单",
+      "bookmark_warning": "请将此页加入书签——它是您无需账户访问该工单的唯一入口。",
+      "staff_reply": "支持回复",
+      "you": "您",
+      "closed_notice": "此工单已关闭。如有其他问题，请新建工单。"
+    }
   }
 }

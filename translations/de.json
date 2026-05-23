@@ -2891,5 +2891,47 @@
       "title": "Service aufgerüstet",
       "description": "Ein Dienst wurde aufgerüstet"
     }
+  },
+  "lang.de.admin": {
+    "bulk": {
+      "selected": "Ausgewählt",
+      "confirm": "„{_action}\" auf die ausgewählten Elemente anwenden?"
+    },
+    "selected": "Auswahl"
+  },
+  "lang.de.global": {
+    "close": "Schließen",
+    "confirm": "Bestätigen",
+    "departments": "Abteilungen",
+    "emails": "E-Mails",
+    "groups": "Gruppen",
+    "locales": "Sprachen",
+    "reopen": "Wieder öffnen",
+    "roles": "Rollen",
+    "staffs": "Personal",
+    "unblock": "Entsperren"
+  },
+  "lang.de.helpdesk": {
+    "admin": {
+      "statistics": "Statistiken"
+    },
+    "message": "Nachricht",
+    "guest": {
+      "title": "Ticket ohne Konto eröffnen",
+      "intro": "Unser Team antwortet an die unten angegebene E-Mail-Adresse. Kein Konto erforderlich, um die Konversation zu verfolgen.",
+      "email_help": "Stellen Sie sicher, dass diese Adresse korrekt ist - darüber erreichen wir Sie.",
+      "disclaimer": "Mit dem Absenden dieser Nachricht erklären Sie sich damit einverstanden, per E-Mail kontaktiert zu werden.",
+      "submit": "Nachricht senden",
+      "submitted": "Ihre Anfrage wurde empfangen. Bewahren Sie den Tracking-Link auf, um Antworten zu lesen.",
+      "replied": "Ihre Antwort wurde gesendet.",
+      "reply_submit": "Antwort senden",
+      "reply_title": "Antworten",
+      "tracking_title": "Ticket: {_subject}",
+      "opened_at": "Eröffnet am {_date}",
+      "bookmark_warning": "Setzen Sie diese Seite als Lesezeichen - es ist Ihr einziger Zugriff auf das Ticket ohne Konto.",
+      "staff_reply": "Antwort vom Support",
+      "you": "Sie",
+      "closed_notice": "Dieses Ticket wurde geschlossen. Öffnen Sie ein neues, wenn Sie eine weitere Frage haben."
+    }
   }
 }

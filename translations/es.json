@@ -2891,5 +2891,47 @@
       "title": "Servicio mejorado",
       "description": "Un servicio ha sido actualizado"
     }
+  },
+  "lang.es.admin": {
+    "bulk": {
+      "selected": "Seleccionados",
+      "confirm": "¿Aplicar «{_action}» a los elementos seleccionados?"
+    },
+    "selected": "Selección"
+  },
+  "lang.es.global": {
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "departments": "Departamentos",
+    "emails": "Correos",
+    "groups": "Grupos",
+    "locales": "Idiomas",
+    "reopen": "Reabrir",
+    "roles": "Roles",
+    "staffs": "Personal",
+    "unblock": "Desbloquear"
+  },
+  "lang.es.helpdesk": {
+    "admin": {
+      "statistics": "Estadísticas"
+    },
+    "message": "Mensaje",
+    "guest": {
+      "title": "Abrir un ticket sin cuenta",
+      "intro": "Nuestro equipo responderá al correo electrónico que indique a continuación. No es necesario tener cuenta para seguir la conversación.",
+      "email_help": "Asegúrese de que la dirección sea correcta - es por donde le responderemos.",
+      "disclaimer": "Al enviar este mensaje acepta ser contactado por correo electrónico.",
+      "submit": "Enviar mensaje",
+      "submitted": "Su solicitud ha sido recibida. Guarde el enlace de seguimiento para leer las respuestas.",
+      "replied": "Su respuesta ha sido enviada.",
+      "reply_submit": "Enviar respuesta",
+      "reply_title": "Responder",
+      "tracking_title": "Ticket: {_subject}",
+      "opened_at": "Abierto el {_date}",
+      "bookmark_warning": "Guarde esta página en favoritos - es su único acceso al ticket sin cuenta.",
+      "staff_reply": "Respuesta del soporte",
+      "you": "Usted",
+      "closed_notice": "Este ticket ha sido cerrado. Abra uno nuevo si tiene otra pregunta."
+    }
   }
 }

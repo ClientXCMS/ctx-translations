@@ -661,7 +661,7 @@
               "site_key": "Clé du site",
               "secret_key": "Clé secrète",
               "force_2fa_client": "Forcer la double authentification pour les clients",
-              "force_2fa_admin": "Forcer la double authentification pour les administrateurs",  
+              "force_2fa_admin": "Forcer la double authentification pour les administrateurs",
               "driver_recaptcha_help": "Vous pouvez obtenir une clé sur <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. Vous avez besoin d'utiliser les clés v2 invisibles",
               "driver_hcaptcha_help": "Vous pouvez obtenir une clé sur <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>",
               "driver_cloudflare_help": "Vous pouvez obtenir une clé sur <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. Vous devez sélectionner le widget \"managed\""
@@ -760,7 +760,12 @@
     "backtosite": "Retour au site",
     "backtostore": "Retour à la boutique",
     "doyouwantclone": "Voulez-vous vraiment cloner cet élément ?",
-    "doyouwantreally": "Voulez-vous vraiment faire cette action ? Cette action peut provoquer des problèmes sur le système."
+    "doyouwantreally": "Voulez-vous vraiment faire cette action ? Cette action peut provoquer des problèmes sur le système.",
+    "bulk": {
+      "selected": "Sélectionnés",
+      "confirm": "Appliquer « {_action} » aux éléments sélectionnés ?"
+    },
+    "selected": "Sélection"
   },
   "lang.fr.auth": {
     "failed": "Ces identifiants ne correspondent pas à nos enregistrements.",
@@ -1146,62 +1151,62 @@
     },
     "pending_invoices": "{_count} facture(s) en attente de paiement. Veuillez les payer pour éviter une interruption de service.",
     "subusers": {
-    "index": "Sous-utilisateurs",
-    "account_access": "Accès au compte",
-    "account_access_description": "Consultez les personnes qui peuvent accéder à ce compte et les comptes auxquels vous avez accès.",
-    "manage": "Gérer",
-    "users_found": ":count utilisateur trouvé|:count utilisateurs trouvés",
-    "owner_badge": "Propriétaire",
-    "subuser_badge": "Accès",
-    "services": "Services",
-    "services_count": ":count service|:count services",
-    "invoice_permissions_auto_granted": "Ajoute automatiquement les permissions facture : voir, payer, télécharger et utiliser le solde.",
-    "all_services": "Tous les services",
-    "all_services_locked": "Cet accès couvre déjà tous les services.",
-    "master_account_current": "Actuel · master du compte",
-    "my_external_accesses": "Mes accès sous-utilisateur",
-    "subuser_role": "Sous-utilisateur du compte",
-    "permissions": "Permissions",
-    "leave_access": "Retirer mon accès",
-    "confirm_leave": "Voulez-vous vraiment retirer votre accès à ce compte ?",
-    "confirm_revoke": "Voulez-vous vraiment révoquer cet accès ?",
-    "active_accesses": "Accès actifs",
-    "pending_invitations": "Invitations en attente",
-    "received_accesses": "Accès reçus",
-    "received_accesses_description": "Comptes clients auxquels vous avez accès comme sous-utilisateur.",
-    "expires_at": "Expire le",
-    "resend": "Renvoyer",
-    "no_active_accesses": "Aucun sous-utilisateur actif.",
-    "invite_first": "Inviter un sous-utilisateur",
-    "manage_global": "Gestion globale",
-    "invite": {
-      "title": "Inviter un sous-utilisateur",
-      "description": "Donnez accès à vos services et factures.",
-      "service_description": "Invitez une personne à accéder uniquement à ce service. Celui ci recevra une invitation par email avec un lien pour accepter l'accès ou s'inscrire. Vous pourrez révoquer cet accès à tout moment.",
-      "submit": "Inviter"
+      "index": "Sous-utilisateurs",
+      "account_access": "Accès au compte",
+      "account_access_description": "Consultez les personnes qui peuvent accéder à ce compte et les comptes auxquels vous avez accès.",
+      "manage": "Gérer",
+      "users_found": ":count utilisateur trouvé|:count utilisateurs trouvés",
+      "owner_badge": "Propriétaire",
+      "subuser_badge": "Accès",
+      "services": "Services",
+      "services_count": ":count service|:count services",
+      "invoice_permissions_auto_granted": "Ajoute automatiquement les permissions facture : voir, payer, télécharger et utiliser le solde.",
+      "all_services": "Tous les services",
+      "all_services_locked": "Cet accès couvre déjà tous les services.",
+      "master_account_current": "Actuel · master du compte",
+      "my_external_accesses": "Mes accès sous-utilisateur",
+      "subuser_role": "Sous-utilisateur du compte",
+      "permissions": "Permissions",
+      "leave_access": "Retirer mon accès",
+      "confirm_leave": "Voulez-vous vraiment retirer votre accès à ce compte ?",
+      "confirm_revoke": "Voulez-vous vraiment révoquer cet accès ?",
+      "active_accesses": "Accès actifs",
+      "pending_invitations": "Invitations en attente",
+      "received_accesses": "Accès reçus",
+      "received_accesses_description": "Comptes clients auxquels vous avez accès comme sous-utilisateur.",
+      "expires_at": "Expire le",
+      "resend": "Renvoyer",
+      "no_active_accesses": "Aucun sous-utilisateur actif.",
+      "invite_first": "Inviter un sous-utilisateur",
+      "manage_global": "Gestion globale",
+      "invite": {
+        "title": "Inviter un sous-utilisateur",
+        "description": "Donnez accès à vos services et factures.",
+        "service_description": "Invitez une personne à accéder uniquement à ce service. Celui ci recevra une invitation par email avec un lien pour accepter l'accès ou s'inscrire. Vous pourrez révoquer cet accès à tout moment.",
+        "submit": "Inviter"
+      },
+      "alerts": {
+        "self_invite": "Vous ne pouvez pas inviter votre propre compte.",
+        "pending_exists": "Cet email possède déjà une invitation en attente.",
+        "access_exists": "Ce client possède déjà un accès à ce compte.",
+        "access_created": "L'accès a été accordé.",
+        "access_updated": "L'accès a été mis à jour.",
+        "access_revoked": "L'accès a été révoqué.",
+        "invitation_sent": "L'invitation a été envoyée.",
+        "invitation_resent": "L'invitation a été renvoyée.",
+        "invitation_revoked": "L'invitation a été révoquée.",
+        "invitation_accepted": "L'invitation a été acceptée.",
+        "service_required": "Sélectionnez au moins un service ou autorisez tous les services.",
+        "service_permission_required": "Sélectionnez au moins une permission de service.",
+        "service_access_updated": "Les accès du service ont été mis à jour."
+      },
+      "mail": {
+        "invitation_subject": "Invitation à accéder à un compte",
+        "invitation_body": "Vous avez été invité à accéder au compte de :name. Ouvrez ce lien : :url",
+        "access_subject": "Accès au compte accordé",
+        "access_body": "Vous avez maintenant accès au compte de :name. Ouvrez ce lien : :url"
+      }
     },
-    "alerts": {
-      "self_invite": "Vous ne pouvez pas inviter votre propre compte.",
-      "pending_exists": "Cet email possède déjà une invitation en attente.",
-      "access_exists": "Ce client possède déjà un accès à ce compte.",
-      "access_created": "L'accès a été accordé.",
-      "access_updated": "L'accès a été mis à jour.",
-      "access_revoked": "L'accès a été révoqué.",
-      "invitation_sent": "L'invitation a été envoyée.",
-      "invitation_resent": "L'invitation a été renvoyée.",
-      "invitation_revoked": "L'invitation a été révoquée.",
-      "invitation_accepted": "L'invitation a été acceptée.",
-      "service_required": "Sélectionnez au moins un service ou autorisez tous les services.",
-      "service_permission_required": "Sélectionnez au moins une permission de service.",
-      "service_access_updated": "Les accès du service ont été mis à jour."
-    },
-    "mail": {
-      "invitation_subject": "Invitation à accéder à un compte",
-      "invitation_body": "Vous avez été invité à accéder au compte de :name. Ouvrez ce lien : :url",
-      "access_subject": "Accès au compte accordé",
-      "access_body": "Vous avez maintenant accès au compte de :name. Ouvrez ce lien : :url"
-    }
-  },
     "logout": "Déconnexion",
     "alerts": {
       "servernotfound": "Le serveur n'a pas été trouvé",
@@ -1598,7 +1603,17 @@
     "none": "Aucun",
     "delete": "Supprimer",
     "already_sent": "Déjà envoyé",
-    "email_trouble_clicking_button": "Si vous avez des problèmes pour cliquer sur le bouton \"{_actionText}\", copiez et collez l'URL ci-dessous\n"
+    "email_trouble_clicking_button": "Si vous avez des problèmes pour cliquer sur le bouton \"{_actionText}\", copiez et collez l'URL ci-dessous\n",
+    "close": "Fermer",
+    "confirm": "Confirmer",
+    "departments": "Départements",
+    "emails": "E-mails",
+    "groups": "Groupes",
+    "locales": "Langues",
+    "reopen": "Rouvrir",
+    "roles": "Rôles",
+    "staffs": "Personnel",
+    "unblock": "Débloquer"
   },
   "lang.fr.helpdesk": {
     "subject": "Sujet",
@@ -1731,7 +1746,26 @@
           "title": "Fiche département {_name}",
           "subheading": "Voici les informations liées à ce département créé le {_date}"
         }
-      }
+      },
+      "statistics": "Statistiques"
+    },
+    "message": "Message",
+    "guest": {
+      "title": "Ouvrir un ticket sans compte",
+      "intro": "Notre équipe vous répondra à l'adresse e-mail que vous indiquez ci-dessous. Aucun compte n'est nécessaire pour suivre la conversation.",
+      "email_help": "Conservez bien cette adresse - c'est par elle que nous vous répondrons.",
+      "disclaimer": "En envoyant ce message vous acceptez d'être contacté par e-mail.",
+      "submit": "Envoyer le message",
+      "submitted": "Votre demande a bien été reçue. Gardez le lien de suivi pour consulter les réponses.",
+      "replied": "Votre réponse a bien été envoyée.",
+      "reply_submit": "Envoyer la réponse",
+      "reply_title": "Répondre",
+      "tracking_title": "Ticket : {_subject}",
+      "opened_at": "Ouvert le {_date}",
+      "bookmark_warning": "Mettez cette page en favori - c'est votre seul accès au ticket sans compte.",
+      "staff_reply": "Réponse du support",
+      "you": "Vous",
+      "closed_notice": "Ce ticket a été clôturé. Ouvrez-en un nouveau si vous avez une question supplémentaire."
     }
   },
   "lang.fr.http-statuses": {
@@ -2271,7 +2305,7 @@
             "lifecycle_title": "Cycle d'expiration et de suspension",
             "suspend_after_unpaid_days": "Suspension automatique après facture impayée (J+)",
             "renewal_grace_days": "Fenêtre de renouvellement avec rappels (jours)",
-            "domain_search_enabled": "Activer la recherche de domaines",
+            "domain_search_enabled": "Activer la recherche de domaines"
           }
         }
       },

@@ -2891,5 +2891,47 @@
       "title": "Service upgraded",
       "description": "Een dienst is geüpgraded"
     }
+  },
+  "lang.nl.admin": {
+    "bulk": {
+      "selected": "Geselecteerd",
+      "confirm": "\"{_action}\" toepassen op de geselecteerde items?"
+    },
+    "selected": "Selectie"
+  },
+  "lang.nl.global": {
+    "close": "Sluiten",
+    "confirm": "Bevestigen",
+    "departments": "Afdelingen",
+    "emails": "E-mails",
+    "groups": "Groepen",
+    "locales": "Talen",
+    "reopen": "Heropenen",
+    "roles": "Rollen",
+    "staffs": "Personeel",
+    "unblock": "Deblokkeren"
+  },
+  "lang.nl.helpdesk": {
+    "admin": {
+      "statistics": "Statistieken"
+    },
+    "message": "Bericht",
+    "guest": {
+      "title": "Open een ticket zonder account",
+      "intro": "Ons team reageert op het e-mailadres dat u hieronder opgeeft. Geen account nodig om het gesprek te volgen.",
+      "email_help": "Zorg ervoor dat dit adres klopt - daarop nemen we contact met u op.",
+      "disclaimer": "Door dit bericht te verzenden gaat u akkoord met contact via e-mail.",
+      "submit": "Bericht verzenden",
+      "submitted": "Uw verzoek is ontvangen. Bewaar de tracking-link om de antwoorden te lezen.",
+      "replied": "Uw antwoord is verzonden.",
+      "reply_submit": "Antwoord verzenden",
+      "reply_title": "Antwoorden",
+      "tracking_title": "Ticket: {_subject}",
+      "opened_at": "Geopend op {_date}",
+      "bookmark_warning": "Maak deze pagina favoriet - het is uw enige toegang tot het ticket zonder account.",
+      "staff_reply": "Reactie van support",
+      "you": "U",
+      "closed_notice": "Dit ticket is gesloten. Open een nieuwe als u nog een vraag heeft."
+    }
   }
 }
