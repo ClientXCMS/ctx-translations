@@ -1184,7 +1184,7 @@
         "trusted_device_revoke": "Révoquer",
         "trusted_device_revoked": "Appareil de confiance révoqué.",
         "trusted_devices_revoke_all": "Tout révoquer",
-        "trusted_devices_revoked_all": "Tous les appareils de confiance ont été révoqués."
+        "trusted_devices_revoked_all": "Tous les appareils de confiance ont été révoqués.",
         "download_codes": "Télécharger les codes de récupération <a href=\"{_url}\" class=\"text-primary\">en cliquant ici</a>."
       }
     },
