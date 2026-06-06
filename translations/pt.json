@@ -1,47 +1,5 @@
 {
   "language": "Português",
-  "lang.pt.admin": {
-    "bulk": {
-      "selected": "Selecionados",
-      "confirm": "Aplicar \"{_action}\" aos itens selecionados?"
-    },
-    "selected": "Seleção"
-  },
-  "lang.pt.global": {
-    "close": "Fechar",
-    "confirm": "Confirmar",
-    "departments": "Departamentos",
-    "emails": "E-mails",
-    "groups": "Grupos",
-    "locales": "Idiomas",
-    "reopen": "Reabrir",
-    "roles": "Funções",
-    "staffs": "Equipa",
-    "unblock": "Desbloquear"
-  },
-  "lang.pt.helpdesk": {
-    "admin": {
-      "statistics": "Estatísticas"
-    },
-    "message": "Mensagem",
-    "guest": {
-      "title": "Abrir um ticket sem conta",
-      "intro": "A nossa equipa responderá ao endereço de e-mail que indicar abaixo. Não é necessária conta para acompanhar a conversa.",
-      "email_help": "Certifique-se de que este endereço está correto - é por onde lhe responderemos.",
-      "disclaimer": "Ao enviar esta mensagem aceita ser contactado por e-mail.",
-      "submit": "Enviar mensagem",
-      "submitted": "O seu pedido foi recebido. Guarde o link de acompanhamento para ler as respostas.",
-      "replied": "A sua resposta foi enviada.",
-      "reply_submit": "Enviar resposta",
-      "reply_title": "Responder",
-      "tracking_title": "Ticket: {_subject}",
-      "opened_at": "Aberto em {_date}",
-      "bookmark_warning": "Marque esta página nos favoritos - é o seu único acesso ao ticket sem conta.",
-      "staff_reply": "Resposta do suporte",
-      "you": "Você",
-      "closed_notice": "Este ticket foi fechado. Abra um novo se tiver outra questão."
-    }
-  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "Histórico de ações",
@@ -804,8 +762,8 @@
     "doyouwantclone": "Você realmente quer clonar este elemento?",
     "doyouwantreally": "Você realmente quer fazer isso?",
     "bulk": {
-      "selected": "Selecionado",
-      "confirm": "Aplicar “{_action}” aos elementos selecionados?"
+      "selected": "Selecionados",
+      "confirm": "Aplicar \"{_action}\" aos itens selecionados?"
     },
     "selected": "Seleção"
   },
@@ -1652,10 +1610,10 @@
     "departments": "Departamentos",
     "emails": "E-mails",
     "groups": "Grupos",
-    "locales": "IDIOMAS",
+    "locales": "Idiomas",
     "reopen": "Reabrir",
     "roles": "Funções",
-    "staffs": "Funcionários",
+    "staffs": "Equipa",
     "unblock": "Desbloquear"
   },
   "lang.fr.helpdesk": {
@@ -1794,21 +1752,21 @@
     },
     "message": "Mensagem",
     "guest": {
-      "title": "Abra um ticket sem uma conta",
-      "intro": "Nossa equipe responderá a você no endereço de e-mail fornecido abaixo. Nenhuma conta é necessária para acompanhar a conversa.",
-      "email_help": "Por favor, guarde este endereço com cuidado - nós o usaremos para responder a você.",
-      "disclaimer": "Ao enviar esta mensagem você concorda em ser contatado por email.",
+      "title": "Abrir um ticket sem conta",
+      "intro": "A nossa equipa responderá ao endereço de e-mail que indicar abaixo. Não é necessária conta para acompanhar a conversa.",
+      "email_help": "Certifique-se de que este endereço está correto - é por onde lhe responderemos.",
+      "disclaimer": "Ao enviar esta mensagem aceita ser contactado por e-mail.",
       "submit": "Enviar mensagem",
-      "submitted": "Sua solicitação foi recebida. Guarde o link de rastreamento para ver as respostas.",
-      "replied": "Sua resposta foi enviada.",
+      "submitted": "O seu pedido foi recebido. Guarde o link de acompanhamento para ler as respostas.",
+      "replied": "A sua resposta foi enviada.",
       "reply_submit": "Enviar resposta",
       "reply_title": "Responder",
-      "tracking_title": "Ingresso:{_subject}",
-      "opened_at": "Aberto em{_date}",
-      "bookmark_warning": "Marque esta página como favorita - é o seu único acesso ao ingresso sem uma conta.",
-      "staff_reply": "Resposta de suporte",
-      "you": "VOCÊ",
-      "closed_notice": "Este ticket foi fechado. Abra um novo se tiver alguma dúvida adicional."
+      "tracking_title": "Ticket: {_subject}",
+      "opened_at": "Aberto em {_date}",
+      "bookmark_warning": "Marque esta página nos favoritos - é o seu único acesso ao ticket sem conta.",
+      "staff_reply": "Resposta do suporte",
+      "you": "Você",
+      "closed_notice": "Este ticket foi fechado. Abra um novo se tiver outra questão."
     }
   },
   "lang.fr.http-statuses": {

@@ -1,47 +1,5 @@
 {
   "language": "Español",
-  "lang.es.admin": {
-    "bulk": {
-      "selected": "Seleccionados",
-      "confirm": "¿Aplicar «{_action}» a los elementos seleccionados?"
-    },
-    "selected": "Selección"
-  },
-  "lang.es.global": {
-    "close": "Cerrar",
-    "confirm": "Confirmar",
-    "departments": "Departamentos",
-    "emails": "Correos",
-    "groups": "Grupos",
-    "locales": "Idiomas",
-    "reopen": "Reabrir",
-    "roles": "Roles",
-    "staffs": "Personal",
-    "unblock": "Desbloquear"
-  },
-  "lang.es.helpdesk": {
-    "admin": {
-      "statistics": "Estadísticas"
-    },
-    "message": "Mensaje",
-    "guest": {
-      "title": "Abrir un ticket sin cuenta",
-      "intro": "Nuestro equipo responderá al correo electrónico que indique a continuación. No es necesario tener cuenta para seguir la conversación.",
-      "email_help": "Asegúrese de que la dirección sea correcta - es por donde le responderemos.",
-      "disclaimer": "Al enviar este mensaje acepta ser contactado por correo electrónico.",
-      "submit": "Enviar mensaje",
-      "submitted": "Su solicitud ha sido recibida. Guarde el enlace de seguimiento para leer las respuestas.",
-      "replied": "Su respuesta ha sido enviada.",
-      "reply_submit": "Enviar respuesta",
-      "reply_title": "Responder",
-      "tracking_title": "Ticket: {_subject}",
-      "opened_at": "Abierto el {_date}",
-      "bookmark_warning": "Guarde esta página en favoritos - es su único acceso al ticket sin cuenta.",
-      "staff_reply": "Respuesta del soporte",
-      "you": "Usted",
-      "closed_notice": "Este ticket ha sido cerrado. Abra uno nuevo si tiene otra pregunta."
-    }
-  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "Historial de acciones",
@@ -804,8 +762,8 @@
     "doyouwantclone": "¿Realmente quieres clonar este elemento?",
     "doyouwantreally": "¿De verdad quieres hacer esto?",
     "bulk": {
-      "selected": "Seleccionado",
-      "confirm": "¿Aplicar “{_action}” a los elementos seleccionados?"
+      "selected": "Seleccionados",
+      "confirm": "¿Aplicar «{_action}» a los elementos seleccionados?"
     },
     "selected": "Selección"
   },
@@ -1647,16 +1605,16 @@
     "delete": "Borrar",
     "already_sent": "Ya enviado",
     "email_trouble_clicking_button": "Si tiene problemas para hacer clic en el botón \"{_actionText}\", copie y pegue la URL a continuación",
-    "close": "Cerca",
+    "close": "Cerrar",
     "confirm": "Confirmar",
     "departments": "Departamentos",
-    "emails": "Correos electrónicos",
+    "emails": "Correos",
     "groups": "Grupos",
-    "locales": "IDIOMAS",
+    "locales": "Idiomas",
     "reopen": "Reabrir",
     "roles": "Roles",
     "staffs": "Personal",
-    "unblock": "Desatascar"
+    "unblock": "Desbloquear"
   },
   "lang.fr.helpdesk": {
     "subject": "Asunto",
@@ -1790,25 +1748,25 @@
           "subheading": "Aquí está la información relacionada con este departamento creada el {_date}"
         }
       },
-      "statistics": "Estadística"
+      "statistics": "Estadísticas"
     },
     "message": "Mensaje",
     "guest": {
       "title": "Abrir un ticket sin cuenta",
-      "intro": "Nuestro equipo le responderá a la dirección de correo electrónico que proporcione a continuación. No se requiere ninguna cuenta para seguir la conversación.",
-      "email_help": "Conserve esta dirección con cuidado; la usaremos para responderle.",
-      "disclaimer": "Al enviar este mensaje aceptas ser contactado por correo electrónico.",
-      "submit": "enviar mensaje",
-      "submitted": "Su solicitud ha sido recibida. Mantenga el enlace de seguimiento para ver las respuestas.",
-      "replied": "Tu respuesta ha sido enviada.",
+      "intro": "Nuestro equipo responderá al correo electrónico que indique a continuación. No es necesario tener cuenta para seguir la conversación.",
+      "email_help": "Asegúrese de que la dirección sea correcta - es por donde le responderemos.",
+      "disclaimer": "Al enviar este mensaje acepta ser contactado por correo electrónico.",
+      "submit": "Enviar mensaje",
+      "submitted": "Su solicitud ha sido recibida. Guarde el enlace de seguimiento para leer las respuestas.",
+      "replied": "Su respuesta ha sido enviada.",
       "reply_submit": "Enviar respuesta",
-      "reply_title": "Respuesta",
-      "tracking_title": "Boleto:{_subject}",
-      "opened_at": "Abierto el{_date}",
-      "bookmark_warning": "Añade esta página a favoritos: es tu único acceso al billete sin una cuenta.",
-      "staff_reply": "Respuesta de soporte",
-      "you": "TÚ",
-      "closed_notice": "Este ticket ha sido cerrado. Abra uno nuevo si tiene alguna pregunta adicional."
+      "reply_title": "Responder",
+      "tracking_title": "Ticket: {_subject}",
+      "opened_at": "Abierto el {_date}",
+      "bookmark_warning": "Guarde esta página en favoritos - es su único acceso al ticket sin cuenta.",
+      "staff_reply": "Respuesta del soporte",
+      "you": "Usted",
+      "closed_notice": "Este ticket ha sido cerrado. Abra uno nuevo si tiene otra pregunta."
     }
   },
   "lang.fr.http-statuses": {

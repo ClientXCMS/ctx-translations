@@ -1,47 +1,5 @@
 {
   "language": "中文",
-  "lang.zh.admin": {
-    "bulk": {
-      "selected": "已选",
-      "confirm": "对所选项目应用\"{_action}\"？"
-    },
-    "selected": "选择"
-  },
-  "lang.zh.global": {
-    "close": "关闭",
-    "confirm": "确认",
-    "departments": "部门",
-    "emails": "邮件",
-    "groups": "组",
-    "locales": "语言",
-    "reopen": "重新打开",
-    "roles": "角色",
-    "staffs": "员工",
-    "unblock": "解除封锁"
-  },
-  "lang.zh.helpdesk": {
-    "admin": {
-      "statistics": "统计"
-    },
-    "message": "消息",
-    "guest": {
-      "title": "无需账户即可开单",
-      "intro": "我们的团队将回复您在下方提供的电子邮件地址。无需账户即可关注对话。",
-      "email_help": "请确保此地址正确，我们将通过它回复您。",
-      "disclaimer": "提交此消息即表示您同意通过电子邮件联系。",
-      "submit": "发送消息",
-      "submitted": "您的请求已收到。请保存跟踪链接以查看回复。",
-      "replied": "您的回复已发送。",
-      "reply_submit": "发送回复",
-      "reply_title": "回复",
-      "tracking_title": "工单：{_subject}",
-      "opened_at": "于 {_date} 开单",
-      "bookmark_warning": "请将此页加入书签——它是您无需账户访问该工单的唯一入口。",
-      "staff_reply": "支持回复",
-      "you": "您",
-      "closed_notice": "此工单已关闭。如有其他问题，请新建工单。"
-    }
-  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "操作历史记录",
@@ -804,8 +762,8 @@
     "doyouwantclone": "您真的想克隆这个元素吗？",
     "doyouwantreally": "您真的想这样做吗？",
     "bulk": {
-      "selected": "已选择",
-      "confirm": "将“{_action}”应用于所选元素？"
+      "selected": "已选",
+      "confirm": "对所选项目应用\"{_action}\"？"
     },
     "selected": "选择"
   },
@@ -1650,13 +1608,13 @@
     "close": "关闭",
     "confirm": "确认",
     "departments": "部门",
-    "emails": "电子邮件",
-    "groups": "团体",
+    "emails": "邮件",
+    "groups": "组",
     "locales": "语言",
-    "reopen": "重新开放",
+    "reopen": "重新打开",
     "roles": "角色",
-    "staffs": "职员",
-    "unblock": "解锁"
+    "staffs": "员工",
+    "unblock": "解除封锁"
   },
   "lang.fr.helpdesk": {
     "subject": "主题",
@@ -1790,25 +1748,25 @@
           "subheading": "以下是在 {_date} 上创建的与此部门相关的信息"
         }
       },
-      "statistics": "统计数据"
+      "statistics": "统计"
     },
-    "message": "信息",
+    "message": "消息",
     "guest": {
-      "title": "无需账户即可开票",
-      "intro": "我们的团队将通过您在下面提供的电子邮件地址回复您。 无需帐户即可关注对话。",
-      "email_help": "请仔细保存此地址 - 我们将用它来回复您。",
-      "disclaimer": "发送此消息即表示您同意通过电子邮件与我们联系。",
+      "title": "无需账户即可开单",
+      "intro": "我们的团队将回复您在下方提供的电子邮件地址。无需账户即可关注对话。",
+      "email_help": "请确保此地址正确，我们将通过它回复您。",
+      "disclaimer": "提交此消息即表示您同意通过电子邮件联系。",
       "submit": "发送消息",
-      "submitted": "您的请求已收到。 保留跟踪链接以查看回复。",
+      "submitted": "您的请求已收到。请保存跟踪链接以查看回复。",
       "replied": "您的回复已发送。",
       "reply_submit": "发送回复",
-      "reply_title": "回答",
-      "tracking_title": "门票：{_subject}",
-      "opened_at": "已于{_date}开启",
-      "bookmark_warning": "将此页面添加为书签 - 这是您在没有帐户的情况下访问门票的唯一途径。",
-      "staff_reply": "支持响应",
-      "you": "你",
-      "closed_notice": "此票已关闭。 如果您还有其他问题，请打开新的问题。"
+      "reply_title": "回复",
+      "tracking_title": "工单：{_subject}",
+      "opened_at": "于 {_date} 开单",
+      "bookmark_warning": "请将此页加入书签——它是您无需账户访问该工单的唯一入口。",
+      "staff_reply": "支持回复",
+      "you": "您",
+      "closed_notice": "此工单已关闭。如有其他问题，请新建工单。"
     }
   },
   "lang.fr.http-statuses": {

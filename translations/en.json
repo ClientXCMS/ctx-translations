@@ -1,47 +1,5 @@
 {
   "language": "English",
-  "lang.en.admin": {
-    "bulk": {
-      "selected": "Selected",
-      "confirm": "Apply \"{_action}\" to the selected items?"
-    },
-    "selected": "Selection"
-  },
-  "lang.en.global": {
-    "close": "Close",
-    "confirm": "Confirm",
-    "departments": "Departments",
-    "emails": "Emails",
-    "groups": "Groups",
-    "locales": "Locales",
-    "reopen": "Reopen",
-    "roles": "Roles",
-    "staffs": "Staff",
-    "unblock": "Unblock"
-  },
-  "lang.en.helpdesk": {
-    "admin": {
-      "statistics": "Statistics"
-    },
-    "message": "Message",
-    "guest": {
-      "title": "Open a ticket without an account",
-      "intro": "Our team will reply at the email address you provide below. No account is required to follow the conversation.",
-      "email_help": "Make sure this address is right - that's how we'll reach back to you.",
-      "disclaimer": "By submitting this message you agree to be contacted by email.",
-      "submit": "Send message",
-      "submitted": "Your request has been received. Keep the tracking link to read our replies.",
-      "replied": "Your reply has been sent.",
-      "reply_submit": "Send reply",
-      "reply_title": "Reply",
-      "tracking_title": "Ticket: {_subject}",
-      "opened_at": "Opened on {_date}",
-      "bookmark_warning": "Bookmark this page - it's your only access to the ticket without an account.",
-      "staff_reply": "Support reply",
-      "you": "You",
-      "closed_notice": "This ticket has been closed. Open a new one if you have a follow-up question."
-    }
-  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "History of actions",
@@ -805,7 +763,7 @@
     "doyouwantreally": "Do you really want to do this?",
     "bulk": {
       "selected": "Selected",
-      "confirm": "Apply “{_action}” to selected elements?"
+      "confirm": "Apply \"{_action}\" to the selected items?"
     },
     "selected": "Selection"
   },
@@ -1652,7 +1610,7 @@
     "departments": "Departments",
     "emails": "Emails",
     "groups": "Groups",
-    "locales": "LANGUAGES",
+    "locales": "Locales",
     "reopen": "Reopen",
     "roles": "Roles",
     "staffs": "Staff",
@@ -1795,20 +1753,20 @@
     "message": "Message",
     "guest": {
       "title": "Open a ticket without an account",
-      "intro": "Our team will respond to you at the email address you provide below. No account is required to follow the conversation.",
-      "email_help": "Please keep this address carefully - we will use it to respond to you.",
-      "disclaimer": "By sending this message you agree to be contacted by email.",
+      "intro": "Our team will reply at the email address you provide below. No account is required to follow the conversation.",
+      "email_help": "Make sure this address is right - that's how we'll reach back to you.",
+      "disclaimer": "By submitting this message you agree to be contacted by email.",
       "submit": "Send message",
-      "submitted": "Your request has been received. Keep the tracking link to see the responses.",
-      "replied": "Your response has been sent.",
+      "submitted": "Your request has been received. Keep the tracking link to read our replies.",
+      "replied": "Your reply has been sent.",
       "reply_submit": "Send reply",
-      "reply_title": "Answer",
-      "tracking_title": "Ticket:{_subject}",
-      "opened_at": "Opened on{_date}",
+      "reply_title": "Reply",
+      "tracking_title": "Ticket: {_subject}",
+      "opened_at": "Opened on {_date}",
       "bookmark_warning": "Bookmark this page - it's your only access to the ticket without an account.",
-      "staff_reply": "Support response",
-      "you": "YOU",
-      "closed_notice": "This ticket has been closed. Open a new one if you have an additional question."
+      "staff_reply": "Support reply",
+      "you": "You",
+      "closed_notice": "This ticket has been closed. Open a new one if you have a follow-up question."
     }
   },
   "lang.fr.http-statuses": {
