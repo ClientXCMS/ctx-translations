@@ -674,7 +674,7 @@
               "twilio_sid": "Twilio Account SID",
               "twilio_token":"Twilio Auth Token",
               "twilio_from": "Numéro d'envoi Twilio (ou Alphanumeric Sender ID)",
-            },
+            }
           },
           "fields": {
             "admin_prefix": "Préfixe de l'administration",
