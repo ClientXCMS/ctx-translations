@@ -70,7 +70,9 @@
       "countries_saved": "Die Liste der aktivierten Länder wurde erfolgreich gespeichert.",
       "countries": {
         "admin.locales.countries.description": "Wählen Sie die in den Formularen und Validierungen im Kundenbereich verfügbaren Länder aus.",
-        "admin.locales.countries.field": "Länder verfügbar"
+        "admin.locales.countries.field": "Länder verfügbar",
+        "description": "Wählen Sie die in den Formularen und Validierungen im Kundenbereich verfügbaren Länder aus.",
+        "field": "Länder verfügbar"
       }
     },
     "update": {
@@ -656,15 +658,24 @@
           "captcha": {
             "title": "Das Kaptcha",
             "fields": {
+              "force_2fa_client": "Erzwingen Sie eine doppelte Authentifizierung für Clients",
+              "force_2fa_admin": "Erzwingen Sie eine doppelte Authentifizierung für Administratoren",
               "driver": "Captcha-Treiber",
               "driver_help": "Sie müssen einen geheimen Schlüssel für den reCaptcha-Treiber haben",
               "site_key": "Site-Schlüssel",
               "secret_key": "Geheimer Schlüssel",
-              "force_2fa_client": "Erzwingen Sie eine doppelte Authentifizierung für Clients",
-              "force_2fa_admin": "Erzwingen Sie eine doppelte Authentifizierung für Administratoren",
               "driver_recaptcha_help": "Sie können einen Schlüssel unter <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>\" abrufen. Sie müssen unsichtbare v2-Schlüssel verwenden",
               "driver_hcaptcha_help": "Sie können einen Schlüssel unter <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>",
               "driver_cloudflare_help": "Sie können einen Schlüssel unter <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>\" abrufen. Sie müssen das Widget \"verwaltet\" auswählen"
+            }
+          },
+          "sms": {
+            "title": "SMS-Gateway",
+            "fields": {
+              "driver": "SMS-Treiber",
+              "twilio_sid": "Twilio-Konto-SID",
+              "twilio_token": "Twilio-Authentifizierungstoken",
+              "twilio_from": "Twilio-Sendenummer (oder alphanumerische Sender-ID)"
             }
           },
           "fields": {
@@ -679,6 +690,8 @@
             "allow_plus_in_email": "Das Zeichen \"+\" in E-Mails erlauben",
             "force_login_client": "Erzwingen Sie die Verbindung, um auf den Kundenbereich zuzugreifen",
             "banned_emails": "Gesperrte E-Mails",
+            "force_2fa_client": "Erzwingen Sie eine doppelte Authentifizierung für Clients",
+            "force_2fa_admin": "Erzwingen Sie eine doppelte Authentifizierung für Administratoren",
             "banned_emails_help": "Durch Kommas getrennt (z. B. mailinator.com, yopmail.com, exemple@example.com)",
             "hash_driver_help": "/!\\ Die alten Passwörter sind nicht mit dem neuen Treiber kompatibel. Sie müssen die Benutzerpasswörter zurücksetzen."
           },
@@ -1147,7 +1160,33 @@
         "heading": "Zwei-Faktor-Verifizierung",
         "subheading": "Bitte geben Sie den Zwei-Faktor-Authentifizierungscode ein, der von Ihrer mobilen App generiert wurde.",
         "info": "Scannen Sie den QR-Code mit Ihrer Zwei-Faktor-Authentifizierungs-App.",
-        "download_codes": "Laden Sie die Wiederherstellungscodes <a href=\"{_url}\" class=\"text-primary\"> herunter, indem Sie hier klicken</a>."
+        "download_codes": "Laden Sie die Wiederherstellungscodes <a href=\"{_url}\" class=\"text-primary\"> herunter, indem Sie hier klicken</a>.",
+        "email_sent_to": "Ein 6-stelliger Code wurde Ihnen an{_email}gesendet. Es ist 5 Minuten gültig.",
+        "resend_email_code": "Senden Sie einen Code erneut per E-Mail",
+        "step1_subheading": "Schritt 1 von 2 – Code für Ihre Authentifizierungs-App",
+        "step2_subheading": "Schritt 2 von 2 – Code per E-Mail erhalten",
+        "step_indicator_totp": "Anwendung",
+        "step_indicator_email": "E-Mail",
+        "code_totp": "6-stelliger Code oder Wiederherstellungscode",
+        "code_totp_hint": "Öffnen Sie Ihre Authentifizierungs-App. Wenn Sie Ihr Gerät verloren haben, verwenden Sie einen der Wiederherstellungscodes.",
+        "code_email": "Code per E-Mail erhalten",
+        "next_step": "Weitermachen",
+        "trust_device": "Vertrauen Sie diesem Gerät{_days}Tage lang",
+        "back_to_step1": "Zurück zur vorherigen Prüfung",
+        "cooldown_active": "Zu viele gescheiterte Versuche. Bitte warten Sie{_minutes}Minuten, bevor Sie einen neuen Code anfordern.",
+        "device_label": "{_browser}von{_os}",
+        "unknown_device": "Unbekanntes Gerät",
+        "unknown_browser": "Unbekannter Browser",
+        "current_device": "Dieses Gerät",
+        "trusted_devices_heading": "Vertrauenswürdige Geräte",
+        "trusted_devices_description": "Diese Geräte werden Sie bei der nächsten Anmeldung nicht per E-Mail nach einem Code fragen, bis dieser abläuft.",
+        "trusted_devices_empty": "Keine vertrauenswürdigen Geräte registriert.",
+        "trusted_device_expires_at": "Läuft am{_date}ab",
+        "trusted_device_expires_never": "Ohne Ablauf",
+        "trusted_device_revoke": "Widerrufen",
+        "trusted_device_revoked": "Vertrauenswürdiges Gerät widerrufen.",
+        "trusted_devices_revoke_all": "Alles widerrufen",
+        "trusted_devices_revoked_all": "Alle vertrauenswürdigen Geräte wurden widerrufen."
       }
     },
     "pending_invoices": "{_count} Rechnung(en), die auf Zahlung warten. Bitte zahlen Sie diese, um eine Unterbrechung des Dienstes zu vermeiden.",

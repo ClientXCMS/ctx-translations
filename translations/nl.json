@@ -70,7 +70,9 @@
       "countries_saved": "De lijst met geactiveerde landen is succesvol opgeslagen.",
       "countries": {
         "admin.locales.countries.description": "Selecteer de beschikbare landen in de formulieren en validaties in het klantengedeelte.",
-        "admin.locales.countries.field": "Beschikbare landen"
+        "admin.locales.countries.field": "Beschikbare landen",
+        "description": "Selecteer de beschikbare landen in de formulieren en validaties in het klantengedeelte.",
+        "field": "Beschikbare landen"
       }
     },
     "update": {
@@ -656,15 +658,24 @@
           "captcha": {
             "title": "Kaptcha",
             "fields": {
+              "force_2fa_client": "Forceer dubbele authenticatie voor clients",
+              "force_2fa_admin": "Forceer dubbele authenticatie voor beheerders",
               "driver": "Captcha-stuurprogramma",
               "driver_help": "U moet een geheime sleutel hebben voor het reCaptcha-stuurprogramma",
               "site_key": "Site Sleutel",
               "secret_key": "Geheime sleutel",
-              "force_2fa_client": "Forceer dubbele authenticatie voor clients",
-              "force_2fa_admin": "Forceer dubbele authenticatie voor beheerders",
               "driver_recaptcha_help": "Je kunt een sleutel krijgen op <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. U moet onzichtbare v2-toetsen gebruiken",
               "driver_hcaptcha_help": "Je kunt een sleutel krijgen op <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>",
               "driver_cloudflare_help": "Je kunt een sleutel krijgen op <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. U moet de \"beheerde\" widget selecteren"
+            }
+          },
+          "sms": {
+            "title": "SMS-gateway",
+            "fields": {
+              "driver": "SMS-stuurprogramma",
+              "twilio_sid": "Twilio-account-SID",
+              "twilio_token": "Twilio-authenticatietoken",
+              "twilio_from": "Twilio-verzendnummer (of alfanumerieke afzender-ID)"
             }
           },
           "fields": {
@@ -679,6 +690,8 @@
             "allow_plus_in_email": "Het teken \"+\" toestaan in e-mailadressen",
             "force_login_client": "Forceer de verbinding om toegang te krijgen tot het klantengedeelte",
             "banned_emails": "Verboden e-mails",
+            "force_2fa_client": "Forceer dubbele authenticatie voor clients",
+            "force_2fa_admin": "Forceer dubbele authenticatie voor beheerders",
             "banned_emails_help": "Gescheiden door komma's (bijv. mailinator.com, yopmail.com, exemple@example.com)",
             "hash_driver_help": "/!\\ De oude wachtwoorden zijn niet compatibel met het nieuwe stuurprogramma. U moet gebruikerswachtwoorden opnieuw instellen."
           },
@@ -1147,7 +1160,33 @@
         "heading": "Twee-factor-verificatie",
         "subheading": "Voer de tweefactorauthenticatiecode in die door uw mobiele app wordt gegenereerd.",
         "info": "Scan de QR-code met uw tweefactorauthenticatie-app.",
-        "download_codes": "Download de herstelcodes <a href=\"{_url}\" class=\"text-primary\"> door hier te klikken</a>."
+        "download_codes": "Download de herstelcodes <a href=\"{_url}\" class=\"text-primary\"> door hier te klikken</a>.",
+        "email_sent_to": "Er is een 6-cijferige code naar u verzonden op{_email}. Het is 5 minuten geldig.",
+        "resend_email_code": "Verstuur een code opnieuw per e-mail",
+        "step1_subheading": "Stap 1 van 2 - Codeer voor uw authenticator-app",
+        "step2_subheading": "Stap 2 van 2 - Code ontvangen per e-mail",
+        "step_indicator_totp": "Sollicitatie",
+        "step_indicator_email": "E-mail",
+        "code_totp": "6-cijferige code of herstelcode",
+        "code_totp_hint": "Open uw authenticator-app. Als u uw apparaat bent kwijtgeraakt, gebruikt u een van de herstelcodes.",
+        "code_email": "Code per e-mail ontvangen",
+        "next_step": "Doorgaan",
+        "trust_device": "Vertrouw dit apparaat{_days}dagen",
+        "back_to_step1": "Keer terug naar de vorige controle",
+        "cooldown_active": "Te veel mislukte pogingen. Wacht{_minutes}minuten voordat u een nieuwe code aanvraagt.",
+        "device_label": "{_browser}van{_os}",
+        "unknown_device": "Onbekend apparaat",
+        "unknown_browser": "Onbekende browser",
+        "current_device": "Dit apparaat",
+        "trusted_devices_heading": "Vertrouwde apparaten",
+        "trusted_devices_description": "Deze apparaten zullen u de volgende keer dat u inlogt, niet per e-mail om een ​​code vragen, totdat deze verloopt.",
+        "trusted_devices_empty": "Geen vertrouwde apparaten geregistreerd.",
+        "trusted_device_expires_at": "Verloopt op{_date}",
+        "trusted_device_expires_never": "Zonder vervaldatum",
+        "trusted_device_revoke": "Herroepen",
+        "trusted_device_revoked": "Vertrouwd apparaat ingetrokken.",
+        "trusted_devices_revoke_all": "Alles intrekken",
+        "trusted_devices_revoked_all": "Alle vertrouwde apparaten zijn ingetrokken."
       }
     },
     "pending_invoices": "{_count} factuur(en) in afwachting van betaling. Betaal ze om een onderbreking van de service te voorkomen.",

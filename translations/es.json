@@ -70,7 +70,9 @@
       "countries_saved": "La lista de países activados se ha guardado correctamente.",
       "countries": {
         "admin.locales.countries.description": "Selecciona los países disponibles en los formularios y validaciones del área de clientes.",
-        "admin.locales.countries.field": "Países disponibles"
+        "admin.locales.countries.field": "Países disponibles",
+        "description": "Selecciona los países disponibles en los formularios y validaciones del área de clientes.",
+        "field": "Países disponibles"
       }
     },
     "update": {
@@ -656,15 +658,24 @@
           "captcha": {
             "title": "Captcha",
             "fields": {
+              "force_2fa_client": "Forzar doble autenticación para clientes",
+              "force_2fa_admin": "Forzar doble autenticación para administradores",
               "driver": "Controlador de Captcha",
               "driver_help": "Debe tener una clave secreta para el controlador reCaptcha",
               "site_key": "Clave del sitio",
               "secret_key": "Clave secreta",
-              "force_2fa_client": "Forzar doble autenticación para clientes",
-              "force_2fa_admin": "Forzar doble autenticación para administradores",
               "driver_recaptcha_help": "Puede obtener una clave en <a href=\"https://{_url}\", class=\"text-primary\", target=\"_blank\", rel=\"noopener, noreferrer\">{_url}</a>. Debe usar teclas invisibles v2",
               "driver_hcaptcha_help": "Puede obtener una clave en <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>",
               "driver_cloudflare_help": "Puede obtener una clave en <a href=\"https://{_url}\", class=\"text-primary\", target=\"_blank\", rel=\"noopener, noreferrer\">{_url}</a>. Debe seleccionar el widget \"administrado\""
+            }
+          },
+          "sms": {
+            "title": "Puerta de enlace SMS",
+            "fields": {
+              "driver": "controlador de SMS",
+              "twilio_sid": "SID de la cuenta Twilio",
+              "twilio_token": "Token de autenticación de Twilio",
+              "twilio_from": "Número de envío de Twilio (o ID de remitente alfanumérico)"
             }
           },
           "fields": {
@@ -679,6 +690,8 @@
             "allow_plus_in_email": "Permitir el signo \"+\" en los correos electrónicos",
             "force_login_client": "Forzar la conexión para acceder al área de clientes",
             "banned_emails": "Correos electrónicos prohibidos",
+            "force_2fa_client": "Forzar doble autenticación para clientes",
+            "force_2fa_admin": "Forzar doble autenticación para administradores",
             "banned_emails_help": "Separados por comas (por ejemplo, mailinator.com, yopmail.com, exemple@example.com)",
             "hash_driver_help": "/!\\ Las contraseñas antiguas no serán compatibles con el nuevo controlador. Debe restablecer las contraseñas de los usuarios."
           },
@@ -1147,7 +1160,33 @@
         "heading": "Verificación de dos factores",
         "subheading": "Ingrese el código de autenticación de dos factores generado por su aplicación móvil.",
         "info": "Escanea el código QR con tu aplicación de autenticación de dos factores.",
-        "download_codes": "Descargue los códigos de recuperación <a href=\"{_url}\" class=\"text-primary\"> haciendo clic aquí</a>."
+        "download_codes": "Descargue los códigos de recuperación <a href=\"{_url}\" class=\"text-primary\"> haciendo clic aquí</a>.",
+        "email_sent_to": "Se le ha enviado un código de 6 dígitos a{_email}. Es válido por 5 minutos.",
+        "resend_email_code": "Reenviar un código por correo electrónico",
+        "step1_subheading": "Paso 1 de 2: Código para tu aplicación de autenticación",
+        "step2_subheading": "Paso 2 de 2 - Código recibido por correo electrónico",
+        "step_indicator_totp": "Solicitud",
+        "step_indicator_email": "Correo electrónico",
+        "code_totp": "Código de 6 dígitos o código de recuperación",
+        "code_totp_hint": "Abra su aplicación de autenticación. Si perdió su dispositivo, use uno de los códigos de recuperación.",
+        "code_email": "Código recibido por correo electrónico",
+        "next_step": "Continuar",
+        "trust_device": "Confía en este dispositivo durante{_days}días",
+        "back_to_step1": "Volver al control anterior",
+        "cooldown_active": "Demasiados intentos fallidos. Espere{_minutes}minutos antes de solicitar un nuevo código.",
+        "device_label": "{_browser}de{_os}",
+        "unknown_device": "Dispositivo desconocido",
+        "unknown_browser": "Navegador desconocido",
+        "current_device": "este dispositivo",
+        "trusted_devices_heading": "Dispositivos confiables",
+        "trusted_devices_description": "Estos dispositivos no te pedirán un código por correo electrónico la próxima vez que inicies sesión, hasta que caduque.",
+        "trusted_devices_empty": "No hay dispositivos de confianza registrados.",
+        "trusted_device_expires_at": "Vence el{_date}",
+        "trusted_device_expires_never": "Sin caducidad",
+        "trusted_device_revoke": "Revocar",
+        "trusted_device_revoked": "Dispositivo de confianza revocado.",
+        "trusted_devices_revoke_all": "Revocar todo",
+        "trusted_devices_revoked_all": "Todos los dispositivos confiables han sido revocados."
       }
     },
     "pending_invoices": "{_count} factura(s) pendiente(s) de pago. Por favor, págueles para evitar una interrupción del servicio.",

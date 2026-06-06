@@ -70,7 +70,9 @@
       "countries_saved": "已成功保存激活的国家/地区列表。",
       "countries": {
         "admin.locales.countries.description": "选择客户区域的表格和验证中可用的国家/地区。",
-        "admin.locales.countries.field": "可用国家"
+        "admin.locales.countries.field": "可用国家",
+        "description": "选择客户区域的表格和验证中可用的国家/地区。",
+        "field": "可用国家"
       }
     },
     "update": {
@@ -656,15 +658,24 @@
           "captcha": {
             "title": "验证码",
             "fields": {
+              "force_2fa_client": "强制对客户端进行双重身份验证",
+              "force_2fa_admin": "强制管理员进行双重身份验证",
               "driver": "Captcha 驱动程序",
               "driver_help": "您必须拥有 reCaptcha 驱动程序的密钥",
               "site_key": "站点密钥",
               "secret_key": "密钥",
-              "force_2fa_client": "强制对客户端进行双重身份验证",
-              "force_2fa_admin": "强制管理员进行双重身份验证",
               "driver_recaptcha_help": "您可以在 <a href=“https://{_url}” class=“text-primary” target=“_blank” rel=“noopener noreferrer”>{_url} 处获取密钥</a>。您需要使用不可见的 v2 密钥",
               "driver_hcaptcha_help": "您可以在 <a href=“https://{_url}” class=“text-primary” target=“_blank” rel=“noopener noreferrer”>{_url} 获取键</a>",
               "driver_cloudflare_help": "您可以在 <a href=“https://{_url}” class=“text-primary” target=“_blank” rel=“noopener noreferrer”>{_url} 处获取密钥</a>。您需要选择“托管”小部件"
+            }
+          },
+          "sms": {
+            "title": "短信网关",
+            "fields": {
+              "driver": "短信驱动",
+              "twilio_sid": "Twilio 帐户 SID",
+              "twilio_token": "Twilio 身份验证令牌",
+              "twilio_from": "Twilio 发送号码（或字母数字发件人 ID）"
             }
           },
           "fields": {
@@ -679,6 +690,8 @@
             "allow_plus_in_email": "允许在邮箱地址中使用\"+\"符号",
             "force_login_client": "强制连接访问 Customer Area",
             "banned_emails": "被禁电子邮件",
+            "force_2fa_client": "强制对客户端进行双重身份验证",
+            "force_2fa_admin": "强制管理员进行双重身份验证",
             "banned_emails_help": "用逗号分隔（例如 mailinator.com、yopmail.com exemple@example.com）",
             "hash_driver_help": "/！\\ 旧密码将与新驱动程序不兼容。您需要重置用户密码。"
           },
@@ -1147,7 +1160,33 @@
         "heading": "双重验证",
         "subheading": "请输入您的移动应用程序生成的双重验证码。",
         "info": "使用您的双因素身份验证应用程序扫描 QR 码。",
-        "download_codes": "单击此处下载恢复代码 <a href=“{_url}” class=“text-primary”></a>。"
+        "download_codes": "单击此处下载恢复代码 <a href=“{_url}” class=“text-primary”></a>。",
+        "email_sent_to": "6 位代码已发送至您的{_email}。 有效期为5分钟。",
+        "resend_email_code": "通过电子邮件重新发送代码",
+        "step1_subheading": "第 1 步（共 2 步） - 验证器应用程序的代码",
+        "step2_subheading": "第 2 步（共 2 步）- 通过电子邮件收到代码",
+        "step_indicator_totp": "应用",
+        "step_indicator_email": "电子邮件",
+        "code_totp": "6 位代码或恢复代码",
+        "code_totp_hint": "打开您的身份验证器应用程序。 如果您丢失了设备，请使用恢复代码之一。",
+        "code_email": "通过电子邮件收到的代码",
+        "next_step": "继续",
+        "trust_device": "信任此设备{_days}天",
+        "back_to_step1": "返回上一个检查",
+        "cooldown_active": "失败的尝试太多了。 请等待{_minutes}分钟，然后再请求新代码。",
+        "device_label": "{_os}的{_browser}",
+        "unknown_device": "未知设备",
+        "unknown_browser": "未知浏览器",
+        "current_device": "这个装置",
+        "trusted_devices_heading": "可信设备",
+        "trusted_devices_description": "这些设备不会在您下次登录时通过电子邮件要求您提供代码，直到代码过期为止。",
+        "trusted_devices_empty": "没有注册受信任的设备。",
+        "trusted_device_expires_at": "到期日期为{_date}",
+        "trusted_device_expires_never": "没有过期",
+        "trusted_device_revoke": "撤销",
+        "trusted_device_revoked": "可信设备已被撤销。",
+        "trusted_devices_revoke_all": "全部撤销",
+        "trusted_devices_revoked_all": "所有受信任的设备均已被撤销。"
       }
     },
     "pending_invoices": "{_count} 张等待付款的发票。请向他们付款以避免服务中断。",
