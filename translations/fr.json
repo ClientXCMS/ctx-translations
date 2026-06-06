@@ -69,8 +69,8 @@
       "description": "Retrouvez la liste des langues disponibles pour l'espace client. Activez ou désactivez les langues selon vos besoins.",
       "countries_saved": "La liste des pays activés a été enregistrée avec succès.",
       "countries": {
-        "admin.locales.countries.description": "Sélectionnez les pays disponibles dans les formulaires et les validations de l'espace client.",
-        "admin.locales.countries.field": "Pays disponibles"
+        "description": "Sélectionnez les pays disponibles dans les formulaires et les validations de l'espace client.",
+        "field": "Pays disponibles"
       }
     },
     "update": {
@@ -667,6 +667,15 @@
               "driver_cloudflare_help": "Vous pouvez obtenir une clé sur <a href=\"https://{_url}\" class=\"text-primary\" target=\"_blank\" rel=\"noopener noreferrer\">{_url}</a>. Vous devez sélectionner le widget \"managed\""
             }
           },
+          "sms": {
+            "title":"Passerelle SMS",
+            "fields": {
+              "driver": "Driver SMS",
+              "twilio_sid": "Twilio Account SID",
+              "twilio_token":"Twilio Auth Token",
+              "twilio_from": "Numéro d'envoi Twilio (ou Alphanumeric Sender ID)",
+            },
+          },
           "fields": {
             "admin_prefix": "Préfixe de l'administration",
             "hash_driver": "Driver de hash",
@@ -1146,6 +1155,36 @@
         "heading": "Vériﬁcation à deux facteurs",
         "subheading": "Veuillez saisir le code d'authentiﬁcation à deux facteurs généré par votre application mobile.",
         "info": "Scannez le code QR avec votre application d'authentification à deux facteurs.",
+        "download_codes": "Télécharger les codes de récupération <a href=\"{_url}\" class=\"text-primary\">en cliquant ici</a>.",
+        "send_email_code": "Recevoir le code par email",
+        "email_sent": "Un code de vérification vient d'être envoyé par email.",
+        "email_sent_to": "Un code à 6 chiffres vous a été envoyé sur {_email}. Il est valide 5 minutes.",
+        "resend_email_code": "Renvoyer un code par email",
+        "options_saved": "Préférences mises à jour",
+        "step1_subheading": "Étape 1 sur 2 - Code de votre application d'authentification",
+        "step2_subheading": "Étape 2 sur 2 - Code reçu par email",
+        "step_indicator_totp": "Application",
+        "step_indicator_email": "Email",
+        "code_totp": "Code à 6 chiffres ou code de récupération",
+        "code_totp_hint": "Ouvrez votre application d'authentification. Si vous avez perdu votre appareil, utilisez l'un des codes de récupération.",
+        "code_email": "Code reçu par email",
+        "next_step": "Continuer",
+        "trust_device": "Faire confiance à cet appareil pendant {_days} jours",
+        "back_to_step1": "Revenir à la vérification précédente",
+        "cooldown_active": "Trop de tentatives infructueuses. Veuillez patienter {_minutes} minutes avant de demander un nouveau code.",
+        "device_label": "{_browser} sur {_os}",
+        "unknown_device": "Appareil inconnu",
+        "unknown_browser": "Navigateur inconnu",
+        "current_device": "Cet appareil",
+        "trusted_devices_heading": "Appareils de confiance",
+        "trusted_devices_description": "Ces appareils ne vous demanderont pas de code par email lors de votre prochaine connexion, jusqu'à expiration.",
+        "trusted_devices_empty": "Aucun appareil de confiance enregistré.",
+        "trusted_device_expires_at": "Expire le {_date}",
+        "trusted_device_expires_never": "Sans expiration",
+        "trusted_device_revoke": "Révoquer",
+        "trusted_device_revoked": "Appareil de confiance révoqué.",
+        "trusted_devices_revoke_all": "Tout révoquer",
+        "trusted_devices_revoked_all": "Tous les appareils de confiance ont été révoqués."
         "download_codes": "Télécharger les codes de récupération <a href=\"{_url}\" class=\"text-primary\">en cliquant ici</a>."
       }
     },
