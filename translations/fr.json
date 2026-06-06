@@ -673,7 +673,7 @@
               "driver": "Driver SMS",
               "twilio_sid": "Twilio Account SID",
               "twilio_token":"Twilio Auth Token",
-              "twilio_from": "Numéro d'envoi Twilio (ou Alphanumeric Sender ID)",
+              "twilio_from": "Numéro d'envoi Twilio (ou Alphanumeric Sender ID)"
             }
           },
           "fields": {
