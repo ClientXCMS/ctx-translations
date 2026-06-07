@@ -957,7 +957,12 @@
         "balance_addition_description": "Ajout de {_amount} déduite de la facture.",
         "title": "Crédit",
         "balance_not_enough": "Le solde n'est pas suffisant pour l'ajouter à la facture."
-      }
+      },
+      "credit_notes": "Avoirs",
+      "credit_note_number":"Numéro d'avoir",
+      "amount": "Montant",
+      "reason":"Motif",
+      "date":"Date",
     },
     "emails": {
       "index": "Mes emails",
