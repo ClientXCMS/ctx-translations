@@ -962,7 +962,7 @@
       "credit_note_number":"Numéro d'avoir",
       "amount": "Montant",
       "reason":"Motif",
-      "date":"Date",
+      "date":"Date"
     },
     "emails": {
       "index": "Mes emails",
