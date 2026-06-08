@@ -666,11 +666,11 @@
             }
           },
           "sms": {
-            "title":"Passerelle SMS",
+            "title": "Passerelle SMS",
             "fields": {
               "driver": "Driver SMS",
               "twilio_sid": "Twilio Account SID",
-              "twilio_token":"Twilio Auth Token",
+              "twilio_token": "Twilio Auth Token",
               "twilio_from": "Numéro d'envoi Twilio (ou Alphanumeric Sender ID)"
             }
           },
@@ -959,10 +959,10 @@
         "balance_not_enough": "Le solde n'est pas suffisant pour l'ajouter à la facture."
       },
       "credit_notes": "Avoirs",
-      "credit_note_number":"Numéro d'avoir",
+      "credit_note_number": "Numéro d'avoir",
       "amount": "Montant",
-      "reason":"Motif",
-      "date":"Date"
+      "reason": "Motif",
+      "date": "Date"
     },
     "emails": {
       "index": "Mes emails",
@@ -1149,10 +1149,10 @@
       },
       "password_updated": "Votre mot de passe a été mis à jour avec succès.",
       "2fa": {
-        "send_email_code": "Envoyer un code par e-mail",
-        "email_sent": "Un code de double authentification a été envoyé par e-mail. Il est valide pendant 5 minutes.",
+        "send_email_code": "Recevoir le code par email",
+        "email_sent": "Un code de vérification vient d'être envoyé par email.",
         "email_new_ip": "Demander un code de double authentification par e-mail lors d’une connexion depuis une nouvelle adresse IP",
-        "options_saved": "Les options de double authentification ont été enregistrées.",
+        "options_saved": "Préférences mises à jour",
         "enabled": "L'authentification à deux facteurs a été activée",
         "disabled": "L'authentification à deux facteurs a été désactivée",
         "title": "Authentification à deux facteurs",
@@ -1161,11 +1161,8 @@
         "subheading": "Veuillez saisir le code d'authentiﬁcation à deux facteurs généré par votre application mobile.",
         "info": "Scannez le code QR avec votre application d'authentification à deux facteurs.",
         "download_codes": "Télécharger les codes de récupération <a href=\"{_url}\" class=\"text-primary\">en cliquant ici</a>.",
-        "send_email_code": "Recevoir le code par email",
-        "email_sent": "Un code de vérification vient d'être envoyé par email.",
         "email_sent_to": "Un code à 6 chiffres vous a été envoyé sur {_email}. Il est valide 5 minutes.",
         "resend_email_code": "Renvoyer un code par email",
-        "options_saved": "Préférences mises à jour",
         "step1_subheading": "Étape 1 sur 2 - Code de votre application d'authentification",
         "step2_subheading": "Étape 2 sur 2 - Code reçu par email",
         "step_indicator_totp": "Application",
@@ -1190,8 +1187,7 @@
         "trusted_device_revoked": "Appareil de confiance révoqué.",
         "trusted_devices_revoke_all": "Tout révoquer",
         "trusted_devices_revoked_all": "Tous les appareils de confiance ont été révoqués.",
-        "connected_accounts": "Comptes connectés"  ,
-        "download_codes": "Télécharger les codes de récupération <a href=\"{_url}\" class=\"text-primary\">en cliquant ici</a>."
+        "connected_accounts": "Comptes connectés"
       }
     },
     "pending_invoices": "{_count} facture(s) en attente de paiement. Veuillez les payer pour éviter une interruption de service.",
@@ -1289,7 +1285,7 @@
         "expired": "Le lien de téléchargement a expiré ou le fichier n'existe plus.",
         "info": "Pour des raisons de sécurité, le lien de téléchargement généré est temporaire et expire au bout de 24 heures."
       }
-}
+    }
   },
   "lang.fr.coupon": {
     "not_found": "Coupon introuvable",
@@ -1749,7 +1745,7 @@
         "messages_sent": "Messages envoyés",
         "avg_resolution_time": "Délai de résolution moyen",
         "sla_compliance_rate": "Taux de respect des SLA",
-        "sla_breached_count":"SLA Dépassés (Actifs)",
+        "sla_breached_count": "SLA Dépassés (Actifs)"
       },
       "settings": {
         "title": "Paramètres du centre d'aide",
