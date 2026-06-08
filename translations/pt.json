@@ -961,7 +961,12 @@
         "balance_addition_description": "Adição de {_amount} deduzida da fatura.",
         "title": "Crédito",
         "balance_not_enough": "O saldo não é suficiente para adicioná-lo à fatura."
-      }
+      },
+      "credit_notes": "Ativos",
+      "credit_note_number": "Número de crédito",
+      "amount": "Quantia",
+      "reason": "Padrão",
+      "date": "Data"
     },
     "emails": {
       "index": "Meus e-mails",
@@ -1186,7 +1191,8 @@
         "trusted_device_revoke": "Revogar",
         "trusted_device_revoked": "Dispositivo confiável revogado.",
         "trusted_devices_revoke_all": "Revogar tudo",
-        "trusted_devices_revoked_all": "Todos os dispositivos confiáveis ​​foram revogados."
+        "trusted_devices_revoked_all": "Todos os dispositivos confiáveis ​​foram revogados.",
+        "connected_accounts": "Contas conectadas"
       }
     },
     "pending_invoices": "{_count} fatura(s) aguardando pagamento. Pague-os para evitar uma interrupção do serviço.",
@@ -1273,6 +1279,17 @@
       "service_name_updated": "O nome do serviço foi atualizado",
       "service_billing_updated": "As informações de cobrança foram atualizadas",
       "email_must_be_verified": "Seu endereço de e-mail deve ser verificado para acessar esta página"
+    },
+    "gdpr": {
+      "export": {
+        "title": "Exportar meus dados",
+        "description": "Baixe uma cópia de todos os seus dados pessoais armazenados em nosso sistema (perfil, faturas, serviços, tickets).",
+        "ready": "Seu arquivo de exportação de dados foi gerado com sucesso.",
+        "download": "Baixar meus dados (ZIP)",
+        "btn": "Gerar exportação de dados",
+        "expired": "O link de download expirou ou o arquivo não existe mais.",
+        "info": "Por motivos de segurança, o link de download gerado é temporário e expira após 24 horas."
+      }
     }
   },
   "lang.fr.coupon": {
@@ -1731,7 +1748,9 @@
         "tickets_last_week": "Ingressos da semana passada",
         "avg_reply_time": "Prazo médio de resposta",
         "messages_sent": "Mensagens enviadas",
-        "avg_resolution_time": "Prazo médio de resolução"
+        "avg_resolution_time": "Prazo médio de resolução",
+        "sla_compliance_rate": "Taxa de conformidade com SLA",
+        "sla_breached_count": "SLA excedido (ativo)"
       },
       "settings": {
         "title": "Configurações da Central de Ajuda",

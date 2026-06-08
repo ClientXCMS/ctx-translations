@@ -961,7 +961,12 @@
         "balance_addition_description": "Hinzufügung von {_amount} abzgl. von der Rechnung.",
         "title": "Kredit",
         "balance_not_enough": "Der Saldo reicht nicht aus, um ihn zur Rechnung hinzuzufügen."
-      }
+      },
+      "credit_notes": "Vermögenswerte",
+      "credit_note_number": "Kreditnummer",
+      "amount": "Menge",
+      "reason": "Muster",
+      "date": "Datum"
     },
     "emails": {
       "index": "Meine E-Mails",
@@ -1186,7 +1191,8 @@
         "trusted_device_revoke": "Widerrufen",
         "trusted_device_revoked": "Vertrauenswürdiges Gerät widerrufen.",
         "trusted_devices_revoke_all": "Alles widerrufen",
-        "trusted_devices_revoked_all": "Alle vertrauenswürdigen Geräte wurden widerrufen."
+        "trusted_devices_revoked_all": "Alle vertrauenswürdigen Geräte wurden widerrufen.",
+        "connected_accounts": "Verbundene Konten"
       }
     },
     "pending_invoices": "{_count} Rechnung(en), die auf Zahlung warten. Bitte zahlen Sie diese, um eine Unterbrechung des Dienstes zu vermeiden.",
@@ -1273,6 +1279,17 @@
       "service_name_updated": "Der Name des Dienstes wurde aktualisiert",
       "service_billing_updated": "Die Rechnungsinformationen wurden aktualisiert",
       "email_must_be_verified": "Ihre E-Mail-Adresse muss verifiziert sein, um auf diese Seite zugreifen zu können"
+    },
+    "gdpr": {
+      "export": {
+        "title": "Meine Daten exportieren",
+        "description": "Laden Sie eine Kopie aller Ihrer in unserem System gespeicherten persönlichen Daten herunter (Profil, Rechnungen, Dienstleistungen, Tickets).",
+        "ready": "Ihr Datenexportarchiv wurde erfolgreich erstellt.",
+        "download": "Meine Daten herunterladen (ZIP)",
+        "btn": "Datenexport generieren",
+        "expired": "Der Download-Link ist abgelaufen oder die Datei existiert nicht mehr.",
+        "info": "Aus Sicherheitsgründen ist der generierte Download-Link temporär und läuft nach 24 Stunden ab."
+      }
     }
   },
   "lang.fr.coupon": {
@@ -1731,7 +1748,9 @@
         "tickets_last_week": "Tickets von letzter Woche",
         "avg_reply_time": "Durchschnittliche Antwortzeit",
         "messages_sent": "Gesendete Nachrichten",
-        "avg_resolution_time": "Durchschnittliche Lösungszeit"
+        "avg_resolution_time": "Durchschnittliche Lösungszeit",
+        "sla_compliance_rate": "SLA-Konformitätsrate",
+        "sla_breached_count": "SLA überschritten (aktiv)"
       },
       "settings": {
         "title": "Help-Center-Einstellungen",

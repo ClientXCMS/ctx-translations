@@ -961,7 +961,12 @@
         "balance_addition_description": "Addition of {_amount} deducted from the invoice.",
         "title": "Credit",
         "balance_not_enough": "The balance is not enough to add it to the invoice."
-      }
+      },
+      "credit_notes": "Assets",
+      "credit_note_number": "Credit number",
+      "amount": "Amount",
+      "reason": "Pattern",
+      "date": "Date"
     },
     "emails": {
       "index": "My emails",
@@ -1186,7 +1191,8 @@
         "trusted_device_revoke": "Revoke",
         "trusted_device_revoked": "Trusted device revoked.",
         "trusted_devices_revoke_all": "Revoke all",
-        "trusted_devices_revoked_all": "All trusted devices have been revoked."
+        "trusted_devices_revoked_all": "All trusted devices have been revoked.",
+        "connected_accounts": "Connected accounts"
       }
     },
     "pending_invoices": "{_count} invoice(s) awaiting payment. Please pay them to avoid a service interruption.",
@@ -1273,6 +1279,17 @@
       "service_name_updated": "The name of the service has been updated",
       "service_billing_updated": "Billing information has been updated",
       "email_must_be_verified": "Your email address must be verified to access this page"
+    },
+    "gdpr": {
+      "export": {
+        "title": "Export my data",
+        "description": "Download a copy of all your personal data stored in our system (profile, invoices, services, tickets).",
+        "ready": "Your data export archive has been successfully generated.",
+        "download": "Download my data (ZIP)",
+        "btn": "Generate data export",
+        "expired": "The download link has expired or the file no longer exists.",
+        "info": "For security reasons, the generated download link is temporary and expires after 24 hours."
+      }
     }
   },
   "lang.fr.coupon": {
@@ -1731,7 +1748,9 @@
         "tickets_last_week": "Tickets from last week",
         "avg_reply_time": "Average response time",
         "messages_sent": "Sent messages",
-        "avg_resolution_time": "Average resolution time"
+        "avg_resolution_time": "Average resolution time",
+        "sla_compliance_rate": "SLA compliance rate",
+        "sla_breached_count": "SLA Exceeded (Active)"
       },
       "settings": {
         "title": "Help Center settings",

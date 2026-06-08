@@ -961,7 +961,12 @@
         "balance_addition_description": "Adición de {_amount} deducida de la factura.",
         "title": "Crédito",
         "balance_not_enough": "El saldo no es suficiente para agregarlo a la factura."
-      }
+      },
+      "credit_notes": "Activos",
+      "credit_note_number": "Número de crédito",
+      "amount": "Cantidad",
+      "reason": "Patrón",
+      "date": "Fecha"
     },
     "emails": {
       "index": "Mis correos electrónicos",
@@ -1186,7 +1191,8 @@
         "trusted_device_revoke": "Revocar",
         "trusted_device_revoked": "Dispositivo de confianza revocado.",
         "trusted_devices_revoke_all": "Revocar todo",
-        "trusted_devices_revoked_all": "Todos los dispositivos confiables han sido revocados."
+        "trusted_devices_revoked_all": "Todos los dispositivos confiables han sido revocados.",
+        "connected_accounts": "Cuentas conectadas"
       }
     },
     "pending_invoices": "{_count} factura(s) pendiente(s) de pago. Por favor, págueles para evitar una interrupción del servicio.",
@@ -1273,6 +1279,17 @@
       "service_name_updated": "Se ha actualizado el nombre del servicio",
       "service_billing_updated": "La información de facturación se ha actualizado",
       "email_must_be_verified": "Su dirección de correo electrónico debe estar verificada para acceder a esta página"
+    },
+    "gdpr": {
+      "export": {
+        "title": "exportar mis datos",
+        "description": "Descargue una copia de todos sus datos personales almacenados en nuestro sistema (perfil, facturas, servicios, tickets).",
+        "ready": "Su archivo de exportación de datos se ha generado correctamente.",
+        "download": "Descargar mis datos (ZIP)",
+        "btn": "Generar exportación de datos",
+        "expired": "El enlace de descarga ha caducado o el archivo ya no existe.",
+        "info": "Por razones de seguridad, el enlace de descarga generado es temporal y caduca después de 24 horas."
+      }
     }
   },
   "lang.fr.coupon": {
@@ -1731,7 +1748,9 @@
         "tickets_last_week": "Entradas de la semana pasada",
         "avg_reply_time": "Plazo de respuesta promedio",
         "messages_sent": "Mensajes enviados",
-        "avg_resolution_time": "Plazo medio de resolución"
+        "avg_resolution_time": "Plazo medio de resolución",
+        "sla_compliance_rate": "Tasa de cumplimiento de SLA",
+        "sla_breached_count": "SLA excedido (activo)"
       },
       "settings": {
         "title": "Configuración del Centro de ayuda",

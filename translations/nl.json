@@ -961,7 +961,12 @@
         "balance_addition_description": "Toevoeging van {_amount} afgetrokken van de factuur.",
         "title": "Krediet",
         "balance_not_enough": "Het saldo is niet voldoende om het aan de factuur toe te voegen."
-      }
+      },
+      "credit_notes": "Activa",
+      "credit_note_number": "Kredietnummer",
+      "amount": "Hoeveelheid",
+      "reason": "Patroon",
+      "date": "Datum"
     },
     "emails": {
       "index": "Mijn e-mails",
@@ -1186,7 +1191,8 @@
         "trusted_device_revoke": "Herroepen",
         "trusted_device_revoked": "Vertrouwd apparaat ingetrokken.",
         "trusted_devices_revoke_all": "Alles intrekken",
-        "trusted_devices_revoked_all": "Alle vertrouwde apparaten zijn ingetrokken."
+        "trusted_devices_revoked_all": "Alle vertrouwde apparaten zijn ingetrokken.",
+        "connected_accounts": "Verbonden accounts"
       }
     },
     "pending_invoices": "{_count} factuur(en) in afwachting van betaling. Betaal ze om een onderbreking van de service te voorkomen.",
@@ -1273,6 +1279,17 @@
       "service_name_updated": "De naam van de dienst is bijgewerkt",
       "service_billing_updated": "Factuurgegevens zijn bijgewerkt",
       "email_must_be_verified": "Uw e-mailadres moet worden geverifieerd om toegang te krijgen tot deze pagina"
+    },
+    "gdpr": {
+      "export": {
+        "title": "Exporteer mijn gegevens",
+        "description": "Download een kopie van al uw persoonlijke gegevens die in ons systeem zijn opgeslagen (profiel, facturen, diensten, tickets).",
+        "ready": "Uw gegevensexportarchief is succesvol gegenereerd.",
+        "download": "Mijn gegevens downloaden (ZIP)",
+        "btn": "Gegevensexport genereren",
+        "expired": "De downloadlink is verlopen of het bestand bestaat niet meer.",
+        "info": "Om veiligheidsredenen is de gegenereerde downloadlink tijdelijk en vervalt deze na 24 uur."
+      }
     }
   },
   "lang.fr.coupon": {
@@ -1731,7 +1748,9 @@
         "tickets_last_week": "Tickets van vorige week",
         "avg_reply_time": "Gemiddelde reactietijd",
         "messages_sent": "Verzonden berichten",
-        "avg_resolution_time": "Gemiddelde oplosduur"
+        "avg_resolution_time": "Gemiddelde oplosduur",
+        "sla_compliance_rate": "SLA-nalevingspercentage",
+        "sla_breached_count": "SLA overschreden (actief)"
       },
       "settings": {
         "title": "Instellingen Helpcentrum",

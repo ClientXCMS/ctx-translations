@@ -961,7 +961,12 @@
         "balance_addition_description": "从发票中扣除的金额为 {_amount}.",
         "title": "信贷",
         "balance_not_enough": "余额不足，无法将其添加到账单中。"
-      }
+      },
+      "credit_notes": "资产",
+      "credit_note_number": "信用号",
+      "amount": "数量",
+      "reason": "图案",
+      "date": "日期"
     },
     "emails": {
       "index": "我的电子邮件",
@@ -1186,7 +1191,8 @@
         "trusted_device_revoke": "撤销",
         "trusted_device_revoked": "可信设备已被撤销。",
         "trusted_devices_revoke_all": "全部撤销",
-        "trusted_devices_revoked_all": "所有受信任的设备均已被撤销。"
+        "trusted_devices_revoked_all": "所有受信任的设备均已被撤销。",
+        "connected_accounts": "关联账户"
       }
     },
     "pending_invoices": "{_count} 张等待付款的发票。请向他们付款以避免服务中断。",
@@ -1273,6 +1279,17 @@
       "service_name_updated": "服务名称已更新",
       "service_billing_updated": "账单信息已更新",
       "email_must_be_verified": "您的电子邮件地址必须经过验证才能访问此页面"
+    },
+    "gdpr": {
+      "export": {
+        "title": "导出我的数据",
+        "description": "下载我们系统中存储的所有个人数据的副本（个人资料、发票、服务、门票）。",
+        "ready": "您的数据导出存档已成功生成。",
+        "download": "下载我的数据 (ZIP)",
+        "btn": "生成数据导出",
+        "expired": "下载链接已过期或文件不再存在。",
+        "info": "出于安全原因，生成的下载链接是临时的，并在 24 小时后过期。"
+      }
     }
   },
   "lang.fr.coupon": {
@@ -1731,7 +1748,9 @@
         "tickets_last_week": "上周的票",
         "avg_reply_time": "平均响应时间",
         "messages_sent": "已发送的消息",
-        "avg_resolution_time": "平均解决时间"
+        "avg_resolution_time": "平均解决时间",
+        "sla_compliance_rate": "SLA 合规率",
+        "sla_breached_count": "超出 SLA（活动）"
       },
       "settings": {
         "title": "帮助中心设置",

@@ -961,7 +961,12 @@
         "balance_addition_description": "Aggiunta di {_amount} dedotto dalla fattura.",
         "title": "Credito",
         "balance_not_enough": "Il saldo non è sufficiente per aggiungerlo alla fattura."
-      }
+      },
+      "credit_notes": "Attività",
+      "credit_note_number": "Numero di credito",
+      "amount": "Quantità",
+      "reason": "Modello",
+      "date": "Data"
     },
     "emails": {
       "index": "Le mie email",
@@ -1186,7 +1191,8 @@
         "trusted_device_revoke": "Revocare",
         "trusted_device_revoked": "Dispositivo attendibile revocato.",
         "trusted_devices_revoke_all": "Revocare tutto",
-        "trusted_devices_revoked_all": "Tutti i dispositivi attendibili sono stati revocati."
+        "trusted_devices_revoked_all": "Tutti i dispositivi attendibili sono stati revocati.",
+        "connected_accounts": "Conti collegati"
       }
     },
     "pending_invoices": "{_count} fattura/e in attesa di pagamento. Si prega di pagarli per evitare un'interruzione del servizio.",
@@ -1273,6 +1279,17 @@
       "service_name_updated": "Il nome del servizio è stato aggiornato",
       "service_billing_updated": "Le informazioni di fatturazione sono state aggiornate",
       "email_must_be_verified": "Il tuo indirizzo email deve essere verificato per accedere a questa pagina"
+    },
+    "gdpr": {
+      "export": {
+        "title": "Esporta i miei dati",
+        "description": "Scarica una copia di tutti i tuoi dati personali archiviati nel nostro sistema (profilo, fatture, servizi, biglietti).",
+        "ready": "Il tuo archivio di esportazione dati è stato generato con successo.",
+        "download": "Scarica i miei dati (ZIP)",
+        "btn": "Genera esportazione dati",
+        "expired": "Il collegamento per il download è scaduto o il file non esiste più.",
+        "info": "Per motivi di sicurezza, il collegamento per il download generato è temporaneo e scade dopo 24 ore."
+      }
     }
   },
   "lang.fr.coupon": {
@@ -1731,7 +1748,9 @@
         "tickets_last_week": "Biglietti della scorsa settimana",
         "avg_reply_time": "Tempo di risposta medio",
         "messages_sent": "Messaggi inviati",
-        "avg_resolution_time": "Tempo medio di risoluzione"
+        "avg_resolution_time": "Tempo medio di risoluzione",
+        "sla_compliance_rate": "Tasso di conformità agli SLA",
+        "sla_breached_count": "SLA superato (attivo)"
       },
       "settings": {
         "title": "Impostazioni del Centro assistenza",
