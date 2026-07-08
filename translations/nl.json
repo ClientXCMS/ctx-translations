@@ -675,7 +675,13 @@
               "driver": "SMS-stuurprogramma",
               "twilio_sid": "Twilio-account-SID",
               "twilio_token": "Twilio-authenticatietoken",
-              "twilio_from": "Twilio-verzendnummer (of alfanumerieke afzender-ID)"
+              "twilio_from": "Twilio-verzendnummer (of alfanumerieke afzender-ID)",
+              "ovh_endpoint": "OVHcloud-eindpunt",
+              "ovh_application_key": "OVHcloud-applicatiesleutel",
+              "ovh_application_secret": "OVHcloud-applicatiegeheim",
+              "ovh_consumer_key": "OVHcloud consumentensleutel",
+              "ovh_service_name": "Naam van de OVHcloud SMS-service",
+              "ovh_sender": "OVHcloud-afzender"
             }
           },
           "fields": {
@@ -2087,7 +2093,11 @@
         "notify_subscription_failed": "Melding van mislukte abonnementsbetalingen",
         "customer_banned": "Klant geblokkeerd",
         "customer_suspended": "Cliënt opgeschort",
-        "customer_reactivated": "Cliënt geactiveerd"
+        "customer_reactivated": "Cliënt geactiveerd",
+        "account_purge_reminder": "Herinnering voor het opschonen van uw account",
+        "customer_account_invitation": "Uitnodiging om een ​​klantaccount aan te maken",
+        "customer_account_access_granted": "Toegang tot klantaccount verleend",
+        "two_factor_code": "Tweefactorauthenticatiecode"
       },
       "errors": {
         "dangerous_content": "De inhoud bevat verboden PHP- of Blade-richtlijnen."

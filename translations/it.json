@@ -675,7 +675,13 @@
               "driver": "Driver SMS",
               "twilio_sid": "SID dell'account Twilio",
               "twilio_token": "Token di autenticazione Twilio",
-              "twilio_from": "Numero di invio di Twilio (o ID mittente alfanumerico)"
+              "twilio_from": "Numero di invio di Twilio (o ID mittente alfanumerico)",
+              "ovh_endpoint": "Endpoint OVHcloud",
+              "ovh_application_key": "Chiavetta applicativa OVHcloud",
+              "ovh_application_secret": "Segreto dell'applicazione OVHcloud",
+              "ovh_consumer_key": "Chiave consumatore OVHcloud",
+              "ovh_service_name": "Nome del servizio SMS OVHcloud",
+              "ovh_sender": "Mittente OVHcloud"
             }
           },
           "fields": {
@@ -2087,7 +2093,11 @@
         "notify_subscription_failed": "Notifica di mancato pagamento dell'abbonamento",
         "customer_banned": "Il cliente banna",
         "customer_suspended": "Cliente sospeso",
-        "customer_reactivated": "Cliente riattivato"
+        "customer_reactivated": "Cliente riattivato",
+        "account_purge_reminder": "Promemoria di eliminazione dell'account",
+        "customer_account_invitation": "Invito a creare un account cliente",
+        "customer_account_access_granted": "Accesso al conto cliente concesso",
+        "two_factor_code": "Codice di verifica a due fattori"
       },
       "errors": {
         "dangerous_content": "Il contenuto contiene direttive PHP o Blade vietate."

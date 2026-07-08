@@ -675,7 +675,13 @@
               "driver": "短信驱动",
               "twilio_sid": "Twilio 帐户 SID",
               "twilio_token": "Twilio 身份验证令牌",
-              "twilio_from": "Twilio 发送号码（或字母数字发件人 ID）"
+              "twilio_from": "Twilio 发送号码（或字母数字发件人 ID）",
+              "ovh_endpoint": "OVH云端点",
+              "ovh_application_key": "OVHcloud 应用程序密钥",
+              "ovh_application_secret": "OVHcloud应用秘密",
+              "ovh_consumer_key": "OVHcloud 消费者密钥",
+              "ovh_service_name": "OVHcloud短信服务名称",
+              "ovh_sender": "OVH云发送器"
             }
           },
           "fields": {
@@ -2087,7 +2093,11 @@
         "notify_subscription_failed": "订阅付款失败通知",
         "customer_banned": "客户被禁止",
         "customer_suspended": "客户被暂停",
-        "customer_reactivated": "客户已重新激活"
+        "customer_reactivated": "客户已重新激活",
+        "account_purge_reminder": "账户清除提醒",
+        "customer_account_invitation": "邀请创建客户帐户",
+        "customer_account_access_granted": "已授予对客户帐户的访问权限",
+        "two_factor_code": "双因素验证码"
       },
       "errors": {
         "dangerous_content": "内容包含被禁止的 PHP 或 Blade 指令。"
