@@ -449,6 +449,26 @@
         "login": "Últimas conexões"
       }
     },
+    "credit_notes": {
+      "title": "Ativos",
+      "subheading": "Aqui está a lista de todos os ativos do sistema",
+      "amount_ht": "Valor sem impostos",
+      "tax": "CUBA",
+      "issued_by": "Emitida pela",
+      "search_placeholder": "Número, cliente ou fatura",
+      "multi_currency": "Multi-moeda",
+      "filters": {
+        "date_from": "Ativos emitidos desde",
+        "date_to": "Ativos emitidos até"
+      },
+      "kpi": {
+        "count": "Número de ativos",
+        "amount": "Total excluindo impostos",
+        "tax": "IVA total",
+        "total": "Total incluindo impostos",
+        "by_currency": "Detalhe por moeda"
+      }
+    },
     "invoices": {
       "mass": {
         "complete": "Marcar como pago",
@@ -463,6 +483,10 @@
         "format": "Formato",
         "date_to": "Data de término",
         "date_from": "Data de início"
+      },
+      "filters": {
+        "date_from": "Faturas criadas desde",
+        "date_to": "Faturas criadas até"
       },
       "customproduct": "Produto personalizado",
       "invoice_number": "Número da fatura",
@@ -1384,6 +1408,8 @@
       "search_placeholder": "Pesquisar por nome, descrição ou tag",
       "processing": "Processamento em curso...",
       "no_extensions_found": "Nenhuma extensão encontrada",
+      "boot_error": "Erro na inicialização",
+      "boot_error_description": "Esta extensão foi desativada automaticamente porque não foi iniciada.",
       "tabs": {
         "my_extensions": "As minhas extensões",
         "discover": "Descobrir",
@@ -2347,7 +2373,10 @@
       "mode_support_ticket": "Redirecionar para a criação de um ticket de suporte",
       "mode_after_expiration": "Permitir cancelamento após a expiração do serviço",
       "requires_ticket": "Este motivo de cancelamento requer a abertura de um ticket de suporte.",
-      "after_expiration_only": "Este cancelamento será autorizado somente após o término do serviço."
+      "after_expiration_only": "Este cancelamento será autorizado somente após o término do serviço.",
+      "ticket_subject": "Solicitação de cancelamento de serviço{_service}",
+      "ticket_message": "Olá,\n\nGostaria de solicitar o cancelamento do seguinte serviço:\n\nServiço:{_service}Identificador:{_identifier}Motivo:{_reason}Prazo desejado:{_expiration}Informações adicionais:{_details}Obrigado por processar meu pedido de cancelamento.",
+      "ticket_no_details": "Nenhuma informação adicional."
     },
     "config_option": "Opção de configuração",
     "admin": {

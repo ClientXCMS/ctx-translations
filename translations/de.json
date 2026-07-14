@@ -449,6 +449,26 @@
         "login": "Neueste Verbindungen"
       }
     },
+    "credit_notes": {
+      "title": "Vermögenswerte",
+      "subheading": "Hier ist die Liste aller Assets des Systems",
+      "amount_ht": "Betrag ohne Steuern",
+      "tax": "MwSt",
+      "issued_by": "Ausgestellt von",
+      "search_placeholder": "Nummer, Kunde oder Rechnung",
+      "multi_currency": "Mehrere Währungen",
+      "filters": {
+        "date_from": "Seitdem ausgegebene Vermögenswerte",
+        "date_to": "Vermögenswerte ausgegeben bis"
+      },
+      "kpi": {
+        "count": "Anzahl der Vermögenswerte",
+        "amount": "Gesamtsumme ohne Steuern",
+        "tax": "Gesamte Mehrwertsteuer",
+        "total": "Gesamtsumme inklusive Steuern",
+        "by_currency": "Detailliert nach Währung"
+      }
+    },
     "invoices": {
       "mass": {
         "complete": "Als bezahlt markieren",
@@ -463,6 +483,10 @@
         "format": "Format",
         "date_to": "Enddatum",
         "date_from": "Startdatum"
+      },
+      "filters": {
+        "date_from": "Seitdem erstellte Rechnungen",
+        "date_to": "Rechnungen erstellt bis"
       },
       "customproduct": "Kundenspezifisches Produkt",
       "invoice_number": "Rechnungsnummer",
@@ -1384,6 +1408,8 @@
       "search_placeholder": "Nach Namen, Beschreibung oder Tag suchen",
       "processing": "Bearbeitung läuft...",
       "no_extensions_found": "Keine Erweiterung gefunden",
+      "boot_error": "Fehler beim Start",
+      "boot_error_description": "Diese Erweiterung wurde automatisch deaktiviert, da sie nicht gestartet werden konnte.",
       "tabs": {
         "my_extensions": "Meine Erweiterungen",
         "discover": "Entdecken",
@@ -2347,7 +2373,10 @@
       "mode_support_ticket": "Weiter zum Erstellen eines Support-Tickets",
       "mode_after_expiration": "Stornierung nach Ablauf des Dienstes zulassen",
       "requires_ticket": "Dieser Stornierungsgrund erfordert die Eröffnung eines Support-Tickets.",
-      "after_expiration_only": "Diese Stornierung wird erst nach Ablauf des Dienstes genehmigt."
+      "after_expiration_only": "Diese Stornierung wird erst nach Ablauf des Dienstes genehmigt.",
+      "ticket_subject": "Antrag auf Kündigung des Dienstes{_service}",
+      "ticket_message": "Hallo,\n\nIch möchte die Stornierung des folgenden Dienstes beantragen:\n\nDienst:{_service}Kennung:{_identifier}Grund:{_reason}Gewünschter Termin:{_expiration}Zusätzliche Informationen:{_details}Vielen Dank für die Bearbeitung meiner Stornierungsanfrage.",
+      "ticket_no_details": "Keine zusätzlichen Informationen."
     },
     "config_option": "Konfigurationsoption",
     "admin": {

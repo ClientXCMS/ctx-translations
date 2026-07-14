@@ -449,6 +449,26 @@
         "login": "Laatste verbindingen"
       }
     },
+    "credit_notes": {
+      "title": "Activa",
+      "subheading": "Hier is de lijst met alle systeemactiva",
+      "amount_ht": "Bedrag exclusief belasting",
+      "tax": "VAT",
+      "issued_by": "Uitgegeven door",
+      "search_placeholder": "Nummer, klant of factuur",
+      "multi_currency": "Meerdere valuta",
+      "filters": {
+        "date_from": "Activa uitgegeven sindsdien",
+        "date_to": "Activa uitgegeven tot"
+      },
+      "kpi": {
+        "count": "Aantal activa",
+        "amount": "Totaal exclusief belasting",
+        "tax": "Totale BTW",
+        "total": "Totaal inclusief belasting",
+        "by_currency": "Detail per valuta"
+      }
+    },
     "invoices": {
       "mass": {
         "complete": "Markeren als betaald",
@@ -463,6 +483,10 @@
         "format": "Formaat",
         "date_to": "Einddatum",
         "date_from": "Startdatum"
+      },
+      "filters": {
+        "date_from": "Facturen aangemaakt sindsdien",
+        "date_to": "Facturen aangemaakt tot"
       },
       "customproduct": "Product op maat",
       "invoice_number": "Factuurnummer",
@@ -1384,6 +1408,8 @@
       "search_placeholder": "Zoeken op naam, beschrijving of tag",
       "processing": "Behandeling in uitvoering...",
       "no_extensions_found": "Geen extensies gevonden",
+      "boot_error": "Fout bij het opstarten",
+      "boot_error_description": "Deze extensie is automatisch uitgeschakeld omdat deze niet kon worden gestart.",
       "tabs": {
         "my_extensions": "Mijn extensies",
         "discover": "Ontdekken",
@@ -2347,7 +2373,10 @@
       "mode_support_ticket": "Omleiding naar het maken van een supportticket",
       "mode_after_expiration": "Sta annulering toe nadat de service is verlopen",
       "requires_ticket": "Voor deze annuleringsreden is het openen van een supportticket vereist.",
-      "after_expiration_only": "Deze annulering is pas toegestaan ​​na het verstrijken van de dienst."
+      "after_expiration_only": "Deze annulering is pas toegestaan ​​na het verstrijken van de dienst.",
+      "ticket_subject": "Verzoek om annulering van de dienst{_service}",
+      "ticket_message": "Hallo,\n\nIk wil graag de annulering van de volgende dienst aanvragen:\n\nDienst:{_service}Identificatie:{_identifier}Reden:{_reason}Gewenste deadline:{_expiration}Aanvullende informatie:{_details}Bedankt voor het verwerken van mijn annuleringsverzoek.",
+      "ticket_no_details": "Geen aanvullende informatie."
     },
     "config_option": "Configuratie optie",
     "admin": {

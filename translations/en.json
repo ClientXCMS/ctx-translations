@@ -449,6 +449,26 @@
         "login": "Latest Connections"
       }
     },
+    "credit_notes": {
+      "title": "Assets",
+      "subheading": "Here is the list of all system assets",
+      "amount_ht": "Amount excluding tax",
+      "tax": "VAT",
+      "issued_by": "Issued by",
+      "search_placeholder": "Number, customer or invoice",
+      "multi_currency": "Multi-currency",
+      "filters": {
+        "date_from": "Assets issued since",
+        "date_to": "Assets issued until"
+      },
+      "kpi": {
+        "count": "Number of assets",
+        "amount": "Total excluding tax",
+        "tax": "Total VAT",
+        "total": "Total including tax",
+        "by_currency": "Detail by currency"
+      }
+    },
     "invoices": {
       "mass": {
         "complete": "Mark as Paid",
@@ -463,6 +483,10 @@
         "format": "Format",
         "date_to": "End date",
         "date_from": "Start date"
+      },
+      "filters": {
+        "date_from": "Invoices created since",
+        "date_to": "Invoices created until"
       },
       "customproduct": "Customized product",
       "invoice_number": "Invoice number",
@@ -1384,6 +1408,8 @@
       "search_placeholder": "Search by name, description, or tag",
       "processing": "Processing in progress...",
       "no_extensions_found": "No extensions found",
+      "boot_error": "Error at startup",
+      "boot_error_description": "This extension was automatically disabled because it failed to start.",
       "tabs": {
         "my_extensions": "My extensions",
         "discover": "Discover",
@@ -2347,7 +2373,10 @@
       "mode_support_ticket": "Redirect to creating a support ticket",
       "mode_after_expiration": "Allow cancellation after service expires",
       "requires_ticket": "This cancellation reason requires opening a support ticket.",
-      "after_expiration_only": "This cancellation will be authorized only after expiration of the service."
+      "after_expiration_only": "This cancellation will be authorized only after expiration of the service.",
+      "ticket_subject": "Request for cancellation of service{_service}",
+      "ticket_message": "Hello, \n\nI would like to request cancellation of the following service: \n\nService:{_service}Identifier:{_identifier}Reason:{_reason}Desired deadline:{_expiration}Additional information:{_details}Thank you for processing my cancellation request.",
+      "ticket_no_details": "No additional information."
     },
     "config_option": "Configuration option",
     "admin": {

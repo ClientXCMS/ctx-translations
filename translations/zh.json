@@ -449,6 +449,26 @@
         "login": "最新连接"
       }
     },
+    "credit_notes": {
+      "title": "资产",
+      "subheading": "这是系统所有资产的列表",
+      "amount_ht": "不含税金额",
+      "tax": "增值税",
+      "issued_by": "由...发出",
+      "search_placeholder": "编号、客户或发票",
+      "multi_currency": "多币种",
+      "filters": {
+        "date_from": "自发行以来的资产",
+        "date_to": "资产发行截止日期"
+      },
+      "kpi": {
+        "count": "资产数量",
+        "amount": "不含税总计",
+        "tax": "增值税总额",
+        "total": "含税合计",
+        "by_currency": "按货币分类的详细信息"
+      }
+    },
     "invoices": {
       "mass": {
         "complete": "标记为已付款",
@@ -463,6 +483,10 @@
         "format": "格式",
         "date_to": "结束日期",
         "date_from": "开始日期"
+      },
+      "filters": {
+        "date_from": "自此创建的发票",
+        "date_to": "发票创建截止日期"
       },
       "customproduct": "定制产品",
       "invoice_number": "发票编号",
@@ -1384,6 +1408,8 @@
       "search_placeholder": "按名称、描述或标签搜索",
       "processing": "处理中...",
       "no_extensions_found": "未找到扩展",
+      "boot_error": "启动时出错",
+      "boot_error_description": "此扩展因无法启动而被自动禁用。",
       "tabs": {
         "my_extensions": "我的扩展",
         "discover": "发现",
@@ -2347,7 +2373,10 @@
       "mode_support_ticket": "重定向到创建支持票证",
       "mode_after_expiration": "服务到期后允许取消",
       "requires_ticket": "此取消原因需要开具支持票证。",
-      "after_expiration_only": "只有在服务到期后才可以取消。"
+      "after_expiration_only": "只有在服务到期后才可以取消。",
+      "ticket_subject": "请求取消服务{_service}",
+      "ticket_message": "你好，\n\n我想请求取消以下服务：\n\n部门：{_service}标识符：{_identifier}原因：{_reason}期望的截止日期：{_expiration}附加信息：{_details}感谢您处理我的取消请求。",
+      "ticket_no_details": "没有附加信息。"
     },
     "config_option": "配置选项",
     "admin": {
