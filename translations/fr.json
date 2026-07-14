@@ -447,6 +447,26 @@
         "login": "Dernières connexions"
       }
     },
+    "credit_notes": {
+      "title": "Avoirs",
+      "subheading": "Voici la liste de tous les avoirs du système",
+      "amount_ht": "Montant HT",
+      "tax": "TVA",
+      "issued_by": "Émis par",
+      "search_placeholder": "Numéro, client ou facture",
+      "multi_currency": "Multi-devises",
+      "filters": {
+        "date_from": "Avoirs émis depuis",
+        "date_to": "Avoirs émis jusqu'au"
+      },
+      "kpi" : {
+        "count": "Nombre d'avoirs",
+        "amount": "Total HT",
+        "tax": "Total TVA",
+        "total": "Total TTC",
+        "by_currency": "Détail par devise"
+      }
+    },
     "invoices": {
       "mass": {
         "complete": "Marquer comme payé",
@@ -461,6 +481,10 @@
         "format": "Format",
         "date_to": "Date de fin",
         "date_from": "Date de début"
+      },
+      "filters": {
+        "date_from": "Factures créées depuis",
+        "date_to": "Factures créées jusqu'au"
       },
       "customproduct": "Produit personnalisé",
       "invoice_number": "Numéro de facture",
@@ -1379,6 +1403,8 @@
       "search_placeholder": "Rechercher par nom, description ou tag",
       "processing": "Traitement en cours...",
       "no_extensions_found": "Aucune extension trouvée",
+      "boot_error": "Erreur au démarrage",
+      "boot_error_description": "Cette extension a été désactivée automatiquement car son démarrage a échoué.",
       "tabs": {
         "my_extensions": "Mes extensions",
         "discover": "Découvrir",
@@ -2245,6 +2271,7 @@
     "upload_speed": "Vitesse de téléversement",
     "ips": "IPs",
     "ip6": "IP6",
+    
     "ip6subnet": "Sous-réseau IP6",
     "burstable_memory": "Mémoire burstable",
     "guaranteed_memory": "Mémoire garantie",
@@ -2341,8 +2368,11 @@
       "mode_immediate": "Autoriser l'annulation immédiate",
       "mode_support_ticket": "Rediriger vers la création d'un ticket de support",
       "mode_after_expiration": "Autoriser l'annulation après expiration du service",
-      "requires_ticket": "Cette raison d'annulation nécessite l'ouverture d'un ticket de support.",
-      "after_expiration_only": "Cette annulation sera autorisée uniquement après expiration du service."
+      "requires_ticket": "Pour finaliser cette demande d'annulation, veuillez ouvrir un ticket de support. Nous avons déjà préparé le message avec les informations de votre service. Vous pouvez le modifier si nécessaire avant de l'envoyer.",
+      "after_expiration_only": "Cette annulation sera autorisée uniquement après expiration du service.",
+      "ticket_subject": "Demande d'annulation du service {_service}",
+      "ticket_message": "Bonjour,\n\nJe souhaite demander l'annulation du service suivant :\n\nService : {_service}\nIdentifiant : {_identifier}\nMotif : {_reason}\nÉchéance souhaitée : {_expiration}\nInformations complémentaires : {_details}\n\nMerci de bien vouloir traiter ma demande d'annulation.",
+      "ticket_no_details": "Aucune information complémentaire."
     },
     "config_option": "Option de configuration",
     "admin": {
