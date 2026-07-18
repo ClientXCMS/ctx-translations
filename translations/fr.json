@@ -476,13 +476,14 @@
         "date_from": "Avoirs émis depuis",
         "date_to": "Avoirs émis jusqu'au"
       },
-      "kpi" : {
+      "kpi": {
         "count": "Nombre d'avoirs",
         "amount": "Total HT",
         "tax": "Total TVA",
         "total": "Total TTC",
         "by_currency": "Détail par devise"
-      }
+      },
+      "delete_balance_warning": "La suppression d’un avoir ne modifie pas le solde du client."
     },
     "invoices": {
       "mass": {
@@ -501,7 +502,9 @@
       },
       "filters": {
         "date_from": "Factures créées depuis",
-        "date_to": "Factures créées jusqu'au"
+        "date_to": "Factures créées jusqu'au",
+        "created_range": "Factures créées entre",
+        "paid_range": "Factures payées entre"
       },
       "customproduct": "Produit personnalisé",
       "invoice_number": "Numéro de facture",
@@ -727,6 +730,7 @@
             "gdrp_cookies_privacy_link": "Lien vers votre politique de confidentialité",
             "password_timeout": "Délai de vérification du mot de passe",
             "password_timeout_help": "En secondes",
+            "gdpr_purge_inactive_days": "Nombre de jours avant suppression des clients inactifs",
             "allow_registration": "Autoriser l'inscription",
             "auto_confirm_registration": "Confirmation automatique de l'inscription",
             "allow_reset_password": "Autoriser la réinitialisation du mot de passe",
@@ -1897,6 +1901,11 @@
           "title": "Créer un département",
           "subheading": "Créer un nouveau département pour le support"
         },
+        "sla_settings": "Paramètres SLA",
+        "sla_first_response_minutes": "Délai de première réponse (minutes)",
+        "sla_first_response_minutes_help": "Laissez vide ou indiquez 0 pour désactiver le SLA de première réponse du support.",
+        "sla_resolution_minutes": "Délai de résolution (minutes)",
+        "sla_resolution_minutes_help": "Laissez vide ou indiquez 0 pour désactiver le SLA de résolution du ticket.",
         "show": {
           "title": "Fiche département {_name}",
           "subheading": "Voici les informations liées à ce département créé le {_date}"
@@ -2357,7 +2366,6 @@
     "upload_speed": "Vitesse de téléversement",
     "ips": "IPs",
     "ip6": "IP6",
-    
     "ip6subnet": "Sous-réseau IP6",
     "burstable_memory": "Mémoire burstable",
     "guaranteed_memory": "Mémoire garantie",
