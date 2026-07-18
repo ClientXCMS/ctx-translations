@@ -2089,7 +2089,24 @@
     "manage_api_keys": "Beheren van API-sleutels",
     "manage_subdomains_hosts": "Beheren van de host-subdomeinen",
     "manage_update": "CLIENTXCMS bijwerken",
-    "manage_backups": "Back-ups beheren"
+    "manage_backups": "Back-ups beheren",
+    "subusers": {
+      "groups": {
+        "services": "Diensten",
+        "invoices": "Facturen"
+      },
+      "service_show": "Dienst bekijken",
+      "service_name": "Servicenaam wijzigen",
+      "service_renew": "Verleng de dienst",
+      "service_upgrade": "Upgrade de dienst",
+      "service_options": "Beheer serviceopties",
+      "service_billing": "Wijzig de factureringscyclus",
+      "service_cancel": "Dienst opzeggen",
+      "invoice_show": "Bekijk facturen",
+      "invoice_pay": "Betaal de rekeningen",
+      "invoice_download": "Facturen downloaden",
+      "invoice_balance": "Gebruik het saldo om rekeningen te betalen"
+    }
   },
   "lang.fr.personalization": {
     "title": "Aanpassing",

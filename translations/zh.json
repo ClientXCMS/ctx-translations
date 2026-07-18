@@ -2089,7 +2089,24 @@
     "manage_api_keys": "管理API密钥",
     "manage_subdomains_hosts": "管理主机子域名",
     "manage_update": "更新CLIENTXCMS",
-    "manage_backups": "管理备份"
+    "manage_backups": "管理备份",
+    "subusers": {
+      "groups": {
+        "services": "服务",
+        "invoices": "发票"
+      },
+      "service_show": "查看服务",
+      "service_name": "更改服务名称",
+      "service_renew": "续订服务",
+      "service_upgrade": "升级服务",
+      "service_options": "管理服务选项",
+      "service_billing": "更改计费周期",
+      "service_cancel": "取消服务",
+      "invoice_show": "查看发票",
+      "invoice_pay": "支付账单",
+      "invoice_download": "下载发票",
+      "invoice_balance": "使用余额支付账单"
+    }
   },
   "lang.fr.personalization": {
     "title": "定制",

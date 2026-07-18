@@ -2089,7 +2089,24 @@
     "manage_api_keys": "API-Schlüssel verwalten",
     "manage_subdomains_hosts": "Verwalten der Host-Subdomains",
     "manage_update": "CLIENTXCMS aktualisieren",
-    "manage_backups": "Sicherungen verwalten"
+    "manage_backups": "Sicherungen verwalten",
+    "subusers": {
+      "groups": {
+        "services": "Dienstleistungen",
+        "invoices": "Rechnungen"
+      },
+      "service_show": "Service ansehen",
+      "service_name": "Dienstnamen ändern",
+      "service_renew": "Erneuern Sie den Dienst",
+      "service_upgrade": "Aktualisieren Sie den Dienst",
+      "service_options": "Serviceoptionen verwalten",
+      "service_billing": "Abrechnungszeitraum ändern",
+      "service_cancel": "Dienst abbrechen",
+      "invoice_show": "Rechnungen ansehen",
+      "invoice_pay": "Bezahlen Sie die Rechnungen",
+      "invoice_download": "Rechnungen herunterladen",
+      "invoice_balance": "Verwenden Sie das Guthaben, um Rechnungen zu bezahlen"
+    }
   },
   "lang.fr.personalization": {
     "title": "Anpassung",
