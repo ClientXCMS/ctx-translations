@@ -484,7 +484,8 @@
         "tax": "增值税总额",
         "total": "含税合计",
         "by_currency": "按货币分类的详细信息"
-      }
+      },
+      "delete_balance_warning": "删除信用不会修改客户的余额。"
     },
     "invoices": {
       "mass": {
@@ -503,7 +504,9 @@
       },
       "filters": {
         "date_from": "自此创建的发票",
-        "date_to": "发票创建截止日期"
+        "date_to": "发票创建截止日期",
+        "created_range": "之间创建的发票",
+        "paid_range": "发票支付日期之间"
       },
       "customproduct": "定制产品",
       "invoice_number": "发票编号",
@@ -731,6 +734,7 @@
             "gdrp_cookies_privacy_link": "您隐私政策的链接",
             "password_timeout": "密码验证时间",
             "password_timeout_help": "以秒为单位",
+            "gdpr_purge_inactive_days": "删除不活动客户端之前的天数",
             "allow_registration": "允许注册",
             "auto_confirm_registration": "自动确认注册",
             "allow_reset_password": "允许密码重置",
@@ -1902,6 +1906,11 @@
           "title": "创建部门",
           "subheading": "创建新的支持部门"
         },
+        "sla_settings": "SLA 设置",
+        "sla_first_response_minutes": "首次响应时间（分钟）",
+        "sla_first_response_minutes_help": "留空或指定 0 以禁用支持第一响应 SLA​​。",
+        "sla_resolution_minutes": "解决时间（分钟）",
+        "sla_resolution_minutes_help": "留空或指定 0 以禁用票证解析 SLA。",
         "show": {
           "title": "部门表 {_name}",
           "subheading": "以下是在 {_date} 上创建的与此部门相关的信息"

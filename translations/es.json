@@ -484,7 +484,8 @@
         "tax": "IVA total",
         "total": "Total incluyendo impuestos",
         "by_currency": "Detalle por moneda"
-      }
+      },
+      "delete_balance_warning": "Eliminar un crédito no modifica el saldo del cliente."
     },
     "invoices": {
       "mass": {
@@ -503,7 +504,9 @@
       },
       "filters": {
         "date_from": "Facturas creadas desde",
-        "date_to": "Facturas creadas hasta"
+        "date_to": "Facturas creadas hasta",
+        "created_range": "Facturas creadas entre",
+        "paid_range": "Facturas pagadas entre"
       },
       "customproduct": "Producto personalizado",
       "invoice_number": "Número de factura",
@@ -731,6 +734,7 @@
             "gdrp_cookies_privacy_link": "Enlace a su política de privacidad",
             "password_timeout": "Tiempo de verificación de contraseña",
             "password_timeout_help": "En segundos",
+            "gdpr_purge_inactive_days": "Número de días antes de eliminar clientes inactivos",
             "allow_registration": "Permitir el registro",
             "auto_confirm_registration": "Confirmación automática de la inscripción",
             "allow_reset_password": "Permitir el restablecimiento de contraseña",
@@ -1902,6 +1906,11 @@
           "title": "Crear un departamento",
           "subheading": "Crear un nuevo departamento de soporte"
         },
+        "sla_settings": "Configuración de SLA",
+        "sla_first_response_minutes": "Tiempo de primera respuesta (minutos)",
+        "sla_first_response_minutes_help": "Déjelo en blanco o especifique 0 para deshabilitar el SLA de Support First Response.",
+        "sla_resolution_minutes": "Tiempo de resolución (minutos)",
+        "sla_resolution_minutes_help": "Déjelo en blanco o especifique 0 para deshabilitar el SLA de resolución de tickets.",
         "show": {
           "title": "Hoja de departamento {_name}",
           "subheading": "Aquí está la información relacionada con este departamento creada el {_date}"

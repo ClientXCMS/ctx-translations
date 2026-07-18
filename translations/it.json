@@ -484,7 +484,8 @@
         "tax": "IVA totale",
         "total": "Totale IVA inclusa",
         "by_currency": "Dettaglio per valuta"
-      }
+      },
+      "delete_balance_warning": "L'eliminazione di un credito non modifica il saldo del cliente."
     },
     "invoices": {
       "mass": {
@@ -503,7 +504,9 @@
       },
       "filters": {
         "date_from": "Fatture create da allora",
-        "date_to": "Fatture create fino al"
+        "date_to": "Fatture create fino al",
+        "created_range": "Fatture create tra",
+        "paid_range": "Fatture pagate tra"
       },
       "customproduct": "Prodotto personalizzato",
       "invoice_number": "Numero fattura",
@@ -731,6 +734,7 @@
             "gdrp_cookies_privacy_link": "Link alla tua politica sulla privacy",
             "password_timeout": "Tempo di verifica della password",
             "password_timeout_help": "In pochi secondi",
+            "gdpr_purge_inactive_days": "Numero di giorni prima dell'eliminazione dei clienti inattivi",
             "allow_registration": "Consenti registrazione",
             "auto_confirm_registration": "Conferma automatica della registrazione",
             "allow_reset_password": "Consenti reimpostazione password",
@@ -1902,6 +1906,11 @@
           "title": "Creare un reparto",
           "subheading": "Creare un nuovo reparto di supporto"
         },
+        "sla_settings": "Impostazioni del contratto di servizio",
+        "sla_first_response_minutes": "Tempo di prima risposta (minuti)",
+        "sla_first_response_minutes_help": "Lascia vuoto o specifica 0 per disabilitare lo SLA Support First Response.",
+        "sla_resolution_minutes": "Tempo di risoluzione (minuti)",
+        "sla_resolution_minutes_help": "Lascia vuoto o specifica 0 per disabilitare lo SLA di risoluzione del ticket.",
         "show": {
           "title": "Foglio di reparto {_name}",
           "subheading": "Ecco le informazioni relative a questo dipartimento creato il {_date}"

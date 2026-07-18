@@ -484,7 +484,8 @@
         "tax": "Totale BTW",
         "total": "Totaal inclusief belasting",
         "by_currency": "Detail per valuta"
-      }
+      },
+      "delete_balance_warning": "Het verwijderen van een tegoed heeft geen invloed op het saldo van de klant."
     },
     "invoices": {
       "mass": {
@@ -503,7 +504,9 @@
       },
       "filters": {
         "date_from": "Facturen aangemaakt sindsdien",
-        "date_to": "Facturen aangemaakt tot"
+        "date_to": "Facturen aangemaakt tot",
+        "created_range": "Facturen aangemaakt tussen",
+        "paid_range": "Facturen betaald tussen"
       },
       "customproduct": "Product op maat",
       "invoice_number": "Factuurnummer",
@@ -731,6 +734,7 @@
             "gdrp_cookies_privacy_link": "Link naar uw privacybeleid",
             "password_timeout": "Tijd voor wachtwoordverificatie",
             "password_timeout_help": "In enkele seconden",
+            "gdpr_purge_inactive_days": "Aantal dagen voordat inactieve klanten worden verwijderd",
             "allow_registration": "Registratie toestaan",
             "auto_confirm_registration": "Automatische bevestiging van registratie",
             "allow_reset_password": "Wachtwoord opnieuw instellen toestaan",
@@ -1902,6 +1906,11 @@
           "title": "Maak een afdeling aan",
           "subheading": "Maak een nieuwe supportafdeling aan"
         },
+        "sla_settings": "SLA-instellingen",
+        "sla_first_response_minutes": "Eerste responstijd (minuten)",
+        "sla_first_response_minutes_help": "Laat dit leeg of geef 0 op om de Support First Response SLA uit te schakelen.",
+        "sla_resolution_minutes": "Resolutietijd (minuten)",
+        "sla_resolution_minutes_help": "Laat dit leeg of specificeer 0 om de SLA voor ticketresolutie uit te schakelen.",
         "show": {
           "title": "Departementsblad {_name}",
           "subheading": "Hier is de informatie met betrekking tot deze afdeling gemaakt op {_date}"

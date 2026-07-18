@@ -484,7 +484,8 @@
         "tax": "Gesamte Mehrwertsteuer",
         "total": "Gesamtsumme inklusive Steuern",
         "by_currency": "Detailliert nach Währung"
-      }
+      },
+      "delete_balance_warning": "Durch das Löschen einer Gutschrift ändert sich nicht das Guthaben des Kunden."
     },
     "invoices": {
       "mass": {
@@ -503,7 +504,9 @@
       },
       "filters": {
         "date_from": "Seitdem erstellte Rechnungen",
-        "date_to": "Rechnungen erstellt bis"
+        "date_to": "Rechnungen erstellt bis",
+        "created_range": "Rechnungen erstellt zwischen",
+        "paid_range": "Rechnungen bezahlt zwischen"
       },
       "customproduct": "Kundenspezifisches Produkt",
       "invoice_number": "Rechnungsnummer",
@@ -731,6 +734,7 @@
             "gdrp_cookies_privacy_link": "Link zu Ihrer Datenschutzerklärung",
             "password_timeout": "Zeit für die Passwortüberprüfung",
             "password_timeout_help": "In Sekunden",
+            "gdpr_purge_inactive_days": "Anzahl der Tage, bevor inaktive Clients gelöscht werden",
             "allow_registration": "Registrierung zulassen",
             "auto_confirm_registration": "Automatische Bestätigung der Anmeldung",
             "allow_reset_password": "Zurücksetzen des Kennworts zulassen",
@@ -1902,6 +1906,11 @@
           "title": "Erstellen einer Abteilung",
           "subheading": "Erstellen einer neuen Supportabteilung"
         },
+        "sla_settings": "SLA-Einstellungen",
+        "sla_first_response_minutes": "Erste Reaktionszeit (Minuten)",
+        "sla_first_response_minutes_help": "Lassen Sie das Feld leer oder geben Sie 0 an, um das Support First Response SLA zu deaktivieren.",
+        "sla_resolution_minutes": "Lösungszeit (Minuten)",
+        "sla_resolution_minutes_help": "Lassen Sie das Feld leer oder geben Sie 0 an, um das SLA für die Ticketauflösung zu deaktivieren.",
         "show": {
           "title": "Abteilungsblatt {_name}",
           "subheading": "Hier sind die Informationen zu dieser Abteilung, die am {_date} erstellt wurden."

@@ -484,7 +484,8 @@
         "tax": "Total VAT",
         "total": "Total including tax",
         "by_currency": "Detail by currency"
-      }
+      },
+      "delete_balance_warning": "Deleting a credit does not modify the customer's balance."
     },
     "invoices": {
       "mass": {
@@ -503,7 +504,9 @@
       },
       "filters": {
         "date_from": "Invoices created since",
-        "date_to": "Invoices created until"
+        "date_to": "Invoices created until",
+        "created_range": "Invoices created between",
+        "paid_range": "Invoices paid between"
       },
       "customproduct": "Customized product",
       "invoice_number": "Invoice number",
@@ -731,6 +734,7 @@
             "gdrp_cookies_privacy_link": "Link to your privacy policy",
             "password_timeout": "Password verification time",
             "password_timeout_help": "In seconds",
+            "gdpr_purge_inactive_days": "Number of days before deleting inactive clients",
             "allow_registration": "Allow registration",
             "auto_confirm_registration": "Automatic confirmation of registration",
             "allow_reset_password": "Allow password reset",
@@ -1902,6 +1906,11 @@
           "title": "Create a department",
           "subheading": "Create a new support department"
         },
+        "sla_settings": "SLA settings",
+        "sla_first_response_minutes": "First response time (minutes)",
+        "sla_first_response_minutes_help": "Leave blank or specify 0 to disable the Support First Response SLA.",
+        "sla_resolution_minutes": "Resolution time (minutes)",
+        "sla_resolution_minutes_help": "Leave blank or specify 0 to disable the ticket resolution SLA.",
         "show": {
           "title": "Department sheet {_name}",
           "subheading": "Here is the information related to this department created on {_date}"
