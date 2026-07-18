@@ -1,5 +1,10 @@
 {
   "language": "中文",
+  "lang.fr.a11y": {
+    "skip_to_content": "转到主要内容",
+    "open_menu": "打开菜单",
+    "close_menu": "关闭菜单"
+  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "操作历史记录",
@@ -1136,6 +1141,17 @@
       "security_answer_invalid": "安全问题的答案不正确。",
       "security_question_saved": "您的安全问题已成功保存。",
       "updated": "更新的配置文件",
+      "avatar": {
+        "title": "个人资料图片",
+        "description": "JPG、PNG、WebP 或 GIF，最大 2 MiB。 图像会自动裁剪。",
+        "upload": "导入照片",
+        "replace": "替换照片",
+        "remove": "删除照片",
+        "updated": "更新了个人资料照片。",
+        "removed": "已删除个人资料照片。",
+        "invalid": "所选文件不是有效图像。",
+        "upload_failed": "无法保存个人资料图片。"
+      },
       "security_question": {
         "title": "安全问题",
         "description": "添加安全问题以保护您的账户",
@@ -1384,18 +1400,59 @@
     }
   },
   "lang.fr.errors": {
+    "common": {
+      "home": "回到家",
+      "dashboard": "返回仪表板",
+      "support": "联系支持人员",
+      "previous": "回去",
+      "status_code": "错误：代码"
+    },
+    "401": {
+      "title": "您尚未连接",
+      "heading": "需要身份验证",
+      "description": "此页面是为登录用户保留的。 请登录并重试。",
+      "sign_in": "登录"
+    },
+    "403": {
+      "title": "拒绝访问",
+      "heading": "禁止",
+      "description": "您没有访问此资源的权限。 如果您认为这是一个错误，请联系支持人员。"
+    },
     "404": {
       "title": "找不到页面",
+      "heading": "我们到处寻找...",
       "description": "抱歉，找不到您要查找的页面。",
       "back": "返回上一页",
       "home": "前往主页",
       "dashboard": "转到仪表板"
     },
+    "419": {
+      "title": "您的会话已过期",
+      "heading": "会话已过期",
+      "description": "为了您的安全，我们在一段时间不活动后关闭了您的会话。 请重新加载页面并再次提交表单。",
+      "reload": "重新加载页面"
+    },
+    "422": {
+      "title": "无效请求",
+      "heading": "出问题了",
+      "description": "由于某些数据丢失或不正确，我们无法处理您的请求。 返回并再试一次。"
+    },
+    "429": {
+      "title": "请求过多",
+      "heading": "轻轻地……",
+      "description": "您在短时间内提出了太多要求。 请稍等片刻，然后重试。"
+    },
     "500": {
       "title": "内部服务器错误",
+      "heading": "内部服务器错误",
       "description": "抱歉，发生了内部错误。",
       "back": "返回上一页",
       "home": "前往主页"
+    },
+    "503": {
+      "title": "维护中",
+      "heading": "暂停服务",
+      "description": "我们正在更新平台。 该服务将很快恢复上线。 感谢您的耐心等待。"
     }
   },
   "lang.fr.extensions": {

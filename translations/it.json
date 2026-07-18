@@ -1,5 +1,10 @@
 {
   "language": "Italiano",
+  "lang.fr.a11y": {
+    "skip_to_content": "Vai al contenuto principale",
+    "open_menu": "Apri il menu",
+    "close_menu": "Chiudi menù"
+  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "Cronologia delle azioni",
@@ -1136,6 +1141,17 @@
       "security_answer_invalid": "La risposta alla domanda di sicurezza non è corretta.",
       "security_question_saved": "La Sua domanda di sicurezza è stata salvata con successo.",
       "updated": "Profilo aggiornato",
+      "avatar": {
+        "title": "Immagine del profilo",
+        "description": "JPG, PNG, WebP o GIF, fino a 2 MiB. L'immagine viene ritagliata automaticamente.",
+        "upload": "Importa una foto",
+        "replace": "Sostituisci foto",
+        "remove": "Elimina foto",
+        "updated": "Foto del profilo aggiornata.",
+        "removed": "Foto del profilo cancellata.",
+        "invalid": "Il file selezionato non è un'immagine valida.",
+        "upload_failed": "Impossibile salvare l'immagine del profilo."
+      },
       "security_question": {
         "title": "Domanda di sicurezza",
         "description": "Aggiunga una domanda di sicurezza per proteggere il Suo account",
@@ -1384,18 +1400,59 @@
     }
   },
   "lang.fr.errors": {
+    "common": {
+      "home": "Ritorno a casa",
+      "dashboard": "Ritorna alla dashboard",
+      "support": "Contatta l'assistenza",
+      "previous": "Torna indietro",
+      "status_code": "Errore: codice"
+    },
+    "401": {
+      "title": "Non sei connesso",
+      "heading": "Autenticazione richiesta",
+      "description": "Questa pagina è riservata agli utenti registrati. Effettua l'accesso e riprova.",
+      "sign_in": "Login"
+    },
+    "403": {
+      "title": "Accesso negato",
+      "heading": "Vietato",
+      "description": "Non hai l'autorizzazione per accedere a questa risorsa. Se ritieni che si tratti di un errore, contatta l'assistenza."
+    },
     "404": {
       "title": "Pagina non trovata",
+      "heading": "Abbiamo cercato ovunque...",
       "description": "Spiacenti, non è stato possibile trovare la pagina che stai cercando.",
       "back": "Torna alla pagina precedente",
       "home": "Vai alla homepage",
       "dashboard": "Vai alla dashboard"
     },
+    "419": {
+      "title": "La tua sessione è scaduta",
+      "heading": "Sessione scaduta",
+      "description": "Per la tua sicurezza, abbiamo chiuso la sessione dopo un periodo di inattività. Ricarica la pagina e invia nuovamente il modulo.",
+      "reload": "Ricarica la pagina"
+    },
+    "422": {
+      "title": "Richiesta non valida",
+      "heading": "qualcosa non va",
+      "description": "Non siamo riusciti a elaborare la tua richiesta perché alcuni dati mancano o non sono corretti. Torna indietro e riprova."
+    },
+    "429": {
+      "title": "Troppe richieste",
+      "heading": "Delicatamente…",
+      "description": "Hai fatto troppe richieste in poco tempo. Attendi qualche istante prima di riprovare."
+    },
     "500": {
       "title": "Errore interno del server",
+      "heading": "Errore interno del server",
       "description": "Si è verificato un errore interno.",
       "back": "Torna alla pagina precedente",
       "home": "Vai alla homepage"
+    },
+    "503": {
+      "title": "Manutenzione in corso",
+      "heading": "Servizio non disponibile",
+      "description": "Stiamo aggiornando la piattaforma. Il servizio tornerà online a breve. Grazie per la pazienza."
     }
   },
   "lang.fr.extensions": {

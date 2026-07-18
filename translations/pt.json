@@ -1,5 +1,10 @@
 {
   "language": "Português",
+  "lang.fr.a11y": {
+    "skip_to_content": "Ir para o conteúdo principal",
+    "open_menu": "Abrir menu",
+    "close_menu": "Fechar menu"
+  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "Histórico de ações",
@@ -1136,6 +1141,17 @@
       "security_answer_invalid": "A resposta à pergunta de segurança está incorreta.",
       "security_question_saved": "A sua pergunta de segurança foi registada com sucesso.",
       "updated": "Perfil atualizado",
+      "avatar": {
+        "title": "Foto do perfil",
+        "description": "JPG, PNG, WebP ou GIF, até 2 MiB. A imagem é cortada automaticamente.",
+        "upload": "Importar uma foto",
+        "replace": "Substituir foto",
+        "remove": "Excluir foto",
+        "updated": "Foto de perfil atualizada.",
+        "removed": "Foto de perfil excluída.",
+        "invalid": "O arquivo selecionado não é uma imagem válida.",
+        "upload_failed": "A foto do perfil não pôde ser salva."
+      },
       "security_question": {
         "title": "Pergunta de segurança",
         "description": "Adicione uma pergunta de segurança para proteger a sua conta",
@@ -1384,18 +1400,59 @@
     }
   },
   "lang.fr.errors": {
+    "common": {
+      "home": "De volta para casa",
+      "dashboard": "Retornar ao painel",
+      "support": "Contate o suporte",
+      "previous": "Volte",
+      "status_code": "Erro: código"
+    },
+    "401": {
+      "title": "Você não está conectado",
+      "heading": "Autenticação necessária",
+      "description": "Esta página é reservada para usuários logados. Faça login e tente novamente.",
+      "sign_in": "Conecte-se"
+    },
+    "403": {
+      "title": "Acesso negado",
+      "heading": "Proibido",
+      "description": "Você não tem permissão para acessar este recurso. Se você acha que isso é um erro, entre em contato com o suporte."
+    },
     "404": {
       "title": "Página não encontrada",
+      "heading": "Procuramos em todos os lugares...",
       "description": "Desculpe, a página que você está procurando não foi encontrada.",
       "back": "Voltar à página anterior",
       "home": "Ir para a página inicial",
       "dashboard": "Ir para o painel"
     },
+    "419": {
+      "title": "Sua sessão expirou",
+      "heading": "Sessão expirada",
+      "description": "Para sua segurança, encerramos sua sessão após um período de inatividade. Atualize a página e envie o formulário novamente.",
+      "reload": "Recarregar página"
+    },
+    "422": {
+      "title": "Solicitação inválida",
+      "heading": "algo está errado",
+      "description": "Não foi possível processar sua solicitação porque alguns dados estão faltando ou incorretos. Volte e tente novamente."
+    },
+    "429": {
+      "title": "Muitos pedidos",
+      "heading": "Suavemente…",
+      "description": "Você fez muitas solicitações em pouco tempo. Aguarde um momento antes de tentar novamente."
+    },
     "500": {
       "title": "Erro interno do servidor",
+      "heading": "Erro do Servidor Interno",
       "description": "Desculpe, ocorreu um erro interno.",
       "back": "Voltar à página anterior",
       "home": "Ir para a página inicial"
+    },
+    "503": {
+      "title": "Manutenção em andamento",
+      "heading": "Serviço não disponível",
+      "description": "Estamos atualizando a plataforma. O serviço estará online novamente em breve. Obrigado pela sua paciência."
     }
   },
   "lang.fr.extensions": {

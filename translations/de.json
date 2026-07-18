@@ -1,5 +1,10 @@
 {
   "language": "Deutsch",
+  "lang.fr.a11y": {
+    "skip_to_content": "Gehen Sie zum Hauptinhalt",
+    "open_menu": "Menü öffnen",
+    "close_menu": "Menü schließen"
+  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "Geschichte der Aktionen",
@@ -1136,6 +1141,17 @@
       "security_answer_invalid": "Die Antwort auf die Sicherheitsfrage ist falsch.",
       "security_question_saved": "Ihre Sicherheitsfrage wurde erfolgreich gespeichert.",
       "updated": "Aktualisiertes Profil",
+      "avatar": {
+        "title": "Profilbild",
+        "description": "JPG, PNG, WebP oder GIF, bis zu 2 MiB. Das Bild wird automatisch zugeschnitten.",
+        "upload": "Importieren Sie ein Foto",
+        "replace": "Foto ersetzen",
+        "remove": "Foto löschen",
+        "updated": "Aktualisiertes Profilfoto.",
+        "removed": "Profilfoto gelöscht.",
+        "invalid": "Die ausgewählte Datei ist kein gültiges Bild.",
+        "upload_failed": "Das Profilbild konnte nicht gespeichert werden."
+      },
       "security_question": {
         "title": "Sicherheitsfrage",
         "description": "Fügen Sie eine Sicherheitsfrage hinzu, um Ihr Konto zu schützen",
@@ -1384,18 +1400,59 @@
     }
   },
   "lang.fr.errors": {
+    "common": {
+      "home": "Zurück nach Hause",
+      "dashboard": "Zurück zum Dashboard",
+      "support": "Kontaktieren Sie den Support",
+      "previous": "Geh zurück",
+      "status_code": "Fehler: Code"
+    },
+    "401": {
+      "title": "Sie sind nicht verbunden",
+      "heading": "Authentifizierung erforderlich",
+      "description": "Diese Seite ist für eingeloggte Benutzer reserviert. Bitte melden Sie sich an und versuchen Sie es erneut.",
+      "sign_in": "Einloggen"
+    },
+    "403": {
+      "title": "Zugriff verweigert",
+      "heading": "Verboten",
+      "description": "Sie haben keine Berechtigung, auf diese Ressource zuzugreifen. Wenn Sie glauben, dass es sich hierbei um einen Fehler handelt, wenden Sie sich an den Support."
+    },
     "404": {
       "title": "Seite nicht gefunden",
+      "heading": "Wir haben überall gesucht...",
       "description": "Die von Ihnen gesuchte Seite konnte leider nicht gefunden werden.",
       "back": "Zurück zur vorherigen Seite",
       "home": "Zur Startseite",
       "dashboard": "Gehen Sie zum Dashboard"
     },
+    "419": {
+      "title": "Ihre Sitzung ist abgelaufen",
+      "heading": "Sitzung abgelaufen",
+      "description": "Zu Ihrer Sicherheit haben wir Ihre Sitzung nach einem Zeitraum der Inaktivität geschlossen. Bitte laden Sie die Seite neu und senden Sie das Formular erneut ab.",
+      "reload": "Seite neu laden"
+    },
+    "422": {
+      "title": "Ungültige Anfrage",
+      "heading": "etwas stimmt nicht",
+      "description": "Wir konnten Ihre Anfrage nicht bearbeiten, da einige Daten fehlen oder falsch sind. Gehen Sie zurück und versuchen Sie es erneut."
+    },
+    "429": {
+      "title": "Zu viele Anfragen",
+      "heading": "Sanft…",
+      "description": "Sie haben in kurzer Zeit zu viele Anfragen gestellt. Bitte warten Sie einen Moment, bevor Sie es erneut versuchen."
+    },
     "500": {
       "title": "Interner Serverfehler",
+      "heading": "interner Serverfehler",
       "description": "Leider ist ein interner Fehler aufgetreten.",
       "back": "Zurück zur vorherigen Seite",
       "home": "Zur Startseite"
+    },
+    "503": {
+      "title": "Wartungsarbeiten laufen",
+      "heading": "Dienst nicht verfügbar",
+      "description": "Wir aktualisieren die Plattform. Der Dienst wird in Kürze wieder online sein. Vielen Dank für Ihre Geduld."
     }
   },
   "lang.fr.extensions": {

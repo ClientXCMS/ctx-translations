@@ -1,5 +1,10 @@
 {
   "language": "Nederlands",
+  "lang.fr.a11y": {
+    "skip_to_content": "Ga naar de hoofdinhoud",
+    "open_menu": "Menu openen",
+    "close_menu": "Menu sluiten"
+  },
   "lang.fr.actionslog": {
     "settings": {
       "title": "Logboeken van acties",
@@ -1136,6 +1141,17 @@
       "security_answer_invalid": "Het antwoord op de beveiligingsvraag is onjuist.",
       "security_question_saved": "Uw beveiligingsvraag is succesvol opgeslagen.",
       "updated": "Bijgewerkt profiel",
+      "avatar": {
+        "title": "Profielfoto",
+        "description": "JPG, PNG, WebP of GIF, tot 2 MiB. De afbeelding wordt automatisch bijgesneden.",
+        "upload": "Importeer een foto",
+        "replace": "Foto vervangen",
+        "remove": "Foto verwijderen",
+        "updated": "Bijgewerkte profielfoto.",
+        "removed": "Profielfoto verwijderd.",
+        "invalid": "Het geselecteerde bestand is geen geldige afbeelding.",
+        "upload_failed": "De profielfoto kon niet worden opgeslagen."
+      },
       "security_question": {
         "title": "Beveiligingsvraag",
         "description": "Voeg een beveiligingsvraag toe om uw account te beschermen",
@@ -1384,18 +1400,59 @@
     }
   },
   "lang.fr.errors": {
+    "common": {
+      "home": "Terug naar huis",
+      "dashboard": "Keer terug naar het dashboard",
+      "support": "Neem contact op met ondersteuning",
+      "previous": "Ga terug",
+      "status_code": "Fout: code"
+    },
+    "401": {
+      "title": "Je bent niet verbonden",
+      "heading": "Authenticatie vereist",
+      "description": "Deze pagina is gereserveerd voor ingelogde gebruikers. Log in en probeer het opnieuw.",
+      "sign_in": "Inloggen"
+    },
+    "403": {
+      "title": "Toegang geweigerd",
+      "heading": "Verboden",
+      "description": "U heeft geen toestemming om toegang te krijgen tot deze bron. Als u denkt dat dit een fout is, neem dan contact op met de ondersteuning."
+    },
     "404": {
       "title": "Pagina niet gevonden",
+      "heading": "Wij hebben overal gezocht...",
       "description": "Sorry, de pagina die u zoekt kon niet worden gevonden.",
       "back": "Terug naar de vorige pagina",
       "home": "Ga naar de homepage",
       "dashboard": "Ga naar het dashboard"
     },
+    "419": {
+      "title": "Uw sessie is verlopen",
+      "heading": "Sessie verlopen",
+      "description": "Voor uw veiligheid hebben wij uw sessie gesloten na een periode van inactiviteit. Laad de pagina opnieuw en verzend het formulier opnieuw.",
+      "reload": "Pagina opnieuw laden"
+    },
+    "422": {
+      "title": "Ongeldig verzoek",
+      "heading": "er is iets mis",
+      "description": "We kunnen uw verzoek niet verwerken omdat sommige gegevens ontbreken of onjuist zijn. Ga terug en probeer het opnieuw."
+    },
+    "429": {
+      "title": "Te veel verzoeken",
+      "heading": "Voorzichtig…",
+      "description": "U heeft in korte tijd te veel verzoeken ingediend. Wacht even voordat u het opnieuw probeert."
+    },
     "500": {
       "title": "Interne serverfout",
+      "heading": "Interne serverfout",
       "description": "Sorry, er is een interne fout opgetreden.",
       "back": "Terug naar de vorige pagina",
       "home": "Ga naar de homepage"
+    },
+    "503": {
+      "title": "Onderhoud in uitvoering",
+      "heading": "Dienst niet beschikbaar",
+      "description": "We zijn het platform aan het updaten. De dienst zal binnenkort weer online zijn. Bedankt voor uw geduld."
     }
   },
   "lang.fr.extensions": {
