@@ -359,7 +359,10 @@
       "create": {
         "title": "创建组",
         "subheading": "为商店创建新组"
-      }
+      },
+      "badge_color": "徽章颜色",
+      "badge_title": "徽章标题",
+      "badge_icon": "徽章图标"
     },
     "login": {
       "title": "登录 - 管理",
@@ -456,8 +459,17 @@
     },
     "credit_notes": {
       "title": "资产",
+      "issue_credit_note": "开具信用证",
+      "select_invoice": "选择发票",
+      "no_invoices": "未找到该客户的发票",
+      "choose_invoice": "请选择一张发票以开具贷方通知单",
+      "reason": "拥有它的理由",
+      "amount_exceeds_remaining": "信用金额不能超过发票的剩余金额 ({_remaining})",
       "subheading": "这是系统所有资产的列表",
+      "fund_reason": "为向客户添加资金而发出的贷方票据：{_number}",
+      "created_success": "贷方票据已成功签发",
       "amount_ht": "不含税金额",
+      "original_invoice": "原始发票",
       "tax": "增值税",
       "issued_by": "由...发出",
       "search_placeholder": "编号、客户或发票",

@@ -359,7 +359,10 @@
       "create": {
         "title": "Creare un gruppo",
         "subheading": "Creare un nuovo gruppo per il negozio"
-      }
+      },
+      "badge_color": "Colore distintivo",
+      "badge_title": "Titolo del distintivo",
+      "badge_icon": "Icona del distintivo"
     },
     "login": {
       "title": "Login - Amministrazione",
@@ -456,8 +459,17 @@
     },
     "credit_notes": {
       "title": "Attività",
+      "issue_credit_note": "Emettere un credito",
+      "select_invoice": "Seleziona una fattura",
+      "no_invoices": "Nessuna fattura trovata per questo cliente",
+      "choose_invoice": "Seleziona una fattura per emettere una nota di credito",
+      "reason": "Motivo per averlo",
+      "amount_exceeds_remaining": "L'importo del credito non può superare l'importo residuo della fattura ({_remaining})",
       "subheading": "Ecco l'elenco di tutti gli asset del sistema",
+      "fund_reason": "Nota di credito emessa per un'aggiunta di fondi al cliente:{_number}",
+      "created_success": "La nota di credito è stata emessa con successo",
       "amount_ht": "Importo IVA esclusa",
+      "original_invoice": "Fattura originale",
       "tax": "I.V.A.",
       "issued_by": "Emesso da",
       "search_placeholder": "Numero, cliente o fattura",

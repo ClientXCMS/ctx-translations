@@ -359,7 +359,10 @@
       "create": {
         "title": "Erstellen einer Gruppe",
         "subheading": "Erstellen einer neuen Gruppe für den Shop"
-      }
+      },
+      "badge_color": "Abzeichenfarbe",
+      "badge_title": "Abzeichentitel",
+      "badge_icon": "Abzeichen-Symbol"
     },
     "login": {
       "title": "Login - Administration",
@@ -456,8 +459,17 @@
     },
     "credit_notes": {
       "title": "Vermögenswerte",
+      "issue_credit_note": "Einen Kredit ausstellen",
+      "select_invoice": "Wählen Sie eine Rechnung aus",
+      "no_invoices": "Für diesen Kunden wurden keine Rechnungen gefunden",
+      "choose_invoice": "Bitte wählen Sie eine Rechnung aus, um eine Gutschrift auszustellen",
+      "reason": "Grund, es zu haben",
+      "amount_exceeds_remaining": "Der Betrag der Gutschrift darf den Restbetrag der Rechnung nicht überschreiten ({_remaining})",
       "subheading": "Hier ist die Liste aller Assets des Systems",
+      "fund_reason": "Gutschrift ausgestellt für eine Fondszuführung an den Kunden:{_number}",
+      "created_success": "Die Gutschrift wurde erfolgreich ausgestellt",
       "amount_ht": "Betrag ohne Steuern",
+      "original_invoice": "Originalrechnung",
       "tax": "MwSt",
       "issued_by": "Ausgestellt von",
       "search_placeholder": "Nummer, Kunde oder Rechnung",

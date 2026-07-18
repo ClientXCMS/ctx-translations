@@ -359,7 +359,10 @@
       "create": {
         "title": "Criar um grupo",
         "subheading": "Criar um novo grupo para a loja"
-      }
+      },
+      "badge_color": "Cor do emblema",
+      "badge_title": "Título do selo",
+      "badge_icon": "Ícone do selo"
     },
     "login": {
       "title": "Login - Administração",
@@ -456,8 +459,17 @@
     },
     "credit_notes": {
       "title": "Ativos",
+      "issue_credit_note": "Emitir um crédito",
+      "select_invoice": "Selecione uma fatura",
+      "no_invoices": "Nenhuma fatura encontrada para este cliente",
+      "choose_invoice": "Selecione uma fatura para emitir uma nota de crédito",
+      "reason": "Razão para tê-lo",
+      "amount_exceeds_remaining": "O valor do crédito não pode exceder o valor restante da fatura ({_remaining})",
       "subheading": "Aqui está a lista de todos os ativos do sistema",
+      "fund_reason": "Nota de crédito emitida para adição de fundos ao cliente:{_number}",
+      "created_success": "A nota de crédito foi emitida com sucesso",
       "amount_ht": "Valor sem impostos",
+      "original_invoice": "Fatura original",
       "tax": "CUBA",
       "issued_by": "Emitida pela",
       "search_placeholder": "Número, cliente ou fatura",

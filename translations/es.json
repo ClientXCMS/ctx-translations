@@ -359,7 +359,10 @@
       "create": {
         "title": "Crear un grupo",
         "subheading": "Crear un nuevo grupo para la tienda"
-      }
+      },
+      "badge_color": "Color de la insignia",
+      "badge_title": "Título de la insignia",
+      "badge_icon": "Icono de insignia"
     },
     "login": {
       "title": "Iniciar sesión - Administración",
@@ -456,8 +459,17 @@
     },
     "credit_notes": {
       "title": "Activos",
+      "issue_credit_note": "Emitir un crédito",
+      "select_invoice": "Seleccione una factura",
+      "no_invoices": "No se encontraron facturas para este cliente.",
+      "choose_invoice": "Seleccione una factura para emitir una nota de crédito",
+      "reason": "Razón para tenerlo",
+      "amount_exceeds_remaining": "El monto del crédito no puede exceder el monto restante de la factura ({_remaining})",
       "subheading": "Aquí está la lista de todos los activos del sistema.",
+      "fund_reason": "Nota de crédito emitida por una adición de fondos al cliente:{_number}",
+      "created_success": "La nota de crédito ha sido emitida exitosamente.",
       "amount_ht": "Importe sin impuestos",
+      "original_invoice": "factura original",
       "tax": "TINA",
       "issued_by": "Expedido por",
       "search_placeholder": "Número, cliente o factura",

@@ -359,7 +359,10 @@
       "create": {
         "title": "Maak een groep aan",
         "subheading": "Maak een nieuwe groep voor de winkel"
-      }
+      },
+      "badge_color": "Badgekleur",
+      "badge_title": "Badgetitel",
+      "badge_icon": "Kentekenpictogram"
     },
     "login": {
       "title": "Inloggen - Administratie",
@@ -456,8 +459,17 @@
     },
     "credit_notes": {
       "title": "Activa",
+      "issue_credit_note": "Geef een krediet uit",
+      "select_invoice": "Selecteer een factuur",
+      "no_invoices": "Geen facturen gevonden voor deze klant",
+      "choose_invoice": "Selecteer een factuur om een ​​creditnota uit te geven",
+      "reason": "Reden om het te hebben",
+      "amount_exceeds_remaining": "Het bedrag van het tegoed kan niet hoger zijn dan het resterende bedrag van de factuur ({_remaining})",
       "subheading": "Hier is de lijst met alle systeemactiva",
+      "fund_reason": "Creditnota uitgegeven voor een fondstoevoeging aan de klant:{_number}",
+      "created_success": "De creditnota is succesvol uitgegeven",
       "amount_ht": "Bedrag exclusief belasting",
+      "original_invoice": "Originele factuur",
       "tax": "VAT",
       "issued_by": "Uitgegeven door",
       "search_placeholder": "Nummer, klant of factuur",

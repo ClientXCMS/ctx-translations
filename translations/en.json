@@ -359,7 +359,10 @@
       "create": {
         "title": "Create a group",
         "subheading": "Create a new group for the store"
-      }
+      },
+      "badge_color": "Badge color",
+      "badge_title": "Badge title",
+      "badge_icon": "Badge icon"
     },
     "login": {
       "title": "Login - Administration",
@@ -456,8 +459,17 @@
     },
     "credit_notes": {
       "title": "Assets",
+      "issue_credit_note": "Issue a credit",
+      "select_invoice": "Select an invoice",
+      "no_invoices": "No invoices found for this customer",
+      "choose_invoice": "Please select an invoice to issue a credit note",
+      "reason": "Reason to have it",
+      "amount_exceeds_remaining": "The amount of the credit cannot exceed the remaining amount of the invoice ({_remaining})",
       "subheading": "Here is the list of all system assets",
+      "fund_reason": "Credit note issued for a fund addition to the customer:{_number}",
+      "created_success": "The credit note has been successfully issued",
       "amount_ht": "Amount excluding tax",
+      "original_invoice": "Original invoice",
       "tax": "VAT",
       "issued_by": "Issued by",
       "search_placeholder": "Number, customer or invoice",
