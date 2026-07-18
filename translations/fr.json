@@ -357,7 +357,10 @@
       "create": {
         "title": "Créer un groupe",
         "subheading": "Créer un nouveau groupe pour la boutique"
-      }
+      },
+      "badge_color": "Couleur du badge",
+      "badge_title": "Titre du badge",
+      "badge_icon": "Icône du badge"
     },
     "login": {
       "title": "Connexion - Administration",
@@ -454,8 +457,17 @@
     },
     "credit_notes": {
       "title": "Avoirs",
+      "issue_credit_note": "Émettre un avoir",
+      "select_invoice": "Sélectionner une facture",
+      "no_invoices": "Aucune facture trouvée pour ce client",
+      "choose_invoice": "Veuillez sélectionner une facture pour émettre un avoir",
+      "reason": "Raison de l'avoir",
+      "amount_exceeds_remaining": "Le montant de l'avoir ne peut pas dépasser le montant restant de la facture ({_remaining})",
       "subheading": "Voici la liste de tous les avoirs du système",
+      "fund_reason": "Avoir émis pour un ajout de fond au client : {_number}",
+      "created_success": "L'avoir a été émis avec succès",
       "amount_ht": "Montant HT",
+      "original_invoice": "Facture originale",
       "tax": "TVA",
       "issued_by": "Émis par",
       "search_placeholder": "Numéro, client ou facture",
@@ -538,7 +550,7 @@
         "logs": {
           "title": "Historique des actions",
           "subheading": "Toutes les actions effectuées sur cette facture.",
-          "count": "{count} entrée d’historique|{count} entrées d’historique",
+          "count": "{_count} entrée d’historique|{_count} entrées d’historique",
           "empty": "Aucune activité enregistrée pour cette facture pour le moment.",
           "columns": {
             "timestamp": "Horodatage",
