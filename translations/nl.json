@@ -110,7 +110,14 @@
       "error_fetching_message": "Probeer het later opnieuw of neem contact op met de klantenservice.",
       "beta_warning_title": "Bètafunctie",
       "beta_warning_message": "Deze automatische updatefunctie is in bètaversie en kan problemen vertonen. Het wordt aanbevolen om updates handmatig uit te voeren volgens de documentatie.",
-      "beta_warning_link": "Bekijk de documentatie"
+      "beta_warning_link": "Bekijk de documentatie",
+      "post_update_title": "Voltooi de update",
+      "post_update_message": "Download de nieuwe vertalingen en bouw vervolgens de interface-elementen opnieuw op.",
+      "download_translations": "Vertalingen downloaden",
+      "translations_downloading": "Vertalingen downloaden…",
+      "translations_downloaded": "De vertalingen zijn succesvol geüpload.",
+      "translations_download_error": "Kan niet alle vertalingen downloaden.",
+      "build_assets_message": "Voer vervolgens deze opdracht uit in de root van uw installatie:"
     },
     "api_keys": {
       "title": "API-sleutels",

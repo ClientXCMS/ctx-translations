@@ -110,7 +110,14 @@
       "error_fetching_message": "Bitte versuchen Sie es später erneut oder kontaktieren Sie den Support.",
       "beta_warning_title": "Beta-Funktion",
       "beta_warning_message": "Diese automatische Aktualisierungsfunktion befindet sich in der Beta-Version und kann Probleme aufweisen. Es wird empfohlen, die Updates manuell gemäß der Dokumentation durchzuführen.",
-      "beta_warning_link": "Dokumentation ansehen"
+      "beta_warning_link": "Dokumentation ansehen",
+      "post_update_title": "Schließen Sie das Update ab",
+      "post_update_message": "Laden Sie die neuen Übersetzungen herunter und erstellen Sie dann die Schnittstellenressourcen neu.",
+      "download_translations": "Übersetzungen herunterladen",
+      "translations_downloading": "Übersetzungen werden heruntergeladen…",
+      "translations_downloaded": "Die Übersetzungen wurden erfolgreich hochgeladen.",
+      "translations_download_error": "Es können nicht alle Übersetzungen heruntergeladen werden.",
+      "build_assets_message": "Führen Sie dann diesen Befehl im Stammverzeichnis Ihrer Installation aus:"
     },
     "api_keys": {
       "title": "API-Schlüssel",
