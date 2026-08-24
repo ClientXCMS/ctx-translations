@@ -60,6 +60,10 @@
     }
   },
   "lang.fr.admin": {
+    "navigation": {
+      "menu": "Menu",
+      "close_menu": "Fermer le menu"
+    },
     "security": {
       "title": "Sécurité",
       "description": "Paramètres de sécurité de l'espace client"
@@ -623,6 +627,18 @@
         "subheading": "Créer un nouveau personnel pour l'administration"
       },
       "signature": "Signature",
+      "layout": {
+        "label": "Disposition de l’administration",
+        "help": "Choisissez la disposition utilisée lorsque vous naviguez dans l’administration.",
+        "horizontal": "Navigation horizontale",
+        "vertical": "Navigation verticale",
+        "toggle": "Changer la disposition de l’administration",
+        "updated": "La disposition de l’administration a été enregistrée.",
+        "prompt": {
+          "title": "Choisissez votre disposition",
+          "description": "Vous pouvez utiliser la navigation horizontale classique ou découvrir le nouveau menu vertical. Ce choix pourra être modifié à tout moment depuis la barre supérieure ou votre profil."
+        }
+      },
       "show": {
         "title": "Fiche personnel {_name}",
         "login": "Dernières connexions du personnel",
