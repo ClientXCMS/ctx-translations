@@ -49,6 +49,8 @@
       "two_factor_enabled": "Tweefactorauthenticatie ingeschakeld",
       "two_factor_disabled": "Tweefactorauthenticatie uitgeschakeld",
       "two_factor_recovery_codes_generated": "Herstelcodes voor tweefactorauthenticatie gegenereerd",
+      "passkey_registered": "Toegangssleutel toegevoegd:{_name}",
+      "passkey_deleted": "Toegangssleutel verwijderd:{_name}",
       "failed_login": "Verbindingsfout IP-adres: {_ip}",
       "account_deleted": "Account verwijderd",
       "new_registered": "Nieuwe registratie",
@@ -60,6 +62,10 @@
     }
   },
   "lang.fr.admin": {
+    "navigation": {
+      "menu": "Menu",
+      "close_menu": "Menu sluiten"
+    },
     "security": {
       "title": "Veiligheid",
       "description": "Beveiligingsinstellingen in het klantengedeelte"
@@ -145,7 +151,15 @@
       "frozen": "Het systeem bevindt zich momenteel in de bevroren modus. Sommige functies zijn mogelijk uitgeschakeld. Neem contact op met de ondersteuning om uit de bevroren modus te komen.",
       "in_debug": "U bevindt zich momenteel in de foutopsporingsmodus. Er kan gevoelige informatie worden weergegeven. Schakel om veiligheidsredenen de foutopsporingsmodus uit in de algemene instellingen.",
       "subheading": "Welkom op het beheerdersdashboard",
+      "monthly_usage": "Cumulatief verbruik van de maand",
       "notification_error": "In de afgelopen 24 uur is er een fout opgetreden bij het verzenden van e-mails. Fout: {_message}",
+      "cron_never_executed": "Taakplanner lijkt nooit te zijn uitgevoerd. Controleer de cronjob-configuratie.",
+      "cron_inactive_since": "Taakplanner reageert niet meer sinds{_date}. Controleer of de cronjob elke minuut wordt uitgevoerd.",
+      "cron_task_failed": "Geplande taak \"{_task}\" is mislukt op{_date}. Fout:{_message}",
+      "queue_worker_inactive": "De wachtrijmedewerker heeft langer dan 5 minuten niet gereageerd.",
+      "queue_jobs_blocked": "{_count}taak(en) wachten al meer dan 15 minuten op uitvoering.",
+      "queue_jobs_reserved": "{_count}taak(en) zijn te lang gereserveerd door een werknemer.",
+      "queue_jobs_failed": "{_count}taak(en) in de wachtrij zijn mislukt.",
       "tooltips": {
         "users": {
           "label": "Gebruikers",
@@ -342,6 +356,17 @@
       },
       "link": {
         "btn": "Bestel Link"
+      },
+      "short_description": {
+        "title": "Korte productbeschrijving",
+        "button": "Korte beschrijving",
+        "help": "Beheer argumenten die worden weergegeven in productkaarten en hun vertalingen.",
+        "add": "Voeg een regel toe",
+        "import": "Importeren uit beschrijving",
+        "empty": "Geen korte beschrijvingsregels.",
+        "main_text": "Hoofdtekst",
+        "reorder": "Lijn verplaatsen",
+        "replace_confirm": "De huidige regels worden vervangen door de inhoud van de beschrijving. Doorgaan ?"
       }
     },
     "groups": {
@@ -625,6 +650,18 @@
         "subheading": "Maak nieuw personeel aan voor administratie"
       },
       "signature": "Handtekening",
+      "layout": {
+        "label": "Administratieve indeling",
+        "help": "Kies de lay-out waarmee u door de administratie navigeert.",
+        "horizontal": "Horizontale navigatie",
+        "vertical": "Verticale navigatie",
+        "toggle": "Wijzig de inrichting van de administratie",
+        "updated": "De inrichting van de administratie is vastgelegd.",
+        "prompt": {
+          "title": "Kies uw lay-out",
+          "description": "U kunt de klassieke horizontale navigatie gebruiken of het nieuwe verticale menu ontdekken. Deze keuze kan op elk moment worden gewijzigd via de bovenste balk of uw profiel."
+        }
+      },
       "show": {
         "title": "Persoonlijk profiel {_name}",
         "login": "Laatste connecties met personeel",
@@ -750,6 +787,7 @@
             "banned_emails": "Verboden e-mails",
             "force_2fa_client": "Forceer dubbele authenticatie voor clients",
             "force_2fa_admin": "Forceer dubbele authenticatie voor beheerders",
+            "passkeys_enabled": "Autoriseer toegangssleutels voor klanten",
             "banned_emails_help": "Gescheiden door komma's (bijv. mailinator.com, yopmail.com, exemple@example.com)",
             "hash_driver_help": "/!\\ De oude wachtwoorden zijn niet compatibel met het nieuwe stuurprogramma. U moet gebruikerswachtwoorden opnieuw instellen."
           },
@@ -788,6 +826,37 @@
           },
           "success": "De gatewayconfiguratie is met succes opgeslagen."
         }
+      }
+    },
+    "queues": {
+      "title": "Wachtrijen",
+      "description": "Bewaak asynchrone taken, blokkades en fouten van werknemers.",
+      "refresh": "Vernieuwen",
+      "worker": "Werknemer",
+      "active": "Actief",
+      "inactive": "Inactief",
+      "sync_driver": "Taken worden onmiddellijk uitgevoerd met het synchronisatiestuurprogramma. Er is geen asynchrone werker nodig.",
+      "unsupported_driver": "De verbinding “{_driver}” kan in deze versie niet worden beheerd.",
+      "job": "Vlek",
+      "queue": "Bestand",
+      "attempts": "Pogingen",
+      "date": "Datum",
+      "error": "Fout",
+      "empty": "Geen vlekken in deze staat.",
+      "unknown_job": "Onbekende taak",
+      "confirm_action": "Bevestigt u deze actie? Een gedwongen herstart kan een dubbele uitvoering veroorzaken.",
+      "statuses": {
+        "waiting": "In de wacht",
+        "delayed": "Verschoven",
+        "reserved": "Gereserveerd",
+        "failed": "Gestrand"
+      },
+      "actions": {
+        "retry": "Opnieuw starten",
+        "delete": "VERWIJDEREN",
+        "release": "Vrijgeven en opnieuw starten",
+        "make_available": "Ren zo snel mogelijk",
+        "completed": "{_count}taak(en) zijn bijgewerkt."
       }
     },
     "license": {
@@ -836,7 +905,22 @@
       "selected": "Geselecteerd",
       "confirm": "\"{_action}\" toepassen op de geselecteerde items?"
     },
-    "selected": "Selectie"
+    "selected": "Selectie",
+    "rates": {
+      "metric": "Uurstatistiek",
+      "source": "Bron van bronnen",
+      "aggregation": "Aggregatie",
+      "duplicate": "Dit uurtarief bestaat al voor dit product en deze bron.",
+      "metrics": {
+        "uptime": "Verlichting tijd",
+        "memory": "Geheugen",
+        "disk": "Schijf"
+      },
+      "sources": {
+        "allocated": "Toegewezen capaciteit",
+        "used": "Werkelijk verbruik"
+      }
+    }
   },
   "lang.fr.auth": {
     "failed": "Deze identificatiegegevens komen niet overeen met onze gegevens.",
@@ -909,7 +993,27 @@
       "success": "Uw wachtwoord is opnieuw ingesteld.",
       "subheading": "Voer uw nieuwe wachtwoord in om uw account te herstellen."
     },
-    "authentication": "Authenticatie"
+    "authentication": "Authenticatie",
+    "passkeys": {
+      "title": "Toegangssleutels",
+      "description": "Log veilig in met uw apparaat of wachtwoordbeheerder.",
+      "login": "Log in met een toegangssleutel",
+      "confirm_title": "Bevestig uw identiteit",
+      "confirm_description": "Bevestig uw wachtwoord of gebruik een toegangssleutel om door te gaan.",
+      "confirm": "Bevestigen",
+      "confirm_with_passkey": "Bevestig met een toegangssleutel",
+      "confirm_before_management": "Bevestig uw identiteit om uw toegangssleutels te beheren",
+      "name": "Naam van toegangssleutel",
+      "name_placeholder": "Ex. Persoonlijke MacBook",
+      "name_required": "Geef een naam op voor deze toegangssleutel.",
+      "add": "Voeg een toegangssleutel toe",
+      "delete": "VERWIJDEREN",
+      "empty": "Geen toegangssleutel opgeslagen.",
+      "unknown_authenticator": "Onbekend apparaat",
+      "created_at": "Toegevoegd op{_date}",
+      "last_used_at": "Gebruikt op{_date}",
+      "error": "De toegangssleutel kon niet worden geverifieerd. Probeer het opnieuw of gebruik uw wachtwoord."
+    }
   },
   "lang.fr.billing": {
     "admin": {
@@ -1348,6 +1452,9 @@
       "service_name_updated": "De naam van de dienst is bijgewerkt",
       "service_billing_updated": "Factuurgegevens zijn bijgewerkt",
       "email_must_be_verified": "Uw e-mailadres moet worden geverifieerd om toegang te krijgen tot deze pagina"
+    },
+    "dashboard": {
+      "monthly_usage": "Cumulatief verbruik deze maand"
     },
     "gdpr": {
       "export": {
@@ -2312,7 +2419,29 @@
       "config": {
         "btn": "Sectie configureren",
         "title": "Sectie configuratie",
-        "subheading": "U kunt de inhoud van uw sectie naar wens aanpassen"
+        "subheading": "U kunt de inhoud van uw sectie naar wens aanpassen",
+        "fields": {
+          "badge": "Kenteken",
+          "title": "Titel",
+          "subtitle": "Ondertitel",
+          "feature_icon": "Functiepictogram{_number}",
+          "feature_number": "Kenmerkwaarde{_number}",
+          "feature_title": "Functietitel{_number}",
+          "feature_description": "Functie Beschrijving{_number}",
+          "stat_value": "Statistische waarde{_number}",
+          "stat_label": "Formulering van de statistiek{_number}",
+          "testimonial_text": "Getuigenis{_number}",
+          "testimonial_author": "Auteur van getuigenis{_number}",
+          "testimonial_role": "Rol van de auteur{_number}",
+          "step_title": "Staptitel{_number}",
+          "step_description": "Beschrijving van stap{_number}",
+          "step_icon": "Stappictogram{_number}",
+          "primary_cta": "Belangrijkste call-to-action",
+          "secondary_cta": "Secundaire call-to-action",
+          "hero_icon": "Hoofdpictogram",
+          "hero_title": "Hoofdtitel",
+          "hero_description": "Hoofdbeschrijving"
+        }
       },
       "fields": {
         "url": "Sectie Pagina",
@@ -2463,7 +2592,20 @@
         "submit": "Om te onderzoeken",
         "available": "Beschikbaar",
         "unavailable": "Niet beschikbaar",
-        "no_product": "Er is geen actief domeintypeproduct geconfigureerd."
+        "no_product": "Er is geen actief domeintypeproduct geconfigureerd.",
+        "subtitle": "Vind de ideale domeinnaam om uw project tot leven te brengen.",
+        "placeholder": "votre-projet.fr",
+        "domain_placeholder": "jouw-project",
+        "alternatives": "Andere extensies beschikbaar",
+        "alternatives_help": "Bescherm uw naam of kies een extensie die beter bij uw project past.",
+        "choose": "Kiezen",
+        "no_available": "Er zijn geen andere extensies beschikbaar voor deze naam.",
+        "configure": "Configureer uw domein",
+        "configure_help": "Controleer de naam en extensie voordat u verdergaat.",
+        "results": "Zoekresultaten",
+        "extensions": "Ontdek onze extensies",
+        "extensions_help": "Selecteer een extensie om direct de beschikbaarheid ervan te controleren.",
+        "from": "Van"
       },
       "errors": {
         "invalid_tld": "Het domein komt niet overeen met de geselecteerde extensie."
@@ -2521,6 +2663,68 @@
         },
         "show": {
           "title": "Extensie: naam"
+        },
+        "tools": {
+          "tools": "Uitbreidingshulpmiddelen",
+          "nameservers": "Standaard DNS-servers",
+          "records": "Standaard DNS-records",
+          "defaults_help": "Deze waarden worden gekopieerd naar nieuwe opdrachten. Bestaande domeinen blijven ongewijzigd.",
+          "apply_dns": "Pas records toe bij het maken van domeinen",
+          "managed_dns_help": "Voor initialisatie zijn de DNS-servers van de registrar en een compatibele verbinding vereist. Prioriteit geldt alleen voor MX-records.",
+          "invalid_dns": "DNS-configuratie is ongeldig: controleer CNAME-servers, typen en conflicten.",
+          "incompatible_dns": "Kies een compatibele verbinding, de bijbehorende DNS-servers en ten minste één record, waarbij DNS-beheer is ingeschakeld.",
+          "missing_nameservers": "Configureer minimaal twee DNS-servers op deze extensie voordat u deze bestelt of activeert.",
+          "catalog": "Importeren vanuit een registrar",
+          "registrar": "Registrar",
+          "unsupported": "Niet-ondersteunde functie",
+          "load": "Catalogus laden",
+          "worker_help": "De catalogus wordt geladen door de takenwachtrij. Er moet een werker actief zijn als uw wachtrij asynchroon is.",
+          "catalog_help": "Selecteer extensies en bereken vervolgens de verkoopprijzen. Alleen de door de registrar gecodeerde looptijden worden geïmporteerd, zonder extrapolatie van prijzen of premiumdomeinen.",
+          "catalog_failed": "Kan catalogus niet laden. Controleer de verbinding en logboeken en probeer vervolgens opnieuw te uploaden.",
+          "copy": "Kopieer een configuratie",
+          "source": "Bronextensie",
+          "destinations": "Ontvangerextensies",
+          "fields": "Instellingen om te kopiëren",
+          "field_default_nameservers": "Standaard DNS-servers",
+          "field_default_dns_records": "Standaard DNS-records",
+          "field_apply_default_dns": "Automatische DNS-initialisatie",
+          "field_dns_management": "DNS-beheer",
+          "field_whois_privacy": "WHOIS-privacy",
+          "field_server_id": "Registrar Inloggen",
+          "field_prices": "Prijzen en geconfigureerde duur",
+          "filter": "Filterextensies",
+          "select_visible": "Selecteer zichtbare extensies",
+          "select_targets": "Selecteer ten minste één ontvangerextensie die u wilt wijzigen.",
+          "selected": "geselecteerde extensie(s)",
+          "preview": "Voorbeeld van wijzigingen",
+          "before": "Voor",
+          "after": "Na",
+          "confirm": "Wijzigingen toepassen",
+          "applied": "De wijzigingen zijn toegepast.",
+          "stale": "De preview is verlopen of de configuratie is gewijzigd. Genereer een nieuw voorbeeld.",
+          "cost": "Kosten griffier",
+          "selling": "Verkoopprijs",
+          "markup": "Opmaak",
+          "fixed": "Vast bedrag",
+          "exchange_required": "Voer de conversiekoers naar de verkoopvaluta in.",
+          "invalid_price": "De prijs of berekeningsregel is ongeldig.",
+          "update_existing": "Update prijzen voor geselecteerde bestaande extensies",
+          "activate": "Activeer nieuwe extensies als hun configuratie voltooid is",
+          "existing": "Al geconfigureerd",
+          "new": "Nieuwe uitbreiding",
+          "value": "Waarde",
+          "priority": "Prioriteit",
+          "refresh": "Vernieuwen",
+          "dns_status": "DNS-initialisatie",
+          "retry_dns": "Start alleen de DNS-initialisatie opnieuw",
+          "queued": "DNS-initialisatie is aangevraagd.",
+          "state_pending": "In de wacht",
+          "state_loading": "Laden",
+          "state_ready": "Catalogus beschikbaar",
+          "state_preview": "Overzicht van wijzigingen",
+          "state_applied": "Wijzigingen toegepast",
+          "state_failed": "Mislukking",
+          "state_completed": "Afgerond"
         }
       },
       "servers": {
@@ -2581,6 +2785,20 @@
         "invalid_status": "Ongeldige status",
         "invalid_customer": "Ongeldige klant",
         "status_change_failed": "Kan de servicestatus niet wijzigen: {_error}",
+        "automation": {
+          "disable_suspension": "Schakel automatisch opschorten uit",
+          "enable_suspension": "Automatische opschorting opnieuw activeren",
+          "disable_expiration": "Schakel automatisch verlopen uit",
+          "enable_expiration": "Schakel automatisch verlopen opnieuw in",
+          "enabled_notice": "Deze service kan worden opgeschort en vervolgens automatisch door het systeem worden verwijderd.",
+          "suspension_disabled_notice": "Deze service wordt niet automatisch door het systeem opgeschort, maar de automatische vervaldatum blijft ingeschakeld.",
+          "expiration_disabled_notice": "Deze service kan automatisch door het systeem worden opgeschort, maar wordt niet automatisch verwijderd.",
+          "disabled_notice": "Deze service wordt niet automatisch door het systeem opgeschort of verwijderd.",
+          "disable_suspension_success": "Automatische opschorting is uitgeschakeld.",
+          "enable_suspension_success": "Automatische opschorting is opnieuw geactiveerd.",
+          "disable_expiration_success": "Automatisch verlopen en de bijbehorende meldingen zijn uitgeschakeld.",
+          "enable_expiration_success": "Automatisch verlopen en de bijbehorende meldingen zijn opnieuw ingeschakeld."
+        },
         "title": "Diensten",
         "add_days": "Dagen toevoegen",
         "sub_days": "Dagen aftrekken",
@@ -2686,7 +2904,8 @@
         },
         "uncancel": {
           "success": "De service is met succes hersteld"
-        }
+        },
+        "delete_cancel_delivery": "Annuleer ook de levering van het gekoppelde factuuritem (alle bijbehorende diensten) om te voorkomen dat de dienst opnieuw wordt aangeboden. Haal het vinkje weg om de bezorging te behouden."
       },
       "cancellation_requests": {
         "title": "Annuleringsaanvragen",
@@ -3181,6 +3400,192 @@
     "upgrade": {
       "title": "Service upgraded",
       "description": "Een dienst is geüpgraded"
+    }
+  },
+  "lang.fr.mailcow": {
+    "product": {
+      "no_data": "Bij het bestellen zijn geen aanvullende gegevens vereist."
+    },
+    "config": {
+      "server": "Mailkoe-server",
+      "max_domains": "Maximale domeinen",
+      "max_mailboxes": "Maximaal aantal dozen per domein",
+      "max_aliases": "Maximale aliassen per domein",
+      "default_quota_mib": "Standaardquotum van een doos (MiB)",
+      "max_quota_mib": "Maximaal quotum van een doos (MiB)",
+      "domain_quota_mib": "Totaal domeinquotum (MiB)",
+      "rate_limit_value": "Grenswaarde verzenden",
+      "rate_limit_frame": "Verzendlimietperiode",
+      "backup_mx": "Back-up MX-server",
+      "relay_all_recipients": "Stuur alle ontvangers door",
+      "seconds": "Seconden",
+      "minutes": "Notulen",
+      "hours": "Uur"
+    },
+    "panel": {
+      "title": "E-maildomeinen",
+      "permission": "Beheer Mailco-domeinen",
+      "usage": ":gebruikte domein(en) gebruikt op :max",
+      "empty": "Er zijn nog geen domeinen geconfigureerd.",
+      "mailboxes": "Dozen",
+      "aliases": "Alias",
+      "admin": "Beheerder",
+      "password": "Wachtwoord",
+      "status_active": "Actief",
+      "status_suspended": "Opgeschort"
+    },
+    "actions": {
+      "add": "Voeg het domein toe",
+      "delete": "VERWIJDEREN",
+      "delete_confirm": "Dit domein en al zijn e-mailgegevens definitief verwijderen?",
+      "dns": "DNS exporteren",
+      "domain_admin": "Postkoe Administratie"
+    },
+    "messages": {
+      "domain_created": "Het Mailcow-domein is aangemaakt.",
+      "domain_deleted": "Het Mailcow-domein is verwijderd."
+    },
+    "errors": {
+      "domain_exists": "Dit domein is al ingericht.",
+      "domain_limit": "De domeinlimiet van deze dienst is bereikt.",
+      "config_missing": "De Mailco-productconfiguratie kan niet worden gevonden.",
+      "api": "Mailcow kon het verzoek niet verwerken."
+    }
+  },
+  "lang.fr.einvoicing": {
+    "profile": {
+      "title": "Factureringsgegevens",
+      "description": "Geef aan of u koopt als particulier, bedrijf of vereniging. Deze informatie wordt bevroren op uw volgende facturen.",
+      "type": "Klanttype",
+      "individual": "Bijzonder",
+      "business": "Bedrijf",
+      "association": "Vereniging",
+      "legal_name": "Bedrijfsnaam",
+      "rna_number": "RNA-nummer",
+      "siren": "SIRENE",
+      "siret": "SIRET",
+      "vat_number": "BTW-nummer",
+      "tax_registration_number": "Lokaal belastingnummer",
+      "tax_subject_status": "Fiscale situatie van de vereniging",
+      "tax_subject_status_help": "Deze informatie bepaalt of de transactie onder elektronisch factureren of onder e-rapportage valt.",
+      "tax_status_unknown": "Ik weet het nog niet",
+      "tax_status_non_taxable": "Vereniging niet BTW-plichtig",
+      "tax_status_taxable_not_vat_liable": "Vereniging onderworpen aan maar niet onderworpen aan BTW",
+      "tax_status_vat_liable": "Vereniging BTW-plichtig",
+      "additional_details": "Aanvullende factuurgegevens",
+      "additional_details_help": "Vrije tekst om op facturen weer te geven. Vermeld niet de bedrijfsnaam, SIREN of BTW-nummer.",
+      "required": "Vul uw factuurgegevens in voordat u doorgaat met uw bestelling.",
+      "saved": "Uw factuurgegevens zijn opgeslagen."
+    },
+    "admin": {
+      "tab": "Elektronische facturering",
+      "title": "Belastingprofiel en facturering",
+      "description": "Deze informatie wordt bevroren bij de volgende facturen.",
+      "identity": "Fiscale identiteit",
+      "address": "Factuuradres",
+      "dashboard": {
+        "title": "Elektronische facturering",
+        "description": "Houd elektronische facturen, e-rapportageperioden en rapporteerbare incasso's bij.",
+        "local_warning_title": "Lokale simulatiemodus",
+        "local_warning_description": "De gegenereerde bestanden worden niet verzonden naar een goedgekeurd platform of naar de DGFiP.",
+        "provider": "Actieve aanbieder",
+        "regime": "BTW-regime",
+        "timezone": "Belastingzone",
+        "activation": "Activering",
+        "disabled": "Gehandicapt",
+        "documents": "Elektronische documenten",
+        "documents_description": "Facturen en creditnota's gegenereerd of verzonden door de actieve aanbieder.",
+        "periods": "E-rapportageperioden",
+        "periods_description": "Batches van transacties en incasso's gegroepeerd volgens de fiscale kalender.",
+        "payments": "Incasso's en terugbetalingen",
+        "payments_description": "Onveranderlijk logboek van financiële bewegingen waarmee rekening wordt gehouden voor e-rapportage.",
+        "empty_documents": "Momenteel geen elektronische documenten.",
+        "empty_periods": "Momenteel geen e-rapportageperiode.",
+        "empty_payments": "Er zijn geen ontvangstbewijzen of terugbetalingen geregistreerd.",
+        "document": "Document",
+        "provider_column": "Aanbieder",
+        "status": "Status",
+        "error": "Laatste fout",
+        "actions": "Acties",
+        "type": "Vriendelijk",
+        "period": "Periode",
+        "deadline": "Deadline",
+        "invoice": "Rekening",
+        "amount": "Hoeveelheid",
+        "date": "Datum",
+        "retry": "Opnieuw starten",
+        "download_pdf": "Pdf",
+        "download_xml": "XML",
+        "download_manifest": "Manifest",
+        "no_error": "Geen",
+        "settings": "Configureer",
+        "accounting_exports": "Boekhoudkundige exporten",
+        "accounting_exports_description": "Synchroniseert met Abby, Pennylane en andere boekhoudbestemmingen.",
+        "empty_accounting_exports": "Momenteel geen boekhoudkundige export.",
+        "accounting_only": "Boekhoudsynchronisatie",
+        "event": "Evenement",
+        "external_id": "Externe identificatie"
+      }
+    },
+    "status": {
+      "complete": "Volledig profiel",
+      "incomplete": "Onvolledig profiel",
+      "pending": "Validatie in behandeling"
+    },
+    "settings": {
+      "legal_entity": "Fiscale identiteit van de verkoper",
+      "operation_category": "Gebruikelijke aard van de activiteiten",
+      "goods": "Leveringen van goederen",
+      "services": "Diensten",
+      "mixed": "Goederen en diensten",
+      "vat_on_debits": "BTW verschuldigd op basis van afschrijvingen",
+      "seller_street": "Verkopers manier",
+      "seller_address2": "Bijkomend adres van de verkoper",
+      "seller_zipcode": "Postcode van de verkoper",
+      "seller_city": "Verkoper stad",
+      "seller_country": "Land van de verkoper",
+      "seller_country_help": "ISO-landcode van twee letters, bijvoorbeeld FR.",
+      "electronic_section": "Factur-X en e-rapportage",
+      "enabled": "Inschakelen voor nieuwe documenten",
+      "provider": "Actieve aanbieder",
+      "vat_regime": "BTW-regime",
+      "timezone": "Belastingzone",
+      "activation_date": "Datum van activering",
+      "activation_date_help": "Documenten uitgegeven vóór deze datum worden niet met terugwerkende kracht verwerkt.",
+      "regimes": {
+        "real_normal_monthly": "Echt maandelijks normaal",
+        "real_normal_quarterly": "Echt kwartaalnormaal",
+        "simplified": "Vereenvoudigd dieet",
+        "franchise_base": "Basisfranchise"
+      }
+    },
+    "document_statuses": {
+      "pending": "In de wacht",
+      "generated": "Gegenereerd",
+      "submitted": "Gearchiveerd",
+      "delivered": "Boek",
+      "accepted": "Geaccepteerd",
+      "rejected": "Afgewezen",
+      "failed": "Bij vergissing",
+      "open": "Open",
+      "closed": "Gesloten",
+      "waiting_payment": "Wachten op betaling",
+      "completed": "Afgerond",
+      "manual_review": "Handmatige beoordeling"
+    },
+    "report_types": {
+      "transaction": "Transacties",
+      "payment": "Ontvangsten"
+    },
+    "payment_types": {
+      "payment": "Verzameling",
+      "refund": "Terugbetaling"
+    },
+    "accounting_events": {
+      "invoice": "Factuur uitgegeven",
+      "credit_note": "Na uitgegeven",
+      "payment": "Verzameling",
+      "refund": "Terugbetaling"
     }
   }
 }

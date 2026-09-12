@@ -49,6 +49,8 @@
       "two_factor_enabled": "Two-factor authentication enabled",
       "two_factor_disabled": "Two-factor authentication disabled",
       "two_factor_recovery_codes_generated": "Two-factor authentication recovery codes generated",
+      "passkey_registered": "Access key added:{_name}",
+      "passkey_deleted": "Deleted access key:{_name}",
       "failed_login": "Connection failed IP address: {_ip}",
       "account_deleted": "Account deleted",
       "new_registered": "New registration",
@@ -60,6 +62,10 @@
     }
   },
   "lang.fr.admin": {
+    "navigation": {
+      "menu": "Menu",
+      "close_menu": "Close menu"
+    },
     "security": {
       "title": "Security",
       "description": "Security settings in the customer area"
@@ -145,7 +151,15 @@
       "frozen": "The system is currently in frozen mode. Some features may be disabled. To get out of the frozen mode, please contact support.",
       "in_debug": "You are currently in debug mode. Sensitive information may be displayed. For security reasons, please disable debug mode in the general settings.",
       "subheading": "Welcome to the Admin Dashboard",
+      "monthly_usage": "Cumulative consumption of the month",
       "notification_error": "An error occurred in the last 24 hours on the sending of emails. Error: {_message}",
+      "cron_never_executed": "Task Scheduler never appears to have run. Check the cron job configuration.",
+      "cron_inactive_since": "Task Scheduler has been unresponsive since{_date}. Verify that the cron job runs every minute.",
+      "cron_task_failed": "Scheduled task \"{_task}\" failed on{_date}. Error:{_message}",
+      "queue_worker_inactive": "The queue worker has not responded for more than 5 minutes.",
+      "queue_jobs_blocked": "{_count}task(s) have been waiting to be executed for more than 15 minutes.",
+      "queue_jobs_reserved": "{_count}task(s) have been reserved by a worker for too long.",
+      "queue_jobs_failed": "{_count}task(s) in the queue failed.",
       "tooltips": {
         "users": {
           "label": "Users",
@@ -342,6 +356,17 @@
       },
       "link": {
         "btn": "Order Link"
+      },
+      "short_description": {
+        "title": "Short product description",
+        "button": "Short description",
+        "help": "Manage arguments displayed in product cards and their translations.",
+        "add": "Add a line",
+        "import": "Import from description",
+        "empty": "No short description lines.",
+        "main_text": "Main text",
+        "reorder": "Move line",
+        "replace_confirm": "The current lines will be replaced with the content of the description. Continue ?"
       }
     },
     "groups": {
@@ -625,6 +650,18 @@
         "subheading": "Create new staff for administration"
       },
       "signature": "Signature",
+      "layout": {
+        "label": "Administration layout",
+        "help": "Choose the layout used when navigating the administration.",
+        "horizontal": "Horizontal navigation",
+        "vertical": "Vertical navigation",
+        "toggle": "Change the layout of the administration",
+        "updated": "The arrangement of the administration has been recorded.",
+        "prompt": {
+          "title": "Choose your layout",
+          "description": "You can use the classic horizontal navigation or discover the new vertical menu. This choice can be modified at any time from the top bar or your profile."
+        }
+      },
       "show": {
         "title": "Personal profile {_name}",
         "login": "Latest staff connections",
@@ -750,6 +787,7 @@
             "banned_emails": "Banned emails",
             "force_2fa_client": "Force double authentication for clients",
             "force_2fa_admin": "Force double authentication for administrators",
+            "passkeys_enabled": "Authorize access keys for clients",
             "banned_emails_help": "Separated by commas (e.g. mailinator.com, yopmail.com, exemple@example.com)",
             "hash_driver_help": "/!\\ The old passwords will not be compatible with the new driver. You need to reset user passwords."
           },
@@ -788,6 +826,37 @@
           },
           "success": "The gateway configuration has been successfully saved."
         }
+      }
+    },
+    "queues": {
+      "title": "Queues",
+      "description": "Monitor asynchronous tasks, blockages, and worker failures.",
+      "refresh": "Refresh",
+      "worker": "Worker",
+      "active": "Active",
+      "inactive": "Inactive",
+      "sync_driver": "Tasks are executed immediately with the sync driver. No asynchronous worker is needed.",
+      "unsupported_driver": "The connection “{_driver}” is not manageable in this version.",
+      "job": "Stain",
+      "queue": "File",
+      "attempts": "Attempts",
+      "date": "Date",
+      "error": "Error",
+      "empty": "No stains in this condition.",
+      "unknown_job": "Unknown task",
+      "confirm_action": "Do you confirm this action? A forced restart can cause a double execution.",
+      "statuses": {
+        "waiting": "On hold",
+        "delayed": "Deferred",
+        "reserved": "Reserved",
+        "failed": "Stranded"
+      },
+      "actions": {
+        "retry": "Relaunch",
+        "delete": "DELETE",
+        "release": "Release and Relaunch",
+        "make_available": "Run as soon as possible",
+        "completed": "{_count}task(s) have been updated."
       }
     },
     "license": {
@@ -836,7 +905,22 @@
       "selected": "Selected",
       "confirm": "Apply \"{_action}\" to the selected items?"
     },
-    "selected": "Selection"
+    "selected": "Selection",
+    "rates": {
+      "metric": "Hourly Metric",
+      "source": "Resource source",
+      "aggregation": "Aggregation",
+      "duplicate": "This hourly rate already exists for this product and this source.",
+      "metrics": {
+        "uptime": "Lighting time",
+        "memory": "Memory",
+        "disk": "Disk"
+      },
+      "sources": {
+        "allocated": "Allocated capacity",
+        "used": "Actual consumption"
+      }
+    }
   },
   "lang.fr.auth": {
     "failed": "These identifiers do not correspond to our records.",
@@ -909,7 +993,27 @@
       "success": "Your password has been successfully reset.",
       "subheading": "Enter your new password to recover your account."
     },
-    "authentication": "Authentication"
+    "authentication": "Authentication",
+    "passkeys": {
+      "title": "Access keys",
+      "description": "Log in securely with your device or password manager.",
+      "login": "Log in with an access key",
+      "confirm_title": "Confirm your identity",
+      "confirm_description": "Confirm your password or use an access key to continue.",
+      "confirm": "Confirm",
+      "confirm_with_passkey": "Confirm with an access key",
+      "confirm_before_management": "Confirm your identity to manage your access keys",
+      "name": "Access key name",
+      "name_placeholder": "Ex. Personal MacBook",
+      "name_required": "Specify a name for this access key.",
+      "add": "Add an access key",
+      "delete": "DELETE",
+      "empty": "No access key saved.",
+      "unknown_authenticator": "Unknown device",
+      "created_at": "Added on{_date}",
+      "last_used_at": "Used on{_date}",
+      "error": "The access key could not be verified. Try again or use your password."
+    }
   },
   "lang.fr.billing": {
     "admin": {
@@ -1348,6 +1452,9 @@
       "service_name_updated": "The name of the service has been updated",
       "service_billing_updated": "Billing information has been updated",
       "email_must_be_verified": "Your email address must be verified to access this page"
+    },
+    "dashboard": {
+      "monthly_usage": "Cumulative consumption this month"
     },
     "gdpr": {
       "export": {
@@ -2312,7 +2419,29 @@
       "config": {
         "btn": "Configure section",
         "title": "Section configuration",
-        "subheading": "You can modify your section content as you wish"
+        "subheading": "You can modify your section content as you wish",
+        "fields": {
+          "badge": "Badge",
+          "title": "Title",
+          "subtitle": "Subtitle",
+          "feature_icon": "Feature icon{_number}",
+          "feature_number": "Feature value{_number}",
+          "feature_title": "Feature title{_number}",
+          "feature_description": "Feature Description{_number}",
+          "stat_value": "Stat value{_number}",
+          "stat_label": "Wording of the statistic{_number}",
+          "testimonial_text": "Testimony{_number}",
+          "testimonial_author": "Author of testimony{_number}",
+          "testimonial_role": "Role of the author{_number}",
+          "step_title": "Step title{_number}",
+          "step_description": "Description of step{_number}",
+          "step_icon": "Step icon{_number}",
+          "primary_cta": "Main call to action",
+          "secondary_cta": "Secondary call to action",
+          "hero_icon": "Main icon",
+          "hero_title": "Main title",
+          "hero_description": "Main description"
+        }
       },
       "fields": {
         "url": "Section Page",
@@ -2463,7 +2592,20 @@
         "submit": "To research",
         "available": "Available",
         "unavailable": "Unavailable",
-        "no_product": "No active domain type product is configured."
+        "no_product": "No active domain type product is configured.",
+        "subtitle": "Find the ideal domain name to bring your project to life.",
+        "placeholder": "votre-projet.fr",
+        "domain_placeholder": "your-project",
+        "alternatives": "Other extensions available",
+        "alternatives_help": "Protect your name or choose an extension that better suits your project.",
+        "choose": "Choose",
+        "no_available": "No other extensions available for this name.",
+        "configure": "Configure your domain",
+        "configure_help": "Check the name and extension before continuing.",
+        "results": "Search results",
+        "extensions": "Discover our extensions",
+        "extensions_help": "Select an extension to immediately check its availability.",
+        "from": "From"
       },
       "errors": {
         "invalid_tld": "The domain does not match the selected extension."
@@ -2521,6 +2663,68 @@
         },
         "show": {
           "title": "Extension :name"
+        },
+        "tools": {
+          "tools": "Extension tools",
+          "nameservers": "Default DNS servers",
+          "records": "Default DNS Records",
+          "defaults_help": "These values ​​will be copied to new commands. Existing domains remain unchanged.",
+          "apply_dns": "Apply records to domain creation",
+          "managed_dns_help": "Initialization requires the registrar's DNS servers and a compatible connection. Priority is only for MX records.",
+          "invalid_dns": "DNS configuration is invalid: check CNAME servers, types and conflicts.",
+          "incompatible_dns": "Choose a compatible connection, its DNS servers and at least one record, with DNS management enabled.",
+          "missing_nameservers": "Configure at least two DNS servers on this extension before ordering or activating it.",
+          "catalog": "Import from a registrar",
+          "registrar": "Registrar",
+          "unsupported": "Unsupported feature",
+          "load": "Load catalog",
+          "worker_help": "The catalog is loaded by the task queue. A worker must be active if your queue is asynchronous.",
+          "catalog_help": "Select extensions, then calculate sales prices. Only the durations encrypted by the registrar are imported, without extrapolation of prices or premium domains.",
+          "catalog_failed": "Failed to load catalog. Check the connection and logs, then try uploading again.",
+          "copy": "Copy a configuration",
+          "source": "Source extension",
+          "destinations": "Recipient extensions",
+          "fields": "Settings to copy",
+          "field_default_nameservers": "Default DNS servers",
+          "field_default_dns_records": "Default DNS Records",
+          "field_apply_default_dns": "Automatic DNS initialization",
+          "field_dns_management": "DNS management",
+          "field_whois_privacy": "WHOIS Privacy",
+          "field_server_id": "Registrar Login",
+          "field_prices": "Prices and configured durations",
+          "filter": "Filter extensions",
+          "select_visible": "Select visible extensions",
+          "select_targets": "Select at least one recipient extension to modify.",
+          "selected": "selected extension(s)",
+          "preview": "Preview changes",
+          "before": "Before",
+          "after": "After",
+          "confirm": "Apply changes",
+          "applied": "The changes have been applied.",
+          "stale": "The preview has expired or the configuration has changed. Generate a new preview.",
+          "cost": "Registrar cost",
+          "selling": "Selling price",
+          "markup": "Markup",
+          "fixed": "Fixed amount",
+          "exchange_required": "Enter the conversion rate to the sales currency.",
+          "invalid_price": "The price or calculation rule is invalid.",
+          "update_existing": "Update prices for selected existing extensions",
+          "activate": "Activate new extensions if their configuration is complete",
+          "existing": "Already configured",
+          "new": "New extension",
+          "value": "Value",
+          "priority": "Priority",
+          "refresh": "Refresh",
+          "dns_status": "DNS initialization",
+          "retry_dns": "Restart DNS initialization only",
+          "queued": "DNS initialization was requested.",
+          "state_pending": "On hold",
+          "state_loading": "Loading",
+          "state_ready": "Catalog available",
+          "state_preview": "Overview of changes",
+          "state_applied": "Changes applied",
+          "state_failed": "Failure",
+          "state_completed": "Finished"
         }
       },
       "servers": {
@@ -2581,6 +2785,20 @@
         "invalid_status": "Invalid status",
         "invalid_customer": "Invalid customer",
         "status_change_failed": "Unable to change service status: {_error}",
+        "automation": {
+          "disable_suspension": "Disable auto-suspend",
+          "enable_suspension": "Reactivate automatic suspension",
+          "disable_expiration": "Disable automatic expiration",
+          "enable_expiration": "Re-enable automatic expiration",
+          "enabled_notice": "This service may be suspended and then automatically deleted by the system.",
+          "suspension_disabled_notice": "This service will not be automatically suspended by the system, but its automatic expiration remains enabled.",
+          "expiration_disabled_notice": "This service may be automatically suspended by the system, but it will not be deleted automatically.",
+          "disabled_notice": "This service will not be automatically suspended or deleted by the system.",
+          "disable_suspension_success": "Automatic suspension has been disabled.",
+          "enable_suspension_success": "Automatic suspension has been reactivated.",
+          "disable_expiration_success": "Auto-expiration and its notifications have been disabled.",
+          "enable_expiration_success": "Auto-expiration and its notifications have been re-enabled."
+        },
         "title": "Services",
         "add_days": "Add days",
         "sub_days": "Subtract days",
@@ -2686,7 +2904,8 @@
         },
         "uncancel": {
           "success": "The service has been successfully restored"
-        }
+        },
+        "delete_cancel_delivery": "Also cancel the delivery of the linked invoice item (all its services) to avoid recreation of the service. Uncheck to keep delivery."
       },
       "cancellation_requests": {
         "title": "Cancellation requests",
@@ -3181,6 +3400,192 @@
     "upgrade": {
       "title": "Service upgraded",
       "description": "A service has been upgraded."
+    }
+  },
+  "lang.fr.mailcow": {
+    "product": {
+      "no_data": "No additional information is required when ordering."
+    },
+    "config": {
+      "server": "Mailcow Server",
+      "max_domains": "Maximum domains",
+      "max_mailboxes": "Maximum boxes per domain",
+      "max_aliases": "Maximum aliases per domain",
+      "default_quota_mib": "Default quota of a box (MiB)",
+      "max_quota_mib": "Maximum quota of a box (MiB)",
+      "domain_quota_mib": "Total domain quota (MiB)",
+      "rate_limit_value": "Sending limit value",
+      "rate_limit_frame": "Sending limit period",
+      "backup_mx": "Backup MX Server",
+      "relay_all_recipients": "Relay all recipients",
+      "seconds": "Seconds",
+      "minutes": "Minutes",
+      "hours": "Hours"
+    },
+    "panel": {
+      "title": "Email domains",
+      "permission": "Manage Mailcow domains",
+      "usage": ":used domain(s) used on :max",
+      "empty": "No domains are configured yet.",
+      "mailboxes": "Boxes",
+      "aliases": "Alias",
+      "admin": "Administrator",
+      "password": "Password",
+      "status_active": "Active",
+      "status_suspended": "Suspended"
+    },
+    "actions": {
+      "add": "Add the domain",
+      "delete": "DELETE",
+      "delete_confirm": "Permanently delete this domain and all its email data?",
+      "dns": "Export DNS",
+      "domain_admin": "Mailcow Administration"
+    },
+    "messages": {
+      "domain_created": "The Mailcow domain has been created.",
+      "domain_deleted": "The Mailcow domain has been deleted."
+    },
+    "errors": {
+      "domain_exists": "This domain is already provisioned.",
+      "domain_limit": "The domain limit of this service has been reached.",
+      "config_missing": "Mailcow product configuration could not be found.",
+      "api": "Mailcow was unable to process the request."
+    }
+  },
+  "lang.fr.einvoicing": {
+    "profile": {
+      "title": "Billing information",
+      "description": "Indicate whether you are purchasing as an individual, business or association. This information will be frozen on your next invoices.",
+      "type": "Customer type",
+      "individual": "Particular",
+      "business": "Business",
+      "association": "Association",
+      "legal_name": "Company name",
+      "rna_number": "RNA number",
+      "siren": "SIREN",
+      "siret": "SIRET",
+      "vat_number": "VAT number",
+      "tax_registration_number": "Local tax identifier",
+      "tax_subject_status": "Tax situation of the association",
+      "tax_subject_status_help": "This information determines whether the transaction falls under electronic invoicing or e-reporting.",
+      "tax_status_unknown": "I don't know yet",
+      "tax_status_non_taxable": "Association not subject to VAT",
+      "tax_status_taxable_not_vat_liable": "Association subject to but not liable for VAT",
+      "tax_status_vat_liable": "Association liable for VAT",
+      "additional_details": "Additional billing information",
+      "additional_details_help": "Free text to display on invoices. Do not indicate the company name, SIREN or VAT number.",
+      "required": "Complete your billing information before continuing with your order.",
+      "saved": "Your billing information has been saved."
+    },
+    "admin": {
+      "tab": "Electronic invoicing",
+      "title": "Tax profile and invoicing",
+      "description": "This information will be frozen when the next invoices are issued.",
+      "identity": "Tax identity",
+      "address": "Billing address",
+      "dashboard": {
+        "title": "Electronic invoicing",
+        "description": "Track electronic invoices, e-reporting periods and reportable collections.",
+        "local_warning_title": "Local simulation mode",
+        "local_warning_description": "The files generated are not transmitted to an approved platform or to the DGFiP.",
+        "provider": "Active Provider",
+        "regime": "VAT regime",
+        "timezone": "Tax zone",
+        "activation": "Activation",
+        "disabled": "Disabled",
+        "documents": "Electronic documents",
+        "documents_description": "Invoices and credit notes generated or transmitted by the active provider.",
+        "periods": "E-reporting periods",
+        "periods_description": "Batches of transactions and collections grouped according to the fiscal calendar.",
+        "payments": "Collections and reimbursements",
+        "payments_description": "Immutable log of financial movements taken into account for e-reporting.",
+        "empty_documents": "No electronic documents at this time.",
+        "empty_periods": "No e-reporting period at the moment.",
+        "empty_payments": "No receipts or refunds recorded.",
+        "document": "Document",
+        "provider_column": "Provider",
+        "status": "Status",
+        "error": "Last error",
+        "actions": "Actions",
+        "type": "Kind",
+        "period": "Period",
+        "deadline": "Due date",
+        "invoice": "Bill",
+        "amount": "Amount",
+        "date": "Date",
+        "retry": "Relaunch",
+        "download_pdf": "PDF",
+        "download_xml": "XML",
+        "download_manifest": "Manifest",
+        "no_error": "None",
+        "settings": "Configure",
+        "accounting_exports": "Accounting exports",
+        "accounting_exports_description": "Syncs to Abby, Pennylane and other accounting destinations.",
+        "empty_accounting_exports": "No accounting exports at the moment.",
+        "accounting_only": "Accounting synchronization",
+        "event": "Event",
+        "external_id": "External identifier"
+      }
+    },
+    "status": {
+      "complete": "Full profile",
+      "incomplete": "Incomplete profile",
+      "pending": "Validation pending"
+    },
+    "settings": {
+      "legal_entity": "Tax identity of the seller",
+      "operation_category": "Usual nature of operations",
+      "goods": "Deliveries of goods",
+      "services": "Services",
+      "mixed": "Goods and services",
+      "vat_on_debits": "VAT payable based on debits",
+      "seller_street": "Seller's Way",
+      "seller_address2": "Additional address of the seller",
+      "seller_zipcode": "Seller's postal code",
+      "seller_city": "Seller city",
+      "seller_country": "Seller's country",
+      "seller_country_help": "Two-letter ISO country code, for example FR.",
+      "electronic_section": "Factur-X and e-reporting",
+      "enabled": "Enable for new documents",
+      "provider": "Active Provider",
+      "vat_regime": "VAT regime",
+      "timezone": "Tax zone",
+      "activation_date": "Activation date",
+      "activation_date_help": "Documents issued before this date will not be processed retroactively.",
+      "regimes": {
+        "real_normal_monthly": "Real monthly normal",
+        "real_normal_quarterly": "Real quarterly normal",
+        "simplified": "Simplified diet",
+        "franchise_base": "Basic franchise"
+      }
+    },
+    "document_statuses": {
+      "pending": "On hold",
+      "generated": "Generated",
+      "submitted": "Filed",
+      "delivered": "Book",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "failed": "In error",
+      "open": "Open",
+      "closed": "Closed",
+      "waiting_payment": "Waiting for payment",
+      "completed": "Finished",
+      "manual_review": "Manual review"
+    },
+    "report_types": {
+      "transaction": "Transactions",
+      "payment": "Receipts"
+    },
+    "payment_types": {
+      "payment": "Collection",
+      "refund": "Refund"
+    },
+    "accounting_events": {
+      "invoice": "Invoice issued",
+      "credit_note": "Having issued",
+      "payment": "Collection",
+      "refund": "Refund"
     }
   }
 }

@@ -49,6 +49,8 @@
       "two_factor_enabled": "Autenticação de dois fatores ativada",
       "two_factor_disabled": "Autenticação de dois fatores desativada",
       "two_factor_recovery_codes_generated": "Códigos de recuperação de autenticação de dois fatores gerados",
+      "passkey_registered": "Chave de acesso adicionada:{_name}",
+      "passkey_deleted": "Chave de acesso excluída:{_name}",
       "failed_login": "Falha de conexão Endereço IP: {_ip}",
       "account_deleted": "Conta eliminada",
       "new_registered": "Novo registro",
@@ -60,6 +62,10 @@
     }
   },
   "lang.fr.admin": {
+    "navigation": {
+      "menu": "Menu",
+      "close_menu": "Fechar menu"
+    },
     "security": {
       "title": "Segurança",
       "description": "Configurações de segurança na área do cliente"
@@ -145,7 +151,15 @@
       "frozen": "O sistema está atualmente no modo congelado. Alguns recursos podem estar desativados. Para sair do modo congelado, entre em contato com o suporte.",
       "in_debug": "Você está atualmente no modo de depuração. Informações confidenciais podem ser exibidas. Por motivos de segurança, desative o modo de depuração nas configurações gerais.",
       "subheading": "Bem-vindo ao Painel de Administração",
+      "monthly_usage": "Consumo acumulado do mês",
       "notification_error": "Ocorreu um erro nas últimas 24 horas no envio de e-mails. Erro: {_message}",
+      "cron_never_executed": "O Agendador de tarefas nunca parece ter sido executado. Verifique a configuração do cron job.",
+      "cron_inactive_since": "O Agendador de tarefas não responde desde{_date}. Verifique se o cron job é executado a cada minuto.",
+      "cron_task_failed": "A tarefa agendada \"{_task}\" falhou em{_date}. Erro:{_message}",
+      "queue_worker_inactive": "O trabalhador da fila não respondeu por mais de 5 minutos.",
+      "queue_jobs_blocked": "{_count}tarefas estão aguardando para serem executadas há mais de 15 minutos.",
+      "queue_jobs_reserved": "{_count}tarefas foram reservadas por um trabalhador por muito tempo.",
+      "queue_jobs_failed": "{_count}tarefas na fila falharam.",
       "tooltips": {
         "users": {
           "label": "Usuários",
@@ -342,6 +356,17 @@
       },
       "link": {
         "btn": "Link do pedido"
+      },
+      "short_description": {
+        "title": "Breve descrição do produto",
+        "button": "Breve descrição",
+        "help": "Gerencie argumentos exibidos em cartões de produtos e suas traduções.",
+        "add": "Adicione uma linha",
+        "import": "Importar da descrição",
+        "empty": "Sem linhas de descrição curta.",
+        "main_text": "Texto principal",
+        "reorder": "Mover linha",
+        "replace_confirm": "As linhas atuais serão substituídas pelo conteúdo da descrição. Continuar ?"
       }
     },
     "groups": {
@@ -625,6 +650,18 @@
         "subheading": "Criar nova equipe para administração"
       },
       "signature": "Assinatura",
+      "layout": {
+        "label": "Layout de administração",
+        "help": "Escolha o layout utilizado ao navegar na administração.",
+        "horizontal": "Navegação horizontal",
+        "vertical": "Navegação vertical",
+        "toggle": "Alterar o layout da administração",
+        "updated": "O arranjo da administração foi registrado.",
+        "prompt": {
+          "title": "Escolha seu layout",
+          "description": "Você pode usar a navegação horizontal clássica ou descobrir o novo menu vertical. Esta escolha pode ser modificada a qualquer momento na barra superior ou no seu perfil."
+        }
+      },
       "show": {
         "title": "Perfil pessoal {_name}",
         "login": "Últimas conexões de funcionários",
@@ -750,6 +787,7 @@
             "banned_emails": "E-mails banidos",
             "force_2fa_client": "Forçar autenticação dupla para clientes",
             "force_2fa_admin": "Forçar autenticação dupla para administradores",
+            "passkeys_enabled": "Autorizar chaves de acesso para clientes",
             "banned_emails_help": "Separados por vírgulas (por exemplo, mailinator.com, yopmail.com, exemple@example.com)",
             "hash_driver_help": "/!\\ As senhas antigas não serão compatíveis com o novo driver. Você precisa redefinir as senhas de usuário."
           },
@@ -788,6 +826,37 @@
           },
           "success": "A configuração do gateway foi salva com êxito."
         }
+      }
+    },
+    "queues": {
+      "title": "Filas",
+      "description": "Monitore tarefas assíncronas, bloqueios e falhas de trabalhadores.",
+      "refresh": "Atualizar",
+      "worker": "Trabalhador",
+      "active": "Ativo",
+      "inactive": "Inativo",
+      "sync_driver": "As tarefas são executadas imediatamente com o driver de sincronização. Nenhum trabalhador assíncrono é necessário.",
+      "unsupported_driver": "A conexão “{_driver}” não é gerenciável nesta versão.",
+      "job": "Mancha",
+      "queue": "Arquivo",
+      "attempts": "Tentativas",
+      "date": "Data",
+      "error": "Erro",
+      "empty": "Sem manchas nesta condição.",
+      "unknown_job": "Tarefa desconhecida",
+      "confirm_action": "Você confirma esta ação? Uma reinicialização forçada pode causar uma execução dupla.",
+      "statuses": {
+        "waiting": "Em espera",
+        "delayed": "Adiado",
+        "reserved": "Reservado",
+        "failed": "Encalhado"
+      },
+      "actions": {
+        "retry": "Reiniciar",
+        "delete": "EXCLUIR",
+        "release": "Lançamento e relançamento",
+        "make_available": "Corra o mais rápido possível",
+        "completed": "{_count}tarefas foram atualizadas."
       }
     },
     "license": {
@@ -836,7 +905,22 @@
       "selected": "Selecionados",
       "confirm": "Aplicar \"{_action}\" aos itens selecionados?"
     },
-    "selected": "Seleção"
+    "selected": "Seleção",
+    "rates": {
+      "metric": "Métrica horária",
+      "source": "Fonte de recursos",
+      "aggregation": "Agregação",
+      "duplicate": "Esta taxa horária já existe para este produto e esta fonte.",
+      "metrics": {
+        "uptime": "Tempo de iluminação",
+        "memory": "Memória",
+        "disk": "Disco"
+      },
+      "sources": {
+        "allocated": "Capacidade alocada",
+        "used": "Consumo real"
+      }
+    }
   },
   "lang.fr.auth": {
     "failed": "Esses identificadores não correspondem aos nossos registros.",
@@ -909,7 +993,27 @@
       "success": "Sua senha foi redefinida com sucesso.",
       "subheading": "Digite sua nova senha para recuperar sua conta."
     },
-    "authentication": "Autenticação"
+    "authentication": "Autenticação",
+    "passkeys": {
+      "title": "Chaves de acesso",
+      "description": "Faça login com segurança com seu dispositivo ou gerenciador de senhas.",
+      "login": "Faça login com uma chave de acesso",
+      "confirm_title": "Confirmer votre identité",
+      "confirm_description": "Confirme sua senha ou use uma chave de acesso para continuar.",
+      "confirm": "Confirmar",
+      "confirm_with_passkey": "Confirme com uma chave de acesso",
+      "confirm_before_management": "Confirme sua identidade para gerenciar suas chaves de acesso",
+      "name": "Nome da chave de acesso",
+      "name_placeholder": "Ex. Macbook pessoal",
+      "name_required": "Especifique um nome para esta chave de acesso.",
+      "add": "Adicione uma chave de acesso",
+      "delete": "EXCLUIR",
+      "empty": "Nenhuma chave de acesso salva.",
+      "unknown_authenticator": "Dispositivo desconhecido",
+      "created_at": "Adicionado em{_date}",
+      "last_used_at": "Usado em{_date}",
+      "error": "A chave de acesso não pôde ser verificada. Tente novamente ou use sua senha."
+    }
   },
   "lang.fr.billing": {
     "admin": {
@@ -1348,6 +1452,9 @@
       "service_name_updated": "O nome do serviço foi atualizado",
       "service_billing_updated": "As informações de cobrança foram atualizadas",
       "email_must_be_verified": "Seu endereço de e-mail deve ser verificado para acessar esta página"
+    },
+    "dashboard": {
+      "monthly_usage": "Consumo acumulado neste mês"
     },
     "gdpr": {
       "export": {
@@ -2312,7 +2419,29 @@
       "config": {
         "btn": "Configurar seção",
         "title": "Configuração da seção",
-        "subheading": "Você pode modificar o conteúdo da sua seção como desejar"
+        "subheading": "Você pode modificar o conteúdo da sua seção como desejar",
+        "fields": {
+          "badge": "Distintivo",
+          "title": "Título",
+          "subtitle": "Legenda",
+          "feature_icon": "Ícone de recurso{_number}",
+          "feature_number": "Valor do recurso{_number}",
+          "feature_title": "Título do recurso{_number}",
+          "feature_description": "Descrição do recurso{_number}",
+          "stat_value": "Valor estatístico{_number}",
+          "stat_label": "Redação da estatística{_number}",
+          "testimonial_text": "Testemunho{_number}",
+          "testimonial_author": "Autor do depoimento{_number}",
+          "testimonial_role": "Papel do autor{_number}",
+          "step_title": "Título da etapa{_number}",
+          "step_description": "Descrição da etapa{_number}",
+          "step_icon": "Ícone de etapa{_number}",
+          "primary_cta": "Chamada para ação principal",
+          "secondary_cta": "Chamada à ação secundária",
+          "hero_icon": "Ícone principal",
+          "hero_title": "Título principal",
+          "hero_description": "Descrição principal"
+        }
       },
       "fields": {
         "url": "Página da seção",
@@ -2463,7 +2592,20 @@
         "submit": "Para pesquisar",
         "available": "Disponível",
         "unavailable": "Indisponível",
-        "no_product": "Nenhum produto do tipo de domínio ativo está configurado."
+        "no_product": "Nenhum produto do tipo de domínio ativo está configurado.",
+        "subtitle": "Encontre o nome de domínio ideal para dar vida ao seu projeto.",
+        "placeholder": "votre-projet.fr",
+        "domain_placeholder": "seu projeto",
+        "alternatives": "Outras extensões disponíveis",
+        "alternatives_help": "Proteja o seu nome ou escolha a extensão que melhor se adapta ao seu projeto.",
+        "choose": "Escolher",
+        "no_available": "Nenhuma outra extensão disponível para este nome.",
+        "configure": "Configure seu domínio",
+        "configure_help": "Verifique o nome e a extensão antes de continuar.",
+        "results": "Resultados da pesquisa",
+        "extensions": "Conheça nossas extensões",
+        "extensions_help": "Selecione uma extensão para verificar imediatamente sua disponibilidade.",
+        "from": "De"
       },
       "errors": {
         "invalid_tld": "O domínio não corresponde à extensão selecionada."
@@ -2521,6 +2663,68 @@
         },
         "show": {
           "title": "Extensão: nome"
+        },
+        "tools": {
+          "tools": "Ferramentas de extensão",
+          "nameservers": "Servidores DNS padrão",
+          "records": "Registros DNS padrão",
+          "defaults_help": "Esses valores serão copiados para novos comandos. Os domínios existentes permanecem inalterados.",
+          "apply_dns": "Aplicar registros à criação de domínio",
+          "managed_dns_help": "A inicialização requer os servidores DNS do registrador e uma conexão compatível. A prioridade é apenas para registros MX.",
+          "invalid_dns": "A configuração DNS é inválida: verifique os servidores CNAME, tipos e conflitos.",
+          "incompatible_dns": "Escolha uma conexão compatível, seus servidores DNS e pelo menos um registro, com gerenciamento de DNS habilitado.",
+          "missing_nameservers": "Configure pelo menos dois servidores DNS nesta extensão antes de solicitá-la ou ativá-la.",
+          "catalog": "Importar de um registrador",
+          "registrar": "Registrador",
+          "unsupported": "Recurso não compatível",
+          "load": "Carregar catálogo",
+          "worker_help": "O catálogo é carregado pela fila de tarefas. Um trabalhador deverá estar ativo se sua fila for assíncrona.",
+          "catalog_help": "Selecione extensões e calcule os preços de venda. Somente são importadas as durações criptografadas pelo registrador, sem extrapolação de preços ou domínios premium.",
+          "catalog_failed": "Falha ao carregar o catálogo. Verifique a conexão e os registros e tente fazer upload novamente.",
+          "copy": "Copiar uma configuração",
+          "source": "Extensão de origem",
+          "destinations": "Extensões de destinatário",
+          "fields": "Configurações para copiar",
+          "field_default_nameservers": "Servidores DNS padrão",
+          "field_default_dns_records": "Registros DNS padrão",
+          "field_apply_default_dns": "Inicialização automática de DNS",
+          "field_dns_management": "Gerenciamento de DNS",
+          "field_whois_privacy": "Privacidade WHOIS",
+          "field_server_id": "Login do registrador",
+          "field_prices": "Preços e durações configuradas",
+          "filter": "Filtrar extensões",
+          "select_visible": "Selecione extensões visíveis",
+          "select_targets": "Selecione pelo menos uma extensão de destinatário para modificar.",
+          "selected": "extensões selecionadas",
+          "preview": "Visualizar alterações",
+          "before": "Antes",
+          "after": "Depois",
+          "confirm": "Aplicar alterações",
+          "applied": "As alterações foram aplicadas.",
+          "stale": "A visualização expirou ou a configuração foi alterada. Gere uma nova visualização.",
+          "cost": "Custo do registrador",
+          "selling": "Preço de venda",
+          "markup": "Marcação",
+          "fixed": "Valor fixo",
+          "exchange_required": "Insira a taxa de conversão para a moeda de vendas.",
+          "invalid_price": "O preço ou regra de cálculo é inválido.",
+          "update_existing": "Atualizar preços para extensões existentes selecionadas",
+          "activate": "Ative novas extensões se sua configuração estiver concluída",
+          "existing": "Já configurado",
+          "new": "Nova extensão",
+          "value": "Valor",
+          "priority": "Prioridade",
+          "refresh": "Atualizar",
+          "dns_status": "Inicialização DNS",
+          "retry_dns": "Reinicie apenas a inicialização do DNS",
+          "queued": "A inicialização do DNS foi solicitada.",
+          "state_pending": "Em espera",
+          "state_loading": "Carregando",
+          "state_ready": "Catálogo disponível",
+          "state_preview": "Visão geral das mudanças",
+          "state_applied": "Alterações aplicadas",
+          "state_failed": "Falha",
+          "state_completed": "Finalizado"
         }
       },
       "servers": {
@@ -2581,6 +2785,20 @@
         "invalid_status": "Status inválido",
         "invalid_customer": "Cliente inválido",
         "status_change_failed": "Não é possível alterar o status do serviço: {_error}",
+        "automation": {
+          "disable_suspension": "Desativar suspensão automática",
+          "enable_suspension": "Reativar suspensão automática",
+          "disable_expiration": "Desativar expiração automática",
+          "enable_expiration": "Reativar a expiração automática",
+          "enabled_notice": "Este serviço pode ser suspenso e excluído automaticamente pelo sistema.",
+          "suspension_disabled_notice": "Este serviço não será suspenso automaticamente pelo sistema, mas sua expiração automática permanece habilitada.",
+          "expiration_disabled_notice": "Este serviço poderá ser suspenso automaticamente pelo sistema, mas não será excluído automaticamente.",
+          "disabled_notice": "Este serviço não será suspenso ou excluído automaticamente pelo sistema.",
+          "disable_suspension_success": "A suspensão automática foi desativada.",
+          "enable_suspension_success": "A suspensão automática foi reativada.",
+          "disable_expiration_success": "A expiração automática e suas notificações foram desativadas.",
+          "enable_expiration_success": "A expiração automática e suas notificações foram reativadas."
+        },
         "title": "Serviços",
         "add_days": "Adicionar dias",
         "sub_days": "Subtrair dias",
@@ -2686,7 +2904,8 @@
         },
         "uncancel": {
           "success": "O serviço foi restaurado com sucesso"
-        }
+        },
+        "delete_cancel_delivery": "Cancele também a entrega do item da fatura vinculado (todos os seus serviços) para evitar a recriação do serviço. Desmarque para manter a entrega."
       },
       "cancellation_requests": {
         "title": "Pedidos de cancelamento",
@@ -3181,6 +3400,192 @@
     "upgrade": {
       "title": "Serviço atualizado",
       "description": "Um serviço foi atualizado"
+    }
+  },
+  "lang.fr.mailcow": {
+    "product": {
+      "no_data": "Nenhuma informação adicional é necessária ao fazer o pedido."
+    },
+    "config": {
+      "server": "Servidor Mailcow",
+      "max_domains": "Máximo de domínios",
+      "max_mailboxes": "Máximo de caixas por domínio",
+      "max_aliases": "Máximo de aliases por domínio",
+      "default_quota_mib": "Cota padrão de uma caixa (MiB)",
+      "max_quota_mib": "Cota máxima de uma caixa (MiB)",
+      "domain_quota_mib": "Cota total de domínio (MiB)",
+      "rate_limit_value": "Envio de valor limite",
+      "rate_limit_frame": "Período limite de envio",
+      "backup_mx": "Servidor MX de backup",
+      "relay_all_recipients": "Retransmitir todos os destinatários",
+      "seconds": "Segundos",
+      "minutes": "Minutos",
+      "hours": "Horas"
+    },
+    "panel": {
+      "title": "Domínios de e-mail",
+      "permission": "Gerenciar domínios Mailcow",
+      "usage": ":domínio(s) usado(s) usado(s) em :max",
+      "empty": "Nenhum domínio está configurado ainda.",
+      "mailboxes": "Caixas",
+      "aliases": "Alias",
+      "admin": "Administrador",
+      "password": "Senha",
+      "status_active": "Ativo",
+      "status_suspended": "Suspenso"
+    },
+    "actions": {
+      "add": "Adicione o domínio",
+      "delete": "EXCLUIR",
+      "delete_confirm": "Excluir permanentemente este domínio e todos os seus dados de e-mail?",
+      "dns": "Exportar DNS",
+      "domain_admin": "Administração Mailcow"
+    },
+    "messages": {
+      "domain_created": "O domínio Mailcow foi criado.",
+      "domain_deleted": "O domínio Mailcow foi excluído."
+    },
+    "errors": {
+      "domain_exists": "Este domínio já está provisionado.",
+      "domain_limit": "O limite de domínio deste serviço foi atingido.",
+      "config_missing": "A configuração do produto Mailcow não foi encontrada.",
+      "api": "Mailcow não conseguiu processar a solicitação."
+    }
+  },
+  "lang.fr.einvoicing": {
+    "profile": {
+      "title": "Informações de pagamento",
+      "description": "Indique se você está comprando como pessoa física, empresarial ou associação. Esta informação ficará congelada nas suas próximas faturas.",
+      "type": "Tipo de cliente",
+      "individual": "Especial",
+      "business": "Negócios",
+      "association": "Associação",
+      "legal_name": "Nome da empresa",
+      "rna_number": "Número de RNA",
+      "siren": "SIRENE",
+      "siret": "SIRETE",
+      "vat_number": "Número de IVA",
+      "tax_registration_number": "Identificador fiscal local",
+      "tax_subject_status": "Situação fiscal da associação",
+      "tax_subject_status_help": "Esta informação determina se a transação se enquadra na fatura eletrónica ou no relatório eletrónico.",
+      "tax_status_unknown": "Eu não sei ainda",
+      "tax_status_non_taxable": "Associação não sujeita a IVA",
+      "tax_status_taxable_not_vat_liable": "Associação sujeita mas não sujeita a IVA",
+      "tax_status_vat_liable": "Associação responsável pelo IVA",
+      "additional_details": "Informações adicionais de faturamento",
+      "additional_details_help": "Texto livre para exibição nas faturas. Não indicar o nome da empresa, SIREN ou número de contribuinte.",
+      "required": "Preencha suas informações de faturamento antes de continuar com seu pedido.",
+      "saved": "Suas informações de faturamento foram salvas."
+    },
+    "admin": {
+      "tab": "Faturamento eletrônico",
+      "title": "Perfil fiscal e faturação",
+      "description": "Estas informações serão congeladas quando as próximas faturas forem emitidas.",
+      "identity": "Identidade fiscal",
+      "address": "Endereço de Cobrança",
+      "dashboard": {
+        "title": "Faturamento eletrônico",
+        "description": "Rastreie faturas eletrônicas, períodos de relatórios eletrônicos e cobranças reportáveis.",
+        "local_warning_title": "Modo de simulação local",
+        "local_warning_description": "Os ficheiros gerados não são transmitidos para plataforma homologada nem para a DGFiP.",
+        "provider": "Provedor Ativo",
+        "regime": "Regime de IVA",
+        "timezone": "Zona fiscal",
+        "activation": "Ativação",
+        "disabled": "Desabilitado",
+        "documents": "Documentos eletrônicos",
+        "documents_description": "Faturas e notas de crédito geradas ou transmitidas pelo prestador ativo.",
+        "periods": "Períodos de relatórios eletrônicos",
+        "periods_description": "Lotes de transações e cobranças agrupados de acordo com o calendário fiscal.",
+        "payments": "Cobranças e reembolsos",
+        "payments_description": "Registro imutável dos movimentos financeiros considerados para relatórios eletrônicos.",
+        "empty_documents": "Nenhum documento eletrônico no momento.",
+        "empty_periods": "Nenhum período de relatório eletrônico no momento.",
+        "empty_payments": "Nenhum recebimento ou reembolso registrado.",
+        "document": "Documento",
+        "provider_column": "Provedor",
+        "status": "Status",
+        "error": "Último erro",
+        "actions": "Ações",
+        "type": "Tipo",
+        "period": "Período",
+        "deadline": "Data de vencimento",
+        "invoice": "Conta",
+        "amount": "Quantia",
+        "date": "Data",
+        "retry": "Reiniciar",
+        "download_pdf": "PDF",
+        "download_xml": "XML",
+        "download_manifest": "Manifesto",
+        "no_error": "Nenhum",
+        "settings": "Configurar",
+        "accounting_exports": "Exportações contábeis",
+        "accounting_exports_description": "Sincroniza com Abby, Pennylane e outros destinos contábeis.",
+        "empty_accounting_exports": "Nenhuma exportação contábil no momento.",
+        "accounting_only": "Sincronização contábil",
+        "event": "Evento",
+        "external_id": "Identificador externo"
+      }
+    },
+    "status": {
+      "complete": "Perfil completo",
+      "incomplete": "Perfil incompleto",
+      "pending": "Validação pendente"
+    },
+    "settings": {
+      "legal_entity": "Identidade fiscal do vendedor",
+      "operation_category": "Natureza habitual das operações",
+      "goods": "Entregas de mercadorias",
+      "services": "Serviços",
+      "mixed": "Bens e serviços",
+      "vat_on_debits": "IVA a pagar com base em débitos",
+      "seller_street": "Caminho do Vendedor",
+      "seller_address2": "Endereço adicional do vendedor",
+      "seller_zipcode": "Código postal do vendedor",
+      "seller_city": "Cidade do vendedor",
+      "seller_country": "País do vendedor",
+      "seller_country_help": "Código de país ISO de duas letras, por exemplo FR.",
+      "electronic_section": "Factur-X e relatórios eletrônicos",
+      "enabled": "Habilitar para novos documentos",
+      "provider": "Provedor Ativo",
+      "vat_regime": "Regime de IVA",
+      "timezone": "Zona fiscal",
+      "activation_date": "Data de ativação",
+      "activation_date_help": "Documentos emitidos antes desta data não serão processados ​​retroativamente.",
+      "regimes": {
+        "real_normal_monthly": "Normal mensal real",
+        "real_normal_quarterly": "Normal trimestral real",
+        "simplified": "Dieta simplificada",
+        "franchise_base": "Franquia básica"
+      }
+    },
+    "document_statuses": {
+      "pending": "Em espera",
+      "generated": "Gerado",
+      "submitted": "Arquivado",
+      "delivered": "Livro",
+      "accepted": "Aceito",
+      "rejected": "Rejeitado",
+      "failed": "Por engano",
+      "open": "Abrir",
+      "closed": "Fechado",
+      "waiting_payment": "Aguardando pagamento",
+      "completed": "Finalizado",
+      "manual_review": "Revisão manual"
+    },
+    "report_types": {
+      "transaction": "Transações",
+      "payment": "Recibos"
+    },
+    "payment_types": {
+      "payment": "Coleção",
+      "refund": "Reembolso"
+    },
+    "accounting_events": {
+      "invoice": "Fatura emitida",
+      "credit_note": "Tendo emitido",
+      "payment": "Coleção",
+      "refund": "Reembolso"
     }
   }
 }

@@ -49,6 +49,8 @@
       "two_factor_enabled": "已启用双重身份验证",
       "two_factor_disabled": "禁用了双重身份验证",
       "two_factor_recovery_codes_generated": "生成的双重身份验证恢复代码",
+      "passkey_registered": "添加访问密钥：{_name}",
+      "passkey_deleted": "已删除的访问密钥：{_name}",
       "failed_login": "连接失败 IP地址 : {_ip}",
       "account_deleted": "账户已删除",
       "new_registered": "新注册",
@@ -60,6 +62,10 @@
     }
   },
   "lang.fr.admin": {
+    "navigation": {
+      "menu": "菜单",
+      "close_menu": "关闭菜单"
+    },
     "security": {
       "title": "安全",
       "description": "Customer Area 中的安全设置"
@@ -145,7 +151,15 @@
       "frozen": "系统当前处于冻结模式。某些功能可能被禁用。要退出冻结模式，请联系支持人员。",
       "in_debug": "您当前处于调试模式。可能会显示敏感信息。出于安全原因，请在常规设置中禁用调试模式。",
       "subheading": "欢迎使用 Admin Dashboard",
+      "monthly_usage": "当月累计消费",
       "notification_error": "过去 24 小时内发送电子邮件时出错。错误：{_message}",
+      "cron_never_executed": "Le planificateur de tâches ne semble jamais avoir été exécuté. Vérifiez la configuration de la tâche cron.",
+      "cron_inactive_since": "自{_date}以来，任务计划程序一直没有响应。 验证 cron 作业是否每分钟运行一次。",
+      "cron_task_failed": "计划任务“{_task}”在{_date}上失败。 错误：{_message}",
+      "queue_worker_inactive": "队列工作人员已超过 5 分钟没有响应。",
+      "queue_jobs_blocked": "{_count}任务已等待执行超过 15 分钟。",
+      "queue_jobs_reserved": "{_count}任务已被工作人员保留太久。",
+      "queue_jobs_failed": "队列中的{_count}任务失败。",
       "tooltips": {
         "users": {
           "label": "用户",
@@ -342,6 +356,17 @@
       },
       "link": {
         "btn": "订单链接"
+      },
+      "short_description": {
+        "title": "产品简短描述",
+        "button": "简短描述",
+        "help": "管理产品卡中显示的参数及其翻译。",
+        "add": "添加一行",
+        "import": "从描述导入",
+        "empty": "没有简短的描述行。",
+        "main_text": "正文",
+        "reorder": "移动线",
+        "replace_confirm": "当前行将替换为描述内容。 继续 ？"
       }
     },
     "groups": {
@@ -625,6 +650,18 @@
         "subheading": "创建新员工进行管理"
       },
       "signature": "签名",
+      "layout": {
+        "label": "行政布局",
+        "help": "选择导航管理时使用的布局。",
+        "horizontal": "横向导航",
+        "vertical": "垂直导航",
+        "toggle": "改变行政管理布局",
+        "updated": "行政安排已记录。",
+        "prompt": {
+          "title": "选择您的布局",
+          "description": "您可以使用经典的水平导航或发现新的垂直菜单。 您可以随时从顶部栏或您的个人资料中修改此选择。"
+        }
+      },
       "show": {
         "title": "个人简介 {_name}",
         "login": "最新的员工联系",
@@ -750,6 +787,7 @@
             "banned_emails": "被禁电子邮件",
             "force_2fa_client": "强制对客户端进行双重身份验证",
             "force_2fa_admin": "强制管理员进行双重身份验证",
+            "passkeys_enabled": "为客户端授权访问密钥",
             "banned_emails_help": "用逗号分隔（例如 mailinator.com、yopmail.com exemple@example.com）",
             "hash_driver_help": "/！\\ 旧密码将与新驱动程序不兼容。您需要重置用户密码。"
           },
@@ -788,6 +826,37 @@
           },
           "success": "网关配置已成功保存。"
         }
+      }
+    },
+    "queues": {
+      "title": "队列",
+      "description": "监视异步任务、阻塞和工作线程故障。",
+      "refresh": "刷新",
+      "worker": "工人",
+      "active": "积极的",
+      "inactive": "不活跃",
+      "sync_driver": "使用同步驱动程序立即执行任务。 不需要异步工作线程。",
+      "unsupported_driver": "连接“{_driver}”在此版本中不可管理。",
+      "job": "弄脏",
+      "queue": "文件",
+      "attempts": "尝试",
+      "date": "日期",
+      "error": "错误",
+      "empty": "在这种情况下没有污渍。",
+      "unknown_job": "未知任务",
+      "confirm_action": "您确认这一行动吗？ 强制重启可能会导致双重执行。",
+      "statuses": {
+        "waiting": "等候接听",
+        "delayed": "延期",
+        "reserved": "预订的",
+        "failed": "搁浅"
+      },
+      "actions": {
+        "retry": "重新启动",
+        "delete": "删除",
+        "release": "发布并重新启动",
+        "make_available": "尽快跑",
+        "completed": "{_count}任务已更新。"
       }
     },
     "license": {
@@ -836,7 +905,22 @@
       "selected": "已选",
       "confirm": "对所选项目应用\"{_action}\"？"
     },
-    "selected": "选择"
+    "selected": "选择",
+    "rates": {
+      "metric": "每小时指标",
+      "source": "资源来源",
+      "aggregation": "聚合",
+      "duplicate": "此产品和此来源已存在此每小时费率。",
+      "metrics": {
+        "uptime": "照明时间",
+        "memory": "记忆",
+        "disk": "磁盘"
+      },
+      "sources": {
+        "allocated": "分配容量",
+        "used": "实际消耗量"
+      }
+    }
   },
   "lang.fr.auth": {
     "failed": "这些标识符与我们的记录不对应。",
@@ -909,7 +993,27 @@
       "success": "您的密码已成功重置。",
       "subheading": "输入您的新密码以恢复您的帐户。"
     },
-    "authentication": "认证"
+    "authentication": "认证",
+    "passkeys": {
+      "title": "访问键",
+      "description": "使用您的设备或密码管理器安全登录。",
+      "login": "使用访问密钥登录",
+      "confirm_title": "确认您的身份",
+      "confirm_description": "确认您的密码或使用访问密钥继续。",
+      "confirm": "确认",
+      "confirm_with_passkey": "使用访问密钥确认",
+      "confirm_before_management": "确认您的身份以管理您的访问密钥",
+      "name": "访问键名称",
+      "name_placeholder": "前任。个人MacBook",
+      "name_required": "指定该访问密钥的名称。",
+      "add": "添加访问密钥",
+      "delete": "删除",
+      "empty": "未保存访问密钥。",
+      "unknown_authenticator": "未知设备",
+      "created_at": "添加到{_date}",
+      "last_used_at": "用于{_date}",
+      "error": "无法验证访问密钥。 再试一次或使用您的密码。"
+    }
   },
   "lang.fr.billing": {
     "admin": {
@@ -1348,6 +1452,9 @@
       "service_name_updated": "服务名称已更新",
       "service_billing_updated": "账单信息已更新",
       "email_must_be_verified": "您的电子邮件地址必须经过验证才能访问此页面"
+    },
+    "dashboard": {
+      "monthly_usage": "本月累计消费"
     },
     "gdpr": {
       "export": {
@@ -2312,7 +2419,29 @@
       "config": {
         "btn": "配置板块",
         "title": "板块配置",
-        "subheading": "您可以根据需要修改板块内容"
+        "subheading": "您可以根据需要修改板块内容",
+        "fields": {
+          "badge": "徽章",
+          "title": "标题",
+          "subtitle": "字幕",
+          "feature_icon": "功能图标{_number}",
+          "feature_number": "特征值{_number}",
+          "feature_title": "专题标题{_number}",
+          "feature_description": "功能描述{_number}",
+          "stat_value": "统计值{_number}",
+          "stat_label": "统计数据的措辞{_number}",
+          "testimonial_text": "证词{_number}",
+          "testimonial_author": "证词作者{_number}",
+          "testimonial_role": "作者的角色{_number}",
+          "step_title": "步骤标题{_number}",
+          "step_description": "步骤描述{_number}",
+          "step_icon": "步骤图标{_number}",
+          "primary_cta": "主要号召性用语",
+          "secondary_cta": "次要号召性用语",
+          "hero_icon": "主图标",
+          "hero_title": "主标题",
+          "hero_description": "主要说明"
+        }
       },
       "fields": {
         "url": "部分页面",
@@ -2463,7 +2592,20 @@
         "submit": "去研究",
         "available": "可用的",
         "unavailable": "不可用",
-        "no_product": "未配置主域类型产品。"
+        "no_product": "未配置主域类型产品。",
+        "subtitle": "找到理想的域名来实现您的项目。",
+        "placeholder": "votre-projet.fr",
+        "domain_placeholder": "你的项目",
+        "alternatives": "其他可用的扩展",
+        "alternatives_help": "保护您的姓名或选择更适合您的项目的扩展名。",
+        "choose": "选择",
+        "no_available": "此名称没有可用的其他扩展名。",
+        "configure": "配置您的域",
+        "configure_help": "在继续之前检查名称和扩展名。",
+        "results": "搜索结果",
+        "extensions": "发现我们的扩展",
+        "extensions_help": "选择一个扩展以立即检查其可用性。",
+        "from": "从"
       },
       "errors": {
         "invalid_tld": "该域与所选扩展名不匹配。"
@@ -2521,6 +2663,68 @@
         },
         "show": {
           "title": "扩展名：名称"
+        },
+        "tools": {
+          "tools": "扩展工具",
+          "nameservers": "默认 DNS 服务器",
+          "records": "默认 DNS 记录",
+          "defaults_help": "这些值将被复制到新命令中。 现有域保持不变。",
+          "apply_dns": "将记录应用于域创建",
+          "managed_dns_help": "初始化需要注册商的 DNS 服务器和兼容的连接。 优先级仅适用于 MX 记录。",
+          "invalid_dns": "DNS 配置无效：检查 CNAME 服务器、类型和冲突。",
+          "incompatible_dns": "选择一个兼容的连接、其 DNS 服务器和至少一条记录，并启用 DNS 管理。",
+          "missing_nameservers": "在订购或激活此扩展之前，至少配置两个 DNS 服务器。",
+          "catalog": "从注册商导入",
+          "registrar": "登记员",
+          "unsupported": "不支持的功能",
+          "load": "加载目录",
+          "worker_help": "目录由任务队列加载。 如果您的队列是异步的，则工作人员必须处于活动状态。",
+          "catalog_help": "选择扩展，然后计算销售价格。 仅导入由注册商加密的持续时间，而不推断价格或高级域名。",
+          "catalog_failed": "无法加载目录。 检查连接和日志，然后再次尝试上传。",
+          "copy": "复制配置",
+          "source": "源扩展",
+          "destinations": "收件人分机",
+          "fields": "要复制的设置",
+          "field_default_nameservers": "默认 DNS 服务器",
+          "field_default_dns_records": "默认 DNS 记录",
+          "field_apply_default_dns": "自动 DNS 初始化",
+          "field_dns_management": "DNS管理",
+          "field_whois_privacy": "WHOIS 隐私",
+          "field_server_id": "注册商登录",
+          "field_prices": "价格和配置的持续时间",
+          "filter": "过滤器扩展",
+          "select_visible": "选择可见的扩展名",
+          "select_targets": "选择至少一个要修改的收件人分机。",
+          "selected": "选定的分机",
+          "preview": "预览更改",
+          "before": "前",
+          "after": "后",
+          "confirm": "应用更改",
+          "applied": "更改已应用。",
+          "stale": "预览已过期或配置已更改。 生成新的预览。",
+          "cost": "注册商费用",
+          "selling": "售价",
+          "markup": "标记",
+          "fixed": "固定金额",
+          "exchange_required": "输入销售货币的兑换率。",
+          "invalid_price": "价格或计算规则无效。",
+          "update_existing": "更新所选现有扩展的价格",
+          "activate": "如果新扩展的配置完成，则激活它们",
+          "existing": "已配置",
+          "new": "新扩展",
+          "value": "价值",
+          "priority": "优先事项",
+          "refresh": "刷新",
+          "dns_status": "DNS初始化",
+          "retry_dns": "仅重新启动 DNS 初始化",
+          "queued": "已请求 DNS 初始化。",
+          "state_pending": "等候接听",
+          "state_loading": "加载中",
+          "state_ready": "提供目录",
+          "state_preview": "变更概览",
+          "state_applied": "已应用更改",
+          "state_failed": "失败",
+          "state_completed": "完成的"
         }
       },
       "servers": {
@@ -2581,6 +2785,20 @@
         "invalid_status": "无效状态",
         "invalid_customer": "无效的顾客",
         "status_change_failed": "无法更改服务状态：{_error}",
+        "automation": {
+          "disable_suspension": "禁用自动暂停",
+          "enable_suspension": "重新激活自动暂停",
+          "disable_expiration": "禁用自动过期",
+          "enable_expiration": "重新启用自动过期",
+          "enabled_notice": "该服务可能会被系统暂停并自动删除。",
+          "suspension_disabled_notice": "该服务不会被系统自动暂停，但其自动过期功能仍然启用。",
+          "expiration_disabled_notice": "该服务可能会被系统自动暂停，但不会自动删除。",
+          "disabled_notice": "该服务不会被系统自动暂停或删除。",
+          "disable_suspension_success": "自动暂停已被禁用。",
+          "enable_suspension_success": "自动暂停已重新激活。",
+          "disable_expiration_success": "自动过期及其通知已被禁用。",
+          "enable_expiration_success": "自动过期及其通知已重新启用。"
+        },
         "title": "服务",
         "add_days": "添加天数",
         "sub_days": "减去天数",
@@ -2686,7 +2904,8 @@
         },
         "uncancel": {
           "success": "服务已成功恢复"
-        }
+        },
+        "delete_cancel_delivery": "同时取消链接发票项目（其所有服务）的交付，以避免重新提供服务。 取消选中以保留交付。"
       },
       "cancellation_requests": {
         "title": "取消请求",
@@ -3181,6 +3400,192 @@
     "upgrade": {
       "title": "服务升级",
       "description": "服务已升级"
+    }
+  },
+  "lang.fr.mailcow": {
+    "product": {
+      "no_data": "订购时无需额外信息。"
+    },
+    "config": {
+      "server": "邮牛服务器",
+      "max_domains": "最大域数",
+      "max_mailboxes": "每个域的最大框数",
+      "max_aliases": "每个域的最大别名数",
+      "default_quota_mib": "盒子默认配额（MiB）",
+      "max_quota_mib": "盒子最大配额（MiB）",
+      "domain_quota_mib": "总域配额 (MiB)",
+      "rate_limit_value": "发送限制值",
+      "rate_limit_frame": "发送限制期限",
+      "backup_mx": "备份 MX 服务器",
+      "relay_all_recipients": "转发所有收件人",
+      "seconds": "秒数",
+      "minutes": "分钟",
+      "hours": "时间"
+    },
+    "panel": {
+      "title": "电子邮件域",
+      "permission": "管理 Mailcow 域",
+      "usage": ":max 上使用的已用域",
+      "empty": "尚未配置任何域。",
+      "mailboxes": "盒子",
+      "aliases": "别名",
+      "admin": "行政人员",
+      "password": "密码",
+      "status_active": "积极的",
+      "status_suspended": "暂停"
+    },
+    "actions": {
+      "add": "添加域名",
+      "delete": "删除",
+      "delete_confirm": "永久删除该域及其所有电子邮件数据吗？",
+      "dns": "导出 DNS",
+      "domain_admin": "邮牛管理局"
+    },
+    "messages": {
+      "domain_created": "Mailcow 域已创建。",
+      "domain_deleted": "Mailcow 域已被删除。"
+    },
+    "errors": {
+      "domain_exists": "该域已配置。",
+      "domain_limit": "已达到此服务的域限制。",
+      "config_missing": "找不到 Mailcow 产品配置。",
+      "api": "Mailcow 无法处理该请求。"
+    }
+  },
+  "lang.fr.einvoicing": {
+    "profile": {
+      "title": "账单信息",
+      "description": "请注明您是作为个人、企业还是协会进行购买。 此信息将冻结在您的下一张发票上。",
+      "type": "客户类型",
+      "individual": "特别的",
+      "business": "商业",
+      "association": "协会",
+      "legal_name": "公司名称",
+      "rna_number": "RNA数",
+      "siren": "警笛",
+      "siret": "西雷特",
+      "vat_number": "增值税号",
+      "tax_registration_number": "地方税务标识符",
+      "tax_subject_status": "协会税务情况",
+      "tax_subject_status_help": "此信息确定交易是否属于电子发票或电子报告。",
+      "tax_status_unknown": "我还不知道",
+      "tax_status_non_taxable": "协会无需缴纳增值税",
+      "tax_status_taxable_not_vat_liable": "协会须缴纳但不承担增值税",
+      "tax_status_vat_liable": "协会缴纳增值税",
+      "additional_details": "附加账单信息",
+      "additional_details_help": "显示在发票上的自由文本。 请勿注明公司名称、SIREN 或增值税号。",
+      "required": "在继续订单之前，请先填写您的账单信息。",
+      "saved": "您的帐单信息已保存。"
+    },
+    "admin": {
+      "tab": "电子发票",
+      "title": "税务概况和发票",
+      "description": "下一次开具发票时，该信息将被冻结。",
+      "identity": "纳税身份",
+      "address": "帐单地址",
+      "dashboard": {
+        "title": "电子发票",
+        "description": "跟踪电子发票、电子报告周期和可报告收款。",
+        "local_warning_title": "本地模拟模式",
+        "local_warning_description": "生成的文件不会传输到批准的平台或 DGFiP。",
+        "provider": "活跃供应商",
+        "regime": "增值税制度",
+        "timezone": "税区",
+        "activation": "激活",
+        "disabled": "残疾人",
+        "documents": "电子文件",
+        "documents_description": "由活跃提供商生成或传输的发票和贷方票据。",
+        "periods": "电子报告期",
+        "periods_description": "根据会计日历分组的交易和收款批次。",
+        "payments": "收集和报销",
+        "payments_description": "电子报告考虑到不可变的财务变动日志。",
+        "empty_documents": "目前没有电子文档。",
+        "empty_periods": "目前没有电子报告期。",
+        "empty_payments": "没有收据或退款记录。",
+        "document": "文档",
+        "provider_column": "提供商",
+        "status": "地位",
+        "error": "最后一个错误",
+        "actions": "行动",
+        "type": "种类",
+        "period": "时期",
+        "deadline": "到期日",
+        "invoice": "账单",
+        "amount": "数量",
+        "date": "日期",
+        "retry": "重新启动",
+        "download_pdf": "PDF",
+        "download_xml": "XML",
+        "download_manifest": "显现",
+        "no_error": "没有任何",
+        "settings": "配置",
+        "accounting_exports": "会计出口",
+        "accounting_exports_description": "同步到 Abby、Pennylane 和其他会计目的地。",
+        "empty_accounting_exports": "目前没有会计出口。",
+        "accounting_only": "会计同步",
+        "event": "事件",
+        "external_id": "外部标识符"
+      }
+    },
+    "status": {
+      "complete": "完整档案",
+      "incomplete": "个人资料不完整",
+      "pending": "待验证"
+    },
+    "settings": {
+      "legal_entity": "卖方的税务身份",
+      "operation_category": "运营的通常性质",
+      "goods": "货物交付",
+      "services": "服务",
+      "mixed": "商品和服务",
+      "vat_on_debits": "基于借方的应缴增值税",
+      "seller_street": "卖家之道",
+      "seller_address2": "卖家的附加地址",
+      "seller_zipcode": "卖家的邮政编码",
+      "seller_city": "卖家所在城市",
+      "seller_country": "卖家所在国家/地区",
+      "seller_country_help": "两个字母的 ISO 国家/地区代码，例如 FR。",
+      "electronic_section": "Factur-X 和电子报告",
+      "enabled": "启用新文档",
+      "provider": "活跃供应商",
+      "vat_regime": "增值税制度",
+      "timezone": "税区",
+      "activation_date": "激活日期",
+      "activation_date_help": "在此日期之前发出的文件将不会被追溯处理。",
+      "regimes": {
+        "real_normal_monthly": "实际月正常值",
+        "real_normal_quarterly": "实际季度正常",
+        "simplified": "简化饮食",
+        "franchise_base": "基本特许经营"
+      }
+    },
+    "document_statuses": {
+      "pending": "等候接听",
+      "generated": "生成",
+      "submitted": "提起",
+      "delivered": "书",
+      "accepted": "公认",
+      "rejected": "被拒绝",
+      "failed": "错误",
+      "open": "打开",
+      "closed": "关闭",
+      "waiting_payment": "等待付款",
+      "completed": "完成的",
+      "manual_review": "人工审核"
+    },
+    "report_types": {
+      "transaction": "交易",
+      "payment": "收据"
+    },
+    "payment_types": {
+      "payment": "收藏",
+      "refund": "退款"
+    },
+    "accounting_events": {
+      "invoice": "发票已开具",
+      "credit_note": "已发出",
+      "payment": "收藏",
+      "refund": "退款"
     }
   }
 }
