@@ -789,7 +789,7 @@
             "force_2fa_admin": "Erzwingen Sie eine doppelte Authentifizierung für Administratoren",
             "passkeys_enabled": "Autorisieren Sie Zugriffsschlüssel für Kunden",
             "banned_emails_help": "Durch Kommas getrennt (z. B. mailinator.com, yopmail.com, exemple@example.com)",
-            "hash_driver_help": "/!\\ Die alten Passwörter sind nicht mit dem neuen Treiber kompatibel. Sie müssen die Benutzerpasswörter zurücksetzen."
+            "hash_driver_help": "Bestehende Konten funktionieren weiterhin: Jedes Passwort wird mit dem Algorithmus geprüft, mit dem es erstellt wurde, und bei der nächsten Anmeldung automatisch konvertiert. Ein Zurücksetzen der Passwörter ist nicht erforderlich."
           },
           "success": "Die Sicherheitseinstellungen wurden erfolgreich gespeichert."
         }

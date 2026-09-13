@@ -789,7 +789,7 @@
             "force_2fa_admin": "Forceer dubbele authenticatie voor beheerders",
             "passkeys_enabled": "Autoriseer toegangssleutels voor klanten",
             "banned_emails_help": "Gescheiden door komma's (bijv. mailinator.com, yopmail.com, exemple@example.com)",
-            "hash_driver_help": "/!\\ De oude wachtwoorden zijn niet compatibel met het nieuwe stuurprogramma. U moet gebruikerswachtwoorden opnieuw instellen."
+            "hash_driver_help": "Bestaande accounts blijven werken: elk wachtwoord wordt geverifieerd met het algoritme waarmee het is aangemaakt en bij de volgende aanmelding automatisch omgezet. Wachtwoorden opnieuw instellen is niet nodig."
           },
           "success": "De beveiligingsinstellingen zijn succesvol opgeslagen."
         }

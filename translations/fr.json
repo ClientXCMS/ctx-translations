@@ -785,7 +785,7 @@
             "force_2fa_admin": "Forcer la double authentification pour les administrateurs",
             "passkeys_enabled": "Autoriser les clés d’accès pour les clients",
             "banned_emails_help": "Séparés par des virgules (exemple : mailinator.com, yopmail.com, exemple@example.com)",
-            "hash_driver_help": "/!\\ Les anciens mots de passe ne seront pas compatibles avec le nouveau driver. Vous devez réinitialiser les mots de passe des utilisateurs."
+            "hash_driver_help": "Les comptes existants restent utilisables : chaque mot de passe est vérifié avec l'algorithme qui l'a créé, puis converti automatiquement à la connexion suivante. Aucune réinitialisation n'est nécessaire."
           },
           "success": "Les paramètres de sécurité ont été enregistrés avec succès."
         }

@@ -789,7 +789,7 @@
             "force_2fa_admin": "Forçar autenticação dupla para administradores",
             "passkeys_enabled": "Autorizar chaves de acesso para clientes",
             "banned_emails_help": "Separados por vírgulas (por exemplo, mailinator.com, yopmail.com, exemple@example.com)",
-            "hash_driver_help": "/!\\ As senhas antigas não serão compatíveis com o novo driver. Você precisa redefinir as senhas de usuário."
+            "hash_driver_help": "As contas existentes continuam a funcionar: cada palavra-passe é verificada com o algoritmo que a criou e convertida automaticamente no início de sessão seguinte. Não é necessário repor as palavras-passe."
           },
           "success": "As configurações de segurança foram salvas com sucesso."
         }

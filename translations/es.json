@@ -789,7 +789,7 @@
             "force_2fa_admin": "Forzar doble autenticación para administradores",
             "passkeys_enabled": "Autorizar claves de acceso para clientes",
             "banned_emails_help": "Separados por comas (por ejemplo, mailinator.com, yopmail.com, exemple@example.com)",
-            "hash_driver_help": "/!\\ Las contraseñas antiguas no serán compatibles con el nuevo controlador. Debe restablecer las contraseñas de los usuarios."
+            "hash_driver_help": "Las cuentas existentes siguen funcionando: cada contraseña se verifica con el algoritmo que la creó y se convierte automáticamente en el siguiente inicio de sesión. No es necesario restablecer las contraseñas."
           },
           "success": "La configuración de seguridad se ha guardado correctamente."
         }

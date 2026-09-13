@@ -789,7 +789,7 @@
             "force_2fa_admin": "Force double authentication for administrators",
             "passkeys_enabled": "Authorize access keys for clients",
             "banned_emails_help": "Separated by commas (e.g. mailinator.com, yopmail.com, exemple@example.com)",
-            "hash_driver_help": "/!\\ The old passwords will not be compatible with the new driver. You need to reset user passwords."
+            "hash_driver_help": "Existing accounts keep working: each password is verified with the algorithm that created it, then converted automatically on the next login. No password reset is needed."
           },
           "success": "The security settings have been saved successfully."
         }

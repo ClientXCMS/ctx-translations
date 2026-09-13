@@ -789,7 +789,7 @@
             "force_2fa_admin": "强制管理员进行双重身份验证",
             "passkeys_enabled": "为客户端授权访问密钥",
             "banned_emails_help": "用逗号分隔（例如 mailinator.com、yopmail.com exemple@example.com）",
-            "hash_driver_help": "/！\\ 旧密码将与新驱动程序不兼容。您需要重置用户密码。"
+            "hash_driver_help": "现有账户仍可正常使用：每个密码都会使用创建它的算法进行验证，并在下次登录时自动转换。无需重置密码。"
           },
           "success": "安全设置已成功保存。"
         }
