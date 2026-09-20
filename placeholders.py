@@ -23,13 +23,23 @@ def protect(text: str) -> tuple[str, list[str]]:
 
 
 def restore(text: str, placeholders: list[str]) -> str:
+    """Puts each {_var} back where its [[[i]]] marker was.
+
+    A translator is free to add or drop whitespace around the marker
+    (Google does both depending on context), so any whitespace found next to
+    it is normalized to a single space rather than dropped: dropping it is
+    what glued the restored placeholder straight onto the surrounding word.
+    """
     if not isinstance(text, str):
         return text
     restored_text = text
     for i, p in enumerate(placeholders):
-        pattern = re.compile(rf"\s*\[\[\[{i}\]\]\]\s*")
-        restored_text = pattern.sub(p, restored_text)
-    return restored_text
+        pattern = re.compile(rf"(\s*)\[\[\[{i}\]\]\](\s*)")
+        restored_text = pattern.sub(
+            lambda m, p=p: (" " if m.group(1) else "") + p + (" " if m.group(2) else ""),
+            restored_text,
+        )
+    return re.sub(r"\s+([.,])", r"\1", restored_text)
 
 
 GLUED_PATTERN = re.compile(r"[\w:]\{_\w+\}|\{_\w+\}\w")
