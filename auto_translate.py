@@ -72,15 +72,25 @@ def reorder_and_merge(target: dict, source: dict, lang: str, engine: Translation
     return new_data
 
 
-def count_missing_characters(source: dict, target: dict) -> int:
-    """Sums the character length of every source string missing from target, recursively."""
+def count_missing_characters(source: dict, target: dict, hashes: dict, path: str = "") -> int:
+    """Sums the character length of every source string that would actually
+    get (re)translated: missing from target, or stale per the same per-key
+    hash reorder_and_merge() checks - mirrors that function's decision
+    exactly, so the estimate never disagrees with what a real run does."""
     total = 0
     for key, source_value in source.items():
+        key_path = f"{path}.{key}" if path else key
         if isinstance(source_value, dict):
             target_value = target.get(key, {})
-            total += count_missing_characters(source_value, target_value if isinstance(target_value, dict) else {})
-        elif key not in target and isinstance(source_value, str):
-            total += len(source_value)
+            total += count_missing_characters(
+                source_value, target_value if isinstance(target_value, dict) else {}, hashes, key_path
+            )
+        elif isinstance(source_value, str):
+            current_hash = _hash(source_value)
+            previous_hash = hashes.get(key_path)
+            fr_changed = previous_hash is not None and previous_hash != current_hash
+            if key not in target or fr_changed:
+                total += len(source_value)
     return total
 
 
@@ -99,10 +109,12 @@ def report_backlog_estimate() -> None:
 
     for lang in LANGUAGES:
         lang_dir = os.path.join(TRANSLATIONS_DIR, lang)
+        hashes = load_json(os.path.join(lang_dir, HASHES_FILENAME))
         for module_file in modules:
+            module = module_file[: -len(".json")]
             fr_data = load_json(os.path.join(fr_dir, module_file))
             lang_data = load_json(os.path.join(lang_dir, module_file))
-            total_characters += count_missing_characters(fr_data, lang_data)
+            total_characters += count_missing_characters(fr_data, lang_data, hashes.get(module, {}))
 
     estimated_cost = estimate_cost_usd(total_characters)
     print(
