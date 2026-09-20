@@ -46,11 +46,6 @@
     "passkey_deleted": "Clave de acceso eliminada:{_name}",
     "failed_login": "Error de conexión Dirección IP: {_ip}",
     "account_deleted": "Cuenta eliminada",
-    "new_registered": "Nuevo registro",
-    "basket_complet": "Cesta completada con{_amount}.",
-    "ticket_create": "Abriendo un nuevo ticket{_subject}",
-    "ticket_replied": "Nueva respuesta al ticket{_subject}",
-    "ticket_reopened": "Boleto de reapertura{_subject}",
-    "basket": "Completando una cesta de{_amount}"
+    "new_registered": "Nuevo registro"
   }
 }

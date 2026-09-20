@@ -118,8 +118,6 @@
     "mode_after_expiration": "Permitir cancelación después de que expire el servicio",
     "requires_ticket": "Este motivo de cancelación requiere abrir un ticket de soporte.",
     "after_expiration_only": "Esta cancelación será autorizada únicamente después de la expiración del servicio.",
-    "ticket_subject": "Solicitud de cancelación de servicio{_service}",
-    "ticket_message": "Hola,\n\nMe gustaría solicitar la cancelación del siguiente servicio:\n\nServicio:{_service}Identificador:{_identifier}Razón:{_reason}Fecha límite deseada:{_expiration}Información adicional:{_details}Gracias por procesar mi solicitud de cancelación.",
     "ticket_no_details": "Sin información adicional."
   },
   "config_option": "Opción de configuración",

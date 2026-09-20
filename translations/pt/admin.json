@@ -44,7 +44,6 @@
     "new_version_is": "A versão {_version} está disponível.",
     "current_version": "Versão atual",
     "available_version": "Versão disponível",
-    "update_to_version": "Atualizar para a v{_version}",
     "whats_new_in": "Novidades da {_version}",
     "published_on": "Publicada em {_date}",
     "added": "Adições",
@@ -81,7 +80,6 @@
     "good_morning": "Olá {_name}",
     "good_afternoon": "Boa tarde {_name}",
     "good_evening": "Boa noite {_name}",
-    "support_expiration_warning": "Seu suporte expirará em{_date}. Não hesite em renovar sua licença para manter suas extensões e também suporte técnico",
     "welcome": "Bem-vindo ao painel de administração. Atualmente são {_time}. Aqui está uma visão geral do seu sistema.",
     "assigned_tickets": "Você foi designado para os seguintes tickets: {_tickets}. Você pode vê-los no centro de ajuda.",
     "autologin_success": "Agora você está conectado como {_name}",
@@ -91,12 +89,7 @@
     "monthly_usage": "Consumo acumulado do mês",
     "notification_error": "Ocorreu um erro nas últimas 24 horas no envio de e-mails. Erro: {_message}",
     "cron_never_executed": "O Agendador de tarefas nunca parece ter sido executado. Verifique a configuração do cron job.",
-    "cron_inactive_since": "O Agendador de tarefas não responde desde{_date}. Verifique se o cron job é executado a cada minuto.",
-    "cron_task_failed": "A tarefa agendada \"{_task}\" falhou em{_date}. Erro:{_message}",
     "queue_worker_inactive": "O trabalhador da fila não respondeu por mais de 5 minutos.",
-    "queue_jobs_blocked": "{_count}tarefas estão aguardando para serem executadas há mais de 15 minutos.",
-    "queue_jobs_reserved": "{_count}tarefas foram reservadas por um trabalhador por muito tempo.",
-    "queue_jobs_failed": "{_count}tarefas na fila falharam.",
     "tooltips": {
       "users": {
         "label": "Usuários",
@@ -792,8 +785,7 @@
       "retry": "Reiniciar",
       "delete": "EXCLUIR",
       "release": "Lançamento e relançamento",
-      "make_available": "Corra o mais rápido possível",
-      "completed": "{_count}tarefas foram atualizadas."
+      "make_available": "Corra o mais rápido possível"
     }
   },
   "license": {

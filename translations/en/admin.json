@@ -81,7 +81,6 @@
     "good_morning": "Hello {_name}",
     "good_afternoon": "Good afternoon {_name}",
     "good_evening": "Good evening {_name}",
-    "support_expiration_warning": "Your support will expire on{_date}. Do not hesitate to renew your license to keep your extensions as well as technical support",
     "welcome": "Welcome to the administration dashboard. It is currently {_time}. Here is an overview of your system.",
     "assigned_tickets": "You have been assigned to the following tickets: {_tickets}. You can view them in the help center.",
     "autologin_success": "You are now logged in as {_name}",
@@ -91,12 +90,7 @@
     "monthly_usage": "Cumulative consumption of the month",
     "notification_error": "An error occurred in the last 24 hours on the sending of emails. Error: {_message}",
     "cron_never_executed": "Task Scheduler never appears to have run. Check the cron job configuration.",
-    "cron_inactive_since": "Task Scheduler has been unresponsive since{_date}. Verify that the cron job runs every minute.",
-    "cron_task_failed": "Scheduled task \"{_task}\" failed on{_date}. Error:{_message}",
     "queue_worker_inactive": "The queue worker has not responded for more than 5 minutes.",
-    "queue_jobs_blocked": "{_count}task(s) have been waiting to be executed for more than 15 minutes.",
-    "queue_jobs_reserved": "{_count}task(s) have been reserved by a worker for too long.",
-    "queue_jobs_failed": "{_count}task(s) in the queue failed.",
     "tooltips": {
       "users": {
         "label": "Users",
@@ -792,8 +786,7 @@
       "retry": "Relaunch",
       "delete": "DELETE",
       "release": "Release and Relaunch",
-      "make_available": "Run as soon as possible",
-      "completed": "{_count}task(s) have been updated."
+      "make_available": "Run as soon as possible"
     }
   },
   "license": {

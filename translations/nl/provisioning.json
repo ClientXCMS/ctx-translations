@@ -118,8 +118,6 @@
     "mode_after_expiration": "Sta annulering toe nadat de service is verlopen",
     "requires_ticket": "Voor deze annuleringsreden is het openen van een supportticket vereist.",
     "after_expiration_only": "Deze annulering is pas toegestaan ​​na het verstrijken van de dienst.",
-    "ticket_subject": "Verzoek om annulering van de dienst{_service}",
-    "ticket_message": "Hallo,\n\nIk wil graag de annulering van de volgende dienst aanvragen:\n\nDienst:{_service}Identificatie:{_identifier}Reden:{_reason}Gewenste deadline:{_expiration}Aanvullende informatie:{_details}Bedankt voor het verwerken van mijn annuleringsverzoek.",
     "ticket_no_details": "Geen aanvullende informatie."
   },
   "config_option": "Configuratie optie",

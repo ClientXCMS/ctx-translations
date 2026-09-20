@@ -118,8 +118,6 @@
     "mode_after_expiration": "Stornierung nach Ablauf des Dienstes zulassen",
     "requires_ticket": "Dieser Stornierungsgrund erfordert die Eröffnung eines Support-Tickets.",
     "after_expiration_only": "Diese Stornierung wird erst nach Ablauf des Dienstes genehmigt.",
-    "ticket_subject": "Antrag auf Kündigung des Dienstes{_service}",
-    "ticket_message": "Hallo,\n\nIch möchte die Stornierung des folgenden Dienstes beantragen:\n\nDienst:{_service}Kennung:{_identifier}Grund:{_reason}Gewünschter Termin:{_expiration}Zusätzliche Informationen:{_details}Vielen Dank für die Bearbeitung meiner Stornierungsanfrage.",
     "ticket_no_details": "Keine zusätzlichen Informationen."
   },
   "config_option": "Konfigurationsoption",

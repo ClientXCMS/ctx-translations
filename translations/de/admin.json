@@ -81,7 +81,6 @@
     "good_morning": "Hallo {_name}",
     "good_afternoon": "Guten Nachmittag {_name}",
     "good_evening": "Guten Abend {_name}",
-    "support_expiration_warning": "Ihr Support läuft am{_date}ab. Zögern Sie nicht, Ihre Lizenz zu erneuern, um Ihre Erweiterungen und den technischen Support zu behalten",
     "welcome": "Willkommen im Administrations-Dashboard. Es ist derzeit {_time}. Hier ist eine Übersicht über Ihr System.",
     "assigned_tickets": "Sie wurden den folgenden Tickets zugewiesen: {_tickets}. Sie können sie im Hilfezentrum ansehen.",
     "autologin_success": "Sie sind nun als {_name} angemeldet.",
@@ -91,12 +90,7 @@
     "monthly_usage": "Kumulierter Verbrauch des Monats",
     "notification_error": "In den letzten 24 Stunden ist beim Senden von E-Mails ein Fehler aufgetreten. Fehler: {_message}",
     "cron_never_executed": "Der Taskplaner scheint nie ausgeführt worden zu sein. Überprüfen Sie die Cron-Job-Konfiguration.",
-    "cron_inactive_since": "Der Taskplaner reagiert seit{_date}nicht mehr. Stellen Sie sicher, dass der Cron-Job jede Minute ausgeführt wird.",
-    "cron_task_failed": "Die geplante Aufgabe „{_task}“ ist am{_date}fehlgeschlagen. Fehler:{_message}",
     "queue_worker_inactive": "Der Warteschlangenarbeiter hat seit mehr als 5 Minuten nicht geantwortet.",
-    "queue_jobs_blocked": "{_count}Aufgabe(n) warten seit mehr als 15 Minuten auf ihre Ausführung.",
-    "queue_jobs_reserved": "{_count}Aufgabe(n) wurden zu lange von einem Mitarbeiter reserviert.",
-    "queue_jobs_failed": "{_count}Aufgabe(n) in der Warteschlange ist fehlgeschlagen.",
     "tooltips": {
       "users": {
         "label": "Benutzer",
@@ -792,8 +786,7 @@
       "retry": "Neustart",
       "delete": "LÖSCHEN",
       "release": "Veröffentlichung und Relaunch",
-      "make_available": "Laufen Sie so schnell wie möglich",
-      "completed": "{_count}Aufgabe(n) wurden aktualisiert."
+      "make_available": "Laufen Sie so schnell wie möglich"
     }
   },
   "license": {

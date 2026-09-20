@@ -118,8 +118,6 @@
     "mode_after_expiration": "Consenti la cancellazione dopo la scadenza del servizio",
     "requires_ticket": "Questo motivo di annullamento richiede l'apertura di un ticket di supporto.",
     "after_expiration_only": "Tale cancellazione sarà autorizzata solo dopo la scadenza del servizio.",
-    "ticket_subject": "Richiesta di cancellazione del servizio{_service}",
-    "ticket_message": "Ciao,\n\nDesidero richiedere la cancellazione del seguente servizio:\n\nServizio:{_service}Identificatore:{_identifier}Motivo:{_reason}Scadenza desiderata:{_expiration}Ulteriori informazioni:{_details}Grazie per aver elaborato la mia richiesta di cancellazione.",
     "ticket_no_details": "Nessuna informazione aggiuntiva."
   },
   "config_option": "Opzione di configurazione",

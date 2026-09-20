@@ -118,8 +118,6 @@
     "mode_after_expiration": "Permitir cancelamento após a expiração do serviço",
     "requires_ticket": "Este motivo de cancelamento requer a abertura de um ticket de suporte.",
     "after_expiration_only": "Este cancelamento será autorizado somente após o término do serviço.",
-    "ticket_subject": "Solicitação de cancelamento de serviço{_service}",
-    "ticket_message": "Olá,\n\nGostaria de solicitar o cancelamento do seguinte serviço:\n\nServiço:{_service}Identificador:{_identifier}Motivo:{_reason}Prazo desejado:{_expiration}Informações adicionais:{_details}Obrigado por processar meu pedido de cancelamento.",
     "ticket_no_details": "Nenhuma informação adicional."
   },
   "config_option": "Opção de configuração",
@@ -434,7 +432,6 @@
         "not_actionable": "Este pedido já foi tratado."
       },
       "show": {
-        "title": "Pedido n.º{_id}",
         "subheading": "Detalhes completos do pedido de cancelamento do cliente."
       },
       "no_actions": "Nenhuma ação é possível para este pedido."

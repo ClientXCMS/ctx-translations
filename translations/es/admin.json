@@ -44,7 +44,6 @@
     "new_version_is": "La versión {_version} está disponible.",
     "current_version": "Versión actual",
     "available_version": "Versión disponible",
-    "update_to_version": "Actualizar a la v{_version}",
     "whats_new_in": "Novedades de la {_version}",
     "published_on": "Publicado el {_date}",
     "added": "Adiciones",
@@ -81,7 +80,6 @@
     "good_morning": "Hola {_name}",
     "good_afternoon": "Buenas tardes {_name}",
     "good_evening": "Buenas noches {_name}",
-    "support_expiration_warning": "Su soporte expirará el{_date}. No dudes en renovar tu licencia para conservar tus extensiones y soporte técnico.",
     "welcome": "Bienvenido al panel de administración. Actualmente son {_time}. Aquí tienes un resumen de tu sistema.",
     "assigned_tickets": "Se le ha asignado los siguientes tickets: {_tickets}. Puede verlos en el centro de ayuda.",
     "autologin_success": "Ahora ha iniciado sesión como {_name}",
@@ -91,12 +89,7 @@
     "monthly_usage": "Consumo acumulado del mes",
     "notification_error": "Se ha producido un error en las últimas 24 horas en el envío de correos electrónicos. Error: {_message}",
     "cron_never_executed": "El Programador de tareas nunca parece haberse ejecutado. Verifique la configuración del trabajo cron.",
-    "cron_inactive_since": "El Programador de tareas no ha respondido desde{_date}. Verifique que el trabajo cron se ejecute cada minuto.",
-    "cron_task_failed": "La tarea programada \"{_task}\" falló el{_date}. Error:{_message}",
     "queue_worker_inactive": "El trabajador de la cola no ha respondido durante más de 5 minutos.",
-    "queue_jobs_blocked": "{_count}tareas han estado esperando ser ejecutadas durante más de 15 minutos.",
-    "queue_jobs_reserved": "Un trabajador ha reservado{_count}tareas durante demasiado tiempo.",
-    "queue_jobs_failed": "{_count}tareas en la cola fallaron.",
     "tooltips": {
       "users": {
         "label": "Usuarios",
@@ -792,8 +785,7 @@
       "retry": "Relanzar",
       "delete": "BORRAR",
       "release": "Lanzamiento y relanzamiento",
-      "make_available": "Corre lo antes posible",
-      "completed": "{_count}tarea(s) han sido actualizadas."
+      "make_available": "Corre lo antes posible"
     }
   },
   "license": {

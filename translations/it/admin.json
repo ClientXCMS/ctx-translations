@@ -44,7 +44,6 @@
     "new_version_is": "La versione {_version} è disponibile.",
     "current_version": "Versione attuale",
     "available_version": "Versione disponibile",
-    "update_to_version": "Aggiornare alla v{_version}",
     "whats_new_in": "Novità della {_version}",
     "published_on": "Pubblicata il {_date}",
     "added": "Aggiunte",
@@ -81,7 +80,6 @@
     "good_morning": "Ciao {_name}",
     "good_afternoon": "Buon pomeriggio {_name}",
     "good_evening": "Buonasera {_name}",
-    "support_expiration_warning": "Il tuo supporto scadrà il{_date}. Non esitate a rinnovare la licenza per mantenere le vostre estensioni e il supporto tecnico",
     "welcome": "Benvenuto nella dashboard di amministrazione. È attualmente {_time}. Ecco una panoramica del tuo sistema.",
     "assigned_tickets": "Sei stato assegnato ai seguenti ticket: {_tickets}. Puoi vederli nel centro assistenza.",
     "autologin_success": "Ora hai effettuato l'accesso come {_name}",
@@ -91,12 +89,7 @@
     "monthly_usage": "Consumo cumulativo del mese",
     "notification_error": "Si è verificato un errore nelle ultime 24 ore nell'invio delle email. Errore: {_message}",
     "cron_never_executed": "L'Utilità di pianificazione non sembra mai essere stata eseguita. Controlla la configurazione del lavoro cron.",
-    "cron_inactive_since": "L'Utilità di pianificazione non risponde dal{_date}. Verifica che il processo cron venga eseguito ogni minuto.",
-    "cron_task_failed": "L'attività pianificata \"{_task}\" non è riuscita il{_date}. Errore:{_message}",
     "queue_worker_inactive": "L'operatore in coda non risponde da più di 5 minuti.",
-    "queue_jobs_blocked": "{_count}attività sono in attesa di essere eseguite da più di 15 minuti.",
-    "queue_jobs_reserved": "{_count}attività sono state prenotate da un lavoratore per troppo tempo.",
-    "queue_jobs_failed": "{_count}attività in coda non sono riuscite.",
     "tooltips": {
       "users": {
         "label": "Gli utenti",
@@ -792,8 +785,7 @@
       "retry": "Rilancio",
       "delete": "ELIMINARE",
       "release": "Rilascio e rilancio",
-      "make_available": "Corri il prima possibile",
-      "completed": "{_count}attività sono state aggiornate."
+      "make_available": "Corri il prima possibile"
     }
   },
   "license": {

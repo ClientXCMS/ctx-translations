@@ -46,11 +46,6 @@
     "passkey_deleted": "Deleted access key:{_name}",
     "failed_login": "Connection failed IP address: {_ip}",
     "account_deleted": "Account deleted",
-    "new_registered": "New registration",
-    "basket_complet": "Basket completed with{_amount}.",
-    "ticket_create": "Opening a new ticket{_subject}",
-    "ticket_replied": "New response to ticket{_subject}",
-    "ticket_reopened": "Reopening ticket{_subject}",
-    "basket": "Completing a basket of{_amount}"
+    "new_registered": "New registration"
   }
 }
