@@ -1,11 +1,15 @@
-"""Translates every new fr key into the other locales, one module file at a time.
+"""Translates every new or changed fr key into the other locales, one module file at a time.
 
 fr is the only reference never machine-translated. Every other locale,
 including en, keeps a key it already has (whether that came from a
 ClientXCMS pull request or a previous run here) and only gets a key
-machine-translated when fr has it and the locale doesn't yet.
+machine-translated when fr has it and the locale doesn't yet, or when fr's
+own text changed since the last successful translation of that exact key
+(tracked per key via HASHES_FILENAME, not per module: editing one string in
+fr never forces a retranslation of its whole module).
 """
 
+import hashlib
 import json
 import os
 import sys
@@ -18,11 +22,17 @@ TRANSLATIONS_DIR = "translations"
 FR = "fr"
 LANGUAGES = ["en", "de", "es", "it", "nl", "pt"]
 BUDGET_FILE = ".translation_budget.json"
+HASHES_FILENAME = ".translation_hashes"
 DAILY_CHARACTER_BUDGET = int(os.environ.get("TRANSLATION_DAILY_CHARACTER_BUDGET", "200000"))
 
 
-def reorder_and_merge(target: dict, source: dict, lang: str, engine: TranslationEngine) -> dict:
-    """Rebuilds target with source's key order; a source key missing from target is translated.
+def _hash(value: str) -> str:
+    return hashlib.sha256(value.encode("utf-8")).hexdigest()
+
+
+def reorder_and_merge(target: dict, source: dict, lang: str, engine: TranslationEngine, hashes: dict, path: str = "") -> dict:
+    """Rebuilds target with source's key order; a source key missing from target,
+    or whose fr text changed since the last translation, is (re)translated.
 
     A key present in target but not in source is dropped, so a target module
     stays a strict mirror of fr's own current keys.
@@ -30,19 +40,34 @@ def reorder_and_merge(target: dict, source: dict, lang: str, engine: Translation
     new_data = {}
 
     for key, source_value in source.items():
+        key_path = f"{path}.{key}" if path else key
+
         if isinstance(source_value, dict):
             target_value = target.get(key, {})
             if not isinstance(target_value, dict):
                 target_value = {}
-            new_data[key] = reorder_and_merge(target_value, source_value, lang, engine)
-        elif key in target:
+            new_data[key] = reorder_and_merge(target_value, source_value, lang, engine, hashes, key_path)
+            continue
+
+        current_hash = _hash(source_value) if isinstance(source_value, str) else None
+        previous_hash = hashes.get(key_path)
+        fr_changed = previous_hash is not None and previous_hash != current_hash
+
+        if key in target and not fr_changed:
             new_data[key] = target[key]
-        else:
-            translated = engine.translate(source_value, lang)
-            if translated is None:
-                continue
-            new_data[key] = translated
-            print(f"  [{lang}] {key} -> {translated}")
+            if current_hash:
+                hashes[key_path] = current_hash
+            continue
+
+        translated = engine.translate(source_value, lang)
+        if translated is None:
+            if key in target:
+                new_data[key] = target[key]
+            continue
+        new_data[key] = translated
+        if current_hash:
+            hashes[key_path] = current_hash
+        print(f"  [{lang}] {key} -> {translated}")
 
     return new_data
 
@@ -110,19 +135,31 @@ def translate_modules(engine: TranslationEngine) -> None:
         os.makedirs(lang_dir, exist_ok=True)
         print(f"Processing {lang}...")
 
+        hashes_path = os.path.join(lang_dir, HASHES_FILENAME)
+        hashes = load_json(hashes_path)
+
         for module_file in modules:
+            module = module_file[: -len(".json")]
             fr_data = load_json(os.path.join(fr_dir, module_file))
             lang_data = load_json(os.path.join(lang_dir, module_file))
-            new_data = reorder_and_merge(lang_data, fr_data, lang, engine)
+            module_hashes = hashes.setdefault(module, {})
+            new_data = reorder_and_merge(lang_data, fr_data, lang, engine, module_hashes)
 
             with open(os.path.join(lang_dir, module_file), "w", encoding="utf-8") as f:
                 json.dump(new_data, f, indent=2, ensure_ascii=False)
 
         # A module removed from fr is removed from every target locale too.
         for existing in os.listdir(lang_dir):
+            if existing in (HASHES_FILENAME,):
+                continue
+            module = existing[: -len(".json")] if existing.endswith(".json") else existing
             if existing not in modules:
                 os.remove(os.path.join(lang_dir, existing))
+                hashes.pop(module, None)
                 print(f"  [{lang}] removed stale module: {existing}")
+
+        with open(hashes_path, "w", encoding="utf-8") as f:
+            json.dump(hashes, f, indent=2, sort_keys=True)
 
 
 def main() -> None:

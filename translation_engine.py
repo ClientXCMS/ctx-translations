@@ -1,11 +1,15 @@
-"""Translation engines: Cloudflare Workers AI first, Google Translate as a fallback.
+"""Translation engines, tried in order: Cloudflare, then Azure, then DeepL, then Google.
 
-A dedicated translation model (m2m100) rather than a general one: it only
-translates, so it carries no prompt-injection surface even though the
-project's own strings are not attacker-controlled. Falls back to Google
-Translate when Cloudflare credentials are absent, or once Cloudflare refuses
-a request for quota/plan reasons - checked once per run, not retried
-per-call, so a run degrades to a single engine instead of flapping.
+Cloudflare uses a dedicated translation model (m2m100) rather than a general
+one: it only translates, so it carries no prompt-injection surface even
+though the project's own strings are not attacker-controlled. Azure sits
+next with a genuinely recurring monthly free tier (2M characters), ahead of
+DeepL, whose own free "Developer" plan is a one-time credit rather than a
+monthly allowance (verified live on deepl.com, contradicting DeepL's own
+older docs) - DeepL is kept configured but deliberately never enabled in CI
+for that reason, left available for a future manual decision. Each engine is
+checked once per run, not retried per-call: a run degrades down the chain
+instead of flapping between engines call by call.
 """
 
 import os
@@ -19,17 +23,69 @@ from translation_budget import TranslationBudget
 CLOUDFLARE_MODEL = "@cf/meta/m2m100-1.2b"
 CLOUDFLARE_ENDPOINT = "https://api.cloudflare.com/client/v4/accounts/{account}/ai/run/{model}"
 CLOUDFLARE_TIMEOUT = 15
+AZURE_ENDPOINT = "https://api.cognitive.microsofttranslator.com/translate"
+AZURE_TIMEOUT = 15
+DEEPL_TIMEOUT = 15
+ENGINE_CHAIN = ["cloudflare", "azure", "deepl", "google"]
 
 
-class CloudflareUnavailable(Exception):
-    """Raised for anything that should make the run fall back to Google Translate."""
+class EngineUnavailable(Exception):
+    """Raised for anything that should make the run fall back to the next engine in the chain."""
 
 
 def cloudflare_credentials_present() -> bool:
     return bool(os.environ.get("CLOUDFLARE_ACCOUNT_ID")) and bool(os.environ.get("CLOUDFLARE_AI_TOKEN"))
 
 
+def azure_credentials_present() -> bool:
+    return bool(os.environ.get("AZURE_TRANSLATOR_KEY"))
+
+
+def deepl_credentials_present() -> bool:
+    return bool(os.environ.get("DEEPL_API_KEY"))
+
+
+DEEPL_LIFETIME_RESERVE = int(os.environ.get("DEEPL_LIFETIME_RESERVE", "50000"))
+
+
+def deepl_quota_available() -> bool:
+    """Best-effort: an inconclusive check (network error, unexpected shape)
+    never blocks DeepL by itself - deepl_translate()'s own 456 handling is
+    the real safety net, this just avoids burning an obviously exhausted key
+    on a doomed call.
+
+    Unlike Cloudflare/Azure's daily or monthly caps, DeepL's free plan is a
+    lifetime credit that never refills: stopping DEEPL_LIFETIME_RESERVE
+    characters short of it, rather than exactly at it, leaves a safety
+    margin instead of a single run being the one that empties it to zero.
+    """
+    if not deepl_credentials_present():
+        return False
+    key = os.environ["DEEPL_API_KEY"]
+    host = "api-free.deepl.com" if key.endswith(":fx") else "api.deepl.com"
+    try:
+        response = requests.get(
+            f"https://{host}/v2/usage",
+            headers={"Authorization": f"DeepL-Auth-Key {key}"},
+            timeout=DEEPL_TIMEOUT,
+        )
+        response.raise_for_status()
+        usage = response.json()
+        remaining = usage["character_limit"] - usage["character_count"]
+        if remaining < DEEPL_LIFETIME_RESERVE:
+            print(f"DeepL lifetime credit down to {remaining} characters (reserve: {DEEPL_LIFETIME_RESERVE}), skipping it for this run.")
+            return False
+        return True
+    except Exception:
+        return True
+
+
 def cloudflare_translate(text: str, target_lang: str) -> str:
+    """Any non-2xx status, or a 2xx with success:false, downgrades the run to
+    the next engine - Cloudflare's docs and community reports don't pin down
+    which HTTP status the free daily neuron cap (error 4006) actually comes
+    back as, so a fixed status-code allowlist risks missing it and silently
+    failing every remaining key of the run instead of degrading once."""
     url = CLOUDFLARE_ENDPOINT.format(account=os.environ["CLOUDFLARE_ACCOUNT_ID"], model=CLOUDFLARE_MODEL)
     response = requests.post(
         url,
@@ -37,66 +93,143 @@ def cloudflare_translate(text: str, target_lang: str) -> str:
         json={"text": text, "source_lang": "fr", "target_lang": target_lang},
         timeout=CLOUDFLARE_TIMEOUT,
     )
-    if response.status_code == 429:
-        raise CloudflareUnavailable(f"rate limited (HTTP 429): {response.text[:200]}")
-    if response.status_code in (401, 402, 403):
-        raise CloudflareUnavailable(f"plan/auth limit (HTTP {response.status_code}): {response.text[:200]}")
-    response.raise_for_status()
+    if not response.ok:
+        raise EngineUnavailable(f"Cloudflare error (HTTP {response.status_code}): {response.text[:200]}")
     payload = response.json()
     if not payload.get("success", False):
-        raise CloudflareUnavailable(f"engine refused the request: {payload.get('errors')}")
+        raise EngineUnavailable(f"Cloudflare refused the request: {payload.get('errors')}")
     translated = payload.get("result", {}).get("translated_text", "")
     if not translated:
         raise RuntimeError("Cloudflare returned an empty translation")
     return translated
 
 
+def azure_translate(text: str, target_lang: str) -> str:
+    headers = {
+        "Ocp-Apim-Subscription-Key": os.environ["AZURE_TRANSLATOR_KEY"],
+        "Content-Type": "application/json; charset=UTF-8",
+    }
+    region = os.environ.get("AZURE_TRANSLATOR_REGION")
+    if region:
+        headers["Ocp-Apim-Subscription-Region"] = region
+
+    response = requests.post(
+        AZURE_ENDPOINT,
+        params={"api-version": "3.0", "from": "fr", "to": target_lang},
+        headers=headers,
+        json=[{"Text": text}],
+        timeout=AZURE_TIMEOUT,
+    )
+    if response.status_code == 429:
+        raise EngineUnavailable(f"Azure rate limited (HTTP 429): {response.text[:200]}")
+    if response.status_code in (401, 403):
+        raise EngineUnavailable(f"Azure plan/auth limit (HTTP {response.status_code}): {response.text[:200]}")
+    response.raise_for_status()
+    payload = response.json()
+    translated = payload[0].get("translations", [{}])[0].get("text", "")
+    if not translated:
+        raise RuntimeError("Azure returned an empty translation")
+    return translated
+
+
+def deepl_translate(text: str, target_lang: str) -> str:
+    key = os.environ["DEEPL_API_KEY"]
+    host = "api-free.deepl.com" if key.endswith(":fx") else "api.deepl.com"
+    response = requests.post(
+        f"https://{host}/v2/translate",
+        headers={"Authorization": f"DeepL-Auth-Key {key}"},
+        json={"text": [text], "source_lang": "FR", "target_lang": target_lang.upper()},
+        timeout=DEEPL_TIMEOUT,
+    )
+    if response.status_code == 429:
+        raise EngineUnavailable(f"DeepL rate limited (HTTP 429): {response.text[:200]}")
+    if response.status_code in (403, 456):
+        raise EngineUnavailable(f"DeepL quota/auth limit (HTTP {response.status_code}): {response.text[:200]}")
+    response.raise_for_status()
+    translations = response.json().get("translations", [])
+    if not translations or not translations[0].get("text"):
+        raise RuntimeError("DeepL returned an empty translation")
+    return translations[0]["text"]
+
+
 def google_translate(text: str, target_lang: str) -> str:
     return ts.translate_text(text, from_language="fr", to_language=target_lang, translator="google")
 
 
+ENGINE_CREDENTIALS = {
+    "cloudflare": cloudflare_credentials_present,
+    "azure": azure_credentials_present,
+    "deepl": deepl_quota_available,
+}
+ENGINE_TRANSLATE = {
+    "cloudflare": cloudflare_translate,
+    "azure": azure_translate,
+    "deepl": deepl_translate,
+    "google": google_translate,
+}
+
+
+DEEPL_RECHECK_EVERY_CHARACTERS = 5000
+
+
 class TranslationEngine:
-    """Picks an engine once, translates through it, verifies placeholders survived."""
+    """Walks the engine chain once per run: the first configured engine keeps
+    serving calls until it fails, then the run permanently steps down to the
+    next one in ENGINE_CHAIN, never back up - so a run degrades once instead
+    of flapping between engines call by call.
+
+    DeepL is the one exception to "checked once": its lifetime credit never
+    refills, so translate() re-checks deepl_quota_available() every
+    DEEPL_RECHECK_EVERY_CHARACTERS sent through it, instead of trusting the
+    single check made at engine selection for the rest of a run that could
+    otherwise burn straight through the safety reserve before the next run
+    gets a chance to re-evaluate it.
+    """
 
     def __init__(self, budget: TranslationBudget):
         self.budget = budget
-        self.engine = None
+        self.engine_index = self._first_available_index()
+        self._deepl_characters_since_recheck = 0
 
-    def _pick_engine(self) -> str:
-        if cloudflare_credentials_present():
-            return "cloudflare"
-        print("Cloudflare credentials not configured, using Google Translate for this run.")
-        return "google"
+    def _first_available_index(self) -> int:
+        for i, name in enumerate(ENGINE_CHAIN):
+            check = ENGINE_CREDENTIALS.get(name)
+            if check is None or check():
+                return i
+        return len(ENGINE_CHAIN) - 1
 
     def translate(self, text: str, target_lang: str) -> str | None:
         if not text or not isinstance(text, str) or text.strip() == "":
             return text
 
-        if self.engine is None:
-            self.engine = self._pick_engine()
-
         if not self.budget.allows(len(text)):
             return None
+
+        if ENGINE_CHAIN[self.engine_index] == "deepl":
+            self._deepl_characters_since_recheck += len(text)
+            if self._deepl_characters_since_recheck >= DEEPL_RECHECK_EVERY_CHARACTERS:
+                self._deepl_characters_since_recheck = 0
+                if not deepl_quota_available():
+                    print("DeepL lifetime credit dropped below the reserve mid-run, switching to the next engine.")
+                    self.engine_index += 1
 
         protected_text, tokens = placeholders.protect(text)
         translated = None
 
-        if self.engine == "cloudflare":
+        while translated is None and self.engine_index < len(ENGINE_CHAIN):
+            engine_name = ENGINE_CHAIN[self.engine_index]
             try:
-                translated = cloudflare_translate(protected_text, target_lang)
-            except CloudflareUnavailable as e:
-                print(f"Cloudflare unavailable ({e}), switching to Google Translate for the rest of this run.")
-                self.engine = "google"
+                translated = ENGINE_TRANSLATE[engine_name](protected_text, target_lang)
+            except EngineUnavailable as e:
+                next_name = ENGINE_CHAIN[self.engine_index + 1] if self.engine_index + 1 < len(ENGINE_CHAIN) else None
+                print(f"{e}, switching to {next_name or 'nothing left'} for the rest of this run.")
+                self.engine_index += 1
             except Exception as e:
-                print(f"Cloudflare error ({e}), switching to Google Translate for the rest of this run.")
-                self.engine = "google"
+                print(f"  {engine_name} error translating to {target_lang}: {e}")
+                return None
 
         if translated is None:
-            try:
-                translated = google_translate(protected_text, target_lang)
-            except Exception as e:
-                print(f"  Error translating to {target_lang}: {e}")
-                return None
+            return None
 
         restored = placeholders.restore(translated, tokens)
         if not placeholders.survived_intact(text, restored):
