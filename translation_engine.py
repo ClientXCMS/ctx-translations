@@ -167,15 +167,27 @@ ENGINE_TRANSLATE = {
 }
 
 
+DEEPL_RECHECK_EVERY_CHARACTERS = 5000
+
+
 class TranslationEngine:
     """Walks the engine chain once per run: the first configured engine keeps
     serving calls until it fails, then the run permanently steps down to the
     next one in ENGINE_CHAIN, never back up - so a run degrades once instead
-    of flapping between engines call by call."""
+    of flapping between engines call by call.
+
+    DeepL is the one exception to "checked once": its lifetime credit never
+    refills, so translate() re-checks deepl_quota_available() every
+    DEEPL_RECHECK_EVERY_CHARACTERS sent through it, instead of trusting the
+    single check made at engine selection for the rest of a run that could
+    otherwise burn straight through the safety reserve before the next run
+    gets a chance to re-evaluate it.
+    """
 
     def __init__(self, budget: TranslationBudget):
         self.budget = budget
         self.engine_index = self._first_available_index()
+        self._deepl_characters_since_recheck = 0
 
     def _first_available_index(self) -> int:
         for i, name in enumerate(ENGINE_CHAIN):
@@ -190,6 +202,14 @@ class TranslationEngine:
 
         if not self.budget.allows(len(text)):
             return None
+
+        if ENGINE_CHAIN[self.engine_index] == "deepl":
+            self._deepl_characters_since_recheck += len(text)
+            if self._deepl_characters_since_recheck >= DEEPL_RECHECK_EVERY_CHARACTERS:
+                self._deepl_characters_since_recheck = 0
+                if not deepl_quota_available():
+                    print("DeepL lifetime credit dropped below the reserve mid-run, switching to the next engine.")
+                    self.engine_index += 1
 
         protected_text, tokens = placeholders.protect(text)
         translated = None
