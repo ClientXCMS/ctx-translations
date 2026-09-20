@@ -133,7 +133,7 @@
     },
     "renewals": {
       "test_auto_translation": "Questa è una chiave di prova per verificare la traduzione automatica",
-      "test_auto_translation_fresh": "Nuova modifica per verificare che DeepL venga utilizzato correttamente, ora che FR è l’unica fonte attendibile",
+      "test_auto_translation_fresh": "Un'altra modifica per verificare che Cloudflare sia ben utilizzato ora, e che la stima del backlog sia corretta",
       "index": "Rinnovi dei servizi",
       "title": "Gestione dei rinnovi",
       "period": "Periodo",

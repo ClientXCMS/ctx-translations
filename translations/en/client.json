@@ -133,7 +133,7 @@
     },
     "renewals": {
       "test_auto_translation": "This is a second test key to verify that DeepL works properly",
-      "test_auto_translation_fresh": "New change to verify that DeepL is being used correctly, now that FR is the sole source of truth",
+      "test_auto_translation_fresh": "Another change to verify that Cloudflare is well used now, and that the backlog estimate is correct",
       "index": "Service Renewals",
       "title": "Renewal Management",
       "period": "Period",
