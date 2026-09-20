@@ -1,8 +1,9 @@
-"""Translates every new fr key into the machine-translated locales, one module file at a time.
+"""Translates every new fr key into the other locales, one module file at a time.
 
-fr and en are reviewed reference locales and never touched here. A key
-already present in a target locale is kept as-is, never re-translated - only
-what fr has and the target doesn't gets machine-translated.
+fr is the only reference never machine-translated. Every other locale,
+including en, keeps a key it already has (whether that came from a
+ClientXCMS pull request or a previous run here) and only gets a key
+machine-translated when fr has it and the locale doesn't yet.
 """
 
 import json
@@ -15,7 +16,7 @@ from translation_engine import TranslationEngine
 
 TRANSLATIONS_DIR = "translations"
 FR = "fr"
-LANGUAGES = ["de", "es", "it", "nl", "pt"]
+LANGUAGES = ["en", "de", "es", "it", "nl", "pt"]
 BUDGET_FILE = ".translation_budget.json"
 DAILY_CHARACTER_BUDGET = int(os.environ.get("TRANSLATION_DAILY_CHARACTER_BUDGET", "200000"))
 
@@ -134,8 +135,7 @@ def main() -> None:
     translate_modules(engine)
     budget.save()
 
-    en_present = os.path.isdir(os.path.join(TRANSLATIONS_DIR, "en"))
-    legacy_format.rebuild_all([FR, *LANGUAGES, *(["en"] if en_present else [])])
+    legacy_format.rebuild_all([FR, *LANGUAGES])
 
     print("Done.")
 
