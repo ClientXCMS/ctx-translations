@@ -1220,7 +1220,7 @@
       },
       "renewals": {
         "test_auto_translation": "Dit is een testsleutel om de automatische vertaling te controleren",
-        "test_auto_translation_fresh": "Dit is een volkomen nieuwe sleutel die nog nooit eerder is vertaald",
+        "test_auto_translation_fresh": "Deze zin is gewijzigd; we controleren de hervertaling en het logboek van de gekozen engine",
         "index": "Verlenging van de dienst",
         "title": "Beheer van vernieuwing",
         "period": "Periode",

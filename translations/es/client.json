@@ -133,7 +133,7 @@
     },
     "renewals": {
       "test_auto_translation": "Esta es una clave de prueba para comprobar la traducción automática.",
-      "test_auto_translation_fresh": "Esta es una clave totalmente nueva que nunca se había traducido antes",
+      "test_auto_translation_fresh": "Esta frase ha cambiado; estamos revisando la retraducción y el registro del motor elegido.",
       "index": "Renovaciones de servicio",
       "title": "Gestión de Renovaciones",
       "period": "Periodo",
