@@ -81,6 +81,11 @@ def deepl_quota_available() -> bool:
 
 
 def cloudflare_translate(text: str, target_lang: str) -> str:
+    """Any non-2xx status, or a 2xx with success:false, downgrades the run to
+    the next engine - Cloudflare's docs and community reports don't pin down
+    which HTTP status the free daily neuron cap (error 4006) actually comes
+    back as, so a fixed status-code allowlist risks missing it and silently
+    failing every remaining key of the run instead of degrading once."""
     url = CLOUDFLARE_ENDPOINT.format(account=os.environ["CLOUDFLARE_ACCOUNT_ID"], model=CLOUDFLARE_MODEL)
     response = requests.post(
         url,
@@ -88,11 +93,8 @@ def cloudflare_translate(text: str, target_lang: str) -> str:
         json={"text": text, "source_lang": "fr", "target_lang": target_lang},
         timeout=CLOUDFLARE_TIMEOUT,
     )
-    if response.status_code == 429:
-        raise EngineUnavailable(f"Cloudflare rate limited (HTTP 429): {response.text[:200]}")
-    if response.status_code in (401, 402, 403):
-        raise EngineUnavailable(f"Cloudflare plan/auth limit (HTTP {response.status_code}): {response.text[:200]}")
-    response.raise_for_status()
+    if not response.ok:
+        raise EngineUnavailable(f"Cloudflare error (HTTP {response.status_code}): {response.text[:200]}")
     payload = response.json()
     if not payload.get("success", False):
         raise EngineUnavailable(f"Cloudflare refused the request: {payload.get('errors')}")
