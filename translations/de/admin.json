@@ -429,7 +429,6 @@
     "reason": "Grund, es zu haben",
     "amount_exceeds_remaining": "Der Betrag der Gutschrift darf den Restbetrag der Rechnung nicht überschreiten ({_remaining})",
     "subheading": "Hier ist die Liste aller Assets des Systems",
-    "fund_reason": "Gutschrift ausgestellt für eine Fondszuführung an den Kunden:{_number}",
     "created_success": "Die Gutschrift wurde erfolgreich ausgestellt",
     "amount_ht": "Betrag ohne Steuern",
     "original_invoice": "Originalrechnung",

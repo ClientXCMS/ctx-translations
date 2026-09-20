@@ -429,7 +429,6 @@
     "reason": "Reason to have it",
     "amount_exceeds_remaining": "The amount of the credit cannot exceed the remaining amount of the invoice ({_remaining})",
     "subheading": "Here is the list of all system assets",
-    "fund_reason": "Credit note issued for a fund addition to the customer:{_number}",
     "created_success": "The credit note has been successfully issued",
     "amount_ht": "Amount excluding tax",
     "original_invoice": "Original invoice",

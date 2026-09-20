@@ -428,7 +428,6 @@
     "reason": "Reden om het te hebben",
     "amount_exceeds_remaining": "Het bedrag van het tegoed kan niet hoger zijn dan het resterende bedrag van de factuur ({_remaining})",
     "subheading": "Hier is de lijst met alle systeemactiva",
-    "fund_reason": "Creditnota uitgegeven voor een fondstoevoeging aan de klant:{_number}",
     "created_success": "De creditnota is succesvol uitgegeven",
     "amount_ht": "Bedrag exclusief belasting",
     "original_invoice": "Originele factuur",

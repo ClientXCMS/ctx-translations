@@ -42,8 +42,6 @@
     "two_factor_enabled": "Zwei-Faktor-Authentifizierung aktiviert",
     "two_factor_disabled": "Zwei-Faktor-Authentifizierung deaktiviert",
     "two_factor_recovery_codes_generated": "Generierte Wiederherstellungscodes für die Zwei-Faktor-Authentifizierung",
-    "passkey_registered": "Zugriffsschlüssel hinzugefügt:{_name}",
-    "passkey_deleted": "Gelöschter Zugriffsschlüssel:{_name}",
     "failed_login": "Verbindungsfehler IP-Adresse: {_ip}",
     "account_deleted": "Konto gelöscht",
     "new_registered": "Neuanmeldung"

@@ -32,7 +32,7 @@ def restore(text: str, placeholders: list[str]) -> str:
     return restored_text
 
 
-GLUED_PATTERN = re.compile(r"\w\{_\w+\}|\{_\w+\}\w")
+GLUED_PATTERN = re.compile(r"[\w:]\{_\w+\}|\{_\w+\}\w")
 
 
 def survived_intact(original: str, translated: str) -> bool:
