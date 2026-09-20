@@ -1,0 +1,160 @@
+{
+  "subject": "主题",
+  "priority": "优先权",
+  "attachments": "附件",
+  "priorities": {
+    "low": "低",
+    "medium": "平均",
+    "high": "高"
+  },
+  "department": "部门",
+  "support": {
+    "index": "我的门票",
+    "index_description": "以下是您的支持票证列表。",
+    "attachments_help": "最大大小 {_size} MB。允许的文件类型：{_types}",
+    "ticket_reopen_days": "您无法重新打开票证。您可以打开一个新的。",
+    "ticket_closed_by": "由{_name}关闭",
+    "ticket_auto_close": "票据在 {_days} 天后自动关闭",
+    "ticket_closed": "工单已关闭",
+    "ticket_reopened": "票证已重新打开",
+    "ticket_replied": "您的回复已发送",
+    "message_updated": "消息已更新",
+    "ticket_message_deleted": "工单消息已删除",
+    "show": {
+      "close_reason": "关闭原因",
+      "replybystaff": "来自 {_app} 的响应",
+      "messagebystaff": "来自 {_app} 的消息",
+      "replybycustomer1": "您的答案",
+      "replybycustomer2": "客户响应",
+      "your_demand": "您的要求",
+      "assigned_to": "被分配到",
+      "reply": "答",
+      "replyandclose": "回复并关闭",
+      "edit_message": "修改消息",
+      "edited_at": "消息已于{_date}修改",
+      "close": "关闭",
+      "customer_demand": "客户要求",
+      "reopen": "重开",
+      "open_on": "打开时间 {_date}",
+      "closed_on": "关闭于 {_date}",
+      "attachments": "已将一个或多个附件添加到此工单",
+      "closed": "此工单已关闭。您无法回复。如果您需要帮助，请打开新工单或重新打开此工单。",
+      "replyinticket": "回复工单",
+      "closed2": "此工单已关闭，原因：{_reason}。您无法回复。",
+      "closed3": "此票已关闭。您无法回复。",
+      "index_description": "以下是支持票证的详细信息。",
+      "comments": {
+        "title": "评论",
+        "add": "添加评论",
+        "no_comments": "没有评论",
+        "added": "评论已添加",
+        "add_comment": "添加评论",
+        "deleted": "评论已被删除"
+      }
+    },
+    "create": {
+      "index": "新票",
+      "index_description": "打开新的支持票证",
+      "relatedto": "相关",
+      "newticket": "新票",
+      "send": "发送",
+      "relatednone": "没有",
+      "messagehelp": "请提供尽可能多的详细信息，以帮助我们解决您的问题。"
+    }
+  },
+  "admin": {
+    "title": "帮助中心",
+    "description": "设置帮助中心并管理支持票证",
+    "open_tickets": "开放门票",
+    "create_ticket": "创建请求",
+    "widgets": {
+      "pending_tickets": "待处理请求",
+      "active_tickets": "处理中请求",
+      "total_tickets": "所有请求的总数",
+      "tickets_last_week": "上周的票",
+      "avg_reply_time": "平均响应时间",
+      "messages_sent": "已发送的消息",
+      "avg_resolution_time": "平均解决时间",
+      "sla_compliance_rate": "SLA 合规率",
+      "sla_breached_count": "超出 SLA（活动）"
+    },
+    "settings": {
+      "title": "帮助中心设置",
+      "success": "已成功保存帮助中心设置。",
+      "description": "设置支持票证和帮助中心",
+      "fields": {
+        "ticket_auto_close_days": "不活动后自动关闭工单（天）",
+        "ticket_auto_close_days_help": "0 表示禁用",
+        "allow_attachments": "允许附件",
+        "allow_attachments_help": "允许用户将文件附加到他们的工单",
+        "attachments_max_size": "最大附件大小 （MB）",
+        "attachments_allowed_types": "允许的文件类型",
+        "attachments_allowed_types_help": "用逗号分隔",
+        "webhook_url": "Webhook URL",
+        "reopen_days": "重新打开工单的授权（天）",
+        "reopen_days_help": "0 将禁用重新打开，-1 将无限期允许"
+      }
+    },
+    "tickets": {
+      "graphs": "票务图表",
+      "closed_tickets": "关闭的请求",
+      "analytics": "票据分析",
+      "department_ticket_counts": "每个部门的票数",
+      "tickets_active": "请求待处理",
+      "tickets_active_description": "这是所有等待您回复的票据列表",
+      "tickets_to_reply_description": "这是客户待回复的所有票据列表",
+      "tickets_to_reply": "请求待回复",
+      "pending_title": "待处理的工单",
+      "last_update": "最后更新",
+      "last_reply": "最后回答",
+      "no_department_stats": "目前未找到任何部门。",
+      "staff_message_counts": "每位工作人员的消息数量",
+      "no_staff_stats": "目前未找到任何工作人员。",
+      "subheading": "这是系统中所有工单的列表",
+      "edit": "编辑工单",
+      "customer_not_found": "未找到客户",
+      "create": {
+        "title": "创建工单",
+        "subheading": "为客户创建新工单"
+      }
+    },
+    "departments": {
+      "title": "支持部门",
+      "description": "设置工单支持部门",
+      "subheading": "以下是系统中所有部门的列表",
+      "error_delete": "无法删除此部门，因为它包含工单。",
+      "create": {
+        "title": "创建部门",
+        "subheading": "创建新的支持部门"
+      },
+      "sla_settings": "SLA 设置",
+      "sla_first_response_minutes": "首次响应时间（分钟）",
+      "sla_first_response_minutes_help": "留空或指定 0 以禁用支持第一响应 SLA​​。",
+      "sla_resolution_minutes": "解决时间（分钟）",
+      "sla_resolution_minutes_help": "留空或指定 0 以禁用票证解析 SLA。",
+      "show": {
+        "title": "部门表 {_name}",
+        "subheading": "以下是在 {_date} 上创建的与此部门相关的信息"
+      }
+    },
+    "statistics": "统计"
+  },
+  "message": "消息",
+  "guest": {
+    "title": "无需账户即可开单",
+    "intro": "我们的团队将回复您在下方提供的电子邮件地址。无需账户即可关注对话。",
+    "email_help": "请确保此地址正确，我们将通过它回复您。",
+    "disclaimer": "提交此消息即表示您同意通过电子邮件联系。",
+    "submit": "发送消息",
+    "submitted": "您的请求已收到。请保存跟踪链接以查看回复。",
+    "replied": "您的回复已发送。",
+    "reply_submit": "发送回复",
+    "reply_title": "回复",
+    "tracking_title": "工单：{_subject}",
+    "opened_at": "于 {_date} 开单",
+    "bookmark_warning": "请将此页加入书签——它是您无需账户访问该工单的唯一入口。",
+    "staff_reply": "支持回复",
+    "you": "您",
+    "closed_notice": "此工单已关闭。如有其他问题，请新建工单。"
+  }
+}

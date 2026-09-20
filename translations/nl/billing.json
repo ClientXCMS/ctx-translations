@@ -1,0 +1,74 @@
+{
+  "admin": {
+    "upgrades": {
+      "title": "Verbeteringen in de service",
+      "description": "Bekijk hoe klanten verbeteringen aanbrengen in hun services."
+    },
+    "global_balance": "Algehele balans",
+    "settings": {
+      "title": "Facturering",
+      "description": "Stel factureringsopties in, zoals valuta, belastingen en betalingsvoorwaarden.",
+      "success": "De factureringsinstellingen zijn succesvol opgeslagen.",
+      "webhookoncheckout": "Webhook bij het afrekenen",
+      "tax": "Btw-beheer",
+      "fields": {
+        "store_vat_enabled": "Btw activeren",
+        "customermustbeconfirmed": "De klant moet worden bevestigd om te bestellen",
+        "toslink": "Link naar de algemene verkoopsvoorwaarden",
+        "invoice_prefix": "Voorvoegsel van de factuur",
+        "billing_mode": "Wijze van facturering",
+        "billing_modes": {
+          "proforma": "Proforma",
+          "invoice": "Factuur"
+        },
+        "add_setupfee_on_upgrade": "Configuratiekosten toevoegen tijdens een upgrade",
+        "minimum_days_to_force_renewal_with_upgrade": "Minimale tijd in dagen om vernieuwing te forceren met een verbetering",
+        "remove_pending_invoice": "Actie op openstaande facturen na (dagen)",
+        "remove_pending_invoice_help": "0 om uit te schakelen",
+        "allow_add_balance_to_invoices": "Toestaan dat het saldo aan de facturen wordt toegevoegd",
+        "remove_pending_invoice_types": {
+          "delete": "Verwijderen",
+          "cancel": "Annuleren"
+        },
+        "vat_default_country": "Standaardland voor btw",
+        "rates": {
+          "title": "Btw-tarief",
+          "vat_rate_by_country": "Btw-tarief per land van de klant",
+          "vat_rate_fixed": "Vast btw-tarief"
+        },
+        "display_product_price": {
+          "title": "Weergave van productprijzen",
+          "included": "Inbegrepen - De getoonde prijs is inclusief BTW",
+          "excluded": "Exclusief - De getoonde prijs is excl. BTW"
+        },
+        "store_mode_tax": {
+          "title": "Belastingmodus",
+          "tax_included": "Inclusief belasting",
+          "tax_excluded": "Exclusief belasting"
+        },
+        "store_enabled": "Winkel ingeschakeld",
+        "store_redirect_url": "Omleidings-URL (indien uitgeschakeld)"
+      }
+    },
+    "title": "Facturering",
+    "subheading": "Beheer van abonnementen en betalingen",
+    "subscriptions": {
+      "create": {
+        "title": "Maak een abonnement aan",
+        "subheading": "Een abonnement maken voor een klant"
+      },
+      "title": "Abonnementen",
+      "description": "Beheer de doorlopende abonnementen met automatische verlenging van klanten.",
+      "last_payment_at": "Laatste betaling",
+      "active_subscription": "Actieve abonnementen",
+      "services_empty": "Geen services gevonden",
+      "earn": {
+        "service_subscription_help": "Deze gegevens zijn gebaseerd op {_date}",
+        "monthly": "Abonnementen",
+        "monthly_earn": "Hernieuwing",
+        "subscription_and_services": "Abonnementen en serviceverlengingen",
+        "monthly_help": "Abonnementen worden meegeteld voor verlengingen"
+      }
+    }
+  }
+}

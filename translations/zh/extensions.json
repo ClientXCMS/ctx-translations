@@ -1,0 +1,93 @@
+{
+  "title": "扩展",
+  "description": "管理 CLIENTXCMS 扩展，启用或禁用已安装的扩展。",
+  "settings": {
+    "title": "扩展设置",
+    "description": "管理已安装扩展的设置",
+    "clearcache": "清除缓存",
+    "search_placeholder": "按名称、描述或标签搜索",
+    "processing": "处理中...",
+    "no_extensions_found": "未找到扩展",
+    "boot_error": "启动时出错",
+    "boot_error_description": "此扩展因无法启动而被自动禁用。",
+    "tabs": {
+      "my_extensions": "我的扩展",
+      "discover": "发现",
+      "themes": "主题"
+    },
+    "sections": {
+      "my_themes": "我的主题",
+      "my_modules": "我的模块和插件",
+      "new": "新品",
+      "popular": "热门",
+      "all_extensions": "所有扩展",
+      "all_themes": "所有主题"
+    },
+    "tags": {
+      "featured": "精选",
+      "new": "新品",
+      "popular": "热门"
+    },
+    "no_installed": "未安装扩展",
+    "no_installed_desc": "探索我们的扩展目录以丰富您的 ClientXCMS",
+    "discover_extensions": "发现扩展",
+    "extensions_count": "个扩展",
+    "uninstall": "卸载",
+    "no_results": "没有扩展符合您的搜索条件",
+    "themes_available": "个可用主题",
+    "no_themes": "暂无可用主题",
+    "update_available": "有可用更新",
+    "active": "活跃",
+    "enable": "激活",
+    "disable": "关闭",
+    "enabled": "激活",
+    "disabled": "禁用",
+    "installed": "安装的",
+    "update": "更新",
+    "processing_error": "发生错误，请重试。",
+    "install": "安装",
+    "reviews": "评论",
+    "search": "搜索扩展",
+    "activable": "激活",
+    "notactivable": "不可激活",
+    "buy": "买"
+  },
+  "bulk": {
+    "select_all": "全选",
+    "deselect_all": "取消全选",
+    "selected_count": "已选择 :count 项",
+    "install_selected": "安装所选内容",
+    "enable_selected": "启用所选内容",
+    "disable_selected": "禁用所选内容",
+    "processing": "正在处理...",
+    "success": "操作成功完成",
+    "partial_success": ":success 成功, :failed 失败"
+  },
+  "modal": {
+    "version": "版本",
+    "author": "作者",
+    "price": "价格",
+    "buy_now": "立即购买",
+    "view_details": "查看详情",
+    "close": "关闭",
+    "tags": "标签",
+    "last_update": "最后更新"
+  },
+  "onetime": "仅一次",
+  "monthly": "每月",
+  "flash": {
+    "already_enabled": "扩展已激活。",
+    "extension_not_enabled": "{_extension} 扩展未启用，并且是此扩展所必需的。",
+    "cannot_enable": "无法激活扩展。",
+    "composer_not_found": "找不到 composer.json 文件。",
+    "extension_not_loaded": "激活此扩展需要 {_extension} 扩展。",
+    "extension_not_installed": "未安装 {_extension} 扩展。",
+    "extension_version_not_compatible": "扩展版本 {_extension} （{_current}） 与所需的版本 （{_version}） 不兼容。",
+    "cache_cleared": "已成功清除缓存。",
+    "enabled": "扩展已成功激活。",
+    "disabled": "扩展已成功禁用。",
+    "updated": "扩展已成功更新。",
+    "uninstalled": "插件已成功卸载。",
+    "uninstall_must_disable_first": "必须先禁用插件才能进行卸载。"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "Webhook URL",
+  "variables": "可用变量：{_variables}",
+  "checkout": {
+    "title": "新订单",
+    "description": "已下新订单"
+  },
+  "domain": "域",
+  "renew": {
+    "title": "服务续订",
+    "description": "服务已续订"
+  },
+  "ticket": {
+    "title": "新票",
+    "description": "已创建新票证"
+  },
+  "ticket_answer": {
+    "title": "响应工单",
+    "description": "工单已得到解答"
+  },
+  "ticket_closed": {
+    "title": "工单关闭",
+    "description": "当工单被关闭时触发"
+  },
+  "ticket_staff": {
+    "title": "工作人员对工单的回复"
+  },
+  "upgrade": {
+    "title": "服务升级",
+    "description": "服务已升级"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "product": {
+    "no_data": "Non sono richieste ulteriori informazioni al momento dell'ordine."
+  },
+  "config": {
+    "server": "Server Mailcow",
+    "max_domains": "Domini massimi",
+    "max_mailboxes": "Numero massimo di caselle per dominio",
+    "max_aliases": "Alias ​​massimi per dominio",
+    "default_quota_mib": "Quota predefinita di una casella (MiB)",
+    "max_quota_mib": "Quota massima di una casella (MiB)",
+    "domain_quota_mib": "Quota totale del dominio (MiB)",
+    "rate_limit_value": "Invio valore limite",
+    "rate_limit_frame": "Periodo limite di invio",
+    "backup_mx": "Backup del server MX",
+    "relay_all_recipients": "Inoltra tutti i destinatari",
+    "seconds": "Secondi",
+    "minutes": "Minuti",
+    "hours": "Ore"
+  },
+  "panel": {
+    "title": "Domini di posta elettronica",
+    "permission": "Gestisci i domini Mailcow",
+    "usage": ":domini usati usati su :max",
+    "empty": "Nessun dominio è ancora configurato.",
+    "mailboxes": "Scatole",
+    "aliases": "Alias",
+    "admin": "Amministratore",
+    "password": "Password",
+    "status_active": "Attivo",
+    "status_suspended": "Sospeso"
+  },
+  "actions": {
+    "add": "Aggiungi il dominio",
+    "delete": "ELIMINARE",
+    "delete_confirm": "Eliminare definitivamente questo dominio e tutti i relativi dati email?",
+    "dns": "Esporta DNS",
+    "domain_admin": "Amministrazione delle vacche postali"
+  },
+  "messages": {
+    "domain_created": "Il dominio Mailcow è stato creato.",
+    "domain_deleted": "Il dominio Mailcow è stato cancellato."
+  },
+  "errors": {
+    "domain_exists": "È già stato effettuato il provisioning di questo dominio.",
+    "domain_limit": "È stato raggiunto il limite di dominio di questo servizio.",
+    "config_missing": "Impossibile trovare la configurazione del prodotto Mailcow.",
+    "api": "Mailcow non è stato in grado di elaborare la richiesta."
+  }
+}

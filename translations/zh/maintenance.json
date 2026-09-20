@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "title": "维护模式",
+    "description": "在 Customer Area 中启用或禁用维护模式",
+    "maintenance_enabled": "启用维护模式",
+    "maintenance_url": "维护 URL",
+    "maintenance_url_help": "绕过维护模式的 URL",
+    "maintenance_message": "维护消息",
+    "maintenance_message_help": "当用户在维护模式下访问站点时向用户显示的消息",
+    "maintenance_button_text": "维护按钮文本",
+    "maintenance_button_icon": "维护按钮图标",
+    "maintenance_button_url": "维护按钮 URL",
+    "success": "已成功更新维护设置"
+  },
+  "in_maintenance_title": "持续维护",
+  "in_maintenance_message": "该网站目前正在进行维护。请稍后再回来查看。"
+}

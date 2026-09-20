@@ -1,0 +1,267 @@
+{
+  "title": "Personalizzazione",
+  "themename": "Nome del tema",
+  "icon_help": "Consulta l'elenco delle icone su icons.getbootstrap.com",
+  "custom_menu": {
+    "title": "Link personalizzati"
+  },
+  "menu_links": {
+    "title": "Collegamenti dei menu",
+    "description": "Personalizza i collegamenti dei menu dell'area clienti",
+    "icon_help2": "Puoi mettere un'URL di un'immagine al posto di un'icona.",
+    "allowed_role": "Ruolo autorizzato",
+    "link_type": "Tipo di collegamento",
+    "new_tab": "Nuova scheda",
+    "link": "Collegamento",
+    "dropdown": "Menu a discesa",
+    "parent": "Genitore",
+    "unsaved_changes": "Modifiche non salvate",
+    "bulk_saved": "Menu salvato con successo.",
+    "validation_error": "Si prega di correggere gli errori di validazione prima di salvare.",
+    "save_error": "Si è verificato un errore durante il salvataggio.",
+    "add_child": "Aggiungi figlio",
+    "children": "Figli",
+    "full_edit": "Dettagli",
+    "max_depth": "Profondità massima raggiunta",
+    "empty_state": "Nessun elemento del menu. Clicca sul pulsante qui sotto per aggiungerne uno.",
+    "translating": "Traduzione in corso",
+    "translation_note": "Le traduzioni verranno salvate quando tutti gli elementi del menu saranno salvati.",
+    "allowed_roles": {
+      "all": "Tutti",
+      "logged": "Connesso",
+      "customer": "Cliente con un servizio",
+      "staff": "Personale"
+    },
+    "link_types": {
+      "new_tab": "Nuova scheda",
+      "link": "Collegamento",
+      "dropdown": "Menu a discesa"
+    },
+    "bottom_menu": {
+      "footer_settings": "Impostazioni del piè di pagina"
+    }
+  },
+  "icon": "Bootstrap",
+  "addelement": "Aggiungere un elemento",
+  "demo": "Demo",
+  "useful": "Informazioni utili",
+  "badge": "Distintivo",
+  "email_templates": {
+    "title": "Modelli di email",
+    "description": "Personalizza i modelli di email nell'area clienti",
+    "subheading": "Ecco l'elenco di tutti i modelli di email presenti nel sistema",
+    "locale": "Lingua",
+    "shouldnotchanged": "Questo campo è modificabile, ma non deve essere modificato se non in casi eccezionali",
+    "button_text": "Testo del pulsante",
+    "subject": "Oggetto dell'e-mail",
+    "config": {
+      "title": "Configurazione del modello",
+      "btn": "Importare",
+      "success": "Il modello di email è stato configurato correttamente."
+    },
+    "import": {
+      "title": "Importare un modello di email",
+      "btn": "Importazione",
+      "invalid_file": "Il file deve essere un file blade HTML valido",
+      "success": "Il modello di e-mail è stato importato correttamente."
+    },
+    "show": {
+      "title": "Foglio modello di email {_name}",
+      "subheading": "Ecco le informazioni relative a questo modello di email creato il {_date}"
+    },
+    "create": {
+      "title": "Creare un modello di email",
+      "subheading": "Creare un nuovo modello di email per il sistema"
+    },
+    "names": {
+      "invoice_paid": "Fattura pagata",
+      "notify_expiration": "Notifica di scadenza",
+      "virtualizor_cloud_vps": "Consegna VPS Virtualizor Rivenditore",
+      "wisp": "Consegna Wisp",
+      "pterodactyl": "Consegna di pterodattilo",
+      "virtualizor_vps": "Consegna VPS Virtualizor",
+      "virtualizor_cloud": "Spedizione per rivenditori VPS",
+      "pterobox": "Consegna Pterobox",
+      "service_suspended": "Servizio sospeso",
+      "invoice_created": "Fattura creata",
+      "reset": "Reimpostazione della password",
+      "verify": "Verifica dell'e-mail",
+      "plesk_hosting": "Consegna di Plesk Hosting",
+      "plesk_reseller": "Spedizione per rivenditori Plesk",
+      "proxmox": "Consegna Proxmox",
+      "support_admin_ticket_created": "Ticket di supporto creato",
+      "support_admin_ticket_reply": "Risposta di un cliente a un ticket di supporto",
+      "support_customer_ticket_reply": "Risposta a un ticket di supporto",
+      "notify_subscription_failed": "Notifica di mancato pagamento dell'abbonamento",
+      "customer_banned": "Il cliente banna",
+      "customer_suspended": "Cliente sospeso",
+      "customer_reactivated": "Cliente riattivato",
+      "account_purge_reminder": "Promemoria di eliminazione dell'account",
+      "customer_account_invitation": "Invito a creare un account cliente",
+      "customer_account_access_granted": "Accesso al conto cliente concesso",
+      "two_factor_code": "Codice di verifica a due fattori"
+    },
+    "errors": {
+      "dangerous_content": "Il contenuto contiene direttive PHP o Blade vietate."
+    }
+  },
+  "description": "Personalizza i menu nell'area clienti e i social network dell'azienda.",
+  "social": {
+    "title": "Reti sociali",
+    "description": "Personalizzare i social network dell'azienda",
+    "subheading": "Ecco l'elenco di tutti i social network presenti nel sistema",
+    "create": {
+      "title": "Crea un social network",
+      "subheading": "Creare un nuovo social network per l'azienda"
+    },
+    "show": {
+      "title": "Pagina del social network {_name}",
+      "subheading": "Ecco le informazioni relative a questo social network creato il {_date}"
+    }
+  },
+  "config": {
+    "title": "Configurazione",
+    "button": "Configura il mio tema",
+    "success": "La configurazione è stata salvata con successo."
+  },
+  "seo": {
+    "title": "Impostazioni SEO",
+    "description": "Personalizza le impostazioni SEO dell'area clienti",
+    "fields": {
+      "description": "Descrizione dell'area clienti",
+      "keywords": "Parole chiave dell'Area Clienti",
+      "keywords_help": "Separati da virgole",
+      "themecolor": "Colore principale (embed)",
+      "headscripts": "Script nella testa",
+      "footscripts": "Script nel piè di pagina",
+      "disablereferencement": "Disabilita SEO",
+      "site_title": "Titolo del sito",
+      "site_title_help": "Il titolo del sito nelle schede del browser dopo il nome della pagina",
+      "og_title": "Titolo OG",
+      "og_description": "Descrizione OG",
+      "og_image": "Immagine OG",
+      "og_image_help": "Dimensione consigliata: 1200x630px",
+      "twitter_handle": "Account Twitter",
+      "twitter_handle_help": "@nomeutente"
+    },
+    "social_section": "Social media / Open Graph",
+    "success": "Le impostazioni SEO sono state salvate con successo."
+  },
+  "primary": {
+    "title": "Colori principali",
+    "description": "Personalizza i colori principali dell'area clienti",
+    "fields": {
+      "primary_color": "Colore principale",
+      "secondary_color": "Colore secondario"
+    },
+    "btnpreview": "Rendering dal vivo",
+    "preview_save": "È necessario salvare per vedere il rendering dal vivo"
+  },
+  "front_menu": {
+    "title": "Menu principale",
+    "description": "Personalizza il menu principale dell'area clienti"
+  },
+  "bottom_menu": {
+    "title": "Menu a piè di pagina",
+    "description": "Personalizza il menu a piè di pagina dell'area clienti"
+  },
+  "sections": {
+    "restoresuccess": "La sezione è stata restaurata con successo.",
+    "restore": "Restaurare",
+    "title": "Sezioni",
+    "empty": "Nessuna sezione trovata per questa pagina.<br/> Puoi importarene una dal tema qui sotto.",
+    "errors": {
+      "notfound": "Sezione non trovata",
+      "advanced_personalization": "Abilita il modulo di personalizzazione avanzata per accedere a questa sezione",
+      "sanitized_content": "Il contenuto contiene direttive PHP o Blade vietate."
+    },
+    "subheading": "Ecco le sezioni per la pagina {_name}",
+    "description": "Personalizza le sezioni dell'area clienti",
+    "content": "Contenuto",
+    "show": {
+      "title": "Modifica di una sezione",
+      "protected_content": "Questa sezione è protetta e non può essere modificata.",
+      "subheading": "Puoi modificare il contenuto della tua sezione come desideri"
+    },
+    "config": {
+      "btn": "Configura sezione",
+      "title": "Configurazione della sezione",
+      "subheading": "Puoi modificare il contenuto della tua sezione come desideri",
+      "fields": {
+        "badge": "Distintivo",
+        "title": "Titolo",
+        "subtitle": "Sottotitolo",
+        "feature_icon": "Icona funzione{_number}",
+        "feature_number": "Valore della caratteristica{_number}",
+        "feature_title": "Titolo della funzione{_number}",
+        "feature_description": "Descrizione della caratteristica{_number}",
+        "stat_value": "Valore statistico{_number}",
+        "stat_label": "Formulazione della statistica{_number}",
+        "testimonial_text": "Testimonianza{_number}",
+        "testimonial_author": "Autore della testimonianza{_number}",
+        "testimonial_role": "Ruolo dell'autore{_number}",
+        "step_title": "Titolo del passaggio{_number}",
+        "step_description": "Descrizione del passaggio{_number}",
+        "step_icon": "Icona del passaggio{_number}",
+        "primary_cta": "Principale invito all'azione",
+        "secondary_cta": "Invito all'azione secondario",
+        "hero_icon": "Icona principale",
+        "hero_title": "Titolo principale",
+        "hero_description": "Descrizione principale"
+      }
+    },
+    "fields": {
+      "url": "Pagina della sezione",
+      "active": "Attivo"
+    },
+    "disable": "Disattivare",
+    "enable": "Attivare",
+    "types": {
+      "title": "Sezioni disponibili per il tema {_name}"
+    },
+    "pages": {
+      "page_home": "Pagina iniziale",
+      "page_store": "Negozio",
+      "title": "Pagina",
+      "subheading": "Ecco l'elenco delle sezioni di questa pagina",
+      "description": "Gestisci le sezioni per la pagina {_name}",
+      "page_group": "Pagina del gruppo {_name}",
+      "page_checkout": "Pagina di pagamento",
+      "page_basket": "Pagina del carrello"
+    }
+  },
+  "home": {
+    "title": "Pagina iniziale",
+    "description": "Impostazioni nella home page dell'area clienti",
+    "success": "Le impostazioni della home page sono state salvate con successo.",
+    "fields": {
+      "theme_home_title": "Titolo della homepage",
+      "theme_home_subtitle": "Sottotitolo della Home Page",
+      "theme_home_image": "Immagine della Home Page",
+      "theme_home_enabled": "Abilita la home page",
+      "theme_home_title_meta": "Nome della Home Page",
+      "theme_home_title_meta_help": "Il nome della home page nelle schede del browser",
+      "theme_home_redirect_route": "URL di reindirizzamento",
+      "theme_home_redirect_route_help": "Utilizzato se la pagina iniziale è disattivata."
+    }
+  },
+  "theme": {
+    "title": "Impostazioni del tema",
+    "description": "Impostazioni del tema dell'area clienti",
+    "info": "Puoi ora scegliere il tuo tema nelle estensioni > temi. <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Clicca qui per accedervi</a>.",
+    "current_theme": "Tema attuale",
+    "themename": "Nome del tema",
+    "fields": {
+      "theme_footer_description": "Descrizione del piè di pagina",
+      "theme_footer_description_help": "Supporto HTML",
+      "theme_footer_topheberg": "Badge HTML TopHeberg",
+      "theme_header_logo": "Visualizza il logo nell'intestazione invece del nome dell'azienda",
+      "theme_switch_mode": {
+        "title": "Modalità autorizzata",
+        "light": "Brillante",
+        "dark": "Oscuro",
+        "both": "Ambedue"
+      }
+    }
+  }
+}

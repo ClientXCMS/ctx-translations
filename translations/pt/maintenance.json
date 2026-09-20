@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "title": "Modo de manutenção",
+    "description": "Ativar ou desativar o modo de manutenção na área do cliente",
+    "maintenance_enabled": "Ativar o modo de manutenção",
+    "maintenance_url": "URLs de manutenção",
+    "maintenance_url_help": "URL para ignorar o modo de manutenção",
+    "maintenance_message": "Mensagem de manutenção",
+    "maintenance_message_help": "Mensagem exibida aos usuários quando eles acessam o site no modo de manutenção",
+    "maintenance_button_text": "Texto do botão de manutenção",
+    "maintenance_button_icon": "Ícone do botão de manutenção",
+    "maintenance_button_url": "URL do botão de manutenção",
+    "success": "As configurações de manutenção foram atualizadas com êxito"
+  },
+  "in_maintenance_title": "Manutenção contínua",
+  "in_maintenance_message": "O local está atualmente em manutenção. Por favor, volte mais tarde."
+}

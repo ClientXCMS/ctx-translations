@@ -1,0 +1,32 @@
+{
+  "url": "Webhook URL",
+  "variables": "Beschikbare variabelen: {_variables}",
+  "checkout": {
+    "title": "Nieuwe bestelling",
+    "description": "Er is een nieuwe bestelling geplaatst"
+  },
+  "domain": "Domein",
+  "renew": {
+    "title": "Verlenging van de dienst",
+    "description": "Een dienst is vernieuwd"
+  },
+  "ticket": {
+    "title": "Nieuw ticket",
+    "description": "Er is een nieuw ticket aangemaakt"
+  },
+  "ticket_answer": {
+    "title": "Reageren op een ticket",
+    "description": "Een ticket is beantwoord"
+  },
+  "ticket_closed": {
+    "title": "Sluiting van een ticket",
+    "description": "Een ticket is zojuist gesloten"
+  },
+  "ticket_staff": {
+    "title": "Reageren op een ticket door het personeel"
+  },
+  "upgrade": {
+    "title": "Service upgraded",
+    "description": "Een dienst is geüpgraded"
+  }
+}

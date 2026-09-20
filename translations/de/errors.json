@@ -1,0 +1,56 @@
+{
+  "common": {
+    "home": "Zurück nach Hause",
+    "dashboard": "Zurück zum Dashboard",
+    "support": "Kontaktieren Sie den Support",
+    "previous": "Geh zurück",
+    "status_code": "Fehler: Code"
+  },
+  "401": {
+    "title": "Sie sind nicht verbunden",
+    "heading": "Authentifizierung erforderlich",
+    "description": "Diese Seite ist für eingeloggte Benutzer reserviert. Bitte melden Sie sich an und versuchen Sie es erneut.",
+    "sign_in": "Einloggen"
+  },
+  "403": {
+    "title": "Zugriff verweigert",
+    "heading": "Verboten",
+    "description": "Sie haben keine Berechtigung, auf diese Ressource zuzugreifen. Wenn Sie glauben, dass es sich hierbei um einen Fehler handelt, wenden Sie sich an den Support."
+  },
+  "404": {
+    "title": "Seite nicht gefunden",
+    "heading": "Wir haben überall gesucht...",
+    "description": "Die von Ihnen gesuchte Seite konnte leider nicht gefunden werden.",
+    "back": "Zurück zur vorherigen Seite",
+    "home": "Zur Startseite",
+    "dashboard": "Gehen Sie zum Dashboard"
+  },
+  "419": {
+    "title": "Ihre Sitzung ist abgelaufen",
+    "heading": "Sitzung abgelaufen",
+    "description": "Zu Ihrer Sicherheit haben wir Ihre Sitzung nach einem Zeitraum der Inaktivität geschlossen. Bitte laden Sie die Seite neu und senden Sie das Formular erneut ab.",
+    "reload": "Seite neu laden"
+  },
+  "422": {
+    "title": "Ungültige Anfrage",
+    "heading": "etwas stimmt nicht",
+    "description": "Wir konnten Ihre Anfrage nicht bearbeiten, da einige Daten fehlen oder falsch sind. Gehen Sie zurück und versuchen Sie es erneut."
+  },
+  "429": {
+    "title": "Zu viele Anfragen",
+    "heading": "Sanft…",
+    "description": "Sie haben in kurzer Zeit zu viele Anfragen gestellt. Bitte warten Sie einen Moment, bevor Sie es erneut versuchen."
+  },
+  "500": {
+    "title": "Interner Serverfehler",
+    "heading": "interner Serverfehler",
+    "description": "Leider ist ein interner Fehler aufgetreten.",
+    "back": "Zurück zur vorherigen Seite",
+    "home": "Zur Startseite"
+  },
+  "503": {
+    "title": "Wartungsarbeiten laufen",
+    "heading": "Dienst nicht verfügbar",
+    "description": "Wir aktualisieren die Plattform. Der Dienst wird in Kürze wieder online sein. Vielen Dank für Ihre Geduld."
+  }
+}

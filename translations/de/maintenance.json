@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "title": "Wartungsmodus",
+    "description": "Aktivieren oder deaktivieren Sie den Wartungsmodus im Kundenbereich",
+    "maintenance_enabled": "Aktivieren des Wartungsmodus",
+    "maintenance_url": "Wartungs-URLs",
+    "maintenance_url_help": "URL zum Umgehen des Wartungsmodus",
+    "maintenance_message": "Wartungsmeldung",
+    "maintenance_message_help": "Meldung, die Benutzern angezeigt wird, wenn sie im Wartungsmodus auf die Website zugreifen",
+    "maintenance_button_text": "Text der Wartungsschaltfläche",
+    "maintenance_button_icon": "Symbol für die Wartungsschaltfläche",
+    "maintenance_button_url": "URL der Wartungsschaltfläche",
+    "success": "Die Wartungseinstellungen wurden erfolgreich aktualisiert"
+  },
+  "in_maintenance_title": "Laufende Wartung",
+  "in_maintenance_message": "Die Website wird derzeit gewartet. Bitte schauen Sie später noch einmal vorbei."
+}

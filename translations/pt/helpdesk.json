@@ -1,0 +1,160 @@
+{
+  "subject": "Assunto",
+  "priority": "Prioridade",
+  "attachments": "Anexos",
+  "priorities": {
+    "low": "Baixo",
+    "medium": "Média",
+    "high": "Alto"
+  },
+  "department": "Departamento",
+  "support": {
+    "index": "Meus ingressos",
+    "index_description": "Abaixo está uma lista de seus tíquetes de suporte.",
+    "attachments_help": "Tamanho máximo {_size} MB. Tipos de arquivo permitidos: {_types}",
+    "ticket_reopen_days": "Você não pode reabrir o ticket. Você pode abrir um novo.",
+    "ticket_closed_by": "Fechado por {_name}",
+    "ticket_auto_close": "O ticket foi fechado automaticamente após {_days} dias",
+    "ticket_closed": "O ticket foi encerrado",
+    "ticket_reopened": "O bilhete foi reaberto",
+    "ticket_replied": "Sua resposta foi enviada",
+    "message_updated": "A mensagem foi atualizada",
+    "ticket_message_deleted": "A mensagem acabou de ser eliminada",
+    "show": {
+      "close_reason": "Motivo do fechamento",
+      "replybystaff": "Resposta de {_app}",
+      "messagebystaff": "Mensagem de {_app}",
+      "replybycustomer1": "Sua resposta",
+      "replybycustomer2": "Resposta do cliente",
+      "your_demand": "Seu pedido",
+      "assigned_to": "Atribuído a",
+      "reply": "Responder",
+      "replyandclose": "Responda e feche",
+      "edit_message": "Modificar a mensagem",
+      "edited_at": "Mensagem modificada em {_date}",
+      "close": "Fechar",
+      "customer_demand": "Pedido do cliente",
+      "reopen": "Reabrir",
+      "open_on": "Aberto em {_date}",
+      "closed_on": "Fechado em {_date}",
+      "attachments": "Um ou mais anexos foram adicionados a este ticket",
+      "closed": "Este ticket está fechado. Você não pode responder. Se precisar de ajuda, abra um novo ticket ou reabra este ticket.",
+      "replyinticket": "Responder ao ticket",
+      "closed2": "Este ticket está fechado pela razão {_reason}. Não pode responder.",
+      "closed3": "Este ticket está fechado. Você não pode responder.",
+      "index_description": "Abaixo estão os detalhes do tíquete de suporte.",
+      "comments": {
+        "title": "Comentários",
+        "add": "Adicionar um comentário",
+        "no_comments": "Nenhum comentário",
+        "added": "O comentário foi adicionado",
+        "add_comment": "Adicionar um comentário",
+        "deleted": "O comentário foi removido"
+      }
+    },
+    "create": {
+      "index": "Novo bilhete",
+      "index_description": "Abrir um novo tíquete de suporte",
+      "relatedto": "Relacionado",
+      "newticket": "Novo bilhete",
+      "send": "Enviar",
+      "relatednone": "Nenhum",
+      "messagehelp": "Forneça o máximo de detalhes possível para nos ajudar a resolver seu problema."
+    }
+  },
+  "admin": {
+    "title": "Central de Ajuda",
+    "description": "Configurar a central de ajuda e gerenciar tickets de suporte",
+    "open_tickets": "Bilhetes abertos",
+    "create_ticket": "Criar um pedido",
+    "widgets": {
+      "pending_tickets": "Demandas pendentes",
+      "active_tickets": "Demandas em andamento",
+      "total_tickets": "Total de solicitações",
+      "tickets_last_week": "Ingressos da semana passada",
+      "avg_reply_time": "Prazo médio de resposta",
+      "messages_sent": "Mensagens enviadas",
+      "avg_resolution_time": "Prazo médio de resolução",
+      "sla_compliance_rate": "Taxa de conformidade com SLA",
+      "sla_breached_count": "SLA excedido (ativo)"
+    },
+    "settings": {
+      "title": "Configurações da Central de Ajuda",
+      "success": "As configurações da Central de Ajuda foram salvas com sucesso.",
+      "description": "Configuração de tickets de suporte e da central de ajuda",
+      "fields": {
+        "ticket_auto_close_days": "Fechamento automático de chamados após inatividade (dias)",
+        "ticket_auto_close_days_help": "0 para desativar",
+        "allow_attachments": "Permitir anexos",
+        "allow_attachments_help": "Permite que os usuários anexem arquivos aos seus tickets",
+        "attachments_max_size": "Tamanho máximo do anexo (MB)",
+        "attachments_allowed_types": "Tipos de arquivo permitidos",
+        "attachments_allowed_types_help": "Separados por vírgulas",
+        "webhook_url": "Webhook URL",
+        "reopen_days": "Autorização para reabertura de chamados (dias)",
+        "reopen_days_help": "0 para desativar a reabertura, -1 para permitir indefinidamente"
+      }
+    },
+    "tickets": {
+      "graphs": "Gráfico de bilhetes",
+      "closed_tickets": "Demandas fechadas",
+      "analytics": "Análise dos bilhetes",
+      "department_ticket_counts": "Número de bilhetes por departamento",
+      "tickets_active": "Solicitação aguardando processamento",
+      "tickets_active_description": "Aqui está a lista de todos os ingressos aguardando sua resposta.",
+      "tickets_to_reply_description": "Aqui está a lista de todos os tíquetes aguardando resposta do cliente",
+      "tickets_to_reply": "Pedido aguardando resposta",
+      "pending_title": "Tickets pendentes",
+      "last_update": "Última atualização",
+      "last_reply": "Última resposta",
+      "no_department_stats": "Nenhum departamento encontrado no momento.",
+      "staff_message_counts": "Número de mensagens por membro da equipe",
+      "no_staff_stats": "Nenhum membro da equipe encontrado no momento.",
+      "subheading": "Aqui está a lista de todos os tickets no sistema",
+      "edit": "Editar ticket",
+      "customer_not_found": "O cliente não foi encontrado",
+      "create": {
+        "title": "Criar um ticket",
+        "subheading": "Criar um novo ticket para um cliente"
+      }
+    },
+    "departments": {
+      "title": "Departamentos de Suporte",
+      "description": "Configurar departamentos de suporte para tickets",
+      "subheading": "Aqui está a lista de todos os departamentos do sistema",
+      "error_delete": "Não é possível apagar este departamento porque ele contém tickets.",
+      "create": {
+        "title": "Criar um departamento",
+        "subheading": "Criar um novo departamento de suporte"
+      },
+      "sla_settings": "Configurações de SLA",
+      "sla_first_response_minutes": "Tempo da primeira resposta (minutos)",
+      "sla_first_response_minutes_help": "Deixe em branco ou especifique 0 para desativar o SLA do Support First Response.",
+      "sla_resolution_minutes": "Tempo de resolução (minutos)",
+      "sla_resolution_minutes_help": "Deixe em branco ou especifique 0 para desabilitar o SLA de resolução de tickets.",
+      "show": {
+        "title": "Folha de departamento {_name}",
+        "subheading": "Aqui estão as informações relacionadas a este departamento criado em {_date}"
+      }
+    },
+    "statistics": "Estatísticas"
+  },
+  "message": "Mensagem",
+  "guest": {
+    "title": "Abrir um ticket sem conta",
+    "intro": "A nossa equipa responderá ao endereço de e-mail que indicar abaixo. Não é necessária conta para acompanhar a conversa.",
+    "email_help": "Certifique-se de que este endereço está correto - é por onde lhe responderemos.",
+    "disclaimer": "Ao enviar esta mensagem aceita ser contactado por e-mail.",
+    "submit": "Enviar mensagem",
+    "submitted": "O seu pedido foi recebido. Guarde o link de acompanhamento para ler as respostas.",
+    "replied": "A sua resposta foi enviada.",
+    "reply_submit": "Enviar resposta",
+    "reply_title": "Responder",
+    "tracking_title": "Ticket: {_subject}",
+    "opened_at": "Aberto em {_date}",
+    "bookmark_warning": "Marque esta página nos favoritos - é o seu único acesso ao ticket sem conta.",
+    "staff_reply": "Resposta do suporte",
+    "you": "Você",
+    "closed_notice": "Este ticket foi fechado. Abra um novo se tiver outra questão."
+  }
+}

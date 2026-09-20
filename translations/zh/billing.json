@@ -1,0 +1,74 @@
+{
+  "admin": {
+    "upgrades": {
+      "title": "服务改进",
+      "description": "了解客户如何改进他们的服务。"
+    },
+    "global_balance": "整体平衡",
+    "settings": {
+      "title": "发票",
+      "description": "商店账单设置。启用 VAT （增值税）、set currency （设置货币） 或其他。",
+      "success": "计费设置已成功保存。",
+      "webhookoncheckout": "结帐时的 Webhook",
+      "tax": "增值税管理",
+      "fields": {
+        "store_vat_enabled": "激活增值税",
+        "customermustbeconfirmed": "客户必须确认订单",
+        "toslink": "链接到一般销售条款和条件",
+        "invoice_prefix": "发票前缀",
+        "billing_mode": "计费方式",
+        "billing_modes": {
+          "proforma": "形式",
+          "invoice": "发票"
+        },
+        "add_setupfee_on_upgrade": "在升级期间添加配置费用",
+        "minimum_days_to_force_renewal_with_upgrade": "强制更新和改进的最短时间（以天为单位）",
+        "remove_pending_invoice": "在以下时间后对待处理发票执行的操作（天）",
+        "remove_pending_invoice_help": "0 表示禁用",
+        "allow_add_balance_to_invoices": "允许在发票上添加余额",
+        "remove_pending_invoice_types": {
+          "delete": "删除",
+          "cancel": "取消"
+        },
+        "vat_default_country": "增值税的默认国家/地区",
+        "rates": {
+          "title": "增值税税率",
+          "vat_rate_by_country": "客户所在国家/地区的增值税税率",
+          "vat_rate_fixed": "固定增值税税率"
+        },
+        "display_product_price": {
+          "title": "产品价格显示",
+          "included": "包含 - 显示的价格包含增值税",
+          "excluded": "不包含 - 显示的价格不含增值税"
+        },
+        "store_mode_tax": {
+          "title": "税务模式",
+          "tax_included": "含税",
+          "tax_excluded": "不含税"
+        },
+        "store_enabled": "启用商店",
+        "store_redirect_url": "重定向 URL（如果禁用）"
+      }
+    },
+    "title": "发票",
+    "subheading": "订阅和付款管理",
+    "subscriptions": {
+      "create": {
+        "title": "创建订阅",
+        "subheading": "为客户创建订阅"
+      },
+      "title": "订阅",
+      "description": "订阅管理",
+      "last_payment_at": "上次付款",
+      "active_subscription": "有效订阅",
+      "services_empty": "未找到服务",
+      "earn": {
+        "service_subscription_help": "这些数据基于 {_date} 以来的信息",
+        "monthly": "月度订阅",
+        "monthly_earn": "每月续订",
+        "subscription_and_services": "订阅和服务续订",
+        "monthly_help": "订阅计入每月续订"
+      }
+    }
+  }
+}

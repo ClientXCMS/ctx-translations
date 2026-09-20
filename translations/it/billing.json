@@ -1,0 +1,74 @@
+{
+  "admin": {
+    "upgrades": {
+      "title": "Miglioramenti del servizio",
+      "description": "Scopri in che modo i clienti stanno apportando miglioramenti ai loro servizi."
+    },
+    "global_balance": "Bilancio complessivo",
+    "settings": {
+      "title": "Fatturazione",
+      "description": "Archivia le impostazioni di fatturazione. Abilita l'IVA, imposta la valuta o altro.",
+      "success": "Le impostazioni di fatturazione sono state salvate correttamente.",
+      "webhookoncheckout": "Webhook al momento del pagamento",
+      "tax": "Gestione IVA",
+      "fields": {
+        "store_vat_enabled": "Attiva l'IVA",
+        "customermustbeconfirmed": "Il cliente deve essere confermato per ordinare",
+        "toslink": "Link alle condizioni generali di vendita",
+        "invoice_prefix": "Prefisso fattura",
+        "billing_mode": "Metodo di fatturazione",
+        "billing_modes": {
+          "proforma": "Proforma",
+          "invoice": "Fattura"
+        },
+        "add_setupfee_on_upgrade": "Aggiungere addebiti di configurazione durante un aggiornamento",
+        "minimum_days_to_force_renewal_with_upgrade": "Tempo minimo in giorni per forzare il rinnovo con un miglioramento",
+        "remove_pending_invoice": "Azione sulle fatture in sospeso dopo (giorni)",
+        "remove_pending_invoice_help": "0 per disabilitare",
+        "allow_add_balance_to_invoices": "Autorizzare l'aggiunta di saldo alle fatture",
+        "remove_pending_invoice_types": {
+          "delete": "Cancellare",
+          "cancel": "Annulla"
+        },
+        "vat_default_country": "Paese predefinito per l'IVA",
+        "rates": {
+          "title": "Aliquota IVA",
+          "vat_rate_by_country": "Aliquota IVA in base al paese del cliente",
+          "vat_rate_fixed": "Aliquota IVA fissa"
+        },
+        "display_product_price": {
+          "title": "Visualizzazione del prezzo del prodotto",
+          "included": "Incluso - Il prezzo visualizzato è comprensivo di IVA",
+          "excluded": "Escluso - Il prezzo visualizzato è IVA esclusa"
+        },
+        "store_mode_tax": {
+          "title": "Modalità di tassazione",
+          "tax_included": "Tassa inclusa",
+          "tax_excluded": "Imposta esclusa"
+        },
+        "store_enabled": "Negozio attivato",
+        "store_redirect_url": "URL di reindirizzamento (se disattivato)"
+      }
+    },
+    "title": "Fatturazione",
+    "subheading": "Gestione degli abbonamenti e dei pagamenti",
+    "subscriptions": {
+      "create": {
+        "title": "Creare un abbonamento",
+        "subheading": "Creare un abbonamento per un cliente"
+      },
+      "title": "Sottoscrizioni",
+      "description": "Gestione degli abbonamenti",
+      "last_payment_at": "Ultimo pagamento",
+      "active_subscription": "Abbonamenti attivi",
+      "services_empty": "Nessun servizio trovato",
+      "earn": {
+        "service_subscription_help": "Questi dati sono basati dal {_date}",
+        "monthly": "Abbonamenti mensili",
+        "monthly_earn": "Rinnovi mensili",
+        "subscription_and_services": "Abbonamenti e rinnovi dei servizi",
+        "monthly_help": "Gli abbonamenti contano per i rinnovi mensili"
+      }
+    }
+  }
+}

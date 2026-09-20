@@ -1,0 +1,160 @@
+{
+  "subject": "Onderwerp",
+  "priority": "Voorrang",
+  "attachments": "Bijlagen",
+  "priorities": {
+    "low": "Bas",
+    "medium": "Gemiddeld",
+    "high": "Hoog"
+  },
+  "department": "Departement",
+  "support": {
+    "index": "Mijn kaartjes",
+    "index_description": "Hieronder vindt u een lijst met uw ondersteuningstickets.",
+    "attachments_help": "Maximale grootte {_size} MB. Toegestane bestandstypen: {_types}",
+    "ticket_reopen_days": "U kunt het ticket niet heropenen. U kunt een nieuwe openen.",
+    "ticket_closed_by": "Gesloten door {_name}",
+    "ticket_auto_close": "Het ticket is automatisch gesloten na {_days} dagen",
+    "ticket_closed": "Het ticket is gesloten",
+    "ticket_reopened": "Het ticket is heropend",
+    "ticket_replied": "Uw antwoord is verzonden",
+    "message_updated": "Het bericht is bijgewerkt",
+    "ticket_message_deleted": "Het bericht is verwijderd",
+    "show": {
+      "close_reason": "Reden voor de sluiting",
+      "replybystaff": "Antwoord van {_app}",
+      "messagebystaff": "Bericht van {_app}",
+      "replybycustomer1": "Jouw antwoord",
+      "replybycustomer2": "Antwoord van de klant",
+      "your_demand": "Uw aanvraag",
+      "assigned_to": "Toegewezen aan",
+      "reply": "Antwoorden",
+      "replyandclose": "Antwoorden en sluiten",
+      "edit_message": "Bericht wijzigen",
+      "edited_at": "Bericht gewijzigd op {_date}",
+      "close": "Sluiten",
+      "customer_demand": "Vraag van de klant",
+      "reopen": "Heropenen",
+      "open_on": "Geopend op {_date}",
+      "closed_on": "Gesloten op {_date}",
+      "attachments": "Er zijn één of meerdere bijlagen aan dit ticket toegevoegd",
+      "closed": "Dit ticket is gesloten. Je kunt niet antwoorden. Als je hulp nodig hebt, open dan een nieuw ticket of heropen dit ticket.",
+      "replyinticket": "Reageer op het ticket",
+      "closed2": "Dit ticket is gesloten om de volgende reden: {_reason}. U kunt niet antwoorden.",
+      "closed3": "Dit ticket is gesloten. U kunt niet antwoorden.",
+      "index_description": "Hieronder vindt u de details van het ondersteuningsticket.",
+      "comments": {
+        "title": "Opmerkingen",
+        "add": "Een opmerking toevoegen",
+        "no_comments": "Geen commentaar",
+        "added": "De opmerking is toegevoegd",
+        "add_comment": "Een opmerking toevoegen",
+        "deleted": "De opmerking is verwijderd"
+      }
+    },
+    "create": {
+      "index": "Nieuw ticket",
+      "index_description": "Open een nieuw supportticket",
+      "relatedto": "Aanverwant",
+      "newticket": "Nieuw ticket",
+      "send": "Verzenden",
+      "relatednone": "Geen",
+      "messagehelp": "Geef zoveel mogelijk details om ons te helpen uw probleem op te lossen."
+    }
+  },
+  "admin": {
+    "title": "Helpcentrum",
+    "description": "Het helpcentrum instellen en supporttickets beheren",
+    "open_tickets": "Open kaarten",
+    "create_ticket": "Een aanvraag indienen",
+    "widgets": {
+      "pending_tickets": "Wachtende verzoeken",
+      "active_tickets": "Verzoeken in behandeling",
+      "total_tickets": "Totaal aantal aanvragen",
+      "tickets_last_week": "Tickets van vorige week",
+      "avg_reply_time": "Gemiddelde reactietijd",
+      "messages_sent": "Verzonden berichten",
+      "avg_resolution_time": "Gemiddelde oplosduur",
+      "sla_compliance_rate": "SLA-nalevingspercentage",
+      "sla_breached_count": "SLA overschreden (actief)"
+    },
+    "settings": {
+      "title": "Instellingen Helpcentrum",
+      "success": "De instellingen van het Helpcentrum zijn opgeslagen.",
+      "description": "Stel het beheersysteem voor supporttickets in, inclusief sluiting, heropening en meldingen.",
+      "fields": {
+        "ticket_auto_close_days": "Automatische sluiting van tickets na inactiviteit (dagen)",
+        "ticket_auto_close_days_help": "0 om uit te schakelen",
+        "allow_attachments": "Bijlagen toestaan",
+        "allow_attachments_help": "Hiermee kunnen gebruikers bestanden aan hun tickets toevoegen",
+        "attachments_max_size": "Maximale grootte van het opzetstuk (MB)",
+        "attachments_allowed_types": "Toegestane bestandstypen",
+        "attachments_allowed_types_help": "Gescheiden door komma's",
+        "webhook_url": "Webhook URL",
+        "reopen_days": "Machtiging tot heropening van tickets (dagen)",
+        "reopen_days_help": "0 om heropening uit te schakelen, -1 om onbeperkt toe te staan"
+      }
+    },
+    "tickets": {
+      "graphs": "Grafiek van de tickets",
+      "closed_tickets": "Gesloten aanvragen",
+      "analytics": "Analyse van de tickets",
+      "department_ticket_counts": "Aantal tickets per afdeling",
+      "tickets_active": "Verzoek wachten op verwerking",
+      "tickets_active_description": "Hier is de lijst van alle tickets in afwachting van uw reactie",
+      "tickets_to_reply_description": "Hier is de lijst van alle tickets die wachten op een reactie van de klant.",
+      "tickets_to_reply": "Verzoek wachten op antwoord",
+      "pending_title": "Tickets in afwachting",
+      "last_update": "Laatst bijgewerkt",
+      "last_reply": "Laatste antwoord",
+      "no_department_stats": "Geen afdeling momenteel gevonden.",
+      "staff_message_counts": "Aantal berichten per personeelslid",
+      "no_staff_stats": "Momenteel geen personeel gevonden.",
+      "subheading": "Hier is de lijst met alle tickets in het systeem",
+      "edit": "Ticket bewerken",
+      "customer_not_found": "Klant is niet gevonden",
+      "create": {
+        "title": "Maak een ticket aan",
+        "subheading": "Een nieuw ticket maken voor een klant"
+      }
+    },
+    "departments": {
+      "title": "Ondersteunende afdelingen",
+      "description": "Creëer specifieke afdelingen om tickets af te handelen op basis van hun aard.",
+      "subheading": "Hier is de lijst van alle afdelingen in het systeem",
+      "error_delete": "Kan deze afdeling niet verwijderen omdat deze tickets bevat.",
+      "create": {
+        "title": "Maak een afdeling aan",
+        "subheading": "Maak een nieuwe supportafdeling aan"
+      },
+      "sla_settings": "SLA-instellingen",
+      "sla_first_response_minutes": "Eerste responstijd (minuten)",
+      "sla_first_response_minutes_help": "Laat dit leeg of geef 0 op om de Support First Response SLA uit te schakelen.",
+      "sla_resolution_minutes": "Resolutietijd (minuten)",
+      "sla_resolution_minutes_help": "Laat dit leeg of specificeer 0 om de SLA voor ticketresolutie uit te schakelen.",
+      "show": {
+        "title": "Departementsblad {_name}",
+        "subheading": "Hier is de informatie met betrekking tot deze afdeling gemaakt op {_date}"
+      }
+    },
+    "statistics": "Statistieken"
+  },
+  "message": "Bericht",
+  "guest": {
+    "title": "Open een ticket zonder account",
+    "intro": "Ons team reageert op het e-mailadres dat u hieronder opgeeft. Geen account nodig om het gesprek te volgen.",
+    "email_help": "Zorg ervoor dat dit adres klopt - daarop nemen we contact met u op.",
+    "disclaimer": "Door dit bericht te verzenden gaat u akkoord met contact via e-mail.",
+    "submit": "Bericht verzenden",
+    "submitted": "Uw verzoek is ontvangen. Bewaar de tracking-link om de antwoorden te lezen.",
+    "replied": "Uw antwoord is verzonden.",
+    "reply_submit": "Antwoord verzenden",
+    "reply_title": "Antwoorden",
+    "tracking_title": "Ticket: {_subject}",
+    "opened_at": "Geopend op {_date}",
+    "bookmark_warning": "Maak deze pagina favoriet - het is uw enige toegang tot het ticket zonder account.",
+    "staff_reply": "Reactie van support",
+    "you": "U",
+    "closed_notice": "Dit ticket is gesloten. Open een nieuwe als u nog een vraag heeft."
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "title": "Aanpassing",
+  "themename": "Thema naam",
+  "icon_help": "Bekijk de lijst met pictogrammen op icons.getbootstrap.com",
+  "custom_menu": {
+    "title": "Aangepaste links"
+  },
+  "menu_links": {
+    "title": "Menu links",
+    "description": "Pas de links van de klantenruimte menu's aan te passen",
+    "icon_help2": "Je kunt een URL van een afbeelding in plaats van een pictogram plaatsen.",
+    "allowed_role": "Toegestane rol",
+    "link_type": "Typ de link",
+    "new_tab": "Nieuw tabblad",
+    "link": "Link",
+    "dropdown": "Dropdown menu",
+    "parent": "Ouder",
+    "unsaved_changes": "Niet-opgeslagen wijzigingen",
+    "bulk_saved": "Menu succesvol opgeslagen.",
+    "validation_error": "Corrigeer de validatiefouten voordat u opslaat.",
+    "save_error": "Er is een fout opgetreden bij het opslaan.",
+    "add_child": "Kind toevoegen",
+    "children": "Kinderen",
+    "full_edit": "Details",
+    "max_depth": "Maximale diepte bereikt",
+    "empty_state": "Geen menu-items. Klik op de knop hieronder om er een toe te voegen.",
+    "translating": "Vertaling in uitvoering",
+    "translation_note": "Vertalingen worden opgeslagen wanneer alle menu-items zijn opgeslagen.",
+    "allowed_roles": {
+      "all": "Iedereen",
+      "logged": "Verbonden",
+      "customer": "Cliënt met een dienst",
+      "staff": "Personeel"
+    },
+    "link_types": {
+      "new_tab": "Nieuw tabblad",
+      "link": "Schakel",
+      "dropdown": "Dropdown menu"
+    },
+    "bottom_menu": {
+      "footer_settings": "Footer instellingen"
+    }
+  },
+  "icon": "Bootstrap-pictogram",
+  "addelement": "Een element toevoegen",
+  "demo": "Demo",
+  "useful": "Nuttige informatie",
+  "badge": "Insigne",
+  "email_templates": {
+    "title": "E-mail sjablonen",
+    "description": "Pas automatisch verzonden e-mailsjablonen aan voor meldingen en bevestigingen.",
+    "subheading": "Hier is de lijst met alle e-mailsjablonen in het systeem",
+    "locale": "Tong",
+    "shouldnotchanged": "Dit veld kan worden bewerkt, maar mag niet worden gewijzigd, behalve in uitzonderlijke gevallen",
+    "button_text": "Knop tekst",
+    "subject": "Onderwerp van de e-mail",
+    "config": {
+      "title": "Modelopstelling",
+      "btn": "Importeren",
+      "success": "De e-mailsjabloon is succesvol geconfigureerd."
+    },
+    "import": {
+      "title": "Een e-mailsjabloon importeren",
+      "btn": "Importeren",
+      "invalid_file": "Het bestand moet een geldig HTML-bladebestand zijn",
+      "success": "Het e-mailsjabloon is geïmporteerd."
+    },
+    "show": {
+      "title": "E-mail sjabloon blad {_name}",
+      "subheading": "Hier is de informatie met betrekking tot deze e-mailsjabloon die is gemaakt op {_date}"
+    },
+    "create": {
+      "title": "Een e-mailsjabloon maken",
+      "subheading": "Maak een nieuw e-mailsjabloon voor het systeem"
+    },
+    "names": {
+      "invoice_paid": "Factuur betaald",
+      "notify_expiration": "Melding van vervaldatum",
+      "virtualizor_cloud_vps": "VPS Levering Virtualizor Reseller",
+      "wisp": "Wisp Levering",
+      "pterodactyl": "Pterodactylus levering",
+      "virtualizor_vps": "Virtualizor VPS-levering",
+      "virtualizor_cloud": "VPS Reseller Verzending",
+      "pterobox": "Levering Pterobox",
+      "service_suspended": "Opgeschorte dienst",
+      "invoice_created": "Factuur aangemaakt",
+      "reset": "Wachtwoord opnieuw instellen",
+      "verify": "E-mail verificatie",
+      "plesk_hosting": "Plesk Hosting Levering",
+      "plesk_reseller": "Plesk Reseller Verzending",
+      "proxmox": "Proxmox Levering",
+      "support_admin_ticket_created": "Supportticket aangemaakt",
+      "support_admin_ticket_reply": "De reactie van een klant op een supportticket",
+      "support_customer_ticket_reply": "Reactie op een supportticket",
+      "notify_subscription_failed": "Melding van mislukte abonnementsbetalingen",
+      "customer_banned": "Klant geblokkeerd",
+      "customer_suspended": "Cliënt opgeschort",
+      "customer_reactivated": "Cliënt geactiveerd",
+      "account_purge_reminder": "Herinnering voor het opschonen van uw account",
+      "customer_account_invitation": "Uitnodiging om een ​​klantaccount aan te maken",
+      "customer_account_access_granted": "Toegang tot klantaccount verleend",
+      "two_factor_code": "Tweefactorauthenticatiecode"
+    },
+    "errors": {
+      "dangerous_content": "De inhoud bevat verboden PHP- of Blade-richtlijnen."
+    }
+  },
+  "description": "Pas de menu's aan in het klantengedeelte en de sociale netwerken van het bedrijf.",
+  "social": {
+    "title": "Sociale media",
+    "description": "Sluit uw links naar sociale media in zodat klanten uw nieuws kunnen volgen.",
+    "subheading": "Hier is de lijst van alle sociale netwerken in het systeem",
+    "create": {
+      "title": "Maak een sociaal netwerk",
+      "subheading": "Creëer een nieuw sociaal netwerk voor het bedrijf"
+    },
+    "show": {
+      "title": "Pagina van het sociaal netwerk {_name}",
+      "subheading": "Hier is de informatie met betrekking tot dit sociale netwerk gemaakt op {_date}"
+    }
+  },
+  "config": {
+    "title": "Configuratie",
+    "button": "Configureer mijn thema",
+    "success": "De configuratie is succesvol opgeslagen."
+  },
+  "seo": {
+    "title": "SEO-instellingen",
+    "description": "Optimaliseer de SEO-metadata van het klantengebied om de zoekmachineoptimalisatie te verbeteren.",
+    "fields": {
+      "description": "Beschrijving van het klantengedeelte",
+      "keywords": "Trefwoorden in de klantenzone",
+      "keywords_help": "Gescheiden door komma's",
+      "themecolor": "Hoofdkleur (insluiten)",
+      "headscripts": "Scripts in het hoofd",
+      "footscripts": "Scripts in de footer",
+      "disablereferencement": "SEO uitschakelen",
+      "site_title": "Titel van de site",
+      "site_title_help": "De sitetitel in browsertabbladen na de paginanaam",
+      "og_title": "OG-titel",
+      "og_description": "OG-beschrijving",
+      "og_image": "OG-afbeelding",
+      "og_image_help": "Aanbevolen formaat: 1200x630px",
+      "twitter_handle": "Twitter-account",
+      "twitter_handle_help": "@gebruikersnaam"
+    },
+    "social_section": "Sociale media / Open Graph",
+    "success": "De SEO-instellingen zijn succesvol opgeslagen."
+  },
+  "primary": {
+    "title": "Belangrijkste kleuren",
+    "description": "Pas de dominante kleuren van de interface aan zodat ze overeenkomen met uw merkrichtlijnen.",
+    "fields": {
+      "primary_color": "Hoofdkleur",
+      "secondary_color": "Secundaire kleur"
+    },
+    "btnpreview": "Live weergave",
+    "preview_save": "U moet opslaan om de live render te zien"
+  },
+  "front_menu": {
+    "title": "Hoofdmenu",
+    "description": "Pas het bovenste navigatiemenu aan om de bruikbaarheid van uw winkel te verbeteren."
+  },
+  "bottom_menu": {
+    "title": "Footer Menu",
+    "description": "Bewerk de voettekst om snelkoppelingen en andere nuttige informatie op te nemen."
+  },
+  "sections": {
+    "restoresuccess": "De sectie is met succes gerestaureerd.",
+    "restore": "Herstellen",
+    "title": "Secties",
+    "empty": "Geen sectie gevonden voor deze pagina.<br/> U kunt er een importeren vanuit het thema hieronder.",
+    "errors": {
+      "notfound": "Sectie niet gevonden",
+      "advanced_personalization": "Schakel de module Geavanceerde aanpassing in om toegang te krijgen tot dit gedeelte",
+      "sanitized_content": "De inhoud bevat verboden PHP- of Blade-richtlijnen."
+    },
+    "subheading": "Hier zijn de secties voor de pagina {_name}",
+    "description": "Beheer en pas de verschillende secties aan die beschikbaar zijn op de site om de inhoud op een efficiënte en intuïtieve manier voor gebruikers te organiseren en te structureren.",
+    "content": "Inhoud",
+    "show": {
+      "title": "Een sectie bewerken",
+      "protected_content": "Dit gedeelte is beveiligd en kan niet worden gewijzigd.",
+      "subheading": "U kunt de inhoud van uw sectie naar wens bewerken"
+    },
+    "config": {
+      "btn": "Sectie configureren",
+      "title": "Sectie configuratie",
+      "subheading": "U kunt de inhoud van uw sectie naar wens aanpassen",
+      "fields": {
+        "badge": "Kenteken",
+        "title": "Titel",
+        "subtitle": "Ondertitel",
+        "feature_icon": "Functiepictogram{_number}",
+        "feature_number": "Kenmerkwaarde{_number}",
+        "feature_title": "Functietitel{_number}",
+        "feature_description": "Functie Beschrijving{_number}",
+        "stat_value": "Statistische waarde{_number}",
+        "stat_label": "Formulering van de statistiek{_number}",
+        "testimonial_text": "Getuigenis{_number}",
+        "testimonial_author": "Auteur van getuigenis{_number}",
+        "testimonial_role": "Rol van de auteur{_number}",
+        "step_title": "Staptitel{_number}",
+        "step_description": "Beschrijving van stap{_number}",
+        "step_icon": "Stappictogram{_number}",
+        "primary_cta": "Belangrijkste call-to-action",
+        "secondary_cta": "Secundaire call-to-action",
+        "hero_icon": "Hoofdpictogram",
+        "hero_title": "Hoofdtitel",
+        "hero_description": "Hoofdbeschrijving"
+      }
+    },
+    "fields": {
+      "url": "Sectie Pagina",
+      "active": "Actief"
+    },
+    "disable": "Deactiveren",
+    "enable": "Activeren",
+    "types": {
+      "title": "Beschikbare secties voor het thema {_name}"
+    },
+    "pages": {
+      "page_home": "Hoofdpagina",
+      "page_store": "Winkel",
+      "title": "Bladzijde",
+      "subheading": "Hier is de lijst met secties voor deze pagina",
+      "description": "Beheer de secties voor de pagina {_name}",
+      "page_group": "{_name} groepspagina",
+      "page_checkout": "Afrekenen pagina",
+      "page_basket": "Winkelwagen Pagina"
+    }
+  },
+  "home": {
+    "title": "Hoofdpagina",
+    "description": "Configureer het uiterlijk en de inhoud van de startpagina om uw services onder de aandacht te brengen.",
+    "success": "De instellingen van de startpagina zijn succesvol opgeslagen.",
+    "fields": {
+      "theme_home_title": "Titel van de homepage",
+      "theme_home_subtitle": "Ondertiteling van de startpagina",
+      "theme_home_image": "Startpagina afbeelding",
+      "theme_home_enabled": "De startpagina inschakelen",
+      "theme_home_title_meta": "Naam startpagina",
+      "theme_home_title_meta_help": "De naam van de startpagina in browsertabbladen",
+      "theme_home_redirect_route": "Omleidings-URL",
+      "theme_home_redirect_route_help": "Wordt gebruikt als de startpagina is uitgeschakeld."
+    }
+  },
+  "theme": {
+    "title": "Thema instellingen",
+    "description": "Activeer en configureer een visueel thema om de esthetiek en het uiterlijk van uw klantenzone te verbeteren.",
+    "info": "U kunt nu uw thema kiezen onder extensies > thema's. <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Klik hier om toegang te krijgen</a>.",
+    "current_theme": "Huidig onderwerp",
+    "themename": "Themanaam",
+    "fields": {
+      "theme_footer_description": "Beschrijving voettekst",
+      "theme_footer_description_help": "HTML-ondersteuning",
+      "theme_footer_topheberg": "Aanvullende HTML",
+      "theme_header_logo": "Logo weergeven in koptekst in plaats van bedrijfsnaam",
+      "theme_switch_mode": {
+        "title": "Geautoriseerde modus",
+        "light": "Duidelijk",
+        "dark": "Donker",
+        "both": "Beide"
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "admin": {
+    "upgrades": {
+      "title": "Melhorias de serviço",
+      "description": "Veja como os clientes estão fazendo melhorias em seus serviços."
+    },
+    "global_balance": "Equilíbrio global",
+    "settings": {
+      "title": "Facturação",
+      "description": "Configurações de cobrança da loja. Ative o IVA, defina a moeda ou outro.",
+      "success": "As configurações de cobrança foram salvas com sucesso.",
+      "webhookoncheckout": "Webhook na finalização da compra",
+      "tax": "Gestão do IVA",
+      "fields": {
+        "store_vat_enabled": "Ativar IVA",
+        "customermustbeconfirmed": "O cliente deve ser confirmado para fazer o pedido",
+        "toslink": "Link para os termos e condições gerais de venda",
+        "invoice_prefix": "Prefixo da fatura",
+        "billing_mode": "Forma de cobrança",
+        "billing_modes": {
+          "proforma": "Proforma",
+          "invoice": "Fatura"
+        },
+        "add_setupfee_on_upgrade": "Adicionar encargos de configuração durante uma atualização",
+        "minimum_days_to_force_renewal_with_upgrade": "Tempo mínimo em dias para forçar a renovação com uma melhoria",
+        "remove_pending_invoice": "Ação em faturas pendentes após (dias)",
+        "remove_pending_invoice_help": "0 para desativar",
+        "allow_add_balance_to_invoices": "Autorizar a adição de saldo às faturas",
+        "remove_pending_invoice_types": {
+          "delete": "Excluir",
+          "cancel": "Cancelar"
+        },
+        "vat_default_country": "País padrão para IVA",
+        "rates": {
+          "title": "Taxa de IVA",
+          "vat_rate_by_country": "Taxa de IVA por país do cliente",
+          "vat_rate_fixed": "Taxa fixa de IVA"
+        },
+        "display_product_price": {
+          "title": "Exibição de preço do produto",
+          "included": "Incluído - O preço apresentado inclui IVA",
+          "excluded": "Excluído - O preço apresentado é sem IVA"
+        },
+        "store_mode_tax": {
+          "title": "Modo de imposto",
+          "tax_included": "Imposto incluído",
+          "tax_excluded": "Imposto excluído"
+        },
+        "store_enabled": "Loja ativada",
+        "store_redirect_url": "URL de redirecionamento (se desativada)"
+      }
+    },
+    "title": "Facturação",
+    "subheading": "Gestão de assinaturas e pagamentos",
+    "subscriptions": {
+      "create": {
+        "title": "Criar uma assinatura",
+        "subheading": "Criar uma assinatura para um cliente"
+      },
+      "title": "Assinaturas",
+      "description": "Gerenciamento de assinaturas",
+      "last_payment_at": "Último pagamento",
+      "active_subscription": "Assinaturas ativas",
+      "services_empty": "Nenhum serviço encontrado",
+      "earn": {
+        "service_subscription_help": "Estes dados são baseados desde {_date}",
+        "monthly": "Assinaturas mensais",
+        "monthly_earn": "Renovações mensais",
+        "subscription_and_services": "Assinaturas e renovações de serviço",
+        "monthly_help": "As assinaturas contam para renovações mensais"
+      }
+    }
+  }
+}
