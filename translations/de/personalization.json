@@ -1,0 +1,255 @@
+{
+  "title": "Anpassung",
+  "themename": "Name des Themes",
+  "icon_help": "Sehen Sie sich die Liste der Symbole auf icons.getbootstrap.com",
+  "custom_menu": {
+    "title": "Benutzerdefinierte Links"
+  },
+  "menu_links": {
+    "title": "Menülinks",
+    "description": "Passen Sie die Links im Menü des Kundenbereichs an.",
+    "icon_help2": "Sie können eine URL eines Bildes anstelle eines Symbols einfügen.",
+    "allowed_role": "Berechtigte Rolle",
+    "link_type": "Art der Verbindung",
+    "new_tab": "Neuer Tab",
+    "link": "Link",
+    "dropdown": "Dropdown-Menü",
+    "parent": "Eltern",
+    "unsaved_changes": "Nicht gespeicherte Änderungen",
+    "bulk_saved": "Menü erfolgreich gespeichert.",
+    "validation_error": "Bitte korrigieren Sie die Validierungsfehler vor dem Speichern.",
+    "save_error": "Beim Speichern ist ein Fehler aufgetreten.",
+    "add_child": "Kind hinzufügen",
+    "children": "Kinder",
+    "full_edit": "Details",
+    "max_depth": "Maximale Tiefe erreicht",
+    "empty_state": "Keine Menüpunkte. Klicken Sie auf die Schaltfläche unten, um einen hinzuzufügen.",
+    "translating": "Übersetzung läuft",
+    "translation_note": "Übersetzungen werden gespeichert, wenn alle Menüpunkte gespeichert sind.",
+    "allowed_roles": {
+      "all": "Alle",
+      "logged": "Verbunden",
+      "customer": "Kunde mit einem Service",
+      "staff": "Personal"
+    },
+    "link_types": {
+      "new_tab": "Neuer Tab",
+      "link": "Link",
+      "dropdown": "Dropdown-Menü"
+    },
+    "bottom_menu": {
+      "footer_settings": "Footer-Einstellungen"
+    }
+  },
+  "icon": "Urlader",
+  "addelement": "Ein Element hinzufügen",
+  "demo": "Demo",
+  "useful": "Nützliche Informationen",
+  "badge": "Abzeichen",
+  "email_templates": {
+    "title": "E-Mail-Vorlagen",
+    "description": "E-Mail-Vorlagen im Kundenbereich anpassen",
+    "subheading": "Hier ist die Liste aller E-Mail-Vorlagen im System",
+    "locale": "Zunge",
+    "shouldnotchanged": "Dieses Feld kann bearbeitet werden, sollte aber nur in Ausnahmefällen geändert werden",
+    "button_text": "Text der Schaltfläche",
+    "subject": "Betreff der E-Mail",
+    "config": {
+      "title": "Modellaufbau",
+      "btn": "Import",
+      "success": "Die E-Mail-Vorlage wurde erfolgreich konfiguriert."
+    },
+    "import": {
+      "title": "Importieren einer E-Mail-Vorlage",
+      "btn": "Importieren",
+      "invalid_file": "Bei der Datei muss es sich um eine gültige HTML-Blade-Datei handeln",
+      "success": "Die E-Mail-Vorlage wurde erfolgreich importiert."
+    },
+    "show": {
+      "title": "E-Mail-Vorlagenblatt {_name}",
+      "subheading": "Hier sind die Informationen zu dieser E-Mail-Vorlage, die am {_date} erstellt wurde:"
+    },
+    "create": {
+      "title": "Erstellen einer E-Mail-Vorlage",
+      "subheading": "Erstellen einer neuen E-Mail-Vorlage für das System"
+    },
+    "names": {
+      "invoice_paid": "Rechnung bezahlt",
+      "notify_expiration": "Benachrichtigung über Ablauf",
+      "virtualizor_cloud_vps": "VPS Delivery Virtualizor Reseller",
+      "wisp": "Wisp Lieferung",
+      "pterodactyl": "Pterodactylus Verabreichung",
+      "virtualizor_vps": "Virtualizor VPS-Bereitstellung",
+      "virtualizor_cloud": "VPS Reseller Versand",
+      "pterobox": "Lieferung Pterobox",
+      "service_suspended": "Ausgesetzter Betrieb",
+      "invoice_created": "Rechnung erstellt",
+      "reset": "Zurücksetzen des Passworts",
+      "verify": "E-Mail-Verifizierung",
+      "plesk_hosting": "Plesk Hosting-Bereitstellung",
+      "plesk_reseller": "Versand von Plesk Resellern",
+      "proxmox": "Proxmox Lieferung",
+      "support_admin_ticket_created": "Support-Ticket erstellt",
+      "support_admin_ticket_reply": "Die Antwort eines Kunden auf ein Support-Ticket",
+      "support_customer_ticket_reply": "Antwort auf ein Support-Ticket",
+      "notify_subscription_failed": "Benachrichtigung über fehlgeschlagene Abonnementzahlung",
+      "customer_banned": "Kunde gesperrt",
+      "customer_suspended": "Kunde gesperrt",
+      "customer_reactivated": "Kunde reaktiviert",
+      "account_purge_reminder": "Erinnerung zur Kontobereinigung",
+      "customer_account_invitation": "Einladung zur Erstellung eines Kundenkontos",
+      "customer_account_access_granted": "Zugriff auf Kundenkonto gewährt",
+      "two_factor_code": "Zwei-Faktor-Verifizierungscode"
+    },
+    "errors": {
+      "dangerous_content": "Der Inhalt enthält verbotene PHP- oder Blade-Direktiven."
+    }
+  },
+  "description": "Passen Sie die Menüs im Kundenbereich und in den sozialen Netzwerken des Unternehmens an.",
+  "social": {
+    "title": "Soziale Medien",
+    "description": "Personalisieren Sie die sozialen Netzwerke des Unternehmens",
+    "subheading": "Hier ist die Liste aller sozialen Netzwerke im System",
+    "create": {
+      "title": "Erstellen eines sozialen Netzwerks",
+      "subheading": "Erstellen eines neuen sozialen Netzwerks für das Unternehmen"
+    },
+    "show": {
+      "title": "Seite des sozialen Netzwerks {_name}",
+      "subheading": "Hier sind die Informationen zu diesem sozialen Netzwerk, das am {_date} erstellt wurde:"
+    }
+  },
+  "config": {
+    "title": "Konfiguration",
+    "button": "Mein Theme konfigurieren",
+    "success": "Die Konfiguration wurde erfolgreich gespeichert."
+  },
+  "seo": {
+    "title": "SEO-Einstellungen",
+    "description": "Passen Sie die SEO-Einstellungen des Kundenbereichs an",
+    "fields": {
+      "description": "Beschreibung des Kundenbereichs",
+      "keywords": "Schlüsselwörter für den Kundenbereich",
+      "keywords_help": "Durch Kommas getrennt",
+      "themecolor": "Hauptfarbe (einbetten)",
+      "headscripts": "Skripte im Kopf",
+      "footscripts": "Skripte in der Fußzeile",
+      "disablereferencement": "SEO deaktivieren",
+      "site_title": "Titel der Website",
+      "site_title_help": "Der Website-Titel in Browser-Tabs nach dem Seitennamen",
+      "og_title": "OG-Titel",
+      "og_description": "OG-Beschreibung",
+      "og_image": "OG-Bild",
+      "og_image_help": "Empfohlene Groesse: 1200x630px",
+      "twitter_handle": "Twitter-Konto",
+      "twitter_handle_help": "@Benutzername"
+    },
+    "social_section": "Soziale Medien / Open Graph",
+    "success": "Die SEO-Einstellungen wurden erfolgreich gespeichert."
+  },
+  "primary": {
+    "title": "Hauptfarben",
+    "description": "Passen Sie die Hauptfarben des Kundenbereichs an",
+    "fields": {
+      "primary_color": "Hauptfarbe",
+      "secondary_color": "Sekundäre Farbe"
+    },
+    "btnpreview": "Live-Rendering",
+    "preview_save": "Sie müssen speichern, um das Live-Rendering zu sehen"
+  },
+  "front_menu": {
+    "title": "Top-Menü",
+    "description": "Passen Sie das obere Menü des Kundenbereichs an"
+  },
+  "bottom_menu": {
+    "title": "Footer-Menü",
+    "description": "Anpassen des Footer-Menüs des Kundenbereichs"
+  },
+  "sections": {
+    "restoresuccess": "Der Abschnitt wurde erfolgreich wiederhergestellt.",
+    "restore": "Wiederherstellen",
+    "title": "Abschnitte",
+    "empty": "Keine Sektion für diese Seite gefunden.<br/> Sie können eine von dem Thema weiter unten importieren.",
+    "errors": {
+      "notfound": "Abschnitt nicht gefunden",
+      "advanced_personalization": "Bitte aktivieren Sie das Modul Erweiterte Anpassung, um auf diesen Abschnitt zuzugreifen",
+      "sanitized_content": "Der Inhalt enthält verbotene PHP- oder Blade-Direktiven."
+    },
+    "subheading": "Hier sind die Abschnitte für die Seite {_name}",
+    "description": "Passen Sie die Abschnitte des Kundenbereichs an",
+    "content": "Inhalt",
+    "show": {
+      "title": "Bearbeiten eines Abschnitts",
+      "protected_content": "Dieser Abschnitt ist geschützt und kann nicht geändert werden.",
+      "subheading": "Sie können den Inhalt Ihres Abschnitts nach Belieben bearbeiten"
+    },
+    "config": {
+      "btn": "Abschnitt konfigurieren",
+      "title": "Abschnittskonfiguration",
+      "subheading": "Sie können den Inhalt Ihres Abschnitts nach Ihren Wünschen ändern",
+      "fields": {
+        "badge": "Abzeichen",
+        "title": "Titel",
+        "subtitle": "Untertitel",
+        "primary_cta": "Wichtigster Aufruf zum Handeln",
+        "secondary_cta": "Sekundärer Aufruf zum Handeln",
+        "hero_icon": "Hauptsymbol",
+        "hero_title": "Haupttitel",
+        "hero_description": "Hauptbeschreibung"
+      }
+    },
+    "fields": {
+      "url": "Sektions-Seite",
+      "active": "Aktiv"
+    },
+    "disable": "Deaktivieren",
+    "enable": "Aktivieren",
+    "types": {
+      "title": "Verfügbare Abschnitte für das Thema {_name}"
+    },
+    "pages": {
+      "page_home": "Homepage",
+      "page_store": "Laden",
+      "title": "Seite",
+      "subheading": "Hier ist die Liste der Abschnitte für diese Seite",
+      "description": "Verwalten Sie die Abschnitte für die Seite {_name}",
+      "page_group": "{_name} Gruppenseite",
+      "page_checkout": "Checkout-Seite",
+      "page_basket": "Warenkorb-Seite"
+    }
+  },
+  "home": {
+    "title": "Homepage",
+    "description": "Einstellungen auf der Startseite des Kundenbereichs",
+    "success": "Die Homepage-Einstellungen wurden erfolgreich gespeichert.",
+    "fields": {
+      "theme_home_title": "Titel der Homepage",
+      "theme_home_subtitle": "Untertitel der Startseite",
+      "theme_home_image": "Bild der Startseite",
+      "theme_home_enabled": "Aktivieren der Startseite",
+      "theme_home_title_meta": "Name der Homepage",
+      "theme_home_title_meta_help": "Der Name der Startseite in Browser-Tabs",
+      "theme_home_redirect_route": "Weiterleitungs-URL",
+      "theme_home_redirect_route_help": "Wird verwendet, wenn die Startseite deaktiviert ist."
+    }
+  },
+  "theme": {
+    "title": "Theme-Einstellungen",
+    "description": "Einstellungen für das Kundenbereichsthema",
+    "info": "Sie können jetzt Ihr Thema unter Erweiterungen > Themen auswählen. <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Klicken Sie hier, um darauf zuzugreifen</a>.",
+    "current_theme": "Aktuelles Thema",
+    "themename": "Themenname",
+    "fields": {
+      "theme_footer_description": "Beschreibung der Fußzeile",
+      "theme_footer_description_help": "HTML-Unterstützung",
+      "theme_footer_topheberg": "Abzeichen HTML TopHeberg",
+      "theme_header_logo": "Logo in der Kopfzeile anstelle des Firmennamens anzeigen",
+      "theme_switch_mode": {
+        "title": "Autorisierter Modus",
+        "light": "Hell",
+        "dark": "Dunkel",
+        "both": "Beide"
+      }
+    }
+  }
+}

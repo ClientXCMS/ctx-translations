@@ -1,0 +1,255 @@
+{
+  "title": "Personalización",
+  "themename": "Nombre del tema",
+  "icon_help": "Ver la lista de iconos en icons.getbootstrap.com",
+  "custom_menu": {
+    "title": "Enlaces personalizados"
+  },
+  "menu_links": {
+    "title": "Enlaces de los menús",
+    "description": "Personaliza los enlaces de los menús del espacio del cliente",
+    "icon_help2": "Puedes poner una URL de una imagen en lugar de un ícono.",
+    "allowed_role": "Rol autorizado",
+    "link_type": "Tipo de enlace",
+    "new_tab": "Nueva pestaña",
+    "link": "Enlace",
+    "dropdown": "Menú desplegable",
+    "parent": "Padre",
+    "unsaved_changes": "Cambios no guardados",
+    "bulk_saved": "Menú guardado con éxito.",
+    "validation_error": "Por favor, corrija los errores de validación antes de guardar.",
+    "save_error": "Ocurrió un error al guardar.",
+    "add_child": "Añadir hijo",
+    "children": "Hijos",
+    "full_edit": "Detalles",
+    "max_depth": "Profundidad máxima alcanzada",
+    "empty_state": "No hay elementos de menú. Haga clic en el botón de abajo para añadir uno.",
+    "translating": "Traducción en curso",
+    "translation_note": "Las traducciones se guardarán cuando se guarden todos los elementos del menú.",
+    "allowed_roles": {
+      "all": "Todos",
+      "logged": "Conectado",
+      "customer": "Cliente con un servicio",
+      "staff": "Personal"
+    },
+    "link_types": {
+      "new_tab": "Nueva pestaña",
+      "link": "Enlace",
+      "dropdown": "Menú desplegable"
+    },
+    "bottom_menu": {
+      "footer_settings": "Ajustes del pie de página"
+    }
+  },
+  "icon": "Bootstrap",
+  "addelement": "Agregar un elemento",
+  "demo": "Demo",
+  "useful": "Información útil",
+  "badge": "Insignia",
+  "email_templates": {
+    "title": "Plantillas de correo electrónico",
+    "description": "Personaliza las plantillas de correo electrónico en el área de clientes",
+    "subheading": "Aquí está la lista de todas las plantillas de correo electrónico en el sistema",
+    "locale": "Lengua",
+    "shouldnotchanged": "Este campo es editable, pero no debe modificarse excepto en casos excepcionales",
+    "button_text": "Texto del botón",
+    "subject": "Asunto del correo electrónico",
+    "config": {
+      "title": "Configuración del modelo",
+      "btn": "Importar",
+      "success": "La plantilla de correo electrónico se ha configurado correctamente."
+    },
+    "import": {
+      "title": "Importar una plantilla de correo electrónico",
+      "btn": "Importar",
+      "invalid_file": "El archivo debe ser un archivo HTML válido",
+      "success": "La plantilla de correo electrónico se ha importado correctamente."
+    },
+    "show": {
+      "title": "Hoja de plantilla de correo electrónico {_name}",
+      "subheading": "Aquí está la información relacionada con esta plantilla de correo electrónico creada en {_date}"
+    },
+    "create": {
+      "title": "Crear una plantilla de correo electrónico",
+      "subheading": "Crear una nueva plantilla de correo electrónico para el sistema"
+    },
+    "names": {
+      "invoice_paid": "Factura pagada",
+      "notify_expiration": "Notificación de caducidad",
+      "virtualizor_cloud_vps": "Entrega de VPS Virtualizor revendedor",
+      "wisp": "Entrega de Wisp",
+      "pterodactyl": "Liberación de pterodáctilo",
+      "virtualizor_vps": "Entrega de VPS Virtualizor",
+      "virtualizor_cloud": "Envío de revendedor de VPS",
+      "pterobox": "Entrega Pterobox",
+      "service_suspended": "Servicio suspendido",
+      "invoice_created": "Factura creada",
+      "reset": "Restablecimiento de contraseña",
+      "verify": "Verificación de correo electrónico",
+      "plesk_hosting": "Entrega de Plesk Hosting",
+      "plesk_reseller": "Envío para revendedores de Plesk",
+      "proxmox": "Entrega de Proxmox",
+      "support_admin_ticket_created": "Ticket de soporte creado",
+      "support_admin_ticket_reply": "Respuesta de un cliente a un ticket de soporte",
+      "support_customer_ticket_reply": "Respuesta a un ticket de soporte",
+      "notify_subscription_failed": "Notificación de error de pago de suscripción",
+      "customer_banned": "Cliente baneado",
+      "customer_suspended": "Cliente suspendido",
+      "customer_reactivated": "Cliente reactivado",
+      "account_purge_reminder": "Recordatorio de eliminación de cuenta",
+      "customer_account_invitation": "Invitación a crear una cuenta de cliente",
+      "customer_account_access_granted": "Acceso a la cuenta del cliente concedido",
+      "two_factor_code": "Código de verificación de dos factores"
+    },
+    "errors": {
+      "dangerous_content": "El contenido contiene directivas PHP o Blade prohibidas."
+    }
+  },
+  "description": "Personaliza los menús en el área de clientes y en las redes sociales de la empresa.",
+  "social": {
+    "title": "Redes sociales",
+    "description": "Personaliza las redes sociales de la empresa",
+    "subheading": "Aquí está la lista de todas las redes sociales en el sistema",
+    "create": {
+      "title": "Crear una red social",
+      "subheading": "Crear una nueva red social para la empresa"
+    },
+    "show": {
+      "title": "Página de redes sociales {_name}",
+      "subheading": "A continuación te dejamos la información relacionada con esta red social creada en {_date}"
+    }
+  },
+  "config": {
+    "title": "Configuración",
+    "button": "Configurar mi tema",
+    "success": "La configuración se ha guardado correctamente."
+  },
+  "seo": {
+    "title": "Configuración de SEO",
+    "description": "Personalizar la configuración SEO del área de clientes",
+    "fields": {
+      "description": "Descripción del área de clientes",
+      "keywords": "Palabras clave del área de clientes",
+      "keywords_help": "Separados por comas",
+      "themecolor": "Color principal (incrustar)",
+      "headscripts": "Guiones en la cabeza",
+      "footscripts": "Scripts en el pie de página",
+      "disablereferencement": "Desactivar el SEO",
+      "site_title": "Título del sitio",
+      "site_title_help": "El título del sitio en las pestañas del navegador después del nombre de la página",
+      "og_title": "Título OG",
+      "og_description": "Descripción OG",
+      "og_image": "Imagen OG",
+      "og_image_help": "Tamaño recomendado: 1200x630px",
+      "twitter_handle": "Cuenta de Twitter",
+      "twitter_handle_help": "@nombredeusuario"
+    },
+    "social_section": "Redes sociales / Open Graph",
+    "success": "La configuración de SEO se ha guardado con éxito."
+  },
+  "primary": {
+    "title": "Colores principales",
+    "description": "Personaliza los colores principales del área de clientes",
+    "fields": {
+      "primary_color": "Color principal",
+      "secondary_color": "Color secundario"
+    },
+    "btnpreview": "Renderizado en vivo",
+    "preview_save": "Necesitas guardar para ver el renderizado en vivo"
+  },
+  "front_menu": {
+    "title": "Menú superior",
+    "description": "Personaliza el menú superior del área de clientes"
+  },
+  "bottom_menu": {
+    "title": "Menú de pie de página",
+    "description": "Personalizar el menú de pie de página del área de clientes"
+  },
+  "sections": {
+    "restoresuccess": "La sección se ha restaurado con éxito.",
+    "restore": "Restaurar",
+    "title": "Secciones",
+    "empty": "No se encontró ninguna sección para esta página.<br/> Puedes importar una desde el tema más abajo.",
+    "errors": {
+      "notfound": "Sección no encontrada",
+      "advanced_personalization": "Habilite el módulo de personalización avanzada para acceder a esta sección",
+      "sanitized_content": "El contenido contiene directivas PHP o Blade prohibidas."
+    },
+    "subheading": "Aquí están las secciones para la página {_name}",
+    "description": "Personaliza las secciones del área de clientes",
+    "content": "Contenido",
+    "show": {
+      "title": "Edición de una sección",
+      "protected_content": "Esta sección está protegida y no se puede modificar.",
+      "subheading": "Puedes editar el contenido de tu sección como desees"
+    },
+    "config": {
+      "btn": "Configurar sección",
+      "title": "Configuración de la sección",
+      "subheading": "Puedes modificar el contenido de tu sección como desees",
+      "fields": {
+        "badge": "Insignia",
+        "title": "Título",
+        "subtitle": "Subtitular",
+        "primary_cta": "Llamado a la acción principal",
+        "secondary_cta": "Llamado a la acción secundario",
+        "hero_icon": "icono principal",
+        "hero_title": "Título principal",
+        "hero_description": "Descripción principal"
+      }
+    },
+    "fields": {
+      "url": "Página de la sección",
+      "active": "Activo"
+    },
+    "disable": "Desactivar",
+    "enable": "Activar",
+    "types": {
+      "title": "Secciones disponibles para el tema {_name}"
+    },
+    "pages": {
+      "page_home": "Página principal",
+      "page_store": "Tienda",
+      "title": "Página",
+      "subheading": "Aquí está la lista de secciones para esta página",
+      "description": "Gestiona las secciones de la página {_name}",
+      "page_group": "{_name} página de grupo",
+      "page_checkout": "Página de pago",
+      "page_basket": "Página del carrito"
+    }
+  },
+  "home": {
+    "title": "Página principal",
+    "description": "Configuración en la página de inicio del área de clientes",
+    "success": "La configuración de la página de inicio se ha guardado correctamente.",
+    "fields": {
+      "theme_home_title": "Título de la página de inicio",
+      "theme_home_subtitle": "Subtítulo de la página de inicio",
+      "theme_home_image": "Imagen de la página de inicio",
+      "theme_home_enabled": "Habilitar la página de inicio",
+      "theme_home_title_meta": "Nombre de la página de inicio",
+      "theme_home_title_meta_help": "El nombre de la página de inicio en las pestañas del navegador",
+      "theme_home_redirect_route": "URL de redirección",
+      "theme_home_redirect_route_help": "Se utiliza si la página de inicio está desactivada."
+    }
+  },
+  "theme": {
+    "title": "Configuración del tema",
+    "description": "Configuración del tema del área de clientes",
+    "info": "Ahora puedes elegir tu tema en extensiones > temas. <a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">Haz clic aquí para acceder</a>.",
+    "current_theme": "Tema actual",
+    "themename": "Nombre del tema",
+    "fields": {
+      "theme_footer_description": "Pie de página Descripción",
+      "theme_footer_description_help": "Compatibilidad con HTML",
+      "theme_footer_topheberg": "Insignia HTML TopHeberg",
+      "theme_header_logo": "Mostrar el logotipo en el encabezado en lugar del nombre de la empresa",
+      "theme_switch_mode": {
+        "title": "Modo autorizado",
+        "light": "Brillante",
+        "dark": "Oscuro",
+        "both": "Ambos"
+      }
+    }
+  }
+}

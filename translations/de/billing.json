@@ -1,0 +1,74 @@
+{
+  "admin": {
+    "upgrades": {
+      "title": "Service-Verbesserungen",
+      "description": "Erfahren Sie, wie Kunden ihre Dienstleistungen verbessern."
+    },
+    "global_balance": "Gesamtbilanz",
+    "settings": {
+      "title": "Fakturierung",
+      "description": "Abrechnungseinstellungen speichern. Aktivieren Sie die Mehrwertsteuer, legen Sie die Währung fest oder anderes.",
+      "success": "Die Abrechnungseinstellungen wurden erfolgreich gespeichert.",
+      "webhookoncheckout": "Webhook an der Kasse",
+      "tax": "Verwaltung der Mehrwertsteuer",
+      "fields": {
+        "store_vat_enabled": "Mehrwertsteuer aktivieren",
+        "customermustbeconfirmed": "Der Kunde muss für die Bestellung bestätigt werden",
+        "toslink": "Link zu den Allgemeinen Verkaufsbedingungen",
+        "invoice_prefix": "Präfix Rechnung",
+        "billing_mode": "Abrechnungsmethode",
+        "billing_modes": {
+          "proforma": "Proforma",
+          "invoice": "Rechnung"
+        },
+        "add_setupfee_on_upgrade": "Hinzufügen von Konfigurationsgebühren während eines Upgrades",
+        "minimum_days_to_force_renewal_with_upgrade": "Minimale Zeit in Tagen, um eine Erneuerung mit einer Verbesserung zu erzwingen",
+        "remove_pending_invoice": "Aktion bei ausstehenden Rechnungen nach (Tagen)",
+        "remove_pending_invoice_help": "0 zum Deaktivieren",
+        "allow_add_balance_to_invoices": "Das Hinzufügen von Guthaben zu Rechnungen erlauben",
+        "remove_pending_invoice_types": {
+          "delete": "Löschen",
+          "cancel": "Abbrechen"
+        },
+        "vat_default_country": "Standardland für die Mehrwertsteuer",
+        "rates": {
+          "title": "Mehrwertsteuersatz",
+          "vat_rate_by_country": "Mehrwertsteuersatz nach Land des Kunden",
+          "vat_rate_fixed": "Fester Mehrwertsteuersatz"
+        },
+        "display_product_price": {
+          "title": "Anzeige des Produktpreises",
+          "included": "Inbegriffen - Der angezeigte Preis versteht sich inklusive Mehrwertsteuer",
+          "excluded": "Ausgeschlossen - Der angezeigte Preis versteht sich zzgl. MwSt."
+        },
+        "store_mode_tax": {
+          "title": "Steuerart",
+          "tax_included": "Inklusive Steuer",
+          "tax_excluded": "Steuer ausgeschlossen"
+        },
+        "store_enabled": "Shop aktiviert",
+        "store_redirect_url": "Weiterleitungs-URL (wenn deaktiviert)"
+      }
+    },
+    "title": "Fakturierung",
+    "subheading": "Abonnement- und Zahlungsverwaltung",
+    "subscriptions": {
+      "create": {
+        "title": "Erstellen eines Abonnements",
+        "subheading": "Erstellen eines Abonnements für einen Kunden"
+      },
+      "title": "Abonnements",
+      "description": "Verwaltung von Abonnements",
+      "last_payment_at": "Letzte Zahlung",
+      "active_subscription": "Aktive Abonnements",
+      "services_empty": "Keine Dienste gefunden",
+      "earn": {
+        "service_subscription_help": "Diese Daten basieren auf dem {_date}",
+        "monthly": "Monatliche Abonnements",
+        "monthly_earn": "Monatliche Verlängerungen",
+        "subscription_and_services": "Abonnements und Serviceverlängerungen",
+        "monthly_help": "Abonnements werden auf monatliche Verlängerungen angerechnet"
+      }
+    }
+  }
+}

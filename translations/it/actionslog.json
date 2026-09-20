@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "title": "Cronologia delle azioni",
+    "description": "Un elenco delle azioni intraprese dal personale e dal sistema.",
+    "subheading": "Cronologia delle azioni",
+    "see_staff_actions_log": "Visualizzare la cronologia delle azioni del personale",
+    "model": "Modello",
+    "model_id": "ID modello",
+    "payload": "Carico utile",
+    "attribute": "Attributo",
+    "oldvalue": "Vecchio valore",
+    "newvalue": "Nuovo valore",
+    "show": {
+      "title": "Dettagli dell'azione",
+      "subheading": "Dettagli dell'azione eseguita il {_date}"
+    }
+  },
+  "actions": {
+    "settings_updated": "Impostazioni aggiornate",
+    "new_login": "Nuovo indirizzo IP di connessione: {_ip}",
+    "resource_created": "Risorsa {_model} creata",
+    "resource_updated": "Risorsa {_model} aggiornato",
+    "resource_deleted": "Risorsa {_model} eliminata",
+    "resource_cloned": "Risorsa {_model} clonata",
+    "checkout_completed": "Ordine completato",
+    "service_delivered": "Servizio {_id} consegnato",
+    "service_cancelled": "{_id} servizio annullato",
+    "service_uncancelled": "{_id} servizio non annullato",
+    "service_suspended": "Servizio {_id} sospeso",
+    "service_unsuspended": "Servizio {_id} non sospeso",
+    "invoice_paid": "Fattura {_id} pagata",
+    "service_renewed": "Servizio {_id} rinnovato",
+    "other": "Altro",
+    "service_expired": "Servizio {_id} scaduto",
+    "extension_enabled": "Estensione {_extension} abilitata",
+    "extension_disabled": "Estensione {_extension} disabilitata",
+    "extension_installed": "Estensione {_extension} installata",
+    "theme_changed": "Tema cambiato",
+    "balance_changed": "Saldo clienti modificato da {_old} a {_new} {_reason}",
+    "account_verified": "Account verificato",
+    "password_reset": "Reimpostazione della password",
+    "two_factor_enabled": "Autenticazione a due fattori abilitata",
+    "two_factor_disabled": "Autenticazione a due fattori disabilitata",
+    "two_factor_recovery_codes_generated": "Codici di recupero dell'autenticazione a due fattori generati",
+    "passkey_registered": "Chiave di accesso aggiunta:{_name}",
+    "passkey_deleted": "Chiave di accesso eliminata:{_name}",
+    "failed_login": "Connessione fallita Indirizzo IP : {_ip}",
+    "account_deleted": "Account eliminato",
+    "new_registered": "Nuova registrazione"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "title": "Modalità di manutenzione",
+    "description": "Abilitare o disabilitare la modalità di manutenzione nell'area clienti",
+    "maintenance_enabled": "Abilita la modalità di manutenzione",
+    "maintenance_url": "URL di manutenzione",
+    "maintenance_url_help": "URL per ignorare la modalità di manutenzione",
+    "maintenance_message": "Messaggio di manutenzione",
+    "maintenance_message_help": "Messaggio visualizzato agli utenti quando accedono al sito in modalità di manutenzione",
+    "maintenance_button_text": "Testo del pulsante di manutenzione",
+    "maintenance_button_icon": "Icona del pulsante Manutenzione",
+    "maintenance_button_url": "URL pulsante di manutenzione",
+    "success": "Le impostazioni di manutenzione sono state aggiornate correttamente"
+  },
+  "in_maintenance_title": "Manutenzione continua",
+  "in_maintenance_message": "Il sito è attualmente in fase di manutenzione. Si prega di ricontrollare più tardi."
+}

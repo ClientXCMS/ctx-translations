@@ -1,0 +1,93 @@
+{
+  "title": "Extensies",
+  "description": "Beheer de ClientXCMS-extensies die beschikbaar zijn in de Marketplace, bekijk, schakel in of schakel extensies uit om de ervaring aan te passen.",
+  "settings": {
+    "title": "Instellingen voor extensies",
+    "description": "Instellingen voor geïnstalleerde extensies beheren",
+    "clearcache": "Cache wissen",
+    "search_placeholder": "Zoeken op naam, beschrijving of tag",
+    "processing": "Behandeling in uitvoering...",
+    "no_extensions_found": "Geen extensies gevonden",
+    "boot_error": "Fout bij het opstarten",
+    "boot_error_description": "Deze extensie is automatisch uitgeschakeld omdat deze niet kon worden gestart.",
+    "tabs": {
+      "my_extensions": "Mijn extensies",
+      "discover": "Ontdekken",
+      "themes": "Thema's"
+    },
+    "sections": {
+      "my_themes": "Mijn thema's",
+      "my_modules": "Mijn modules & add-ons",
+      "new": "Nieuw",
+      "popular": "Populair",
+      "all_extensions": "Alle extensies",
+      "all_themes": "Alle thema's"
+    },
+    "tags": {
+      "featured": "Uitgelicht",
+      "new": "Nieuw",
+      "popular": "Populair"
+    },
+    "no_installed": "Geen extensies geïnstalleerd",
+    "no_installed_desc": "Ontdek onze extensiecatalogus om uw ClientXCMS te verrijken",
+    "discover_extensions": "Extensies ontdekken",
+    "extensions_count": "extensies",
+    "uninstall": "Verwijderen",
+    "no_results": "Geen extensies voldoen aan uw zoekopdracht",
+    "themes_available": "thema's beschikbaar",
+    "no_themes": "Geen thema's beschikbaar",
+    "update_available": "Update beschikbaar",
+    "active": "Actief",
+    "enable": "Activeren",
+    "disable": "Deactiveren",
+    "enabled": "Geactiveerd",
+    "disabled": "Uitgeschakeld",
+    "installed": "Geïnstalleerd",
+    "update": "Bijwerken",
+    "processing_error": "Er is een fout opgetreden, probeer het alstublieft opnieuw.",
+    "install": "Installeren",
+    "reviews": "beoordelingen",
+    "search": "Zoek een extensie",
+    "activable": "Activeerbaar",
+    "notactivable": "Niet activeerbaar",
+    "buy": "Kopen"
+  },
+  "bulk": {
+    "select_all": "Alles selecteren",
+    "deselect_all": "Alles deselecteren",
+    "selected_count": ":count geselecteerd",
+    "install_selected": "Selectie installeren",
+    "enable_selected": "Selectie inschakelen",
+    "disable_selected": "Selectie uitschakelen",
+    "processing": "Verwerken...",
+    "success": "Bewerking succesvol voltooid",
+    "partial_success": ":success geslaagd, :failed mislukt"
+  },
+  "modal": {
+    "version": "Versie",
+    "author": "Auteur",
+    "price": "Prijs",
+    "buy_now": "Nu kopen",
+    "view_details": "Details bekijken",
+    "close": "Sluiten",
+    "tags": "Tags",
+    "last_update": "Laatste update"
+  },
+  "onetime": "Slechts één keer",
+  "monthly": "Maandelijks",
+  "flash": {
+    "already_enabled": "De extensie is al geactiveerd.",
+    "extension_not_enabled": "De extensie {_extension} is niet ingeschakeld en is vereist voor deze extensie.",
+    "cannot_enable": "Kan de extensie niet activeren.",
+    "composer_not_found": "Het composer.json bestand is niet gevonden.",
+    "extension_not_loaded": "De extensie {_extension} is vereist om deze extensie te activeren.",
+    "extension_not_installed": "De extensie {_extension} is niet geïnstalleerd.",
+    "extension_version_not_compatible": "De extensieversie {_extension} ({_current}) is niet compatibel met de vereiste versie ({_version}).",
+    "cache_cleared": "De cache is gewist.",
+    "enabled": "De extensie is succesvol geactiveerd.",
+    "disabled": "De extensie is succesvol uitgeschakeld.",
+    "updated": "De extensie is succesvol bijgewerkt.",
+    "uninstalled": "De extensie is succesvol verwijderd.",
+    "uninstall_must_disable_first": "De extensie moet worden uitgeschakeld voordat deze kan worden verwijderd."
+  }
+}

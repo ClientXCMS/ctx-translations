@@ -1,0 +1,543 @@
+{
+  "disk": "Schijf",
+  "disks": "Schijven",
+  "in_gb": "Waarde in GB",
+  "in_mb": "Waarde in MB",
+  "network_speed": "Netwerk snelheid",
+  "upload_speed": "Upload snelheid",
+  "ips": "IPs",
+  "ip6": "IP6",
+  "ip6subnet": "IP6-subnet",
+  "burstable_memory": "Burstable geheugen",
+  "guaranteed_memory": "Gegarandeerd geheugen",
+  "memory": "Geheugen",
+  "cpu": "Processor",
+  "io": "I/O",
+  "database": "Databank",
+  "backups": "Backups",
+  "databases": "Databases",
+  "swap": "Ruilen",
+  "allocations": "Emissierechten",
+  "bandwidth": "Bandbreedte",
+  "connect": "Verbinding maken met het paneel",
+  "start": "Start de server",
+  "stop": "Sluit de server af",
+  "restart": "Start de server opnieuw op",
+  "kill": "Sluit de server af",
+  "image": "Docker-afbeelding",
+  "startup": "Start controle",
+  "port_range": "Bereik van de haven",
+  "port_range_help": "Bijvoorbeeld: 30100-30200 voor FiveM",
+  "eggs": "Spel Eieren",
+  "eggs_help": "Als je het spel ei dat je wilt niet kunt vinden, kun je de cache in je extensies leegmaken.",
+  "location": "Plaats",
+  "servers": "Geautoriseerde servers",
+  "server": "Server",
+  "server_name": "Naam van de server",
+  "server_description": "Beschrijving van de server",
+  "db": "Databank",
+  "dedicated_ip": "Toegewijd IP-adres",
+  "cores": "Harten",
+  "rate": "Debiteren",
+  "sockets": "Sockets",
+  "oom_kill": "Oom doden",
+  "used": "Gebruikt",
+  "vnc": "VNC",
+  "region": "Regio",
+  "oses": "Besturingssystemen",
+  "planname": "Naam hostingplan",
+  "domain": "Domein",
+  "sites": "Geautoriseerde sites",
+  "subftp_users": "Extra FTP-gebruikers",
+  "autologin": "Automatische verbinding",
+  "autologin_admin": "Automatische verbinding als administrator",
+  "see_website": "Bezoek de website",
+  "ftp_login": "FTP-ID",
+  "ftp_password": "FTP-wachtwoord",
+  "php_version": "Versie van PHP",
+  "www_root": "Hoofdmap van de website",
+  "ip_addresses": "IP-adressen",
+  "unlimited": "Onbegrensd",
+  "traffic": "Verkeer",
+  "active_services": "Actieve diensten",
+  "domains": "Gebieden",
+  "clients": "Klanten",
+  "doyouwantreallyreinstallvps": "Wilt u deze server echt opnieuw installeren?",
+  "website_info": "Website Informatie",
+  "product_not_configured": "Het product is nog niet geconfigureerd. Configureer het product vanuit de beheerdersinterface.",
+  "planname_help": "U kunt de naam van het hostingpakket configureren in het paneel {_plateform}",
+  "server_variables": "%owner_email%, %owner_username%, %owner_firstname%, %owner_lastname%, %product_name%, %service_id%, %service_expiration%",
+  "states": {
+    "running": "Verlicht",
+    "stopped": "Uitgestorven",
+    "starting": "Slag",
+    "stopping": "Shutdown bezig"
+  },
+  "domain_manager": {
+    "server_type": "Domeinbeheerder",
+    "domain": "Domein",
+    "tld": "Verlenging",
+    "details": "Domeingegevens",
+    "register": "Registratie",
+    "renew": "Vernieuwing",
+    "transfer": "Overdracht",
+    "nameservers": "Naamservers",
+    "nameserver": "Naamserver: nummer",
+    "dns": "DNS",
+    "whois_privacy": "WHOIS-bescherming",
+    "creation_date": "Aanmaakdatum",
+    "expiration_date": "Vervaldatum",
+    "search": {
+      "title": "Zoek een domein",
+      "submit": "Om te onderzoeken",
+      "available": "Beschikbaar",
+      "unavailable": "Niet beschikbaar",
+      "no_product": "Er is geen actief domeintypeproduct geconfigureerd.",
+      "subtitle": "Vind de ideale domeinnaam om uw project tot leven te brengen.",
+      "placeholder": "votre-projet.fr",
+      "domain_placeholder": "jouw-project",
+      "alternatives": "Andere extensies beschikbaar",
+      "alternatives_help": "Bescherm uw naam of kies een extensie die beter bij uw project past.",
+      "choose": "Kiezen",
+      "no_available": "Er zijn geen andere extensies beschikbaar voor deze naam.",
+      "configure": "Configureer uw domein",
+      "configure_help": "Controleer de naam en extensie voordat u verdergaat.",
+      "results": "Zoekresultaten",
+      "extensions": "Ontdek onze extensies",
+      "extensions_help": "Selecteer een extensie om direct de beschikbaarheid ervan te controleren.",
+      "from": "Van"
+    },
+    "errors": {
+      "invalid_tld": "Het domein komt niet overeen met de geselecteerde extensie."
+    }
+  },
+  "cancellation": {
+    "rule_label": "Annuleringsregel",
+    "mode_immediate": "Sta onmiddellijke annulering toe",
+    "mode_support_ticket": "Omleiding naar het maken van een supportticket",
+    "mode_after_expiration": "Sta annulering toe nadat de service is verlopen",
+    "requires_ticket": "Voor deze annuleringsreden is het openen van een supportticket vereist.",
+    "after_expiration_only": "Deze annulering is pas toegestaan ​​na het verstrijken van de dienst.",
+    "ticket_no_details": "Geen aanvullende informatie."
+  },
+  "config_option": "Configuratie optie",
+  "admin": {
+    "title": "Aanvoer",
+    "subheading": "Beheer de levering van services voor klanten.",
+    "settings": {
+      "services": {
+        "title": "Service-instellingen",
+        "webhookonrenew": "Webhook bij verlenging",
+        "success": "De instellingen van de services zijn succesvol opgeslagen.",
+        "description": "Configureer de opties voor servicebeheer die beschikbaar zijn voor klanten, inclusief verval- en verlengingsregels.",
+        "subscription": "Abonnement",
+        "fields": {
+          "days_before_creation_invoice_renewal": "Dagen voordat de verlengingsfactuur werd aangemaakt",
+          "days_before_expiration": "Dagen voor de vervaldatum",
+          "max_subscription_tries": "Maximaal aantal pogingen tot automatische verlenging",
+          "max_subscription_tries_help": "Na dit nummer wordt het abonnement geannuleerd .0 om uit te schakelen",
+          "notifications_expiration_days": "Kennisgeving dagen voor de vervaldatum",
+          "days_before_expiration_help": "Aantal dagen na opschorting van de service voordat de service wordt stopgezet",
+          "allow_cancellation": "Klanten toestaan een annulering aan te vragen",
+          "allow_cancellation_help": "Indien uitgeschakeld, is de annuleringspagina niet zichtbaar aan de klantzijde.",
+          "cancellation_lock_days": "Aantal dagen na activering voordat annulering mogelijk is",
+          "cancellation_lock_days_help": "Tijdens deze periode blijft het annuleringsformulier verborgen, zelfs als de optie is ingeschakeld.",
+          "lifecycle_title": "Uitadem- en opschortingscyclus",
+          "suspend_after_unpaid_days": "Automatische opschorting na onbetaalde factuur (D+)",
+          "renewal_grace_days": "Verlengingsperiode met herinneringen (dagen)",
+          "domain_search_enabled": "Domein zoeken inschakelen"
+        }
+      }
+    },
+    "domain_tlds": {
+      "title": "Domeinextensies",
+      "subheading": "Configureer domeinextensies, providers en prijzen.",
+      "extension": "Verlenging",
+      "server": "Standaardaanbieder",
+      "prices": "Prijs per aandeel",
+      "create": {
+        "title": "Maak een extensie",
+        "subheading": "Voeg een nieuwe domeinextensie toe."
+      },
+      "show": {
+        "title": "Extensie: naam"
+      },
+      "tools": {
+        "tools": "Uitbreidingshulpmiddelen",
+        "nameservers": "Standaard DNS-servers",
+        "records": "Standaard DNS-records",
+        "defaults_help": "Deze waarden worden gekopieerd naar nieuwe opdrachten. Bestaande domeinen blijven ongewijzigd.",
+        "apply_dns": "Pas records toe bij het maken van domeinen",
+        "managed_dns_help": "Voor initialisatie zijn de DNS-servers van de registrar en een compatibele verbinding vereist. Prioriteit geldt alleen voor MX-records.",
+        "invalid_dns": "DNS-configuratie is ongeldig: controleer CNAME-servers, typen en conflicten.",
+        "incompatible_dns": "Kies een compatibele verbinding, de bijbehorende DNS-servers en ten minste één record, waarbij DNS-beheer is ingeschakeld.",
+        "missing_nameservers": "Configureer minimaal twee DNS-servers op deze extensie voordat u deze bestelt of activeert.",
+        "catalog": "Importeren vanuit een registrar",
+        "registrar": "Registrar",
+        "unsupported": "Niet-ondersteunde functie",
+        "load": "Catalogus laden",
+        "worker_help": "De catalogus wordt geladen door de takenwachtrij. Er moet een werker actief zijn als uw wachtrij asynchroon is.",
+        "catalog_help": "Selecteer extensies en bereken vervolgens de verkoopprijzen. Alleen de door de registrar gecodeerde looptijden worden geïmporteerd, zonder extrapolatie van prijzen of premiumdomeinen.",
+        "catalog_failed": "Kan catalogus niet laden. Controleer de verbinding en logboeken en probeer vervolgens opnieuw te uploaden.",
+        "copy": "Kopieer een configuratie",
+        "source": "Bronextensie",
+        "destinations": "Ontvangerextensies",
+        "fields": "Instellingen om te kopiëren",
+        "field_default_nameservers": "Standaard DNS-servers",
+        "field_default_dns_records": "Standaard DNS-records",
+        "field_apply_default_dns": "Automatische DNS-initialisatie",
+        "field_dns_management": "DNS-beheer",
+        "field_whois_privacy": "WHOIS-privacy",
+        "field_server_id": "Registrar Inloggen",
+        "field_prices": "Prijzen en geconfigureerde duur",
+        "filter": "Filterextensies",
+        "select_visible": "Selecteer zichtbare extensies",
+        "select_targets": "Selecteer ten minste één ontvangerextensie die u wilt wijzigen.",
+        "selected": "geselecteerde extensie(s)",
+        "preview": "Voorbeeld van wijzigingen",
+        "before": "Voor",
+        "after": "Na",
+        "confirm": "Wijzigingen toepassen",
+        "applied": "De wijzigingen zijn toegepast.",
+        "stale": "De preview is verlopen of de configuratie is gewijzigd. Genereer een nieuw voorbeeld.",
+        "cost": "Kosten griffier",
+        "selling": "Verkoopprijs",
+        "markup": "Opmaak",
+        "fixed": "Vast bedrag",
+        "exchange_required": "Voer de conversiekoers naar de verkoopvaluta in.",
+        "invalid_price": "De prijs of berekeningsregel is ongeldig.",
+        "update_existing": "Update prijzen voor geselecteerde bestaande extensies",
+        "activate": "Activeer nieuwe extensies als hun configuratie voltooid is",
+        "existing": "Al geconfigureerd",
+        "new": "Nieuwe uitbreiding",
+        "value": "Waarde",
+        "priority": "Prioriteit",
+        "refresh": "Vernieuwen",
+        "dns_status": "DNS-initialisatie",
+        "retry_dns": "Start alleen de DNS-initialisatie opnieuw",
+        "queued": "DNS-initialisatie is aangevraagd.",
+        "state_pending": "In de wacht",
+        "state_loading": "Laden",
+        "state_ready": "Catalogus beschikbaar",
+        "state_preview": "Overzicht van wijzigingen",
+        "state_applied": "Wijzigingen toegepast",
+        "state_failed": "Mislukking",
+        "state_completed": "Afgerond"
+      }
+    },
+    "servers": {
+      "testconnection": {
+        "title": "Test de verbinding",
+        "button": "Controleren",
+        "data": "Geretourneerde gegevens",
+        "statuscode": "Statuscode"
+      },
+      "title": "Servers",
+      "subheading": "Bekijk een lijst met geconfigureerde servers, bekijk hun details en beheer hun status en verbindingsinformatie om een optimale werking te garanderen.",
+      "hostname": "Hostnaam",
+      "address": "IP-adres",
+      "port": "Poort",
+      "type": "Server Type",
+      "show": {
+        "title": "Server Blad {_name}",
+        "subheading": "Hier is de informatie met betrekking tot deze server gemaakt op {_date}"
+      },
+      "create": {
+        "title": "Een server maken",
+        "enable_extension": "Een extensie inschakelen",
+        "enable_extension_help": "U moet een extensie inschakelen om een server te maken. U kunt bijvoorbeeld Pterodactyl, Plesk, Proxmox of Virtualizor kiezen, afhankelijk van uw gebruik.",
+        "subheading": "Maak een nieuwe server om deze met het systeem te verbinden"
+      }
+    },
+    "cancellation_reasons": {
+      "title": "Annuleringsredenen",
+      "subheading": "Beheer de annuleringsredenen voor services",
+      "reason": "Reden",
+      "reason_placeholder": "Voer de annuleringsreden in...",
+      "create": "Een annuleringsreden aanmaken",
+      "create_description": "Een nieuwe annuleringsreden toevoegen",
+      "show": "Annuleringsreden wijzigen",
+      "show_description": "De details van deze annuleringsreden wijzigen",
+      "usage_count": "Deze reden wordt gebruikt door {_count} geannuleerde service(s).",
+      "analytics": {
+        "title": "Annuleringsstatistieken",
+        "description": "Analyseer de annuleringsredenen van uw services",
+        "total_cancellations": "Totaal aantal annuleringen",
+        "reasons_count": "Aantal redenen",
+        "period": "Periode",
+        "distribution": "Verdeling van annuleringen",
+        "breakdown": "Detail per reden",
+        "cancelled_services": "Geannuleerde services",
+        "cancelled_at": "Geannuleerd op",
+        "no_data": "Geen gegevens voor deze periode",
+        "all_data": "Alle gegevens"
+      }
+    },
+    "cancellation_analytics": {
+      "title": "Annuleringsstatistieken",
+      "subheading": "Annuleringstendensen analyseren"
+    },
+    "services": {
+      "no_gateway": "Er is geen betalingsgateway ingesteld voor deze service",
+      "invoice_not_found": "De factuur is niet gevonden",
+      "invalid_status": "Ongeldige status",
+      "invalid_customer": "Ongeldige klant",
+      "status_change_failed": "Kan de servicestatus niet wijzigen: {_error}",
+      "automation": {
+        "disable_suspension": "Schakel automatisch opschorten uit",
+        "enable_suspension": "Automatische opschorting opnieuw activeren",
+        "disable_expiration": "Schakel automatisch verlopen uit",
+        "enable_expiration": "Schakel automatisch verlopen opnieuw in",
+        "enabled_notice": "Deze service kan worden opgeschort en vervolgens automatisch door het systeem worden verwijderd.",
+        "suspension_disabled_notice": "Deze service wordt niet automatisch door het systeem opgeschort, maar de automatische vervaldatum blijft ingeschakeld.",
+        "expiration_disabled_notice": "Deze service kan automatisch door het systeem worden opgeschort, maar wordt niet automatisch verwijderd.",
+        "disabled_notice": "Deze service wordt niet automatisch door het systeem opgeschort of verwijderd.",
+        "disable_suspension_success": "Automatische opschorting is uitgeschakeld.",
+        "enable_suspension_success": "Automatische opschorting is opnieuw geactiveerd.",
+        "disable_expiration_success": "Automatisch verlopen en de bijbehorende meldingen zijn uitgeschakeld.",
+        "enable_expiration_success": "Automatisch verlopen en de bijbehorende meldingen zijn opnieuw ingeschakeld."
+      },
+      "title": "Diensten",
+      "add_days": "Dagen toevoegen",
+      "sub_days": "Dagen aftrekken",
+      "tab_not_found": "Kan het tabblad niet vinden",
+      "add_days_question": "Hoeveel dagen wil je toevoegen?",
+      "sub_days_question": "Hoeveel dagen wil je aftrekken?",
+      "invalid_product_type": "Ongeldig servicetype. U hebt een product van het type {_product} aangevraagd en een type {_type} geselecteerd. Kies a.u.b. hetzelfde type.",
+      "expired": "Deze service is verlopen of beëindigd.",
+      "delete_failed": "Kan de service op de server niet verwijderen: {_error}",
+      "imported": "Succesvol geïmporteerde service",
+      "pricing_custom": "De prijs moet handmatig worden ingesteld voor deze service. U kunt deze later wijzigen.",
+      "pricing_custom2": "De prijs is handmatig ingesteld voor deze service. Dit stelt in staat om wel of niet factureringscycli toe te staan.",
+      "resync": "Her-synchroniseren met het product",
+      "pricing_synchronized": "De prijs van de dienst is gesynchroniseerd met de prijs van het product. U kunt deze aanpassen als u dat wilt voor deze dienst alleen.",
+      "create": {
+        "nothingtoshow": "Er is op dit moment geen serviceconfiguratie beschikbaar. U kunt de service maken",
+        "title": "Een dienst maken",
+        "subheading": "Maak een nieuwe service of importeer een bestaande",
+        "importbtn": "Importeur",
+        "choose": "Kies een bestaande accommodatie",
+        "import": "<u> OF </u>&nbsp; Importeer een service",
+        "new": "Maak een nieuwe service",
+        "created": "De service is succesvol gemaakt"
+      },
+      "show": {
+        "customerbtn": "Klantenbestand",
+        "type": "Soort dienst",
+        "notes": "Service opmerkingen",
+        "description_help": "U kunt een beschrijving voor deze service toevoegen. Deze zal zichtbaar zijn voor de klant in zijn ruimte.",
+        "notes_help": "U kunt een opmerking toevoegen voor deze service. Deze zal niet zichtbaar zijn voor de klant.",
+        "title": "Onderhoudsfiche {_name}",
+        "max_renewals": "Maximale verlengingen",
+        "subheading": "Hier is de informatie met betrekking tot de {_owner}-service die op {_date} is gemaakt",
+        "panel": {
+          "title": "Beheer Paneel"
+        }
+      },
+      "subheading": "Hier is de lijst met alle services in het systeem",
+      "renewals": {
+        "btn": "Hernieuwing",
+        "title": "Verlenging van de dienst",
+        "create": "Een verlengingsfactuur uitgeven",
+        "btn2": "De factuur uitreiken",
+        "remove": "Factuur intrekken",
+        "removed": "De factuur is succesvol ingetrokken",
+        "fromexistinginvoice": "Toevoegen aan een bestaande openstaande factuur"
+      },
+      "configoptions": {
+        "btn": "Service opties",
+        "addoption": "Voeg een extra optie toe",
+        "addoption_help": "Dit voegt een extra optie toe aan deze service op het klantengedeelte. De optie wordt niet automatisch aan de service toegevoegd."
+      },
+      "upgrade": {
+        "btn": "Verbetering van de dienstverlening",
+        "success": "De service is met succes verbeterd.",
+        "makeupgrade": "Verbeter de service",
+        "upgrade_type": "Type verbetering",
+        "upgrade_types": {
+          "invoice": "Genereer een factuur die door de klant moet worden betaald",
+          "no_invoice": "Verbeter de facturaire service"
+        }
+      },
+      "delivery": {
+        "btn": "Het leveren van de service",
+        "btn2": "De service opnieuw leveren",
+        "success": "De service is succesvol opgeleverd",
+        "in_queue": "De levering van de service staat al in de wachtrij",
+        "reinstall": "De service wordt opnieuw geleverd",
+        "not_pending": "De service wacht niet op levering"
+      },
+      "suspend": {
+        "btn": "Hangen",
+        "title": "Service opschorten",
+        "reason": "Reden voor schorsing",
+        "success": "De dienst is met succes opgeschort",
+        "notify": "Stuur een notificatie e-mail",
+        "suspend_at": "Opgeschort op"
+      },
+      "unsuspend": {
+        "btn": "Opnieuw activeren",
+        "title": "De service opnieuw activeren",
+        "success": "De service is succesvol opnieuw geactiveerd"
+      },
+      "terminate": {
+        "btn": "Fins",
+        "title": "Maak de service af",
+        "success": "De service is succesvol verlopen"
+      },
+      "data": {
+        "title": "Service gegevens",
+        "btn": "Gegevens",
+        "orderdata": "Gegevens bestelling"
+      },
+      "cancel": {
+        "btn": "Afgelasting",
+        "message": "Boodschap overgebracht",
+        "title": "Service annuleren",
+        "restore": "Service herstellen",
+        "reason": "Reden van annulering",
+        "success": "De dienst is succesvol geannuleerd",
+        "delivery": "Annuleer de levering van de service",
+        "pending": "De service is in afwachting van levering. Als u annuleert, wordt het niet geleverd."
+      },
+      "uncancel": {
+        "success": "De service is met succes hersteld"
+      },
+      "delete_cancel_delivery": "Annuleer ook de levering van het gekoppelde factuuritem (alle bijbehorende diensten) om te voorkomen dat de dienst opnieuw wordt aangeboden. Haal het vinkje weg om de bezorging te behouden."
+    },
+    "cancellation_requests": {
+      "title": "Annuleringsaanvragen",
+      "subheading": "Volg en verwerk annuleringsaanvragen ingediend door uw klanten.",
+      "service": "Service",
+      "customer": "Klant",
+      "mode": "Modus",
+      "status": "Status",
+      "requested_at": "Aangevraagd op",
+      "execute_at": "Uitgevoerd op",
+      "reason": "Reden",
+      "message": "Klantbericht",
+      "handler": "Verwerkt door",
+      "empty": "Geen annuleringsaanvragen gevonden.",
+      "modes": {
+        "now": "Onmiddellijk",
+        "end_of_period": "Einde van de periode"
+      },
+      "actions": {
+        "approve": "Aanvraag bevestigen",
+        "reject": "Aanvraag annuleren"
+      },
+      "flash": {
+        "approved": "De annuleringsaanvraag is goedgekeurd.",
+        "rejected": "De annuleringsaanvraag is geannuleerd.",
+        "not_actionable": "Deze aanvraag is al verwerkt."
+      },
+      "show": {
+        "title": "Aanvraag nr. {_id}",
+        "subheading": "Volledige details van de annuleringsaanvraag van de klant."
+      },
+      "no_actions": "Geen actie mogelijk voor deze aanvraag."
+    },
+    "subdomains_hosts": {
+      "title": "Subdomeinen",
+      "subdomain": "Subdomein",
+      "subheading": "Voeg de geautoriseerde subdomeinen toe of beheer ze die uw klanten kunnen gebruiken voor hun gehoste webservices.",
+      "products": "Geautoriseerde producten",
+      "groups": "Toegestane groepen",
+      "restrictions": "Beperkingen",
+      "restrictions_help": "Laat dit veld leeg om dit subdomein op alle producten toe te staan.",
+      "all_products": "Alle producten",
+      "products_count": ":tel product|:tel producten",
+      "groups_count": ":tel groep|:tel groepen",
+      "create": {
+        "title": "Maak een subdomein aan",
+        "subheading": "Maak een nieuw subdomein voor klanten."
+      },
+      "show": {
+        "title": "Subdomein Vermelding {_name}",
+        "subheading": "Hier is de informatie met betrekking tot dit subdomein gemaakt op {_date}"
+      },
+      "choose_domain": "Kies een domein",
+      "use_subdomain": "Kies een subdomein {_app_name}",
+      "use_owndomain": "Een bestaand domein gebruiken"
+    },
+    "configoptions_services": {
+      "title": "Opties voor serviceconfiguratie",
+      "subheading": "Definieer de extra opties die beschikbaar zijn voor de services van uw klanten, inclusief aanpassingen en provisioningmodules.",
+      "show": {
+        "title": "Configuratie-optie kaart {_name}",
+        "see_service": "Bekijk Service",
+        "subheading": "Hier is de informatie met betrekking tot deze configuratie-optie die is gemaakt op {_date}"
+      }
+    },
+    "upgrade_services": {
+      "title": "Verbeteringen in de service",
+      "subheading": "Beheer serviceverbeteringen.",
+      "old_product": "Oud product",
+      "new_product": "Nieuw product",
+      "upgraded": "Verbeterd",
+      "show": {
+        "title": "Verbetering blad {_name}",
+        "subheading": "Hier is de informatie met betrekking tot deze verbetering die is gemaakt op {_date}"
+      }
+    },
+    "configoptions": {
+      "title": "Configuratie-opties",
+      "subheading": "Beheer en personaliseer de verschillende beschikbare configuratie-opties om een optimale aanpassing aan specifieke vereisten te garanderen.",
+      "hidden": "Waarschuwing: deze optie is voorlopig verborgen om deze te bewerken. Je kunt het zichtbaar maken als je klaar bent.",
+      "option_added": "De optie is succesvol toegevoegd",
+      "option_last": "U kunt de laatste optie niet verwijderen",
+      "per_unit": "Prijzen zijn per {_unit}",
+      "cannot_delete_in_use": "Het is niet mogelijk om deze configuratie-optie te verwijderen omdat deze wordt gebruikt door een of meerdere diensten.",
+      "per_step": "Prijzen zijn per {_step} {_unit}",
+      "show": {
+        "title": "Configuratie-optie kaart {_name}",
+        "subheading": "Hier is de informatie met betrekking tot deze configuratie-optie die is gemaakt op {_date}",
+        "options": {
+          "title": "Beschikbare opties",
+          "add_option": "Een optie toevoegen",
+          "friendly_name": "Weergavenaam"
+        }
+      },
+      "create": {
+        "title": "Maak een configuratieoptie",
+        "subheading": "Maak een nieuwe configuratieoptie voor services."
+      },
+      "fields": {
+        "custom_key": "Aangepaste sleutel",
+        "max_value": "Maximale waarde",
+        "min_value": "Minimale waarde",
+        "required": "Vereist",
+        "default_value": "Verstek",
+        "step": "Cursor stap",
+        "unit": "Eenheid",
+        "rules": "Aanvullende Laravel regels"
+      },
+      "types": {
+        "text": "Sms",
+        "textarea": "Tekstvak",
+        "dropdown": "Uitklapmenu",
+        "radio": "Keuzerondje",
+        "checkbox": "Selectievakje",
+        "number": "Getal",
+        "slider": "Cursor"
+      },
+      "keys": {
+        "additional_memory": "Aanvullende inzending",
+        "additional_cores": "Extra kernen",
+        "additional_ips": "Aanvullende IP's",
+        "additional_sockets": "Extra stopcontacten",
+        "ratelimit": "Debiteren",
+        "additional_disk": "Uitbreiding schijf",
+        "node": "Levering knooppunt",
+        "server_id": "Server/Locatie",
+        "additional_swap": "Extra ruil",
+        "additional_cpu": "Extra processor",
+        "additional_databases": "Aanvullende databases",
+        "additional_backups": "Aanvullende back-ups",
+        "additional_io": "Aanvullende I/O",
+        "additional_allocations": "Aanvullende vergoedingen",
+        "custom": "Gewoonte"
+      }
+    }
+  }
+}

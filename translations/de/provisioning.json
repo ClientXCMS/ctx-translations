@@ -1,0 +1,543 @@
+{
+  "disk": "Scheibe",
+  "disks": "Platten",
+  "in_gb": "Wert in GB",
+  "in_mb": "Wert in MB",
+  "network_speed": "Netzwerkgeschwindigkeit",
+  "upload_speed": "Upload-Geschwindigkeit",
+  "ips": "Ips",
+  "ip6": "Schutzart IP6",
+  "ip6subnet": "IP6-Subnetz",
+  "burstable_memory": "Stabiler Speicher",
+  "guaranteed_memory": "Garantierter Arbeitsspeicher",
+  "memory": "Gedächtnis",
+  "cpu": "Prozessor",
+  "io": "E/A",
+  "database": "Datenbank",
+  "backups": "Sicherungen",
+  "databases": "Datenbanken",
+  "swap": "Tauschen",
+  "allocations": "Zertifikate",
+  "bandwidth": "Bandbreite",
+  "connect": "Anschließen an das Panel",
+  "start": "Starten Sie den Server",
+  "stop": "Fahren Sie den Server herunter",
+  "restart": "Starten Sie den Server neu",
+  "kill": "Fahren Sie den Server herunter",
+  "image": "Docker-Bild",
+  "startup": "Steuerung starten",
+  "port_range": "Port-Bereich",
+  "port_range_help": "Beispiel: 30100-30200 für FiveM",
+  "eggs": "Wild-Eier",
+  "eggs_help": "Wenn Sie das gewünschte Spiel-Ei nicht finden können, können Sie den Cache in Ihren Erweiterungen leeren.",
+  "location": "Ort",
+  "servers": "Autorisierte Server",
+  "server": "Server",
+  "server_name": "Name des Servers",
+  "server_description": "Server-Beschreibung",
+  "db": "Datenbank",
+  "dedicated_ip": "Dedizierte IP",
+  "cores": "Herz",
+  "rate": "Soll",
+  "sockets": "Steckdosen",
+  "oom_kill": "Oom töten",
+  "used": "Gebraucht",
+  "vnc": "VNC (VNC)",
+  "region": "Region",
+  "oses": "Betriebssysteme",
+  "planname": "Name des Hosting-Pakets",
+  "domain": "Domäne",
+  "sites": "Autorisierte Websites",
+  "subftp_users": "Zusätzliche FTP-Benutzer",
+  "autologin": "Automatische Verbindung",
+  "autologin_admin": "Automatische Anmeldung als Administrator",
+  "see_website": "Besuchen Sie die Website",
+  "ftp_login": "FTP-Kennung",
+  "ftp_password": "FTP-Passwort",
+  "php_version": "Version de PHP",
+  "www_root": "Stammverzeichnis der Website",
+  "ip_addresses": "IP-Adressen",
+  "unlimited": "Unbegrenzt",
+  "traffic": "Verkehr",
+  "active_services": "Aktive Dienstleistungen",
+  "domains": "Flächen",
+  "clients": "Kundschaft",
+  "doyouwantreallyreinstallvps": "Wollen Sie diesen Server wirklich neu installieren?",
+  "website_info": "Informationen zur Website",
+  "product_not_configured": "Das Produkt ist noch nicht konfiguriert. Bitte konfigurieren Sie das Produkt über die Admin-Oberfläche.",
+  "planname_help": "Sie können den Namen des Hosting-Pakets im Bereich {_plateform} konfigurieren",
+  "server_variables": "%owner_email%, %owner_username%, %owner_firstname%, %owner_lastname%, %product_name%, %service_id%, %service_expiration%",
+  "states": {
+    "running": "Angezündet",
+    "stopped": "Ausgestorben",
+    "starting": "Erste Schritte",
+    "stopping": "Abschaltung läuft"
+  },
+  "domain_manager": {
+    "server_type": "Domänenmanager",
+    "domain": "Domain",
+    "tld": "Verlängerung",
+    "details": "Domaindetails",
+    "register": "Anmeldung",
+    "renew": "Erneuerung",
+    "transfer": "Überweisen",
+    "nameservers": "Nameserver",
+    "nameserver": "Nameserver: Nummer",
+    "dns": "DNS",
+    "whois_privacy": "WHOIS-Schutz",
+    "creation_date": "Erstellungsdatum",
+    "expiration_date": "Verfallsdatum",
+    "search": {
+      "title": "Suchen Sie nach einer Domain",
+      "submit": "Zur Recherche",
+      "available": "Verfügbar",
+      "unavailable": "Nicht verfügbar",
+      "no_product": "Es ist kein aktives Domänentypprodukt konfiguriert.",
+      "subtitle": "Finden Sie den idealen Domainnamen, um Ihr Projekt zum Leben zu erwecken.",
+      "placeholder": "votre-projet.fr",
+      "domain_placeholder": "Ihr-Projekt",
+      "alternatives": "Weitere Erweiterungen verfügbar",
+      "alternatives_help": "Schützen Sie Ihren Namen oder wählen Sie eine Namenserweiterung, die besser zu Ihrem Projekt passt.",
+      "choose": "Wählen",
+      "no_available": "Für diesen Namen sind keine anderen Erweiterungen verfügbar.",
+      "configure": "Konfigurieren Sie Ihre Domain",
+      "configure_help": "Überprüfen Sie den Namen und die Erweiterung, bevor Sie fortfahren.",
+      "results": "Suchergebnisse",
+      "extensions": "Entdecken Sie unsere Erweiterungen",
+      "extensions_help": "Wählen Sie eine Erweiterung aus, um deren Verfügbarkeit sofort zu prüfen.",
+      "from": "Aus"
+    },
+    "errors": {
+      "invalid_tld": "Die Domain stimmt nicht mit der ausgewählten Erweiterung überein."
+    }
+  },
+  "cancellation": {
+    "rule_label": "Stornoregel",
+    "mode_immediate": "Erlauben Sie eine sofortige Stornierung",
+    "mode_support_ticket": "Weiter zum Erstellen eines Support-Tickets",
+    "mode_after_expiration": "Stornierung nach Ablauf des Dienstes zulassen",
+    "requires_ticket": "Dieser Stornierungsgrund erfordert die Eröffnung eines Support-Tickets.",
+    "after_expiration_only": "Diese Stornierung wird erst nach Ablauf des Dienstes genehmigt.",
+    "ticket_no_details": "Keine zusätzlichen Informationen."
+  },
+  "config_option": "Konfigurationsoption",
+  "admin": {
+    "title": "Bereitstellung",
+    "subheading": "Verwalten Sie die Bereitstellung von Diensten für Kunden.",
+    "settings": {
+      "services": {
+        "title": "Service-Einstellungen",
+        "webhookonrenew": "Webhook bei Erneuerung",
+        "success": "Die Einstellungen der Dienste wurden erfolgreich gespeichert.",
+        "description": "Service-Einstellungen",
+        "subscription": "Abonnement",
+        "fields": {
+          "days_before_creation_invoice_renewal": "Tage bevor die Verlängerungsrechnung erstellt wurde",
+          "days_before_expiration": "Tage vor Ablauf",
+          "max_subscription_tries": "Maximale Anzahl von Versuchen zur automatischen Verlängerung",
+          "max_subscription_tries_help": "Nach dieser Anzahl wird das Abonnement mit .0 gekündigt, um es zu deaktivieren",
+          "notifications_expiration_days": "Benachrichtigung Tage vor Ablauf",
+          "days_before_expiration_help": "Anzahl der Tage nach der Aussetzung des Dienstes, bevor der Dienst eingestellt wird",
+          "allow_cancellation": "Kunden erlauben, eine Kündigung zu beantragen",
+          "allow_cancellation_help": "Wenn deaktiviert, ist die Kündigungsseite für Kunden nicht sichtbar.",
+          "cancellation_lock_days": "Anzahl der Tage nach der Aktivierung, bevor eine Kündigung möglich ist",
+          "cancellation_lock_days_help": "Während dieser Zeit bleibt das Kündigungsformular verborgen, auch wenn die Option aktiviert ist.",
+          "lifecycle_title": "Ausatmungs- und Schwebezyklus",
+          "suspend_after_unpaid_days": "Automatische Sperre nach unbezahlter Rechnung (D+)",
+          "renewal_grace_days": "Verlängerungsfenster mit Erinnerungen (Tage)",
+          "domain_search_enabled": "Aktivieren Sie die Domänensuche"
+        }
+      }
+    },
+    "domain_tlds": {
+      "title": "Domain-Erweiterungen",
+      "subheading": "Konfigurieren Sie Domainendungen, Anbieter und Preise.",
+      "extension": "Verlängerung",
+      "server": "Standardanbieter",
+      "prices": "Preis pro Aktie",
+      "create": {
+        "title": "Erstellen Sie eine Erweiterung",
+        "subheading": "Fügen Sie eine neue Domainendung hinzu."
+      },
+      "show": {
+        "title": "Erweiterung :name"
+      },
+      "tools": {
+        "tools": "Erweiterungstools",
+        "nameservers": "Standard-DNS-Server",
+        "records": "Standard-DNS-Einträge",
+        "defaults_help": "Diese Werte werden in neue Befehle kopiert. Bestehende Domains bleiben unverändert.",
+        "apply_dns": "Wenden Sie Datensätze auf die Domänenerstellung an",
+        "managed_dns_help": "Für die Initialisierung sind die DNS-Server des Registrars und eine kompatible Verbindung erforderlich. Priorität gilt nur für MX-Datensätze.",
+        "invalid_dns": "Die DNS-Konfiguration ist ungültig: Überprüfen Sie die CNAME-Server, -Typen und -Konflikte.",
+        "incompatible_dns": "Wählen Sie eine kompatible Verbindung, deren DNS-Server und mindestens einen Eintrag mit aktivierter DNS-Verwaltung.",
+        "missing_nameservers": "Konfigurieren Sie auf dieser Erweiterung mindestens zwei DNS-Server, bevor Sie sie bestellen oder aktivieren.",
+        "catalog": "Import von einem Registrar",
+        "registrar": "Registrator",
+        "unsupported": "Nicht unterstützte Funktion",
+        "load": "Katalog laden",
+        "worker_help": "Der Katalog wird von der Aufgabenwarteschlange geladen. Wenn Ihre Warteschlange asynchron ist, muss ein Worker aktiv sein.",
+        "catalog_help": "Wählen Sie Erweiterungen aus und berechnen Sie dann die Verkaufspreise. Es werden nur die vom Registrar verschlüsselten Laufzeiten importiert, ohne Hochrechnung von Preisen oder Premium-Domains.",
+        "catalog_failed": "Der Katalog konnte nicht geladen werden. Überprüfen Sie die Verbindung und die Protokolle und versuchen Sie dann erneut, den Upload durchzuführen.",
+        "copy": "Kopieren Sie eine Konfiguration",
+        "source": "Quellerweiterung",
+        "destinations": "Empfängererweiterungen",
+        "fields": "Einstellungen zum Kopieren",
+        "field_default_nameservers": "Standard-DNS-Server",
+        "field_default_dns_records": "Standard-DNS-Einträge",
+        "field_apply_default_dns": "Automatische DNS-Initialisierung",
+        "field_dns_management": "DNS-Verwaltung",
+        "field_whois_privacy": "WHOIS-Datenschutz",
+        "field_server_id": "Anmeldung als Registrar",
+        "field_prices": "Preise und konfigurierte Laufzeiten",
+        "filter": "Erweiterungen filtern",
+        "select_visible": "Wählen Sie sichtbare Erweiterungen aus",
+        "select_targets": "Wählen Sie mindestens eine Empfängererweiterung zum Ändern aus.",
+        "selected": "ausgewählte Erweiterung(en)",
+        "preview": "Vorschau der Änderungen",
+        "before": "Vor",
+        "after": "Nach",
+        "confirm": "Änderungen übernehmen",
+        "applied": "Die Änderungen wurden übernommen.",
+        "stale": "Die Vorschau ist abgelaufen oder die Konfiguration hat sich geändert. Erzeugen Sie eine neue Vorschau.",
+        "cost": "Kosten für den Standesbeamten",
+        "selling": "Verkaufspreis",
+        "markup": "Markup",
+        "fixed": "Fester Betrag",
+        "exchange_required": "Geben Sie den Umrechnungskurs zur Verkaufswährung ein.",
+        "invalid_price": "Der Preis oder die Berechnungsregel ist ungültig.",
+        "update_existing": "Aktualisieren Sie die Preise für ausgewählte vorhandene Erweiterungen",
+        "activate": "Aktivieren Sie neue Erweiterungen, wenn deren Konfiguration abgeschlossen ist",
+        "existing": "Bereits konfiguriert",
+        "new": "Neue Erweiterung",
+        "value": "Wert",
+        "priority": "Priorität",
+        "refresh": "Aktualisieren",
+        "dns_status": "DNS-Initialisierung",
+        "retry_dns": "Starten Sie nur die DNS-Initialisierung neu",
+        "queued": "DNS-Initialisierung wurde angefordert.",
+        "state_pending": "In der Warteschleife",
+        "state_loading": "Laden",
+        "state_ready": "Katalog verfügbar",
+        "state_preview": "Übersicht über Änderungen",
+        "state_applied": "Änderungen übernommen",
+        "state_failed": "Versagen",
+        "state_completed": "Fertig"
+      }
+    },
+    "servers": {
+      "testconnection": {
+        "title": "Testen der Verbindung",
+        "button": "Zur Überprüfung",
+        "data": "Zurückgegebene Daten",
+        "statuscode": "Statuscode"
+      },
+      "title": "Diener",
+      "subheading": "Hier finden Sie die Liste aller Server",
+      "hostname": "Hostname",
+      "address": "IP-Adresse",
+      "port": "Port",
+      "type": "Server-Typ",
+      "show": {
+        "title": "Server-Blatt {_name}",
+        "subheading": "Hier sind die Informationen zu diesem Server, der am {_date} erstellt wurde:"
+      },
+      "create": {
+        "title": "Erstellen eines Servers",
+        "enable_extension": "Eine Erweiterung aktivieren",
+        "enable_extension_help": "Sie müssen eine Erweiterung aktivieren, um einen Server zu erstellen. Sie können je nach Verwendung Pterodactyl, Plesk, Proxmox oder Virtualizor wählen.",
+        "subheading": "Erstellen Sie einen neuen Server, um ihn mit dem System zu verbinden"
+      }
+    },
+    "cancellation_reasons": {
+      "title": "Kündigungsgründe",
+      "subheading": "Verwalten Sie die Kündigungsgründe für Dienste",
+      "reason": "Grund",
+      "reason_placeholder": "Geben Sie den Kündigungsgrund ein...",
+      "create": "Einen Kündigungsgrund erstellen",
+      "create_description": "Einen neuen Kündigungsgrund hinzufügen",
+      "show": "Kündigungsgrund bearbeiten",
+      "show_description": "Details dieses Kündigungsgrunds bearbeiten",
+      "usage_count": "Dieser Grund wird von {_count} gekündigtem(n) Dienst(en) verwendet.",
+      "analytics": {
+        "title": "Kündigungsstatistiken",
+        "description": "Analysieren Sie die Kündigungsgründe Ihrer Dienste",
+        "total_cancellations": "Kündigungen insgesamt",
+        "reasons_count": "Anzahl der Gründe",
+        "period": "Zeitraum",
+        "distribution": "Verteilung der Kündigungen",
+        "breakdown": "Aufschlüsselung nach Grund",
+        "cancelled_services": "Gekündigte Dienste",
+        "cancelled_at": "Gekündigt am",
+        "no_data": "Keine Daten für diesen Zeitraum",
+        "all_data": "Alle Daten"
+      }
+    },
+    "cancellation_analytics": {
+      "title": "Kündigungsstatistiken",
+      "subheading": "Kündigungstrends analysieren"
+    },
+    "services": {
+      "no_gateway": "Für diesen Dienst ist kein Zahlungsgateway eingerichtet",
+      "invoice_not_found": "Die Rechnung wurde nicht gefunden",
+      "invalid_status": "Ungültiger Status",
+      "invalid_customer": "Ungültiger Kunde",
+      "status_change_failed": "Dienststatus kann nicht geändert werden: {_error}",
+      "automation": {
+        "disable_suspension": "Deaktivieren Sie die automatische Unterbrechung",
+        "enable_suspension": "Automatische Federung wieder aktivieren",
+        "disable_expiration": "Deaktivieren Sie den automatischen Ablauf",
+        "enable_expiration": "Aktivieren Sie den automatischen Ablauf erneut",
+        "enabled_notice": "Dieser Dienst kann ausgesetzt und dann automatisch vom System gelöscht werden.",
+        "suspension_disabled_notice": "Dieser Dienst wird vom System nicht automatisch ausgesetzt, sein automatischer Ablauf bleibt jedoch aktiviert.",
+        "expiration_disabled_notice": "Dieser Dienst kann vom System automatisch ausgesetzt werden, er wird jedoch nicht automatisch gelöscht.",
+        "disabled_notice": "Dieser Dienst wird vom System nicht automatisch ausgesetzt oder gelöscht.",
+        "disable_suspension_success": "Die automatische Federung wurde deaktiviert.",
+        "enable_suspension_success": "Die automatische Federung wurde reaktiviert.",
+        "disable_expiration_success": "Der automatische Ablauf und seine Benachrichtigungen wurden deaktiviert.",
+        "enable_expiration_success": "Der automatische Ablauf und die zugehörigen Benachrichtigungen wurden wieder aktiviert."
+      },
+      "title": "Dienste",
+      "add_days": "Tage hinzufügen",
+      "sub_days": "Tage subtrahieren",
+      "tab_not_found": "Es ist unmöglich, den Tab zu finden",
+      "add_days_question": "Wie viele Tage möchten Sie hinzufügen?",
+      "sub_days_question": "Wie viele Tage möchten Sie abziehen?",
+      "invalid_product_type": "Ungültiger Diensttyp. Sie haben ein Produkt vom Typ {_product} angefordert und einen Typ {_type} ausgewählt. Bitte wählen Sie den gleichen Typ.",
+      "expired": "Dieser Dienst ist abgelaufen oder beendet.",
+      "delete_failed": "Der Dienst kann auf dem Server nicht gelöscht werden: {_error}",
+      "imported": "Erfolgreich importierter Dienst",
+      "pricing_custom": "Der Preis muss manuell für diesen Dienst konfiguriert werden. Sie können ihn später ändern.",
+      "pricing_custom2": "Der Preis ist manuell für diesen Dienst festgelegt. Dies erlaubt, Rechnungszyklen zu genehmigen oder abzulehnen.",
+      "resync": "Mit dem Produkt neu synchronisieren",
+      "pricing_synchronized": "Der Preis für die Dienstleistung ist mit dem Preis des Produkts synchronisiert. Sie können ihn nach Belieben nur für diesen Dienst ändern.",
+      "create": {
+        "nothingtoshow": "Zu diesem Zeitpunkt ist keine Dienstkonfiguration verfügbar. Sie können den Dienst erstellen",
+        "title": "Erstellen eines Diensts",
+        "subheading": "Erstellen Sie einen neuen Service oder importieren Sie einen vorhandenen Service",
+        "importbtn": "Importeur",
+        "choose": "Auswählen eines vorhandenen Servers",
+        "import": "<u> ODER </u>&nbsp; Importieren eines Diensts",
+        "new": "Erstellen eines neuen Diensts",
+        "created": "Der Dienst wurde erfolgreich erstellt"
+      },
+      "show": {
+        "customerbtn": "Kundendatei",
+        "type": "Art der Dienstleistung",
+        "notes": "Servicehinweise",
+        "description_help": "Sie können eine Beschreibung für diesen Dienst hinzufügen. Sie wird für den Kunden in seinem Bereich sichtbar sein.",
+        "notes_help": "Sie können eine Nachricht für diesen Service hinzufügen. Sie wird für den Kunden nicht sichtbar sein.",
+        "title": "Serviceblatt {_name}",
+        "max_renewals": "Maximale Verlängerungen",
+        "subheading": "Hier sind die Informationen zum {_owner}-Dienst, der auf {_date} erstellt wurde:",
+        "panel": {
+          "title": "Management-Panel"
+        }
+      },
+      "subheading": "Hier ist die Liste aller Dienste im System",
+      "renewals": {
+        "btn": "Erneuerung",
+        "title": "Erneuerung des Dienstes",
+        "create": "Stellen Sie eine Verlängerungsrechnung aus",
+        "btn2": "Stellen Sie die Rechnung aus",
+        "remove": "Rechnung zurückziehen",
+        "removed": "Die Rechnung wurde erfolgreich zurückgezogen",
+        "fromexistinginvoice": "Zu einer vorhandenen ausstehenden Rechnung hinzufügen"
+      },
+      "configoptions": {
+        "btn": "Service-Optionen",
+        "addoption": "Hinzufügen einer zusätzlichen Option",
+        "addoption_help": "Dadurch wird dieser Service im Kundenbereich um eine zusätzliche Option erweitert. Die Option wird dem Dienst nicht automatisch hinzugefügt."
+      },
+      "upgrade": {
+        "btn": "Verbesserung des Service",
+        "success": "Der Service wurde erfolgreich verbessert.",
+        "makeupgrade": "Verbessern Sie den Service",
+        "upgrade_type": "Art der Erweiterung",
+        "upgrade_types": {
+          "invoice": "Generieren Sie eine Rechnung, die vom Kunden bezahlt werden soll",
+          "no_invoice": "Verbessern Sie den kostenlosen Service"
+        }
+      },
+      "delivery": {
+        "btn": "Den Service bereitstellen",
+        "btn2": "Erneutes Bereitstellen des Dienstes",
+        "success": "Der Service wurde erfolgreich erbracht",
+        "in_queue": "Die Servicelieferung befindet sich bereits in der Warteschlange",
+        "reinstall": "Der Service wird erneut erbracht",
+        "not_pending": "Der Service wartet nicht auf die Lieferung"
+      },
+      "suspend": {
+        "btn": "Hängen",
+        "title": "Dienst anhalten",
+        "reason": "Grund für die Suspendierung",
+        "success": "Der Dienst wurde erfolgreich ausgesetzt",
+        "notify": "Senden einer Benachrichtigungs-E-Mail",
+        "suspend_at": "Aufgehängt an"
+      },
+      "unsuspend": {
+        "btn": "Reaktivieren",
+        "title": "Reaktivieren des Dienstes",
+        "success": "Der Dienst wurde erfolgreich reaktiviert"
+      },
+      "terminate": {
+        "btn": "Beenden",
+        "title": "Beenden Sie den Service",
+        "success": "Der Dienst ist erfolgreich abgelaufen"
+      },
+      "data": {
+        "title": "Service-Daten",
+        "btn": "Daten",
+        "orderdata": "Bestelldaten"
+      },
+      "cancel": {
+        "btn": "Absage",
+        "message": "Übermittelte Botschaft",
+        "title": "Service kündigen",
+        "restore": "Dienst wiederherstellen",
+        "reason": "Grund für die Stornierung",
+        "success": "Der Dienst wurde erfolgreich gekündigt",
+        "delivery": "Lieferung des Dienstes stornieren",
+        "pending": "Der Service wartet auf die Lieferung. Wenn Sie stornieren, wird er nicht geliefert."
+      },
+      "uncancel": {
+        "success": "Der Dienst wurde erfolgreich wiederhergestellt"
+      },
+      "delete_cancel_delivery": "Stornieren Sie außerdem die Lieferung des verknüpften Rechnungspostens (sämtliche Leistungen), um eine erneute Leistungserbringung zu vermeiden. Deaktivieren Sie die Option, um die Lieferung beizubehalten."
+    },
+    "cancellation_requests": {
+      "title": "Kündigungsanfragen",
+      "subheading": "Verfolgen und bearbeiten Sie die von Ihren Kunden eingereichten Kündigungsanfragen.",
+      "service": "Dienst",
+      "customer": "Kunde",
+      "mode": "Modus",
+      "status": "Status",
+      "requested_at": "Angefragt am",
+      "execute_at": "Wirksam am",
+      "reason": "Grund",
+      "message": "Kundenmitteilung",
+      "handler": "Bearbeitet von",
+      "empty": "Keine Kündigungsanfrage gefunden.",
+      "modes": {
+        "now": "Sofort",
+        "end_of_period": "Ende der Periode"
+      },
+      "actions": {
+        "approve": "Anfrage bestätigen",
+        "reject": "Anfrage ablehnen"
+      },
+      "flash": {
+        "approved": "Die Kündigungsanfrage wurde genehmigt.",
+        "rejected": "Die Kündigungsanfrage wurde abgelehnt.",
+        "not_actionable": "Diese Anfrage wurde bereits bearbeitet."
+      },
+      "show": {
+        "title": "Anfrage Nr. {_id}",
+        "subheading": "Vollständige Details der Kündigungsanfrage des Kunden."
+      },
+      "no_actions": "Für diese Anfrage ist keine Aktion möglich."
+    },
+    "subdomains_hosts": {
+      "title": "Subdomains",
+      "subdomain": "Unterdomäne",
+      "subheading": "Verwalten Sie, welche Domains von Kunden mit einer Subdomain verwendet werden können.",
+      "products": "Autorisierte Produkte",
+      "groups": "Erlaubte Gruppen",
+      "restrictions": "Einschränkungen",
+      "restrictions_help": "Lassen Sie das Feld leer, um diese Subdomain für alle Produkte zuzulassen.",
+      "all_products": "Alle Produkte",
+      "products_count": ":Produkt zählen|:Produkte zählen",
+      "groups_count": ":count-Gruppe|:count-Gruppen",
+      "create": {
+        "title": "Erstellen einer Subdomain",
+        "subheading": "Erstellen Sie eine neue Subdomain für Kunden."
+      },
+      "show": {
+        "title": "Eintrag für Subdomains {_name}",
+        "subheading": "Hier sind die Informationen zu dieser Subdomain, die am {_date} erstellt wurde:"
+      },
+      "choose_domain": "Wählen Sie eine Domain",
+      "use_subdomain": "Wählen Sie eine Subdomain {_app_name}",
+      "use_owndomain": "Verwenden einer vorhandenen Domäne"
+    },
+    "configoptions_services": {
+      "title": "Optionen für die Dienstkonfiguration",
+      "subheading": "Definieren Sie die zusätzlichen Optionen, die für die Services Ihrer Kunden verfügbar sind, einschließlich Anpassungen und Bereitstellungsmodulen.",
+      "show": {
+        "title": "Karte der Konfigurationsoption {_name}",
+        "see_service": "Service anzeigen",
+        "subheading": "Hier sind die Informationen zu dieser Konfigurationsoption, die am {_date} erstellt wurde."
+      }
+    },
+    "upgrade_services": {
+      "title": "Service-Verbesserungen",
+      "subheading": "Verwalten von Serviceverbesserungen.",
+      "old_product": "Altes Produkt",
+      "new_product": "Neues Produkt",
+      "upgraded": "Verbessert",
+      "show": {
+        "title": "Verbesserungsblatt {_name}",
+        "subheading": "Hier sind die Informationen zu dieser Verbesserung, die auf {_date} erstellt wurden."
+      }
+    },
+    "configoptions": {
+      "title": "Konfigurationsmöglichkeiten",
+      "subheading": "Verwalten und passen Sie die verschiedenen verfügbaren Konfigurationsoptionen an, um eine optimale Anpassung an spezifische Anforderungen zu gewährleisten.",
+      "hidden": "Achtung: Diese Option ist im Moment ausgeblendet, um sie zu bearbeiten. Sie können es sichtbar machen, wenn Sie fertig sind.",
+      "option_added": "Die Option wurde erfolgreich hinzugefügt",
+      "option_last": "Sie können die letzte Option nicht entfernen",
+      "per_unit": "Die Preise verstehen sich pro {_unit}",
+      "cannot_delete_in_use": "Es ist nicht möglich, diese Konfigurationsoption zu löschen, da sie von einem oder mehreren Diensten verwendet wird.",
+      "per_step": "Die Preise verstehen sich pro {_step} {_unit}",
+      "show": {
+        "title": "Karte der Konfigurationsoption {_name}",
+        "subheading": "Hier sind die Informationen zu dieser Konfigurationsoption, die am {_date} erstellt wurde.",
+        "options": {
+          "title": "Verfügbare Optionen",
+          "add_option": "Option hinzufügen",
+          "friendly_name": "Anzeigename"
+        }
+      },
+      "create": {
+        "title": "Erstellen einer Konfigurationsoption",
+        "subheading": "Erstellen Sie eine neue Konfigurationsoption für Dienste."
+      },
+      "fields": {
+        "custom_key": "Benutzerdefinierter Schlüssel",
+        "max_value": "Maximalwert",
+        "min_value": "Mindestwert",
+        "required": "Erforderlich",
+        "default_value": "Vorgabe",
+        "step": "Schritt des Cursors",
+        "unit": "Einheit",
+        "rules": "Zusätzliche Laravel-Regeln"
+      },
+      "types": {
+        "text": "Text",
+        "textarea": "Textfeld",
+        "dropdown": "Dropdown-Menü",
+        "radio": "Optionsfeld",
+        "checkbox": "Kontrollkästchen",
+        "number": "Zahl",
+        "slider": "Cursor"
+      },
+      "keys": {
+        "additional_memory": "Zusätzliche Einreichung",
+        "additional_cores": "Zusätzliche Kerne",
+        "additional_ips": "Zusätzliche IPs",
+        "additional_sockets": "Zusätzliche Steckdosen",
+        "ratelimit": "Soll",
+        "additional_disk": "Erweiterungs-Disc",
+        "node": "Zustellungs-Knoten",
+        "server_id": "Server/Standort",
+        "additional_swap": "Zusätzlicher Swap",
+        "additional_cpu": "Zusätzlicher Prozessor",
+        "additional_databases": "Zusätzliche Datenbanken",
+        "additional_backups": "Zusätzliche Sicherungen",
+        "additional_io": "Zusätzliche I/O",
+        "additional_allocations": "Zusätzliche Freibeträge",
+        "custom": "Benutzerdefiniert"
+      }
+    }
+  }
+}

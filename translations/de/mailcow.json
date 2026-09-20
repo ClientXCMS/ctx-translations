@@ -1,0 +1,50 @@
+{
+  "product": {
+    "no_data": "Bei der Bestellung sind keine weiteren Angaben erforderlich."
+  },
+  "config": {
+    "server": "Mailcow-Server",
+    "max_domains": "Maximale Domänen",
+    "max_mailboxes": "Maximale Anzahl an Boxen pro Domain",
+    "max_aliases": "Maximale Aliase pro Domain",
+    "default_quota_mib": "Standardkontingent einer Box (MiB)",
+    "max_quota_mib": "Maximales Kontingent einer Box (MiB)",
+    "domain_quota_mib": "Gesamtdomänenkontingent (MiB)",
+    "rate_limit_value": "Grenzwert senden",
+    "rate_limit_frame": "Sendebegrenzungszeitraum",
+    "backup_mx": "MX-Server sichern",
+    "relay_all_recipients": "Leiten Sie alle Empfänger weiter",
+    "seconds": "Sekunden",
+    "minutes": "Minuten",
+    "hours": "Std"
+  },
+  "panel": {
+    "title": "E-Mail-Domänen",
+    "permission": "Mailcow-Domains verwalten",
+    "usage": ":used Domain(s) verwendet auf :max",
+    "empty": "Es sind noch keine Domänen konfiguriert.",
+    "mailboxes": "Boxen",
+    "aliases": "Alias",
+    "admin": "Administrator",
+    "password": "Passwort",
+    "status_active": "Aktiv",
+    "status_suspended": "Ausgesetzt"
+  },
+  "actions": {
+    "add": "Fügen Sie die Domäne hinzu",
+    "delete": "LÖSCHEN",
+    "delete_confirm": "Diese Domain und alle ihre E-Mail-Daten dauerhaft löschen?",
+    "dns": "DNS exportieren",
+    "domain_admin": "Mailcow-Verwaltung"
+  },
+  "messages": {
+    "domain_created": "Die Mailcow-Domäne wurde erstellt.",
+    "domain_deleted": "Die Mailcow-Domain wurde gelöscht."
+  },
+  "errors": {
+    "domain_exists": "Diese Domäne ist bereits bereitgestellt.",
+    "domain_limit": "Das Domain-Limit dieses Dienstes wurde erreicht.",
+    "config_missing": "Die Mailcow-Produktkonfiguration konnte nicht gefunden werden.",
+    "api": "Mailcow konnte die Anfrage nicht bearbeiten."
+  }
+}

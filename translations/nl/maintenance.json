@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "title": "Onderhoud modus",
+    "description": "Schakel de onderhoudsmodus in of uit om de Customer Area tijdelijk ontoegankelijk te maken voor gebruikers tijdens updateperioden.",
+    "maintenance_enabled": "Onderhoudsmodus inschakelen",
+    "maintenance_url": "Onderhoud URL's",
+    "maintenance_url_help": "URL om de onderhoudsmodus te omzeilen",
+    "maintenance_message": "Onderhoud bericht",
+    "maintenance_message_help": "Bericht dat wordt weergegeven aan gebruikers wanneer ze de site openen in de onderhoudsmodus",
+    "maintenance_button_text": "Tekst onderhoudsknop",
+    "maintenance_button_icon": "Pictogram van de onderhoudsknop",
+    "maintenance_button_url": "URL van de onderhoudsknop",
+    "success": "Onderhoudsinstellingen zijn bijgewerkt"
+  },
+  "in_maintenance_title": "Doorlopend onderhoud",
+  "in_maintenance_message": "De site is momenteel in onderhoud. Kom later nog eens terug."
+}

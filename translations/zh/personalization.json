@@ -1,0 +1,267 @@
+{
+  "title": "定制",
+  "themename": "主题名称",
+  "icon_help": "查看 icons.getbootstrap.com 上的图标列表",
+  "custom_menu": {
+    "title": "自定义链接"
+  },
+  "menu_links": {
+    "title": "菜单链接",
+    "description": "个性化客户空间菜单的链接",
+    "icon_help2": "您可以用图片的 URL 替代图标",
+    "allowed_role": "授权角色",
+    "link_type": "链接类型",
+    "new_tab": "新标签页",
+    "link": "链接",
+    "dropdown": "下拉菜单",
+    "parent": "父母",
+    "unsaved_changes": "未保存的更改",
+    "bulk_saved": "菜单已成功保存。",
+    "validation_error": "请在保存前修正校验错误。",
+    "save_error": "保存时发生错误。",
+    "add_child": "添加子项",
+    "children": "子项",
+    "full_edit": "详情",
+    "max_depth": "达到最大深度",
+    "empty_state": "没有菜单项。点击下方按钮添加一个。",
+    "translating": "翻译中",
+    "translation_note": "所有菜单项保存后，翻译也将被保存。",
+    "allowed_roles": {
+      "all": "所有人",
+      "logged": "连接的",
+      "customer": "拥有服务的客户",
+      "staff": "人员"
+    },
+    "link_types": {
+      "new_tab": "新标签页",
+      "link": "链接",
+      "dropdown": "下拉菜单"
+    },
+    "bottom_menu": {
+      "footer_settings": "页脚设置"
+    }
+  },
+  "icon": "图标",
+  "addelement": "添加一个元素",
+  "demo": "演示",
+  "useful": "实用信息",
+  "badge": "徽章",
+  "email_templates": {
+    "title": "电子邮件模板",
+    "description": "在 Customer Area 中自定义电子邮件模板",
+    "subheading": "这是系统中所有电子邮件模板的列表",
+    "locale": "语言",
+    "shouldnotchanged": "此字段是可编辑的，但除非在特殊情况下，否则不应修改",
+    "button_text": "按钮文本",
+    "subject": "电子邮件的主题",
+    "config": {
+      "title": "模型设置",
+      "btn": "进口",
+      "success": "电子邮件模板已成功配置。"
+    },
+    "import": {
+      "title": "导入电子邮件模板",
+      "btn": "导入",
+      "invalid_file": "该文件必须是有效的 HTML 刀片文件",
+      "success": "电子邮件模板已成功导入。"
+    },
+    "show": {
+      "title": "电子邮件模板表 {_name}",
+      "subheading": "以下是与 {_date} 创建的此电子邮件模板相关的信息"
+    },
+    "create": {
+      "title": "创建电子邮件模板",
+      "subheading": "为系统创建新的电子邮件模板"
+    },
+    "names": {
+      "invoice_paid": "发票已付",
+      "notify_expiration": "到期通知",
+      "virtualizor_cloud_vps": "VPS 交付虚拟经销商",
+      "wisp": "Wisp 送货",
+      "pterodactyl": "翼龙递送",
+      "virtualizor_vps": "Virtualizor VPS 交付",
+      "virtualizor_cloud": "VPS 经销商运输",
+      "pterobox": "送货 Pterobox",
+      "service_suspended": "暂停服务",
+      "invoice_created": "已创建发票",
+      "reset": "密码重置",
+      "verify": "电子邮件验证",
+      "plesk_hosting": "Plesk Hosting 交付",
+      "plesk_reseller": "Plesk 经销商运输",
+      "proxmox": "Proxmox 送货",
+      "support_admin_ticket_created": "已创建支持票证",
+      "support_admin_ticket_reply": "客户对支持工单的响应",
+      "support_customer_ticket_reply": "对支持票证的响应",
+      "notify_subscription_failed": "订阅付款失败通知",
+      "customer_banned": "客户被禁止",
+      "customer_suspended": "客户被暂停",
+      "customer_reactivated": "客户已重新激活",
+      "account_purge_reminder": "账户清除提醒",
+      "customer_account_invitation": "邀请创建客户帐户",
+      "customer_account_access_granted": "已授予对客户帐户的访问权限",
+      "two_factor_code": "双因素验证码"
+    },
+    "errors": {
+      "dangerous_content": "内容包含被禁止的 PHP 或 Blade 指令。"
+    }
+  },
+  "description": "自定义客户区和公司社交网络中的菜单。",
+  "social": {
+    "title": "社交媒体",
+    "description": "个性化公司的社交网络",
+    "subheading": "这是系统中所有社交网络的列表",
+    "create": {
+      "title": "创建社交网络",
+      "subheading": "为公司创建新的社交网络"
+    },
+    "show": {
+      "title": "社交网络页面 {_name}",
+      "subheading": "以下是与 {_date} 上创建的这个社交网络相关的信息"
+    }
+  },
+  "config": {
+    "title": "配置",
+    "button": "配置我的主题",
+    "success": "配置已成功保存。"
+  },
+  "seo": {
+    "title": "SEO 设置",
+    "description": "自定义 Customer Area 的 SEO 设置",
+    "fields": {
+      "description": "客户区域描述",
+      "keywords": "Customer Area 关键字",
+      "keywords_help": "用逗号分隔",
+      "themecolor": "主色 （embed）",
+      "headscripts": "head 中的脚本",
+      "footscripts": "页脚中的脚本",
+      "disablereferencement": "禁用 SEO",
+      "site_title": "站点标题",
+      "site_title_help": "页面名称后面的浏览器选项卡中的站点标题",
+      "og_title": "OG 标题",
+      "og_description": "OG 描述",
+      "og_image": "OG 图片",
+      "og_image_help": "建议尺寸：1200x630px",
+      "twitter_handle": "Twitter 账号",
+      "twitter_handle_help": "@用户名"
+    },
+    "social_section": "社交媒体 / Open Graph",
+    "success": "SEO 设置已成功保存。"
+  },
+  "primary": {
+    "title": "主要颜色",
+    "description": "自定义客户区域的主要颜色",
+    "fields": {
+      "primary_color": "主打色",
+      "secondary_color": "辅助色"
+    },
+    "btnpreview": "实时渲染",
+    "preview_save": "您需要保存才能看到实时渲染"
+  },
+  "front_menu": {
+    "title": "顶部菜单",
+    "description": "自定义 Customer Area 的顶部菜单"
+  },
+  "bottom_menu": {
+    "title": "页脚菜单",
+    "description": "自定义 Customer Area 的页脚菜单"
+  },
+  "sections": {
+    "restoresuccess": "该部分已成功恢复。",
+    "restore": "恢复",
+    "title": "部分",
+    "empty": "未找到该页面的任何部分。<br/>您可以从下面的主题导入一个。",
+    "errors": {
+      "notfound": "未找到部分",
+      "advanced_personalization": "请启用 Advanced Customization 模块以访问此部分",
+      "sanitized_content": "内容包含被禁止的 PHP 或 Blade 指令。"
+    },
+    "subheading": "以下是 {_name} 页面的各个部分",
+    "description": "自定义 Customer Area 的各个部分",
+    "content": "内容",
+    "show": {
+      "title": "编辑部分",
+      "protected_content": "该部分受到保护，无法进行修改。",
+      "subheading": "您可以根据需要编辑部分的内容"
+    },
+    "config": {
+      "btn": "配置板块",
+      "title": "板块配置",
+      "subheading": "您可以根据需要修改板块内容",
+      "fields": {
+        "badge": "徽章",
+        "title": "标题",
+        "subtitle": "字幕",
+        "feature_icon": "功能图标{_number}",
+        "feature_number": "特征值{_number}",
+        "feature_title": "专题标题{_number}",
+        "feature_description": "功能描述{_number}",
+        "stat_value": "统计值{_number}",
+        "stat_label": "统计数据的措辞{_number}",
+        "testimonial_text": "证词{_number}",
+        "testimonial_author": "证词作者{_number}",
+        "testimonial_role": "作者的角色{_number}",
+        "step_title": "步骤标题{_number}",
+        "step_description": "步骤描述{_number}",
+        "step_icon": "步骤图标{_number}",
+        "primary_cta": "主要号召性用语",
+        "secondary_cta": "次要号召性用语",
+        "hero_icon": "主图标",
+        "hero_title": "主标题",
+        "hero_description": "主要说明"
+      }
+    },
+    "fields": {
+      "url": "部分页面",
+      "active": "积极"
+    },
+    "disable": "关闭",
+    "enable": "激活",
+    "types": {
+      "title": "主题 {_name} 可用的部分"
+    },
+    "pages": {
+      "page_home": "主页",
+      "page_store": "商店",
+      "title": "页",
+      "subheading": "以下是此页面的各部分列表",
+      "description": "管理页面 {_name} 的各个部分",
+      "page_group": "{_name} 群组页面",
+      "page_checkout": "结帐页面",
+      "page_basket": "购物车页面"
+    }
+  },
+  "home": {
+    "title": "主页",
+    "description": "Customer Area 主页上的设置",
+    "success": "主页设置已成功保存。",
+    "fields": {
+      "theme_home_title": "主页标题",
+      "theme_home_subtitle": "首页 字幕",
+      "theme_home_image": "首页图片",
+      "theme_home_enabled": "启用主页",
+      "theme_home_title_meta": "主页名称",
+      "theme_home_title_meta_help": "浏览器选项卡中的主页名称",
+      "theme_home_redirect_route": "重定向 URL",
+      "theme_home_redirect_route_help": "当首页禁用时使用此 URL。"
+    }
+  },
+  "theme": {
+    "title": "主题设置",
+    "description": "Customer Area Theme 设置",
+    "info": "您现在可以在扩展 > 主题中选择您的主题。<a href=\"{_link}\" class=\"alert-link\" target=\"_blank\">点击这里访问</a>.",
+    "current_theme": "当前主题",
+    "themename": "主题名称",
+    "fields": {
+      "theme_footer_description": "页脚描述",
+      "theme_footer_description_help": "HTML 支持",
+      "theme_footer_topheberg": "徽章 HTML TopHeberg",
+      "theme_header_logo": "在页眉中显示 logo 而不是公司名称",
+      "theme_switch_mode": {
+        "title": "授权模式",
+        "light": "明亮",
+        "dark": "黑暗",
+        "both": "双"
+      }
+    }
+  }
+}

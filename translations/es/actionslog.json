@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "title": "Historial de acciones",
+    "description": "Una lista de las acciones tomadas por el personal y el sistema.",
+    "subheading": "Historial de acciones",
+    "see_staff_actions_log": "Ver el historial de acciones del personal",
+    "model": "Modelo",
+    "model_id": "ID de plantilla",
+    "payload": "Carga útil",
+    "attribute": "Atributo",
+    "oldvalue": "Valor antiguo",
+    "newvalue": "Nuevo valor",
+    "show": {
+      "title": "Detalles de la acción",
+      "subheading": "Detalles de la acción realizada en {_date}"
+    }
+  },
+  "actions": {
+    "settings_updated": "Ajustes actualizados",
+    "new_login": "Nueva dirección IP de conexión: {_ip}",
+    "resource_created": "Recurso {_model} creado",
+    "resource_updated": "Recurso {_model} actualizado",
+    "resource_deleted": "Recurso {_model} eliminado",
+    "resource_cloned": "Recurso {_model} clonado",
+    "checkout_completed": "Pedido completado",
+    "service_delivered": "Servicio {_id} entregado",
+    "service_cancelled": "{_id} servicio cancelado",
+    "service_uncancelled": "{_id} servicio no cancelado",
+    "service_suspended": "Servicio {_id} suspendido",
+    "service_unsuspended": "Servicio {_id} no suspendido",
+    "invoice_paid": "Factura {_id} pagada",
+    "service_renewed": "Servicio {_id} renovado",
+    "other": "Otro",
+    "service_expired": "Servicio {_id} expirado",
+    "extension_enabled": "{_extension} extensión habilitada",
+    "extension_disabled": "{_extension} extensión deshabilitada",
+    "extension_installed": "{_extension} extensión instalada",
+    "theme_changed": "Tema cambiado",
+    "balance_changed": "El saldo del cliente ha cambiado de {_old} a {_new} {_reason}",
+    "account_verified": "Cuenta Verificada",
+    "password_reset": "Restablecimiento de contraseña",
+    "two_factor_enabled": "Autenticación de dos factores habilitada",
+    "two_factor_disabled": "Autenticación de dos factores deshabilitada",
+    "two_factor_recovery_codes_generated": "Códigos de recuperación de autenticación de dos factores generados",
+    "passkey_registered": "Clave de acceso agregada:{_name}",
+    "passkey_deleted": "Clave de acceso eliminada:{_name}",
+    "failed_login": "Error de conexión Dirección IP: {_ip}",
+    "account_deleted": "Cuenta eliminada",
+    "new_registered": "Nuevo registro"
+  }
+}

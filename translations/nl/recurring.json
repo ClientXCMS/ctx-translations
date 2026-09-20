@@ -1,0 +1,16 @@
+{
+  "onetime": "Levenslang",
+  "monthly": "Maandelijks",
+  "quarterly": "Driemaandelijks",
+  "semiannually": "Halfjaarlijks",
+  "annually": "Jaarlijks",
+  "biennially": "Halfjaarlijks",
+  "triennially": "Driejaarlijks",
+  "month": "maand",
+  "year": "jaar",
+  "years": "Jaren",
+  "quarter": "wijk",
+  "half-year": "semester",
+  "week": "week",
+  "weekly": "Wekelijks"
+}

@@ -1,0 +1,51 @@
+{
+  "settings": {
+    "title": "Logboeken van acties",
+    "description": "Analyseer in detail alle acties die door uw personeel en door de gebruikers van de klant worden uitgevoerd om een nauwkeurige monitoring en een betere traceerbaarheid van de activiteiten te garanderen.",
+    "subheading": "Geschiedenis van acties",
+    "see_staff_actions_log": "De geschiedenis van personeelsacties bekijken",
+    "model": "Model",
+    "model_id": "Sjabloon-ID",
+    "payload": "Nettolading",
+    "attribute": "Attribuut",
+    "oldvalue": "Oude waarde",
+    "newvalue": "Nieuwe waarde",
+    "show": {
+      "title": "Details van de actie",
+      "subheading": "Details van de actie uitgevoerd op {_date}"
+    }
+  },
+  "actions": {
+    "settings_updated": "Bijgewerkte instellingen",
+    "new_login": "IP-adres nieuwe verbinding: {_ip}",
+    "resource_created": "Resource {_model} aangemaakt",
+    "resource_updated": "Bron {_model} bijgewerkt",
+    "resource_deleted": "Bron {_model} verwijderd",
+    "resource_cloned": "Gekloonde {_model} resource",
+    "checkout_completed": "Bestelling voltooid",
+    "service_delivered": "Service {_id} geleverd",
+    "service_cancelled": "{_id} service geannuleerd",
+    "service_uncancelled": "{_id} service niet geannuleerd",
+    "service_suspended": "Dienst {_id} opgeschort",
+    "service_unsuspended": "Service {_id} niet opgeschort",
+    "invoice_paid": "Factuur {_id} betaald",
+    "service_renewed": "Service {_id} vernieuwd",
+    "other": "Ander",
+    "service_expired": "Dienst {_id} verlopen",
+    "extension_enabled": "{_extension} extensie ingeschakeld",
+    "extension_disabled": "{_extension} extensie uitgeschakeld",
+    "extension_installed": "{_extension} extensie geïnstalleerd",
+    "theme_changed": "Thema gewijzigd",
+    "balance_changed": "Klantsaldo gewijzigd van {_old} naar {_new} {_reason}",
+    "account_verified": "Geverifieerd account",
+    "password_reset": "Wachtwoord opnieuw instellen",
+    "two_factor_enabled": "Tweefactorauthenticatie ingeschakeld",
+    "two_factor_disabled": "Tweefactorauthenticatie uitgeschakeld",
+    "two_factor_recovery_codes_generated": "Herstelcodes voor tweefactorauthenticatie gegenereerd",
+    "passkey_registered": "Toegangssleutel toegevoegd:{_name}",
+    "passkey_deleted": "Toegangssleutel verwijderd:{_name}",
+    "failed_login": "Verbindingsfout IP-adres: {_ip}",
+    "account_deleted": "Account verwijderd",
+    "new_registered": "Nieuwe registratie"
+  }
+}

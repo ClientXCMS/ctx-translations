@@ -1,0 +1,93 @@
+{
+  "title": "Extensões",
+  "description": "Gerencie extensões CLIENTXCMS, habilite ou desabilite extensões instaladas.",
+  "settings": {
+    "title": "Definições das extensões",
+    "description": "Gerir as definições das extensões instaladas",
+    "clearcache": "Limpar cache",
+    "search_placeholder": "Pesquisar por nome, descrição ou tag",
+    "processing": "Processamento em curso...",
+    "no_extensions_found": "Nenhuma extensão encontrada",
+    "boot_error": "Erro na inicialização",
+    "boot_error_description": "Esta extensão foi desativada automaticamente porque não foi iniciada.",
+    "tabs": {
+      "my_extensions": "As minhas extensões",
+      "discover": "Descobrir",
+      "themes": "Temas"
+    },
+    "sections": {
+      "my_themes": "Os meus temas",
+      "my_modules": "Os meus módulos e addons",
+      "new": "Novidades",
+      "popular": "Populares",
+      "all_extensions": "Todas as extensões",
+      "all_themes": "Todos os temas"
+    },
+    "tags": {
+      "featured": "Destaque",
+      "new": "Novo",
+      "popular": "Popular"
+    },
+    "no_installed": "Nenhuma extensão instalada",
+    "no_installed_desc": "Descubra o nosso catálogo de extensões para enriquecer o seu ClientXCMS",
+    "discover_extensions": "Descobrir as extensões",
+    "extensions_count": "extensões",
+    "uninstall": "Desinstalar",
+    "no_results": "Nenhuma extensão corresponde à sua pesquisa",
+    "themes_available": "temas disponíveis",
+    "no_themes": "Nenhum tema disponível",
+    "update_available": "Atualização disponível",
+    "active": "Ativo",
+    "enable": "Ativar",
+    "disable": "Desativar",
+    "enabled": "Ativado",
+    "disabled": "Desativado",
+    "installed": "Instalado",
+    "update": "Atualizar",
+    "processing_error": "Ocorreu um erro, por favor tente novamente.",
+    "install": "Instalar",
+    "reviews": "avaliações",
+    "search": "Pesquisar uma extensão",
+    "activable": "Ativável",
+    "notactivable": "Não ativável",
+    "buy": "Comprar"
+  },
+  "bulk": {
+    "select_all": "Selecionar tudo",
+    "deselect_all": "Desmarcar tudo",
+    "selected_count": ":count selecionado(s)",
+    "install_selected": "Instalar seleção",
+    "enable_selected": "Ativar seleção",
+    "disable_selected": "Desativar seleção",
+    "processing": "Processando...",
+    "success": "Operação concluída com sucesso",
+    "partial_success": ":success com sucesso, :failed com falha"
+  },
+  "modal": {
+    "version": "Versão",
+    "author": "Autor",
+    "price": "Preço",
+    "buy_now": "Comprar agora",
+    "view_details": "Ver detalhes",
+    "close": "Fechar",
+    "tags": "Tags",
+    "last_update": "Última atualização"
+  },
+  "onetime": "Apenas uma vez",
+  "monthly": "Mensal",
+  "flash": {
+    "already_enabled": "A extensão já está ativada.",
+    "extension_not_enabled": "A extensão {_extension} não está habilitada e é necessária para essa extensão.",
+    "cannot_enable": "Não é possível ativar a extensão.",
+    "composer_not_found": "O arquivo composer.json não foi encontrado.",
+    "extension_not_loaded": "A extensão {_extension} é necessária para que essa extensão seja ativada.",
+    "extension_not_installed": "A extensão {_extension} não está instalada.",
+    "extension_version_not_compatible": "A versão da extensão {_extension} ({_current}) não é compatível com a versão necessária ({_version}).",
+    "cache_cleared": "O cache foi limpo com êxito.",
+    "enabled": "A extensão foi ativada com sucesso.",
+    "disabled": "A extensão foi desativada com sucesso.",
+    "updated": "A extensão foi atualizada com sucesso.",
+    "uninstalled": "A extensão foi desinstalada com sucesso.",
+    "uninstall_must_disable_first": "A extensão deve ser desativada antes de ser desinstalada."
+  }
+}

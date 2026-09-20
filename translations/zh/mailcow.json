@@ -1,0 +1,50 @@
+{
+  "product": {
+    "no_data": "订购时无需额外信息。"
+  },
+  "config": {
+    "server": "邮牛服务器",
+    "max_domains": "最大域数",
+    "max_mailboxes": "每个域的最大框数",
+    "max_aliases": "每个域的最大别名数",
+    "default_quota_mib": "盒子默认配额（MiB）",
+    "max_quota_mib": "盒子最大配额（MiB）",
+    "domain_quota_mib": "总域配额 (MiB)",
+    "rate_limit_value": "发送限制值",
+    "rate_limit_frame": "发送限制期限",
+    "backup_mx": "备份 MX 服务器",
+    "relay_all_recipients": "转发所有收件人",
+    "seconds": "秒数",
+    "minutes": "分钟",
+    "hours": "时间"
+  },
+  "panel": {
+    "title": "电子邮件域",
+    "permission": "管理 Mailcow 域",
+    "usage": ":max 上使用的已用域",
+    "empty": "尚未配置任何域。",
+    "mailboxes": "盒子",
+    "aliases": "别名",
+    "admin": "行政人员",
+    "password": "密码",
+    "status_active": "积极的",
+    "status_suspended": "暂停"
+  },
+  "actions": {
+    "add": "添加域名",
+    "delete": "删除",
+    "delete_confirm": "永久删除该域及其所有电子邮件数据吗？",
+    "dns": "导出 DNS",
+    "domain_admin": "邮牛管理局"
+  },
+  "messages": {
+    "domain_created": "Mailcow 域已创建。",
+    "domain_deleted": "Mailcow 域已被删除。"
+  },
+  "errors": {
+    "domain_exists": "该域已配置。",
+    "domain_limit": "已达到此服务的域限制。",
+    "config_missing": "找不到 Mailcow 产品配置。",
+    "api": "Mailcow 无法处理该请求。"
+  }
+}

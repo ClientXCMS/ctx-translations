@@ -1,0 +1,32 @@
+{
+  "url": "Webhook-URL",
+  "variables": "Verfügbare Variablen: {_variables}",
+  "checkout": {
+    "title": "Neue Ordnung",
+    "description": "Eine neue Bestellung wurde aufgegeben"
+  },
+  "domain": "Domäne",
+  "renew": {
+    "title": "Erneuerung des Dienstes",
+    "description": "Ein Service wurde erneuert"
+  },
+  "ticket": {
+    "title": "Neues Ticket",
+    "description": "Ein neues Ticket wurde erstellt"
+  },
+  "ticket_answer": {
+    "title": "Auf ein Ticket antworten",
+    "description": "Ein Ticket wurde beantwortet"
+  },
+  "ticket_closed": {
+    "title": "Ticket geschlossen",
+    "description": "Ein Ticket wurde gerade geschlossen"
+  },
+  "ticket_staff": {
+    "title": "Beantworten eines Tickets durch Mitarbeiter"
+  },
+  "upgrade": {
+    "title": "Service aufgerüstet",
+    "description": "Ein Dienst wurde aufgerüstet"
+  }
+}

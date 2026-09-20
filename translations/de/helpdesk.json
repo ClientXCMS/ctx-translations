@@ -1,0 +1,160 @@
+{
+  "subject": "Betreff",
+  "priority": "Priorität",
+  "attachments": "Anhängsel",
+  "priorities": {
+    "low": "Bass",
+    "medium": "Durchschnitt",
+    "high": "Hoch"
+  },
+  "department": "Abteilung",
+  "support": {
+    "index": "Meine Tickets",
+    "index_description": "Nachfolgend finden Sie eine Liste Ihrer Support-Tickets.",
+    "attachments_help": "Maximale Größe {_size} MB. Zulässige Dateitypen: {_types}",
+    "ticket_reopen_days": "Sie können das Ticket nicht erneut öffnen. Sie können ein neues öffnen.",
+    "ticket_closed_by": "Geschlossen von {_name}",
+    "ticket_auto_close": "Das Ticket wurde automatisch nach {_days} Tagen geschlossen.",
+    "ticket_closed": "Das Ticket wurde geschlossen",
+    "ticket_reopened": "Das Ticket wurde wieder geöffnet",
+    "ticket_replied": "Ihre Antwort wurde gesendet",
+    "message_updated": "Die Nachricht wurde aktualisiert",
+    "ticket_message_deleted": "Die Nachricht wurde gerade gelöscht",
+    "show": {
+      "close_reason": "Grund für die Schließung",
+      "replybystaff": "Antwort von {_app}",
+      "messagebystaff": "Nachricht von {_app}",
+      "replybycustomer1": "Ihre Antwort",
+      "replybycustomer2": "Kundenstimmen",
+      "your_demand": "Ihre Anfrage",
+      "assigned_to": "Zugewiesen an",
+      "reply": "Antwort",
+      "replyandclose": "Antworten und schließen",
+      "edit_message": "Nachricht ändern",
+      "edited_at": "Nachricht geändert am {_date}",
+      "close": "Schließen",
+      "customer_demand": "Kundenwunsch",
+      "reopen": "Wiedereröffnen",
+      "open_on": "Geöffnet am {_date}",
+      "closed_on": "Geschlossen am {_date}",
+      "attachments": "Diesem Ticket wurden ein oder mehrere Anhänge hinzugefügt",
+      "closed": "Dieses Ticket ist geschlossen. Du kannst nicht antworten. Wenn Sie Hilfe benötigen, öffnen Sie bitte ein neues Ticket oder öffnen Sie dieses Ticket erneut.",
+      "replyinticket": "Auf das Ticket antworten",
+      "closed2": "Dieses Ticket ist aus folgendem Grund geschlossen: {_reason}. Sie können nicht antworten.",
+      "closed3": "Dieses Ticket ist geschlossen. Sie können nicht antworten.",
+      "index_description": "Nachfolgend finden Sie die Details des Support-Tickets.",
+      "comments": {
+        "title": "Kommentare",
+        "add": "Einen Kommentar hinzufügen",
+        "no_comments": "Kein Kommentar",
+        "added": "Der Kommentar wurde hinzugefügt",
+        "add_comment": "Einen Kommentar hinzufügen",
+        "deleted": "Der Kommentar wurde gelöscht"
+      }
+    },
+    "create": {
+      "index": "Neues Ticket",
+      "index_description": "Öffnen eines neuen Support-Tickets",
+      "relatedto": "Verwandt",
+      "newticket": "Neues Ticket",
+      "send": "Senden",
+      "relatednone": "Nichts",
+      "messagehelp": "Bitte geben Sie so viele Details wie möglich an, damit wir Ihr Problem lösen können."
+    }
+  },
+  "admin": {
+    "title": "Hilfe-Center",
+    "description": "Einrichten des Help Centers und Verwalten von Support-Tickets",
+    "open_tickets": "Offene Tickets",
+    "create_ticket": "Eine Anfrage erstellen",
+    "widgets": {
+      "pending_tickets": "Ausstehende Anfragen",
+      "active_tickets": "Anträge in Bearbeitung",
+      "total_tickets": "Gesamtzahl der Anfragen",
+      "tickets_last_week": "Tickets von letzter Woche",
+      "avg_reply_time": "Durchschnittliche Antwortzeit",
+      "messages_sent": "Gesendete Nachrichten",
+      "avg_resolution_time": "Durchschnittliche Lösungszeit",
+      "sla_compliance_rate": "SLA-Konformitätsrate",
+      "sla_breached_count": "SLA überschritten (aktiv)"
+    },
+    "settings": {
+      "title": "Help-Center-Einstellungen",
+      "success": "Die Help-Center-Einstellungen wurden erfolgreich gespeichert.",
+      "description": "Einrichten von Support-Tickets und des Help Centers",
+      "fields": {
+        "ticket_auto_close_days": "Automatische Schließung von Tickets nach Inaktivität (Tage)",
+        "ticket_auto_close_days_help": "0 zum Deaktivieren",
+        "allow_attachments": "Anhänge zulassen",
+        "allow_attachments_help": "Ermöglicht es Benutzern, Dateien an ihre Tickets anzuhängen",
+        "attachments_max_size": "Maximale Größe des Anhangs (MB)",
+        "attachments_allowed_types": "Zulässige Dateitypen",
+        "attachments_allowed_types_help": "Durch Kommas getrennt",
+        "webhook_url": "Webhook-URL",
+        "reopen_days": "Berechtigung zur Wiedereröffnung von Tickets (Tage)",
+        "reopen_days_help": "0, um das erneute Öffnen zu deaktivieren, -1, um auf unbestimmte Zeit zuzulassen"
+      }
+    },
+    "tickets": {
+      "graphs": "Grafik der Tickets",
+      "closed_tickets": "Geschlossene Anfragen",
+      "analytics": "Analyse der Tickets",
+      "department_ticket_counts": "Anzahl der Tickets nach Abteilung",
+      "tickets_active": "Anfrage steht zur Bearbeitung aus",
+      "tickets_active_description": "Hier ist die Liste aller Tickets, die auf Ihre Antwort warten.",
+      "tickets_to_reply_description": "Hier ist die Liste aller Tickets, die auf eine Antwort des Kunden warten.",
+      "tickets_to_reply": "Anfrage steht noch zur Beantwortung aus",
+      "pending_title": "Ausstehende Tickets",
+      "last_update": "Zuletzt aktualisiert",
+      "last_reply": "Letzte Antwort",
+      "no_department_stats": "Derzeit wurde kein Département gefunden.",
+      "staff_message_counts": "Anzahl der Nachrichten pro Mitarbeitern",
+      "no_staff_stats": "Zurzeit keine Mitarbeiter gefunden.",
+      "subheading": "Hier ist die Liste aller Tickets im System",
+      "edit": "Ticket bearbeiten",
+      "customer_not_found": "Kunde wurde nicht gefunden",
+      "create": {
+        "title": "Erstellen eines Tickets",
+        "subheading": "Erstellen eines neuen Tickets für einen Kunden"
+      }
+    },
+    "departments": {
+      "title": "Support-Abteilungen",
+      "description": "Einrichten von Supportabteilungen für Tickets",
+      "subheading": "Hier ist die Liste aller Abteilungen im System",
+      "error_delete": "Diese Abteilung kann nicht gelöscht werden, da sie Tickets enthält.",
+      "create": {
+        "title": "Erstellen einer Abteilung",
+        "subheading": "Erstellen einer neuen Supportabteilung"
+      },
+      "sla_settings": "SLA-Einstellungen",
+      "sla_first_response_minutes": "Erste Reaktionszeit (Minuten)",
+      "sla_first_response_minutes_help": "Lassen Sie das Feld leer oder geben Sie 0 an, um das Support First Response SLA zu deaktivieren.",
+      "sla_resolution_minutes": "Lösungszeit (Minuten)",
+      "sla_resolution_minutes_help": "Lassen Sie das Feld leer oder geben Sie 0 an, um das SLA für die Ticketauflösung zu deaktivieren.",
+      "show": {
+        "title": "Abteilungsblatt {_name}",
+        "subheading": "Hier sind die Informationen zu dieser Abteilung, die am {_date} erstellt wurden."
+      }
+    },
+    "statistics": "Statistiken"
+  },
+  "message": "Nachricht",
+  "guest": {
+    "title": "Ticket ohne Konto eröffnen",
+    "intro": "Unser Team antwortet an die unten angegebene E-Mail-Adresse. Kein Konto erforderlich, um die Konversation zu verfolgen.",
+    "email_help": "Stellen Sie sicher, dass diese Adresse korrekt ist - darüber erreichen wir Sie.",
+    "disclaimer": "Mit dem Absenden dieser Nachricht erklären Sie sich damit einverstanden, per E-Mail kontaktiert zu werden.",
+    "submit": "Nachricht senden",
+    "submitted": "Ihre Anfrage wurde empfangen. Bewahren Sie den Tracking-Link auf, um Antworten zu lesen.",
+    "replied": "Ihre Antwort wurde gesendet.",
+    "reply_submit": "Antwort senden",
+    "reply_title": "Antworten",
+    "tracking_title": "Ticket: {_subject}",
+    "opened_at": "Eröffnet am {_date}",
+    "bookmark_warning": "Setzen Sie diese Seite als Lesezeichen - es ist Ihr einziger Zugriff auf das Ticket ohne Konto.",
+    "staff_reply": "Antwort vom Support",
+    "you": "Sie",
+    "closed_notice": "Dieses Ticket wurde geschlossen. Öffnen Sie ein neues, wenn Sie eine weitere Frage haben."
+  }
+}

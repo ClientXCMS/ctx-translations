@@ -1,0 +1,93 @@
+{
+  "title": "Erweiterungen",
+  "description": "Verwalten Sie CLIENTXCMS-Erweiterungen, aktivieren oder deaktivieren Sie installierte Erweiterungen.",
+  "settings": {
+    "title": "Einstellungen für Erweiterungen",
+    "description": "Verwalten von Einstellungen für installierte Erweiterungen",
+    "clearcache": "Cache leeren",
+    "search_placeholder": "Nach Namen, Beschreibung oder Tag suchen",
+    "processing": "Bearbeitung läuft...",
+    "no_extensions_found": "Keine Erweiterung gefunden",
+    "boot_error": "Fehler beim Start",
+    "boot_error_description": "Diese Erweiterung wurde automatisch deaktiviert, da sie nicht gestartet werden konnte.",
+    "tabs": {
+      "my_extensions": "Meine Erweiterungen",
+      "discover": "Entdecken",
+      "themes": "Themes"
+    },
+    "sections": {
+      "my_themes": "Meine Themes",
+      "my_modules": "Meine Module & Addons",
+      "new": "Neuheiten",
+      "popular": "Beliebt",
+      "all_extensions": "Alle Erweiterungen",
+      "all_themes": "Alle Themes"
+    },
+    "tags": {
+      "featured": "Empfohlen",
+      "new": "Neu",
+      "popular": "Beliebt"
+    },
+    "no_installed": "Keine Erweiterung installiert",
+    "no_installed_desc": "Entdecken Sie unseren Erweiterungskatalog, um Ihr ClientXCMS zu bereichern",
+    "discover_extensions": "Erweiterungen entdecken",
+    "extensions_count": "Erweiterungen",
+    "uninstall": "Deinstallieren",
+    "no_results": "Keine Erweiterung entspricht Ihrer Suche",
+    "themes_available": "Themes verfügbar",
+    "no_themes": "Kein Theme verfügbar",
+    "update_available": "Update verfügbar",
+    "active": "Aktiv",
+    "enable": "Aktivieren",
+    "disable": "Deaktivieren",
+    "enabled": "Aktiviert",
+    "disabled": "Deaktiviert",
+    "installed": "Installiert",
+    "update": "Aktualisieren",
+    "processing_error": "Ein Fehler ist aufgetreten, bitte versuchen Sie es erneut.",
+    "install": "Installieren",
+    "reviews": "Bewertungen",
+    "search": "Eine Erweiterung suchen",
+    "activable": "Aktivierbar",
+    "notactivable": "Nicht aktivierbar",
+    "buy": "Kaufen"
+  },
+  "bulk": {
+    "select_all": "Alle auswählen",
+    "deselect_all": "Alle abwählen",
+    "selected_count": ":count ausgewählt",
+    "install_selected": "Auswahl installieren",
+    "enable_selected": "Auswahl aktivieren",
+    "disable_selected": "Auswahl deaktivieren",
+    "processing": "Verarbeitung läuft...",
+    "success": "Vorgang erfolgreich abgeschlossen",
+    "partial_success": ":success erfolgreich, :failed fehlgeschlagen"
+  },
+  "modal": {
+    "version": "Version",
+    "author": "Autor",
+    "price": "Preis",
+    "buy_now": "Jetzt kaufen",
+    "view_details": "Details anzeigen",
+    "close": "Schließen",
+    "tags": "Tags",
+    "last_update": "Letzte Aktualisierung"
+  },
+  "onetime": "Nur einmal",
+  "monthly": "Monatlich",
+  "flash": {
+    "already_enabled": "Die Erweiterung ist bereits aktiviert.",
+    "extension_not_enabled": "Die Erweiterung {_extension} ist nicht aktiviert und für diese Erweiterung erforderlich.",
+    "cannot_enable": "Die Erweiterung kann nicht aktiviert werden.",
+    "composer_not_found": "Die Datei composer.json wurde nicht gefunden.",
+    "extension_not_loaded": "Die Erweiterung {_extension} ist erforderlich, damit diese Erweiterung aktiviert werden kann.",
+    "extension_not_installed": "Die Erweiterung {_extension} ist nicht installiert.",
+    "extension_version_not_compatible": "Die Erweiterungsversion {_extension} ({_current}) ist nicht mit der erforderlichen Version ({_version}) kompatibel.",
+    "cache_cleared": "Der Cache wurde erfolgreich geleert.",
+    "enabled": "Die Erweiterung wurde erfolgreich aktiviert.",
+    "disabled": "Die Erweiterung wurde erfolgreich deaktiviert.",
+    "updated": "Die Erweiterung wurde erfolgreich aktualisiert.",
+    "uninstalled": "Die Erweiterung wurde erfolgreich deinstalliert.",
+    "uninstall_must_disable_first": "Die Erweiterung muss vor der Deinstallation deaktiviert werden."
+  }
+}

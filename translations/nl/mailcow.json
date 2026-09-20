@@ -1,0 +1,50 @@
+{
+  "product": {
+    "no_data": "Bij het bestellen zijn geen aanvullende gegevens vereist."
+  },
+  "config": {
+    "server": "Mailkoe-server",
+    "max_domains": "Maximale domeinen",
+    "max_mailboxes": "Maximaal aantal dozen per domein",
+    "max_aliases": "Maximale aliassen per domein",
+    "default_quota_mib": "Standaardquotum van een doos (MiB)",
+    "max_quota_mib": "Maximaal quotum van een doos (MiB)",
+    "domain_quota_mib": "Totaal domeinquotum (MiB)",
+    "rate_limit_value": "Grenswaarde verzenden",
+    "rate_limit_frame": "Verzendlimietperiode",
+    "backup_mx": "Back-up MX-server",
+    "relay_all_recipients": "Stuur alle ontvangers door",
+    "seconds": "Seconden",
+    "minutes": "Notulen",
+    "hours": "Uur"
+  },
+  "panel": {
+    "title": "E-maildomeinen",
+    "permission": "Beheer Mailco-domeinen",
+    "usage": ":gebruikte domein(en) gebruikt op :max",
+    "empty": "Er zijn nog geen domeinen geconfigureerd.",
+    "mailboxes": "Dozen",
+    "aliases": "Alias",
+    "admin": "Beheerder",
+    "password": "Wachtwoord",
+    "status_active": "Actief",
+    "status_suspended": "Opgeschort"
+  },
+  "actions": {
+    "add": "Voeg het domein toe",
+    "delete": "VERWIJDEREN",
+    "delete_confirm": "Dit domein en al zijn e-mailgegevens definitief verwijderen?",
+    "dns": "DNS exporteren",
+    "domain_admin": "Postkoe Administratie"
+  },
+  "messages": {
+    "domain_created": "Het Mailcow-domein is aangemaakt.",
+    "domain_deleted": "Het Mailcow-domein is verwijderd."
+  },
+  "errors": {
+    "domain_exists": "Dit domein is al ingericht.",
+    "domain_limit": "De domeinlimiet van deze dienst is bereikt.",
+    "config_missing": "De Mailco-productconfiguratie kan niet worden gevonden.",
+    "api": "Mailcow kon het verzoek niet verwerken."
+  }
+}

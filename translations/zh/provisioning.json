@@ -1,0 +1,545 @@
+{
+  "disk": "磁盘",
+  "disks": "磁盘",
+  "in_gb": "值 （GB）",
+  "in_mb": "值 （MB）",
+  "network_speed": "网络速度",
+  "upload_speed": "上传速度",
+  "ips": "IPS",
+  "ip6": "IP6 防护等级",
+  "ip6subnet": "IP6 子网",
+  "burstable_memory": "可突增内存",
+  "guaranteed_memory": "保证内存",
+  "memory": "内存",
+  "cpu": "处理器",
+  "io": "I/O （输入输出）",
+  "database": "数据库",
+  "backups": "备份",
+  "databases": "数据库",
+  "swap": "交换",
+  "allocations": "分配",
+  "bandwidth": "带宽",
+  "connect": "连接到面板",
+  "start": "启动服务器",
+  "stop": "关闭服务器",
+  "restart": "重新启动服务器",
+  "kill": "关闭服务器",
+  "image": "Docker 镜像",
+  "startup": "启动控制",
+  "port_range": "端口范围",
+  "port_range_help": "例如：30100-30200 用于 FiveM",
+  "eggs": "游戏蛋",
+  "eggs_help": "如果您找不到想要的游戏蛋，可以清空扩展程序中的缓存。",
+  "location": "位置",
+  "servers": "授权服务器",
+  "server": "服务器",
+  "server_name": "服务器名称",
+  "server_description": "服务器描述",
+  "db": "数据库",
+  "dedicated_ip": "专用 IP",
+  "cores": "核心",
+  "rate": "速率",
+  "sockets": "CPU插槽",
+  "oom_kill": "OOM Kill",
+  "used": "使用",
+  "vnc": "VNC",
+  "region": "地区",
+  "oses": "操作系统",
+  "planname": "托管计划名称",
+  "domain": "域",
+  "sites": "授权站点",
+  "subftp_users": "其他 FTP 用户",
+  "autologin": "自动连接",
+  "autologin_admin": "以管理员身份自动连接",
+  "see_website": "访问网站",
+  "ftp_login": "FTP 标识",
+  "ftp_password": "FTP 密码",
+  "php_version": "PHP 版本",
+  "www_root": "网站根目录",
+  "ip_addresses": "IP 地址",
+  "unlimited": "无限",
+  "traffic": "交通",
+  "active_services": "活跃服务",
+  "domains": "域名",
+  "clients": "客户",
+  "doyouwantreallyreinstallvps": "您真的想重新安装这个服务器吗？",
+  "website_info": "网站信息",
+  "product_not_configured": "产品尚未配置。请从管理界面配置产品。",
+  "planname_help": "您可以在 {_plateform} 面板中配置托管计划的名称",
+  "server_variables": "%owner_email%、%owner_username%、%owner_firstname%、%owner_lastname%、%product_name%、%service_id%、%service_expiration%",
+  "states": {
+    "running": "运行中",
+    "stopped": "已停止",
+    "starting": "开始",
+    "stopping": "正在关闭"
+  },
+  "domain_manager": {
+    "server_type": "域经理",
+    "domain": "领域",
+    "tld": "扩大",
+    "details": "域名详细信息",
+    "register": "登记",
+    "renew": "更新",
+    "transfer": "转移",
+    "nameservers": "名称服务器",
+    "nameserver": "名称服务器：号码",
+    "dns": "域名系统",
+    "whois_privacy": "WHOIS 保护",
+    "creation_date": "创建日期",
+    "expiration_date": "截止日期",
+    "search": {
+      "title": "搜索域名",
+      "submit": "去研究",
+      "available": "可用的",
+      "unavailable": "不可用",
+      "no_product": "未配置主域类型产品。",
+      "subtitle": "找到理想的域名来实现您的项目。",
+      "placeholder": "votre-projet.fr",
+      "domain_placeholder": "你的项目",
+      "alternatives": "其他可用的扩展",
+      "alternatives_help": "保护您的姓名或选择更适合您的项目的扩展名。",
+      "choose": "选择",
+      "no_available": "此名称没有可用的其他扩展名。",
+      "configure": "配置您的域",
+      "configure_help": "在继续之前检查名称和扩展名。",
+      "results": "搜索结果",
+      "extensions": "发现我们的扩展",
+      "extensions_help": "选择一个扩展以立即检查其可用性。",
+      "from": "从"
+    },
+    "errors": {
+      "invalid_tld": "该域与所选扩展名不匹配。"
+    }
+  },
+  "cancellation": {
+    "rule_label": "取消规则",
+    "mode_immediate": "允许立即取消",
+    "mode_support_ticket": "重定向到创建支持票证",
+    "mode_after_expiration": "服务到期后允许取消",
+    "requires_ticket": "此取消原因需要开具支持票证。",
+    "after_expiration_only": "只有在服务到期后才可以取消。",
+    "ticket_subject": "请求取消服务{_service}",
+    "ticket_message": "你好，\n\n我想请求取消以下服务：\n\n部门：{_service}标识符：{_identifier}原因：{_reason}期望的截止日期：{_expiration}附加信息：{_details}感谢您处理我的取消请求。",
+    "ticket_no_details": "没有附加信息。"
+  },
+  "config_option": "配置选项",
+  "admin": {
+    "title": "供应",
+    "subheading": "管理客户的服务供应。",
+    "settings": {
+      "services": {
+        "title": "服务设置",
+        "webhookonrenew": "续订时 Webhook",
+        "success": "已成功保存服务的设置。",
+        "description": "服务设置",
+        "subscription": "订阅",
+        "fields": {
+          "days_before_creation_invoice_renewal": "创建续订发票前的天数",
+          "days_before_expiration": "到期前天数",
+          "max_subscription_tries": "最大自动续订尝试次数",
+          "max_subscription_tries_help": "在此数字之后，订阅将被取消 .0 以禁用",
+          "notifications_expiration_days": "到期前通知天数",
+          "days_before_expiration_help": "服务暂停后服务停止前的天数",
+          "allow_cancellation": "允许客户请求取消服务",
+          "allow_cancellation_help": "如果禁用，客户端将看不到取消页面。",
+          "cancellation_lock_days": "激活后多少天可以取消",
+          "cancellation_lock_days_help": "在此期间，即使启用了该选项，取消表单也将保持隐藏。",
+          "lifecycle_title": "呼气和暂停循环",
+          "suspend_after_unpaid_days": "未付发票后自动暂停 (D+)",
+          "renewal_grace_days": "带提醒的续订窗口（天）",
+          "domain_search_enabled": "启用域搜索"
+        }
+      }
+    },
+    "domain_tlds": {
+      "title": "域名扩展",
+      "subheading": "配置域名扩展、提供商和价格。",
+      "extension": "扩大",
+      "server": "默认提供商",
+      "prices": "每股价格",
+      "create": {
+        "title": "创建扩展",
+        "subheading": "添加新的域名扩展。"
+      },
+      "show": {
+        "title": "扩展名：名称"
+      },
+      "tools": {
+        "tools": "扩展工具",
+        "nameservers": "默认 DNS 服务器",
+        "records": "默认 DNS 记录",
+        "defaults_help": "这些值将被复制到新命令中。 现有域保持不变。",
+        "apply_dns": "将记录应用于域创建",
+        "managed_dns_help": "初始化需要注册商的 DNS 服务器和兼容的连接。 优先级仅适用于 MX 记录。",
+        "invalid_dns": "DNS 配置无效：检查 CNAME 服务器、类型和冲突。",
+        "incompatible_dns": "选择一个兼容的连接、其 DNS 服务器和至少一条记录，并启用 DNS 管理。",
+        "missing_nameservers": "在订购或激活此扩展之前，至少配置两个 DNS 服务器。",
+        "catalog": "从注册商导入",
+        "registrar": "登记员",
+        "unsupported": "不支持的功能",
+        "load": "加载目录",
+        "worker_help": "目录由任务队列加载。 如果您的队列是异步的，则工作人员必须处于活动状态。",
+        "catalog_help": "选择扩展，然后计算销售价格。 仅导入由注册商加密的持续时间，而不推断价格或高级域名。",
+        "catalog_failed": "无法加载目录。 检查连接和日志，然后再次尝试上传。",
+        "copy": "复制配置",
+        "source": "源扩展",
+        "destinations": "收件人分机",
+        "fields": "要复制的设置",
+        "field_default_nameservers": "默认 DNS 服务器",
+        "field_default_dns_records": "默认 DNS 记录",
+        "field_apply_default_dns": "自动 DNS 初始化",
+        "field_dns_management": "DNS管理",
+        "field_whois_privacy": "WHOIS 隐私",
+        "field_server_id": "注册商登录",
+        "field_prices": "价格和配置的持续时间",
+        "filter": "过滤器扩展",
+        "select_visible": "选择可见的扩展名",
+        "select_targets": "选择至少一个要修改的收件人分机。",
+        "selected": "选定的分机",
+        "preview": "预览更改",
+        "before": "前",
+        "after": "后",
+        "confirm": "应用更改",
+        "applied": "更改已应用。",
+        "stale": "预览已过期或配置已更改。 生成新的预览。",
+        "cost": "注册商费用",
+        "selling": "售价",
+        "markup": "标记",
+        "fixed": "固定金额",
+        "exchange_required": "输入销售货币的兑换率。",
+        "invalid_price": "价格或计算规则无效。",
+        "update_existing": "更新所选现有扩展的价格",
+        "activate": "如果新扩展的配置完成，则激活它们",
+        "existing": "已配置",
+        "new": "新扩展",
+        "value": "价值",
+        "priority": "优先事项",
+        "refresh": "刷新",
+        "dns_status": "DNS初始化",
+        "retry_dns": "仅重新启动 DNS 初始化",
+        "queued": "已请求 DNS 初始化。",
+        "state_pending": "等候接听",
+        "state_loading": "加载中",
+        "state_ready": "提供目录",
+        "state_preview": "变更概览",
+        "state_applied": "已应用更改",
+        "state_failed": "失败",
+        "state_completed": "完成的"
+      }
+    },
+    "servers": {
+      "testconnection": {
+        "title": "测试连接",
+        "button": "检查",
+        "data": "返回的数据",
+        "statuscode": "状态代码"
+      },
+      "title": "服务器",
+      "subheading": "查找所有服务器的列表",
+      "hostname": "主机名",
+      "address": "IP地址",
+      "port": "端口",
+      "type": "服务器类型",
+      "show": {
+        "title": "服务器表 {_name}",
+        "subheading": "以下是与 {_date} 上创建的此服务器相关的信息"
+      },
+      "create": {
+        "title": "创建服务器",
+        "enable_extension": "启用扩展",
+        "enable_extension_help": "您必须启用扩展才能创建服务器。您可以根据自己的使用情况选择 Pterodactyl、Plesk、Proxmox 或 Virtualizor 等。",
+        "subheading": "创建一个新服务器以将其连接到系统"
+      }
+    },
+    "cancellation_reasons": {
+      "title": "取消原因",
+      "subheading": "管理服务取消原因",
+      "reason": "原因",
+      "reason_placeholder": "输入取消原因...",
+      "create": "新建取消原因",
+      "create_description": "添加新的取消原因",
+      "show": "编辑取消原因",
+      "show_description": "修改此取消原因的详情",
+      "usage_count": "此原因已被 {_count} 个已取消服务使用。",
+      "analytics": {
+        "title": "取消统计",
+        "description": "分析您服务的取消原因",
+        "total_cancellations": "取消总数",
+        "reasons_count": "原因统计",
+        "period": "时间段",
+        "distribution": "取消分布",
+        "breakdown": "按原因明细",
+        "cancelled_services": "已取消的服务",
+        "cancelled_at": "取消时间",
+        "no_data": "此时间段暂无数据",
+        "all_data": "所有数据"
+      }
+    },
+    "cancellation_analytics": {
+      "title": "取消统计",
+      "subheading": "分析取消趋势"
+    },
+    "services": {
+      "no_gateway": "没有为此服务设置支付网关",
+      "invoice_not_found": "未找到发票",
+      "invalid_status": "无效状态",
+      "invalid_customer": "无效的顾客",
+      "status_change_failed": "无法更改服务状态：{_error}",
+      "automation": {
+        "disable_suspension": "禁用自动暂停",
+        "enable_suspension": "重新激活自动暂停",
+        "disable_expiration": "禁用自动过期",
+        "enable_expiration": "重新启用自动过期",
+        "enabled_notice": "该服务可能会被系统暂停并自动删除。",
+        "suspension_disabled_notice": "该服务不会被系统自动暂停，但其自动过期功能仍然启用。",
+        "expiration_disabled_notice": "该服务可能会被系统自动暂停，但不会自动删除。",
+        "disabled_notice": "该服务不会被系统自动暂停或删除。",
+        "disable_suspension_success": "自动暂停已被禁用。",
+        "enable_suspension_success": "自动暂停已重新激活。",
+        "disable_expiration_success": "自动过期及其通知已被禁用。",
+        "enable_expiration_success": "自动过期及其通知已重新启用。"
+      },
+      "title": "服务",
+      "add_days": "添加天数",
+      "sub_days": "减去天数",
+      "tab_not_found": "无法找到选项卡",
+      "add_days_question": "您要增加多少天？",
+      "sub_days_question": "您想减去多少天？",
+      "invalid_product_type": "服务类型无效。您请求了 {_product} 类型的产品并选择了 {_type} 类型。请选择相同的类型。",
+      "expired": "此服务已过期或已结束。",
+      "delete_failed": "无法删除服务器上的服务 {_error}",
+      "imported": "已成功导入服务",
+      "pricing_custom": "此服务的价格必须手动设置。您可以稍后更改它。",
+      "pricing_custom2": "该服务的价格是手动配置的。它允许或不允许计费周期。",
+      "resync": "与产品重新同步",
+      "pricing_synchronized": "服务价格与产品价格同步。如果您希望，可以仅为此服务修改价格。",
+      "create": {
+        "nothingtoshow": "目前没有可用的服务配置。您可以创建服务",
+        "title": "创建服务",
+        "subheading": "创建新服务或导入现有服务",
+        "importbtn": "导入",
+        "choose": "选择现有服务器",
+        "import": "<u> 或</u>&nbsp;导入服务",
+        "new": "创建新服务",
+        "created": "服务已成功创建"
+      },
+      "show": {
+        "customerbtn": "客户档案",
+        "type": "服务类型",
+        "notes": "服务说明",
+        "description_help": "您可以为此服务添加描述。客户将在其空间中看到。",
+        "notes_help": "您可以为此服务添加备注。客户将看不到它.",
+        "title": "Service sheet {_name}",
+        "max_renewals": "最大续订数",
+        "subheading": "以下是与在 {_date} 创建的 {_owner} 服务的相关信息",
+        "panel": {
+          "title": "管理面板"
+        }
+      },
+      "subheading": "以下是系统中所有服务的列表",
+      "renewals": {
+        "btn": "更新",
+        "title": "服务续订",
+        "create": "开具续订发票",
+        "btn2": "开具发票",
+        "remove": "提取发票",
+        "removed": "发票已成功提取",
+        "fromexistinginvoice": "添加到现有待处理发票"
+      },
+      "configoptions": {
+        "btn": "服务选项",
+        "addoption": "添加其他选项",
+        "addoption_help": "这将在 Customer Area 上为这项服务添加一个额外的选项。该选项不会自动添加到服务中。"
+      },
+      "upgrade": {
+        "btn": "服务改进",
+        "success": "该服务已成功改进。",
+        "makeupgrade": "改善服务",
+        "upgrade_type": "增强类型",
+        "upgrade_types": {
+          "invoice": "生成要由客户支付的发票",
+          "no_invoice": "改进无计费服务"
+        }
+      },
+      "delivery": {
+        "btn": "提供服务",
+        "btn2": "重新交付服务",
+        "success": "服务已成功交付",
+        "in_queue": "服务交付已在队列中",
+        "reinstall": "服务将再次交付",
+        "not_pending": "服务未等待交货"
+      },
+      "suspend": {
+        "btn": "暂停",
+        "title": "暂停服务",
+        "reason": "暂停原因",
+        "success": "已成功暂停服务",
+        "notify": "发送通知电子邮件",
+        "suspend_at": "暂停时间"
+      },
+      "unsuspend": {
+        "btn": "激活",
+        "title": "重新激活服务",
+        "success": "已成功重新激活服务"
+      },
+      "terminate": {
+        "btn": "完成",
+        "title": "完成服务",
+        "success": "服务已成功过期"
+      },
+      "data": {
+        "title": "服务数据",
+        "btn": "数据",
+        "orderdata": "订单数据"
+      },
+      "cancel": {
+        "btn": "取消",
+        "message": "传达的信息",
+        "title": "取消服务",
+        "restore": "恢复服务",
+        "reason": "取消原因",
+        "success": "已成功取消服务",
+        "delivery": "取消服务的交付",
+        "pending": "服务正在等待交付。如果您取消，它将不会被交付。"
+      },
+      "uncancel": {
+        "success": "服务已成功恢复"
+      },
+      "delete_cancel_delivery": "同时取消链接发票项目（其所有服务）的交付，以避免重新提供服务。 取消选中以保留交付。"
+    },
+    "cancellation_requests": {
+      "title": "取消请求",
+      "subheading": "跟踪并处理客户提交的取消请求。",
+      "service": "服务",
+      "customer": "客户",
+      "mode": "模式",
+      "status": "状态",
+      "requested_at": "请求时间",
+      "execute_at": "生效时间",
+      "reason": "原因",
+      "message": "客户留言",
+      "handler": "处理人",
+      "empty": "未找到取消请求。",
+      "modes": {
+        "now": "立即",
+        "end_of_period": "周期结束时"
+      },
+      "actions": {
+        "approve": "确认请求",
+        "reject": "拒绝请求"
+      },
+      "flash": {
+        "approved": "取消请求已被批准。",
+        "rejected": "取消请求已被拒绝。",
+        "not_actionable": "此请求已被处理。"
+      },
+      "show": {
+        "title": "请求 #{_id}",
+        "subheading": "客户取消请求的完整详情。"
+      },
+      "no_actions": "此请求无可用操作。"
+    },
+    "subdomains_hosts": {
+      "title": "子域",
+      "subdomain": "子域",
+      "subheading": "管理客户可以将哪些域与子域一起使用。",
+      "products": "授权产品",
+      "groups": "允许的团体",
+      "restrictions": "限制",
+      "restrictions_help": "留空可在所有产品上允许此子域。",
+      "all_products": "所有产品",
+      "products_count": ":计数产品|:计数产品",
+      "groups_count": ":计数组|:计数组",
+      "create": {
+        "title": "创建子域",
+        "subheading": "为客户创建新的子域。"
+      },
+      "show": {
+        "title": "子域列表 {_name}",
+        "subheading": "以下是与 {_date} 上创建的此子域相关的信息"
+      },
+      "choose_domain": "选择域",
+      "use_subdomain": "选择子域 {_app_name}",
+      "use_owndomain": "使用现有域"
+    },
+    "configoptions_services": {
+      "title": "服务配置选项",
+      "subheading": "定义可用于客户服务的其他选项，包括自定义和预置模块。",
+      "show": {
+        "title": "配置选项卡 {_name}",
+        "see_service": "查看服务",
+        "subheading": "以下是与在 {_date} 上创建的此配置选项相关的信息"
+      }
+    },
+    "upgrade_services": {
+      "title": "服务改进",
+      "subheading": "管理服务改进。",
+      "old_product": "旧产品",
+      "new_product": "新产品",
+      "upgraded": "改进",
+      "show": {
+        "title": "改进表 {_name}",
+        "subheading": "以下是在 {_date} 上创建的与此改进的相关信息"
+      }
+    },
+    "configoptions": {
+      "title": "配置选项",
+      "subheading": "管理和自定义可用的各种配置选项，以确保最佳地适应特定要求。",
+      "hidden": "警告：此选项暂时处于隐藏状态，以便对其进行编辑。完成后，您可以使其可见。",
+      "option_added": "选项已成功添加",
+      "option_last": "您无法删除最后一个选项",
+      "per_unit": "价格为每 {_unit}",
+      "cannot_delete_in_use": "无法删除此配置选项，因为它被一个或多个服务使用。",
+      "per_step": "价格为每 {_step} {_unit}",
+      "show": {
+        "title": "配置选项卡 {_name}",
+        "subheading": "以下是与在 {_date} 上创建的此配置选项相关的信息",
+        "options": {
+          "title": "可用选项",
+          "add_option": "添加选项",
+          "friendly_name": "显示名称"
+        }
+      },
+      "create": {
+        "title": "创建配置选项",
+        "subheading": "为服务创建新的配置选项。"
+      },
+      "fields": {
+        "custom_key": "自定义密钥",
+        "max_value": "最大值",
+        "min_value": "最小值",
+        "required": "必填",
+        "default_value": "默认值",
+        "step": "光标步骤",
+        "unit": "单位",
+        "rules": "其他 Laravel 规则"
+      },
+      "types": {
+        "text": "文本",
+        "textarea": "文本框",
+        "dropdown": "下拉菜单",
+        "radio": "单选按钮",
+        "checkbox": "复选框",
+        "number": "数字",
+        "slider": "光标"
+      },
+      "keys": {
+        "additional_memory": "额外内存",
+        "additional_cores": "其他内核",
+        "additional_ips": "其他 IP",
+        "additional_sockets": "额外CPU插槽",
+        "ratelimit": "速率限制",
+        "additional_disk": "扩展盘",
+        "node": "交付节点",
+        "server_id": "服务器/位置",
+        "additional_swap": "额外掉期",
+        "additional_cpu": "附加处理器",
+        "additional_databases": "其他数据库",
+        "additional_backups": "其他备份",
+        "additional_io": "额外的 I/O",
+        "additional_allocations": "额外限额",
+        "custom": "自定义"
+      }
+    }
+  }
+}

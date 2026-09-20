@@ -1,0 +1,16 @@
+{
+  "onetime": "Vitalizio",
+  "monthly": "Mensile",
+  "quarterly": "Trimestrale",
+  "semiannually": "Biennale",
+  "annually": "Annuale",
+  "biennially": "Biennale",
+  "triennially": "Triennale",
+  "month": "mese",
+  "year": "anno",
+  "years": "Anni",
+  "quarter": "quarto",
+  "half-year": "semestre",
+  "week": "settimana",
+  "weekly": "Settimanalmente"
+}
