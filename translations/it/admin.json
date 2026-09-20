@@ -428,7 +428,6 @@
     "reason": "Motivo per averlo",
     "amount_exceeds_remaining": "L'importo del credito non può superare l'importo residuo della fattura ({_remaining})",
     "subheading": "Ecco l'elenco di tutti gli asset del sistema",
-    "fund_reason": "Nota di credito emessa per un'aggiunta di fondi al cliente:{_number}",
     "created_success": "La nota di credito è stata emessa con successo",
     "amount_ht": "Importo IVA esclusa",
     "original_invoice": "Fattura originale",

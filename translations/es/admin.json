@@ -428,7 +428,6 @@
     "reason": "Razón para tenerlo",
     "amount_exceeds_remaining": "El monto del crédito no puede exceder el monto restante de la factura ({_remaining})",
     "subheading": "Aquí está la lista de todos los activos del sistema.",
-    "fund_reason": "Nota de crédito emitida por una adición de fondos al cliente:{_number}",
     "created_success": "La nota de crédito ha sido emitida exitosamente.",
     "amount_ht": "Importe sin impuestos",
     "original_invoice": "factura original",
