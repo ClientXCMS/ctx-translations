@@ -132,6 +132,7 @@
       }
     },
     "renewals": {
+      "test_auto_translation": "Esta es una clave de prueba para comprobar la traducción automática.",
       "index": "Renovaciones de servicio",
       "title": "Gestión de Renovaciones",
       "period": "Periodo",
