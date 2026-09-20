@@ -45,11 +45,20 @@ def deepl_credentials_present() -> bool:
     return bool(os.environ.get("DEEPL_API_KEY"))
 
 
+DEEPL_LIFETIME_RESERVE = int(os.environ.get("DEEPL_LIFETIME_RESERVE", "50000"))
+
+
 def deepl_quota_available() -> bool:
     """Best-effort: an inconclusive check (network error, unexpected shape)
     never blocks DeepL by itself - deepl_translate()'s own 456 handling is
     the real safety net, this just avoids burning an obviously exhausted key
-    on a doomed call."""
+    on a doomed call.
+
+    Unlike Cloudflare/Azure's daily or monthly caps, DeepL's free plan is a
+    lifetime credit that never refills: stopping DEEPL_LIFETIME_RESERVE
+    characters short of it, rather than exactly at it, leaves a safety
+    margin instead of a single run being the one that empties it to zero.
+    """
     if not deepl_credentials_present():
         return False
     key = os.environ["DEEPL_API_KEY"]
@@ -62,7 +71,11 @@ def deepl_quota_available() -> bool:
         )
         response.raise_for_status()
         usage = response.json()
-        return usage["character_count"] < usage["character_limit"]
+        remaining = usage["character_limit"] - usage["character_count"]
+        if remaining < DEEPL_LIFETIME_RESERVE:
+            print(f"DeepL lifetime credit down to {remaining} characters (reserve: {DEEPL_LIFETIME_RESERVE}), skipping it for this run.")
+            return False
+        return True
     except Exception:
         return True
 
