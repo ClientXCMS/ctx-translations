@@ -1220,6 +1220,7 @@
       },
       "renewals": {
         "test_auto_translation": "Esta é uma chave de teste para verificar a tradução automática",
+        "test_auto_translation_fresh": "Esta é uma chave totalmente nova, que nunca foi traduzida anteriormente",
         "index": "Renovações de serviço",
         "title": "Gestão de Renovação",
         "period": "Período",

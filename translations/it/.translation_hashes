@@ -1071,6 +1071,7 @@
     "services.renewals.period": "2171009f4e2a3d1cd6b03751d013884a83d345758370c097dc0833d74ca7b0d7",
     "services.renewals.saveandrenew": "91f7bf6910bca1e7a6af18f9ab380dfd8d6c40d70a81bf1cf491b8b76058fec6",
     "services.renewals.test_auto_translation": "fb863cdf79eb30656a384aa89af801c6bb83e7a949d994ef335c72e48f5152e8",
+    "services.renewals.test_auto_translation_fresh": "36ded2f2b991fd8b0c4a747fb41c53c912b1df57d250e7f016f470900411ac57",
     "services.renewals.title": "4b38c4d212c30b73df50bb383c4e1fc31a19175929d9183517ca51d4cd272596",
     "services.renewbtn": "4d12ddecceadc7b8297a2984e2c39870a3f36eae71ce856ccddd2a8237afa5b1",
     "services.show": "85223b707a7cd673891d71232e75a2f4ef17603b08d60f5992789933c4f8e4b8",

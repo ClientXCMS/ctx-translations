@@ -133,6 +133,7 @@
     },
     "renewals": {
       "test_auto_translation": "Questa è una chiave di prova per verificare la traduzione automatica",
+      "test_auto_translation_fresh": "Si tratta di una chiave completamente nuova, mai tradotta prima d’ora",
       "index": "Rinnovi dei servizi",
       "title": "Gestione dei rinnovi",
       "period": "Periodo",
