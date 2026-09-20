@@ -1220,7 +1220,7 @@
       },
       "renewals": {
         "test_auto_translation": "Esta es una clave de prueba para comprobar la traducción automática.",
-        "test_auto_translation_fresh": "Esta frase ha cambiado; estamos revisando la retraducción y el registro del motor elegido.",
+        "test_auto_translation_fresh": "Nueva modificación para comprobar que DeepL se utiliza correctamente, ahora que FR es la única fuente fidedigna",
         "index": "Renovaciones de servicio",
         "title": "Gestión de Renovaciones",
         "period": "Periodo",

@@ -133,7 +133,7 @@
     },
     "renewals": {
       "test_auto_translation": "Dies ist ein Testschlüssel zur Überprüfung der maschinellen Übersetzung",
-      "test_auto_translation_fresh": "Dieser Satz wurde geändert; wir überprüfen die Rückübersetzung und das Protokoll der ausgewählten Engine.",
+      "test_auto_translation_fresh": "Eine weitere Änderung, um sicherzustellen, dass DeepL ordnungsgemäß genutzt wird, da nun FR die einzige verlässliche Quelle ist",
       "index": "Verlängerungen von Diensten",
       "title": "Erneuerungsmanagement",
       "period": "Periode",

@@ -1220,7 +1220,7 @@
       },
       "renewals": {
         "test_auto_translation": "Dit is een testsleutel om de automatische vertaling te controleren",
-        "test_auto_translation_fresh": "Deze zin is gewijzigd; we controleren de hervertaling en het logboek van de gekozen engine",
+        "test_auto_translation_fresh": "Nieuwe aanpassing om te controleren of DeepL correct wordt gebruikt, nu FR de enige bron van waarheid is",
         "index": "Verlenging van de dienst",
         "title": "Beheer van vernieuwing",
         "period": "Periode",
