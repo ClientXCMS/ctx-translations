@@ -17,8 +17,6 @@
     "description": "Encontre a lista de idiomas disponíveis para a área do cliente. Ative ou desative os idiomas conforme necessário.",
     "countries_saved": "A lista de países ativados foi salva com sucesso.",
     "countries": {
-      "admin.locales.countries.description": "Selecione os países disponíveis nos formulários e validações na área do cliente.",
-      "admin.locales.countries.field": "Países disponíveis",
       "description": "Selecione os países disponíveis nos formulários e validações na área do cliente.",
       "field": "Países disponíveis"
     }
@@ -44,6 +42,7 @@
     "new_version_is": "A versão {_version} está disponível.",
     "current_version": "Versão atual",
     "available_version": "Versão disponível",
+    "update_to_version": "Atualizar para v {_version}",
     "whats_new_in": "Novidades da {_version}",
     "published_on": "Publicada em {_date}",
     "added": "Adições",
@@ -80,6 +79,7 @@
     "good_morning": "Olá {_name}",
     "good_afternoon": "Boa tarde {_name}",
     "good_evening": "Boa noite {_name}",
+    "support_expiration_warning": "Seu suporte expirará em {_date}. Não hesite em renovar sua licença para manter suas extensões e também suporte técnico",
     "welcome": "Bem-vindo ao painel de administração. Atualmente são {_time}. Aqui está uma visão geral do seu sistema.",
     "assigned_tickets": "Você foi designado para os seguintes tickets: {_tickets}. Você pode vê-los no centro de ajuda.",
     "autologin_success": "Agora você está conectado como {_name}",
@@ -89,7 +89,12 @@
     "monthly_usage": "Consumo acumulado do mês",
     "notification_error": "Ocorreu um erro nas últimas 24 horas no envio de e-mails. Erro: {_message}",
     "cron_never_executed": "O Agendador de tarefas nunca parece ter sido executado. Verifique a configuração do cron job.",
+    "cron_inactive_since": "O Agendador de tarefas não responde desde {_date}. Verifique se o cron job é executado a cada minuto.",
+    "cron_task_failed": "A tarefa agendada '{_task}' falhou em {_date}. Erro: {_message}",
     "queue_worker_inactive": "O trabalhador da fila não respondeu por mais de 5 minutos.",
+    "queue_jobs_blocked": "As tarefas {_count} estão aguardando para serem executadas há mais de 15 minutos.",
+    "queue_jobs_reserved": "As tarefas {_count} foram reservadas por um trabalhador por muito tempo.",
+    "queue_jobs_failed": "Falha nas tarefas da fila {_count}.",
     "tooltips": {
       "users": {
         "label": "Usuários",
@@ -428,6 +433,7 @@
     "reason": "Razão para tê-lo",
     "amount_exceeds_remaining": "O valor do crédito não pode exceder o valor restante da fatura ({_remaining})",
     "subheading": "Aqui está a lista de todos os ativos do sistema",
+    "fund_reason": "Nota de crédito emitida para adição de fundos ao cliente: {_number}",
     "created_success": "A nota de crédito foi emitida com sucesso",
     "amount_ht": "Valor sem impostos",
     "original_invoice": "Fatura original",
@@ -675,8 +681,6 @@
         "captcha": {
           "title": "Captcha",
           "fields": {
-            "force_2fa_client": "Forçar autenticação dupla para clientes",
-            "force_2fa_admin": "Forçar autenticação dupla para administradores",
             "driver": "Captcha Driver",
             "driver_help": "Você deve ter uma chave secreta para o driver reCaptcha",
             "site_key": "Chave do site",
@@ -784,7 +788,8 @@
       "retry": "Reiniciar",
       "delete": "EXCLUIR",
       "release": "Lançamento e relançamento",
-      "make_available": "Corra o mais rápido possível"
+      "make_available": "Corra o mais rápido possível",
+      "completed": "As tarefas {_count} foram atualizadas."
     }
   },
   "license": {

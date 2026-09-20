@@ -1,0 +1,59 @@
+{
+  "install": "Faciliteit",
+  "step": "Fase",
+  "settings": {
+    "title": "Instellingen",
+    "client_id": "Klant-ID",
+    "client_secret": "Vertrouwelijkheid van de klant",
+    "hosting_name": "Bedrijfsnaam",
+    "connect": "Inloggen",
+    "locales": "TALEN",
+    "infolicense": "Om een ​​Client ID en Client Secret te verkrijgen, moet u over een CLIENTXCMS-licentie beschikken. <a href=\" {_link} \" target=\"_blank\" class=\"underline\">Klik hier om gratis uw inloggegevens op te vragen.</a>",
+    "migrationwarning": "Waarschuwing: de database is niet gemigreerd. Voer \"php artisan migratie --force --seed\" uit om de database te migreren.",
+    "detecteddomain": "Domein gedetecteerd: {_domain}. Zorg ervoor dat het domein exact overeenkomt met uw licentie (inclusief subdomein, indien van toepassing).",
+    "eula": "Door deze pagina te bekijken, accepteert u de voorwaarden van de CLIENTXCMS-licentie die beschikbaar is op clientxcms.com/eula."
+  },
+  "register": {
+    "title": "Registratie",
+    "btn": "Account aanmaken",
+    "telemetry": "Verzend geanonimiseerde telemetriegegevens. Dit helpt ons het CMS te verbeteren en bugs op te lossen. Je kunt deze optie later uitschakelen in de instellingen."
+  },
+  "summary": {
+    "title": "Samenvatting",
+    "btn": "Om te eindigen"
+  },
+  "submit": "Versturen",
+  "password": "Wachtwoord",
+  "firstname": "Voornaam",
+  "lastname": "Achternaam",
+  "email": "E-mail",
+  "password_confirmation": "Wachtwoordbevestiging",
+  "authentication": "Authenticatie",
+  "extensions": "Extensies",
+  "departmentsseeder": {
+    "general": {
+      "name": "Algemeen",
+      "description": "Algemene afdeling"
+    },
+    "billing": {
+      "name": "Facturering",
+      "description": "Facturatieafdeling"
+    },
+    "technical": {
+      "name": "Technisch",
+      "description": "Technische afdeling"
+    },
+    "sales": {
+      "name": "Commercieel",
+      "description": "Commerciële afdeling"
+    }
+  },
+  "security_questions": {
+    "pet_name": "Wat is de naam van uw eerste huisdier?",
+    "birth_city": "In welke stad ben je geboren?",
+    "mother_maiden_name": "Wat is de meisjesnaam van je moeder?",
+    "first_school": "Wat is de naam van uw eerste school?",
+    "favorite_movie": "Wat is je favoriete film?",
+    "childhood_nickname": "Wat was de bijnaam uit je kindertijd?"
+  }
+}

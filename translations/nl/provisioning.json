@@ -84,6 +84,44 @@
     "nameservers": "Naamservers",
     "nameserver": "Naamserver: nummer",
     "dns": "DNS",
+    "dns_choice": {
+      "title": "Waar wilt u uw DNS beheren?",
+      "help": "U kunt deze keuze later wijzigen vanuit uw klantengedeelte.",
+      "managed": "Houd DNS bij ons",
+      "managed_help": "Profiteer van gecentraliseerd beheer en wijzig uw administratie rechtstreeks vanuit uw klantengedeelte.",
+      "custom": "Gebruik mijn eigen DNS",
+      "custom_help": "Geef de naamservers van uw host of een externe DNS-provider op.",
+      "custom_notice": "Er zijn minimaal twee geldige naamservers vereist. Het registratiebeheer gebeurt dan bij uw DNS-provider.",
+      "unavailable": "Er is geen DNS-server vooraf geconfigureerd voor deze extensie."
+    },
+    "dns_editor": {
+      "help": "Beheer de records die uw domein naar uw site, e-mail en andere services verwijzen.",
+      "records_count": "{0} Geen records|{1} {_count}-records|[2,*] {_count}-records",
+      "type": "Vriendelijk",
+      "name": "Naam/host",
+      "value": "Waarde/bestemming",
+      "empty": "Nog geen DNS-records.",
+      "add": "Voeg een record toe",
+      "add_action": "Opname toevoegen",
+      "type_help": {
+        "A": "Koppelt een naam aan een IPv4-adres.",
+        "AAAA": "Koppelt een naam aan een IPv6-adres.",
+        "CNAME": "Creëert een alias voor een andere domeinnaam.",
+        "MX": "Definieert de e-mailserver, in de vorm “serverprioriteit”.",
+        "TXT": "Voegt een tekstwaarde toe, vooral voor SPF, DKIM of validaties.",
+        "NS": "Delegeert een zone of subdomein naar een naamserver.",
+        "SRV": "Beschrijft een service als ‘prioriteit voor doelpoortgewicht’.",
+        "CAA": "Autoriseert een autoriteit om certificaten voor het domein uit te geven."
+      }
+    },
+    "nameservers_editor": {
+      "help": "Kies de servers die de DNS-zone van uw domein hosten.",
+      "recommended": "Aanbevolen DNS",
+      "recommended_help": "Gebruik deze servers om het DNS-beheer gecentraliseerd te houden in uw klantenruimte.",
+      "use_recommended": "Gebruik deze DNS",
+      "add": "Voeg een server toe",
+      "server": "Naamserver"
+    },
     "whois_privacy": "WHOIS-bescherming",
     "creation_date": "Aanmaakdatum",
     "expiration_date": "Vervaldatum",
@@ -105,7 +143,15 @@
       "results": "Zoekresultaten",
       "extensions": "Ontdek onze extensies",
       "extensions_help": "Selecteer een extensie om direct de beschikbaarheid ervan te controleren.",
-      "from": "Van"
+      "from": "Van",
+      "loading": "Wij zoeken naar de beste opties en prijzen voor uw domein…",
+      "checking": "Verificatie wordt uitgevoerd...",
+      "check_failed": "Beschikbaarheid kon niet worden geverifieerd. Probeer het opnieuw.",
+      "invalid_domain": "Voer een geldige domeinnaam in met slechts één deel vóór de extensie.",
+      "transfer_cta": "Verhuis dit domein",
+      "transfer_help": "Uw domein moet bij een andere provider zijn geregistreerd en ontgrendeld voor overdracht.",
+      "transfer_unavailable": "Overdracht van deze extensie wordt niet ondersteund door de registrar.",
+      "auth_code": "Autorisatiecode (EPP)"
     },
     "errors": {
       "invalid_tld": "Het domein komt niet overeen met de geselecteerde extensie."
@@ -118,6 +164,8 @@
     "mode_after_expiration": "Sta annulering toe nadat de service is verlopen",
     "requires_ticket": "Voor deze annuleringsreden is het openen van een supportticket vereist.",
     "after_expiration_only": "Deze annulering is pas toegestaan ​​na het verstrijken van de dienst.",
+    "ticket_subject": "Verzoek tot annulering van de dienst {_service}",
+    "ticket_message": "Hallo,\n\nIk wil graag de annulering van de volgende dienst aanvragen:\n\nService: {_service} Identificatie: {_identifier} Patroon: {_reason} Gewenste deadline: {_expiration} Aanvullende informatie: {_details} Bedankt voor het verwerken van mijn annuleringsverzoek.",
     "ticket_no_details": "Geen aanvullende informatie."
   },
   "config_option": "Configuratie optie",

@@ -4,7 +4,7 @@
     "dashboard": "Return to dashboard",
     "support": "Contact support",
     "previous": "Go back",
-    "status_code": "Error: code"
+    "status_code": "Error {_code}"
   },
   "401": {
     "title": "You are not connected",

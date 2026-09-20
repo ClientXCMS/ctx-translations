@@ -84,6 +84,44 @@
     "nameservers": "Servidores de nombres",
     "nameserver": "Servidor de nombres: número",
     "dns": "DNS",
+    "dns_choice": {
+      "title": "¿Dónde quieres administrar tu DNS?",
+      "help": "Podrás modificar esta elección más adelante desde tu área de cliente.",
+      "managed": "Mantenga DNS con nosotros",
+      "managed_help": "Benefíciate de una gestión centralizada y modifica tus registros directamente desde tu área de clientes.",
+      "custom": "Usar mi propio DNS",
+      "custom_help": "Especifique los servidores de nombres de su host o de un proveedor de DNS externo.",
+      "custom_notice": "Se requieren al menos dos servidores de nombres válidos. La gestión del registro se realizará entonces con su proveedor de DNS.",
+      "unavailable": "No hay ningún servidor DNS preconfigurado para esta extensión."
+    },
+    "dns_editor": {
+      "help": "Administre los registros que apuntan su dominio a su sitio, correo electrónico y otros servicios.",
+      "records_count": "{0} Sin registros|{1} Registros {_count}|[2,*] Registros {_count}",
+      "type": "Amable",
+      "name": "Nombre/Anfitrión",
+      "value": "Valor/destino",
+      "empty": "Aún no hay registros DNS.",
+      "add": "Agregar un registro",
+      "add_action": "Agregar grabación",
+      "type_help": {
+        "A": "Asocia un nombre con una dirección IPv4.",
+        "AAAA": "Asocia un nombre con una dirección IPv6.",
+        "CNAME": "Crea un alias para otro nombre de dominio.",
+        "MX": "Define el servidor de correo electrónico, en el formato “prioridad del servidor”.",
+        "TXT": "Agrega un valor de texto, especialmente para SPF, DKIM o validaciones.",
+        "NS": "Delega una zona o subdominio a un servidor de nombres.",
+        "SRV": "Describe un servicio como \"prioridad de peso del puerto de destino\".",
+        "CAA": "Autoriza a una autoridad a emitir certificados para el dominio."
+      }
+    },
+    "nameservers_editor": {
+      "help": "Elija los servidores que alojan la zona DNS de su dominio.",
+      "recommended": "DNS recomendado",
+      "recommended_help": "Utilice estos servidores para mantener centralizada la gestión de DNS en su área de clientes.",
+      "use_recommended": "Utilice estos DNS",
+      "add": "Agregar un servidor",
+      "server": "Servidor de nombres"
+    },
     "whois_privacy": "Protección WHOIS",
     "creation_date": "Fecha de creación",
     "expiration_date": "Fecha de expiración",
@@ -105,7 +143,15 @@
       "results": "Resultados de la búsqueda",
       "extensions": "Descubre nuestras extensiones",
       "extensions_help": "Seleccione una extensión para comprobar inmediatamente su disponibilidad.",
-      "from": "De"
+      "from": "De",
+      "loading": "Buscamos las mejores opciones y precios para tu dominio…",
+      "checking": "Verificación en curso...",
+      "check_failed": "No se pudo verificar la disponibilidad. Por favor inténtalo de nuevo.",
+      "invalid_domain": "Ingrese un nombre de dominio válido con solo una parte antes de la extensión.",
+      "transfer_cta": "Transferir este dominio",
+      "transfer_help": "Su dominio debe estar registrado con otro proveedor y desbloqueado para su transferencia.",
+      "transfer_unavailable": "El registrador no admite la transferencia de esta extensión.",
+      "auth_code": "Código de autorización (EPP)"
     },
     "errors": {
       "invalid_tld": "El dominio no coincide con la extensión seleccionada."
@@ -118,6 +164,8 @@
     "mode_after_expiration": "Permitir cancelación después de que expire el servicio",
     "requires_ticket": "Este motivo de cancelación requiere abrir un ticket de soporte.",
     "after_expiration_only": "Esta cancelación será autorizada únicamente después de la expiración del servicio.",
+    "ticket_subject": "Solicitud de cancelación de servicio {_service}",
+    "ticket_message": "Hola,\n\nMe gustaría solicitar la cancelación del siguiente servicio:\n\nServicio: {_service} Identificador: {_identifier} Patrón: {_reason} Fecha límite deseada: {_expiration} Información adicional: {_details} Gracias por procesar mi solicitud de cancelación.",
     "ticket_no_details": "Sin información adicional."
   },
   "config_option": "Opción de configuración",

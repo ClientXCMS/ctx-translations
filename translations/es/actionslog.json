@@ -42,8 +42,15 @@
     "two_factor_enabled": "Autenticación de dos factores habilitada",
     "two_factor_disabled": "Autenticación de dos factores deshabilitada",
     "two_factor_recovery_codes_generated": "Códigos de recuperación de autenticación de dos factores generados",
+    "passkey_registered": "Clave de acceso agregada: {_name}",
+    "passkey_deleted": "Clave de acceso eliminada: {_name}",
     "failed_login": "Error de conexión Dirección IP: {_ip}",
     "account_deleted": "Cuenta eliminada",
-    "new_registered": "Nuevo registro"
+    "new_registered": "Nuevo registro",
+    "basket_complet": "Carro completado con {_amount}.",
+    "ticket_create": "Abrir un nuevo ticket {_subject}",
+    "ticket_replied": "Nueva respuesta al ticket {_subject}",
+    "ticket_reopened": "Boleto de reapertura {_subject}",
+    "basket": "Completando una cesta de {_amount}"
   }
 }

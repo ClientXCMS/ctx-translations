@@ -84,6 +84,44 @@
     "nameservers": "Server dei nomi",
     "nameserver": "Server dei nomi: numero",
     "dns": "DNS",
+    "dns_choice": {
+      "title": "Dove vuoi gestire i tuoi DNS?",
+      "help": "Potrai modificare successivamente questa scelta dalla tua area clienti.",
+      "managed": "Mantieni il DNS con noi",
+      "managed_help": "Approfitta della gestione centralizzata e modifica i tuoi dati direttamente dalla tua area clienti.",
+      "custom": "Usa il mio DNS",
+      "custom_help": "Specifica i nameserver del tuo host o di un provider DNS esterno.",
+      "custom_notice": "Sono richiesti almeno due server dei nomi validi. La gestione della registrazione verrà poi effettuata con il tuo provider DNS.",
+      "unavailable": "Nessun server DNS preconfigurato per questa estensione."
+    },
+    "dns_editor": {
+      "help": "Gestisci i record che indirizzano il tuo dominio al tuo sito, alla posta elettronica e ad altri servizi.",
+      "records_count": "{0} Nessun record|{1} Record {_count}|[2,*] Record {_count}",
+      "type": "Tipo",
+      "name": "Nome/Ospite",
+      "value": "Valore/destinazione",
+      "empty": "Nessun record DNS ancora.",
+      "add": "Aggiungi un record",
+      "add_action": "Aggiungi la registrazione",
+      "type_help": {
+        "A": "Associa un nome a un indirizzo IPv4.",
+        "AAAA": "Associa un nome a un indirizzo IPv6.",
+        "CNAME": "Crea un alias per un altro nome di dominio.",
+        "MX": "Definisce il server di posta elettronica, nella forma “priorità del server”.",
+        "TXT": "Aggiunge un valore di testo, in particolare per SPF, DKIM o convalide.",
+        "NS": "Delega una zona o un sottodominio a un server dei nomi.",
+        "SRV": "Descrive un servizio come \"priorità del peso della porta target\".",
+        "CAA": "Autorizza un'autorità a emettere certificati per il dominio."
+      }
+    },
+    "nameservers_editor": {
+      "help": "Scegli i server che ospitano la zona DNS del tuo dominio.",
+      "recommended": "DNS consigliato",
+      "recommended_help": "Utilizza questi server per mantenere la gestione DNS centralizzata nella tua area clienti.",
+      "use_recommended": "Usa questi DNS",
+      "add": "Aggiungi un server",
+      "server": "Server dei nomi"
+    },
     "whois_privacy": "Protezione WHOIS",
     "creation_date": "Data di creazione",
     "expiration_date": "Data di scadenza",
@@ -105,7 +143,15 @@
       "results": "Risultati della ricerca",
       "extensions": "Scopri le nostre estensioni",
       "extensions_help": "Seleziona un'estensione per verificarne subito la disponibilità.",
-      "from": "Da"
+      "from": "Da",
+      "loading": "Cerchiamo le migliori opzioni e prezzi per il tuo dominio…",
+      "checking": "Verifica in corso…",
+      "check_failed": "Non è stato possibile verificare la disponibilità. Per favore riprova.",
+      "invalid_domain": "Inserisci un nome di dominio valido con una sola parte prima dell'estensione.",
+      "transfer_cta": "Trasferisci questo dominio",
+      "transfer_help": "Il tuo dominio deve essere registrato con un altro provider e sbloccato per il trasferimento.",
+      "transfer_unavailable": "Il trasferimento di questa estensione non è supportato dal registrar.",
+      "auth_code": "Codice di autorizzazione (EPP)"
     },
     "errors": {
       "invalid_tld": "Il dominio non corrisponde all'estensione selezionata."
@@ -118,6 +164,8 @@
     "mode_after_expiration": "Consenti la cancellazione dopo la scadenza del servizio",
     "requires_ticket": "Questo motivo di annullamento richiede l'apertura di un ticket di supporto.",
     "after_expiration_only": "Tale cancellazione sarà autorizzata solo dopo la scadenza del servizio.",
+    "ticket_subject": "Richiesta di cancellazione del servizio {_service}",
+    "ticket_message": "Ciao,\n\nDesidero richiedere la cancellazione del seguente servizio:\n\nServizio: {_service} Identificatore: {_identifier} Modello: {_reason} Scadenza desiderata: {_expiration} Ulteriori informazioni: {_details} Grazie per aver elaborato la mia richiesta di cancellazione.",
     "ticket_no_details": "Nessuna informazione aggiuntiva."
   },
   "config_option": "Opzione di configurazione",

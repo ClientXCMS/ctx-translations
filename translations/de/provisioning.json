@@ -84,6 +84,44 @@
     "nameservers": "Nameserver",
     "nameserver": "Nameserver: Nummer",
     "dns": "DNS",
+    "dns_choice": {
+      "title": "Wo möchten Sie Ihr DNS verwalten?",
+      "help": "Sie können diese Auswahl später in Ihrem Kundenbereich ändern.",
+      "managed": "Behalten Sie DNS bei uns",
+      "managed_help": "Profitieren Sie von der zentralen Verwaltung und ändern Sie Ihre Datensätze direkt in Ihrem Kundenbereich.",
+      "custom": "Benutze mein eigenes DNS",
+      "custom_help": "Geben Sie die Nameserver Ihres Hosts oder eines externen DNS-Anbieters an.",
+      "custom_notice": "Es sind mindestens zwei gültige Nameserver erforderlich. Die Registrierungsverwaltung erfolgt dann bei Ihrem DNS-Anbieter.",
+      "unavailable": "Für diese Erweiterung ist kein DNS-Server vorkonfiguriert."
+    },
+    "dns_editor": {
+      "help": "Verwalten Sie die Datensätze, die Ihre Domain auf Ihre Website, E-Mail und andere Dienste verweisen.",
+      "records_count": "{0} Keine Datensätze|{1} {_count} Datensätze|[2,*] {_count} Datensätze",
+      "type": "Art",
+      "name": "Name/Gastgeber",
+      "value": "Wert/Ziel",
+      "empty": "Noch keine DNS-Einträge.",
+      "add": "Fügen Sie einen Datensatz hinzu",
+      "add_action": "Aufnahme hinzufügen",
+      "type_help": {
+        "A": "Ordnet einen Namen einer IPv4-Adresse zu.",
+        "AAAA": "Ordnet einen Namen einer IPv6-Adresse zu.",
+        "CNAME": "Erstellt einen Alias ​​für einen anderen Domänennamen.",
+        "MX": "Definiert den E-Mail-Server in der Form „Serverpriorität“.",
+        "TXT": "Fügt einen Textwert hinzu, insbesondere für SPF, DKIM oder Validierungen.",
+        "NS": "Delegiert eine Zone oder Subdomain an einen Nameserver.",
+        "SRV": "Beschreibt einen Dienst als „Ziel-Port-Gewichtspriorität“.",
+        "CAA": "Autorisiert eine Behörde, Zertifikate für die Domäne auszustellen."
+      }
+    },
+    "nameservers_editor": {
+      "help": "Wählen Sie die Server aus, die die DNS-Zone Ihrer Domain hosten.",
+      "recommended": "Empfohlenes DNS",
+      "recommended_help": "Nutzen Sie diese Server, um die DNS-Verwaltung in Ihrem Kundenbereich zentral zu halten.",
+      "use_recommended": "Verwenden Sie diese DNS",
+      "add": "Fügen Sie einen Server hinzu",
+      "server": "Nameserver"
+    },
     "whois_privacy": "WHOIS-Schutz",
     "creation_date": "Erstellungsdatum",
     "expiration_date": "Verfallsdatum",
@@ -105,7 +143,15 @@
       "results": "Suchergebnisse",
       "extensions": "Entdecken Sie unsere Erweiterungen",
       "extensions_help": "Wählen Sie eine Erweiterung aus, um deren Verfügbarkeit sofort zu prüfen.",
-      "from": "Aus"
+      "from": "Aus",
+      "loading": "Wir suchen nach den besten Optionen und Preisen für Ihre Domain…",
+      "checking": "Verifizierung läuft…",
+      "check_failed": "Die Verfügbarkeit konnte nicht überprüft werden. Bitte versuchen Sie es erneut.",
+      "invalid_domain": "Geben Sie einen gültigen Domänennamen mit nur einem Teil vor der Erweiterung ein.",
+      "transfer_cta": "Übertragen Sie diese Domain",
+      "transfer_help": "Ihre Domain muss bei einem anderen Anbieter registriert und für den Transfer freigeschaltet sein.",
+      "transfer_unavailable": "Die Übertragung dieser Erweiterung wird vom Registrar nicht unterstützt.",
+      "auth_code": "Autorisierungscode (EPP)"
     },
     "errors": {
       "invalid_tld": "Die Domain stimmt nicht mit der ausgewählten Erweiterung überein."
@@ -118,6 +164,8 @@
     "mode_after_expiration": "Stornierung nach Ablauf des Dienstes zulassen",
     "requires_ticket": "Dieser Stornierungsgrund erfordert die Eröffnung eines Support-Tickets.",
     "after_expiration_only": "Diese Stornierung wird erst nach Ablauf des Dienstes genehmigt.",
+    "ticket_subject": "Service-Stornierungsanfrage {_service}",
+    "ticket_message": "Hallo,\n\nIch möchte die Stornierung des folgenden Dienstes beantragen:\n\nService: {_service} Kennung: {_identifier} Muster: {_reason} Gewünschter Termin: {_expiration} Zusätzliche Informationen: {_details} Vielen Dank für die Bearbeitung meiner Stornierungsanfrage.",
     "ticket_no_details": "Keine zusätzlichen Informationen."
   },
   "config_option": "Konfigurationsoption",

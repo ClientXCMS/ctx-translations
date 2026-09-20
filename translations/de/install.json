@@ -1,0 +1,59 @@
+{
+  "install": "Einrichtung",
+  "step": "Bühne",
+  "settings": {
+    "title": "Einstellungen",
+    "client_id": "Kunden-ID",
+    "client_secret": "Vertraulichkeit des Kunden",
+    "hosting_name": "Name der Firma",
+    "connect": "Einloggen",
+    "locales": "SPRACHEN",
+    "infolicense": "Um eine Client-ID und ein Client-Geheimnis zu erhalten, müssen Sie über eine CLIENTXCMS-Lizenz verfügen. <a href=\" {_link} \" target=\"_blank\" class=\"underline\">Klicken Sie hier, um Ihre Anmeldedaten kostenlos abzurufen.</a>",
+    "migrationwarning": "Warnung: Die Datenbank wurde nicht migriert. Bitte führen Sie „php artisan migrate --force --seed“ aus, um die Datenbank zu migrieren.",
+    "detecteddomain": "Domäne erkannt: {_domain}. Stellen Sie sicher, dass die Domain genau mit Ihrer Lizenz übereinstimmt (einschließlich der Subdomain, falls zutreffend).",
+    "eula": "Durch das Aufrufen dieser Seite akzeptieren Sie die Bedingungen der CLIENTXCMS-Lizenz, die unter clientxcms.com/eula verfügbar ist."
+  },
+  "register": {
+    "title": "Anmeldung",
+    "btn": "Benutzerkonto erstellen",
+    "telemetry": "Senden Sie anonymisierte Telemetriedaten. Dies hilft uns, das CMS zu verbessern und Fehler zu beheben. Sie können diese Option später in den Einstellungen deaktivieren."
+  },
+  "summary": {
+    "title": "Zusammenfassung",
+    "btn": "Zum Abschluss"
+  },
+  "submit": "Schicken",
+  "password": "Passwort",
+  "firstname": "Vorname",
+  "lastname": "Nachname",
+  "email": "E-Mail",
+  "password_confirmation": "Passwortbestätigung",
+  "authentication": "Authentifizierung",
+  "extensions": "Erweiterungen",
+  "departmentsseeder": {
+    "general": {
+      "name": "Allgemein",
+      "description": "Allgemeine Abteilung"
+    },
+    "billing": {
+      "name": "Abrechnung",
+      "description": "Abrechnungsabteilung"
+    },
+    "technical": {
+      "name": "Technisch",
+      "description": "Technische Abteilung"
+    },
+    "sales": {
+      "name": "Kommerziell",
+      "description": "Handelsabteilung"
+    }
+  },
+  "security_questions": {
+    "pet_name": "Wie heißt Ihr erstes Haustier?",
+    "birth_city": "In welcher Stadt wurden Sie geboren?",
+    "mother_maiden_name": "Wie lautet der Mädchenname Ihrer Mutter?",
+    "first_school": "Wie heißt Ihre erste Schule?",
+    "favorite_movie": "Was ist dein Lieblingsfilm?",
+    "childhood_nickname": "Wie lautete der Spitzname Ihrer Kindheit?"
+  }
+}

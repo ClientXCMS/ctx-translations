@@ -42,8 +42,15 @@
     "two_factor_enabled": "Zwei-Faktor-Authentifizierung aktiviert",
     "two_factor_disabled": "Zwei-Faktor-Authentifizierung deaktiviert",
     "two_factor_recovery_codes_generated": "Generierte Wiederherstellungscodes für die Zwei-Faktor-Authentifizierung",
+    "passkey_registered": "Zugriffsschlüssel hinzugefügt: {_name}",
+    "passkey_deleted": "Gelöschter Zugriffsschlüssel: {_name}",
     "failed_login": "Verbindungsfehler IP-Adresse: {_ip}",
     "account_deleted": "Konto gelöscht",
-    "new_registered": "Neuanmeldung"
+    "new_registered": "Neuanmeldung",
+    "basket_complet": "Warenkorb mit {_amount} vervollständigt.",
+    "ticket_create": "Eröffnung eines neuen Tickets {_subject}",
+    "ticket_replied": "Neue Antwort auf Ticket {_subject}",
+    "ticket_reopened": "Wiedereröffnungsticket {_subject}",
+    "basket": "Vervollständigung eines Warenkorbs mit {_amount}"
   }
 }

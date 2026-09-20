@@ -55,13 +55,13 @@
   "bulk": {
     "select_all": "Select all",
     "deselect_all": "Deselect all",
-    "selected_count": ":count selected",
+    "selected_count": "{_count} selected",
     "install_selected": "Install selection",
     "enable_selected": "Enable selection",
     "disable_selected": "Disable selection",
     "processing": "Processing...",
     "success": "Operation completed successfully",
-    "partial_success": ":success succeeded, :failed failed"
+    "partial_success": "{_success} succeeded, {_failed} failed"
   },
   "modal": {
     "version": "Version",

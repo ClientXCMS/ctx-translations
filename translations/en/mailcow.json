@@ -21,7 +21,7 @@
   "panel": {
     "title": "Email domains",
     "permission": "Manage Mailcow domains",
-    "usage": ":used domain(s) used on :max",
+    "usage": "{_used} domain(s) used on {_max}",
     "empty": "No domains are configured yet.",
     "mailboxes": "Boxes",
     "aliases": "Alias",

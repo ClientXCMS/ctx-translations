@@ -49,16 +49,16 @@
       "two_factor_enabled": "Zwei-Faktor-Authentifizierung aktiviert",
       "two_factor_disabled": "Zwei-Faktor-Authentifizierung deaktiviert",
       "two_factor_recovery_codes_generated": "Generierte Wiederherstellungscodes für die Zwei-Faktor-Authentifizierung",
-      "passkey_registered": "Zugriffsschlüssel hinzugefügt:{_name}",
-      "passkey_deleted": "Gelöschter Zugriffsschlüssel:{_name}",
+      "passkey_registered": "Zugriffsschlüssel hinzugefügt: {_name}",
+      "passkey_deleted": "Gelöschter Zugriffsschlüssel: {_name}",
       "failed_login": "Verbindungsfehler IP-Adresse: {_ip}",
       "account_deleted": "Konto gelöscht",
       "new_registered": "Neuanmeldung",
-      "basket_complet": "Warenkorb mit{_amount}abgeschlossen.",
-      "ticket_create": "Ein neues Ticket eröffnen{_subject}",
-      "ticket_replied": "Neue Antwort auf Ticket{_subject}",
-      "ticket_reopened": "Wiedereröffnungsticket{_subject}",
-      "basket": "Einen Warenkorb mit{_amount}vervollständigen"
+      "basket_complet": "Warenkorb mit {_amount} vervollständigt.",
+      "ticket_create": "Eröffnung eines neuen Tickets {_subject}",
+      "ticket_replied": "Neue Antwort auf Ticket {_subject}",
+      "ticket_reopened": "Wiedereröffnungsticket {_subject}",
+      "basket": "Vervollständigung eines Warenkorbs mit {_amount}"
     }
   },
   "lang.fr.admin": {
@@ -80,8 +80,6 @@
       "description": "Suchen Sie die Liste der Sprachen, die für den Kundenbereich verfügbar sind. Schalten Sie Sprachen nach Bedarf ein oder aus.",
       "countries_saved": "Die Liste der aktivierten Länder wurde erfolgreich gespeichert.",
       "countries": {
-        "admin.locales.countries.description": "Wählen Sie die in den Formularen und Validierungen im Kundenbereich verfügbaren Länder aus.",
-        "admin.locales.countries.field": "Länder verfügbar",
         "description": "Wählen Sie die in den Formularen und Validierungen im Kundenbereich verfügbaren Länder aus.",
         "field": "Länder verfügbar"
       }
@@ -144,7 +142,7 @@
       "good_morning": "Hallo {_name}",
       "good_afternoon": "Guten Nachmittag {_name}",
       "good_evening": "Guten Abend {_name}",
-      "support_expiration_warning": "Ihr Support läuft am{_date}ab. Zögern Sie nicht, Ihre Lizenz zu erneuern, um Ihre Erweiterungen und den technischen Support zu behalten",
+      "support_expiration_warning": "Ihr Support läuft am {_date} ab. Zögern Sie nicht, Ihre Lizenz zu erneuern, um Ihre Erweiterungen und den technischen Support zu behalten",
       "welcome": "Willkommen im Administrations-Dashboard. Es ist derzeit {_time}. Hier ist eine Übersicht über Ihr System.",
       "assigned_tickets": "Sie wurden den folgenden Tickets zugewiesen: {_tickets}. Sie können sie im Hilfezentrum ansehen.",
       "autologin_success": "Sie sind nun als {_name} angemeldet.",
@@ -154,12 +152,12 @@
       "monthly_usage": "Kumulierter Verbrauch des Monats",
       "notification_error": "In den letzten 24 Stunden ist beim Senden von E-Mails ein Fehler aufgetreten. Fehler: {_message}",
       "cron_never_executed": "Der Taskplaner scheint nie ausgeführt worden zu sein. Überprüfen Sie die Cron-Job-Konfiguration.",
-      "cron_inactive_since": "Der Taskplaner reagiert seit{_date}nicht mehr. Stellen Sie sicher, dass der Cron-Job jede Minute ausgeführt wird.",
-      "cron_task_failed": "Die geplante Aufgabe „{_task}“ ist am{_date}fehlgeschlagen. Fehler:{_message}",
+      "cron_inactive_since": "Der Taskplaner reagiert seit {_date} nicht mehr. Stellen Sie sicher, dass der Cron-Job jede Minute ausgeführt wird.",
+      "cron_task_failed": "Die geplante Aufgabe „{_task}“ ist auf {_date} fehlgeschlagen. Fehler: {_message}",
       "queue_worker_inactive": "Der Warteschlangenarbeiter hat seit mehr als 5 Minuten nicht geantwortet.",
-      "queue_jobs_blocked": "{_count}Aufgabe(n) warten seit mehr als 15 Minuten auf ihre Ausführung.",
-      "queue_jobs_reserved": "{_count}Aufgabe(n) wurden zu lange von einem Mitarbeiter reserviert.",
-      "queue_jobs_failed": "{_count}Aufgabe(n) in der Warteschlange ist fehlgeschlagen.",
+      "queue_jobs_blocked": "{_count} Aufgabe(n) warten seit mehr als 15 Minuten auf ihre Ausführung.",
+      "queue_jobs_reserved": "{_count} Aufgabe(n) wurden zu lange von einem Worker reserviert.",
+      "queue_jobs_failed": "{_count} Warteschlangenaufgabe(n) fehlgeschlagen.",
       "tooltips": {
         "users": {
           "label": "Benutzer",
@@ -498,7 +496,7 @@
       "reason": "Grund, es zu haben",
       "amount_exceeds_remaining": "Der Betrag der Gutschrift darf den Restbetrag der Rechnung nicht überschreiten ({_remaining})",
       "subheading": "Hier ist die Liste aller Assets des Systems",
-      "fund_reason": "Gutschrift ausgestellt für eine Fondszuführung an den Kunden:{_number}",
+      "fund_reason": "Gutschrift ausgestellt für eine Fondszuführung an den Kunden: {_number}",
       "created_success": "Die Gutschrift wurde erfolgreich ausgestellt",
       "amount_ht": "Betrag ohne Steuern",
       "original_invoice": "Originalrechnung",
@@ -746,8 +744,6 @@
           "captcha": {
             "title": "Das Kaptcha",
             "fields": {
-              "force_2fa_client": "Erzwingen Sie eine doppelte Authentifizierung für Clients",
-              "force_2fa_admin": "Erzwingen Sie eine doppelte Authentifizierung für Administratoren",
               "driver": "Captcha-Treiber",
               "driver_help": "Sie müssen einen geheimen Schlüssel für den reCaptcha-Treiber haben",
               "site_key": "Site-Schlüssel",
@@ -856,7 +852,7 @@
         "delete": "LÖSCHEN",
         "release": "Veröffentlichung und Relaunch",
         "make_available": "Laufen Sie so schnell wie möglich",
-        "completed": "{_count}Aufgabe(n) wurden aktualisiert."
+        "completed": "{_count} Aufgabe(n) wurden aktualisiert."
       }
     },
     "license": {
@@ -1010,8 +1006,8 @@
       "delete": "LÖSCHEN",
       "empty": "Kein Zugangsschlüssel gespeichert.",
       "unknown_authenticator": "Unbekanntes Gerät",
-      "created_at": "Hinzugefügt am{_date}",
-      "last_used_at": "Verwendet am{_date}",
+      "created_at": "Hinzugefügt am {_date}",
+      "last_used_at": "Wird für {_date} verwendet",
       "error": "Der Zugriffsschlüssel konnte nicht überprüft werden. Versuchen Sie es erneut oder verwenden Sie Ihr Passwort."
     }
   },
@@ -1223,7 +1219,6 @@
         }
       },
       "renewals": {
-        "test_auto_translation": "Dies ist ein maschineller Übersetzungstest für{_name}",
         "index": "Verlängerungen von Diensten",
         "title": "Erneuerungsmanagement",
         "period": "Periode",
@@ -1339,7 +1334,7 @@
         "subheading": "Bitte geben Sie den Zwei-Faktor-Authentifizierungscode ein, der von Ihrer mobilen App generiert wurde.",
         "info": "Scannen Sie den QR-Code mit Ihrer Zwei-Faktor-Authentifizierungs-App.",
         "download_codes": "Laden Sie die Wiederherstellungscodes <a href=\"{_url}\" class=\"text-primary\"> herunter, indem Sie hier klicken</a>.",
-        "email_sent_to": "Ein 6-stelliger Code wurde Ihnen an{_email}gesendet. Es ist 5 Minuten gültig.",
+        "email_sent_to": "Ein 6-stelliger Code wurde Ihnen an {_email} gesendet. Es ist 5 Minuten gültig.",
         "resend_email_code": "Senden Sie einen Code erneut per E-Mail",
         "step1_subheading": "Schritt 1 von 2 – Code für Ihre Authentifizierungs-App",
         "step2_subheading": "Schritt 2 von 2 – Code per E-Mail erhalten",
@@ -1349,17 +1344,17 @@
         "code_totp_hint": "Öffnen Sie Ihre Authentifizierungs-App. Wenn Sie Ihr Gerät verloren haben, verwenden Sie einen der Wiederherstellungscodes.",
         "code_email": "Code per E-Mail erhalten",
         "next_step": "Weitermachen",
-        "trust_device": "Vertrauen Sie diesem Gerät{_days}Tage lang",
+        "trust_device": "Vertrauen Sie diesem Gerät {_days} Tage lang",
         "back_to_step1": "Zurück zur vorherigen Prüfung",
-        "cooldown_active": "Zu viele gescheiterte Versuche. Bitte warten Sie{_minutes}Minuten, bevor Sie einen neuen Code anfordern.",
-        "device_label": "{_browser}von{_os}",
+        "cooldown_active": "Zu viele gescheiterte Versuche. Bitte warten Sie {_minutes} Minuten, bevor Sie einen neuen Code anfordern.",
+        "device_label": "{_browser} auf {_os}",
         "unknown_device": "Unbekanntes Gerät",
         "unknown_browser": "Unbekannter Browser",
         "current_device": "Dieses Gerät",
         "trusted_devices_heading": "Vertrauenswürdige Geräte",
         "trusted_devices_description": "Diese Geräte werden Sie bei der nächsten Anmeldung nicht per E-Mail nach einem Code fragen, bis dieser abläuft.",
         "trusted_devices_empty": "Keine vertrauenswürdigen Geräte registriert.",
-        "trusted_device_expires_at": "Läuft am{_date}ab",
+        "trusted_device_expires_at": "Läuft am {_date} ab",
         "trusted_device_expires_never": "Ohne Ablauf",
         "trusted_device_revoke": "Widerrufen",
         "trusted_device_revoked": "Vertrauenswürdiges Gerät widerrufen.",
@@ -1527,6 +1522,142 @@
         "title": "Erstellen Sie einen Gutschein",
         "subheading": "Erstellen Sie einen neuen Rabattgutschein"
       }
+    }
+  },
+  "lang.fr.einvoicing": {
+    "profile": {
+      "title": "Abrechnungsdaten",
+      "description": "Geben Sie an, ob Sie als Einzelperson, Unternehmen oder Verein einkaufen. Diese Informationen werden auf Ihren nächsten Rechnungen eingefroren.",
+      "type": "Kundentyp",
+      "individual": "Besondere",
+      "business": "Geschäft",
+      "association": "Verein",
+      "legal_name": "Name der Firma",
+      "rna_number": "RNA-Nummer",
+      "siren": "SIRENE",
+      "siret": "SIRET",
+      "vat_number": "Umsatzsteuer-Identifikationsnummer",
+      "tax_registration_number": "Identifiant fiscal local",
+      "tax_subject_status": "Steuerliche Situation des Vereins",
+      "tax_subject_status_help": "Diese Informationen bestimmen, ob die Transaktion unter die elektronische Rechnungsstellung oder das E-Reporting fällt.",
+      "tax_status_unknown": "Ich weiß es noch nicht",
+      "tax_status_non_taxable": "Der Verein unterliegt nicht der Mehrwertsteuer",
+      "tax_status_taxable_not_vat_liable": "Der Verein ist umsatzsteuerpflichtig, aber nicht steuerpflichtig",
+      "tax_status_vat_liable": "Umsatzsteuerpflichtiger Verein",
+      "additional_details": "Zusätzliche Rechnungsinformationen",
+      "additional_details_help": "Freier Text zur Anzeige auf Rechnungen. Geben Sie nicht den Firmennamen, SIREN oder die Umsatzsteuer-Identifikationsnummer an.",
+      "required": "Vervollständigen Sie Ihre Rechnungsinformationen, bevor Sie mit Ihrer Bestellung fortfahren.",
+      "saved": "Ihre Zahlungsinformationen wurden gespeichert."
+    },
+    "admin": {
+      "tab": "Elektronische Rechnungsstellung",
+      "title": "Steuerprofil und Rechnungsstellung",
+      "description": "Diese Informationen werden bei der Ausstellung der nächsten Rechnungen eingefroren.",
+      "identity": "Steueridentität",
+      "address": "Rechnungsadresse",
+      "dashboard": {
+        "title": "Elektronische Rechnungsstellung",
+        "description": "Verfolgen Sie elektronische Rechnungen, E-Reporting-Zeiträume und meldepflichtige Sammlungen.",
+        "local_warning_title": "Lokaler Simulationsmodus",
+        "local_warning_description": "Die erzeugten Dateien werden nicht an eine zugelassene Plattform oder an die DGFiP übermittelt.",
+        "provider": "Aktiver Anbieter",
+        "regime": "Mehrwertsteuerregelung",
+        "timezone": "Steuerzone",
+        "activation": "Aktivierung",
+        "disabled": "Deaktiviert",
+        "documents": "Elektronische Dokumente",
+        "documents_description": "Vom aktiven Anbieter erstellte bzw. übermittelte Rechnungen und Gutschriften.",
+        "periods": "E-Meldezeiträume",
+        "periods_description": "Stapel von Transaktionen und Inkasso, gruppiert nach dem Geschäftskalender.",
+        "payments": "Inkasso und Rückerstattungen",
+        "payments_description": "Unveränderliches Protokoll der Finanzbewegungen, die für das E-Reporting berücksichtigt werden.",
+        "empty_documents": "Zur Zeit keine elektronischen Dokumente.",
+        "empty_periods": "Derzeit kein E-Reporting-Zeitraum.",
+        "empty_payments": "Es sind keine Quittungen oder Rückerstattungen erfasst.",
+        "document": "Dokumentieren",
+        "provider_column": "Anbieter",
+        "status": "Status",
+        "error": "Letzter Fehler",
+        "actions": "Aktionen",
+        "type": "Art",
+        "period": "Zeitraum",
+        "deadline": "Fälligkeitsdatum",
+        "invoice": "Rechnung",
+        "amount": "Menge",
+        "date": "Datum",
+        "retry": "Neustart",
+        "download_pdf": "PDF",
+        "download_xml": "XML",
+        "download_manifest": "Manifest",
+        "no_error": "Keiner",
+        "settings": "Konfigurieren",
+        "accounting_exports": "Buchhaltungsexporte",
+        "accounting_exports_description": "Synchronisierung mit Abby, Pennylane und anderen Buchhaltungszielen.",
+        "empty_accounting_exports": "Zur Zeit keine Buchhaltungsexporte.",
+        "accounting_only": "Buchhaltungssynchronisierung",
+        "event": "Ereignis",
+        "external_id": "Externer Bezeichner"
+      }
+    },
+    "status": {
+      "complete": "Vollständiges Profil",
+      "incomplete": "Unvollständiges Profil",
+      "pending": "Validierung steht aus"
+    },
+    "settings": {
+      "legal_entity": "Steueridentität des Verkäufers",
+      "operation_category": "Übliche Art der Operationen",
+      "goods": "Lieferungen von Waren",
+      "services": "Dienstleistungen",
+      "mixed": "Waren und Dienstleistungen",
+      "vat_on_debits": "Die Mehrwertsteuer ist aufgrund der Belastung zu zahlen",
+      "seller_street": "Der Weg des Verkäufers",
+      "seller_address2": "Zusätzliche Adresse des Verkäufers",
+      "seller_zipcode": "Postleitzahl des Verkäufers",
+      "seller_city": "Verkäuferstadt",
+      "seller_country": "Land des Verkäufers",
+      "seller_country_help": "Zweibuchstabiger ISO-Ländercode, zum Beispiel FR.",
+      "electronic_section": "Factur-X und E-Reporting",
+      "enabled": "Für neue Dokumente aktivieren",
+      "provider": "Aktiver Anbieter",
+      "vat_regime": "Mehrwertsteuerregelung",
+      "timezone": "Steuerzone",
+      "activation_date": "Aktivierungsdatum",
+      "activation_date_help": "Vor diesem Datum ausgestellte Dokumente werden nicht rückwirkend bearbeitet.",
+      "regimes": {
+        "real_normal_monthly": "Echter monatlicher Normalwert",
+        "real_normal_quarterly": "Echter vierteljährlicher Normalwert",
+        "simplified": "Vereinfachte Ernährung",
+        "franchise_base": "Basis-Franchise"
+      }
+    },
+    "document_statuses": {
+      "pending": "In der Warteschleife",
+      "generated": "Generiert",
+      "submitted": "Abgelegt",
+      "delivered": "Buch",
+      "accepted": "Akzeptiert",
+      "rejected": "Abgelehnt",
+      "failed": "Irrtümlich",
+      "open": "Offen",
+      "closed": "Geschlossen",
+      "waiting_payment": "Warten auf Zahlung",
+      "completed": "Fertig",
+      "manual_review": "Manuelle Überprüfung"
+    },
+    "report_types": {
+      "transaction": "Transaktionen",
+      "payment": "Quittungen"
+    },
+    "payment_types": {
+      "payment": "Sammlung",
+      "refund": "Erstattung"
+    },
+    "accounting_events": {
+      "invoice": "Rechnung ausgestellt",
+      "credit_note": "Ausgegeben",
+      "payment": "Sammlung",
+      "refund": "Erstattung"
     }
   },
   "lang.fr.errors": {
@@ -2131,6 +2262,115 @@
     "599": "Fehler beim Timeout der Netzwerkverbindung",
     "unknownError": "Unbekannter Fehler"
   },
+  "lang.fr.install": {
+    "install": "Einrichtung",
+    "step": "Bühne",
+    "settings": {
+      "title": "Einstellungen",
+      "client_id": "Kunden-ID",
+      "client_secret": "Vertraulichkeit des Kunden",
+      "hosting_name": "Name der Firma",
+      "connect": "Einloggen",
+      "locales": "SPRACHEN",
+      "infolicense": "Um eine Client-ID und ein Client-Geheimnis zu erhalten, müssen Sie über eine CLIENTXCMS-Lizenz verfügen. <a href=\" {_link} \" target=\"_blank\" class=\"underline\">Klicken Sie hier, um Ihre Anmeldedaten kostenlos abzurufen.</a>",
+      "migrationwarning": "Warnung: Die Datenbank wurde nicht migriert. Bitte führen Sie „php artisan migrate --force --seed“ aus, um die Datenbank zu migrieren.",
+      "detecteddomain": "Domäne erkannt: {_domain}. Stellen Sie sicher, dass die Domain genau mit Ihrer Lizenz übereinstimmt (einschließlich der Subdomain, falls zutreffend).",
+      "eula": "Durch das Aufrufen dieser Seite akzeptieren Sie die Bedingungen der CLIENTXCMS-Lizenz, die unter clientxcms.com/eula verfügbar ist."
+    },
+    "register": {
+      "title": "Anmeldung",
+      "btn": "Benutzerkonto erstellen",
+      "telemetry": "Senden Sie anonymisierte Telemetriedaten. Dies hilft uns, das CMS zu verbessern und Fehler zu beheben. Sie können diese Option später in den Einstellungen deaktivieren."
+    },
+    "summary": {
+      "title": "Zusammenfassung",
+      "btn": "Zum Abschluss"
+    },
+    "submit": "Schicken",
+    "password": "Passwort",
+    "firstname": "Vorname",
+    "lastname": "Nachname",
+    "email": "E-Mail",
+    "password_confirmation": "Passwortbestätigung",
+    "authentication": "Authentifizierung",
+    "extensions": "Erweiterungen",
+    "departmentsseeder": {
+      "general": {
+        "name": "Allgemein",
+        "description": "Allgemeine Abteilung"
+      },
+      "billing": {
+        "name": "Abrechnung",
+        "description": "Abrechnungsabteilung"
+      },
+      "technical": {
+        "name": "Technisch",
+        "description": "Technische Abteilung"
+      },
+      "sales": {
+        "name": "Kommerziell",
+        "description": "Handelsabteilung"
+      }
+    },
+    "security_questions": {
+      "pet_name": "Wie heißt Ihr erstes Haustier?",
+      "birth_city": "In welcher Stadt wurden Sie geboren?",
+      "mother_maiden_name": "Wie lautet der Mädchenname Ihrer Mutter?",
+      "first_school": "Wie heißt Ihre erste Schule?",
+      "favorite_movie": "Was ist dein Lieblingsfilm?",
+      "childhood_nickname": "Wie lautete der Spitzname Ihrer Kindheit?"
+    }
+  },
+  "lang.fr.mailcow": {
+    "product": {
+      "no_data": "Bei der Bestellung sind keine weiteren Angaben erforderlich."
+    },
+    "config": {
+      "server": "Mailcow-Server",
+      "max_domains": "Maximale Domänen",
+      "max_mailboxes": "Maximale Anzahl an Boxen pro Domain",
+      "max_aliases": "Maximale Aliase pro Domain",
+      "default_quota_mib": "Standardkontingent einer Box (MiB)",
+      "max_quota_mib": "Maximales Kontingent einer Box (MiB)",
+      "domain_quota_mib": "Gesamtdomänenkontingent (MiB)",
+      "rate_limit_value": "Grenzwert senden",
+      "rate_limit_frame": "Sendebegrenzungszeitraum",
+      "backup_mx": "MX-Server sichern",
+      "relay_all_recipients": "Leiten Sie alle Empfänger weiter",
+      "seconds": "Sekunden",
+      "minutes": "Minuten",
+      "hours": "Std"
+    },
+    "panel": {
+      "title": "E-Mail-Domänen",
+      "permission": "Mailcow-Domains verwalten",
+      "usage": ":used Domain(s) verwendet auf :max",
+      "empty": "Es sind noch keine Domänen konfiguriert.",
+      "mailboxes": "Boxen",
+      "aliases": "Alias",
+      "admin": "Administrator",
+      "password": "Passwort",
+      "status_active": "Aktiv",
+      "status_suspended": "Ausgesetzt"
+    },
+    "actions": {
+      "add": "Fügen Sie die Domäne hinzu",
+      "delete": "LÖSCHEN",
+      "delete_confirm": "Diese Domain und alle ihre E-Mail-Daten dauerhaft löschen?",
+      "dns": "DNS exportieren",
+      "domain_admin": "Mailcow-Verwaltung"
+    },
+    "messages": {
+      "domain_created": "Die Mailcow-Domäne wurde erstellt.",
+      "domain_deleted": "Die Mailcow-Domain wurde gelöscht."
+    },
+    "errors": {
+      "domain_exists": "Diese Domäne ist bereits bereitgestellt.",
+      "domain_limit": "Das Domain-Limit dieses Dienstes wurde erreicht.",
+      "config_missing": "Die Mailcow-Produktkonfiguration konnte nicht gefunden werden.",
+      "api": "Mailcow konnte die Anfrage nicht bearbeiten."
+    }
+  },
   "lang.fr.maintenance": {
     "settings": {
       "title": "Wartungsmodus",
@@ -2411,31 +2651,45 @@
       "subheading": "Hier sind die Abschnitte für die Seite {_name}",
       "description": "Passen Sie die Abschnitte des Kundenbereichs an",
       "content": "Inhalt",
+      "edit_of": "Abschnitt {_name} bearbeiten",
+      "more_actions_for": "Weitere Aktionen für Abschnitt {_name}",
+      "toggle_preview_for": "Abschnittsvorschau anzeigen oder ausblenden {_name}",
+      "premium_locked": "Für die Bearbeitung dieses Abschnitts ist eine nicht aktivierte Premium-Erweiterung erforderlich.",
       "show": {
         "title": "Bearbeiten eines Abschnitts",
         "protected_content": "Dieser Abschnitt ist geschützt und kann nicht geändert werden.",
         "subheading": "Sie können den Inhalt Ihres Abschnitts nach Belieben bearbeiten"
       },
+      "settings": {
+        "title": "Abschnittseinstellungen",
+        "subheading": "Thema und Ort dieses Abschnitts"
+      },
+      "security_notice": {
+        "title": "Nur Personalisierung von Inhalten",
+        "description": "Auf dieser Seite können Sie den Inhalt des Abschnitts (Text, Bilder, Links) ändern. Seit Version 2.17 ist es nicht mehr möglich, das Layout oder den Stil eines Abschnitts direkt in der Administration zu ändern: Wir haben diese Funktionalität aus Sicherheitsgründen entfernt. Um das Erscheinungsbild dieses Abschnitts zu ändern, muss ein Entwickler die Quelldatei des Themas bearbeiten."
+      },
+      "back_to_page": "Kehren Sie zur Liste der Abschnitte auf dieser Seite zurück",
       "config": {
         "btn": "Abschnitt konfigurieren",
         "title": "Abschnittskonfiguration",
         "subheading": "Sie können den Inhalt Ihres Abschnitts nach Ihren Wünschen ändern",
+        "no_fields": "Dieser Abschnitt bietet keine anpassbaren Felder.",
         "fields": {
           "badge": "Abzeichen",
           "title": "Titel",
           "subtitle": "Untertitel",
-          "feature_icon": "Funktionssymbol{_number}",
-          "feature_number": "Merkmalswert{_number}",
-          "feature_title": "Featuretitel{_number}",
-          "feature_description": "Funktionsbeschreibung{_number}",
-          "stat_value": "Statistikwert{_number}",
-          "stat_label": "Wortlaut der Statistik{_number}",
-          "testimonial_text": "Zeugnis{_number}",
-          "testimonial_author": "Autor der Aussage{_number}",
-          "testimonial_role": "Rolle des Autors{_number}",
-          "step_title": "Schritttitel{_number}",
-          "step_description": "Beschreibung von Schritt{_number}",
-          "step_icon": "Schrittsymbol{_number}",
+          "feature_icon": "{_number} Funktionssymbol",
+          "feature_number": "Merkmalswert {_number}",
+          "feature_title": "Featuretitel {_number}",
+          "feature_description": "Beschreibung der Funktion {_number}",
+          "stat_value": "Wert der Statistik {_number}",
+          "stat_label": "Wortlaut der Statistik {_number}",
+          "testimonial_text": "Zeugnis {_number}",
+          "testimonial_author": "Autor der Aussage {_number}",
+          "testimonial_role": "Rolle des Autors {_number}",
+          "step_title": "Schritttitel {_number}",
+          "step_description": "Beschreibung des Schritts {_number}",
+          "step_icon": "Schrittsymbol {_number}",
           "primary_cta": "Wichtigster Aufruf zum Handeln",
           "secondary_cta": "Sekundärer Aufruf zum Handeln",
           "hero_icon": "Hauptsymbol",
@@ -2584,6 +2838,44 @@
       "nameservers": "Nameserver",
       "nameserver": "Nameserver: Nummer",
       "dns": "DNS",
+      "dns_choice": {
+        "title": "Wo möchten Sie Ihr DNS verwalten?",
+        "help": "Sie können diese Auswahl später in Ihrem Kundenbereich ändern.",
+        "managed": "Behalten Sie DNS bei uns",
+        "managed_help": "Profitieren Sie von der zentralen Verwaltung und ändern Sie Ihre Datensätze direkt in Ihrem Kundenbereich.",
+        "custom": "Benutze mein eigenes DNS",
+        "custom_help": "Geben Sie die Nameserver Ihres Hosts oder eines externen DNS-Anbieters an.",
+        "custom_notice": "Es sind mindestens zwei gültige Nameserver erforderlich. Die Registrierungsverwaltung erfolgt dann bei Ihrem DNS-Anbieter.",
+        "unavailable": "Für diese Erweiterung ist kein DNS-Server vorkonfiguriert."
+      },
+      "dns_editor": {
+        "help": "Verwalten Sie die Datensätze, die Ihre Domain auf Ihre Website, E-Mail und andere Dienste verweisen.",
+        "records_count": "{0} Keine Datensätze|{1} {_count} Datensätze|[2,*] {_count} Datensätze",
+        "type": "Art",
+        "name": "Name/Gastgeber",
+        "value": "Wert/Ziel",
+        "empty": "Noch keine DNS-Einträge.",
+        "add": "Fügen Sie einen Datensatz hinzu",
+        "add_action": "Aufnahme hinzufügen",
+        "type_help": {
+          "A": "Ordnet einen Namen einer IPv4-Adresse zu.",
+          "AAAA": "Ordnet einen Namen einer IPv6-Adresse zu.",
+          "CNAME": "Erstellt einen Alias ​​für einen anderen Domänennamen.",
+          "MX": "Definiert den E-Mail-Server in der Form „Serverpriorität“.",
+          "TXT": "Fügt einen Textwert hinzu, insbesondere für SPF, DKIM oder Validierungen.",
+          "NS": "Delegiert eine Zone oder Subdomain an einen Nameserver.",
+          "SRV": "Beschreibt einen Dienst als „Ziel-Port-Gewichtspriorität“.",
+          "CAA": "Autorisiert eine Behörde, Zertifikate für die Domäne auszustellen."
+        }
+      },
+      "nameservers_editor": {
+        "help": "Wählen Sie die Server aus, die die DNS-Zone Ihrer Domain hosten.",
+        "recommended": "Empfohlenes DNS",
+        "recommended_help": "Nutzen Sie diese Server, um die DNS-Verwaltung in Ihrem Kundenbereich zentral zu halten.",
+        "use_recommended": "Verwenden Sie diese DNS",
+        "add": "Fügen Sie einen Server hinzu",
+        "server": "Nameserver"
+      },
       "whois_privacy": "WHOIS-Schutz",
       "creation_date": "Erstellungsdatum",
       "expiration_date": "Verfallsdatum",
@@ -2605,7 +2897,15 @@
         "results": "Suchergebnisse",
         "extensions": "Entdecken Sie unsere Erweiterungen",
         "extensions_help": "Wählen Sie eine Erweiterung aus, um deren Verfügbarkeit sofort zu prüfen.",
-        "from": "Aus"
+        "from": "Aus",
+        "loading": "Wir suchen nach den besten Optionen und Preisen für Ihre Domain…",
+        "checking": "Verifizierung läuft…",
+        "check_failed": "Die Verfügbarkeit konnte nicht überprüft werden. Bitte versuchen Sie es erneut.",
+        "invalid_domain": "Geben Sie einen gültigen Domänennamen mit nur einem Teil vor der Erweiterung ein.",
+        "transfer_cta": "Übertragen Sie diese Domain",
+        "transfer_help": "Ihre Domain muss bei einem anderen Anbieter registriert und für den Transfer freigeschaltet sein.",
+        "transfer_unavailable": "Die Übertragung dieser Erweiterung wird vom Registrar nicht unterstützt.",
+        "auth_code": "Autorisierungscode (EPP)"
       },
       "errors": {
         "invalid_tld": "Die Domain stimmt nicht mit der ausgewählten Erweiterung überein."
@@ -2618,8 +2918,8 @@
       "mode_after_expiration": "Stornierung nach Ablauf des Dienstes zulassen",
       "requires_ticket": "Dieser Stornierungsgrund erfordert die Eröffnung eines Support-Tickets.",
       "after_expiration_only": "Diese Stornierung wird erst nach Ablauf des Dienstes genehmigt.",
-      "ticket_subject": "Antrag auf Kündigung des Dienstes{_service}",
-      "ticket_message": "Hallo,\n\nIch möchte die Stornierung des folgenden Dienstes beantragen:\n\nDienst:{_service}Kennung:{_identifier}Grund:{_reason}Gewünschter Termin:{_expiration}Zusätzliche Informationen:{_details}Vielen Dank für die Bearbeitung meiner Stornierungsanfrage.",
+      "ticket_subject": "Service-Stornierungsanfrage {_service}",
+      "ticket_message": "Hallo,\n\nIch möchte die Stornierung des folgenden Dienstes beantragen:\n\nService: {_service} Kennung: {_identifier} Muster: {_reason} Gewünschter Termin: {_expiration} Zusätzliche Informationen: {_details} Vielen Dank für die Bearbeitung meiner Stornierungsanfrage.",
       "ticket_no_details": "Keine zusätzlichen Informationen."
     },
     "config_option": "Konfigurationsoption",
@@ -3400,192 +3700,6 @@
     "upgrade": {
       "title": "Service aufgerüstet",
       "description": "Ein Dienst wurde aufgerüstet"
-    }
-  },
-  "lang.fr.mailcow": {
-    "product": {
-      "no_data": "Bei der Bestellung sind keine weiteren Angaben erforderlich."
-    },
-    "config": {
-      "server": "Mailcow-Server",
-      "max_domains": "Maximale Domänen",
-      "max_mailboxes": "Maximale Anzahl an Boxen pro Domain",
-      "max_aliases": "Maximale Aliase pro Domain",
-      "default_quota_mib": "Standardkontingent einer Box (MiB)",
-      "max_quota_mib": "Maximales Kontingent einer Box (MiB)",
-      "domain_quota_mib": "Gesamtdomänenkontingent (MiB)",
-      "rate_limit_value": "Grenzwert senden",
-      "rate_limit_frame": "Sendebegrenzungszeitraum",
-      "backup_mx": "MX-Server sichern",
-      "relay_all_recipients": "Leiten Sie alle Empfänger weiter",
-      "seconds": "Sekunden",
-      "minutes": "Minuten",
-      "hours": "Std"
-    },
-    "panel": {
-      "title": "E-Mail-Domänen",
-      "permission": "Mailcow-Domains verwalten",
-      "usage": ":used Domain(s) verwendet auf :max",
-      "empty": "Es sind noch keine Domänen konfiguriert.",
-      "mailboxes": "Boxen",
-      "aliases": "Alias",
-      "admin": "Administrator",
-      "password": "Passwort",
-      "status_active": "Aktiv",
-      "status_suspended": "Ausgesetzt"
-    },
-    "actions": {
-      "add": "Fügen Sie die Domäne hinzu",
-      "delete": "LÖSCHEN",
-      "delete_confirm": "Diese Domain und alle ihre E-Mail-Daten dauerhaft löschen?",
-      "dns": "DNS exportieren",
-      "domain_admin": "Mailcow-Verwaltung"
-    },
-    "messages": {
-      "domain_created": "Die Mailcow-Domäne wurde erstellt.",
-      "domain_deleted": "Die Mailcow-Domain wurde gelöscht."
-    },
-    "errors": {
-      "domain_exists": "Diese Domäne ist bereits bereitgestellt.",
-      "domain_limit": "Das Domain-Limit dieses Dienstes wurde erreicht.",
-      "config_missing": "Die Mailcow-Produktkonfiguration konnte nicht gefunden werden.",
-      "api": "Mailcow konnte die Anfrage nicht bearbeiten."
-    }
-  },
-  "lang.fr.einvoicing": {
-    "profile": {
-      "title": "Abrechnungsdaten",
-      "description": "Geben Sie an, ob Sie als Einzelperson, Unternehmen oder Verein einkaufen. Diese Informationen werden auf Ihren nächsten Rechnungen eingefroren.",
-      "type": "Kundentyp",
-      "individual": "Besondere",
-      "business": "Geschäft",
-      "association": "Verein",
-      "legal_name": "Name der Firma",
-      "rna_number": "RNA-Nummer",
-      "siren": "SIRENE",
-      "siret": "SIRET",
-      "vat_number": "Umsatzsteuer-Identifikationsnummer",
-      "tax_registration_number": "Identifiant fiscal local",
-      "tax_subject_status": "Steuerliche Situation des Vereins",
-      "tax_subject_status_help": "Diese Informationen bestimmen, ob die Transaktion unter die elektronische Rechnungsstellung oder das E-Reporting fällt.",
-      "tax_status_unknown": "Ich weiß es noch nicht",
-      "tax_status_non_taxable": "Der Verein unterliegt nicht der Mehrwertsteuer",
-      "tax_status_taxable_not_vat_liable": "Der Verein ist umsatzsteuerpflichtig, aber nicht steuerpflichtig",
-      "tax_status_vat_liable": "Umsatzsteuerpflichtiger Verein",
-      "additional_details": "Zusätzliche Rechnungsinformationen",
-      "additional_details_help": "Freier Text zur Anzeige auf Rechnungen. Geben Sie nicht den Firmennamen, SIREN oder die Umsatzsteuer-Identifikationsnummer an.",
-      "required": "Vervollständigen Sie Ihre Rechnungsinformationen, bevor Sie mit Ihrer Bestellung fortfahren.",
-      "saved": "Ihre Zahlungsinformationen wurden gespeichert."
-    },
-    "admin": {
-      "tab": "Elektronische Rechnungsstellung",
-      "title": "Steuerprofil und Rechnungsstellung",
-      "description": "Diese Informationen werden bei der Ausstellung der nächsten Rechnungen eingefroren.",
-      "identity": "Steueridentität",
-      "address": "Rechnungsadresse",
-      "dashboard": {
-        "title": "Elektronische Rechnungsstellung",
-        "description": "Verfolgen Sie elektronische Rechnungen, E-Reporting-Zeiträume und meldepflichtige Sammlungen.",
-        "local_warning_title": "Lokaler Simulationsmodus",
-        "local_warning_description": "Die erzeugten Dateien werden nicht an eine zugelassene Plattform oder an die DGFiP übermittelt.",
-        "provider": "Aktiver Anbieter",
-        "regime": "Mehrwertsteuerregelung",
-        "timezone": "Steuerzone",
-        "activation": "Aktivierung",
-        "disabled": "Deaktiviert",
-        "documents": "Elektronische Dokumente",
-        "documents_description": "Vom aktiven Anbieter erstellte bzw. übermittelte Rechnungen und Gutschriften.",
-        "periods": "E-Meldezeiträume",
-        "periods_description": "Stapel von Transaktionen und Inkasso, gruppiert nach dem Geschäftskalender.",
-        "payments": "Inkasso und Rückerstattungen",
-        "payments_description": "Unveränderliches Protokoll der Finanzbewegungen, die für das E-Reporting berücksichtigt werden.",
-        "empty_documents": "Zur Zeit keine elektronischen Dokumente.",
-        "empty_periods": "Derzeit kein E-Reporting-Zeitraum.",
-        "empty_payments": "Es sind keine Quittungen oder Rückerstattungen erfasst.",
-        "document": "Dokumentieren",
-        "provider_column": "Anbieter",
-        "status": "Status",
-        "error": "Letzter Fehler",
-        "actions": "Aktionen",
-        "type": "Art",
-        "period": "Zeitraum",
-        "deadline": "Fälligkeitsdatum",
-        "invoice": "Rechnung",
-        "amount": "Menge",
-        "date": "Datum",
-        "retry": "Neustart",
-        "download_pdf": "PDF",
-        "download_xml": "XML",
-        "download_manifest": "Manifest",
-        "no_error": "Keiner",
-        "settings": "Konfigurieren",
-        "accounting_exports": "Buchhaltungsexporte",
-        "accounting_exports_description": "Synchronisierung mit Abby, Pennylane und anderen Buchhaltungszielen.",
-        "empty_accounting_exports": "Zur Zeit keine Buchhaltungsexporte.",
-        "accounting_only": "Buchhaltungssynchronisierung",
-        "event": "Ereignis",
-        "external_id": "Externer Bezeichner"
-      }
-    },
-    "status": {
-      "complete": "Vollständiges Profil",
-      "incomplete": "Unvollständiges Profil",
-      "pending": "Validierung steht aus"
-    },
-    "settings": {
-      "legal_entity": "Steueridentität des Verkäufers",
-      "operation_category": "Übliche Art der Operationen",
-      "goods": "Lieferungen von Waren",
-      "services": "Dienstleistungen",
-      "mixed": "Waren und Dienstleistungen",
-      "vat_on_debits": "Die Mehrwertsteuer ist aufgrund der Belastung zu zahlen",
-      "seller_street": "Der Weg des Verkäufers",
-      "seller_address2": "Zusätzliche Adresse des Verkäufers",
-      "seller_zipcode": "Postleitzahl des Verkäufers",
-      "seller_city": "Verkäuferstadt",
-      "seller_country": "Land des Verkäufers",
-      "seller_country_help": "Zweibuchstabiger ISO-Ländercode, zum Beispiel FR.",
-      "electronic_section": "Factur-X und E-Reporting",
-      "enabled": "Für neue Dokumente aktivieren",
-      "provider": "Aktiver Anbieter",
-      "vat_regime": "Mehrwertsteuerregelung",
-      "timezone": "Steuerzone",
-      "activation_date": "Aktivierungsdatum",
-      "activation_date_help": "Vor diesem Datum ausgestellte Dokumente werden nicht rückwirkend bearbeitet.",
-      "regimes": {
-        "real_normal_monthly": "Echter monatlicher Normalwert",
-        "real_normal_quarterly": "Echter vierteljährlicher Normalwert",
-        "simplified": "Vereinfachte Ernährung",
-        "franchise_base": "Basis-Franchise"
-      }
-    },
-    "document_statuses": {
-      "pending": "In der Warteschleife",
-      "generated": "Generiert",
-      "submitted": "Abgelegt",
-      "delivered": "Buch",
-      "accepted": "Akzeptiert",
-      "rejected": "Abgelehnt",
-      "failed": "Irrtümlich",
-      "open": "Offen",
-      "closed": "Geschlossen",
-      "waiting_payment": "Warten auf Zahlung",
-      "completed": "Fertig",
-      "manual_review": "Manuelle Überprüfung"
-    },
-    "report_types": {
-      "transaction": "Transaktionen",
-      "payment": "Quittungen"
-    },
-    "payment_types": {
-      "payment": "Sammlung",
-      "refund": "Erstattung"
-    },
-    "accounting_events": {
-      "invoice": "Rechnung ausgestellt",
-      "credit_note": "Ausgegeben",
-      "payment": "Sammlung",
-      "refund": "Erstattung"
     }
   }
 }

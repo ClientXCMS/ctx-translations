@@ -84,6 +84,44 @@
     "nameservers": "Servidores de nomes",
     "nameserver": "Servidor de nomes: número",
     "dns": "DNS",
+    "dns_choice": {
+      "title": "Onde você deseja gerenciar seu DNS?",
+      "help": "Você pode modificar esta escolha posteriormente na sua área de cliente.",
+      "managed": "Mantenha o DNS conosco",
+      "managed_help": "Beneficie da gestão centralizada e modifique os seus registos diretamente na sua área de cliente.",
+      "custom": "Usar meu próprio DNS",
+      "custom_help": "Especifique os servidores de nomes do seu host ou de um provedor DNS externo.",
+      "custom_notice": "São necessários pelo menos dois servidores de nomes válidos. O gerenciamento do registro será então feito com seu provedor de DNS.",
+      "unavailable": "Nenhum servidor DNS pré-configurado para esta extensão."
+    },
+    "dns_editor": {
+      "help": "Gerencie os registros que apontam seu domínio para seu site, email e outros serviços.",
+      "records_count": "{0} Sem registros|{1} Registros {_count}|[2,*] Registros {_count}",
+      "type": "Tipo",
+      "name": "Nome/Anfitrião",
+      "value": "Valor/destino",
+      "empty": "Ainda não há registros DNS.",
+      "add": "Adicionar um registro",
+      "add_action": "Adicionar gravação",
+      "type_help": {
+        "A": "Associa um nome a um endereço IPv4.",
+        "AAAA": "Associa um nome a um endereço IPv6.",
+        "CNAME": "Cria um alias para outro nome de domínio.",
+        "MX": "Define o servidor de e-mail, no formato “prioridade do servidor”.",
+        "TXT": "Adiciona um valor de texto, especialmente para SPF, DKIM ou validações.",
+        "NS": "Delega uma zona ou subdomínio a um servidor de nomes.",
+        "SRV": "Descreve um serviço como “prioridade de peso da porta alvo”.",
+        "CAA": "Autoriza uma autoridade a emitir certificados para o domínio."
+      }
+    },
+    "nameservers_editor": {
+      "help": "Escolha os servidores que hospedam a zona DNS do seu domínio.",
+      "recommended": "DNS recomendado",
+      "recommended_help": "Utilize estes servidores para manter a gestão de DNS centralizada na sua área de cliente.",
+      "use_recommended": "Use estes DNS",
+      "add": "Adicionar um servidor",
+      "server": "Servidor de nomes"
+    },
     "whois_privacy": "Proteção WHOIS",
     "creation_date": "Data de criação",
     "expiration_date": "Data de validade",
@@ -105,7 +143,15 @@
       "results": "Resultados da pesquisa",
       "extensions": "Conheça nossas extensões",
       "extensions_help": "Selecione uma extensão para verificar imediatamente sua disponibilidade.",
-      "from": "De"
+      "from": "De",
+      "loading": "Buscamos as melhores opções e preços para o seu domínio…",
+      "checking": "Verificação em andamento…",
+      "check_failed": "A disponibilidade não pôde ser verificada. Por favor, tente novamente.",
+      "invalid_domain": "Insira um nome de domínio válido com apenas uma parte antes da extensão.",
+      "transfer_cta": "Transferir este domínio",
+      "transfer_help": "Seu domínio deve estar registrado em outro provedor e desbloqueado para transferência.",
+      "transfer_unavailable": "A transferência desta extensão não é suportada pelo registrador.",
+      "auth_code": "Código de autorização (EPP)"
     },
     "errors": {
       "invalid_tld": "O domínio não corresponde à extensão selecionada."
@@ -118,6 +164,8 @@
     "mode_after_expiration": "Permitir cancelamento após a expiração do serviço",
     "requires_ticket": "Este motivo de cancelamento requer a abertura de um ticket de suporte.",
     "after_expiration_only": "Este cancelamento será autorizado somente após o término do serviço.",
+    "ticket_subject": "Solicitação de cancelamento de serviço {_service}",
+    "ticket_message": "Olá,\n\nGostaria de solicitar o cancelamento do seguinte serviço:\n\nServiço: {_service} Identificador: {_identifier} Padrão: {_reason} Prazo desejado: {_expiration} Informações adicionais: {_details} Obrigado por processar meu pedido de cancelamento.",
     "ticket_no_details": "Nenhuma informação adicional."
   },
   "config_option": "Opção de configuração",
@@ -432,6 +480,7 @@
         "not_actionable": "Este pedido já foi tratado."
       },
       "show": {
+        "title": "Nº do pedido {_id}",
         "subheading": "Detalhes completos do pedido de cancelamento do cliente."
       },
       "no_actions": "Nenhuma ação é possível para este pedido."

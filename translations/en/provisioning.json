@@ -82,8 +82,46 @@
     "renew": "Renewal",
     "transfer": "Transfer",
     "nameservers": "Name servers",
-    "nameserver": "Nameserver: number",
+    "nameserver": "Nameserver {_number}",
     "dns": "DNS",
+    "dns_choice": {
+      "title": "Where would you like to manage your DNS?",
+      "help": "You will be able to change this choice later from your customer area.",
+      "managed": "Keep DNS with us",
+      "managed_help": "Enjoy centralized management and edit your records directly from your customer area.",
+      "custom": "Use my own DNS",
+      "custom_help": "Provide the nameservers of your host or an external DNS provider.",
+      "custom_notice": "At least two valid nameservers are required. Record management will then be handled by your DNS provider.",
+      "unavailable": "No preconfigured DNS server for this extension."
+    },
+    "dns_editor": {
+      "help": "Manage the records that point your domain to your website, your emails and your other services.",
+      "records_count": "{0} No record|{1} {_count} record|[2,*] {_count} records",
+      "type": "Type",
+      "name": "Name / host",
+      "value": "Value / destination",
+      "empty": "No DNS record yet.",
+      "add": "Add a record",
+      "add_action": "Add the record",
+      "type_help": {
+        "A": "Maps a name to an IPv4 address.",
+        "AAAA": "Maps a name to an IPv6 address.",
+        "CNAME": "Creates an alias to another domain name.",
+        "MX": "Sets the mail server, in the form \"priority server\".",
+        "TXT": "Adds a text value, notably for SPF, DKIM or validations.",
+        "NS": "Delegates a zone or subdomain to a nameserver.",
+        "SRV": "Describes a service in the form \"priority weight port target\".",
+        "CAA": "Authorizes an authority to issue certificates for the domain."
+      }
+    },
+    "nameservers_editor": {
+      "help": "Choose the servers that host your domain's DNS zone.",
+      "recommended": "Recommended DNS",
+      "recommended_help": "Use these servers to keep DNS management centralized in your customer area.",
+      "use_recommended": "Use these DNS",
+      "add": "Add a server",
+      "server": "Nameserver"
+    },
     "whois_privacy": "WHOIS Protection",
     "creation_date": "Creation date",
     "expiration_date": "Expiration date",
@@ -105,7 +143,15 @@
       "results": "Search results",
       "extensions": "Discover our extensions",
       "extensions_help": "Select an extension to immediately check its availability.",
-      "from": "From"
+      "from": "From",
+      "loading": "We are searching for the best options and the best prices for your domain...",
+      "checking": "Checking...",
+      "check_failed": "Availability could not be checked. Please try again.",
+      "invalid_domain": "Enter a valid domain name with a single part before the extension.",
+      "transfer_cta": "Transfer this domain",
+      "transfer_help": "Your domain must be registered with another provider and unlocked for transfer.",
+      "transfer_unavailable": "Transfer for this extension is not supported by the registrar.",
+      "auth_code": "Authorization code (EPP)"
     },
     "errors": {
       "invalid_tld": "The domain does not match the selected extension."
@@ -118,6 +164,8 @@
     "mode_after_expiration": "Allow cancellation after service expires",
     "requires_ticket": "This cancellation reason requires opening a support ticket.",
     "after_expiration_only": "This cancellation will be authorized only after expiration of the service.",
+    "ticket_subject": "Request for cancellation of service {_service}",
+    "ticket_message": "Hello,\n\nI would like to request cancellation of the following service:\n\nService: {_service}\nIdentifier: {_identifier}\nReason: {_reason}\nDesired deadline: {_expiration}\nAdditional information: {_details}\n\nThank you for processing my cancellation request.",
     "ticket_no_details": "No additional information."
   },
   "config_option": "Configuration option",
@@ -160,7 +208,7 @@
         "subheading": "Add a new domain extension."
       },
       "show": {
-        "title": "Extension :name"
+        "title": "Extension {_name}"
       },
       "tools": {
         "tools": "Extension tools",
@@ -446,8 +494,8 @@
       "restrictions": "Restrictions",
       "restrictions_help": "Leave blank to allow this subdomain on all products.",
       "all_products": "All products",
-      "products_count": ":count product|:count products",
-      "groups_count": ":count group|:count groups",
+      "products_count": "{_count} product|{_count} products",
+      "groups_count": "{_count} group|{_count} groups",
       "create": {
         "title": "Create a subdomain",
         "subheading": "Create a new subdomain for customers."

@@ -1,0 +1,59 @@
+{
+  "install": "Instalação",
+  "step": "Estágio",
+  "settings": {
+    "title": "Configurações",
+    "client_id": "ID do cliente",
+    "client_secret": "Confidencialidade do cliente",
+    "hosting_name": "nome da empresa",
+    "connect": "Conecte-se",
+    "locales": "IDIOMAS",
+    "infolicense": "Para obter um ID de cliente e um segredo de cliente, você deve ter uma licença CLIENTXCMS. <a href=\" {_link} \" target=\"_blank\" class=\"underline\">Clique aqui para recuperar seus detalhes de login gratuitamente.</a>",
+    "migrationwarning": "Atenção: o banco de dados não foi migrado. Por favor, execute \"php crafts migram --force --seed\" para migrar o banco de dados.",
+    "detecteddomain": "Domínio detectado: {_domain}. Certifique-se de que o domínio corresponda exatamente à sua licença (incluindo o subdomínio, se aplicável).",
+    "eula": "Ao visualizar esta página, você aceita os termos da licença CLIENTXCMS disponível em clientxcms.com/eula."
+  },
+  "register": {
+    "title": "Cadastro",
+    "btn": "Criar uma conta",
+    "telemetry": "Envie dados de telemetria anonimizados. Isso nos ajuda a melhorar o CMS e a corrigir bugs. Você pode desativar esta opção posteriormente nas configurações."
+  },
+  "summary": {
+    "title": "Resumo",
+    "btn": "Para terminar"
+  },
+  "submit": "Enviar",
+  "password": "Senha",
+  "firstname": "Primeiro nome",
+  "lastname": "Sobrenome",
+  "email": "E-mail",
+  "password_confirmation": "Confirmação de senha",
+  "authentication": "Autenticação",
+  "extensions": "Extensões",
+  "departmentsseeder": {
+    "general": {
+      "name": "Em geral",
+      "description": "Departamento Geral"
+    },
+    "billing": {
+      "name": "Cobrança",
+      "description": "Departamento de cobrança"
+    },
+    "technical": {
+      "name": "Técnico",
+      "description": "Departamento técnico"
+    },
+    "sales": {
+      "name": "Comercial",
+      "description": "Departamento comercial"
+    }
+  },
+  "security_questions": {
+    "pet_name": "Qual é o nome do seu primeiro animal de estimação?",
+    "birth_city": "Em que cidade você nasceu?",
+    "mother_maiden_name": "Qual é o nome de solteira da sua mãe?",
+    "first_school": "Qual é o nome da sua primeira escola?",
+    "favorite_movie": "Qual é o seu filme favorito?",
+    "childhood_nickname": "Qual era o seu apelido de infância?"
+  }
+}

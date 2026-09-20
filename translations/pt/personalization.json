@@ -178,19 +178,45 @@
     "subheading": "Aqui estão as seções para a página {_name}",
     "description": "Personalize as seções da área do cliente",
     "content": "Conteúdo",
+    "edit_of": "Editar seção {_name}",
+    "more_actions_for": "Mais ações para a seção {_name}",
+    "toggle_preview_for": "Mostrar ou ocultar a visualização da seção {_name}",
+    "premium_locked": "Esta seção requer uma extensão premium não ativada para edição.",
     "show": {
       "title": "Editando uma seção",
       "protected_content": "Esta seção está protegida e não pode ser modificada.",
       "subheading": "Você pode editar o conteúdo de sua seção como desejar"
     },
+    "settings": {
+      "title": "Configurações de seção",
+      "subheading": "Tema e localização desta seção"
+    },
+    "security_notice": {
+      "title": "Personalização apenas de conteúdo",
+      "description": "Esta página permite modificar o conteúdo da seção (texto, imagens, links). Desde a versão 2.17 não é mais possível modificar o layout ou estilo de uma seção diretamente da administração: removemos esta funcionalidade por motivos de segurança. Para alterar a aparência desta seção, um desenvolvedor deve editar o arquivo fonte do tema."
+    },
+    "back_to_page": "Retornar à lista de seções desta página",
     "config": {
       "btn": "Configurar seção",
       "title": "Configuração da seção",
       "subheading": "Você pode modificar o conteúdo da sua seção como desejar",
+      "no_fields": "Esta seção não oferece campos personalizáveis.",
       "fields": {
         "badge": "Distintivo",
         "title": "Título",
         "subtitle": "Legenda",
+        "feature_icon": "Ícone de recurso {_number}",
+        "feature_number": "Valor do recurso {_number}",
+        "feature_title": "Título do recurso {_number}",
+        "feature_description": "Descrição do recurso {_number}",
+        "stat_value": "Valor da estatística {_number}",
+        "stat_label": "Redação da estatística {_number}",
+        "testimonial_text": "Testemunho {_number}",
+        "testimonial_author": "Autor do depoimento {_number}",
+        "testimonial_role": "Papel do autor {_number}",
+        "step_title": "Título da etapa {_number}",
+        "step_description": "Descrição da etapa {_number}",
+        "step_icon": "Ícone de etapa {_number}",
         "primary_cta": "Chamada para ação principal",
         "secondary_cta": "Chamada à ação secundária",
         "hero_icon": "Ícone principal",

@@ -49,16 +49,16 @@
       "two_factor_enabled": "Autenticazione a due fattori abilitata",
       "two_factor_disabled": "Autenticazione a due fattori disabilitata",
       "two_factor_recovery_codes_generated": "Codici di recupero dell'autenticazione a due fattori generati",
-      "passkey_registered": "Chiave di accesso aggiunta:{_name}",
-      "passkey_deleted": "Chiave di accesso eliminata:{_name}",
+      "passkey_registered": "Chiave di accesso aggiunta: {_name}",
+      "passkey_deleted": "Chiave di accesso eliminata: {_name}",
       "failed_login": "Connessione fallita Indirizzo IP : {_ip}",
       "account_deleted": "Account eliminato",
       "new_registered": "Nuova registrazione",
-      "basket_complet": "Carrello completato con{_amount}.",
-      "ticket_create": "Apertura di un nuovo ticket{_subject}",
-      "ticket_replied": "Nuova risposta al ticket{_subject}",
-      "ticket_reopened": "Riapertura ticket{_subject}",
-      "basket": "Completando un paniere di{_amount}"
+      "basket_complet": "Carrello completato con {_amount}.",
+      "ticket_create": "Apertura di un nuovo ticket {_subject}",
+      "ticket_replied": "Nuova risposta al ticket {_subject}",
+      "ticket_reopened": "Riapertura ticket {_subject}",
+      "basket": "Completando un paniere di {_amount}"
     }
   },
   "lang.fr.admin": {
@@ -80,8 +80,6 @@
       "description": "Trova l'elenco delle lingue disponibili per l'area clienti. Attiva o disattiva le lingue in base alle esigenze.",
       "countries_saved": "L'elenco dei paesi attivati ​​è stato salvato con successo.",
       "countries": {
-        "admin.locales.countries.description": "Seleziona i paesi disponibili nei moduli e convalide nell'area clienti.",
-        "admin.locales.countries.field": "Paesi disponibili",
         "description": "Seleziona i paesi disponibili nei moduli e convalide nell'area clienti.",
         "field": "Paesi disponibili"
       }
@@ -107,7 +105,7 @@
       "new_version_is": "La versione {_version} è disponibile.",
       "current_version": "Versione attuale",
       "available_version": "Versione disponibile",
-      "update_to_version": "Aggiornare alla v{_version}",
+      "update_to_version": "Aggiornamento a v {_version}",
       "whats_new_in": "Novità della {_version}",
       "published_on": "Pubblicata il {_date}",
       "added": "Aggiunte",
@@ -144,7 +142,7 @@
       "good_morning": "Ciao {_name}",
       "good_afternoon": "Buon pomeriggio {_name}",
       "good_evening": "Buonasera {_name}",
-      "support_expiration_warning": "Il tuo supporto scadrà il{_date}. Non esitate a rinnovare la licenza per mantenere le vostre estensioni e il supporto tecnico",
+      "support_expiration_warning": "Il tuo supporto scadrà il {_date}. Non esitate a rinnovare la licenza per mantenere le vostre estensioni e il supporto tecnico",
       "welcome": "Benvenuto nella dashboard di amministrazione. È attualmente {_time}. Ecco una panoramica del tuo sistema.",
       "assigned_tickets": "Sei stato assegnato ai seguenti ticket: {_tickets}. Puoi vederli nel centro assistenza.",
       "autologin_success": "Ora hai effettuato l'accesso come {_name}",
@@ -154,12 +152,12 @@
       "monthly_usage": "Consumo cumulativo del mese",
       "notification_error": "Si è verificato un errore nelle ultime 24 ore nell'invio delle email. Errore: {_message}",
       "cron_never_executed": "L'Utilità di pianificazione non sembra mai essere stata eseguita. Controlla la configurazione del lavoro cron.",
-      "cron_inactive_since": "L'Utilità di pianificazione non risponde dal{_date}. Verifica che il processo cron venga eseguito ogni minuto.",
-      "cron_task_failed": "L'attività pianificata \"{_task}\" non è riuscita il{_date}. Errore:{_message}",
+      "cron_inactive_since": "L'Utilità di pianificazione non risponde da {_date}. Verifica che il processo cron venga eseguito ogni minuto.",
+      "cron_task_failed": "L'attività pianificata '{_task}' non è riuscita su {_date}. Errore: {_message}",
       "queue_worker_inactive": "L'operatore in coda non risponde da più di 5 minuti.",
-      "queue_jobs_blocked": "{_count}attività sono in attesa di essere eseguite da più di 15 minuti.",
-      "queue_jobs_reserved": "{_count}attività sono state prenotate da un lavoratore per troppo tempo.",
-      "queue_jobs_failed": "{_count}attività in coda non sono riuscite.",
+      "queue_jobs_blocked": "Le attività {_count} sono in attesa di essere eseguite da più di 15 minuti.",
+      "queue_jobs_reserved": "Le attività {_count} sono state prenotate da un lavoratore per troppo tempo.",
+      "queue_jobs_failed": "Attività della coda {_count} non riuscite.",
       "tooltips": {
         "users": {
           "label": "Gli utenti",
@@ -498,7 +496,7 @@
       "reason": "Motivo per averlo",
       "amount_exceeds_remaining": "L'importo del credito non può superare l'importo residuo della fattura ({_remaining})",
       "subheading": "Ecco l'elenco di tutti gli asset del sistema",
-      "fund_reason": "Nota di credito emessa per un'aggiunta di fondi al cliente:{_number}",
+      "fund_reason": "Nota di credito emessa per un'aggiunta di fondi al cliente: {_number}",
       "created_success": "La nota di credito è stata emessa con successo",
       "amount_ht": "Importo IVA esclusa",
       "original_invoice": "Fattura originale",
@@ -746,8 +744,6 @@
           "captcha": {
             "title": "Captcha",
             "fields": {
-              "force_2fa_client": "Forza la doppia autenticazione per i client",
-              "force_2fa_admin": "Forza la doppia autenticazione per gli amministratori",
               "driver": "Captcha Driver",
               "driver_help": "È necessario disporre di una chiave segreta per il driver reCaptcha",
               "site_key": "Chiave del sito",
@@ -856,7 +852,7 @@
         "delete": "ELIMINARE",
         "release": "Rilascio e rilancio",
         "make_available": "Corri il prima possibile",
-        "completed": "{_count}attività sono state aggiornate."
+        "completed": "Le attività {_count} sono state aggiornate."
       }
     },
     "license": {
@@ -1010,8 +1006,8 @@
       "delete": "ELIMINARE",
       "empty": "Nessuna chiave di accesso salvata.",
       "unknown_authenticator": "Dispositivo sconosciuto",
-      "created_at": "Aggiunto il{_date}",
-      "last_used_at": "Utilizzato su{_date}",
+      "created_at": "Aggiunto il {_date}",
+      "last_used_at": "Utilizzato su {_date}",
       "error": "Impossibile verificare la chiave di accesso. Riprova o usa la tua password."
     }
   },
@@ -1223,7 +1219,6 @@
         }
       },
       "renewals": {
-        "test_auto_translation": "Questo è un test di traduzione automatica per{_name}",
         "index": "Rinnovi dei servizi",
         "title": "Gestione dei rinnovi",
         "period": "Periodo",
@@ -1339,7 +1334,7 @@
         "subheading": "Inserisci il codice di autenticazione a due fattori generato dalla tua app mobile.",
         "info": "Scansiona il codice QR con la tua app di autenticazione a due fattori.",
         "download_codes": "Scarica i codici di recupero <a href=\"{_url}\" class=\"text-primary\"> cliccando qui</a>.",
-        "email_sent_to": "Un codice di 6 cifre ti è stato inviato all'indirizzo{_email}. Ha validità 5 minuti.",
+        "email_sent_to": "Ti è stato inviato un codice di 6 cifre su {_email}. Ha validità 5 minuti.",
         "resend_email_code": "Invia nuovamente un codice tramite e-mail",
         "step1_subheading": "Passaggio 1 di 2: codice per l'app di autenticazione",
         "step2_subheading": "Passaggio 2 di 2: codice ricevuto via e-mail",
@@ -1349,17 +1344,17 @@
         "code_totp_hint": "Apri l'app di autenticazione. Se hai smarrito il tuo dispositivo, utilizza uno dei codici di ripristino.",
         "code_email": "Codice ricevuto via e-mail",
         "next_step": "Continuare",
-        "trust_device": "Affidati a questo dispositivo per{_days}giorni",
+        "trust_device": "Affidati a questo dispositivo per giorni {_days}",
         "back_to_step1": "Ritorna al controllo precedente",
-        "cooldown_active": "Troppi tentativi falliti. Attendi{_minutes}minuti prima di richiedere un nuovo codice.",
-        "device_label": "{_browser}di{_os}",
+        "cooldown_active": "Troppi tentativi falliti. Attendi {_minutes} minuti prima di richiedere un nuovo codice.",
+        "device_label": "{_browser} su {_os}",
         "unknown_device": "Dispositivo sconosciuto",
         "unknown_browser": "Browser sconosciuto",
         "current_device": "Questo dispositivo",
         "trusted_devices_heading": "Dispositivi affidabili",
         "trusted_devices_description": "Questi dispositivi non ti chiederanno un codice via email al successivo accesso, fino alla scadenza.",
         "trusted_devices_empty": "Nessun dispositivo attendibile registrato.",
-        "trusted_device_expires_at": "Scade il{_date}",
+        "trusted_device_expires_at": "Scade il {_date}",
         "trusted_device_expires_never": "Senza scadenza",
         "trusted_device_revoke": "Revocare",
         "trusted_device_revoked": "Dispositivo attendibile revocato.",
@@ -1527,6 +1522,142 @@
         "title": "Crea un coupon",
         "subheading": "Crea un nuovo buono sconto"
       }
+    }
+  },
+  "lang.fr.einvoicing": {
+    "profile": {
+      "title": "Informazioni di fatturazione",
+      "description": "Indica se acquisti come privato, azienda o associazione. Queste informazioni verranno congelate nelle fatture successive.",
+      "type": "Tipologia cliente",
+      "individual": "Particolare",
+      "business": "Attività commerciale",
+      "association": "Associazione",
+      "legal_name": "Nome dell'azienda",
+      "rna_number": "Numero dell'RNA",
+      "siren": "SIRENA",
+      "siret": "SIRETO",
+      "vat_number": "Partita IVA",
+      "tax_registration_number": "Identificativo fiscale locale",
+      "tax_subject_status": "Situazione fiscale dell'associazione",
+      "tax_subject_status_help": "Queste informazioni determinano se la transazione rientra nella fatturazione elettronica o nel reporting elettronico.",
+      "tax_status_unknown": "Non lo so ancora",
+      "tax_status_non_taxable": "Associazione non soggetta ad IVA",
+      "tax_status_taxable_not_vat_liable": "Associazione soggetta ma non soggetta ad IVA",
+      "tax_status_vat_liable": "Associazione soggetta ad IVA",
+      "additional_details": "Ulteriori informazioni sulla fatturazione",
+      "additional_details_help": "Testo libero da visualizzare sulle fatture. Non indicare la ragione sociale, la SIRENA o la partita IVA.",
+      "required": "Completa i dati di fatturazione prima di continuare con l'ordine.",
+      "saved": "I tuoi dati di fatturazione sono stati salvati."
+    },
+    "admin": {
+      "tab": "Fatturazione elettronica",
+      "title": "Profilo fiscale e fatturazione",
+      "description": "Queste informazioni verranno congelate alla emissione delle prossime fatture.",
+      "identity": "Identità fiscale",
+      "address": "Indirizzo di fatturazione",
+      "dashboard": {
+        "title": "Fatturazione elettronica",
+        "description": "Tieni traccia delle fatture elettroniche, dei periodi di rendicontazione elettronica e degli incassi dichiarabili.",
+        "local_warning_title": "Modalità di simulazione locale",
+        "local_warning_description": "I file generati non vengono trasmessi ad una piattaforma approvata o al DGFiP.",
+        "provider": "Fornitore attivo",
+        "regime": "Regime IVA",
+        "timezone": "Zona fiscale",
+        "activation": "Attivazione",
+        "disabled": "Disabilitato",
+        "documents": "Documenti elettronici",
+        "documents_description": "Fatture e note di credito generate o trasmesse dal fornitore attivo.",
+        "periods": "Periodi di reporting elettronico",
+        "periods_description": "Lotti di transazioni e incassi raggruppati secondo il calendario fiscale.",
+        "payments": "Incassi e rimborsi",
+        "payments_description": "Registro immutabile dei movimenti finanziari presi in considerazione per il reporting elettronico.",
+        "empty_documents": "Nessun documento elettronico in questo momento.",
+        "empty_periods": "Nessun periodo di reporting elettronico al momento.",
+        "empty_payments": "Nessuna ricevuta o rimborso registrato.",
+        "document": "Documento",
+        "provider_column": "Fornitore",
+        "status": "Stato",
+        "error": "Ultimo errore",
+        "actions": "Azioni",
+        "type": "Tipo",
+        "period": "Periodo",
+        "deadline": "Scadenza",
+        "invoice": "Conto",
+        "amount": "Quantità",
+        "date": "Data",
+        "retry": "Rilancio",
+        "download_pdf": "PDF",
+        "download_xml": "XML",
+        "download_manifest": "Manifesto",
+        "no_error": "Nessuno",
+        "settings": "Configura",
+        "accounting_exports": "Esportazioni contabili",
+        "accounting_exports_description": "Si sincronizza con Abby, Pennylane e altre destinazioni contabili.",
+        "empty_accounting_exports": "Nessuna esportazione contabile al momento.",
+        "accounting_only": "Sincronizzazione contabile",
+        "event": "Evento",
+        "external_id": "Identificatore esterno"
+      }
+    },
+    "status": {
+      "complete": "Profilo completo",
+      "incomplete": "Profilo incompleto",
+      "pending": "Convalida in attesa"
+    },
+    "settings": {
+      "legal_entity": "Identità fiscale del venditore",
+      "operation_category": "Natura abituale delle operazioni",
+      "goods": "Consegne di merci",
+      "services": "Servizi",
+      "mixed": "Beni e servizi",
+      "vat_on_debits": "IVA dovuta in base ai debiti",
+      "seller_street": "La via del venditore",
+      "seller_address2": "Indirizzo aggiuntivo del venditore",
+      "seller_zipcode": "Codice postale del venditore",
+      "seller_city": "Città del venditore",
+      "seller_country": "Paese del venditore",
+      "seller_country_help": "Codice paese ISO a due lettere, ad esempio FR.",
+      "electronic_section": "Factur-X e reporting elettronico",
+      "enabled": "Abilita per nuovi documenti",
+      "provider": "Fornitore attivo",
+      "vat_regime": "Regime IVA",
+      "timezone": "Zona fiscale",
+      "activation_date": "Data di attivazione",
+      "activation_date_help": "I documenti emessi prima di tale data non verranno elaborati retroattivamente.",
+      "regimes": {
+        "real_normal_monthly": "Reale mensile normale",
+        "real_normal_quarterly": "Trimestrale davvero normale",
+        "simplified": "Dieta semplificata",
+        "franchise_base": "Franchising di base"
+      }
+    },
+    "document_statuses": {
+      "pending": "In attesa",
+      "generated": "Generato",
+      "submitted": "Archiviato",
+      "delivered": "Libro",
+      "accepted": "Accettato",
+      "rejected": "Respinto",
+      "failed": "Per errore",
+      "open": "Aprire",
+      "closed": "Chiuso",
+      "waiting_payment": "In attesa di pagamento",
+      "completed": "Finito",
+      "manual_review": "Revisione manuale"
+    },
+    "report_types": {
+      "transaction": "Transazioni",
+      "payment": "Ricevute"
+    },
+    "payment_types": {
+      "payment": "Collezione",
+      "refund": "Rimborso"
+    },
+    "accounting_events": {
+      "invoice": "Fattura emessa",
+      "credit_note": "Avendo rilasciato",
+      "payment": "Collezione",
+      "refund": "Rimborso"
     }
   },
   "lang.fr.errors": {
@@ -2131,6 +2262,115 @@
     "599": "Errore di timeout della connessione di rete",
     "unknownError": "Errore sconosciuto"
   },
+  "lang.fr.install": {
+    "install": "Facilità",
+    "step": "Palcoscenico",
+    "settings": {
+      "title": "Impostazioni",
+      "client_id": "ID cliente",
+      "client_secret": "Riservatezza del cliente",
+      "hosting_name": "Nome dell'azienda",
+      "connect": "Login",
+      "locales": "LINGUE",
+      "infolicense": "Per ottenere un ID client e un segreto client, è necessario disporre di una licenza CLIENTXCMS. <a href=\" {_link} \" target=\"_blank\" class=\"underline\">Fai clic qui per recuperare gratuitamente i tuoi dati di accesso.</a>",
+      "migrationwarning": "Attenzione: il database non è stato migrato. Eseguire \"php crafts migrare --force --seed\" per migrare il database.",
+      "detecteddomain": "Dominio rilevato: {_domain}. Assicurati che il dominio corrisponda esattamente alla tua licenza (incluso il sottodominio, se applicabile).",
+      "eula": "Visualizzando questa pagina accetti i termini della licenza CLIENTXCMS disponibile su clientxcms.com/eula."
+    },
+    "register": {
+      "title": "Registrazione",
+      "btn": "Creare un account",
+      "telemetry": "Invia dati di telemetria anonimi. Questo ci aiuta a migliorare il CMS e a correggere i bug. Puoi disattivare questa opzione più avanti nelle impostazioni."
+    },
+    "summary": {
+      "title": "Riepilogo",
+      "btn": "Per finire"
+    },
+    "submit": "Inviare",
+    "password": "Password",
+    "firstname": "Nome",
+    "lastname": "Cognome",
+    "email": "E-mail",
+    "password_confirmation": "Conferma della password",
+    "authentication": "Autenticazione",
+    "extensions": "Estensioni",
+    "departmentsseeder": {
+      "general": {
+        "name": "Generale",
+        "description": "Dipartimento Generale"
+      },
+      "billing": {
+        "name": "Fatturazione",
+        "description": "Dipartimento di fatturazione"
+      },
+      "technical": {
+        "name": "Tecnico",
+        "description": "Dipartimento tecnico"
+      },
+      "sales": {
+        "name": "Commerciale",
+        "description": "Dipartimento commerciale"
+      }
+    },
+    "security_questions": {
+      "pet_name": "Come si chiama il tuo primo animale domestico?",
+      "birth_city": "In quale città sei nato?",
+      "mother_maiden_name": "Qual è il nome da nubile di tua madre?",
+      "first_school": "Come si chiama la tua prima scuola?",
+      "favorite_movie": "Qual è il tuo film preferito?",
+      "childhood_nickname": "Qual era il tuo soprannome da bambino?"
+    }
+  },
+  "lang.fr.mailcow": {
+    "product": {
+      "no_data": "Non sono richieste ulteriori informazioni al momento dell'ordine."
+    },
+    "config": {
+      "server": "Server Mailcow",
+      "max_domains": "Domini massimi",
+      "max_mailboxes": "Numero massimo di caselle per dominio",
+      "max_aliases": "Alias ​​massimi per dominio",
+      "default_quota_mib": "Quota predefinita di una casella (MiB)",
+      "max_quota_mib": "Quota massima di una casella (MiB)",
+      "domain_quota_mib": "Quota totale del dominio (MiB)",
+      "rate_limit_value": "Invio valore limite",
+      "rate_limit_frame": "Periodo limite di invio",
+      "backup_mx": "Backup del server MX",
+      "relay_all_recipients": "Inoltra tutti i destinatari",
+      "seconds": "Secondi",
+      "minutes": "Minuti",
+      "hours": "Ore"
+    },
+    "panel": {
+      "title": "Domini di posta elettronica",
+      "permission": "Gestisci i domini Mailcow",
+      "usage": ":domini usati usati su :max",
+      "empty": "Nessun dominio è ancora configurato.",
+      "mailboxes": "Scatole",
+      "aliases": "Alias",
+      "admin": "Amministratore",
+      "password": "Password",
+      "status_active": "Attivo",
+      "status_suspended": "Sospeso"
+    },
+    "actions": {
+      "add": "Aggiungi il dominio",
+      "delete": "ELIMINARE",
+      "delete_confirm": "Eliminare definitivamente questo dominio e tutti i relativi dati email?",
+      "dns": "Esporta DNS",
+      "domain_admin": "Amministrazione delle vacche postali"
+    },
+    "messages": {
+      "domain_created": "Il dominio Mailcow è stato creato.",
+      "domain_deleted": "Il dominio Mailcow è stato cancellato."
+    },
+    "errors": {
+      "domain_exists": "È già stato effettuato il provisioning di questo dominio.",
+      "domain_limit": "È stato raggiunto il limite di dominio di questo servizio.",
+      "config_missing": "Impossibile trovare la configurazione del prodotto Mailcow.",
+      "api": "Mailcow non è stato in grado di elaborare la richiesta."
+    }
+  },
   "lang.fr.maintenance": {
     "settings": {
       "title": "Modalità di manutenzione",
@@ -2411,31 +2651,45 @@
       "subheading": "Ecco le sezioni per la pagina {_name}",
       "description": "Personalizza le sezioni dell'area clienti",
       "content": "Contenuto",
+      "edit_of": "Modifica la sezione {_name}",
+      "more_actions_for": "Altre azioni per la sezione {_name}",
+      "toggle_preview_for": "Mostra o nascondi l'anteprima della sezione {_name}",
+      "premium_locked": "Questa sezione richiede un'estensione premium non attivata per essere modificata.",
       "show": {
         "title": "Modifica di una sezione",
         "protected_content": "Questa sezione è protetta e non può essere modificata.",
         "subheading": "Puoi modificare il contenuto della tua sezione come desideri"
       },
+      "settings": {
+        "title": "Impostazioni della sezione",
+        "subheading": "Tema e posizione di questa sezione"
+      },
+      "security_notice": {
+        "title": "Solo personalizzazione dei contenuti",
+        "description": "Questa pagina permette di modificare il contenuto della sezione (testi, immagini, link). Dalla versione 2.17 non è più possibile modificare il layout o lo stile di una sezione direttamente dall'amministrazione: abbiamo rimosso questa funzionalità per motivi di sicurezza. Per modificare l'aspetto di questa sezione, uno sviluppatore deve modificare il file sorgente del tema."
+      },
+      "back_to_page": "Ritorna all'elenco delle sezioni in questa pagina",
       "config": {
         "btn": "Configura sezione",
         "title": "Configurazione della sezione",
         "subheading": "Puoi modificare il contenuto della tua sezione come desideri",
+        "no_fields": "Questa sezione non offre campi personalizzabili.",
         "fields": {
           "badge": "Distintivo",
           "title": "Titolo",
           "subtitle": "Sottotitolo",
-          "feature_icon": "Icona funzione{_number}",
-          "feature_number": "Valore della caratteristica{_number}",
-          "feature_title": "Titolo della funzione{_number}",
-          "feature_description": "Descrizione della caratteristica{_number}",
-          "stat_value": "Valore statistico{_number}",
-          "stat_label": "Formulazione della statistica{_number}",
-          "testimonial_text": "Testimonianza{_number}",
-          "testimonial_author": "Autore della testimonianza{_number}",
-          "testimonial_role": "Ruolo dell'autore{_number}",
-          "step_title": "Titolo del passaggio{_number}",
-          "step_description": "Descrizione del passaggio{_number}",
-          "step_icon": "Icona del passaggio{_number}",
+          "feature_icon": "Icona funzione {_number}",
+          "feature_number": "Valore della caratteristica {_number}",
+          "feature_title": "Titolo della funzione {_number}",
+          "feature_description": "Descrizione della funzionalità {_number}",
+          "stat_value": "Valore della statistica {_number}",
+          "stat_label": "Formulazione della statistica {_number}",
+          "testimonial_text": "Testimonianza {_number}",
+          "testimonial_author": "Autore della testimonianza {_number}",
+          "testimonial_role": "Ruolo dell'autore {_number}",
+          "step_title": "Titolo del passaggio {_number}",
+          "step_description": "Descrizione del passo {_number}",
+          "step_icon": "Icona del passaggio {_number}",
           "primary_cta": "Principale invito all'azione",
           "secondary_cta": "Invito all'azione secondario",
           "hero_icon": "Icona principale",
@@ -2584,6 +2838,44 @@
       "nameservers": "Server dei nomi",
       "nameserver": "Server dei nomi: numero",
       "dns": "DNS",
+      "dns_choice": {
+        "title": "Dove vuoi gestire i tuoi DNS?",
+        "help": "Potrai modificare successivamente questa scelta dalla tua area clienti.",
+        "managed": "Mantieni il DNS con noi",
+        "managed_help": "Approfitta della gestione centralizzata e modifica i tuoi dati direttamente dalla tua area clienti.",
+        "custom": "Usa il mio DNS",
+        "custom_help": "Specifica i nameserver del tuo host o di un provider DNS esterno.",
+        "custom_notice": "Sono richiesti almeno due server dei nomi validi. La gestione della registrazione verrà poi effettuata con il tuo provider DNS.",
+        "unavailable": "Nessun server DNS preconfigurato per questa estensione."
+      },
+      "dns_editor": {
+        "help": "Gestisci i record che indirizzano il tuo dominio al tuo sito, alla posta elettronica e ad altri servizi.",
+        "records_count": "{0} Nessun record|{1} Record {_count}|[2,*] Record {_count}",
+        "type": "Tipo",
+        "name": "Nome/Ospite",
+        "value": "Valore/destinazione",
+        "empty": "Nessun record DNS ancora.",
+        "add": "Aggiungi un record",
+        "add_action": "Aggiungi la registrazione",
+        "type_help": {
+          "A": "Associa un nome a un indirizzo IPv4.",
+          "AAAA": "Associa un nome a un indirizzo IPv6.",
+          "CNAME": "Crea un alias per un altro nome di dominio.",
+          "MX": "Definisce il server di posta elettronica, nella forma “priorità del server”.",
+          "TXT": "Aggiunge un valore di testo, in particolare per SPF, DKIM o convalide.",
+          "NS": "Delega una zona o un sottodominio a un server dei nomi.",
+          "SRV": "Descrive un servizio come \"priorità del peso della porta target\".",
+          "CAA": "Autorizza un'autorità a emettere certificati per il dominio."
+        }
+      },
+      "nameservers_editor": {
+        "help": "Scegli i server che ospitano la zona DNS del tuo dominio.",
+        "recommended": "DNS consigliato",
+        "recommended_help": "Utilizza questi server per mantenere la gestione DNS centralizzata nella tua area clienti.",
+        "use_recommended": "Usa questi DNS",
+        "add": "Aggiungi un server",
+        "server": "Server dei nomi"
+      },
       "whois_privacy": "Protezione WHOIS",
       "creation_date": "Data di creazione",
       "expiration_date": "Data di scadenza",
@@ -2605,7 +2897,15 @@
         "results": "Risultati della ricerca",
         "extensions": "Scopri le nostre estensioni",
         "extensions_help": "Seleziona un'estensione per verificarne subito la disponibilità.",
-        "from": "Da"
+        "from": "Da",
+        "loading": "Cerchiamo le migliori opzioni e prezzi per il tuo dominio…",
+        "checking": "Verifica in corso…",
+        "check_failed": "Non è stato possibile verificare la disponibilità. Per favore riprova.",
+        "invalid_domain": "Inserisci un nome di dominio valido con una sola parte prima dell'estensione.",
+        "transfer_cta": "Trasferisci questo dominio",
+        "transfer_help": "Il tuo dominio deve essere registrato con un altro provider e sbloccato per il trasferimento.",
+        "transfer_unavailable": "Il trasferimento di questa estensione non è supportato dal registrar.",
+        "auth_code": "Codice di autorizzazione (EPP)"
       },
       "errors": {
         "invalid_tld": "Il dominio non corrisponde all'estensione selezionata."
@@ -2618,8 +2918,8 @@
       "mode_after_expiration": "Consenti la cancellazione dopo la scadenza del servizio",
       "requires_ticket": "Questo motivo di annullamento richiede l'apertura di un ticket di supporto.",
       "after_expiration_only": "Tale cancellazione sarà autorizzata solo dopo la scadenza del servizio.",
-      "ticket_subject": "Richiesta di cancellazione del servizio{_service}",
-      "ticket_message": "Ciao,\n\nDesidero richiedere la cancellazione del seguente servizio:\n\nServizio:{_service}Identificatore:{_identifier}Motivo:{_reason}Scadenza desiderata:{_expiration}Ulteriori informazioni:{_details}Grazie per aver elaborato la mia richiesta di cancellazione.",
+      "ticket_subject": "Richiesta di cancellazione del servizio {_service}",
+      "ticket_message": "Ciao,\n\nDesidero richiedere la cancellazione del seguente servizio:\n\nServizio: {_service} Identificatore: {_identifier} Modello: {_reason} Scadenza desiderata: {_expiration} Ulteriori informazioni: {_details} Grazie per aver elaborato la mia richiesta di cancellazione.",
       "ticket_no_details": "Nessuna informazione aggiuntiva."
     },
     "config_option": "Opzione di configurazione",
@@ -3400,192 +3700,6 @@
     "upgrade": {
       "title": "Servizio aggiornato",
       "description": "Un servizio è stato aggiornato"
-    }
-  },
-  "lang.fr.mailcow": {
-    "product": {
-      "no_data": "Non sono richieste ulteriori informazioni al momento dell'ordine."
-    },
-    "config": {
-      "server": "Server Mailcow",
-      "max_domains": "Domini massimi",
-      "max_mailboxes": "Numero massimo di caselle per dominio",
-      "max_aliases": "Alias ​​massimi per dominio",
-      "default_quota_mib": "Quota predefinita di una casella (MiB)",
-      "max_quota_mib": "Quota massima di una casella (MiB)",
-      "domain_quota_mib": "Quota totale del dominio (MiB)",
-      "rate_limit_value": "Invio valore limite",
-      "rate_limit_frame": "Periodo limite di invio",
-      "backup_mx": "Backup del server MX",
-      "relay_all_recipients": "Inoltra tutti i destinatari",
-      "seconds": "Secondi",
-      "minutes": "Minuti",
-      "hours": "Ore"
-    },
-    "panel": {
-      "title": "Domini di posta elettronica",
-      "permission": "Gestisci i domini Mailcow",
-      "usage": ":domini usati usati su :max",
-      "empty": "Nessun dominio è ancora configurato.",
-      "mailboxes": "Scatole",
-      "aliases": "Alias",
-      "admin": "Amministratore",
-      "password": "Password",
-      "status_active": "Attivo",
-      "status_suspended": "Sospeso"
-    },
-    "actions": {
-      "add": "Aggiungi il dominio",
-      "delete": "ELIMINARE",
-      "delete_confirm": "Eliminare definitivamente questo dominio e tutti i relativi dati email?",
-      "dns": "Esporta DNS",
-      "domain_admin": "Amministrazione delle vacche postali"
-    },
-    "messages": {
-      "domain_created": "Il dominio Mailcow è stato creato.",
-      "domain_deleted": "Il dominio Mailcow è stato cancellato."
-    },
-    "errors": {
-      "domain_exists": "È già stato effettuato il provisioning di questo dominio.",
-      "domain_limit": "È stato raggiunto il limite di dominio di questo servizio.",
-      "config_missing": "Impossibile trovare la configurazione del prodotto Mailcow.",
-      "api": "Mailcow non è stato in grado di elaborare la richiesta."
-    }
-  },
-  "lang.fr.einvoicing": {
-    "profile": {
-      "title": "Informazioni di fatturazione",
-      "description": "Indica se acquisti come privato, azienda o associazione. Queste informazioni verranno congelate nelle fatture successive.",
-      "type": "Tipologia cliente",
-      "individual": "Particolare",
-      "business": "Attività commerciale",
-      "association": "Associazione",
-      "legal_name": "Nome dell'azienda",
-      "rna_number": "Numero dell'RNA",
-      "siren": "SIRENA",
-      "siret": "SIRETO",
-      "vat_number": "Partita IVA",
-      "tax_registration_number": "Identificativo fiscale locale",
-      "tax_subject_status": "Situazione fiscale dell'associazione",
-      "tax_subject_status_help": "Queste informazioni determinano se la transazione rientra nella fatturazione elettronica o nel reporting elettronico.",
-      "tax_status_unknown": "Non lo so ancora",
-      "tax_status_non_taxable": "Associazione non soggetta ad IVA",
-      "tax_status_taxable_not_vat_liable": "Associazione soggetta ma non soggetta ad IVA",
-      "tax_status_vat_liable": "Associazione soggetta ad IVA",
-      "additional_details": "Ulteriori informazioni sulla fatturazione",
-      "additional_details_help": "Testo libero da visualizzare sulle fatture. Non indicare la ragione sociale, la SIRENA o la partita IVA.",
-      "required": "Completa i dati di fatturazione prima di continuare con l'ordine.",
-      "saved": "I tuoi dati di fatturazione sono stati salvati."
-    },
-    "admin": {
-      "tab": "Fatturazione elettronica",
-      "title": "Profilo fiscale e fatturazione",
-      "description": "Queste informazioni verranno congelate alla emissione delle prossime fatture.",
-      "identity": "Identità fiscale",
-      "address": "Indirizzo di fatturazione",
-      "dashboard": {
-        "title": "Fatturazione elettronica",
-        "description": "Tieni traccia delle fatture elettroniche, dei periodi di rendicontazione elettronica e degli incassi dichiarabili.",
-        "local_warning_title": "Modalità di simulazione locale",
-        "local_warning_description": "I file generati non vengono trasmessi ad una piattaforma approvata o al DGFiP.",
-        "provider": "Fornitore attivo",
-        "regime": "Regime IVA",
-        "timezone": "Zona fiscale",
-        "activation": "Attivazione",
-        "disabled": "Disabilitato",
-        "documents": "Documenti elettronici",
-        "documents_description": "Fatture e note di credito generate o trasmesse dal fornitore attivo.",
-        "periods": "Periodi di reporting elettronico",
-        "periods_description": "Lotti di transazioni e incassi raggruppati secondo il calendario fiscale.",
-        "payments": "Incassi e rimborsi",
-        "payments_description": "Registro immutabile dei movimenti finanziari presi in considerazione per il reporting elettronico.",
-        "empty_documents": "Nessun documento elettronico in questo momento.",
-        "empty_periods": "Nessun periodo di reporting elettronico al momento.",
-        "empty_payments": "Nessuna ricevuta o rimborso registrato.",
-        "document": "Documento",
-        "provider_column": "Fornitore",
-        "status": "Stato",
-        "error": "Ultimo errore",
-        "actions": "Azioni",
-        "type": "Tipo",
-        "period": "Periodo",
-        "deadline": "Scadenza",
-        "invoice": "Conto",
-        "amount": "Quantità",
-        "date": "Data",
-        "retry": "Rilancio",
-        "download_pdf": "PDF",
-        "download_xml": "XML",
-        "download_manifest": "Manifesto",
-        "no_error": "Nessuno",
-        "settings": "Configura",
-        "accounting_exports": "Esportazioni contabili",
-        "accounting_exports_description": "Si sincronizza con Abby, Pennylane e altre destinazioni contabili.",
-        "empty_accounting_exports": "Nessuna esportazione contabile al momento.",
-        "accounting_only": "Sincronizzazione contabile",
-        "event": "Evento",
-        "external_id": "Identificatore esterno"
-      }
-    },
-    "status": {
-      "complete": "Profilo completo",
-      "incomplete": "Profilo incompleto",
-      "pending": "Convalida in attesa"
-    },
-    "settings": {
-      "legal_entity": "Identità fiscale del venditore",
-      "operation_category": "Natura abituale delle operazioni",
-      "goods": "Consegne di merci",
-      "services": "Servizi",
-      "mixed": "Beni e servizi",
-      "vat_on_debits": "IVA dovuta in base ai debiti",
-      "seller_street": "La via del venditore",
-      "seller_address2": "Indirizzo aggiuntivo del venditore",
-      "seller_zipcode": "Codice postale del venditore",
-      "seller_city": "Città del venditore",
-      "seller_country": "Paese del venditore",
-      "seller_country_help": "Codice paese ISO a due lettere, ad esempio FR.",
-      "electronic_section": "Factur-X e reporting elettronico",
-      "enabled": "Abilita per nuovi documenti",
-      "provider": "Fornitore attivo",
-      "vat_regime": "Regime IVA",
-      "timezone": "Zona fiscale",
-      "activation_date": "Data di attivazione",
-      "activation_date_help": "I documenti emessi prima di tale data non verranno elaborati retroattivamente.",
-      "regimes": {
-        "real_normal_monthly": "Reale mensile normale",
-        "real_normal_quarterly": "Trimestrale davvero normale",
-        "simplified": "Dieta semplificata",
-        "franchise_base": "Franchising di base"
-      }
-    },
-    "document_statuses": {
-      "pending": "In attesa",
-      "generated": "Generato",
-      "submitted": "Archiviato",
-      "delivered": "Libro",
-      "accepted": "Accettato",
-      "rejected": "Respinto",
-      "failed": "Per errore",
-      "open": "Aprire",
-      "closed": "Chiuso",
-      "waiting_payment": "In attesa di pagamento",
-      "completed": "Finito",
-      "manual_review": "Revisione manuale"
-    },
-    "report_types": {
-      "transaction": "Transazioni",
-      "payment": "Ricevute"
-    },
-    "payment_types": {
-      "payment": "Collezione",
-      "refund": "Rimborso"
-    },
-    "accounting_events": {
-      "invoice": "Fattura emessa",
-      "credit_note": "Avendo rilasciato",
-      "payment": "Collezione",
-      "refund": "Rimborso"
     }
   }
 }

@@ -17,8 +17,6 @@
     "description": "Find the list of languages available for the customer area. Turn languages on or off as needed.",
     "countries_saved": "The list of activated countries has been saved successfully.",
     "countries": {
-      "admin.locales.countries.description": "Select the countries available in the forms and validations in the customer area.",
-      "admin.locales.countries.field": "Countries available",
       "description": "Select the countries available in the forms and validations in the customer area.",
       "field": "Countries available"
     }
@@ -81,6 +79,7 @@
     "good_morning": "Hello {_name}",
     "good_afternoon": "Good afternoon {_name}",
     "good_evening": "Good evening {_name}",
+    "support_expiration_warning": "Your support will expire on {_date}. Do not hesitate to renew your license to keep your extensions as well as technical support",
     "welcome": "Welcome to the administration dashboard. It is currently {_time}. Here is an overview of your system.",
     "assigned_tickets": "You have been assigned to the following tickets: {_tickets}. You can view them in the help center.",
     "autologin_success": "You are now logged in as {_name}",
@@ -90,7 +89,12 @@
     "monthly_usage": "Cumulative consumption of the month",
     "notification_error": "An error occurred in the last 24 hours on the sending of emails. Error: {_message}",
     "cron_never_executed": "Task Scheduler never appears to have run. Check the cron job configuration.",
+    "cron_inactive_since": "Task Scheduler has been unresponsive since {_date}. Verify that the cron job runs every minute.",
+    "cron_task_failed": "Scheduled task \"{_task}\" failed on {_date}. Error: {_message}",
     "queue_worker_inactive": "The queue worker has not responded for more than 5 minutes.",
+    "queue_jobs_blocked": "{_count} task(s) have been waiting to be executed for more than 15 minutes.",
+    "queue_jobs_reserved": "{_count} task(s) have been reserved by a worker for too long.",
+    "queue_jobs_failed": "{_count} task(s) in the queue failed.",
     "tooltips": {
       "users": {
         "label": "Users",
@@ -429,6 +433,7 @@
     "reason": "Reason to have it",
     "amount_exceeds_remaining": "The amount of the credit cannot exceed the remaining amount of the invoice ({_remaining})",
     "subheading": "Here is the list of all system assets",
+    "fund_reason": "Credit note issued for a fund addition to the customer:{_number}",
     "created_success": "The credit note has been successfully issued",
     "amount_ht": "Amount excluding tax",
     "original_invoice": "Original invoice",
@@ -517,7 +522,7 @@
       "logs": {
         "title": "Action history",
         "subheading": "All actions performed on this invoice.",
-        "count": "{count} history entry|{count} history entries",
+        "count": "{_count} history entry|{_count} history entries",
         "empty": "No activity recorded for this invoice at the moment.",
         "columns": {
           "timestamp": "Timestamp",
@@ -676,8 +681,6 @@
         "captcha": {
           "title": "Captcha",
           "fields": {
-            "force_2fa_client": "Force double authentication for clients",
-            "force_2fa_admin": "Force double authentication for administrators",
             "driver": "Captcha Driver",
             "driver_help": "You must have a secret key for the reCaptcha driver",
             "site_key": "Site Key",
@@ -785,7 +788,8 @@
       "retry": "Relaunch",
       "delete": "DELETE",
       "release": "Release and Relaunch",
-      "make_available": "Run as soon as possible"
+      "make_available": "Run as soon as possible",
+      "completed": "{_count} task(s) have been updated."
     }
   },
   "license": {
