@@ -195,7 +195,9 @@ class TranslationEngine:
         for i, name in enumerate(ENGINE_CHAIN):
             check = ENGINE_CREDENTIALS.get(name)
             if check is None or check():
+                print(f"Engine selected for this run: {name}")
                 return i
+        print(f"Engine selected for this run: {ENGINE_CHAIN[-1]}")
         return len(ENGINE_CHAIN) - 1
 
     def translate(self, text: str, target_lang: str) -> str | None:
