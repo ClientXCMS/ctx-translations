@@ -53,7 +53,10 @@ def reorder_and_merge(target: dict, source: dict, lang: str, engine: Translation
         previous_hash = hashes.get(key_path)
         fr_changed = previous_hash is not None and previous_hash != current_hash
 
-        if key in target and not fr_changed:
+        # en is a tracked reference like fr, exported straight from ClientXCMS
+        # before this runs: a key it already has must never be overwritten by
+        # a machine retranslation of fr, even when fr changed in the same run.
+        if key in target and (not fr_changed or lang == "en"):
             new_data[key] = target[key]
             if current_hash:
                 hashes[key_path] = current_hash
