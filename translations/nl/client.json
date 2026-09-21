@@ -20,6 +20,23 @@
     "paymethod": "Betalingsmethode",
     "index_description": "Hieronder vindt u een lijst van uw facturen.",
     "identifier": "Factuur-ID",
+    "filters": {
+      "date_from": "Datum van begin",
+      "date_to": "Datum van einde",
+      "currency": "Motief",
+      "apply": "toepassen",
+      "reset": "herinitialiseren"
+    },
+    "export": {
+      "button": "Exporteren",
+      "title": "Facturen exporteren",
+      "format": "Exportformaat"
+    },
+    "stats": {
+      "outstanding": "Om te regelen",
+      "paid_this_month": "Deze maand betaald",
+      "yearly_paid": "Maandelijkse betalingen van het lopende jaar"
+    },
     "terms": "Betalingsvoorwaarden",
     "banktransfer": {
       "title": "Onze bankgegevens",

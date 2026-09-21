@@ -20,6 +20,23 @@
     "paymethod": "Forma de pago",
     "index_description": "A continuación se muestra una lista de sus facturas.",
     "identifier": "ID de factura",
+    "filters": {
+      "date_from": "Fecha de inicio",
+      "date_to": "Fecha de fin",
+      "currency": "Mosaico",
+      "apply": "Aplicar",
+      "reset": "Reinicializar"
+    },
+    "export": {
+      "button": "Exportaciones",
+      "title": "Exportar las facturas",
+      "format": "Formato de Exportación"
+    },
+    "stats": {
+      "outstanding": "Para arreglar",
+      "paid_this_month": "Pagado este mes",
+      "yearly_paid": "Pagos mensuales del año en curso"
+    },
     "terms": "Condiciones de pago",
     "banktransfer": {
       "title": "Nuestra información bancaria",

@@ -20,6 +20,23 @@
     "paymethod": "Zahlungsmethode",
     "index_description": "Nachfolgend finden Sie eine Liste Ihrer Rechnungen.",
     "identifier": "Rechnungs-ID",
+    "filters": {
+      "date_from": "Datum der Beginn",
+      "date_to": "Datum Ende",
+      "currency": "Das Motto",
+      "apply": "Anwenden",
+      "reset": "Reinitialisieren"
+    },
+    "export": {
+      "button": "Exportieren",
+      "title": "Rechnungen exportieren",
+      "format": "Format Export"
+    },
+    "stats": {
+      "outstanding": "zu regeln",
+      "paid_this_month": "In diesem Monat bezahlt",
+      "yearly_paid": "Monatliche Zahlungen des laufenden Jahres"
+    },
     "terms": "Zahlungsbedingungen",
     "banktransfer": {
       "title": "Unsere Bankverbindung",

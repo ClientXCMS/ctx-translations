@@ -20,6 +20,23 @@
     "paymethod": "Metodo di pagamento",
     "index_description": "Di seguito è riportato un elenco delle tue fatture.",
     "identifier": "ID fattura",
+    "filters": {
+      "date_from": "Data di inizio",
+      "date_to": "Data di fine",
+      "currency": "motto",
+      "apply": "Applicare",
+      "reset": "Rinascita"
+    },
+    "export": {
+      "button": "esportazione",
+      "title": "Esportare le fatture",
+      "format": "Formato di esportazione"
+    },
+    "stats": {
+      "outstanding": "A risolvere",
+      "paid_this_month": "Pagato questo mese",
+      "yearly_paid": "Pagamenti mensili dell'anno in corso"
+    },
     "terms": "Termini di pagamento",
     "banktransfer": {
       "title": "Le nostre informazioni bancarie",
