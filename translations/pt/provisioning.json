@@ -84,6 +84,53 @@
     "nameservers": "Servidores de nomes",
     "nameserver": "Servidor de nomes: número",
     "dns": "DNS",
+    "dns_choice": {
+      "title": "Onde você deseja gerenciar seu DNS?",
+      "help": "Você pode alterar essa opção mais tarde em sua área de cliente.",
+      "managed": "Mantenha seu DNS em casa",
+      "managed_help": "Aproveite o gerenciamento centralizado e edite seus registros diretamente a partir de sua área de cliente.",
+      "custom": "Utilize o seu próprio DNS",
+      "custom_help": "Especifique os servidores de nomes do seu host ou de um provedor de DNS externo.",
+      "custom_notice": "São necessários, no mínimo, dois servidores de nomes válidos. Os registros serão gerenciados pelo seu provedor de DNS.",
+      "unavailable": "Nenhum servidor DNS pré-configurado para esta extensão."
+    },
+    "dns_editor": {
+      "help": "Gerencie registros que direcionam seu domínio para seu site, e-mails e outros serviços.",
+      "records_count": "{0} Nenhum registro {1} {_count} registro [2,*] {_count} registros",
+      "type": "Tipo",
+      "name": "Nome / anfitrião",
+      "value": "Valor / Destino",
+      "empty": "Não há registros de DNS no momento.",
+      "add": "Adicionar uma gravação",
+      "add_action": "Adicionar a gravação",
+      "type_help": {
+        "A": "Associe um nome a um endereço IPv4.",
+        "AAAA": "Associe um nome a um endereço IPv6.",
+        "CNAME": "Crie um alias para outro nome de domínio.",
+        "MX": "Define o servidor de e-mail, na forma de “prioridade de servidor”.",
+        "TXT": "Adiciona um valor de texto, incluindo SPF, DKIM ou validações.",
+        "NS": "Delega uma área ou subdomínio a um servidor de nomes.",
+        "SRV": "Descreve um serviço na forma de “prioridade peso porto alvo”.",
+        "CAA": "Autoriza uma autoridade a emitir certificados para o domínio."
+      }
+    },
+    "nameservers_editor": {
+      "help": "Escolha os servidores que hospedam a área DNS do seu domínio.",
+      "recommended": "DNS recomendado",
+      "recommended_help": "Use esses servidores para manter o gerenciamento de DNS centralizado em seu espaço cliente.",
+      "use_recommended": "Usando esses DNS",
+      "add": "Adicionar um Servidor",
+      "server": "Servidor de Nomes"
+    },
+    "from": "A partir de",
+    "loading": "Procuramos as melhores opções e os melhores preços para o seu domínio...",
+    "check_failed": "Não foi possível verificar a disponibilidade.Por favor, tente novamente.",
+    "invalid_domain": "Digite um nome de domínio válido com apenas uma parte antes da extensão.",
+    "transfer_cta": "Transferência desta área",
+    "transfer_help": "Seu domínio deve ser registrado com outro provedor e desbloqueado para transferência.",
+    "transfer_unavailable": "A transferência desta extensão não é suportada pelo registador.",
+    "auth_code": "Código de Autorização (EPP)",
+    "checking": "Verificação em andamento...",
     "whois_privacy": "Proteção WHOIS",
     "creation_date": "Data de criação",
     "expiration_date": "Data de validade",
@@ -105,7 +152,15 @@
       "results": "Resultados da pesquisa",
       "extensions": "Conheça nossas extensões",
       "extensions_help": "Selecione uma extensão para verificar imediatamente sua disponibilidade.",
-      "from": "De"
+      "from": "De",
+      "loading": "Procuramos as melhores opções e os melhores preços para o seu domínio...",
+      "checking": "Verificação em andamento...",
+      "check_failed": "Não foi possível verificar a disponibilidade.Por favor, tente novamente.",
+      "invalid_domain": "Digite um nome de domínio válido com apenas uma parte antes da extensão.",
+      "transfer_cta": "Transferência desta área",
+      "transfer_help": "Seu domínio deve ser registrado com outro provedor e desbloqueado para transferência.",
+      "transfer_unavailable": "A transferência desta extensão não é suportada pelo registador.",
+      "auth_code": "Código de Autorização (EPP)"
     },
     "errors": {
       "invalid_tld": "O domínio não corresponde à extensão selecionada."
@@ -118,6 +173,8 @@
     "mode_after_expiration": "Permitir cancelamento após a expiração do serviço",
     "requires_ticket": "Este motivo de cancelamento requer a abertura de um ticket de suporte.",
     "after_expiration_only": "Este cancelamento será autorizado somente após o término do serviço.",
+    "ticket_subject": "Solicitação de cancelamento do serviço {_service}",
+    "ticket_message": "Olá, Gostaria de solicitar o cancelamento do seguinte serviço: Serviço: {_service} Identificador: {_identifier} Motivo: {_reason} Prazo de vencimento desejado: {_expiration} Informações adicionais: {_details} Por favor, trate o meu pedido de cancelamento.",
     "ticket_no_details": "Nenhuma informação adicional."
   },
   "config_option": "Opção de configuração",
@@ -191,7 +248,13 @@
         "field_server_id": "Login do registrador",
         "field_prices": "Preços e durações configuradas",
         "filter": "Filtrar extensões",
+        "nameservers_minimum_help": "Pelo menos dois servidores DNS válidos são necessários para que o registrar aceite a configuração.",
+        "nameserver_hostname": "Nome do host do servidor de nomes",
+        "nameserver_ipv4": "Endereço IPv4 do servidor de nomes",
+        "nameserver_ipv6": "Endereço IPv6 do servidor de nomes",
         "select_visible": "Selecione extensões visíveis",
+        "extensions": "Extensões",
+        "extensions_help": "Selecione as extensões a serem recuperadas do catálogo do registrar. As extensões já configuradas serão ignoradas.",
         "select_targets": "Selecione pelo menos uma extensão de destinatário para modificar.",
         "selected": "extensões selecionadas",
         "preview": "Visualizar alterações",
@@ -432,6 +495,7 @@
         "not_actionable": "Este pedido já foi tratado."
       },
       "show": {
+        "title": "Número de solicitação {_id}",
         "subheading": "Detalhes completos do pedido de cancelamento do cliente."
       },
       "no_actions": "Nenhuma ação é possível para este pedido."

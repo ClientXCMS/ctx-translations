@@ -178,19 +178,45 @@
     "subheading": "Here are the sections for the page {_name}",
     "description": "Customize the sections of the customer area",
     "content": "Content",
+    "edit_of": "Modify the section {_name}",
+    "more_actions_for": "More actions for the {_name} section",
+    "toggle_preview_for": "View or hide the {_name} section preview",
+    "premium_locked": "This section requires a premium extension not enabled to be modified.",
     "show": {
       "title": "Editing a section",
       "protected_content": "This section is protected and cannot be modified.",
       "subheading": "You can edit the content of your section as you wish"
     },
+    "settings": {
+      "title": "Parameters of the section",
+      "subheading": "Theme and location of this section"
+    },
+    "security_notice": {
+      "title": "Personalization of content only",
+      "description": "This page allows you to change the content of the section (text, images, links). Since version 2.17, it is no longer possible to change the layout or style of a section directly from the administration: we have removed this feature for security reasons. To change the appearance of this section, a developer must modify the source file of the theme."
+    },
+    "back_to_page": "Return to the list of sections of this page",
     "config": {
       "btn": "Configure section",
       "title": "Section configuration",
       "subheading": "You can modify your section content as you wish",
+      "no_fields": "This section does not offer any personalized fields.",
       "fields": {
         "badge": "Badge",
         "title": "Title",
         "subtitle": "Subtitle",
+        "feature_icon": "Icon of function {_number}",
+        "feature_number": "Value of function {_number}",
+        "feature_title": "Feature title {_number}",
+        "feature_description": "Description of the function {_number}",
+        "stat_value": "Statistical value {_number}",
+        "stat_label": "Statistical wording {_number}",
+        "testimonial_text": "Review of {_number}",
+        "testimonial_author": "Author of testimony {_number}",
+        "testimonial_role": "Role of author {_number}",
+        "step_title": "Stage title {_number}",
+        "step_description": "Description of the step {_number}",
+        "step_icon": "Icon of step {_number}",
         "primary_cta": "Main call to action",
         "secondary_cta": "Secondary call to action",
         "hero_icon": "Main icon",

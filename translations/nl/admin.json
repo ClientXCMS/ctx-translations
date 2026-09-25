@@ -17,8 +17,6 @@
     "description": "Beheer de talen die beschikbaar zijn voor de gebruikers- en beheerdersinterface.",
     "countries_saved": "De lijst met geactiveerde landen is succesvol opgeslagen.",
     "countries": {
-      "admin.locales.countries.description": "Selecteer de beschikbare landen in de formulieren en validaties in het klantengedeelte.",
-      "admin.locales.countries.field": "Beschikbare landen",
       "description": "Selecteer de beschikbare landen in de formulieren en validaties in het klantengedeelte.",
       "field": "Beschikbare landen"
     }
@@ -44,6 +42,7 @@
     "new_version_is": "De versie {_version} is beschikbaar.",
     "current_version": "Huidige versie",
     "available_version": "Beschikbare versie",
+    "update_to_version": "Update naar v {_version}",
     "whats_new_in": "Nieuwigheden van de {_version}",
     "published_on": "Gepubliceerd op {_date}",
     "added": "Toevoegingen",
@@ -80,6 +79,7 @@
     "good_morning": "Hallo {_name}",
     "good_afternoon": "Goede middag {_name}",
     "good_evening": "Goedenavond {_name}",
+    "support_expiration_warning": "Uw ondersteuning loopt af op {_date}. aarzel niet om uw licentie te verlengen om uw extensies en technische ondersteuning te behouden",
     "welcome": "Welkom op het administratiedashboard. Het is momenteel {_time}. Hier is een overzicht van uw systeem.",
     "assigned_tickets": "U bent toegewezen aan de volgende tickets: {_tickets}. U kunt ze bekijken in het helpcentrum.",
     "autologin_success": "Je bent nu ingelogd als {_name}",
@@ -89,7 +89,12 @@
     "monthly_usage": "Cumulatief verbruik van de maand",
     "notification_error": "In de afgelopen 24 uur is er een fout opgetreden bij het verzenden van e-mails. Fout: {_message}",
     "cron_never_executed": "Taakplanner lijkt nooit te zijn uitgevoerd. Controleer de cronjob-configuratie.",
+    "cron_inactive_since": "De taakplanner reageert niet meer vanaf {_date}. Controleer of de taak cron elke minuut wordt uitgevoerd.",
+    "cron_task_failed": "De geplande taak “{_task}” mislukt de {_date}. Fout: {_message}",
     "queue_worker_inactive": "De wachtrijmedewerker heeft langer dan 5 minuten niet gereageerd.",
+    "queue_jobs_blocked": "{_count} taak(s) wachten langer dan 15 minuten op hun uitvoering.",
+    "queue_jobs_reserved": "{_count} taak(s) zijn gereserveerd door een worker te lang.",
+    "queue_jobs_failed": "{_count} taak(s) in de wachtrij mislukt.",
     "tooltips": {
       "users": {
         "label": "Gebruikers",
@@ -428,6 +433,7 @@
     "reason": "Reden om het te hebben",
     "amount_exceeds_remaining": "Het bedrag van het tegoed kan niet hoger zijn dan het resterende bedrag van de factuur ({_remaining})",
     "subheading": "Hier is de lijst met alle systeemactiva",
+    "fund_reason": "Uitgegeven voor een achtergrondtoevoeging aan de klant: {_number}",
     "created_success": "De creditnota is succesvol uitgegeven",
     "amount_ht": "Bedrag exclusief belasting",
     "original_invoice": "Originele factuur",
@@ -675,8 +681,6 @@
         "captcha": {
           "title": "Kaptcha",
           "fields": {
-            "force_2fa_client": "Forceer dubbele authenticatie voor clients",
-            "force_2fa_admin": "Forceer dubbele authenticatie voor beheerders",
             "driver": "Captcha-stuurprogramma",
             "driver_help": "U moet een geheime sleutel hebben voor het reCaptcha-stuurprogramma",
             "site_key": "Site Sleutel",
@@ -784,7 +788,8 @@
       "retry": "Opnieuw starten",
       "delete": "VERWIJDEREN",
       "release": "Vrijgeven en opnieuw starten",
-      "make_available": "Ren zo snel mogelijk"
+      "make_available": "Ren zo snel mogelijk",
+      "completed": "{_count} taak(s) zijn bijgewerkt."
     }
   },
   "license": {

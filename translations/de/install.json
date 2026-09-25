@@ -1,0 +1,59 @@
+{
+  "install": "Installation",
+  "step": "Etappen",
+  "settings": {
+    "title": "Parameter",
+    "client_id": "ID Kunde",
+    "client_secret": "Geheime Kunde",
+    "hosting_name": "Name der Gesellschaft",
+    "connect": "sich verbinden",
+    "locales": "Sprachen",
+    "infolicense": "Um eine Kunden-ID und ein Kundengeheimnis zu erhalten, müssen Sie eine CLIENTXCMS-Lizenz haben. <a href=\" {_link} \" target=\"_blank\" class=\"underline\">Klicken Sie hier, um Ihre IDs kostenlos abzurufen.</a>",
+    "migrationwarning": "Bitte führen Sie \"php artisan migrate --force --seed\" aus, um die Datenbank zu migrieren.",
+    "detecteddomain": "Domain erkannt: {_domain}. Vergewissern Sie sich, dass die Domain genau mit der Ihrer Lizenz übereinstimmt (einschließlich der Subdomain, falls zutreffend).",
+    "eula": "Durch den Besuch dieser Seite stimmen Sie den Bedingungen der CLIENTXCMS-Lizenz zu, die unter clientxcms.com/eula verfügbar sind."
+  },
+  "register": {
+    "title": "Registrierung",
+    "btn": "Erstellen des Kontos",
+    "telemetry": "Senden Sie anonymisierte Telemetrie-Daten. Dies hilft uns, das CMS zu verbessern und Fehler zu beheben. Sie können diese Option später in den Einstellungen deaktivieren."
+  },
+  "summary": {
+    "title": "Zusammenfassung",
+    "btn": "Beenden"
+  },
+  "submit": "Senden",
+  "password": "Wort Pass",
+  "firstname": "Vornamen",
+  "lastname": "Name der Familie",
+  "email": "E-Mail",
+  "password_confirmation": "Bestätigung des Passworts",
+  "authentication": "Authentifizierung",
+  "extensions": "Erweiterungen",
+  "departmentsseeder": {
+    "general": {
+      "name": "Generell",
+      "description": "Generalabteilung"
+    },
+    "billing": {
+      "name": "Rechnung",
+      "description": "Abteilung Rechnungsstellung"
+    },
+    "technical": {
+      "name": "Technisch",
+      "description": "Technische Abteilung"
+    },
+    "sales": {
+      "name": "Kommerziell",
+      "description": "Handelsabteilung"
+    }
+  },
+  "security_questions": {
+    "pet_name": "Wie heißt dein erstes Haustier?",
+    "birth_city": "In welcher Stadt bist du geboren?",
+    "mother_maiden_name": "Wie heißt das Mädchen deiner Mutter?",
+    "first_school": "Wie heißt deine erste Schule?",
+    "favorite_movie": "Was ist dein Lieblingsfilm?",
+    "childhood_nickname": "Wie hieß dein Kindheitsname?"
+  }
+}

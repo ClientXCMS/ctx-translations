@@ -17,8 +17,6 @@
     "description": "Suchen Sie die Liste der Sprachen, die für den Kundenbereich verfügbar sind. Schalten Sie Sprachen nach Bedarf ein oder aus.",
     "countries_saved": "Die Liste der aktivierten Länder wurde erfolgreich gespeichert.",
     "countries": {
-      "admin.locales.countries.description": "Wählen Sie die in den Formularen und Validierungen im Kundenbereich verfügbaren Länder aus.",
-      "admin.locales.countries.field": "Länder verfügbar",
       "description": "Wählen Sie die in den Formularen und Validierungen im Kundenbereich verfügbaren Länder aus.",
       "field": "Länder verfügbar"
     }
@@ -81,6 +79,7 @@
     "good_morning": "Hallo {_name}",
     "good_afternoon": "Guten Nachmittag {_name}",
     "good_evening": "Guten Abend {_name}",
+    "support_expiration_warning": "Ihr Support läuft ab {_date}. Zögern Sie nicht, Ihre Lizenz zu erneuern, um Ihre Erweiterungen und den technischen Support zu behalten",
     "welcome": "Willkommen im Administrations-Dashboard. Es ist derzeit {_time}. Hier ist eine Übersicht über Ihr System.",
     "assigned_tickets": "Sie wurden den folgenden Tickets zugewiesen: {_tickets}. Sie können sie im Hilfezentrum ansehen.",
     "autologin_success": "Sie sind nun als {_name} angemeldet.",
@@ -90,7 +89,12 @@
     "monthly_usage": "Kumulierter Verbrauch des Monats",
     "notification_error": "In den letzten 24 Stunden ist beim Senden von E-Mails ein Fehler aufgetreten. Fehler: {_message}",
     "cron_never_executed": "Der Taskplaner scheint nie ausgeführt worden zu sein. Überprüfen Sie die Cron-Job-Konfiguration.",
+    "cron_inactive_since": "Der Aufgabenplaner antwortet ab dem {_date} nicht mehr. Überprüfen Sie, ob die cron-Aufgabe jede Minute ausgeführt wird.",
+    "cron_task_failed": "Die geplante Aufgabe „{_task}“ hat den {_date} versagt. Fehler: {_message}",
     "queue_worker_inactive": "Der Warteschlangenarbeiter hat seit mehr als 5 Minuten nicht geantwortet.",
+    "queue_jobs_blocked": "{_count} Aufgabe(s) warten auf ihre Ausführung seit mehr als 15 Minuten.",
+    "queue_jobs_reserved": "{_count} Aufgabe(s) werden von einem Worker für zu lange reserviert.",
+    "queue_jobs_failed": "{_count} Aufgabe(s) in der Warteschlange gescheitert.",
     "tooltips": {
       "users": {
         "label": "Benutzer",
@@ -429,6 +433,7 @@
     "reason": "Grund, es zu haben",
     "amount_exceeds_remaining": "Der Betrag der Gutschrift darf den Restbetrag der Rechnung nicht überschreiten ({_remaining})",
     "subheading": "Hier ist die Liste aller Assets des Systems",
+    "fund_reason": "Ausgegeben haben für einen Kundengrundzusatz: {_number}",
     "created_success": "Die Gutschrift wurde erfolgreich ausgestellt",
     "amount_ht": "Betrag ohne Steuern",
     "original_invoice": "Originalrechnung",
@@ -676,8 +681,6 @@
         "captcha": {
           "title": "Das Kaptcha",
           "fields": {
-            "force_2fa_client": "Erzwingen Sie eine doppelte Authentifizierung für Clients",
-            "force_2fa_admin": "Erzwingen Sie eine doppelte Authentifizierung für Administratoren",
             "driver": "Captcha-Treiber",
             "driver_help": "Sie müssen einen geheimen Schlüssel für den reCaptcha-Treiber haben",
             "site_key": "Site-Schlüssel",
@@ -785,7 +788,8 @@
       "retry": "Neustart",
       "delete": "LÖSCHEN",
       "release": "Veröffentlichung und Relaunch",
-      "make_available": "Laufen Sie so schnell wie möglich"
+      "make_available": "Laufen Sie so schnell wie möglich",
+      "completed": "{_count} Aufgabe(s) wurden aktualisiert."
     }
   },
   "license": {

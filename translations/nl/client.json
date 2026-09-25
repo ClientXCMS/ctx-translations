@@ -20,6 +20,23 @@
     "paymethod": "Betalingsmethode",
     "index_description": "Hieronder vindt u een lijst van uw facturen.",
     "identifier": "Factuur-ID",
+    "filters": {
+      "date_from": "Datum van begin",
+      "date_to": "Datum van einde",
+      "currency": "Motief",
+      "apply": "toepassen",
+      "reset": "herinitialiseren"
+    },
+    "export": {
+      "button": "Exporteren",
+      "title": "Facturen exporteren",
+      "format": "Exportformaat"
+    },
+    "stats": {
+      "outstanding": "Om te regelen",
+      "paid_this_month": "Deze maand betaald",
+      "yearly_paid": "Maandelijkse betalingen van het lopende jaar"
+    },
     "terms": "Betalingsvoorwaarden",
     "banktransfer": {
       "title": "Onze bankgegevens",
@@ -132,6 +149,8 @@
       }
     },
     "renewals": {
+      "test_auto_translation": "Dit is een tweede test sleutel om te controleren of DeepL goed werkt",
+      "test_auto_translation_fresh": "Nog een wijziging om te controleren of Cloudflare nu goed wordt gebruikt en of de backlog schatting correct is",
       "index": "Verlenging van de dienst",
       "title": "Beheer van vernieuwing",
       "period": "Periode",
@@ -247,6 +266,7 @@
       "subheading": "Voer de tweefactorauthenticatiecode in die door uw mobiele app wordt gegenereerd.",
       "info": "Scan de QR-code met uw tweefactorauthenticatie-app.",
       "download_codes": "Download de herstelcodes <a href=\"{_url}\" class=\"text-primary\"> door hier te klikken</a>.",
+      "email_sent_to": "Een 6-cijferige code is naar u gestuurd op {_email}. Het is 5 minuten geldig.",
       "resend_email_code": "Verstuur een code opnieuw per e-mail",
       "step1_subheading": "Stap 1 van 2 - Codeer voor uw authenticator-app",
       "step2_subheading": "Stap 2 van 2 - Code ontvangen per e-mail",
@@ -256,13 +276,17 @@
       "code_totp_hint": "Open uw authenticator-app. Als u uw apparaat bent kwijtgeraakt, gebruikt u een van de herstelcodes.",
       "code_email": "Code per e-mail ontvangen",
       "next_step": "Doorgaan",
+      "trust_device": "Vertrouw op dit apparaat voor {_days} dagen",
       "back_to_step1": "Keer terug naar de vorige controle",
+      "cooldown_active": "Te veel mislukte pogingen. Wacht {_minutes} minuten voordat u een nieuwe code aanvraagt.",
+      "device_label": "{_browser} naar {_os}",
       "unknown_device": "Onbekend apparaat",
       "unknown_browser": "Onbekende browser",
       "current_device": "Dit apparaat",
       "trusted_devices_heading": "Vertrouwde apparaten",
       "trusted_devices_description": "Deze apparaten zullen u de volgende keer dat u inlogt, niet per e-mail om een ​​code vragen, totdat deze verloopt.",
       "trusted_devices_empty": "Geen vertrouwde apparaten geregistreerd.",
+      "trusted_device_expires_at": "Verlopen van de {_date}",
       "trusted_device_expires_never": "Zonder vervaldatum",
       "trusted_device_revoke": "Herroepen",
       "trusted_device_revoked": "Vertrouwd apparaat ingetrokken.",

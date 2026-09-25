@@ -1,0 +1,59 @@
+{
+  "install": "Instalación",
+  "step": "Etapa",
+  "settings": {
+    "title": "Parámetros",
+    "client_id": "ID Cliente",
+    "client_secret": "El cliente secreto",
+    "hosting_name": "Nombre de la Sociedad",
+    "connect": "Se conecta",
+    "locales": "Lenguas",
+    "infolicense": "Para obtener un ID de cliente y un secreto de cliente, debe tener una licencia CLIENTXCMS. <a href=\" {_link} \" target=\"_blank\" class=\"underline\">Haga clic aquí para recuperar sus identificadores de forma gratuita.</a>",
+    "migrationwarning": "Atención: la base de datos no ha sido migrada. Por favor, ejecute \"php artisan migrate --force --seed\" para migrar la base de datos.",
+    "detecteddomain": "Dominio detectado: {_domain}. Asegúrese de que el dominio coincida exactamente con el de su licencia (incluyendo el subdominio si procede).",
+    "eula": "Al consultar esta página, usted acepta los términos de la licencia CLIENTXCMS disponible en clientxcms.com/eula."
+  },
+  "register": {
+    "title": "Inscripción",
+    "btn": "Crear la cuenta",
+    "telemetry": "Enviar datos de telemetría anónimos. Esto nos ayuda a mejorar el CMS y corregir los errores. Puede desactivar esta opción más adelante en la configuración."
+  },
+  "summary": {
+    "title": "Resumen",
+    "btn": "Terminar"
+  },
+  "submit": "Enviar",
+  "password": "Palabras de paso",
+  "firstname": "Nombre",
+  "lastname": "Nombre de familia",
+  "email": "e-mail",
+  "password_confirmation": "Confirmación de la contraseña",
+  "authentication": "Autenticación",
+  "extensions": "Extensiones",
+  "departmentsseeder": {
+    "general": {
+      "name": "general",
+      "description": "Departamento General"
+    },
+    "billing": {
+      "name": "Facturación",
+      "description": "Departamento de Facturación"
+    },
+    "technical": {
+      "name": "Técnicas",
+      "description": "Departamento Técnico"
+    },
+    "sales": {
+      "name": "comerciales",
+      "description": "Departamento Comercial"
+    }
+  },
+  "security_questions": {
+    "pet_name": "¿Cuál es el nombre de tu primer animal de compañía?",
+    "birth_city": "¿En qué ciudad has nacido?",
+    "mother_maiden_name": "¿Cuál es el nombre de la niña de su madre?",
+    "first_school": "¿Cuál es el nombre de su primera escuela?",
+    "favorite_movie": "¿Cuál es tu película favorita?",
+    "childhood_nickname": "¿Cuál fue tu apodo de infancia?"
+  }
+}

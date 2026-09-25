@@ -1,0 +1,59 @@
+{
+  "install": "Installation",
+  "step": "phase",
+  "settings": {
+    "title": "Parameters of",
+    "client_id": "Client ID",
+    "client_secret": "The Secret Client",
+    "hosting_name": "Name of company",
+    "connect": "Connect to",
+    "locales": "Languages",
+    "infolicense": "To obtain a customer ID and a customer secret, you must have a CLIENTXCMS license. <a href=\" {_link} \" target=\"_blank\" class=\"underline\">Click here to retrieve your identifiers for free.</a>",
+    "migrationwarning": "Please run \"php artisan migrate --force --seed\" to migrate the database.",
+    "detecteddomain": "Detected domain: {_domain}. Make sure that the domain exactly matches that of your license (including the subdomain if applicable).",
+    "eula": "By viewing this page, you accept the terms of the CLIENTXCMS license available at clientxcms.com/eula."
+  },
+  "register": {
+    "title": "Registration is",
+    "btn": "Create the account",
+    "telemetry": "Send anonymous telemetry data. This helps us improve the CMS and fix bugs. You can disable this option later in the settings."
+  },
+  "summary": {
+    "title": "Summary",
+    "btn": "Finished"
+  },
+  "submit": "Send to",
+  "password": "Password of Pass",
+  "firstname": "Named",
+  "lastname": "Name of family",
+  "email": "e-mail",
+  "password_confirmation": "Confirmation of Password",
+  "authentication": "Authentication",
+  "extensions": "Extensions",
+  "departmentsseeder": {
+    "general": {
+      "name": "Generally",
+      "description": "Department General"
+    },
+    "billing": {
+      "name": "invoicing",
+      "description": "Department of Billing"
+    },
+    "technical": {
+      "name": "Technically",
+      "description": "Technical Department"
+    },
+    "sales": {
+      "name": "Commercial",
+      "description": "Department of Commerce"
+    }
+  },
+  "security_questions": {
+    "pet_name": "What is the name of your first pet?",
+    "birth_city": "In which city were you born?",
+    "mother_maiden_name": "What is your mother’s daughter’s name?",
+    "first_school": "What is the name of your first school?",
+    "favorite_movie": "What is your favorite film?",
+    "childhood_nickname": "What was your childhood nickname?"
+  }
+}

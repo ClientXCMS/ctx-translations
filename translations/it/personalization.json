@@ -178,19 +178,45 @@
     "subheading": "Ecco le sezioni per la pagina {_name}",
     "description": "Personalizza le sezioni dell'area clienti",
     "content": "Contenuto",
+    "edit_of": "Modifica della sezione {_name}",
+    "more_actions_for": "Altre azioni per la sezione {_name}",
+    "toggle_preview_for": "Visualizzare o nascondere la preview della sezione {_name}",
+    "premium_locked": "Questa sezione richiede un'estensione premium non abilitata per essere modificata.",
     "show": {
       "title": "Modifica di una sezione",
       "protected_content": "Questa sezione è protetta e non può essere modificata.",
       "subheading": "Puoi modificare il contenuto della tua sezione come desideri"
     },
+    "settings": {
+      "title": "Parametri della sezione",
+      "subheading": "Tema e posizione di questa sezione"
+    },
+    "security_notice": {
+      "title": "Personalizzazione dei contenuti solo",
+      "description": "Questa pagina consente di modificare il contenuto della sezione (testi, immagini, link). A partire dalla versione 2.17, non è più possibile modificare il layout o lo stile di una sezione direttamente dall'amministrazione: abbiamo rimosso questa funzionalità per motivi di sicurezza. Per cambiare l'aspetto di questa sezione, uno sviluppatore deve modificare il file sorgente del tema."
+    },
+    "back_to_page": "Torna alla lista delle sezioni di questa pagina",
     "config": {
       "btn": "Configura sezione",
       "title": "Configurazione della sezione",
       "subheading": "Puoi modificare il contenuto della tua sezione come desideri",
+      "no_fields": "Questa sezione non offre campi personalizzabili.",
       "fields": {
         "badge": "Distintivo",
         "title": "Titolo",
         "subtitle": "Sottotitolo",
+        "feature_icon": "Icona della funzionalità {_number}",
+        "feature_number": "Valore della funzione {_number}",
+        "feature_title": "Titolo della funzione {_number}",
+        "feature_description": "Descrizione della funzionalità {_number}",
+        "stat_value": "Valore della statistica {_number}",
+        "stat_label": "Formulazione della statistica {_number}",
+        "testimonial_text": "Testimonianza {_number}",
+        "testimonial_author": "Autore della testimonianza {_number}",
+        "testimonial_role": "Ruolo dell'autore {_number}",
+        "step_title": "Titolo del passaggio {_number}",
+        "step_description": "Descrizione della fase {_number}",
+        "step_icon": "Icona del passaggio {_number}",
         "primary_cta": "Principale invito all'azione",
         "secondary_cta": "Invito all'azione secondario",
         "hero_icon": "Icona principale",

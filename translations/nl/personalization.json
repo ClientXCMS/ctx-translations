@@ -178,19 +178,45 @@
     "subheading": "Hier zijn de secties voor de pagina {_name}",
     "description": "Beheer en pas de verschillende secties aan die beschikbaar zijn op de site om de inhoud op een efficiënte en intuïtieve manier voor gebruikers te organiseren en te structureren.",
     "content": "Inhoud",
+    "edit_of": "Afdeling wijzigen {_name}",
+    "more_actions_for": "Meer acties voor de sectie {_name}",
+    "toggle_preview_for": "Het voorbeeld van de sectie {_name} weergeven of verbergen",
+    "premium_locked": "Deze sectie vereist een premium extensie die niet is ingeschakeld om te kunnen worden gewijzigd.",
     "show": {
       "title": "Een sectie bewerken",
       "protected_content": "Dit gedeelte is beveiligd en kan niet worden gewijzigd.",
       "subheading": "U kunt de inhoud van uw sectie naar wens bewerken"
     },
+    "settings": {
+      "title": "Parameters van de sectie",
+      "subheading": "Het thema en de locatie van deze sectie"
+    },
+    "security_notice": {
+      "title": "Alleen content personaliseren",
+      "description": "Deze pagina maakt het mogelijk om de inhoud van de sectie (teksten, afbeeldingen, links) te wijzigen. Vanaf versie 2.17 is het niet meer mogelijk om de lay-out of stijl van een sectie rechtstreeks vanuit de administratie te wijzigen: we hebben deze functie om veiligheidsredenen verwijderd. Om het uiterlijk van deze sectie te veranderen, moet een ontwikkelaar het bronbestand van het thema wijzigen."
+    },
+    "back_to_page": "Terug naar de lijst met secties op deze pagina",
     "config": {
       "btn": "Sectie configureren",
       "title": "Sectie configuratie",
       "subheading": "U kunt de inhoud van uw sectie naar wens aanpassen",
+      "no_fields": "Deze sectie biedt geen aangepaste velden.",
       "fields": {
         "badge": "Kenteken",
         "title": "Titel",
         "subtitle": "Ondertitel",
+        "feature_icon": "Functioneel pictogram {_number}",
+        "feature_number": "Waarde van de functie {_number}",
+        "feature_title": "Titel van de functie {_number}",
+        "feature_description": "Beschrijving van de functie {_number}",
+        "stat_value": "Statistische waarde {_number}",
+        "stat_label": "Statistische formulering {_number}",
+        "testimonial_text": "Getuigenis {_number}",
+        "testimonial_author": "Auteur van het getuigenis {_number}",
+        "testimonial_role": "Rol van de auteur {_number}",
+        "step_title": "Stap titel {_number}",
+        "step_description": "Beschrijving van de stap {_number}",
+        "step_icon": "Stap pictogram {_number}",
         "primary_cta": "Belangrijkste call-to-action",
         "secondary_cta": "Secundaire call-to-action",
         "hero_icon": "Hoofdpictogram",

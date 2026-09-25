@@ -20,6 +20,23 @@
     "paymethod": "Metodo di pagamento",
     "index_description": "Di seguito è riportato un elenco delle tue fatture.",
     "identifier": "ID fattura",
+    "filters": {
+      "date_from": "Data di inizio",
+      "date_to": "Data di fine",
+      "currency": "motto",
+      "apply": "Applicare",
+      "reset": "Rinascita"
+    },
+    "export": {
+      "button": "esportazione",
+      "title": "Esportare le fatture",
+      "format": "Formato di esportazione"
+    },
+    "stats": {
+      "outstanding": "A risolvere",
+      "paid_this_month": "Pagato questo mese",
+      "yearly_paid": "Pagamenti mensili dell'anno in corso"
+    },
     "terms": "Termini di pagamento",
     "banktransfer": {
       "title": "Le nostre informazioni bancarie",
@@ -132,6 +149,8 @@
       }
     },
     "renewals": {
+      "test_auto_translation": "Questa è una seconda chiave di test per verificare che DeepL funzioni correttamente",
+      "test_auto_translation_fresh": "Un'altra modifica per verificare che Cloudflare sia ben utilizzato ora, e che la stima del backlog sia corretta",
       "index": "Rinnovi dei servizi",
       "title": "Gestione dei rinnovi",
       "period": "Periodo",
@@ -247,6 +266,7 @@
       "subheading": "Inserisci il codice di autenticazione a due fattori generato dalla tua app mobile.",
       "info": "Scansiona il codice QR con la tua app di autenticazione a due fattori.",
       "download_codes": "Scarica i codici di recupero <a href=\"{_url}\" class=\"text-primary\"> cliccando qui</a>.",
+      "email_sent_to": "Un codice a 6 cifre ti è stato inviato su {_email}. È valido per 5 minuti.",
       "resend_email_code": "Invia nuovamente un codice tramite e-mail",
       "step1_subheading": "Passaggio 1 di 2: codice per l'app di autenticazione",
       "step2_subheading": "Passaggio 2 di 2: codice ricevuto via e-mail",
@@ -256,13 +276,17 @@
       "code_totp_hint": "Apri l'app di autenticazione. Se hai smarrito il tuo dispositivo, utilizza uno dei codici di ripristino.",
       "code_email": "Codice ricevuto via e-mail",
       "next_step": "Continuare",
+      "trust_device": "Fiducia a questo dispositivo per {_days} giorni",
       "back_to_step1": "Ritorna al controllo precedente",
+      "cooldown_active": "Troppi tentativi falliti. Si prega di aspettare {_minutes} minuti prima di richiedere un nuovo codice.",
+      "device_label": "{_browser} su {_os}",
       "unknown_device": "Dispositivo sconosciuto",
       "unknown_browser": "Browser sconosciuto",
       "current_device": "Questo dispositivo",
       "trusted_devices_heading": "Dispositivi affidabili",
       "trusted_devices_description": "Questi dispositivi non ti chiederanno un codice via email al successivo accesso, fino alla scadenza.",
       "trusted_devices_empty": "Nessun dispositivo attendibile registrato.",
+      "trusted_device_expires_at": "Scade il {_date}",
       "trusted_device_expires_never": "Senza scadenza",
       "trusted_device_revoke": "Revocare",
       "trusted_device_revoked": "Dispositivo attendibile revocato.",

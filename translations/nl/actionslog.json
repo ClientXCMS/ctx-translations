@@ -42,8 +42,15 @@
     "two_factor_enabled": "Tweefactorauthenticatie ingeschakeld",
     "two_factor_disabled": "Tweefactorauthenticatie uitgeschakeld",
     "two_factor_recovery_codes_generated": "Herstelcodes voor tweefactorauthenticatie gegenereerd",
+    "passkey_registered": "Toegevoegde toegangsleutel: {_name}",
+    "passkey_deleted": "Verwijderde toegangsleutel: {_name}",
     "failed_login": "Verbindingsfout IP-adres: {_ip}",
     "account_deleted": "Account verwijderd",
-    "new_registered": "Nieuwe registratie"
+    "new_registered": "Nieuwe registratie",
+    "basket_complet": "Voltooide mand van {_amount}.",
+    "ticket_create": "Opening van een nieuw ticket {_subject}",
+    "ticket_replied": "Nieuwe reactie op ticket {_subject}",
+    "ticket_reopened": "Ticket opnieuw openen {_subject}",
+    "basket": "Voltooiing van een mand van {_amount}"
   }
 }

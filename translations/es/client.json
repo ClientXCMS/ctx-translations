@@ -20,6 +20,23 @@
     "paymethod": "Forma de pago",
     "index_description": "A continuación se muestra una lista de sus facturas.",
     "identifier": "ID de factura",
+    "filters": {
+      "date_from": "Fecha de inicio",
+      "date_to": "Fecha de fin",
+      "currency": "Mosaico",
+      "apply": "Aplicar",
+      "reset": "Reinicializar"
+    },
+    "export": {
+      "button": "Exportaciones",
+      "title": "Exportar las facturas",
+      "format": "Formato de Exportación"
+    },
+    "stats": {
+      "outstanding": "Para arreglar",
+      "paid_this_month": "Pagado este mes",
+      "yearly_paid": "Pagos mensuales del año en curso"
+    },
     "terms": "Condiciones de pago",
     "banktransfer": {
       "title": "Nuestra información bancaria",
@@ -132,6 +149,8 @@
       }
     },
     "renewals": {
+      "test_auto_translation": "Esta es una segunda clave de prueba para comprobar que DeepL funciona bien",
+      "test_auto_translation_fresh": "Otro cambio para comprobar que Cloudflare está bien utilizado ahora, y que la estimación del backlog es correcta",
       "index": "Renovaciones de servicio",
       "title": "Gestión de Renovaciones",
       "period": "Periodo",
@@ -247,6 +266,7 @@
       "subheading": "Ingrese el código de autenticación de dos factores generado por su aplicación móvil.",
       "info": "Escanea el código QR con tu aplicación de autenticación de dos factores.",
       "download_codes": "Descargue los códigos de recuperación <a href=\"{_url}\" class=\"text-primary\"> haciendo clic aquí</a>.",
+      "email_sent_to": "Se le envió un código de 6 dígitos en {_email}. Es válido por 5 minutos.",
       "resend_email_code": "Reenviar un código por correo electrónico",
       "step1_subheading": "Paso 1 de 2: Código para tu aplicación de autenticación",
       "step2_subheading": "Paso 2 de 2 - Código recibido por correo electrónico",
@@ -256,13 +276,17 @@
       "code_totp_hint": "Abra su aplicación de autenticación. Si perdió su dispositivo, use uno de los códigos de recuperación.",
       "code_email": "Código recibido por correo electrónico",
       "next_step": "Continuar",
+      "trust_device": "Confía en este dispositivo durante {_days} días",
       "back_to_step1": "Volver al control anterior",
+      "cooldown_active": "Muchos intentos fallidos. Por favor, espere {_minutes} minutos antes de solicitar un nuevo código.",
+      "device_label": "{_browser} a {_os}",
       "unknown_device": "Dispositivo desconocido",
       "unknown_browser": "Navegador desconocido",
       "current_device": "este dispositivo",
       "trusted_devices_heading": "Dispositivos confiables",
       "trusted_devices_description": "Estos dispositivos no te pedirán un código por correo electrónico la próxima vez que inicies sesión, hasta que caduque.",
       "trusted_devices_empty": "No hay dispositivos de confianza registrados.",
+      "trusted_device_expires_at": "Expira el {_date}",
       "trusted_device_expires_never": "Sin caducidad",
       "trusted_device_revoke": "Revocar",
       "trusted_device_revoked": "Dispositivo de confianza revocado.",

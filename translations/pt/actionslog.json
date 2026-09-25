@@ -42,8 +42,15 @@
     "two_factor_enabled": "Autenticação de dois fatores ativada",
     "two_factor_disabled": "Autenticação de dois fatores desativada",
     "two_factor_recovery_codes_generated": "Códigos de recuperação de autenticação de dois fatores gerados",
+    "passkey_registered": "Chave de acesso adicionada: {_name}",
+    "passkey_deleted": "Chave de acesso removida: {_name}",
     "failed_login": "Falha de conexão Endereço IP: {_ip}",
     "account_deleted": "Conta eliminada",
-    "new_registered": "Novo registro"
+    "new_registered": "Novo registro",
+    "basket_complet": "Caixa completa de {_amount}.",
+    "ticket_create": "Abertura de um novo ticket {_subject}",
+    "ticket_replied": "Nova resposta ao ticket {_subject}",
+    "ticket_reopened": "Reabertura do ticket {_subject}",
+    "basket": "Preenchimento de uma cesta de {_amount}"
   }
 }
