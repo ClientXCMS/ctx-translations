@@ -891,6 +891,7 @@
     },
     "create": "Create",
     "blanktochange": "Leave blank so you don't change",
+    "toggle_password_visibility": "Show or hide the password",
     "blanktonolimit": "Leave blank so as not to limit",
     "updatedetails": "Update details",
     "backtosite": "Back to the website",
@@ -3078,6 +3079,7 @@
         "address": "IP address",
         "port": "Port",
         "type": "Server Type",
+        "credentials_required": "To change the address or host name of that server, enter the ID and password again: those saved are never sent to another destination.",
         "show": {
           "title": "Server Sheet {_name}",
           "subheading": "Here is the information related to this server created on {_date}"

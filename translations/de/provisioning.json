@@ -301,6 +301,7 @@
       "address": "IP-Adresse",
       "port": "Port",
       "type": "Server-Typ",
+      "credentials_required": "Um die Adresse oder den Hostname dieses Servers zu ändern, geben Sie die Kennung und das Passwort erneut ein: Die gespeicherten Daten werden niemals an einen anderen Zielort gesendet.",
       "show": {
         "title": "Server-Blatt {_name}",
         "subheading": "Hier sind die Informationen zu diesem Server, der am {_date} erstellt wurde:"

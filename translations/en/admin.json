@@ -828,6 +828,7 @@
   },
   "create": "Create",
   "blanktochange": "Leave blank so you don't change",
+  "toggle_password_visibility": "Show or hide the password",
   "blanktonolimit": "Leave blank so as not to limit",
   "updatedetails": "Update details",
   "backtosite": "Back to the website",

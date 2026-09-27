@@ -301,6 +301,7 @@
       "address": "IP-adres",
       "port": "Poort",
       "type": "Server Type",
+      "credentials_required": "Als u het adres of de hostnaam van deze server wilt wijzigen, voert u de ID en het wachtwoord opnieuw in: de opgeslagen gegevens worden nooit naar een andere bestemming gestuurd.",
       "show": {
         "title": "Server Blad {_name}",
         "subheading": "Hier is de informatie met betrekking tot deze server gemaakt op {_date}"

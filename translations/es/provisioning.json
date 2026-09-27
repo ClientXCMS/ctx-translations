@@ -301,6 +301,7 @@
       "address": "Dirección IP",
       "port": "Puerto",
       "type": "Tipo de servidor",
+      "credentials_required": "Para cambiar la dirección o el nombre de host de este servidor, introduzca de nuevo el identificador y la contraseña: los almacenados nunca se envían a otro destino.",
       "show": {
         "title": "Server Sheet {_name}",
         "subheading": "Aquí está la información relacionada con este servidor creado en {_date}"

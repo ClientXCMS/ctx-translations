@@ -301,6 +301,7 @@
       "address": "Indirizzo IP",
       "port": "Porto",
       "type": "Tipo di server",
+      "credentials_required": "Per cambiare l'indirizzo o il nome dell'host di questo server, inserisci nuovamente l'ID e la password: quelli registrati non vengono mai inviati a un'altra destinazione.",
       "show": {
         "title": "Foglio server {_name}",
         "subheading": "Di seguito sono riportate le informazioni relative a questo server creato il {_date}"

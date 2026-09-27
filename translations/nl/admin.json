@@ -828,6 +828,7 @@
   },
   "create": "Scheppen",
   "blanktochange": "Laat leeg zodat u niet verandert",
+  "toggle_password_visibility": "Het wachtwoord weergeven of verbergen",
   "blanktonolimit": "Laat leeg om niet te beperken",
   "updatedetails": "Details bijwerken",
   "backtosite": "Terug naar de website",

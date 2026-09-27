@@ -301,6 +301,7 @@
       "address": "Endereço IP",
       "port": "Porta",
       "type": "Tipo de servidor",
+      "credentials_required": "Para alterar o endereço ou o nome do host deste servidor, insira novamente o ID e a senha: os registados nunca serão enviados para outro destino.",
       "show": {
         "title": "Planilha do servidor {_name}",
         "subheading": "Aqui estão as informações relacionadas a este servidor criado em {_date}"

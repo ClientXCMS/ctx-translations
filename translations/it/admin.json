@@ -828,6 +828,7 @@
   },
   "create": "Creare",
   "blanktochange": "Lascia vuoto in modo da non modificare",
+  "toggle_password_visibility": "Mostrare o nascondere la password",
   "blanktonolimit": "Lasciare vuoto per non limitare",
   "updatedetails": "Dettagli dell'aggiornamento",
   "backtosite": "Torna al sito",

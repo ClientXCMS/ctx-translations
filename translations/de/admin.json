@@ -828,6 +828,7 @@
   },
   "create": "Schaffen",
   "blanktochange": "Lassen Sie das Feld leer, damit Sie sich nicht ändern",
+  "toggle_password_visibility": "Das Passwort anzeigen oder verbergen",
   "blanktonolimit": "Lassen Sie das Feld leer, um es nicht einzuschränken",
   "updatedetails": "Details zum Update",
   "backtosite": "Zurück zur Website",
