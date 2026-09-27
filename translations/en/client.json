@@ -84,7 +84,8 @@
     "invoices_description": "You will find below the list of invoices paid with automatic withdrawals.",
     "errors": {
       "not_supported": "This payment method is not supported",
-      "not_found": "This payment method was not found"
+      "not_found": "This payment method was not found",
+      "generic": "An error occurred with this payment method. Please try again later."
     }
   },
   "services": {
@@ -241,6 +242,7 @@
       "must_confirm": "You must confirm the deletion.",
       "2fa_required": "The 2FA code is required.",
       "has_blocking_reasons": "Unable to delete the account: blocking reasons exist.",
+      "error": "There was an error when you deleted your account. Please try again later.",
       "deleted_user_placeholder": "Deleted user"
     },
     "security": {

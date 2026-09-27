@@ -84,7 +84,8 @@
     "invoices_description": "Unten finden Sie die Liste der mit Lastschriften bezahlten Rechnungen.",
     "errors": {
       "not_supported": "Diese Zahlungsmethode wird nicht unterstützt",
-      "not_found": "Diese Zahlungsmethode wurde nicht gefunden"
+      "not_found": "Diese Zahlungsmethode wurde nicht gefunden",
+      "generic": "Bei dieser Zahlungsmethode ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
     }
   },
   "services": {
@@ -241,6 +242,7 @@
       "must_confirm": "Sie müssen die Löschung bestätigen.",
       "2fa_required": "Der 2FA-Code ist erforderlich.",
       "has_blocking_reasons": "Konto kann nicht gelöscht werden: Es gibt blockierende Gründe.",
+      "error": "Bei der Löschung Ihres Kontos ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
       "deleted_user_placeholder": "Gelöschter Benutzer"
     },
     "security": {

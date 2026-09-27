@@ -84,7 +84,8 @@
     "invoices_description": "Di seguito troverete l'elenco delle fatture pagate con addebiti automatici.",
     "errors": {
       "not_supported": "Questo metodo di pagamento non è supportato",
-      "not_found": "Questo metodo di pagamento non è stato trovato"
+      "not_found": "Questo metodo di pagamento non è stato trovato",
+      "generic": "Si è verificato un errore con questo metodo di pagamento. si prega di riprovare più tardi."
     }
   },
   "services": {
@@ -241,6 +242,7 @@
       "must_confirm": "Deve confermare l'eliminazione.",
       "2fa_required": "Il codice 2FA è richiesto.",
       "has_blocking_reasons": "Impossibile eliminare l'account: esistono motivi bloccanti.",
+      "error": "Si è verificato un errore durante la cancellazione dell'account. Si prega di riprovare più tardi.",
       "deleted_user_placeholder": "Utente eliminato"
     },
     "security": {

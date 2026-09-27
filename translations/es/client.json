@@ -84,7 +84,8 @@
     "invoices_description": "A continuación, encontrará la lista de las facturas pagadas con domiciliaciones automáticas.",
     "errors": {
       "not_supported": "Este método de pago no es compatible",
-      "not_found": "No se encontró este método de pago"
+      "not_found": "No se encontró este método de pago",
+      "generic": "Se produjo un error con este método de pago. Por favor, intente de nuevo más tarde."
     }
   },
   "services": {
@@ -241,6 +242,7 @@
       "must_confirm": "Debe confirmar la eliminación.",
       "2fa_required": "El código 2FA es obligatorio.",
       "has_blocking_reasons": "No es posible eliminar la cuenta: existen razones de bloqueo.",
+      "error": "Se produjo un error al eliminar su cuenta. Por favor, intente de nuevo más adelante.",
       "deleted_user_placeholder": "Usuario eliminado"
     },
     "security": {
