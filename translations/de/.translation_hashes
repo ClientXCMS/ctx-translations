@@ -709,6 +709,9 @@
     "updatedetails": "3cc72af99c9eb26f4eb852b321385a153b368e298ae5f0cc67b9b24d9a1c0745"
   },
   "auth": {
+    "2fa.email_not_expected": "03fc80359e70b6dee2c6d3e16b9017cebcb8eace885ad94efbf7cbd2926f4e88",
+    "2fa.invalid": "81deea8ea2d4636dc18d5114ccbd0b726de8b8a5094ff3414132c541c43fb47e",
+    "2fa.required": "8d761e40e9cc087e2df0f506c7c71ef7ec5f2903f439c8180ffdcbc8b125e867",
     "authentication": "e69f85a59a9e2149aaf51580053fe7564ac549d66a2312c8348d7af4a6e3abc2",
     "confirm.btn": "30a8b7846961bb6395e2739897db801f50d02c72c0ffea10595fdd01718757be",
     "confirm.heading": "49094d3ba79704777ae9764fb61755ca863e20c6e40628b35e684b1a32a5a267",
@@ -737,6 +740,7 @@
     "login.remember": "cab1447918edb0b6044567748499079c6b35892d595b5077d442a47dc909d764",
     "login.subheading": "7e6a4cff88b5ca018f0fe8109dbd6b4e6711938019ac171c9f709cb1c7d9ab63",
     "login.title": "61d695041034c12d0ae1b51dac5d5c9e15ec459b53c742da2148caf203191faf",
+    "logout.success": "34e260db7a1ad43eb1423f897eab5e86b34a764ce32402a4b239163d82898b2f",
     "passkeys.add": "c06e96863d8b4355e8b2e0d02e57ecf0a4bd7833eb31a30f374f793b67ec3b20",
     "passkeys.confirm": "30a8b7846961bb6395e2739897db801f50d02c72c0ffea10595fdd01718757be",
     "passkeys.confirm_before_management": "68bcb9f37ae82a76a28159b63fba6e7b1882a81f1e93057f0be7c726661125de",
@@ -776,6 +780,7 @@
     "reset.title": "2e99091b1e04cd0e59afcd5e68eef084a1ab88fc3360bc2bcb1156580bf7779e",
     "signed_in_as": "5b9d4a4cafe1068d8d2293cdb31178965e3e891502cba100345d5907af414972",
     "throttle": "9f3115498fd0c14792aeab42837d357518ba00964521c1fef155d30f90fd7ab8",
+    "unauthenticated": "0c0a9590f885ddbc5117d35a78134b21df540b04c87381df0c349f2c4afa0cc2",
     "verified.allowed": "6a690bed8eac33fa9bf93f991ff29a034d5f32e902c97fceb729a5205285965c",
     "verified.continue": "e068a2c98b497ed753a01931afa5d3899c783f45d3a7d357d3472808cb6e2ed2",
     "verified.continue_order": "84db46907ba0cdd3d69c0dc344f50201fe12e467df67a1d153a67866cb56869f",
