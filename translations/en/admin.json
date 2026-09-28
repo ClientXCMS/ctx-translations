@@ -678,6 +678,12 @@
         "title": "Security Settings",
         "description": "Security settings in the customer area",
         "auth": "Authentication",
+        "password_levels": {
+          "compatibility": "Compatibility: Minimum 8 characters",
+          "standard": "Standard — 12 characters, majuscules, minuscules and numbers",
+          "reinforced": "Enhanced — 14 characters, majuscules, minuscules, numbers and symbols",
+          "strict": "Strict — 16 characters, majuscules, minuscules, numbers and symbols"
+        },
         "captcha": {
           "title": "Captcha",
           "fields": {
@@ -711,6 +717,8 @@
           "gdrp_cookies_privacy_link": "Link to your privacy policy",
           "password_timeout": "Password verification time",
           "password_timeout_help": "In seconds",
+          "password_security_level": "Security Level of Passwords",
+          "password_security_level_help": "This policy applies to CLIENTXCMS accounts and virtual machine passwords.",
           "gdpr_purge_inactive_days": "Number of days before deleting inactive clients",
           "allow_registration": "Allow registration",
           "auto_confirm_registration": "Automatic confirmation of registration",

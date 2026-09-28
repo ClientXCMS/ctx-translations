@@ -678,6 +678,12 @@
         "title": "Beveiligingsinstellingen",
         "description": "Configureer beveiligingsopties, waaronder wachtwoordbeleid, toegangsbeperkingen en inschrijvingsopties.",
         "auth": "Authenticatie",
+        "password_levels": {
+          "compatibility": "Compatibiliteit: minimaal 8 tekens",
+          "standard": "Standaard - 12 tekens, hoofdletters, kleinletters en cijfers",
+          "reinforced": "Versterkt — 14 tekens, hoofdletters, kleinletters, cijfers en symbolen",
+          "strict": "Strict — 16 tekens, hoofdletters, kleinletters, cijfers en symbolen"
+        },
         "captcha": {
           "title": "Kaptcha",
           "fields": {
@@ -711,6 +717,8 @@
           "gdrp_cookies_privacy_link": "Link naar uw privacybeleid",
           "password_timeout": "Tijd voor wachtwoordverificatie",
           "password_timeout_help": "In enkele seconden",
+          "password_security_level": "Beveiligingsniveau van wachtwoorden",
+          "password_security_level_help": "Dit beleid is van toepassing op CLIENTXCMS-accounts en wachtwoorden voor virtuele machines.",
           "gdpr_purge_inactive_days": "Aantal dagen voordat inactieve klanten worden verwijderd",
           "allow_registration": "Registratie toestaan",
           "auto_confirm_registration": "Automatische bevestiging van registratie",

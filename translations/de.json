@@ -741,6 +741,12 @@
           "title": "Sicherheitseinstellungen",
           "description": "Sicherheitseinstellungen im Kundenbereich",
           "auth": "Authentifizierung",
+          "password_levels": {
+            "compatibility": "Kompatibilität – mindestens 8 Zeichen",
+            "standard": "Standard – 12 Zeichen, Großbuchstaben, Kleinbuchstaben und Zahlen",
+            "reinforced": "Verstärkt — 14 Zeichen, Großbuchstaben, Kleinbuchstaben, Zahlen und Symbole",
+            "strict": "Strict — 16 Zeichen, Großbuchstaben, Kleinbuchstaben, Zahlen und Symbole"
+          },
           "captcha": {
             "title": "Das Kaptcha",
             "fields": {
@@ -774,6 +780,8 @@
             "gdrp_cookies_privacy_link": "Link zu Ihrer Datenschutzerklärung",
             "password_timeout": "Zeit für die Passwortüberprüfung",
             "password_timeout_help": "In Sekunden",
+            "password_security_level": "Sicherheitsniveau der Passwörter",
+            "password_security_level_help": "Diese Richtlinie gilt für CLIENTXCMS-Konten und Kennwörter für virtuelle Maschinen.",
             "gdpr_purge_inactive_days": "Anzahl der Tage, bevor inaktive Clients gelöscht werden",
             "allow_registration": "Registrierung zulassen",
             "auto_confirm_registration": "Automatische Bestätigung der Anmeldung",

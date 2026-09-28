@@ -741,6 +741,12 @@
           "title": "Configuración de seguridad",
           "description": "Configuración de seguridad en el área de clientes",
           "auth": "Autenticación",
+          "password_levels": {
+            "compatibility": "Compatibilidad: 8 caracteres mínimos",
+            "standard": "12 caracteres, mayúsculas, minúsculas y cifras",
+            "reinforced": "Reforzado — 14 caracteres, mayúsculas, minúsculas, números y símbolos",
+            "strict": "Strict — 16 caracteres, mayúsculas, minúsculas, números y símbolos"
+          },
           "captcha": {
             "title": "Captcha",
             "fields": {
@@ -774,6 +780,8 @@
             "gdrp_cookies_privacy_link": "Enlace a su política de privacidad",
             "password_timeout": "Tiempo de verificación de contraseña",
             "password_timeout_help": "En segundos",
+            "password_security_level": "Nivel de seguridad de las contraseñas",
+            "password_security_level_help": "Esta política se aplica a las cuentas CLIENTXCMS y contraseñas de máquinas virtuales.",
             "gdpr_purge_inactive_days": "Número de días antes de eliminar clientes inactivos",
             "allow_registration": "Permitir el registro",
             "auto_confirm_registration": "Confirmación automática de la inscripción",
