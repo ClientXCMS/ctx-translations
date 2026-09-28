@@ -16,6 +16,7 @@
   "coupon_placeholder": "Ingresa tu código de descuento",
   "coupon_applied": "Cupón aplicado",
   "coupon_removed": "Cupón eliminado",
+  "discount_removed_at_checkout": "Este código de descuento ya no está disponible: su pedido se creó sin el descuento. Compruebe el nuevo importe antes de pagar la factura.",
   "subtotal_without_coupon": "Subtotal sin cupón",
   "subtotal_with_coupon": "Subtotal con cupón",
   "discount_price": "Descuento aplicado sobre el precio",

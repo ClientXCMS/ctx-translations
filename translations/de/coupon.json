@@ -16,6 +16,7 @@
   "coupon_placeholder": "Geben Sie Ihren Rabattcode ein",
   "coupon_applied": "Gutschein angewendet",
   "coupon_removed": "Gutschein gelöscht",
+  "discount_removed_at_checkout": "Dieser Rabattcode ist nicht mehr verfügbar: Ihre Bestellung wurde ohne Rabatt erstellt. Überprüfen Sie den neuen Betrag, bevor Sie die Rechnung bezahlen.",
   "subtotal_without_coupon": "Zwischensumme ohne Kupon",
   "subtotal_with_coupon": "Zwischensumme mit Coupon",
   "discount_price": "Rabatt auf den Preis",

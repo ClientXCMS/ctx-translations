@@ -16,6 +16,7 @@
   "coupon_placeholder": "Vul je kortingscode in",
   "coupon_applied": "Coupon toegepast",
   "coupon_removed": "Coupon verwijderd",
+  "discount_removed_at_checkout": "Deze kortingscode is niet meer beschikbaar: uw bestelling is gemaakt zonder korting.",
   "subtotal_without_coupon": "Subtotaal zonder kortingsbon",
   "subtotal_with_coupon": "Subtotaal met kortingsbon",
   "discount_price": "Korting toegepast op de prijs",

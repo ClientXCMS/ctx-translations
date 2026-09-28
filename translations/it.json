@@ -1520,6 +1520,7 @@
     "coupon_placeholder": "Inserisci il tuo codice sconto",
     "coupon_applied": "Coupon applicato",
     "coupon_removed": "Coupon eliminato",
+    "discount_removed_at_checkout": "Questo codice sconto non è più disponibile: il tuo ordine è stato creato senza il sconto. Verificare il nuovo importo prima di pagare la fattura.",
     "subtotal_without_coupon": "Subtotale senza coupon",
     "subtotal_with_coupon": "Subtotale con coupon",
     "discount_price": "Sconto applicato al prezzo",

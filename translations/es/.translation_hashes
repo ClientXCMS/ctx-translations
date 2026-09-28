@@ -1225,6 +1225,7 @@
     "coupon_removed": "4fe12372c48549014ca77976d8c13cb1bab2fde00f39d23c5f2fa8b2908c9774",
     "coupons": "3f7fc68df107cb356b8332cb575b8db7f180af640156ddfeae22f3ef8e81c19e",
     "discount_price": "bbc53d911c92b7f3448ca2340d7b5085e4f4fcdf74e2e0a2e52807c21617bdc4",
+    "discount_removed_at_checkout": "cc2ba57e8667635af42a4f9bdd31b379812f6e8f22733dd9d9463896e3d65f67",
     "discount_setup": "f3536cf6a1f8f22ee158ee54e5b92c1315b532818a4165ad6bb582052154084a",
     "first_order_only": "64a0c680b4800788eac7b5211909082d09b0a5ed0dee62bb8eb5d74ca4807a24",
     "free_setup": "9212bbfdbb0e84b4802fa40a07b71b1a59d1ceae6aa92f3b9ffb9289da89d8fb",

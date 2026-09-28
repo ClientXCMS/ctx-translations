@@ -1520,6 +1520,7 @@
     "coupon_placeholder": "Enter your discount code",
     "coupon_applied": "Coupon applied",
     "coupon_removed": "Coupon deleted",
+    "discount_removed_at_checkout": "This discount code is no longer available: your order has been created without the discount.",
     "subtotal_without_coupon": "Subtotal without coupon",
     "subtotal_with_coupon": "Subtotal with coupon",
     "discount_price": "Discount applied to the price",
